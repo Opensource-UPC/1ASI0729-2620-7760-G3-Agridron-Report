@@ -1,12 +1,26 @@
 <div align="center">
-> **Curso:** 1ASI0729 Desarrollo de Aplicaciones Open Source  
-> **Ciclo:** 2026-20  
-> **Startup:** `[NOMBRE DE LA STARTUP]`  
-> **Producto:** `[NOMBRE DEL PRODUCTO]`  
-> **NRC:** `[NRC]`  
-> **Profesor:** `[NOMBRE DEL PROFESOR]`  
-> **Entrega:** AV1 – Sprint Review – Semana 4  
-> **Fecha:** `[DD/MM/2026]`
+<img src="assets/upc_logo.png" alt="UPC Logo" width="150"
+"/>
+
+## **Universidad Peruana de Ciencias Aplicadas**
+## **Carrera de Ingeniería de Software**
+<br>
+**Curso:** 1ASI0729 Desarrollo de Aplicaciones Open Source  
+  
+**Ciclo:** 2026-20
+ 
+**Startup:** `[NOMBRE DE LA STARTUP]`
+ 
+**Producto:** `[NOMBRE DEL PRODUCTO]`
+ 
+**NRC:** `7760`
+
+**Profesor:** `[NOMBRE DEL PROFESOR]`
+
+**Entrega:** AV1 – Sprint Review – Semana 4
+  
+**Fecha:** `[DD/MM/2026]`
+
 
 </div>
 ---
