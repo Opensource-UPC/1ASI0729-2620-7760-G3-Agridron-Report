@@ -1,171 +1,228 @@
-<img src="assets/upc_logo.png" alt="UPC Logo" width="150"
-"/>
+<div align="center">
+<img src="assets/upc_logo.png" alt="UPC Logo" width="150"/>
 
-**Universidad Peruana de Ciencias Aplicadas (UPC)**
+## **Universidad Peruana de Ciencias Aplicadas**
+### Carrera de Ingeniería de Software
+<br>
 
-**Carrera:** Ingeniería de Software  
-**Curso:** 1ASI0729 Desarrollo de Aplicaciones Open Source  
-**Ciclo:** 2026-20  
-**NRC:** 7760 
-**Profesor:** `[NOMBRE DEL PROFESOR]`
+**Curso: Desarrollo de Aplicaciones Open Source**
 
-## Informe de Trabajo Final
+**NRC: [NRC]**
 
-**Startup:** `[NOMBRE DE LA STARTUP]`  
-**Producto:** `[NOMBRE DEL PRODUCTO]`
+**Docente: [NOMBRE DEL DOCENTE]**
+<br>
 
-## Integrantes
+### **Informe del Trabajo Final**
 
-| Código | Apellidos y nombres | Carrera |
-|---|---|---|
-| `[CÓDIGO]` | `[APELLIDOS, NOMBRES]` | Ingeniería de Software |
-| `[CÓDIGO]` | `[APELLIDOS, NOMBRES]` | Ingeniería de Software |
-| `[CÓDIGO]` | `[APELLIDOS, NOMBRES]` | Ingeniería de Software |
-| `[CÓDIGO]` | `[APELLIDOS, NOMBRES]` | Ingeniería de Software |
-| `[CÓDIGO]` | `[APELLIDOS, NOMBRES]` | Ingeniería de Software |
-| `[CÓDIGO]` | `[APELLIDOS, NOMBRES]` | Ingeniería de Software |
+**Nombre de la Startup:** [NOMBRE DE LA STARTUP]
 
-**Lima, Perú — `[MES] 2026`**
+**Nombre del producto:** [NOMBRE DEL PRODUCTO]
+<br>
+
+### **Integrantes**
+
+</div>
+
+<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
+    <tr>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+    </tr>
+</table>
+<br>
+
+<div align="center">
+<b><i>[MES], 2026</i></b>
+</div>
+<br>
 
 ---
 
-# Registro de Versiones del Informe
+## Registro de Versiones
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---|---|---|---|
-| 1.0 | `[DD/MM/2026]` | `[NOMBRE]` | Creación inicial del informe para AV1. |
-
-> **Nota:** Registrar aquí las modificaciones relevantes realizadas entre versiones: adición/eliminación de secciones, correcciones y mejoras producto de feedback docente o autocrítica del equipo.
+| Versión | Fecha | Autor | Descripción |
+| :--- | :--- | :--- | :--- |
+| 1.0.0 | [DD/MM/2026] | [NOMBRE] | Creación inicial del documento. |
+| [1.X.0] | [DD/MM/2026] | [NOMBRE] | [DESCRIPCIÓN DEL CAMBIO] |
 
 ---
 
-# Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
-## Repositorio del Project Report
+**Repositorio del proyecto:**
 
-**GitHub:** `[URL DEL REPOSITORIO README]`
+[PEGAR AQUÍ EL ENLACE AL REPOSITORIO DE GITHUB]
 
-## Descripción de la colaboración
+**Reporte de colaboración de la entrega:**
 
-`[Describir brevemente cómo se organizó el trabajo colaborativo para elaborar el informe.]`
+[PEGAR AQUÍ LA EVIDENCIA DE COLABORACIÓN DEL REPOSITORIO]
 
-## Evidencia de colaboración
-
-### Commits
-
-`[INSERTAR CAPTURA DE LOS COMMITS DEL REPOSITORIO]`
-
-![Commits del repositorio](./assets/evidences/commits-av1.png)
-
-### Analíticas de colaboración
-
-`[INSERTAR CAPTURA DE LAS ANALÍTICAS DE COLABORACIÓN DE GITHUB]`
-
-![Analíticas de colaboración](./assets/evidences/collaboration-av1.png)
+![Evidencia de colaboración](assets/evidences/collaboration.png)
 
 ---
 
 # Contenido
 
-> **IMPORTANTE:** Esta tabla debe actualizarse antes de cada entrega. Mantener hasta 4 niveles de esquema.
+## Tabla de Contenido
 
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+- [Contenido](#contenido)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+      - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems](#424-searching-systems)
+      - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+      - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+      - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+      - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+      - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1. Database Diagrams](#481-database-diagrams)
+  - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+      - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Interview Design](#531-interview-design)
+      - [5.3.2. Interview Registry](#532-interview-registry)
+      - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ---
 
-# Student Outcome
+## Student Outcome
 
-> El curso contribuye al cumplimiento del Student Outcome ABET:
+> **[PEGAR AQUÍ EL STUDENT OUTCOME CORRESPONDIENTE A LA ENTREGA]**
 >
-> **ABET – EAC - Student Outcome 3**  
-> **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+> **Criterio:** [PEGAR AQUÍ EL CRITERIO]
 >
-> En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+> En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del Student Outcome.
 
-## Evidencias del Student Outcome
-
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **[APELLIDOS, NOMBRES]**<br>**AV1:** `[ACCIÓN REALIZADA]`<br><br>**[APELLIDOS, NOMBRES]**<br>**AV1:** `[ACCIÓN REALIZADA]`<br><br>**[REPETIR PARA TODOS LOS INTEGRANTES]** | `[CONCLUSIÓN GRUPAL]` |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **[APELLIDOS, NOMBRES]**<br>**AV1:** `[ACCIÓN REALIZADA]`<br><br>**[APELLIDOS, NOMBRES]**<br>**AV1:** `[ACCIÓN REALIZADA]`<br><br>**[REPETIR PARA TODOS LOS INTEGRANTES]** | `[CONCLUSIÓN GRUPAL]` |
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>[CRITERIO ESPECÍFICO 1]</strong></td>
+      <td>
+        <p><b>[INTEGRANTE 1]</b><br></p>
+        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <br>
+        <b>[INTEGRANTE 2]</b><br>
+        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <br><br>
+        <b>[REPETIR PARA TODOS LOS INTEGRANTES]</b>
+      </td>
+      <td>[CONCLUSIÓN]</td>
+    </tr>
+    <tr>
+      <td><strong>[CRITERIO ESPECÍFICO 2]</strong></td>
+      <td>
+        <p><b>[INTEGRANTE 1]</b><br></p>
+        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <br>
+        <b>[INTEGRANTE 2]</b><br>
+        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <br><br>
+        <b>[REPETIR PARA TODOS LOS INTEGRANTES]</b>
+      </td>
+      <td>[CONCLUSIÓN]</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -175,226 +232,273 @@
 
 ### 1.1.1. Descripción de la Startup
 
-`[PEGAR AQUÍ LA DESCRIPCIÓN DE LA STARTUP.]`
+<p align="justify">
 
-**Modelo de negocio:**  
-`[DESCRIBIR BREVEMENTE EL MODELO DE NEGOCIO.]`
+[PEGAR AQUÍ LA DESCRIPCIÓN DE LA STARTUP.]
 
-**Propuesta de valor:**  
-`[DESCRIBIR LA PROPUESTA DE VALOR.]`
+</p>
+
+**Misión:** [PEGAR AQUÍ LA MISIÓN]
+
+**Visión:** [PEGAR AQUÍ LA VISIÓN]
+
+**Valores:**
+
+<ul>
+  <li>[VALOR 1]</li>
+  <li>[VALOR 2]</li>
+  <li>[VALOR 3]</li>
+  <li>[VALOR 4]</li>
+</ul>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> Incluir para cada integrante: foto, nombres y apellidos, código, carrera y resumen de conocimientos técnicos/habilidades que aporta al equipo.
+> Para cada integrante, colocar foto, nombre, código, descripción y aporte/rol dentro del proyecto.
 
-#### `[NOMBRE DEL INTEGRANTE 1]`
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> [CÓDIGO]</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      <br/><br/>
+      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+    </td>
+  </tr>
+</table>
 
-![Foto del integrante 1](./assets/team/integrante-01.png)
+<br>
 
-- **Código:** `[CÓDIGO]`
-- **Carrera:** Ingeniería de Software
-- **Rol en el equipo:** `[ROL]`
-- **Perfil:** `[DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]`
-
-#### `[NOMBRE DEL INTEGRANTE 2]`
-
-![Foto del integrante 2](./assets/team/integrante-02.png)
-
-- **Código:** `[CÓDIGO]`
-- **Carrera:** Ingeniería de Software
-- **Rol en el equipo:** `[ROL]`
-- **Perfil:** `[DESCRIPCIÓN.]`
-
-> Repetir para los 6 integrantes.
+[REPETIR BLOQUE PARA CADA INTEGRANTE.]
 
 ---
 
 ## 1.2. Solution Profile
 
+<p align="justify">
+
+[PEGAR AQUÍ LA DESCRIPCIÓN GENERAL DE LA SOLUCIÓN.]
+
+</p>
+
 ### 1.2.1. Antecedentes y problemática
 
-> Elaborar previamente el análisis de las 5W + 2H: Who, What, Where, When, Why, How y How Much.
+#### 1.2.1.1. What
 
-#### 5W + 2H
+<p align="justify">
 
-| Pregunta | Respuesta |
-|---|---|
-| **Who?** | `[¿QUIÉNES SON LOS AFECTADOS / INVOLUCRADOS?]` |
-| **What?** | `[¿CUÁL ES EL PROBLEMA?]` |
-| **Where?** | `[¿DÓNDE SE PRESENTA?]` |
-| **When?** | `[¿CUÁNDO SE PRESENTA?]` |
-| **Why?** | `[¿POR QUÉ OCURRE / POR QUÉ ES RELEVANTE?]` |
-| **How?** | `[¿CÓMO SE PRESENTA ACTUALMENTE?]` |
-| **How Much?** | `[¿QUÉ IMPACTO / MAGNITUD TIENE?]` |
+[DESCRIBIR QUÉ PROBLEMA SE PRESENTA.]
 
-#### Enunciado del problema
+</p>
 
-`[PEGAR AQUÍ EL ENUNCIADO DEL PROBLEMA.]`
+#### 1.2.1.2. Where
 
-#### Aspectos que debe resolver la solución
+<p align="justify">
 
-1. `[ASPECTO 1]`
-2. `[ASPECTO 2]`
-3. `[ASPECTO 3]`
+[DESCRIBIR DÓNDE SE PRESENTA EL PROBLEMA.]
 
-#### Objetivos
+</p>
 
-**Objetivo general:**  
-`[OBJETIVO GENERAL]`
+#### 1.2.1.3. When
 
-**Objetivos específicos:**
+<p align="justify">
 
-1. `[OBJETIVO 1]`
-2. `[OBJETIVO 2]`
-3. `[OBJETIVO 3]`
+[DESCRIBIR CUÁNDO SE PRESENTA.]
 
-#### Restricciones
+</p>
 
-1. `[RESTRICCIÓN 1]`
-2. `[RESTRICCIÓN 2]`
-3. `[RESTRICCIÓN 3]`
+#### 1.2.1.4. Who
 
----
+<p align="justify">
+
+[DESCRIBIR QUIÉNES SON LOS AFECTADOS.]
+
+</p>
+
+#### 1.2.1.5. Why
+
+<p align="justify">
+
+[EXPLICAR POR QUÉ SE PRODUCE LA PROBLEMÁTICA.]
+
+</p>
+
+#### 1.2.1.6. How
+
+<p align="justify">
+
+[EXPLICAR CÓMO SERÁ ABORDADA LA PROBLEMÁTICA.]
+
+</p>
+
+#### 1.2.1.7. How much
+
+<p align="justify">
+
+[DESCRIBIR EL MODELO DE NEGOCIO, COSTOS, PRECIOS, PROYECCIONES U OTROS ASPECTOS ECONÓMICOS QUE CORRESPONDAN.]
+
+</p>
 
 ### 1.2.2. Lean UX Process
 
-`[INTRODUCCIÓN BREVE SOBRE LA APLICACIÓN DEL PROCESO LEAN UX.]`
+#### 1.2.2.1. Lean UX Problem Statements
 
-### 1.2.2.1. Lean UX Problem Statements
+**Problem Statement 1**
 
-> **Debe existir un único Problem Statement para todo el proyecto, considerando los segmentos objetivo. Para una iniciativa nueva se utiliza el formato Brand New Initiative.**
+<p align="justify">
 
-**Problem Statement**
+[PEGAR AQUÍ EL PROBLEM STATEMENT.]
 
-> The current state of `[DOMAIN]` has focused mainly on `[CUSTOMER SEGMENTS, PAIN POINTS, WORKFLOWS, ETC.]`.
->
-> What existing products/services fail to address is `[GAP / CHANGE IN THE MARKETPLACE]`.
->
-> Our product/service will address this gap by `[PRODUCT STRATEGY / APPROACH]`.
->
-> Our initial focus will be `[INITIAL AUDIENCE SEGMENT]`.
->
-> We’ll know we are successful when we see `[MEASURABLE BEHAVIORS]`.
+</p>
 
-**Versión adaptada al proyecto:**
+**Problem Statement 2**
 
-`[PEGAR AQUÍ LA VERSIÓN FINAL.]`
+<p align="justify">
 
----
+[PEGAR AQUÍ EL PROBLEM STATEMENT.]
 
-### 1.2.2.2. Lean UX Assumptions
+</p>
 
-> Enumerar varios assumptions como creencias resultantes de la discusión del equipo. No redactarlos como preguntas.
+[AGREGAR MÁS SI CORRESPONDE.]
 
-#### Business Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
-1. `[BUSINESS ASSUMPTION 1]`
-2. `[BUSINESS ASSUMPTION 2]`
-3. `[BUSINESS ASSUMPTION 3]`
+**1.2.2.2.1. ¿Quién es el usuario?**
 
-#### Business Outcome Assumptions
+<p align="justify">
 
-1. `[BUSINESS OUTCOME ASSUMPTION 1]`
-2. `[BUSINESS OUTCOME ASSUMPTION 2]`
-3. `[BUSINESS OUTCOME ASSUMPTION 3]`
+[RESPUESTA.]
 
-#### User Assumptions
+</p>
 
-1. `[USER ASSUMPTION 1]`
-2. `[USER ASSUMPTION 2]`
-3. `[USER ASSUMPTION 3]`
+**1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
 
-#### User Outcome and Benefit Assumptions
+<p align="justify">
 
-1. `[USER OUTCOME/BENEFIT ASSUMPTION 1]`
-2. `[USER OUTCOME/BENEFIT ASSUMPTION 2]`
-3. `[USER OUTCOME/BENEFIT ASSUMPTION 3]`
+[RESPUESTA.]
 
-#### Feature Assumptions
+</p>
 
-1. `[FEATURE ASSUMPTION 1]`
-2. `[FEATURE ASSUMPTION 2]`
-3. `[FEATURE ASSUMPTION 3]`
+**1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
----
+<ul>
+  <li>[PROBLEMA / SOLUCIÓN]</li>
+  <li>[PROBLEMA / SOLUCIÓN]</li>
+</ul>
 
-### 1.2.2.3. Lean UX Hypothesis Statements
+**1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?**
 
-> Elaborar **un Hypothesis Statement por cada Feature Assumption**.
+<p align="justify">
 
-#### Hypothesis 01 — `[FEATURE ASSUMPTION RELACIONADO]`
+[RESPUESTA.]
 
-> We believe we will achieve `[BUSINESS OUTCOME]`
->
-> If `[PERSONA / USER]`
->
-> Attain `[BENEFIT / USER OUTCOME]`
->
-> With `[FEATURE / SOLUTION]`
+</p>
 
-#### Hypothesis 02 — `[FEATURE ASSUMPTION RELACIONADO]`
+**1.2.2.2.5. ¿Qué características son importantes?**
 
-> We believe we will achieve `[BUSINESS OUTCOME]`
->
-> If `[PERSONA / USER]`
->
-> Attain `[BENEFIT / USER OUTCOME]`
->
-> With `[FEATURE / SOLUTION]`
+<ul>
+  <li>[CARACTERÍSTICA 1]</li>
+  <li>[CARACTERÍSTICA 2]</li>
+  <li>[CARACTERÍSTICA 3]</li>
+</ul>
 
-> Repetir hasta cubrir todos los Feature Assumptions.
+**1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?**
 
----
+<p align="justify">
 
-### 1.2.2.4. Lean UX Canvas
+[RESPUESTA.]
 
-`[INSERTAR AQUÍ CAPTURA DEL LEAN UX CANVAS.]`
+</p>
 
-![Lean UX Canvas](./assets/ux/lean-ux-canvas.png)
+**1.2.2.2.7. Business Outcomes**
 
-**Explicación del Lean UX Canvas:**
+<ul>
+  <li>[BUSINESS OUTCOME 1]</li>
+  <li>[BUSINESS OUTCOME 2]</li>
+  <li>[BUSINESS OUTCOME 3]</li>
+</ul>
 
-`[EXPLICAR LAS DECISIONES Y RELACIONES MÁS IMPORTANTES DEL CANVAS.]`
+**1.2.2.2.8. User Outcomes**
 
----
+<ul>
+  <li>[USER OUTCOME 1]</li>
+  <li>[USER OUTCOME 2]</li>
+  <li>[USER OUTCOME 3]</li>
+</ul>
 
-## 1.3. Segmentos objetivo
+**1.2.2.2.9. Features**
 
-> Describir los segmentos asociados al dominio, incluyendo características demográficas e información estadística de sustento.
+<ul>
+  <li>[FEATURE 1]</li>
+  <li>[FEATURE 2]</li>
+  <li>[FEATURE 3]</li>
+</ul>
 
-### Segmento objetivo 1 — `[NOMBRE]`
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
-`[DESCRIPCIÓN DEL SEGMENTO.]`
+**Hypothesis Statement 1**
 
-**Características demográficas:**
+<p align="justify">
 
-- `[CARACTERÍSTICA]`
-- `[CARACTERÍSTICA]`
+[PEGAR AQUÍ LA HIPÓTESIS.]
 
-**Necesidades / comportamiento:**
+</p>
 
-- `[NECESIDAD]`
-- `[COMPORTAMIENTO]`
+**Hypothesis Statement 2**
 
-**Sustento estadístico:**  
-`[FUENTE / DATO / ESTADÍSTICA.]`
+<p align="justify">
 
-### Segmento objetivo 2 — `[NOMBRE]`
+[PEGAR AQUÍ LA HIPÓTESIS.]
 
-`[DESCRIPCIÓN DEL SEGMENTO.]`
+</p>
 
-**Características demográficas:**
+[AGREGAR MÁS SI CORRESPONDE.]
 
-- `[CARACTERÍSTICA]`
-- `[CARACTERÍSTICA]`
+#### 1.2.2.4. Lean UX Canvas
 
-**Necesidades / comportamiento:**
+<div align="center">
 
-- `[NECESIDAD]`
-- `[COMPORTAMIENTO]`
+<img src="assets/ux/lean_ux_canvas.png" alt="Lean UX Canvas" width="1000"/>
 
-**Sustento estadístico:**  
-`[FUENTE / DATO / ESTADÍSTICA.]`
+</div>
+
+**Descripción:**
+
+<p align="justify">
+
+[EXPLICAR BREVEMENTE EL LEAN UX CANVAS.]
+
+</p>
+
+### 1.3. Segmentos objetivo
+
+#### 1.3.1. [SEGMENTO OBJETIVO 1]
+
+<p align="justify">
+
+[DESCRIPCIÓN DEL SEGMENTO, NECESIDADES Y RELACIÓN CON LA SOLUCIÓN.]
+
+</p>
+
+#### 1.3.2. [SEGMENTO OBJETIVO 2]
+
+<p align="justify">
+
+[DESCRIPCIÓN DEL SEGMENTO, NECESIDADES Y RELACIÓN CON LA SOLUCIÓN.]
+
+</p>
+
+[AGREGAR MÁS SEGMENTOS SI CORRESPONDE.]
 
 ---
 
@@ -402,60 +506,23 @@
 
 ## 2.1. Competidores
 
-`[INTRODUCCIÓN AL ANÁLISIS DE COMPETIDORES.]`
-
 ### 2.1.1. Análisis competitivo
 
-#### Objetivo del análisis
+[PEGAR AQUÍ LA MATRIZ / TABLA DE ANÁLISIS COMPETITIVO.]
 
-`[PREGUNTA QUE EL ANÁLISIS BUSCA RESPONDER / OBJETIVO.]`
-
-### Competitive Analysis Landscape
-
-| Aspecto | Nuestra startup | Competidor 1 | Competidor 2 | Competidor 3 |
-|---|---|---|---|---|
-| **Nombre / Logo** | `[NOMBRE + LOGO]` | `[NOMBRE + LOGO]` | `[NOMBRE + LOGO]` | `[NOMBRE + LOGO]` |
-| **Perfil - Overview** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **Ventaja competitiva** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **¿Qué valor ofrece?** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **Mercado objetivo** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **Estrategias de marketing** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **Productos & Servicios** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **Precios & Costos** | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` | `[CONTENIDO]` |
-| **Canales de distribución** | `[WEB / MÓVIL]` | `[WEB / MÓVIL]` | `[WEB / MÓVIL]` | `[WEB / MÓVIL]` |
-
-#### SWOT — Nuestra startup
-
-| Fortalezas | Debilidades |
-|---|---|
-| `[FORTALEZA 1]` | `[DEBILIDAD 1]` |
-| `[FORTALEZA 2]` | `[DEBILIDAD 2]` |
-
-| Oportunidades | Amenazas |
-|---|---|
-| `[OPORTUNIDAD 1]` | `[AMENAZA 1]` |
-| `[OPORTUNIDAD 2]` | `[AMENAZA 2]` |
-
-#### SWOT — Competidor 1
-
-| Fortalezas | Debilidades |
-|---|---|
-| `[FORTALEZA]` | `[DEBILIDAD]` |
-
-| Oportunidades | Amenazas |
-|---|---|
-| `[OPORTUNIDAD]` | `[AMENAZA]` |
-
-> Repetir para los demás competidores.
-
----
+| Criterio | Competidor 1 | Competidor 2 | Competidor 3 | Nuestra solución |
+| :--- | :--- | :--- | :--- | :--- |
+| [CRITERIO] | [DATO] | [DATO] | [DATO] | [DATO] |
+| [CRITERIO] | [DATO] | [DATO] | [DATO] | [DATO] |
+| [CRITERIO] | [DATO] | [DATO] | [DATO] | [DATO] |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-| Competidor / Situación | Estrategia | Tácticas |
-|---|---|---|
-| `[COMPETIDOR / AMENAZA]` | `[ESTRATEGIA]` | `[TÁCTICAS]` |
-| `[COMPETIDOR / OPORTUNIDAD]` | `[ESTRATEGIA]` | `[TÁCTICAS]` |
+<p align="justify">
+
+[DESCRIBIR LAS ESTRATEGIAS Y TÁCTICAS QUE PERMITIRÁN DIFERENCIAR LA SOLUCIÓN.]
+
+</p>
 
 ---
 
@@ -463,231 +530,219 @@
 
 ### 2.2.1. Diseño de entrevistas
 
-`[INTRODUCCIÓN Y JUSTIFICACIÓN DEL DISEÑO DE LAS ENTREVISTAS.]`
+**Objetivo de la entrevista:**
 
-### Segmento 1 — `[NOMBRE]`
+[DESCRIBIR OBJETIVO.]
 
-| # | Pregunta principal | Pregunta complementaria | Objetivo |
-|---|---|---|---|
-| 1 | `[PREGUNTA]` | `[FOLLOW-UP]` | `[INFORMACIÓN A OBTENER]` |
-| 2 | `[PREGUNTA]` | `[FOLLOW-UP]` | `[INFORMACIÓN A OBTENER]` |
-| 3 | `[PREGUNTA]` | `[FOLLOW-UP]` | `[INFORMACIÓN A OBTENER]` |
+**Segmento entrevistado:**
 
-### Segmento 2 — `[NOMBRE]`
+[DESCRIBIR SEGMENTO.]
 
-| # | Pregunta principal | Pregunta complementaria | Objetivo |
-|---|---|---|---|
-| 1 | `[PREGUNTA]` | `[FOLLOW-UP]` | `[INFORMACIÓN A OBTENER]` |
-| 2 | `[PREGUNTA]` | `[FOLLOW-UP]` | `[INFORMACIÓN A OBTENER]` |
-| 3 | `[PREGUNTA]` | `[FOLLOW-UP]` | `[INFORMACIÓN A OBTENER]` |
+**Cantidad de entrevistados:**
 
----
+[CANTIDAD]
+
+**Preguntas generales**
+
+1. [PREGUNTA]
+2. [PREGUNTA]
+3. [PREGUNTA]
+
+**Preguntas específicas del segmento 1**
+
+1. [PREGUNTA]
+2. [PREGUNTA]
+3. [PREGUNTA]
+
+**Preguntas específicas del segmento 2**
+
+1. [PREGUNTA]
+2. [PREGUNTA]
+3. [PREGUNTA]
 
 ### 2.2.2. Registro de entrevistas
 
-> Para cada segmento: 3 a 5 entrevistas. Cada registro debe incluir datos del entrevistado, screenshot del video, URL del video editado, timing, duración y resumen descriptivo.
+[PARA CADA ENTREVISTA, COMPLETAR EL SIGUIENTE FORMATO.]
 
-#### Entrevista 1 — `[NOMBRE DEL ENTREVISTADO]`
+#### Entrevista [NÚMERO]
 
-![Screenshot entrevista 1](./assets/interviews/entrevista-01.png)
+| Campo | Información |
+| :--- | :--- |
+| Entrevistado | [NOMBRE / IDENTIFICADOR] |
+| Edad | [EDAD] |
+| Segmento | [SEGMENTO] |
+| Fecha | [FECHA] |
+| Modalidad | [PRESENCIAL / VIRTUAL] |
+| Lugar | [LUGAR] |
 
-| Dato | Información |
-|---|---|
-| **Nombre y apellido** | `[NOMBRE]` |
-| **Edad** | `[EDAD]` |
-| **Distrito** | `[DISTRITO]` |
-| **Segmento** | `[SEGMENTO]` |
-| **Inicio en video** | `[MM:SS]` |
-| **Duración** | `[MM:SS]` |
-| **Video** | `[URL MICROSOFT STREAM]` |
+**Registro / respuestas:**
 
-**Resumen de la entrevista:**
+| N.º | Pregunta | Respuesta |
+| :--- | :--- | :--- |
+| 1 | [PREGUNTA] | [RESPUESTA] |
+| 2 | [PREGUNTA] | [RESPUESTA] |
+| 3 | [PREGUNTA] | [RESPUESTA] |
 
-`[RESUMEN DESCRIPTIVO DE LAS RESPUESTAS Y CARACTERÍSTICAS RELEVANTES.]`
+**Evidencia:**
 
-> Repetir para todas las entrevistas.
-
----
+![Evidencia de entrevista](assets/interviews/entrevista_01.png)
 
 ### 2.2.3. Análisis de entrevistas
 
-#### Segmento 1 — `[NOMBRE]`
+<p align="justify">
 
-| Característica | Frecuencia | Porcentaje | Evidencia / entrevistas relacionadas |
-|---|---:|---:|---|
-| `[CARACTERÍSTICA]` | `[X] / [N]` | `[XX]%` | `[ENTREVISTAS]` |
-| `[CARACTERÍSTICA]` | `[X] / [N]` | `[XX]%` | `[ENTREVISTAS]` |
+[RESUMIR LOS HALLAZGOS PRINCIPALES DE LAS ENTREVISTAS.]
 
-**Análisis:**
+</p>
 
-`[INTERPRETAR LOS RESULTADOS Y EXPLICAR QUÉ CARACTERÍSTICAS SON MÁS COMUNES.]`
-
-#### Segmento 2 — `[NOMBRE]`
-
-`[REPETIR ESTRUCTURA.]`
+| Hallazgo | Evidencia / entrevista | Necesidad identificada | Implicación para la solución |
+| :--- | :--- | :--- | :--- |
+| [HALLAZGO] | [EVIDENCIA] | [NECESIDAD] | [IMPLICACIÓN] |
+| [HALLAZGO] | [EVIDENCIA] | [NECESIDAD] | [IMPLICACIÓN] |
 
 ---
 
 ## 2.3. Needfinding
 
-`[INTRODUCCIÓN SOBRE EL PROCESO DE NEEDFINDING Y SU RELACIÓN CON LAS ENTREVISTAS.]`
-
 ### 2.3.1. User Personas
 
-#### User Persona — Segmento 1
+#### Persona 1: [NOMBRE]
 
-`[INSERTAR CAPTURA / FICHA DE USER PERSONA.]`
+![User Persona 1](assets/needfinding/persona_01.png)
 
-![User Persona 1](./assets/ux/user-persona-01.png)
+**Descripción:**
 
-**Relación con los hallazgos:**
+[DESCRIPCIÓN.]
 
-`[EXPLICAR QUÉ HALLAZGOS DE LAS ENTREVISTAS Y COMPETENCIA SUSTENTAN EL PERSONA.]`
+**Necesidades:**
 
-#### User Persona — Segmento 2
+- [NECESIDAD 1]
+- [NECESIDAD 2]
 
-`[INSERTAR CAPTURA / FICHA.]`
+**Objetivos:**
 
-![User Persona 2](./assets/ux/user-persona-02.png)
+- [OBJETIVO 1]
+- [OBJETIVO 2]
 
-**Relación con los hallazgos:**
+**Frustraciones:**
 
-`[EXPLICAR.]`
+- [FRUSTRACIÓN 1]
+- [FRUSTRACIÓN 2]
 
----
+#### Persona 2: [NOMBRE]
+
+![User Persona 2](assets/needfinding/persona_02.png)
+
+[REPETIR ESTRUCTURA.]
 
 ### 2.3.2. User Task Matrix
 
-| Tarea | Persona 1<br>Frecuencia | Persona 1<br>Importancia | Persona 2<br>Frecuencia | Persona 2<br>Importancia |
-|---|---|---|---|---|
-| `[TASK 1]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` |
-| `[TASK 2]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` |
-| `[TASK 3]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` | `[ALTA/MEDIA/BAJA]` |
+[PEGAR / CONSTRUIR AQUÍ LA MATRIZ DE TAREAS.]
 
-**Análisis:**
-
-`[RESALTAR LAS TAREAS DE MAYOR FRECUENCIA E IMPORTANCIA, DIFERENCIAS Y COINCIDENCIAS.]`
-
----
+| Tarea | Usuario | Frecuencia | Importancia | Dificultad | Problemas actuales |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [TAREA] | [USUARIO] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [PROBLEMA] |
+| [TAREA] | [USUARIO] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [PROBLEMA] |
 
 ### 2.3.3. User Journey Mapping
 
-#### User Journey Map — Persona 1
+<div align="center">
 
-`[INSERTAR CAPTURA DEL AS-IS USER JOURNEY MAP.]`
+![User Journey Mapping](assets/needfinding/user_journey_mapping.png)
 
-![User Journey Map 1](./assets/ux/user-journey-01.png)
-
-**Descripción:**
-
-`[EXPLICAR EL JOURNEY END-TO-END Y LOS PRINCIPALES PAINS/OPORTUNIDADES.]`
-
-#### User Journey Map — Persona 2
-
-`[INSERTAR CAPTURA.]`
-
-![User Journey Map 2](./assets/ux/user-journey-02.png)
+</div>
 
 **Descripción:**
 
-`[EXPLICAR.]`
+<p align="justify">
 
----
+[EXPLICAR EL JOURNEY MAP Y LOS PRINCIPALES PUNTOS DE DOLOR.]
+
+</p>
 
 ### 2.3.4. Empathy Mapping
 
-#### Empathy Map — Persona 1
+<div align="center">
 
-![Empathy Map 1](./assets/ux/empathy-map-01.png)
+![Empathy Mapping](assets/needfinding/empathy_mapping.png)
 
-`[EXPLICAR EL MAPA: SAYS, THINKS, DOES, SEES, HEARS, FEELS, PAINS Y GAINS.]`
+</div>
 
-#### Empathy Map — Persona 2
+**Descripción:**
 
-![Empathy Map 2](./assets/ux/empathy-map-02.png)
+<p align="justify">
 
-`[EXPLICAR.]`
+[EXPLICAR EL EMPATHY MAP.]
+
+</p>
 
 ---
 
-## 2.4. Big Picture Event Storming
+## 2.4. Big Picture EventStorming
 
-`[INTRODUCCIÓN DEL PROCESO REALIZADO.]`
+<div align="center">
 
-![Big Picture Event Storming](./assets/domain/big-picture-event-storming.png)
+![Big Picture EventStorming](assets/architecture/big_picture_eventstorming.png)
 
-**Explicación:**
+</div>
 
-`[EXPLICAR LOS EVENTOS SIGNIFICATIVOS, RELACIONES, PROCESOS CLAVE, PROBLEMAS Y OPORTUNIDADES IDENTIFICADOS.]`
+**Descripción:**
+
+<p align="justify">
+
+[EXPLICAR EL FLUJO GENERAL DEL DOMINIO, EVENTOS PRINCIPALES, ACTORES Y PROCESOS IDENTIFICADOS.]
+
+</p>
 
 ---
 
 ## 2.5. Ubiquitous Language
 
-> Incluir únicamente términos del dominio de negocio. Los términos deben estar en inglés y opcionalmente incluir el equivalente en español. No incluir términos técnicos de ingeniería de software.
-
-| Term | Definición |
-|---|---|
-| `[DOMAIN TERM]` | `[DEFINICIÓN EN ESPAÑOL]` |
-| `[DOMAIN TERM]` | `[DEFINICIÓN EN ESPAÑOL]` |
-| `[DOMAIN TERM]` | `[DEFINICIÓN EN ESPAÑOL]` |
+| Término | Definición |
+| :--- | :--- |
+| [TÉRMINO] | [DEFINICIÓN DENTRO DEL DOMINIO] |
+| [TÉRMINO] | [DEFINICIÓN DENTRO DEL DOMINIO] |
+| [TÉRMINO] | [DEFINICIÓN DENTRO DEL DOMINIO] |
 
 ---
 
 # Capítulo III: Requirements Specification
 
-`[INTRODUCCIÓN DEL CAPÍTULO.]`
-
 ## 3.1. User Stories
 
-> Los Acceptance Criteria deben estar en presente, tercera persona, ser comprobables y seguir Gherkin (Given-When-Then). Incluir User Stories del Landing Page y Technical Stories para el RESTful API cuando corresponda.
+> Registrar las User Stories como texto, incluyendo criterios de aceptación.
 
-| Epic / Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| `[EPIC/US01]` | `[TÍTULO]` | Como `[ROL]`, deseo `[ACCIÓN]` para `[BENEFICIO]`. | **Given** `[CONTEXTO]`<br>**When** `[ACCIÓN]`<br>**Then** `[RESULTADO]` | `[EPIC ID / —]` |
-| `[EPIC/US02]` | `[TÍTULO]` | Como `[ROL]`, deseo `[ACCIÓN]` para `[BENEFICIO]`. | **Given** `[CONTEXTO]`<br>**When** `[ACCIÓN]`<br>**Then** `[RESULTADO]` | `[EPIC ID / —]` |
+| ID | Título | Descripción | Criterios de Aceptación | Epic |
+| :--- | :--- | :--- | :--- | :--- |
+| US-001 | [TÍTULO] | Como [ROL], quiero [ACCIÓN], para [BENEFICIO]. | 1. [CRITERIO]<br>2. [CRITERIO] | EP-001 |
+| US-002 | [TÍTULO] | Como [ROL], quiero [ACCIÓN], para [BENEFICIO]. | 1. [CRITERIO]<br>2. [CRITERIO] | EP-001 |
 
 ---
 
 ## 3.2. Impact Mapping
 
-`[INTRODUCCIÓN.]`
+<div align="center">
 
-`[INSERTAR CAPTURA DEL IMPACT MAP.]`
+![Impact Mapping](assets/requirements/impact_mapping.png)
 
-![Impact Map](./assets/requirements/impact-map.png)
+</div>
 
-### Business Goals
+**Descripción:**
 
-| Business Goal | Criterio SMART / Métrica |
-|---|---|
-| `[BUSINESS GOAL 1]` | `[MÉTRICA]` |
-| `[BUSINESS GOAL 2]` | `[MÉTRICA]` |
+<p align="justify">
 
-**Actors / Personas:** `[LISTAR PERSONAS]`
+[EXPLICAR EL IMPACT MAP: OBJETIVO, ACTORES, IMPACTOS Y ENTREGABLES.]
 
-**Impacts:** `[DESCRIBIR CAMBIOS O COMPORTAMIENTOS ESPERADOS]`
-
-**Deliverables:** `[ELEMENTOS DEL NEGOCIO DIGITAL]`
-
-**User Stories:** `[RELACIONAR USER STORIES]`
+</p>
 
 ---
 
 ## 3.3. Product Backlog
 
-`[INTRODUCCIÓN Y CRITERIO DE PRIORIZACIÓN.]`
-
-| # Orden | User Story ID | Título | Descripción | Story Points |
-|---:|---|---|---|---:|
-| 1 | `[USXX]` | `[TÍTULO]` | Como `[ROL]`, deseo `[ACCIÓN]` para `[BENEFICIO]`. | `[1/2/3/5/8]` |
-| 2 | `[USXX]` | `[TÍTULO]` | Como `[ROL]`, deseo `[ACCIÓN]` para `[BENEFICIO]`. | `[1/2/3/5/8]` |
-| 3 | `[USXX]` | `[TÍTULO]` | Como `[ROL]`, deseo `[ACCIÓN]` para `[BENEFICIO]`. | `[1/2/3/5/8]` |
-
-**Herramienta utilizada:** `[HERRAMIENTA]`  
-**URL pública:** `[URL]`
-
-![Product Backlog](./assets/requirements/product-backlog.png)
+| ID | Epic | User Story | Prioridad | Story Points | Estado |
+| :--- | :--- | :--- | :--- | :---: | :--- |
+| US-001 | [EPIC] | [USER STORY] | [ALTA/MEDIA/BAJA] | [SP] | [ESTADO] |
+| US-002 | [EPIC] | [USER STORY] | [ALTA/MEDIA/BAJA] | [SP] | [ESTADO] |
 
 ---
 
@@ -697,43 +752,11 @@
 
 ### 4.1.1. General Style Guidelines
 
-`[INTRODUCCIÓN Y SUSTENTO DE LAS DECISIONES VISUALES.]`
-
-#### Branding
-
-`[LOGO, IDENTIDAD, USO DE MARCA.]`
-
-#### Typography
-
-`[TIPOGRAFÍAS Y JERARQUÍAS.]`
-
-#### Colors
-
-| Uso | Color | Hex |
-|---|---|---|
-| Primary | `[COLOR]` | `#[HEX]` |
-| Secondary | `[COLOR]` | `#[HEX]` |
-| Background | `[COLOR]` | `#[HEX]` |
-| Text | `[COLOR]` | `#[HEX]` |
-
-#### Spacing
-
-`[ESCALA DE ESPACIADO.]`
-
-#### Tone of Voice
-
-- **Divertido / Serio:** `[DECISIÓN + SUSTENTO]`
-- **Formal / Casual:** `[DECISIÓN + SUSTENTO]`
-- **Respetuoso / Irreverente:** `[DECISIÓN + SUSTENTO]`
-- **Entusiasta / Sereno:** `[DECISIÓN + SUSTENTO]`
-
----
+[PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.]
 
 ### 4.1.2. Web Style Guidelines
 
-`[ESTÁNDARES VISUALES Y DE INTERACCIÓN PARA RESPONSIVE WEB.]`
-
-`[INSERTAR CAPTURA / REFERENCIA DEL DESIGN SYSTEM.]`
+[PEGAR AQUÍ LAS WEB STYLE GUIDELINES.]
 
 ---
 
@@ -741,62 +764,43 @@
 
 ### 4.2.1. Organization Systems
 
-`[EXPLICAR ORGANIZACIÓN JERÁRQUICA, SECUENCIAL, MATRICIAL Y ESQUEMAS DE CATEGORIZACIÓN APLICADOS.]`
+[PEGAR AQUÍ LA INFORMACIÓN.]
 
 ### 4.2.2. Labeling Systems
 
-| Elemento | Etiqueta propuesta | Justificación |
-|---|---|---|
-| `[ELEMENTO]` | `[LABEL]` | `[JUSTIFICACIÓN]` |
+[PEGAR AQUÍ LA INFORMACIÓN.]
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-| Página | Title | Description | Keywords | Author |
-|---|---|---|---|---|
-| `[PÁGINA]` | `[TITLE]` | `[DESCRIPTION]` | `[KEYWORDS]` | `[AUTHOR]` |
-| `[PÁGINA]` | `[TITLE]` | `[DESCRIPTION]` | `[KEYWORDS]` | `[AUTHOR]` |
+[PEGAR AQUÍ LA INFORMACIÓN.]
 
 ### 4.2.4. Searching Systems
 
-`[EXPLICAR OPCIONES DE BÚSQUEDA, FILTROS Y PRESENTACIÓN DE RESULTADOS.]`
+[PEGAR AQUÍ LA INFORMACIÓN.]
 
 ### 4.2.5. Navigation Systems
 
-`[EXPLICAR LA NAVEGACIÓN DEL LANDING PAGE Y LAS APLICACIONES.]`
+[PEGAR AQUÍ LA INFORMACIÓN.]
 
 ---
 
 ## 4.3. Landing Page UI Design
 
-`[INTRODUCCIÓN Y RELACIÓN CON LAS DECISIONES DE DISEÑO E IA.]`
-
 ### 4.3.1. Landing Page Wireframe
 
-#### Desktop Web Browser
+![Landing Page Wireframe](assets/ui/landing_wireframe.png)
 
-![Landing Page Wireframe Desktop](./assets/ui/landing-wireframe-desktop.png)
+**Descripción:**
 
-`[EXPLICACIÓN.]`
-
-#### Mobile Web Browser
-
-![Landing Page Wireframe Mobile](./assets/ui/landing-wireframe-mobile.png)
-
-`[EXPLICACIÓN.]`
+[DESCRIPCIÓN DEL WIREFRAME.]
 
 ### 4.3.2. Landing Page Mock-up
 
-#### Desktop Web Browser
+![Landing Page Mock-up](assets/ui/landing_mockup.png)
 
-![Landing Page Mock-up Desktop](./assets/ui/landing-mockup-desktop.png)
+**Descripción:**
 
-`[EXPLICACIÓN.]`
-
-#### Mobile Web Browser
-
-![Landing Page Mock-up Mobile](./assets/ui/landing-mockup-mobile.png)
-
-`[EXPLICACIÓN.]`
+[DESCRIPCIÓN DEL MOCK-UP.]
 
 ---
 
@@ -804,69 +808,25 @@
 
 ### 4.4.1. Web Applications Wireframes
 
-`[INTRODUCCIÓN.]`
-
-#### `[APLICACIÓN / SEGMENTO]`
-
-![Web Application Wireframes](./assets/ui/webapp-wireframes-01.png)
-
-`[EXPLICACIÓN.]`
+[PEGAR AQUÍ LOS WIREFRAMES.]
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-#### User Goal — `[USER GOAL]`
-
-![Wireflow](./assets/ui/wireflow-01.png)
-
-**Descripción del flujo:**
-
-`[EXPLICACIÓN.]`
-
-> Repetir un Wireflow por cada User Goal.
+[PEGAR AQUÍ LOS WIREFLOWS.]
 
 ### 4.4.3. Web Applications Mock-ups
 
-#### `[APLICACIÓN / SEGMENTO]`
-
-![Web Application Mock-ups](./assets/ui/webapp-mockups-01.png)
-
-`[EXPLICACIÓN.]`
+[PEGAR AQUÍ LOS MOCK-UPS.]
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-#### User Goal — `[USER GOAL]`
-
-![User Flow](./assets/ui/user-flow-01.png)
-
-**Happy path:**
-
-`[EXPLICACIÓN.]`
-
-**Unhappy / alternative paths:**
-
-`[EXPLICACIÓN.]`
+[PEGAR AQUÍ LOS USER FLOWS.]
 
 ---
 
 ## 4.5. Web Applications Prototyping
 
-`[INTRODUCCIÓN Y CRITERIOS DE INTERACCIÓN.]`
-
-### Desktop
-
-![Prototype Desktop](./assets/prototypes/prototype-desktop.png)
-
-**Video:** `[URL MICROSOFT STREAM]`
-
-**Screenshot del video:** `[INSERTAR / REEMPLAZAR IMAGEN]`
-
-### Mobile
-
-![Prototype Mobile](./assets/prototypes/prototype-mobile.png)
-
-**Video:** `[URL MICROSOFT STREAM]`
-
-**Screenshot del video:** `[INSERTAR / REEMPLAZAR IMAGEN]`
+[PEGAR AQUÍ EL ENLACE / EVIDENCIA DEL PROTOTIPO.]
 
 ---
 
@@ -874,37 +834,35 @@
 
 ### 4.6.1. Design-Level Event Storming
 
-![Design-Level Event Storming](./assets/domain/design-level-event-storming.png)
+![Design-Level Event Storming](assets/architecture/design_eventstorming.png)
 
-**Explicación:**
+**Descripción:**
 
-`[EXPLICAR BOUNDED CONTEXTS, AGGREGATES, EVENTS, COMMANDS Y QUERIES IDENTIFICADOS.]`
+[DESCRIPCIÓN.]
 
 ### 4.6.2. Software Architecture Context Diagram
 
-![Context Diagram](./assets/architecture/context-diagram.png)
+![Software Architecture Context Diagram](assets/architecture/context_diagram.png)
 
-**Explicación:**
+**Descripción:**
 
-`[EXPLICAR USUARIOS, SISTEMA Y SISTEMAS EXTERNOS.]`
+[DESCRIPCIÓN.]
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-![Container Diagram](./assets/architecture/container-diagram.png)
+![Software Architecture Container Diagram](assets/architecture/container_diagram.png)
 
-**Explicación:**
+**Descripción:**
 
-`[EXPLICAR CONTAINERS, RESPONSABILIDADES, TECNOLOGÍAS Y COMUNICACIÓN.]`
+[DESCRIPCIÓN.]
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-#### Container — `[NOMBRE]`
+![Software Architecture Components Diagram](assets/architecture/component_diagram.png)
 
-![Component Diagram](./assets/architecture/component-diagram-01.png)
+**Descripción:**
 
-**Explicación:**
-
-`[EXPLICAR COMPONENTES, RESPONSABILIDADES E IMPLEMENTACIÓN.]`
+[DESCRIPCIÓN.]
 
 ---
 
@@ -912,13 +870,11 @@
 
 ### 4.7.1. Class Diagrams
 
-#### `[PRODUCTO / BOUNDED CONTEXT]`
+![Class Diagram](assets/design/class_diagram.png)
 
-![Class Diagram](./assets/design/class-diagram-01.png)
+**Descripción:**
 
-**Explicación:**
-
-`[EXPLICAR CLASES, INTERFACES, ENUMERACIONES, ATRIBUTOS, MÉTODOS Y RELACIONES.]`
+[DESCRIPCIÓN.]
 
 ---
 
@@ -926,13 +882,11 @@
 
 ### 4.8.1. Database Diagrams
 
-#### `[BOUNDED CONTEXT]`
+![Database Diagram](assets/database/database_diagram.png)
 
-![Database Diagram](./assets/database/database-diagram-01.png)
+**Descripción:**
 
-**Explicación:**
-
-`[EXPLICAR TABLAS, COLUMNAS, CONSTRAINTS Y RELACIONES.]`
+[DESCRIPCIÓN.]
 
 ---
 
@@ -940,109 +894,25 @@
 
 ## 5.1. Software Configuration Management
 
-`[INTRODUCCIÓN A LAS DECISIONES Y CONVENCIONES DE CONFIGURACIÓN.]`
-
 ### 5.1.1. Software Development Environment Configuration
 
-| Producto / Herramienta | Propósito | Referencia / Ruta |
-|---|---|---|
-| `[HERRAMIENTA]` | `[PROPÓSITO]` | `[URL / RUTA]` |
-| `[HERRAMIENTA]` | `[PROPÓSITO]` | `[URL / RUTA]` |
+[DESCRIBIR LAS HERRAMIENTAS, VERSIONES, IDE, FRAMEWORKS, LIBRERÍAS Y CONFIGURACIÓN UTILIZADA.]
 
 ### 5.1.2. Source Code Management
 
-#### Repositorios
+[DESCRIBIR EL REPOSITORIO, BRANCHING STRATEGY, GITFLOW U OTRA ESTRATEGIA.]
 
-| Producto | Repositorio |
-|---|---|
-| Landing Page | `[URL]` |
-| Web Services / RESTful API | `[URL]` |
-| Frontend Web Application | `[URL]` |
+**Repositorio:** [URL]
 
-#### GitFlow
-
-`[EXPLICAR EL WORKFLOW DE GITFLOW UTILIZADO.]`
-
-**Branches principales:**
-
-- `main`
-- `develop`
-- `feature/[nombre-feature]`
-- `release/[version]`
-- `hotfix/[version]`
-
-**Convención para Feature Branches:**
-
-`feature/[nombre-feature]`
-
-**Semantic Versioning:**
-
-`[EXPLICAR CONVENCIÓN DE VERSIONADO.]`
-
-**Conventional Commits:**
-
-`[EXPLICAR CONVENCIÓN Y MOSTRAR EJEMPLOS REALES.]`
-
-Ejemplos:
-
-```text
-feat: add laundry order registration
-fix: correct order status validation
-docs: update project report
-style: format landing page components
-refactor: simplify order service
-test: add order creation tests
-```
-
----
+![Estructura del repositorio](assets/evidences/repository.png)
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-| Tecnología | Convención / Guía | Referencia |
-|---|---|---|
-| HTML | `[CONVENCIÓN]` | `[REFERENCIA]` |
-| CSS | `[CONVENCIÓN]` | `[REFERENCIA]` |
-| JavaScript / TypeScript | `[CONVENCIÓN]` | `[REFERENCIA]` |
-| Java | `[CONVENCIÓN]` | `[REFERENCIA]` |
-
-**Nomenclatura:**
-
-- Variables: `[CONVENCIÓN]`
-- Functions / Methods: `[CONVENCIÓN]`
-- Classes: `[CONVENCIÓN]`
-- Interfaces: `[CONVENCIÓN]`
-- Constants: `[CONVENCIÓN]`
-- Files: `[CONVENCIÓN]`
-
----
+[DESCRIBIR CONVENCIONES DE CÓDIGO, NOMENCLATURA, FORMATO, COMMITS, ETC.]
 
 ### 5.1.4. Software Deployment Configuration
 
-`[DESCRIBIR LA CONFIGURACIÓN Y PASOS PARA DESPLEGAR LOS PRODUCTOS.]`
-
-#### Landing Page
-
-1. `[PASO]`
-2. `[PASO]`
-3. `[PASO]`
-
-**URL desplegada:** `[URL]`
-
-#### Web Services
-
-1. `[PASO]`
-2. `[PASO]`
-3. `[PASO]`
-
-**URL desplegada:** `[URL]`
-
-#### Frontend Web Application
-
-1. `[PASO]`
-2. `[PASO]`
-3. `[PASO]`
-
-**URL desplegada:** `[URL]`
+[DESCRIBIR LA CONFIGURACIÓN DE DESPLIEGUE.]
 
 ---
 
@@ -1050,199 +920,129 @@ test: add order creation tests
 
 ### 5.2.1. Sprint 1
 
-`[INTRODUCCIÓN DEL SPRINT Y RESUMEN DEL AVANCE.]`
-
 #### 5.2.1.1. Sprint Planning 1
 
-`[INTRODUCCIÓN.]`
+**Objetivo del Sprint:**
 
-| Campo | Información |
-|---|---|
-| **Sprint #** | Sprint 1 |
-| **Sprint Planning Background** | `[CONTEXTO]` |
-| **Date** | `[YYYY-MM-DD]` |
-| **Time** | `[HH:MM AM/PM]` |
-| **Location** | `[UBICACIÓN FÍSICA / VIRTUAL]` |
-| **Prepared By** | `[NOMBRE]` |
-| **Attendees** | `[INTEGRANTES]` |
-| **Sprint 0 Review Summary** | `[RESUMEN / N/A SI CORRESPONDE]` |
-| **Sprint 0 Retrospective Summary** | `[RESUMEN / N/A SI CORRESPONDE]` |
-| **Sprint 1 Goal** | `[GOAL]` |
-| **Sprint 1 Velocity** | `[STORY POINTS]` |
-| **Sum of Story Points** | `[TOTAL]` |
+[OBJETIVO.]
 
-**Sprint Goal:**
+**Fecha de inicio:** [FECHA]
 
-> Our focus is on `[OUTCOME]`.
->
-> We believe it delivers `[IMPACT]` to `[CUSTOMER(S)]`.
->
-> This will be confirmed when `[EVENT HAPPENS]`.
+**Fecha de finalización:** [FECHA]
 
----
+**Meta del Sprint:**
+
+[DESCRIPCIÓN.]
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Aspect | Leader | Collaborators |
-|---|---|---|
-| `[ASPECT]` | `[INTEGRANTE]` | `[INTEGRANTES]` |
-| `[ASPECT]` | `[INTEGRANTE]` | `[INTEGRANTES]` |
-| `[ASPECT]` | `[INTEGRANTE]` | `[INTEGRANTES]` |
-
-**Introducción:**
-
-`[EXPLICAR LA ORGANIZACIÓN DEL EQUIPO PARA EL SPRINT.]`
-
----
+| Aspecto | Líder | Colaboradores |
+| :--- | :--- | :--- |
+| [ASPECTO] | [NOMBRE] | [NOMBRES] |
+| [ASPECTO] | [NOMBRE] | [NOMBRES] |
 
 #### 5.2.1.3. Sprint Backlog 1
 
-| # | User Story ID | Work Item / Task | Responsable | Estado | Story Points |
-|---:|---|---|---|---|---:|
-| 1 | `[USXX]` | `[TASK]` | `[NOMBRE]` | `[TODO/DOING/DONE]` | `[SP]` |
-| 2 | `[USXX]` | `[TASK]` | `[NOMBRE]` | `[TODO/DOING/DONE]` | `[SP]` |
-| 3 | `[USXX]` | `[TASK]` | `[NOMBRE]` | `[TODO/DOING/DONE]` | `[SP]` |
-
-**Herramienta:** `[HERRAMIENTA]`  
-**URL pública:** `[URL]`
-
-![Sprint Backlog 1](./assets/sprints/sprint-01-backlog.png)
-
----
+| ID | User Story | Tarea | Responsable | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| US-001 | [USER STORY] | [TAREA] | [NOMBRE] | [ESTADO] |
+| US-002 | [USER STORY] | [TAREA] | [NOMBRE] | [ESTADO] |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-`[DESCRIBIR LOS PRINCIPALES AVANCES DE DESARROLLO.]`
+[PEGAR AQUÍ CAPTURAS / EVIDENCIAS DEL DESARROLLO.]
 
-### Evidencia 1 — `[FEATURE]`
-
-![Development Evidence 1](./assets/sprints/sprint-01-development-01.png)
-
-`[EXPLICACIÓN DE LA EVIDENCIA.]`
-
-### Evidencia 2 — `[FEATURE]`
-
-![Development Evidence 2](./assets/sprints/sprint-01-development-02.png)
-
-`[EXPLICACIÓN.]`
-
----
+![Evidencia de desarrollo](assets/evidences/sprint1_development.png)
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-`[MOSTRAR Y EXPLICAR LA EJECUCIÓN DE LAS FUNCIONALIDADES.]`
+[PEGAR AQUÍ CAPTURAS / EVIDENCIAS DE EJECUCIÓN.]
 
-![Execution Evidence](./assets/sprints/sprint-01-execution.png)
-
-**Escenario:** `[ESCENARIO]`
-
-**Resultado esperado:** `[RESULTADO]`
-
-**Resultado obtenido:** `[RESULTADO]`
-
----
+![Evidencia de ejecución](assets/evidences/sprint1_execution.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-`[DOCUMENTAR LOS ENDPOINTS IMPLEMENTADOS / ACTUALES, SI CORRESPONDE.]`
-
-| Método | Endpoint | Descripción | Request | Response |
-|---|---|---|---|---|
-| `[GET/POST/PUT/DELETE]` | `[/api/...]` | `[DESCRIPCIÓN]` | `[EJEMPLO]` | `[EJEMPLO]` |
-
-`[INSERTAR CAPTURAS DE DOCUMENTACIÓN / SWAGGER / POSTMAN U OTRA HERRAMIENTA.]`
-
----
+[PEGAR AQUÍ LA DOCUMENTACIÓN / EVIDENCIA DE SERVICIOS.]
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-`[DESCRIBIR EL DESPLIEGUE REALIZADO PARA SPRINT 1.]`
-
-**Landing Page:** `[URL]`
-
-**Web Services:** `[URL]`
-
-**Frontend:** `[URL / N/A SI TODAVÍA NO CORRESPONDE]`
-
-![Deployment Evidence](./assets/sprints/sprint-01-deployment.png)
-
----
+[PEGAR AQUÍ LA EVIDENCIA DEL DESPLIEGUE.]
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-`[EXPLICAR CÓMO COLABORÓ EL EQUIPO DURANTE EL SPRINT, QUÉ FUNCIONÓ, QUÉ PROBLEMAS SURGIERON Y CÓMO SE RESOLVIERON.]`
+[DESCRIBIR LA COLABORACIÓN DURANTE EL SPRINT.]
 
-### Evidencia de colaboración
+![Evidencia de colaboración del Sprint](assets/evidences/sprint1_collaboration.png)
 
-![Sprint Collaboration](./assets/sprints/sprint-01-collaboration.png)
+---
 
-**Principales aprendizajes:**
+## 5.3. Validation Interviews
 
-1. `[APRENDIZAJE]`
-2. `[APRENDIZAJE]`
-3. `[APRENDIZAJE]`
+### 5.3.1. Interview Design
+
+[DESCRIBIR EL DISEÑO DE LAS ENTREVISTAS DE VALIDACIÓN.]
+
+### 5.3.2. Interview Registry
+
+[REGISTRAR LAS ENTREVISTAS DE VALIDACIÓN.]
+
+### 5.3.3. Heuristic Evaluations
+
+[PEGAR AQUÍ LOS RESULTADOS DE LAS EVALUACIONES HEURÍSTICAS.]
+
+---
+
+## 5.4. Video About-the-Product
+
+**Enlace al video:**
+
+[PEGAR AQUÍ EL ENLACE AL VIDEO]
+
+**Descripción:**
+
+[DESCRIBIR BREVEMENTE EL CONTENIDO DEL VIDEO.]
 
 ---
 
 # Conclusiones
 
-> **Para AV1:** incluir un avance de las conclusiones. Esta sección deberá ampliarse y actualizarse en las siguientes entregas.
+## Conclusión 1
 
-### Conclusión 1
+[PEGAR AQUÍ LA CONCLUSIÓN.]
 
-`[CONCLUSIÓN RELACIONADA CON EL PROBLEMA, INVESTIGACIÓN Y SOLUCIÓN.]`
+## Conclusión 2
 
-### Conclusión 2
+[PEGAR AQUÍ LA CONCLUSIÓN.]
 
-`[CONCLUSIÓN RELACIONADA CON LOS RESULTADOS DEL PROCESO.]`
+## Recomendaciones
 
-### Recomendaciones
-
-1. `[RECOMENDACIÓN]`
-2. `[RECOMENDACIÓN]`
+[PEGAR AQUÍ LAS RECOMENDACIONES.]
 
 ---
 
 # Bibliografía
 
-> Utilizar el formato de referencias solicitado por el curso / APA 7 cuando corresponda.
+> Registrar las fuentes utilizadas siguiendo el formato APA 7.
 
-1. `[AUTOR. (AÑO). TÍTULO. FUENTE / URL.]`
-2. `[AUTOR. (AÑO). TÍTULO. FUENTE / URL.]`
-3. `[AUTOR. (AÑO). TÍTULO. FUENTE / URL.]`
+1. [REFERENCIA APA 7]
+2. [REFERENCIA APA 7]
+3. [REFERENCIA APA 7]
 
 ---
 
 # Anexos
 
-## Anexo A. Evidencias complementarias
+## Anexo A: Evidencias adicionales
 
-`[INSERTAR EVIDENCIAS COMPLEMENTARIAS.]`
+[PEGAR AQUÍ EVIDENCIAS ADICIONALES.]
 
-## Anexo B. Videos de Exposiciones
+## Anexo B: Videos de Exposiciones
 
-### AV1
+**Video de exposición:** [ENLACE]
 
-**Video de exposición:** `[URL PRIVADO MICROSOFT STREAM]`
+## Anexo C: Otros
 
-**Inicio / presentación del equipo:** `[MM:SS]`
+[AGREGAR OTROS ANEXOS SI CORRESPONDE.]
 
-**Descripción:** `[BREVE DESCRIPCIÓN DEL VIDEO.]`
 
-### Videos de entrevistas
-
-**Video editado de entrevistas:** `[URL MICROSOFT STREAM]`
-
-**Segmentos / timings:**
-
-| Entrevista | Segmento | Inicio | Duración |
-|---|---|---|---|
-| Entrevista 1 | `[SEGMENTO]` | `[MM:SS]` | `[MM:SS]` |
-| Entrevista 2 | `[SEGMENTO]` | `[MM:SS]` | `[MM:SS]` |
-
-## Anexo C. Otros artefactos
-
-`[INSERTAR AQUÍ ARTEFACTOS ADICIONALES QUE SEAN NECESARIOS.]`
-
----
 
