@@ -30,7 +30,7 @@ asdasdasdasdasfksdkl
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
