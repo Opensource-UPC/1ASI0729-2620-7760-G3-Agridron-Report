@@ -26,35 +26,26 @@
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
     <tr>
         <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastian Leonardo</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[APELLIDOS Y NOMBRES]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Vasquez Roncal, Alexander Felipe</td>
     </tr>
 </table>
 <br>
-
 <div align="center">
 <b><i>Septiembre, 2026</i></b>
 </div>
