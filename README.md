@@ -42,7 +42,7 @@ asdasdasdasdasfksdkl
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastian Leonardo</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202222473</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Vasquez Roncal, Alexander Felipe</td>
     </tr>
 </table>
