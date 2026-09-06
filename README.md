@@ -7,14 +7,14 @@
 
 **Curso: Desarrollo de Aplicaciones Open Source**
 
-**NRC: [NRC]**
+**NRC: 7760**
 
-**Docente: [NOMBRE DEL DOCENTE]**
+**Docente: FLORES MOROCCO; Juan Antonio**
 <br>
 
 ### **Informe del Trabajo Final**
 
-**Nombre de la Startup:** [NOMBRE DE LA STARTUP]
+**Nombre de la Startup:** AgriDron
 
 **Nombre del producto:** [NOMBRE DEL PRODUCTO]
 <br>
