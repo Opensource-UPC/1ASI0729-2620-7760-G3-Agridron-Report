@@ -767,6 +767,7 @@ AgriDron Solutions abordará esta problemática mediante una plataforma web que 
 ---
 
 ## 2.4. Big Picture EventStorming
+asdasdasdasdasfsdsd
 
 <div align="center">
 
