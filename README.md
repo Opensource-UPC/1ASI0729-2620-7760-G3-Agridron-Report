@@ -56,7 +56,7 @@
 <br>
 
 <div align="center">
-<b><i>[MES], 2026</i></b>
+<b><i>Septiembre, 2026</i></b>
 </div>
 <br>
 
@@ -66,22 +66,10 @@
 
 | Versión | Fecha | Autor | Descripción |
 | :--- | :--- | :--- | :--- |
-| 1.0.0 | [DD/MM/2026] | [NOMBRE] | Creación inicial del documento. |
-| [1.X.0] | [DD/MM/2026] | [NOMBRE] | [DESCRIPCIÓN DEL CAMBIO] |
+| 0.1.0 | 05/09/2026 | Sebastián Sayago | Creación inicial del documento. |
+| 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
 
----
 
-## Project Report Collaboration Insights
-
-**Repositorio del proyecto:**
-
-[PEGAR AQUÍ EL ENLACE AL REPOSITORIO DE GITHUB]
-
-**Reporte de colaboración de la entrega:**
-
-[PEGAR AQUÍ LA EVIDENCIA DE COLABORACIÓN DEL REPOSITORIO]
-
-![Evidencia de colaboración](assets/evidences/collaboration.png)
 
 ---
 
@@ -234,22 +222,34 @@
 
 <p align="justify">
 
-[PEGAR AQUÍ LA DESCRIPCIÓN DE LA STARTUP.]
+<strong>AgriDron Solutions</strong> es una startup orientada al desarrollo de soluciones tecnológicas para el sector agrícola, enfocada en mejorar la planificación y el monitoreo de operaciones de fumigación mediante drones. La startup busca centralizar en una plataforma web las principales actividades relacionadas con estas operaciones, facilitando la gestión de parcelas, la planificación de misiones, la consulta de condiciones meteorológicas y el seguimiento de las operaciones realizadas.
 
 </p>
 
-**Misión:** [PEGAR AQUÍ LA MISIÓN]
+<p align="justify">
 
-**Visión:** [PEGAR AQUÍ LA VISIÓN]
+La propuesta de AgriDron Solutions consiste en desarrollar una plataforma web que permita a los agricultores registrar y administrar sus fincas y parcelas, seleccionar mediante un mapa interactivo el área que desean fumigar, crear y gestionar misiones de fumigación y consultar información meteorológica mediante una API externa. Asimismo, la plataforma contará con un módulo de monitoreo que permitirá visualizar el estado y la ubicación de los drones durante una misión mediante datos inicialmente simulados.
 
-**Valores:**
+</p>
 
-<ul>
-  <li>[VALOR 1]</li>
-  <li>[VALOR 2]</li>
-  <li>[VALOR 3]</li>
-  <li>[VALOR 4]</li>
+<p align="justify">
+
+Finalmente, la solución permitirá consultar el historial de las misiones realizadas y generar reportes de las operaciones, además de manejar diferentes roles de usuario, como agricultor, operador y técnico.
+
+</p>
+
+Misión: [DEFINIR MISIÓN DE AGRIDRON SOLUTIONS]
+
+Visión: [DEFINIR VISIÓN DE AGRIDRON SOLUTIONS]
+
+Valores:
+
+<ul> <li>[VALOR 1]</li> 
+    <li>[VALOR 2]</li> 
+    <li>[VALOR 3]</li> 
+    <li>[VALOR 4]</li> 
 </ul>
+
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -257,6 +257,82 @@
 
 <table>
   <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> [CÓDIGO]</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      <br/><br/>
+      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+    </td>
+  </tr>
+    <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> [CÓDIGO]</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      <br/><br/>
+      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+    </td>
+  </tr>
+    <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> [CÓDIGO]</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      <br/><br/>
+      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+    </td>
+  </tr>
+    <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> [CÓDIGO]</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      <br/><br/>
+      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+    </td>
+  </tr>
+    <tr>
     <td rowspan="4" align="center">
       <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
     </td>
@@ -287,65 +363,77 @@
 
 <p align="justify">
 
-[PEGAR AQUÍ LA DESCRIPCIÓN GENERAL DE LA SOLUCIÓN.]
+<strong>AgriDron Solutions</strong> propone una plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones. La solución busca centralizar las actividades que intervienen en una operación, desde la gestión de las fincas y parcelas hasta la creación, seguimiento y consulta posterior de las misiones.
+
+</p>
+
+<p align="justify">
+
+El usuario podrá registrar sus fincas y parcelas, seleccionar mediante un mapa interactivo el área que desea fumigar y crear una misión de fumigación. Antes de realizar la operación, podrá consultar las condiciones meteorológicas mediante una API externa. Durante la misión, el sistema permitirá visualizar el estado y ubicación del dron utilizando inicialmente datos simulados. Posteriormente, el usuario podrá consultar el historial y los reportes de las operaciones realizadas.
 
 </p>
 
 ### 1.2.1. Antecedentes y problemática
 
-#### 1.2.1.1. What
+1.2.1.1. What
 
 <p align="justify">
 
-[DESCRIBIR QUÉ PROBLEMA SE PRESENTA.]
+El problema se relaciona con la planificación y monitoreo de operaciones de fumigación agrícola mediante drones. Estas operaciones requieren gestionar información sobre las fincas y parcelas, definir el área que será fumigada, planificar las misiones, consultar las condiciones meteorológicas y realizar un seguimiento de la operación.
 
 </p>
 
-#### 1.2.1.2. Where
-
 <p align="justify">
 
-[DESCRIBIR DÓNDE SE PRESENTA EL PROBLEMA.]
+Actualmente, estas actividades pueden requerir coordinación manual y el uso de diferentes medios para gestionar la información relacionada con una misión, dificultando su centralización y seguimiento.
 
 </p>
 
-#### 1.2.1.3. When
+1.2.1.2. Where
 
 <p align="justify">
 
-[DESCRIBIR CUÁNDO SE PRESENTA.]
+La problemática se presenta en el contexto de las operaciones agrícolas en las que se utilizan drones para realizar actividades de fumigación sobre diferentes fincas y parcelas.
 
 </p>
 
-#### 1.2.1.4. Who
+1.2.1.3. When
 
 <p align="justify">
 
-[DESCRIBIR QUIÉNES SON LOS AFECTADOS.]
+La problemática se presenta principalmente durante las diferentes etapas de una operación de fumigación: al planificar una misión, definir el área que será fumigada, verificar las condiciones meteorológicas, realizar el seguimiento de la misión y consultar posteriormente la información de la operación.
 
 </p>
 
-#### 1.2.1.5. Why
+1.2.1.4. Who
 
 <p align="justify">
 
-[EXPLICAR POR QUÉ SE PRODUCE LA PROBLEMÁTICA.]
+Los principales usuarios involucrados son los agricultores responsables de gestionar las operaciones de fumigación, así como los operadores y técnicos relacionados con la ejecución y supervisión de las misiones mediante drones.
 
 </p>
 
-#### 1.2.1.6. How
+1.2.1.5. Why
 
 <p align="justify">
 
-[EXPLICAR CÓMO SERÁ ABORDADA LA PROBLEMÁTICA.]
+La problemática surge debido a la necesidad de coordinar diferentes actividades e información asociadas a una operación de fumigación. La gestión separada de las parcelas, áreas de fumigación, condiciones meteorológicas, misiones y seguimiento de los drones puede dificultar la organización y consulta de la información.
 
 </p>
 
-#### 1.2.1.7. How much
+1.2.1.6. How
 
 <p align="justify">
 
-[DESCRIBIR EL MODELO DE NEGOCIO, COSTOS, PRECIOS, PROYECCIONES U OTROS ASPECTOS ECONÓMICOS QUE CORRESPONDAN.]
+AgriDron Solutions abordará esta problemática mediante una plataforma web que centralice la gestión de fincas y parcelas, la definición de áreas de fumigación mediante un mapa interactivo, la creación y gestión de misiones, la consulta de información meteorológica mediante una API externa, el monitoreo simulado de los drones y la consulta de reportes e historial de operaciones.
+
+</p>
+
+1.2.1.7. How much
+
+<p align="justify">
+
+[DEFINIR MODELO DE NEGOCIO, COSTOS, PRECIOS, PROYECCIONES U OTROS ASPECTOS ECONÓMICOS DE AGRIDRON SOLUTIONS.]
 
 </p>
 
