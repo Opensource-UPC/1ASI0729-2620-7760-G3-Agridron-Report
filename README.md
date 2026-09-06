@@ -432,23 +432,37 @@ AgriDron Solutions abordará esta problemática mediante una plataforma web que 
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-**Problem Statement 1**
+Problem Statement 1
 
 <p align="justify">
 
-[PEGAR AQUÍ EL PROBLEM STATEMENT.]
+Los agricultores necesitan una forma centralizada de gestionar sus fincas, parcelas y áreas de fumigación, debido a que estas actividades forman parte de la planificación de sus operaciones con drones y pueden requerir coordinación manual.
 
 </p>
 
-**Problem Statement 2**
+Problem Statement 2
 
 <p align="justify">
 
-[PEGAR AQUÍ EL PROBLEM STATEMENT.]
+Los responsables de las operaciones de fumigación necesitan consultar las condiciones meteorológicas antes de realizar una misión, debido a que esta información es relevante para la planificación de la operación.
 
 </p>
 
-[AGREGAR MÁS SI CORRESPONDE.]
+Problem Statement 3
+
+<p align="justify">
+
+Los responsables de una misión necesitan realizar un seguimiento del estado y ubicación del dron durante una operación, debido a que requieren conocer el progreso de la misión.
+
+</p>
+
+Problem Statement 4
+
+<p align="justify">
+
+Los usuarios necesitan consultar el historial y los reportes de las misiones realizadas, debido a que requieren mantener un registro de las operaciones de fumigación gestionadas.
+
+</p>
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -456,7 +470,7 @@ AgriDron Solutions abordará esta problemática mediante una plataforma web que 
 
 <p align="justify">
 
-[RESPUESTA.]
+Los principales usuarios de la solución son agricultores, operadores y técnicos relacionados con la planificación, ejecución y supervisión de operaciones de fumigación agrícola mediante drones.
 
 </p>
 
@@ -464,85 +478,108 @@ AgriDron Solutions abordará esta problemática mediante una plataforma web que 
 
 <p align="justify">
 
-[RESPUESTA.]
+La plataforma se utilizará como una herramienta de apoyo para gestionar las operaciones de fumigación agrícola. Permitirá centralizar actividades como el registro de parcelas, la planificación de misiones, la consulta de condiciones meteorológicas, el monitoreo de drones y la consulta de reportes.
 
 </p>
 
 **1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
-<ul>
-  <li>[PROBLEMA / SOLUCIÓN]</li>
-  <li>[PROBLEMA / SOLUCIÓN]</li>
+<ul> 
+    <li><strong>Gestión dispersa de la información:</strong> centralizar la información de fincas, parcelas y misiones dentro de una misma plataforma.</li> 
+    <li><strong>Dificultad para definir el área de fumigación:</strong> utilizar un mapa interactivo para seleccionar el área que será fumigada.</li> 
+    <li><strong>Consulta de condiciones meteorológicas:</strong> integrar una API externa para obtener información climática.</li> 
+    <li><strong>Seguimiento de las misiones:</strong> incorporar un módulo de monitoreo con datos simulados sobre el estado y ubicación del dron.</li> 
+    <li><strong>Consulta de operaciones anteriores:</strong> almacenar el historial y generar reportes de las misiones realizadas.</li> 
 </ul>
 
 **1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?**
 
 <p align="justify">
 
-[RESPUESTA.]
+La plataforma será utilizada antes, durante y después de una operación de fumigación. Antes de la misión, el usuario podrá gestionar la parcela, definir el área de fumigación, crear la misión y consultar las condiciones meteorológicas. Durante la operación podrá consultar el estado y ubicación del dron. Después de la misión podrá consultar el historial y los reportes generados.
 
 </p>
 
 **1.2.2.2.5. ¿Qué características son importantes?**
 
-<ul>
-  <li>[CARACTERÍSTICA 1]</li>
-  <li>[CARACTERÍSTICA 2]</li>
-  <li>[CARACTERÍSTICA 3]</li>
+<ul> 
+    <li>Gestión de fincas y parcelas.</li> 
+    <li>Mapa interactivo para definir áreas de fumigación.</li> 
+    <li>Creación y gestión de misiones.</li> <li>Consulta de condiciones meteorológicas mediante una API externa.</li> 
+    <li>Monitoreo del estado y ubicación de los drones.</li> <li>Historial y reportes de las operaciones.</li> 
+    <li>Gestión de roles de usuario.</li> 
 </ul>
 
 **1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?**
 
 <p align="justify">
 
-[RESPUESTA.]
+La plataforma debe presentar una interfaz web clara y organizada, que permita a los usuarios acceder de manera sencilla a las principales funciones relacionadas con la gestión de sus operaciones. La información de las parcelas, misiones, condiciones meteorológicas y monitoreo deberá presentarse de manera comprensible, diferenciando las funcionalidades disponibles según el rol del usuario.
 
 </p>
 
 **1.2.2.2.7. Business Outcomes**
 
-<ul>
-  <li>[BUSINESS OUTCOME 1]</li>
-  <li>[BUSINESS OUTCOME 2]</li>
-  <li>[BUSINESS OUTCOME 3]</li>
+<ul> 
+    <li>Centralizar la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.</li> 
+    <li>Ofrecer una solución tecnológica especializada para la gestión de operaciones agrícolas.</li> 
+    <li>Facilitar la organización y disponibilidad de información relacionada con las misiones de fumigación.</li> 
 </ul>
 
 **1.2.2.2.8. User Outcomes**
 
-<ul>
-  <li>[USER OUTCOME 1]</li>
-  <li>[USER OUTCOME 2]</li>
-  <li>[USER OUTCOME 3]</li>
+<ul> 
+    <li>Gestionar sus fincas y parcelas desde una única plataforma.</li> 
+    <li>Planificar misiones y definir las áreas de fumigación mediante un mapa.</li> 
+    <li>Consultar las condiciones meteorológicas antes de una misión.</li> 
+    <li>Monitorear el estado y ubicación del dron durante una operación.</li> 
+    <li>Consultar el historial y reportes de las misiones realizadas.</li> 
 </ul>
 
 **1.2.2.2.9. Features**
 
-<ul>
-  <li>[FEATURE 1]</li>
-  <li>[FEATURE 2]</li>
-  <li>[FEATURE 3]</li>
+<ul> <li>Módulo de gestión de fincas y parcelas.</li> 
+    <li>Mapa interactivo para selección del área de fumigación.</li> 
+    <li>Módulo de creación y gestión de misiones.</li> 
+    <li>Integración con API meteorológica.</li> 
+    <li>Módulo de monitoreo de drones con datos simulados.</li> 
+    <li>Historial y generación de reportes.</li> 
+    <li>Gestión de roles: agricultor, operador y técnico.</li> 
 </ul>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis Statement 1**
+Hypothesis Statement 1
 
 <p align="justify">
 
-[PEGAR AQUÍ LA HIPÓTESIS.]
+Creemos que centralizar la gestión de fincas, parcelas y misiones en una plataforma web permitirá a los agricultores organizar de manera más eficiente sus operaciones de fumigación. Sabremos que esto es cierto cuando los usuarios puedan gestionar estos elementos desde un único sistema y completen el flujo de planificación de una misión.
 
 </p>
 
-**Hypothesis Statement 2**
+Hypothesis Statement 2
 
 <p align="justify">
 
-[PEGAR AQUÍ LA HIPÓTESIS.]
+Creemos que permitir la selección del área de fumigación mediante un mapa interactivo facilitará la planificación de las misiones. Sabremos que esto es cierto cuando los usuarios puedan definir correctamente el área que desean fumigar utilizando el mapa.
 
 </p>
 
-[AGREGAR MÁS SI CORRESPONDE.]
+Hypothesis Statement 3
 
+<p align="justify">
+
+Creemos que integrar información meteorológica mediante una API externa ayudará a los usuarios a considerar las condiciones climáticas durante la planificación de una misión. Sabremos que esto es cierto cuando los usuarios puedan consultar dicha información antes de gestionar una operación.
+
+</p>
+
+Hypothesis Statement 4
+
+<p align="justify">
+
+Creemos que visualizar el estado y ubicación del dron durante una misión permitirá a los usuarios realizar un mejor seguimiento de la operación. Sabremos que esto es cierto cuando puedan identificar el estado y posición del dron durante una misión simulada.
+
+</p>
 #### 1.2.2.4. Lean UX Canvas
 
 <div align="center">
@@ -551,34 +588,31 @@ AgriDron Solutions abordará esta problemática mediante una plataforma web que 
 
 </div>
 
-**Descripción:**
+Descripción:
 
 <p align="justify">
 
-[EXPLICAR BREVEMENTE EL LEAN UX CANVAS.]
+El Lean UX Canvas de AgriDron Solutions permite organizar las principales hipótesis relacionadas con el problema, los usuarios, los resultados esperados y la solución propuesta. El canvas se utilizará como herramienta para orientar el diseño y validación de la plataforma, tomando como punto de partida las necesidades relacionadas con la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.
 
 </p>
 
 ### 1.3. Segmentos objetivo
 
-#### 1.3.1. [SEGMENTO OBJETIVO 1]
+1.3.1. Agricultores
 
 <p align="justify">
 
-[DESCRIPCIÓN DEL SEGMENTO, NECESIDADES Y RELACIÓN CON LA SOLUCIÓN.]
+Los agricultores constituyen el principal segmento objetivo de AgriDron Solutions. Son responsables de gestionar sus fincas y parcelas y requieren planificar las operaciones de fumigación que se realizarán mediante drones. La plataforma les permitirá registrar y administrar sus parcelas, definir las áreas de fumigación mediante un mapa, crear misiones, consultar las condiciones meteorológicas y revisar posteriormente el historial y los reportes de las operaciones.
 
 </p>
 
-#### 1.3.2. [SEGMENTO OBJETIVO 2]
+1.3.2. Operadores y técnicos
 
 <p align="justify">
 
-[DESCRIPCIÓN DEL SEGMENTO, NECESIDADES Y RELACIÓN CON LA SOLUCIÓN.]
+Los operadores y técnicos constituyen un segmento relacionado con la ejecución y supervisión de las operaciones de fumigación. Estos usuarios podrán interactuar con las funcionalidades asociadas a la gestión y monitoreo de las misiones, de acuerdo con los permisos correspondientes a cada rol.
 
 </p>
-
-[AGREGAR MÁS SEGMENTOS SI CORRESPONDE.]
-
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
