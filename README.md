@@ -797,7 +797,7 @@ asdasdasdasdasfsdsd
 
 # Capítulo III: Requirements Specification
 
-## 3.1. User Stories
+## 3.1. User Stories NUEVAS
 
 > Registrar las User Stories como texto, incluyendo criterios de aceptación.
 
