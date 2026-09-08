@@ -1191,12 +1191,150 @@ C4Container
 La correspondencia permite mantener trazabilidad entre el análisis de dominio realizado mediante Event Storming y la arquitectura propuesta para AgriDron Solutions.
 
 ### 4.6.4. Software Architecture Components Diagrams
+Esta sección presenta el diseño interno de los principales componentes de software de **AgriDron Solutions**. Se mantiene la separación entre la aplicación web, los servicios REST y las integraciones externas, alineándolos con los Bounded Contexts definidos en la arquitectura.
 
-![Software Architecture Components Diagram](assets/architecture/component_diagram.png)
 
-**Descripción:**
+## 4.6.4.1. RESTful API
 
-[DESCRIPCIÓN.]
+La API RESTful implementada con Spring Boot concentra la lógica de aplicación y dominio. Se organiza en capas de presentación, aplicación, dominio e infraestructura.
+
+```mermaid
+flowchart LR
+    subgraph API["RESTful API - Spring Boot"]
+        subgraph Presentation["API / Presentation Layer"]
+            FC["Field Controller"]
+            MC["Mission Controller"]
+            WC["Weather Controller"]
+            RC["Report Controller"]
+        end
+        subgraph Application["Application Layer"]
+            FS["Field Service"]
+            MS["Mission Service"]
+            WS["Weather Service"]
+            RS["Report Service"]
+        end
+        subgraph Domain["Domain Layer"]
+            FD["Field Management Domain"]
+            MD["Flight Operations Domain"]
+            WD["Weather Integration Domain"]
+            RD["Analytics & Reporting Domain"]
+        end
+        subgraph Infrastructure["Infrastructure Layer"]
+            FR["Field Repository"]
+            MR["Mission Repository"]
+            RR["Report Repository"]
+            WA["Weather API Adapter"]
+        end
+    end
+    DB[("Relational Database")]
+    Weather["Weather API"]
+    FC --> FS
+    MC --> MS
+    WC --> WS
+    RC --> RS
+    FS --> FD
+    MS --> MD
+    WS --> WD
+    RS --> RD
+    FS --> FR
+    MS --> MR
+    RS --> RR
+    WS --> WA
+    FR --> DB
+    MR --> DB
+    RR --> DB
+    WA --> Weather
+```
+
+### Responsabilidades
+
+| Capa | Responsabilidad |
+|---|---|
+| Presentation | Recibir solicitudes HTTP y devolver respuestas mediante endpoints REST. |
+| Application | Coordinar casos de uso y orquestar operaciones del dominio. |
+| Domain | Contener reglas y conceptos principales de cada Bounded Context. |
+| Infrastructure | Implementar persistencia e integración con servicios externos. |
+
+## 4.6.4.2. Web Application
+
+La aplicación web utiliza Angular para proporcionar las funcionalidades de operadores y clientes.
+
+```mermaid
+flowchart LR
+    subgraph Web["Web Application - Angular"]
+        subgraph Field["Field Management"]
+            Farms["Farm Management"]
+            Parcels["Parcel Management"]
+            Map["Interactive Map"]
+        end
+        subgraph Flight["Flight Operations"]
+            Missions["Mission Management"]
+            Schedule["Mission Calendar"]
+            Monitor["Mission Monitoring"]
+        end
+        subgraph Weather["Weather Integration"]
+            WeatherView["Weather View"]
+            Alerts["Weather Alerts"]
+        end
+        subgraph Reports["Analytics & Reporting"]
+            History["Mission History"]
+            ReportsView["Reports"]
+            Metrics["Operational Metrics"]
+        end
+        Shared["Shared Components / Authentication"]
+        APIClient["REST API Client"]
+    end
+    API["RESTful API"]
+    Farms --> APIClient
+    Parcels --> APIClient
+    Map --> APIClient
+    Missions --> APIClient
+    Schedule --> APIClient
+    Monitor --> APIClient
+    WeatherView --> APIClient
+    Alerts --> APIClient
+    History --> APIClient
+    ReportsView --> APIClient
+    Metrics --> APIClient
+    Shared --> APIClient
+    APIClient --> API
+```
+
+### Responsabilidades
+
+- **Field Management:** administrar campos, parcelas y áreas de fumigación.
+- **Flight Operations:** crear, programar y monitorear misiones.
+- **Weather Integration:** mostrar condiciones y alertas meteorológicas.
+- **Analytics & Reporting:** consultar historial y reportes.
+- **Shared Components:** centralizar elementos reutilizables y autenticación.
+- **REST API Client:** encapsular la comunicación con el Backend.
+
+## 4.6.4.3. Weather Integration Component
+
+La integración meteorológica se mantiene aislada para evitar acoplar directamente la lógica de negocio con la API externa.
+
+```mermaid
+flowchart LR
+    Backend["Backend Spring Boot"]
+    subgraph WeatherIntegration["Weather Integration"]
+        WS["Weather Service"]
+        WClient["Weather API Client"]
+        Mapper["Weather Response Mapper"]
+        Evaluator["Weather Condition Evaluator"]
+        Alert["Weather Alert Generator"]
+    end
+    External["External Weather API"]
+    Backend --> WS
+    WS --> WClient
+    WClient --> External
+    External --> WClient
+    WClient --> Mapper
+    Mapper --> Evaluator
+    Evaluator --> Alert
+    Alert --> Backend
+```
+
+El componente permite cambiar o adaptar el proveedor meteorológico sin modificar directamente los componentes de **Flight Operations**.
 
 ---
 
