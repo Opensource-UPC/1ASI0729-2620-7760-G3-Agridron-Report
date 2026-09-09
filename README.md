@@ -824,12 +824,46 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 
 ## 3.1. User Stories
 
-> Registrar las User Stories como texto, incluyendo criterios de aceptación.
+> User Stories - Landing Page (Rol: Visitante / Visitor).
 
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-| :--- | :--- | :--- | :--- | :--- |
-| US-001 | [TÍTULO] | Como [ROL], quiero [ACCIÓN], para [BENEFICIO]. | 1. [CRITERIO]<br>2. [CRITERIO] | EP-001 |
-| US-002 | [TÍTULO] | Como [ROL], quiero [ACCIÓN], para [BENEFICIO]. | 1. [CRITERIO]<br>2. [CRITERIO] | EP-001 |
+| ID     | Título                        | Descripción | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                      | Epic   |
+|:-------|:------------------------------| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| LP-001 | Visualizar propuesta de valor | Como visitante, quiero visualizar la propuesta de valor de AgriDron en la página principal, <br/>para entender rápidamente qué ofrece el servicio. | 1. Escenario 1: Visualización exitosa<br>Dado que el visitante ingresa al Landing Page, cuando la página carga completamente, entonces el sistema muestra el hero section con el título, subtítulo y un llamado a la acción (CTA) visible.                                                                                                                   | EP-001 |
+| LP-002 | Conocer servicios ofrecidos   | Como visitante, quiero ver los servicios y características principales de AgriDron, para evaluar si la solución satisface mis necesidades. | 1. Escenario 1: Visualización de servicios<br>Dado que el visitante está en el Landing Page, cuando hace scroll hacia la sección "Servicios", entonces el sistema muestra al menos 3 tarjetas con iconos, títulos y descripciones breves de los servicios                                                                                                    | EP-002 |
+| LP-003 | Ver planes y precios   | Como visitante, quiero conocer los planes de precios y suscripción, para tomar una decisión informada sobre la contratación del servicio. | 1. Escenario 1: Visualización de planes<br>Dado que el visitante está en el Landing Page, cuando hace scroll hacia la sección "Planes", entonces el sistema muestra al menos 2 opciones de planes con sus precios y características incluidas.                                                                                                               | EP-003 |
+| LP-004 | Registrarse como nuevo usuario   | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | 1. Escenario 1: Registro exitoso<br>Dado que el visitante está en el Landing Page y hace clic en "Registrarse", cuando completa el formulario con nombre, email, contraseña y selecciona su rol (Agricultor/Operador/Supervisor), entonces el sistema crea la cuenta y redirige al Dashboard de la Web Application.<br/>2. Escenario 2: Email ya registrado<br>Dado que el visitante ingresa un email que ya existe en el sistema, cuando envía el formulario de registro, entonces el sistema muestra el mensaje "El correo electrónico ya está registrado" y no crea la cuenta. | EP-004 |
+| LP-005 | Iniciar sesión en la plataforma   | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | 1. Escenario 1:  Inicio de sesión exitoso<br>Dado que el visitante está en el Landing Page y hace clic en "Iniciar Sesión", cuando ingresa email y contraseña válidos, entonces el sistema autentica al usuario y redirige al Dashboard de la Web Application.<br/>2. Escenario 2: Credenciales inválidas<br>Dado que el visitante ingresa email o contraseña incorrectos, cuando envía el formulario de login, entonces el sistema muestra el mensaje "Credenciales inválidas" y no permite el acceso.                                                                                                    | EP-005 |
+| LP-006 | Consultar términos y condiciones   | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | 1. Escenario 1: Visualización de términos<br>Dado que el visitante está en el Landing Page y hace clic en el enlace "Términos y Condiciones" en el footer, entonces el sistema navega a la página de términos y condiciones con el contenido completo.                                                                                                    | EP-006 |
+
+> User Stories - Web Application (Roles: Agricultor, Operador, Supervisor)
+> Rol: Agricultor
+
+| ID     | Título                        | Descripción | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Epic   |
+|:-------|:------------------------------| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| WA-001 | Registrar una finca | Como agricultor, quiero registrar mis fincas en la plataforma, para gestionar mis parcelas de forma centralizada. | 1. Escenario 1: Registro exitoso<br>Dado que el agricultor está autenticado en el Dashboard, cuando accede a "Gestión de Fincas" y completa el formulario con nombre, ubicación (seleccionando en mapa), tamaño en hectáreas y tipo de cultivo, entonces el sistema guarda la finca y la muestra en el listado.<br/>2. Escenario 2: Nombre duplicado<br>Dado que el agricultor ingresa un nombre de finca que ya existe, cuando envía el formulario, entonces el sistema muestra el mensaje "Ya existe una finca con este nombre" y no la registra.                                        | EP-007 |
+| WA-002 | Dibujar área de fumigación   | Como agricultor, quiero dibujar el área de fumigación sobre un mapa interactivo, para planificar misiones de manera precisa. | 1. Escenario 1: Dibujo exitoso<br>Dado que el agricultor está en la sección "Crear Misión", cuando selecciona "Dibujar Área" y traza un polígono cerrado sobre el mapa, entonces el sistema calcula el área en hectáreas y la muestra.<br/>2. Escenario 2: Área fuera de límites<br/>Dado que el agricultor dibuja un área fuera de los límites de su finca registrada, cuando intenta guardar la misión, entonces el sistema muestra el mensaje "El área seleccionada excede los límites de su finca" y no permite continuar.                                                             | EP-008 |
+| WA-003 | Crear misión de fumigación   | Como agricultor, quiero crear una misión de fumigación seleccionando el área y el cultivo, para solicitar el servicio. | 1. Escenario 1: Creación exitosa<br>Dado que el agricultor ha dibujado un área válida, cuando selecciona el tipo de cultivo, ingresa observaciones y confirma la misión, entonces el sistema guarda la misión con estado "Pendiente" y genera una notificación para el Supervisor.<br/>2. Escenario 2: Datos incompletos<br/>Dado que el agricultor no ha dibujado un área, cuando intenta crear la misión, entonces el sistema muestra el mensaje "Debe seleccionar un área para la misión" y no permite continuar.                                                                       | EP-009 |
+| WA-004 | Ver historial de misiones   | Como agricultor, quiero consultar el historial de misiones de fumigación de mis fincas, para dar seguimiento a las operaciones realizadas. | 1. Escenario 1: Visualización de historial<br>Dado que el agricultor está en el Dashboard, cuando accede a "Historial de Misiones", entonces el sistema muestra un listado con todas las misiones filtradas por finca, con fecha, estado, área y tipo de cultivo.<br/>2. Escenario 2: Filtrado por fecha<br>Dado que el agricultor necesita buscar misiones de un período específico, cuando selecciona un rango de fechas, entonces el sistema muestra solo las misiones dentro de ese rango.                                                                                             | EP-010 |
+| WA-005 | Generar reporte de productividad   | Como agricultor, quiero generar reportes de productividad por hectárea, para justificar inversiones y tomar decisiones estratégicas. | 1. Escenario 1:  Generación exitosa<br>Dado que el agricultor está en la sección "Reportes", cuando selecciona una finca y un rango de fechas y hace clic en "Generar Reporte", entonces el sistema genera un reporte en PDF con área total fumigada, insumos utilizados, horas de operación, costo por hectárea y rendimiento estimado.<br/>2. Escenario 2: Sin datos<br>Dado que el agricultor selecciona un rango de fechas sin misiones registradas, cuando intenta generar el reporte, entonces el sistema muestra el mensaje "No hay datos disponibles para el período seleccionado".| EP-011 |
+
+> Rol: Operador
+
+| ID     | Título                        | Descripción | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Epic   |
+|:-------|:------------------------------| :--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| WA-006 | Consultar misiones asignadas | Como operador, quiero visualizar las misiones de fumigación que me han sido asignadas, para planificar mi jornada de trabajo. | 1. Escenario 1: Visualización de misiones<br>Dado que el operador está autenticado en el Dashboard, cuando accede a "Mis Misiones", entonces el sistema muestra un listado de las misiones asignadas con estado (Pendiente/En Progreso/Completada), fecha, finca y área.<br/>2. Escenario 2: Detalle de misión<br>Dado que el operador selecciona una misión específica, cuando hace clic en "Ver Detalle", entonces el sistema muestra la ubicación en el mapa, el área a fumigar, el tipo de cultivo y las observaciones.                                                                 | EP-012 |
+| WA-007 | Actualizar estado de misión   | Como operador, quiero actualizar el estado de una misión (En Progreso / Completada), para mantener informado al agricultor y al supervisor. | 1. Escenario 1: Inicio de misión<br>Dado que el operador está en el detalle de una misión con estado "Pendiente", cuando hace clic en "Iniciar Misión", entonces el sistema cambia el estado a "En Progreso" y registra la hora de inicio.<br/>2. Escenario 2: Completar misión<br/>Dado que el operador está en el detalle de una misión con estado "En Progreso", cuando hace clic en "Completar Misión", entonces el sistema cambia el estado a "Completada", registra la hora de finalización y calcula el área efectivamente fumigada.                                                 | EP-013 |
+| WA-008 | Registrar horas trabajadas   | Como operador, quiero registrar mis horas trabajadas con verificación de ubicación, para garantizar precisión en la información de mi jornada. | 1. Escenario 1: Registro automático<br>Dado que el operador llega a la finca registrada, cuando el GPS confirma que está dentro de la geocerca autorizada, entonces el sistema inicia automáticamente el registro de la jornada.<br/>2. Escenario 2: Fuera de zona<br/>Dado que el operador intenta registrar horas fuera de la geocerca de la finca, cuando intenta iniciar el registro, entonces el sistema muestra el mensaje "Ubicación no válida para registro automático" y solicita verificación manual al supervisor.                                                               | EP-014 |
+| WA-009 | Registrar incidencias en campo   | Como operador, quiero registrar incidencias durante la operación (clima adverso, falla técnica, etc.), para documentar interrupciones y justificar reprogramaciones. | 1. Escenario 1: Registro de incidencia<br>Dado que el operador está en el detalle de una misión en progreso, cuando hace clic en "Reportar Incidencia" y completa el formulario con tipo (clima/equipo/otro), descripción y adjunta una foto, entonces el sistema guarda la incidencia y notifica al Supervisor.<br/>2. Escenario 2: Incidencia crítica<br>Dado que el operador reporta una incidencia de tipo "Falla crítica", cuando confirma el registro, entonces el sistema cambia automáticamente el estado de la misión a "Pausada" y envía una alerta prioritaria al Supervisor.    | EP-015 |
+
+> Rol: Supervisor
+
+| ID     | Título                        | Descripción | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Epic   |
+|:-------|:------------------------------| :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| WA-010 | Asignar misiones a operadores | Como supervisor, quiero asignar misiones creadas por agricultores a operadores disponibles, para coordinar las operaciones de campo | 1. Escenario 1: Asignación exitosa<br>Dado que el supervisor está en el listado de misiones "Pendientes", cuando selecciona una misión, elige un operador disponible y confirma la asignación, entonces el sistema cambia el estado de la misión a "Asignada" y envía una notificación al operador.<br/>2. Escenario 2: Sin operadores disponibles<br>Dado que el supervisor intenta asignar una misión pero no hay operadores con disponibilidad, cuando confirma la asignación, entonces el sistema muestra el mensaje "No hay operadores disponibles para esta fecha" y sugiere reprogramar. | EP-012 |
+| WA-011 | Monitorear múltiples drones   | Como supervisor, quiero ver el estado y ubicación de todos los drones activos en tiempo real, para optimizar la coordinación de misiones. | 1. Escenario 1: Supervisión en tiempo real<br>Dado que el supervisor está en el panel "Monitoreo en Tiempo Real", cuando accede a la vista de drones, entonces el sistema muestra todos los drones activos con posición GPS, nivel de batería, estado de misión (en vuelo/en carga/detenido) y progreso porcentual, actualizados cada 5 segundos.<br/>2. Escenario 2: Pérdida de conexión<br/>Dado que uno o más drones pierden señal, cuando el sistema detecta la pérdida, entonces muestra un ícono de alerta y el mensaje "Conexión perdida con Dron-X. Intentando reconexión...            | EP-013 |
+| WA-012 | Consultar reportes de eficiencia   | Como supervisor, quiero consultar reportes de eficiencia operativa (tiempo/hectárea, costo/hectárea), para evaluar el desempeño y optimizar recursos. | 1. Escenario 1: Reporte de eficiencia<br>Dado que el supervisor está en la sección "Reportes de Eficiencia", cuando selecciona un rango de fechas y hace clic en "Generar", entonces el sistema calcula y muestra métricas como tiempo promedio por hectárea, costo por hectárea, eficiencia de insumos y horas-hombre invertidas.<br/>2. Escenario 2: Comparativa<br/>Dado que el supervisor necesita comparar el desempeño entre operadores, cuando selecciona "Comparar Operadores", entonces el sistema muestra una tabla comparativa con las métricas de cada uno.                         | EP-014 |
+| WA-013 | Gestionar inventario de insumos   | Como supervisor, quiero gestionar el inventario de pesticidas y fertilizantes disponibles, para planificar compras y garantizar el abastecimiento. | 1. Escenario 1: Visualización de inventario<br>Dado que el supervisor está en la sección "Inventario", cuando accede al módulo, entonces el sistema muestra la lista de insumos con stock actual, umbral mínimo y estado de alerta.<br/>2. Escenario 2: Alerta de stock bajo<br>Dado que un insumo tiene stock por debajo del umbral mínimo, cuando el supervisor accede al inventario, entonces el sistema resalta el producto en rojo y muestra la alerta "Stock crítico - Realizar pedido".                                                                                                  | EP-015 |
+
 
 ---
 
@@ -837,7 +871,7 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 
 <div align="center">
 
-![Impact Mapping](assets/requirements/impact_mapping.png)
+![Impact Mapping](assets/Chapter3/Impact_Mapping.png)
 
 </div>
 
@@ -845,7 +879,8 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 
 <p align="justify">
 
-[EXPLICAR EL IMPACT MAP: OBJETIVO, ACTORES, IMPACTOS Y ENTREGABLES.]
+Diagrama que muestra la relación entre los actores clave (agricultor, operador y supervisor), 
+los objetivos estratégicos del proyecto y las funcionalidades necesarias para lograrlos
 
 </p>
 
@@ -853,10 +888,29 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 
 ## 3.3. Product Backlog
 
-| ID | Epic | User Story | Prioridad | Story Points | Estado |
-| :--- | :--- | :--- | :--- | :---: | :--- |
-| US-001 | [EPIC] | [USER STORY] | [ALTA/MEDIA/BAJA] | [SP] | [ESTADO] |
-| US-002 | [EPIC] | [USER STORY] | [ALTA/MEDIA/BAJA] | [SP] | [ESTADO] |
+| ID     | Epic | User Story | Prioridad         | Story Points | Estado   |
+|:-------| :--- | :--- |:------------------|:------------:|:---------|
+| LP-001 | Landing Page | Como visitante, quiero visualizar la propuesta de valor de AgriDron en la página principal, para entender rápidamente qué ofrece el servicio. | ALTA              |      2       | To-Do    |
+| LP-002 | Landing Page | Como visitante, quiero ver los servicios y características principales de AgriDron, para evaluar si la solución satisface mis necesidades. | ALTA              |      2       | To-Do    |
+| LP-003 | Landing Page | Como visitante, quiero conocer los planes de precios y suscripción, para tomar una decisión informada sobre la contratación del servicio. | ALTA              |      3       | To-Do    |
+| LP-004 | Landing Page | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | ALTA              |      5       | To-Do    |
+| LP-005 | Landing Page | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | ALTA              |      3       | To-Do    |
+| LP-006 | Landing Page | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | BAJA              |      1       | To-Do    |
+| LP-007 | Landing Page | Como visitante, quiero cambiar el idioma del sitio entre español e inglés, para navegar en mi idioma preferido. | MEDIA             |      5       | To-Do    |
+| WA-008 | Web App - Agricultor | Como agricultor, quiero registrar mis fincas en la plataforma, para gestionar mis parcelas de forma centralizada. | ALTA              |      5       | To-Do    |
+| WA-009 | Web App - Agricultor | Como agricultor, quiero dibujar el área de fumigación sobre un mapa interactivo, para planificar misiones de manera precisa. | ALTA              |      8       | To-Do    |
+| WA-010 | Web App - Agricultor | Como agricultor, quiero crear una misión de fumigación seleccionando el área y el cultivo, para solicitar el servicio. | ALTA              |      5       | To-Do    |
+| WA-011 | Web App - Agricultor | Como agricultor, quiero consultar el historial de misiones de fumigación de mis fincas, para dar seguimiento a las operaciones realizadas. | MEDIA             |      5       | To-Do    |
+| WA-012 | Web App - Agricultor | Como agricultor, quiero generar reportes de productividad por hectárea, para justificar inversiones y tomar decisiones estratégicas. | MEDIA             |      8       | To-Do    |
+| WA-013 | Web App - Operador | Como operador, quiero visualizar las misiones de fumigación que me han sido asignadas, para planificar mi jornada de trabajo. | ALTA              |      3       | To-Do    |
+| WA-014 | Web App - Operador | Como operador, quiero actualizar el estado de una misión (En Progreso / Completada), para mantener informado al agricultor y al supervisor. | ALTA              |      5       | To-Do    |
+| WA-015 | Web App - Operador | Como operador, quiero registrar mis horas trabajadas con verificación de ubicación, para garantizar precisión en la información de mi jornada. | MEDIA             |      8       | To-Do    |
+| WA-016 | Web App - Operador | Como operador, quiero registrar incidencias durante la operación (clima adverso, falla técnica, etc.), para documentar interrupciones y justificar reprogramaciones. | MEDIA             |      5       | To-Do    |
+| WA-017 | Web App - Supervisor | Como supervisor, quiero asignar misiones creadas por agricultores a operadores disponibles, para coordinar las operaciones de campo. | ALTA              |      5       | To-Do    |
+| WA-018 | Web App - Supervisor | Como supervisor, quiero ver el estado y ubicación de todos los drones activos en tiempo real, para optimizar la coordinación de misiones. | ALTA              |      8       | To-Do    |
+| WA-019 | Web App - Supervisor | Como supervisor, quiero consultar reportes de eficiencia operativa (tiempo/hectárea, costo/hectárea), para evaluar el desempeño y optimizar recursos. | MEDIA             |      8       | To-Do    |
+| WA-020 | Web App - Supervisor | Como supervisor, quiero gestionar el inventario de pesticidas y fertilizantes disponibles, para planificar compras y garantizar el abastecimiento. | MEDIA       |      5       | To-Do     |
+
 
 ---
 
@@ -866,55 +920,353 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 
 ### 4.1.1. General Style Guidelines
 
+> Branding (Identidad de Marca)
+
+| Elemento | Descripcion        | 
+|:---------|:-------------------| 
+| Nombre de la Startup   | AgriDron Solutions |
+| Nombre del Producto   | AgriDron           | 
+| Eslogan   | "Smart Farming, Precision Agriculture" / "Agricultura Inteligente, Precisión que Cosecha Resultados"       | 
+| Concepto de Marca   | La marca combina la tecnología de los drones (componente tecnológico y de precisión) con los valores del campo y la agricultura (componente natural y humano). El nombre "AgriDron" fusiona "Agriculture" y "Drone", representando la convergencia entre el mundo agrícola tradicional y la innovación tecnológica        | 
+| Arquetipo de Marca   | El Experto / El Creador — AgriDron se posiciona como un socio tecnológico confiable y especializado, que empodera a los agricultores con herramientas de precisión para optimizar sus cultivos .       | 
+| Personalidad de Marca   | Profesional, confiable, innovador, cercano, accesible y transparente.       | 
+
+> Valores Visuales
+
+| Valor                  | Aplicacion                                                                                                                                                                                                                                                                                                         | 
+|:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Precisión              | Líneas limpias, bordes definidos, grids estructurados.                                                                                                                                                                                                                                                                                                |
+| Confianza              | Colores sobrios (verde oscuro, azul), tipografía legible y profesional.                                                                                                                                                                                                                                                                                                           | 
+| Innovación             | Toques de color vibrante (teal, amarillo) para elementos interactivos (CTAs, iconos, estados activos)                                                                                                                                                                                                              | 
+| Cercanía               | Uso de fotografía real de campos y cultivos (evitar imágenes genéricas de stock)  | 
+| Sostenibilidad         | Paleta de colores inspirada en la naturaleza y la agricultura                                                                                                                   | 
+
+> Typography (Tipografía)
+
+| Role                  | Familia Tipográfica  | Uso                                                                         | 
+|:----------------------|:---------------------|:----------------------------------------------------------------------------|  
+| Brand                 | Inter (sans-serif)   | Títulos principales (Display, Headline), elementos de marca, hero sections. |
+| Plain                 | Roboto (sans-serif)  | Cuerpo de texto, párrafos, etiquetas, botones, contenido general.           |
+| Mono                  | Roboto Mono          | Código, datos técnicos, logs (aplicación interna).                          |
+
+> Type Scale (Jerarquía Tipográfica)
+
+| Style           | Size | Weight | Line Height | Uso                             |                                                                   
+|:----------------|:-----|:-------|:------------|:--------------------------------|    
+| Display Large   | 57px | 400    | 64px        | Hero text (Landing Page)        |
+| Display Medium  | 45px | 400    | 52px        | Títulos principales de sección  |
+| Display Small   | 36px | 400    | 44px        | Subtítulos de sección           |
+| Headline Large  | 32px | 400    | 40px        | Títulos de página (Dashboard)   |
+| Headline Medium | 28px | 400    | 36px        | Títulos de sección (Dashboard)  |
+| Headline Small  | 24px | 400    | 32px        | Títulos de tarjetas             |
+| Title Large     | 22px | 500    | 28px        | Títulos de App Bar              |
+| Title Medium    | 16px | 500    | 24px        | Títulos de elementos de lista   |
+| Title Smal      | 14px | 500    | 20px        | Tabs, navegación                |
+| Body Large      | 16px | 400    | 24px        | Texto principal                 |
+| Body Medium     | 14px | 400    | 20px        | Texto secundario, descripciones |
+| Body Small      | 12px | 400    | 16px        | Captions, notas a pie           |
+| Label Large     | 14px | 500    | 20px        | Texto de botones                |
+| Label Medium    | 12px | 500    | 16px        | Etiquetas de navegación         |
+| Label Small     | 11px | 500    | 16px        | Badges, contadores              |
+
+> Colors (Paleta de Colores)
+
+| Role              | Color         | Hex  | Uso  |                                                                   
+|:------------------|:--------------|:-----|:-----|   
+| Primary           | Forest Green  | 400  | 64px |
+| Primary Light     | 45px          | 400  | 52px |
+| Secondary         | 36px          | 400  | 44px |
+| Tertiary / Accent | 32px          | 400  | 40px |
+| Headline Medium   | 28px          | 400  | 36px |
+| Surface           | 24px          | 400  | 32px |
+| Background        | 22px          | 500  | 28px |
+| Text Primary      | 16px          | 500  | 24px |
+| Text Secondary    | 14px          | 500  | 20px |
+| Error             | 16px          | 400  | 24px |
+| Success           | 14px          | 400  | 20px |
+| Warning           | 12px          | 400  | 16px |
+
 [PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.]
-
-### 4.1.2. Web Style Guidelines
-
-[PEGAR AQUÍ LAS WEB STYLE GUIDELINES.]
-
 ---
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
-[PEGAR AQUÍ LA INFORMACIÓN.]
+> Jerarquía de Contenido
+
+| Nivel                  | Landing Page                                     | Web Application                                                 |                                                                   
+|:-----------------------|:-------------------------------------------------|:----------------------------------------------------------------|   
+| Nivel 1 (Global)       | Header<br/>(Logo + Navegación principal)         | App Bar (Logo + Menú principal + Perfil de usuario)             |
+| Nivel 2 (Secciones)    | Hero, Servicios, Beneficios, Planes, Testimonios | Dashboard, Misiones, Fincas, Monitoreo, Reportes, Configuración |
+| Nivel 3 (Subsecciones) | Detalle de cada sección                          | Pantallas de detalle de cada módulo                             |
+| Nivel 4 (Acciones)     | CTAs<br/>(Registro, Login, Ver Planes)           | Formularios, tablas, mapas, acciones específicas                |
+
+> Esquemas de Organización por Contexto
+
+| Contexto             | Esquema de Organización        | Descripción                                                                                                                       |                                                                   
+|:---------------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|   
+| Landing Page         | Secuencial (Step-by-Step)      | El contenido guía al visitante desde el descubrimiento hasta la conversión:<br/>Hero → Beneficios → Servicios → Planes → Registro |
+| Dashboard (Web App)  | Jerárquica (Visual Hierarchy)  | Organización por importancia: KPIs principales arriba, gráficos y tablas debajo, accesos rápidos en el lateral                    |
+| Módulo de Fincas     | Por Tópicos (Topical)          | Agrupación por fincas, cada finca contiene parcelas y sus detalles                                                                |
+| Módulo de Misiones   | Cronológico (Chronological)    | Las misiones se organizan por fecha, desde la más reciente a la más antigua                                                       |
+| Módulo de Operadores | Por Audiencia (Audience-based) | Los perfiles se organizan por rol (Operador, Supervisor) y por disponibilidad                                                     |
+| Reportes             | Matricial (Matrix)             | Combinación de filtros: por finca, por fecha, por tipo de cultivo, por operador                                                   |
+
+> Visual Hierarchy (Jerarquía Visual)
+
+| Nivel        | Elementos                | Landing Page                                | Web Application                                                           |                                                                   
+|:-------------|:-------------------------|:--------------------------------------------|:--------------------------------------------------------------------------|   
+| Primario     | Contenido más importante | Hero section<br/>(propuesta de valor + CTA) | KPIs principales (misiones activas, hectáreas fumigadas, ahorro estimado) |
+| Secundario   | Contenido de soporte     | Secciones de Servicios y Beneficios         | Tablas de misiones, gráficos de rendimiento                               |
+| Terciario    | Detalles y opciones      | Testimonios, planes de precios              | Historial, configuraciones, detalles de misiones                          |
+| Cuaternario  | Elementos globales       | Footer<br/>(enlaces legales, redes sociales)| App Bar, navegación lateral, pie de página                                |
+
 
 ### 4.2.2. Labeling Systems
 
-[PEGAR AQUÍ LA INFORMACIÓN.]
+> Tabla de Etiquetas por Contexto
+
+| Contexto                | Etiqueta en Español | Etiqueta en Inglés | Descripción / Uso                           |                                                                   
+|:------------------------|:--------------------|:-------------------|:--------------------------------------------|   
+| Navegación Global       |                     |                    |                                             |
+|                         | Inicio              | Home               | Página principal                            |
+|                         | Misiones            | Missions           | Gestión de misiones de fumigación           |
+|                         | Fincas              | Farms              | Gestión de fincas y parcelas                |
+|                         | Monitoreo           | Monitoring         | Visualización de drones en tiempo real      |
+|                         | Reportes            | Reports            | Generación y consulta de reportes           |
+|                         | Configuración       | Settings           | Ajustes de cuenta y preferencias            |
+|                         | Cerrar Sesión       | Logout             | Cerrar la sesión actual                     |
+| Secciones del Dashboard |                     |                    |                                             |
+|                         | Resumen             | Overview           | KPIs y métricas principales                 |
+|                         | Mis Fincas          | My Farms           | Listado de fincas registradas               |
+|                         | Mis Misiones        | My Missions        | Misiones del agricultor autenticado         |
+|                         | Asignar Misiones    | Assign Missions    | Panel del supervisor para asignar           |
+|                         | Misiones Asignadas  | Assigned Missions  | Misiones recibidas por el operador          |
+|                         | Estado de Drones    | Drone Status       | Monitoreo de drones activos                 |
+|                         | Historial           | History            | Historial de operaciones realizadas         |
+| Acciones Comunes        |                     |                    |                                             |
+|                         | Crear               | Create             | Crear un nuevo registro                     |
+|                         | Editar              | Edit               | Modificar un registro existente             |
+|                         | Eliminar            | Delete             | Eliminar un registro                        |
+|                         | Guardar             | Save               | Guardar cambios                             |
+|                         | Cancelar            | Cancel             | Cancelar la operación actual                |
+|                         | Generar             | Generate           | Generar un reporte o documento              |
+|                         | Descargar           | Download           | Descargar un archivo                        |
+|                         | Asignar             | Assign             | Asignar un recurso o tarea                  |
+|                         | Iniciar             | Start              | Iniciar una misión o proceso                |
+|                         | Completar           | Complete           | Completar una misión                        |
+|                         | Reprogramar         | Reschedule         | Reprogramar una misión                      |
+|                         | Buscar              | Search             | Iniciar una búsqueda                        |
+| Entidades del Dominio   |                     |                    |                                             |
+|                         | Finca               | Farm               | Propiedad agrícola registrada               |
+|                         | Parcela             | Parcel             | Subdivisión de una finca                    |
+|                         | Misión              | Mission            | Operación de fumigación planificada         |
+|                         | Dron                | Drone              | Unidad aérea para fumigación                |
+|                         | Operador            | Operator           | Personal asignado a misiones                |
+|                         | Supervisor          | Supervisor         | Coordinador de operaciones                  |
+|                         | Insumo              | Input              | Pesticidas, fertilizantes y otros productos |
+|                         | Reporte             | Report             | Documento con datos y análisis              |
+|                         | Incidencia          | Incident           | Evento no planificado durante la operación  |
+|                         | Cultivo             | Crop               | Tipo de planta cultivada                    |
+| Atributos y Estados     |                     |                    |                                             |
+|                         | Pendiente           | Pending            | Estado inicial de una misión                |
+|                         | Asignada            | Assigned           | Misión asignada a un operador               |
+|                         | En Progreso         | In Progress        | Misión en ejecución                         |
+|                         | Completada          | Completed          | Misión finalizada exitosamente              |
+|                         | Cancelada           | Cancelled          | Misión cancelada                            |
+|                         | Pausada             | Paused             | Misión detenida temporalmente               |
+|                         | Activo              | Active             | Dron o usuario en operación                 |
+|                         | Inactivo            | Inactive           | Dron o usuario sin actividad                |
+|                         | Disponible          | Available          | Operador o recurso disponible               |
+|                         | Ocupado             | Busy               | Operador o recurso no disponible            |
+|                         | Crítico             | Critical           | Alerta de alta prioridad                    |
+| Mensajes de Feedback    |                     |                    |                                             |
+|                         | Éxito               | Success            | Operación completada correctamente          |
+|                         | Error               | Error              | Fallo en la operación                       |
+|                         | Advertencia         | Warning            | Situación que requiere atención             |
+|                         | Cargando...         | Loading...         | Procesamiento de datos en curso             |
+|                         | Sin datos           | No data            | No hay información para mostrar             |
+|                         | ¿Está seguro?       | Are you sure?      | Confirmación de acción destructiva          |
+
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-[PEGAR AQUÍ LA INFORMACIÓN.]
+> Landing Page - SEO Tags y Meta Tags
+
+| Tag                   | Valor                                                                                                                                                                          | Justificación                                                                                                                                                                |
+|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Title**             | `AgriDron Solutions - Agricultura de Precisión con Drones \| Smart Farming`                                                                                                    | El título incluye la marca, el servicio principal (agricultura de precisión con drones) y un keyword secundario (smart farming). Longitud: 60 caracteres.                    |
+| **Description**       | `AgriDron Solutions ofrece fumigación autónoma con drones, monitoreo en tiempo real y reportes inteligentes para agricultores. Reduce costos y optimiza tus cosechas.`         | Describe el valor del servicio, incluye keywords principales (fumigación con drones, monitoreo en tiempo real, reportes) y el beneficio principal. Longitud: 158 caracteres. |
+| **Keywords**          | `fumigación con drones, agricultura de precisión, monitoreo de cultivos, drones agrícolas, fumigación autónoma, AgriDron, agricultura inteligente`                             | Palabras clave relevantes para el sector agrícola y la tecnología de drones.                                                                                                 |
+| **Author**            | `AgriDron Solutions Team`                                                                                                                                                      | Identifica al autor del contenido.                                                                                                                                           |
+| **Robots**            | `index, follow`                                                                                                                                                                | Permite a los motores de búsqueda indexar y seguir enlaces.                                                                                                                  |
+| **Canonical**         | `https://www.agridron.com/`                                                                                                                                                    | URL canónica de la página principal.                                                                                                                                         |
+| **Open Graph (OG)**   |                                                                                                                                                                                |                                                                                                                                                                              |
+| `og:title`            | `AgriDron Solutions - Agricultura de Precisión con Drones`                                                                                                                     | Título para compartir en redes sociales.                                                                                                                                     |
+| `og:description`      | `Optimiza tus cultivos con fumigación autónoma, monitoreo en tiempo real y reportes inteligentes. AgriDron transforma la agricultura tradicional en agricultura de precisión.` | Descripción para compartir en redes sociales.                                                                                                                                |
+| `og:type`             | `website`                                                                                                                                                                      | Tipo de contenido.                                                                                                                                                           |
+| `og:url`              | `https://www.agridron.com/`                                                                                                                                                    | URL de la página.                                                                                                                                                            |
+| `og:image`            | `https://www.agridron.com/assets/img/og-image.jpg`                                                                                                                             | Imagen representativa (1200x630px).                                                                                                                                          |
+| **Twitter Card**      |                                                                                                                                                                                |                                                                                                                                                                              |
+| `twitter:card`        | `summary_large_image`                                                                                                                                                          | Formato de tarjeta para Twitter.                                                                                                                                             |
+| `twitter:title`       | `AgriDron Solutions - Agricultura de Precisión con Drones`                                                                                                                     | Título para Twitter.                                                                                                                                                         |
+| `twitter:description` | `Optimiza tus cultivos con fumigación autónoma, monitoreo en tiempo real y reportes inteligentes con AgriDron.`                                                                | Descripción para Twitter.                                                                                                                                                    |
+| `twitter:image`       | `https://www.agridron.com/assets/img/og-image.jpg`                                                                                                                             | Imagen para Twitter.                                                                                                                                                         |
+
+
+> Landing Page - SEO Tags y Meta Tags
+
+| Tag                         | Valor                                                                                                                           | Justificación                             |
+|:----------------------------|:--------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| **Title (Dashboard)**       | `AgriDron - Panel de Control \| Smart Farming`                                                                                  | Título del Dashboard (con autenticación). |
+| **Description (Dashboard)** | `Gestiona tus fincas, misiones de fumigación y monitorea el rendimiento de tus cultivos desde el panel de control de AgriDron.` | Descripción del Dashboard.                |
+
 
 ### 4.2.4. Searching Systems
 
-[PEGAR AQUÍ LA INFORMACIÓN.]
+> Alcance de Búsqueda
+
+| Contexto       | Elementos Buscables                                             | Descripción                                  |
+|:---------------|:----------------------------------------------------------------|:---------------------------------------------|
+| **Misiones**   | ID de misión, nombre de finca, fecha, estado, operador asignado | Búsqueda de misiones por múltiples criterios |
+| **Fincas**     | Nombre de finca, ubicación, tipo de cultivo                     | Búsqueda de fincas registradas               |
+| **Operadores** | Nombre, apellido, rol, disponibilidad                           | Búsqueda de personal                         |
+| **Reportes**   | Fecha, finca, tipo de cultivo, operador                         | Búsqueda de reportes generados               |
+| **Insumos**    | Nombre del producto, tipo, stock                                | Búsqueda de inventario                       |
+
+> Tipos de Búsqueda
+
+| Tipo                   | Descripción                                                           | Contexto de Uso                                 |
+|:-----------------------|:----------------------------------------------------------------------|:------------------------------------------------|
+| **Búsqueda Simple**    | Campo de texto único con autocompletado y sugerencias                 | Búsqueda rápida de fincas, misiones, operadores |
+| **Búsqueda Avanzada**  | Múltiples filtros combinados (fecha, estado, tipo, etc.)              | Panel de Reportes, Historial de Misiones        |
+| **Filtros de Listado** | Filtros predefinidos en la interfaz (por estado, por tipo, por fecha) | Listados de misiones, operadores, fincas        |
+
+> Búsqueda por Contexto
+
+| Contexto       | Tipo de Búsqueda           | Filtros Disponibles                       | Comportamiento                                                        |
+|:---------------|:---------------------------|:------------------------------------------|:----------------------------------------------------------------------|
+| **Misiones**   | Búsqueda Simple + Avanzada | Estado, Fecha, Finca, Operador, Cultivo   | Resultados en tabla paginada. Orden predeterminado: fecha descendente |
+| **Fincas**     | Búsqueda Simple            | Nombre, Ubicación                         | Resultados en lista con vista de tarjetas.                            |
+| **Operadores** | Búsqueda Simple + Filtros  | Rol (Operador/Supervisor), Disponibilidad | Resultados en tabla con paginación.                                   |
+| **Historial**  | Búsqueda Avanzada          | Fecha (rango), Finca, Tipo de Operación   | Resultados en tabla con exportación a CSV/Excel.                      |
+
+> Mensajes de Búsqueda
+
+| Escenario                | Mensaje en Español                                                                               | Mensaje en Inglés                                                               |
+|:-------------------------|:-------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
+| **Sin resultados**       | "No se encontraron resultados para tu búsqueda. Prueba con otros términos o ajusta los filtros." | "No results found for your search. Try different terms or adjust your filters." |
+| **Búsqueda en progreso** | "Buscando..."                                                                                    | "Searching..."                                                                  |
+| **Error en la búsqueda** | "Ocurrió un error al realizar la búsqueda. Por favor, intenta nuevamente."                       | "An error occurred while searching. Please try again."                          |
+
 
 ### 4.2.5. Navigation Systems
 
-[PEGAR AQUÍ LA INFORMACIÓN.]
+> Landing Page - Estructura de Navegación
 
+```
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│  [Logo AgriDron]  │  Inicio │ Servicios │ Planes │ Contacto │ [Login] [Registro]  │
+├───────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                   │
+│                                  Hero Section                                     │
+│                       (Propuesta de valor + CTA principal)                        │
+│                                                                                   │
+├───────────────────────────────────────────────────────────────────────────────────┤
+│                             Sección de Servicios                                  │
+│                           (3-4 tarjetas con iconos)                               │
+├───────────────────────────────────────────────────────────────────────────────────┤
+│                              Sección de Beneficios                                │
+│                         (Lista de beneficios con iconos)                          │
+├───────────────────────────────────────────────────────────────────────────────────┤
+│                                 Sección de Planes                                 │
+│                          (2-3 opciones de precios + CTA)                          │
+├───────────────────────────────────────────────────────────────────────────────────┤
+│                              Sección de Testimonios                               │
+│                             (Frases de usuarios reales)                           │
+├───────────────────────────────────────────────────────────────────────────────────┤
+│                                       Footer                                      │
+│              [Logo] │ Términos │ Privacidad │ Contacto │ Redes Sociales           │
+└───────────────────────────────────────────────────────────────────────────────────┘
+```
+
+> Web Application - Estructura de Navegación
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  [Logo AgriDron]                 │  [Notificaciones] │ [Perfil] │
+├──────────┬──────────────────────────────────────────────────────┤
+│          │                                                      │
+│ 📊       │              ÁREA DE CONTENIDO                       │
+│ Dashboard│                                                      │
+│          │            (Panel principal según                    │
+│ 🏠       │             el módulo seleccionado)                  │
+│ Fincas   │                                                      │
+│          │                                                      │
+│ ✈️       │                                                      │
+│ Misiones │                                                      │
+│          │                                                      │
+│ 📡       │                                                      │
+│ Monitoreo│                                                      │
+│          │                                                      │
+│ 📈       │                                                      │
+│ Reportes │                                                      │
+│          │                                                      │
+│ 📦       │                                                      │
+│Inventario│                                                      │
+│          │                                                      │
+│ 👥       │                                                      │
+│ Personal │                                                      │
+│          │                                                      │
+│ ⚙️       │                                                      │
+│ Config.  │                                                      │
+│          │                                                      │
+│ 🚪       │                                                      │
+│ Cerrar   │                                                      │
+│ Sesión   │                                                      │
+├──────────┴──────────────────────────────────────────────────────┤
+│  © 2026 AgriDron Solutions - Todos los derechos reservados      │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+> Tipos de Navegación
+
+| Tipo de Navegación           | Descripción                                                 | Contexto de Uso                                            |
+|:-----------------------------|:------------------------------------------------------------|:-----------------------------------------------------------|
+| **Global (Principal)**       | Navegación lateral (sidebar) con acceso a todos los módulos | Web Application (todas las páginas)                        |
+| **Secundaria (Tabs)**        | Pestañas dentro de un módulo para cambiar entre vistas      | Misiones: "Pendientes", "En Progreso", "Completadas"       |
+| **Contextual (Breadcrumbs)** | Ruta de navegación que muestra la ubicación actual          | Reportes > Historial > Detalle de Misión                   |
+| **De Acción (Botones)**      | Botones que realizan acciones específicas                   | Crear, Editar, Eliminar, Generar, Asignar                  |
+| **De Paginación**            | Navegación entre páginas de listados largos                 | Tablas de misiones, historial, operadores                  |
+| **De Enlaces Internos**      | Enlaces que permiten navegar entre páginas relacionadas     | Desde el detalle de una misión, enlace a la finca asociada |
+
+> Patrones de Navegación por Rol
+
+| Rol            | Módulos Principales                                              | Accesos Rápidos                                   |
+|:---------------|:-----------------------------------------------------------------|:--------------------------------------------------|
+| **Agricultor** | Dashboard, Fincas, Misiones, Reportes, Historial                 | Crear Misión, Ver Fincas, Generar Reporte         |
+| **Operador**   | Dashboard, Mis Misiones, Incidencias, Horas Trabajadas           | Iniciar Misión, Reportar Incidencia               |
+| **Supervisor** | Dashboard, Misiones, Operadores, Monitoreo, Reportes, Inventario | Asignar Misión, Monitorear Drones, Ver Eficiencia |
 ---
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
-![Landing Page Wireframe](assets/ui/landing_wireframe.png)
+![Landing Page Wireframe](assets/chapter4/landing_wireframe.png)
 
 **Descripción:**
 
-[DESCRIPCIÓN DEL WIREFRAME.]
+El wireframe de la Landing Page en versión Desktop presenta la estructura y distribución de los principales elementos que conforman la página web de AgriDron Solutions, sin aplicar todavía los estilos visuales definitivos. Su objetivo es definir la jerarquía de información y organizar el recorrido que realizará el visitante.
 
 ### 4.3.2. Landing Page Mock-up
 
-![Landing Page Mock-up](assets/ui/landing_mockup.png)
+![Landing Page Mock-up](assets/chapter4/landing_mockup.png)
 
 **Descripción:**
 
-[DESCRIPCIÓN DEL MOCK-UP.]
+El mockup de la Landing Page en versión Desktop representa la propuesta visual de alta fidelidad de AgriDron Solutions. A partir de la estructura definida en el wireframe, se incorporan colores, tipografías, imágenes, iconografía, botones y demás elementos gráficos relacionados con la identidad de la plataforma.
 
 ---
 
@@ -922,19 +1274,21 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 
 ### 4.4.1. Web Applications Wireframes
 
-[PEGAR AQUÍ LOS WIREFRAMES.]
+![Web Applications Wireframes](assets/chapter4/Web_Applications_Wireframes.png)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-[PEGAR AQUÍ LOS WIREFLOWS.]
+![Web Applications Wireflow Diagrams](assets/chapter4/Web_Applications_Wireflow_Diagrams.png)
+
 
 ### 4.4.3. Web Applications Mock-ups
 
-[PEGAR AQUÍ LOS MOCK-UPS.]
+![Web Applications Mock-ups](assets/chapter4/Web_Applications_Mock-ups.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-[PEGAR AQUÍ LOS USER FLOWS.]
+![Web Applications User Flow Diagrams](assets/chapter4/Web_Applications_User_Flow_Diagrams.png)
 
 ---
 
