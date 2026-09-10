@@ -1537,19 +1537,673 @@ Esta organización sigue la indicación del Project Statement de considerar los 
 
 ### 5.1.2. Source Code Management
 
-[DESCRIBIR EL REPOSITORIO, BRANCHING STRATEGY, GITFLOW U OTRA ESTRATEGIA.]
+## 5.1.2.1. Plataforma y repositorios
 
-**Repositorio:** [URL]
+El control de versiones del proyecto se realizará mediante **Git gestionado desde GitHub**. El Project Statement establece explícitamente GitHub como plataforma de control de versiones y solicita aplicar **GitFlow Workflow, Conventional Commits y Semantic Versioning**.
 
-![Estructura del repositorio](assets/evidences/repository.png)
+Los repositorios considerados para AgriDron Solutions son:
+
+| Producto | Repositorio | Contenido |
+|---|---|---|
+| Landing Page | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript |
+| Frontend Web Application | `AgiDron-FrontEnd-7760-G3` | Angular y TypeScript |
+| Web Services | `AgiDron-BackEnd-7760-G3` | Java, Spring Boot, pruebas unitarias e integración/aceptación |
+
+> Los nombres anteriores son una propuesta de nomenclatura. Si el equipo ya creó repositorios con nombres diferentes, deben sustituirse por los nombres reales y sus URLs reales antes de entregar el informe.
+
+## 5.1.2.2. GitFlow Workflow
+
+Se utilizará **GitFlow** como estrategia de organización de ramas.
+
+```mermaid
+gitGraph
+    commit id: "Initial"
+    branch develop
+    checkout develop
+    commit id: "Setup project"
+
+    branch feature/field-management
+    checkout feature/field-management
+    commit id: "feat: add parcel management"
+    checkout develop
+    merge feature/field-management
+
+    branch feature/flight-operations
+    checkout feature/flight-operations
+    commit id: "feat: add mission management"
+    checkout develop
+    merge feature/flight-operations
+
+    branch release/1.0.0
+    checkout release/1.0.0
+    commit id: "chore: prepare release"
+    checkout main
+    merge release/1.0.0
+    checkout develop
+    merge release/1.0.0
+```
+
+### Ramas principales
+
+| Branch | Propósito |
+|---|---|
+| `main` | Contiene versiones estables listas para entrega o producción. |
+| `develop` | Rama de integración de funcionalidades terminadas. |
+| `feature/*` | Desarrollo aislado de una funcionalidad específica. |
+| `release/*` | Preparación de una nueva versión estable. |
+| `hotfix/*` | Corrección urgente de errores encontrados en producción. |
+
+## 5.1.2.3. Convención para Feature Branches
+
+Cada funcionalidad debe desarrollarse en una rama independiente.
+
+Formato:
+
+```text
+feature/<descripcion>
+```
+
+Ejemplos:
+
+```text
+feature/field-management
+feature/parcel-registration
+feature/mission-planning
+feature/weather-integration
+feature/mission-monitoring
+feature/mission-reports
+```
+
+Se utilizarán nombres en **inglés**, en minúsculas y separados mediante guiones.
+
+## 5.1.2.4. Convención para Release Branches
+
+Formato:
+
+```text
+release/<major>.<minor>.<patch>
+```
+
+Ejemplos:
+
+```text
+release/1.0.0
+release/1.1.0
+release/1.1.1
+```
+
+Las release branches permiten realizar ajustes finales antes de integrar una versión estable a `main`.
+
+## 5.1.2.5. Convención para Hotfix Branches
+
+Formato:
+
+```text
+hotfix/<descripcion>
+```
+
+Ejemplos:
+
+```text
+hotfix/weather-api-error
+hotfix/mission-status-fix
+hotfix/login-validation
+```
+
+Los hotfixes estarán destinados exclusivamente a correcciones urgentes de versiones publicadas.
+
+## 5.1.2.6. Pull Requests
+
+Las modificaciones realizadas en `feature/*`, `release/*` y `hotfix/*` deberán integrarse mediante Pull Requests.
+
+Flujo recomendado:
+
+```text
+feature/*
+    ↓
+Pull Request
+    ↓
+Code Review
+    ↓
+Tests
+    ↓
+Merge
+    ↓
+develop
+```
+
+Para una versión estable:
+
+```text
+develop
+    ↓
+release/x.y.z
+    ↓
+Validation
+    ↓
+main
+    ↓
+Tag vX.Y.Z
+```
+
+Se recomienda que ningún integrante trabaje directamente sobre `main` para funcionalidades nuevas.
+
+## 5.1.2.7. Conventional Commits
+
+Los mensajes de commit seguirán la especificación de **Conventional Commits**.
+
+Formato:
+
+```text
+<type>[optional scope]: <description>
+```
+
+Ejemplos:
+
+```text
+feat(field): add parcel registration
+feat(mission): add mission planning
+fix(weather): handle unavailable API response
+docs(api): update endpoint documentation
+test(mission): add mission service tests
+refactor(report): simplify report generation
+chore(deps): update project dependencies
+```
+
+Tipos principales:
+
+| Tipo | Uso |
+|---|---|
+| `feat` | Nueva funcionalidad. |
+| `fix` | Corrección de un error. |
+| `docs` | Cambios en documentación. |
+| `test` | Creación o modificación de pruebas. |
+| `refactor` | Reestructuración sin cambiar el comportamiento funcional. |
+| `style` | Cambios de formato que no modifican la lógica. |
+| `chore` | Tareas de mantenimiento o configuración. |
+
+Conventional Commits relaciona `feat` con incrementos **MINOR**, `fix` con incrementos **PATCH** y los cambios incompatibles con incrementos **MAJOR**, facilitando su integración con Semantic Versioning.
+
+## 5.1.2.8. Semantic Versioning
+
+Las versiones del producto seguirán el formato:
+
+```text
+MAJOR.MINOR.PATCH
+```
+
+Ejemplo:
+
+```text
+1.0.0
+```
+
+Reglas:
+
+- **MAJOR:** cambios incompatibles con versiones anteriores.
+- **MINOR:** nuevas funcionalidades compatibles.
+- **PATCH:** correcciones compatibles.
+
+Ejemplos:
+
+```text
+1.0.0 → primera versión estable
+1.1.0 → incorporación del módulo de monitoreo
+1.1.1 → corrección de un error
+2.0.0 → cambio incompatible de la API
+```
+
+Las versiones estables serán identificadas mediante tags de Git:
+
+```text
+v1.0.0
+v1.1.0
+v1.1.1
+```
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-[DESCRIBIR CONVENCIONES DE CÓDIGO, NOMENCLATURA, FORMATO, COMMITS, ETC.]
+## 5.1.3.1. Principios generales
+
+El Project Statement establece que para los lenguajes utilizados en la solución debe aplicarse nomenclatura en **inglés**. Para AgriDron Solutions se aplicará esta regla a HTML, CSS, JavaScript, TypeScript y Java.
+
+Principios:
+
+1. Utilizar nombres descriptivos.
+2. Mantener una nomenclatura consistente.
+3. Evitar abreviaturas innecesarias.
+4. Mantener métodos y clases con responsabilidades específicas.
+5. Evitar duplicación de código.
+6. Mantener funciones pequeñas y legibles.
+7. Documentar únicamente la lógica que requiera contexto adicional.
+8. Mantener las pruebas junto con el código correspondiente.
+9. No incluir credenciales ni secretos dentro del código fuente.
+
+## 5.1.3.2. HTML
+
+Convenciones:
+
+- Utilizar HTML5 semántico.
+- Utilizar elementos semánticos como `header`, `nav`, `main`, `section` y `footer`.
+- Utilizar atributos `aria-*` cuando sean necesarios para accesibilidad.
+- Utilizar nombres descriptivos para clases e identificadores.
+- Mantener los atributos en minúsculas.
+
+Ejemplo:
+
+```html
+<section class="mission-summary" aria-labelledby="mission-title">
+    <h2 id="mission-title">Mission Summary</h2>
+</section>
+```
+
+## 5.1.3.3. CSS
+
+Convenciones:
+
+- Utilizar nombres de clases en inglés.
+- Utilizar `kebab-case` para clases CSS.
+- Evitar estilos inline cuando no sean necesarios.
+- Agrupar reglas relacionadas.
+- Evitar selectores excesivamente específicos.
+
+Ejemplo:
+
+```css
+.mission-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.mission-card__status {
+    font-weight: 600;
+}
+```
+
+## 5.1.3.4. JavaScript
+
+Convenciones:
+
+- Variables y funciones: `camelCase`.
+- Constantes: `UPPER_SNAKE_CASE` cuando representen valores constantes globales.
+- Clases: `PascalCase`.
+- Utilizar `const` por defecto y `let` cuando sea necesario.
+- Evitar variables globales.
+
+Ejemplo:
+
+```javascript
+const DEFAULT_MISSION_STATUS = "PENDING";
+
+function createMission(missionData) {
+    // implementation
+}
+```
+
+## 5.1.3.5. TypeScript / Angular
+
+Convenciones:
+
+| Elemento | Convención | Ejemplo |
+|---|---|---|
+| Clase | PascalCase | `MissionService` |
+| Interface | PascalCase | `Mission` |
+| Variable | camelCase | `missionStatus` |
+| Método | camelCase | `createMission()` |
+| Constante | UPPER_SNAKE_CASE | `API_BASE_URL` |
+| Archivo | kebab-case | `mission.service.ts` |
+| Componente | kebab-case | `mission-list` |
+
+Ejemplo:
+
+```typescript
+export interface Mission {
+    id: number;
+    parcelId: number;
+    scheduledDate: string;
+    status: MissionStatus;
+}
+
+export class MissionService {
+    createMission(mission: Mission): void {
+        // implementation
+    }
+}
+```
+
+## 5.1.3.6. Java / Spring Boot
+
+Convenciones:
+
+| Elemento | Convención | Ejemplo |
+|---|---|---|
+| Class | PascalCase | `MissionService` |
+| Method | camelCase | `createMission()` |
+| Variable | camelCase | `missionStatus` |
+| Constant | UPPER_SNAKE_CASE | `MAX_MISSION_DURATION` |
+| Package | lowercase | `com.agridron.mission` |
+| DTO | PascalCase + DTO | `MissionResponseDTO` |
+| Entity | PascalCase | `Mission` |
+
+La estructura del backend seguirá una separación lógica entre:
+
+```text
+controller/
+service/
+domain/
+repository/
+dto/
+config/
+exception/
+```
+
+Ejemplo:
+
+```java
+@RestController
+@RequestMapping("/api/missions")
+public class MissionController {
+
+    @GetMapping("/{id}")
+    public MissionResponseDTO getMission(@PathVariable Long id) {
+        return missionService.getMission(id);
+    }
+}
+```
+
+## 5.1.3.7. API REST
+
+Los endpoints utilizarán nombres de recursos en plural y en inglés.
+
+Ejemplos:
+
+```text
+GET    /api/farms
+GET    /api/parcels
+POST   /api/parcels
+GET    /api/missions
+POST   /api/missions
+PUT    /api/missions/{id}
+DELETE /api/missions/{id}
+GET    /api/weather
+GET    /api/reports
+```
+
+Se utilizarán los verbos HTTP según la operación:
+
+| Verbo | Uso |
+|---|---|
+| GET | Consultar recursos. |
+| POST | Crear recursos. |
+| PUT | Actualizar un recurso. |
+| PATCH | Actualizar parcialmente un recurso. |
+| DELETE | Eliminar un recurso. |
+
+## 5.1.3.8. Documentación y lenguaje
+
+El idioma por defecto definido para los mensajes, interfaz de usuario e interfaz de documentación de los productos de la solución es **inglés**.
+
+Por lo tanto:
+
+- Variables: inglés.
+- Clases: inglés.
+- Métodos: inglés.
+- Endpoints: inglés.
+- Mensajes de API: inglés.
+- Documentación técnica: inglés.
+- Textos visibles para el usuario: inglés, salvo que una decisión posterior de UX establezca otro idioma.
 
 ### 5.1.4. Software Deployment Configuration
 
-[DESCRIBIR LA CONFIGURACIÓN DE DESPLIEGUE.]
+## 5.1.4.1. Objetivo
+
+El despliegue permitirá publicar los productos de AgriDron Solutions en plataformas cloud y automatizar progresivamente el proceso de entrega.
+
+El Project Statement establece que esta configuración debe contemplar la creación de cuentas, configuración de recursos en proveedores cloud y configuración de proyectos de desarrollo para integración o automatización del deployment. El proceso debe considerar los productos **Landing Page, Web Applications y Web Services**.
+
+## 5.1.4.2. Arquitectura de despliegue
+
+Se propone separar los componentes desplegables de acuerdo con la arquitectura del sistema:
+
+```mermaid
+flowchart TB
+    User["User"]
+    GitHub["GitHub Repository"]
+
+    subgraph Cloud["Cloud Environment"]
+        Landing["Landing Page"]
+        Frontend["Angular Frontend"]
+        Backend["Spring Boot REST API"]
+        Database[("Relational Database")]
+    end
+
+    Weather["External Weather API"]
+
+    User --> Landing
+    User --> Frontend
+    Frontend --> Backend
+    Backend --> Database
+    Backend --> Weather
+
+    GitHub -->|"CI/CD"| Landing
+    GitHub -->|"CI/CD"| Frontend
+    GitHub -->|"CI/CD"| Backend
+```
+
+## 5.1.4.3. Ambientes
+
+Se utilizarán tres ambientes conceptuales:
+
+| Ambiente | Propósito |
+|---|---|
+| Development | Desarrollo local y validaciones iniciales. |
+| Staging | Integración y validación antes de producción. |
+| Production | Versión disponible para los usuarios. |
+
+Flujo:
+
+```text
+feature/*
+    ↓
+Development
+    ↓
+develop
+    ↓
+Staging
+    ↓
+release/*
+    ↓
+main
+    ↓
+Production
+```
+
+## 5.1.4.4. Integración continua
+
+El repositorio podrá utilizar **GitHub Actions** para automatizar las tareas de integración y despliegue.
+
+Pipeline conceptual:
+
+```mermaid
+flowchart LR
+    Commit["Push / Pull Request"]
+    Checkout["Checkout"]
+    Build["Build"]
+    Test["Automated Tests"]
+    Package["Package"]
+    DeployStaging["Deploy Staging"]
+    Validate["Validation"]
+    DeployProd["Deploy Production"]
+
+    Commit --> Checkout
+    Checkout --> Build
+    Build --> Test
+    Test --> Package
+    Package --> DeployStaging
+    DeployStaging --> Validate
+    Validate --> DeployProd
+```
+
+### Backend
+
+```text
+Checkout
+↓
+Install dependencies
+↓
+Run unit tests
+↓
+Run integration tests
+↓
+Build Spring Boot application
+↓
+Package application
+↓
+Deploy
+```
+
+### Frontend
+
+```text
+Checkout
+↓
+Install npm dependencies
+↓
+Run lint
+↓
+Run tests
+↓
+Build Angular application
+↓
+Deploy
+```
+
+### Landing Page
+
+```text
+Checkout
+↓
+Validate files
+↓
+Build / prepare static assets
+↓
+Deploy
+```
+
+## 5.1.4.5. Variables y secretos
+
+Las credenciales, API keys, tokens y contraseñas no deberán almacenarse directamente en el repositorio.
+
+Se utilizarán variables de entorno y secretos administrados por la plataforma de CI/CD.
+
+Ejemplos:
+
+```text
+DATABASE_URL
+DATABASE_USERNAME
+DATABASE_PASSWORD
+WEATHER_API_KEY
+JWT_SECRET
+```
+
+Los valores reales no se incluirán en archivos versionados.
+
+GitHub permite asociar secretos y variables a ambientes de despliegue. Además, los ambientes pueden restringir qué branches o tags tienen autorización para realizar deployments y pueden aplicar reglas de protección.
+
+## 5.1.4.6. Configuración de base de datos
+
+La base de datos relacional se desplegará como un servicio administrado o recurso equivalente dentro del proveedor cloud seleccionado.
+
+La configuración deberá considerar:
+
+- Nombre de base de datos.
+- Usuario de aplicación.
+- Contraseña almacenada como secreto.
+- Host.
+- Puerto.
+- SSL/TLS cuando sea requerido.
+- Variables de conexión.
+- Backups.
+- Restricción de acceso desde servicios autorizados.
+
+El Backend consumirá la configuración mediante variables de entorno, por ejemplo:
+
+```text
+DB_HOST
+DB_PORT
+DB_NAME
+DB_USER
+DB_PASSWORD
+```
+
+## 5.1.4.7. Configuración de la API meteorológica
+
+La API meteorológica será consumida exclusivamente desde el Backend.
+
+```text
+Frontend
+   ↓
+Backend
+   ↓
+Weather API
+```
+
+La clave de acceso de la API meteorológica deberá almacenarse como secreto:
+
+```text
+WEATHER_API_KEY
+```
+
+El Frontend no deberá contener directamente la clave privada del proveedor meteorológico.
+
+## 5.1.4.8. Estrategia de deployment
+
+La estrategia propuesta es:
+
+1. Los desarrolladores trabajan en `feature/*`.
+2. Se crea un Pull Request hacia `develop`.
+3. Se ejecutan las pruebas automáticas.
+4. La funcionalidad aprobada se integra en `develop`.
+5. Una `release/*` prepara la versión.
+6. La versión se valida en staging.
+7. Se integra en `main`.
+8. Se crea el tag correspondiente a Semantic Versioning.
+9. El pipeline despliega la versión en production.
+
+```mermaid
+flowchart TD
+    A["feature/*"] --> B["Pull Request"]
+    B --> C{"Tests pass?"}
+    C -->|"No"| A
+    C -->|"Yes"| D["develop"]
+    D --> E["release/x.y.z"]
+    E --> F["Staging"]
+    F --> G{"Validation approved?"}
+    G -->|"No"| E
+    G -->|"Yes"| H["main"]
+    H --> I["Tag vX.Y.Z"]
+    I --> J["Production"]
+```
+
+## 5.1.4.9. Trazabilidad del deployment
+
+Cada versión desplegada deberá poder relacionarse con:
+
+```text
+Git Commit
+    ↓
+Pull Request
+    ↓
+Branch
+    ↓
+Release
+    ↓
+Semantic Version
+    ↓
+Deployment
+```
+
+Esto permite identificar qué cambios forman parte de una versión determinada y facilita la recuperación ante errores.
 
 ---
 
