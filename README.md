@@ -1435,9 +1435,105 @@ El mockup de la Landing Page en versión Desktop representa la propuesta visual 
 
 ## 5.1. Software Configuration Management
 
+El **Software Configuration Management (SCM)** de AgriDron Solutions establece las herramientas, convenciones y procedimientos que permitirán mantener la consistencia del producto durante su ciclo de vida. Esta configuración cubre el entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue de los productos de software.
+
+De acuerdo con el Project Statement, esta sección debe establecer decisiones y convenciones para mantener la consistencia durante el ciclo de vida del producto. Además, se debe considerar el entorno utilizado para actividades de gestión del proyecto, requisitos, UX/UI, desarrollo, despliegue y documentación.
+
+La propuesta de SCM para AgriDron Solutions se alinea con la arquitectura definida previamente: **Landing Page**, **Frontend Angular**, **Backend Spring Boot** y **base de datos relacional**, además de la integración con una API meteorológica externa.
+
 ### 5.1.1. Software Development Environment Configuration
 
-[DESCRIBIR LAS HERRAMIENTAS, VERSIONES, IDE, FRAMEWORKS, LIBRERÍAS Y CONFIGURACIÓN UTILIZADA.]
+## 5.1.1.1. Propósito
+
+El entorno de desarrollo define las herramientas que utilizará el equipo para implementar, documentar, probar y desplegar AgriDron Solutions. Se busca que todos los integrantes trabajen con una configuración homogénea, reduciendo problemas de compatibilidad y facilitando la colaboración.
+
+El Project Statement indica que esta sección debe especificar el nombre de cada producto de software, su propósito y la ruta de referencia o descarga correspondiente, considerando las actividades de Project Management, Requirements Management, UX/UI Design, Software Development, Software Deployment y Software Documentation.
+
+## 5.1.1.2. Herramientas del proyecto
+
+| Categoría | Herramienta / Tecnología | Propósito | Referencia |
+|---|---|---|---|
+| Control de versiones | Git | Control local de versiones del código fuente. | https://git-scm.com/ |
+| Repositorios | GitHub | Hospedaje de repositorios y colaboración mediante branches y Pull Requests. | https://github.com/ |
+| Gestión del proyecto | Trello / Jira / YouTrack | Organización del backlog, tareas y seguimiento del trabajo. | Según herramienta seleccionada |
+| Editor / IDE Frontend | Visual Studio Code | Desarrollo de Landing Page y Frontend Angular/TypeScript. | https://code.visualstudio.com/ |
+| IDE Backend | IntelliJ IDEA / Eclipse | Desarrollo del Backend Java/Spring Boot. | https://www.jetbrains.com/idea/ |
+| Runtime Frontend | Node.js + npm | Instalación de dependencias y ejecución de herramientas Angular. | https://nodejs.org/ |
+| Framework Frontend | Angular | Implementación de la aplicación web. | https://angular.dev/ |
+| Lenguaje Frontend | TypeScript | Desarrollo de la lógica del Frontend Angular. | https://www.typescriptlang.org/ |
+| Lenguaje Backend | Java | Implementación del Backend y lógica de negocio. | https://www.java.com/ |
+| Framework Backend | Spring Boot | Implementación de servicios REST y lógica del Backend. | https://spring.io/projects/spring-boot |
+| Build Backend | Maven | Gestión de dependencias y construcción del proyecto Spring Boot. | https://maven.apache.org/ |
+| Base de datos | PostgreSQL / SQL | Persistencia de la información de la plataforma. | https://www.postgresql.org/ |
+| API testing | Postman | Prueba de endpoints REST durante el desarrollo. | https://www.postman.com/ |
+| Documentación API | Swagger / OpenAPI | Documentación y consulta de los servicios REST. | https://swagger.io/ |
+| Diseño UI/UX | Figma | Diseño de wireframes, mock-ups y prototipos. | https://www.figma.com/ |
+| Diagramación | Mermaid | Diagramas como código dentro del repositorio Markdown. | https://mermaid.js.org/ |
+| Documentación | Markdown | Elaboración de documentación técnica dentro del repositorio. | https://www.markdownguide.org/ |
+
+> **Nota:** Las herramientas de gestión de proyectos y los proveedores cloud deberán reemplazarse por los productos concretos que el equipo haya seleccionado en su implementación final. La tabla mantiene como propuesta las herramientas que no han sido fijadas previamente.
+
+## 5.1.1.3. Configuración base
+
+Todos los integrantes deberán mantener una configuración equivalente para evitar diferencias entre ambientes locales.
+
+### Frontend
+
+```text
+Node.js
+npm
+Angular CLI
+Angular
+TypeScript
+```
+
+### Backend
+
+```text
+Java JDK
+Maven
+Spring Boot
+IDE compatible con Java
+```
+
+### Base de datos
+
+```text
+PostgreSQL
+Cliente gráfico de base de datos
+```
+
+### Control de versiones
+
+```text
+Git
+GitHub
+GitFlow
+Conventional Commits
+Semantic Versioning
+```
+
+## 5.1.1.4. Estructura de repositorios
+
+Para mantener separadas las responsabilidades de los productos, se propone trabajar con repositorios independientes:
+
+```text
+AgriDron Solutions
+│
+├── agridron-landing
+│   └── Landing Page
+│
+├── agridron-frontend
+│   └── Frontend Angular
+│
+└── agridron-backend
+    ├── Backend Spring Boot
+    ├── Unit Tests
+    └── Integration / Acceptance Tests
+```
+
+Esta organización sigue la indicación del Project Statement de considerar los productos **Landing Page, Web Services y Frontend Web Applications** y, en el caso de Web Services, incluir también los archivos de pruebas.
+
 
 ### 5.1.2. Source Code Management
 
