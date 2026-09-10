@@ -203,49 +203,63 @@ asdasdasdasdasfksdkl
     </tr>
   </tbody>
 </table>
-
 ---
 
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
+<p align="justify">
+
+<strong>AgriDron Solutions</strong> es una startup tecnológica orientada a mejorar la gestión de cultivos mediante el uso de drones para fumigación y monitoreo. La plataforma busca facilitar estas tareas y hacer que las operaciones sean más rápidas y fáciles de controlar.
+
+</p>
+
+<p align="justify">
+
+AgriDron Solutions ofrece una plataforma que permite planificar misiones de fumigación, monitorear el trabajo en tiempo real y consultar reportes de las operaciones realizadas. El objetivo es que agricultores y personal técnico puedan controlar estas tareas desde una sola aplicación.
+
+</p>
+
+**Misión:** Mejorar la gestión de cultivos mediante drones y una plataforma accesible que permita reducir costos y tiempo en las operaciones de fumigación.
+
+**Visión:** Convertirnos en una solución tecnológica de confianza para el sector agrícola, ayudando a modernizar la forma en que se gestionan y supervisan las operaciones de fumigación.
+
+Valores:
+
+<ul>
+  <li><strong>Innovación:</strong> buscamos utilizar nuevas tecnologías para mejorar las operaciones agrícolas.</li>
+  <li><strong>Eficiencia:</strong> buscamos reducir el tiempo, los costos y el uso de recursos.</li>
+  <li><strong>Confiabilidad:</strong> buscamos que las operaciones y los datos mostrados en la plataforma sean claros y precisos.</li>
+  <li><strong>Compromiso:</strong> buscamos ofrecer una solución útil y accesible para agricultores y personal técnico.</li>
+</ul>
+
 ### 1.1.1. Descripción de la Startup
 
 <p align="justify">
 
-<strong>AgriDron Solutions</strong> es una startup orientada al desarrollo de soluciones tecnológicas para el sector agrícola, enfocada en mejorar la planificación y el monitoreo de operaciones de fumigación mediante drones. La startup busca centralizar en una plataforma web las principales actividades relacionadas con estas operaciones, facilitando la gestión de parcelas, la planificación de misiones, la consulta de condiciones meteorológicas y el seguimiento de las operaciones realizadas.
+<strong>AgriDron Solutions</strong> es una startup que busca mejorar la protección de cultivos mediante drones y una plataforma de monitoreo. El sistema permitirá gestionar las operaciones de fumigación desde una sola plataforma.
 
 </p>
 
 <p align="justify">
 
-La propuesta de AgriDron Solutions consiste en desarrollar una plataforma web que permita a los agricultores registrar y administrar sus fincas y parcelas, seleccionar mediante un mapa interactivo el área que desean fumigar, crear y gestionar misiones de fumigación y consultar información meteorológica mediante una API externa. Asimismo, la plataforma contará con un módulo de monitoreo que permitirá visualizar el estado y la ubicación de los drones durante una misión mediante datos inicialmente simulados.
+La plataforma permitirá registrar fincas y parcelas, seleccionar áreas de fumigación mediante un mapa, crear misiones, consultar el clima, monitorear los drones y revisar el historial de las operaciones.
 
 </p>
 
-<p align="justify">
+Pilares de valor:
 
-Finalmente, la solución permitirá consultar el historial de las misiones realizadas y generar reportes de las operaciones, además de manejar diferentes roles de usuario, como agricultor, operador y técnico.
-
-</p>
-
-Misión: [DEFINIR MISIÓN DE AGRIDRON SOLUTIONS]
-
-Visión: [DEFINIR VISIÓN DE AGRIDRON SOLUTIONS]
-
-Valores:
-
-<ul> <li>[VALOR 1]</li> 
-    <li>[VALOR 2]</li> 
-    <li>[VALOR 3]</li> 
-    <li>[VALOR 4]</li> 
+<ul>
+  <li><strong>Innovación tecnológica:</strong> uso de drones aplicados a la agricultura.</li>
+  <li><strong>Eficiencia operativa:</strong> reducción de costos y tiempos frente a métodos tradicionales de fumigación.</li>
+  <li><strong>Confiabilidad de datos:</strong> información clara y disponible durante y después de las operaciones.</li>
+  <li><strong>Compromiso social y ambiental:</strong> reducción de riesgos para los trabajadores y del impacto de la fumigación.</li>
 </ul>
-
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> Para cada integrante, colocar foto, nombre, código, descripción y aporte/rol dentro del proyecto.
+> Para cada integrante, colocar foto, nombre, código, carrera, descripción y aporte/rol dentro del proyecto.
 
 <table>
   <tr>
@@ -254,92 +268,97 @@ Valores:
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+    <td><b>Nombre:</b> Damacen Galindo, Italo Gianfranco</td>
   </tr>
   <tr>
-    <td><b>Código:</b> [CÓDIGO]</td>
+    <td><b>Código:</b> U202421392 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
       [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
       <br/><br/>
+      <b>Aporte y función dentro del equipo:</b><br/>
       [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
     </td>
   </tr>
-    <tr>
+  <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/integrante_02.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+    <td><b>Nombre:</b> Nicho Huillcánahui, Edwin Noe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> [CÓDIGO]</td>
+    <td><b>Código:</b> U20241G306 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
       [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
       <br/><br/>
+      <b>Aporte y función dentro del equipo:</b><br/>
       [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
     </td>
   </tr>
-    <tr>
+  <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/integrante_03.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+    <td><b>Nombre:</b> Ramirez Gutierrez, Gabriel</td>
   </tr>
   <tr>
-    <td><b>Código:</b> [CÓDIGO]</td>
+    <td><b>Código:</b> U202416053 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
       [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
       <br/><br/>
+      <b>Aporte y función dentro del equipo:</b><br/>
       [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
     </td>
   </tr>
-    <tr>
+  <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/integrante_04.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+    <td><b>Nombre:</b> Sayago Vidal, Sebastian Leonardo</td>
   </tr>
   <tr>
-    <td><b>Código:</b> [CÓDIGO]</td>
+    <td><b>Código:</b> U202422642 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
       [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
       <br/><br/>
+      <b>Aporte y función dentro del equipo:</b><br/>
       [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
     </td>
   </tr>
-    <tr>
+  <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/integrante_05.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> [NOMBRE COMPLETO]</td>
+    <td><b>Nombre:</b> Vasquez Roncal, Alexander Felipe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> [CÓDIGO]</td>
+    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
       [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
       <br/><br/>
+      <b>Aporte y función dentro del equipo:</b><br/>
       [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
     </td>
   </tr>
@@ -347,21 +366,19 @@ Valores:
 
 <br>
 
-[REPETIR BLOQUE PARA CADA INTEGRANTE.]
-
 ---
 
 ## 1.2. Solution Profile
 
 <p align="justify">
 
-<strong>AgriDron Solutions</strong> propone una plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones. La solución busca centralizar las actividades que intervienen en una operación, desde la gestión de las fincas y parcelas hasta la creación, seguimiento y consulta posterior de las misiones.
+<strong>AgriDron Solutions</strong> propone una plataforma que centraliza la planificación, ejecución y monitoreo de operaciones de fumigación agrícola mediante drones. El usuario podrá programar misiones, supervisar los drones y consultar información de las operaciones desde una sola plataforma.
 
 </p>
 
 <p align="justify">
 
-El usuario podrá registrar sus fincas y parcelas, seleccionar mediante un mapa interactivo el área que desea fumigar y crear una misión de fumigación. Antes de realizar la operación, podrá consultar las condiciones meteorológicas mediante una API externa. Durante la misión, el sistema permitirá visualizar el estado y ubicación del dron utilizando inicialmente datos simulados. Posteriormente, el usuario podrá consultar el historial y los reportes de las operaciones realizadas.
+El usuario podrá registrar sus fincas y parcelas, seleccionar en un mapa el área que desea fumigar y crear una misión. Antes de realizar la operación podrá consultar las condiciones meteorológicas mediante una API externa. Durante la misión podrá ver el estado y ubicación del dron. Después podrá revisar el historial y los reportes de las operaciones realizadas.
 
 </p>
 
@@ -371,13 +388,7 @@ El usuario podrá registrar sus fincas y parcelas, seleccionar mediante un mapa 
 
 <p align="justify">
 
-El problema se relaciona con la planificación y monitoreo de operaciones de fumigación agrícola mediante drones. Estas operaciones requieren gestionar información sobre las fincas y parcelas, definir el área que será fumigada, planificar las misiones, consultar las condiciones meteorológicas y realizar un seguimiento de la operación.
-
-</p>
-
-<p align="justify">
-
-Actualmente, estas actividades pueden requerir coordinación manual y el uso de diferentes medios para gestionar la información relacionada con una misión, dificultando su centralización y seguimiento.
+El problema central es la presencia recurrente de plagas y parásitos en los cultivos, lo que reduce el rendimiento y la calidad de la cosecha. Los métodos tradicionales de fumigación, ya sean manuales o con tractor, pueden ser lentos, costosos e imprecisos. Además, pueden exponer a los trabajadores a productos químicos.
 
 </p>
 
@@ -385,7 +396,7 @@ Actualmente, estas actividades pueden requerir coordinación manual y el uso de 
 
 <p align="justify">
 
-La problemática se presenta en el contexto de las operaciones agrícolas en las que se utilizan drones para realizar actividades de fumigación sobre diferentes fincas y parcelas.
+La problemática se presenta en terrenos agrícolas donde no existe una correcta gestión y monitoreo de las operaciones. Esto puede dificultar el control de plagas y afectar la producción.
 
 </p>
 
@@ -393,7 +404,7 @@ La problemática se presenta en el contexto de las operaciones agrícolas en las
 
 <p align="justify">
 
-La problemática se presenta principalmente durante las diferentes etapas de una operación de fumigación: al planificar una misión, definir el área que será fumigada, verificar las condiciones meteorológicas, realizar el seguimiento de la misión y consultar posteriormente la información de la operación.
+El problema de las plagas ocurre principalmente durante las temporadas de crecimiento de los cultivos. El monitoreo y las aplicaciones de fumigación se realizan durante todo el ciclo de cultivo, ya sea de forma preventiva o cuando aparecen signos de infestación.
 
 </p>
 
@@ -401,7 +412,7 @@ La problemática se presenta principalmente durante las diferentes etapas de una
 
 <p align="justify">
 
-Los principales usuarios involucrados son los agricultores responsables de gestionar las operaciones de fumigación, así como los operadores y técnicos relacionados con la ejecución y supervisión de las misiones mediante drones.
+El ecosistema de AgriDron Solutions involucra a agricultores, cooperativas agrícolas, ingenieros agrónomos, técnicos de campo y operadores de drones. Los agricultores y cooperativas serán los principales clientes, mientras que el personal técnico podrá utilizar la plataforma para supervisar y gestionar las operaciones.
 
 </p>
 
@@ -409,7 +420,7 @@ Los principales usuarios involucrados son los agricultores responsables de gesti
 
 <p align="justify">
 
-La problemática surge debido a la necesidad de coordinar diferentes actividades e información asociadas a una operación de fumigación. La gestión separada de las parcelas, áreas de fumigación, condiciones meteorológicas, misiones y seguimiento de los drones puede dificultar la organización y consulta de la información.
+La causa principal es la falta de un sistema que permita gestionar y monitorear las operaciones de fumigación de forma centralizada. Esto puede generar pérdidas económicas y aumentar la exposición de los trabajadores a los riesgos de los métodos tradicionales.
 
 </p>
 
@@ -417,7 +428,7 @@ La problemática surge debido a la necesidad de coordinar diferentes actividades
 
 <p align="justify">
 
-AgriDron Solutions abordará esta problemática mediante una plataforma web que centralice la gestión de fincas y parcelas, la definición de áreas de fumigación mediante un mapa interactivo, la creación y gestión de misiones, la consulta de información meteorológica mediante una API externa, el monitoreo simulado de los drones y la consulta de reportes e historial de operaciones.
+AgriDron Solutions abordará esta problemática mediante una plataforma web que permita gestionar fincas y parcelas, seleccionar áreas de fumigación en un mapa, crear misiones con drones, consultar información meteorológica, monitorear los drones y revisar reportes e historial de operaciones.
 
 </p>
 
@@ -425,7 +436,7 @@ AgriDron Solutions abordará esta problemática mediante una plataforma web que 
 
 <p align="justify">
 
-[DEFINIR MODELO DE NEGOCIO, COSTOS, PRECIOS, PROYECCIONES U OTROS ASPECTOS ECONÓMICOS DE AGRIDRON SOLUTIONS.]
+Según la FAO (2023), se estima que hasta un 40% de la producción agrícola mundial se pierde cada año debido a plagas y enfermedades. Esto muestra la importancia de contar con mejores herramientas para el monitoreo y control de plagas.
 
 </p>
 
@@ -475,8 +486,6 @@ Los principales usuarios de la solución son agricultores, operadores y técnico
 
 </p>
 
-**1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
-
 <p align="justify">
 
 La plataforma se utilizará como una herramienta de apoyo para gestionar las operaciones de fumigación agrícola. Permitirá centralizar actividades como el registro de parcelas, la planificación de misiones, la consulta de condiciones meteorológicas, el monitoreo de drones y la consulta de reportes.
@@ -501,7 +510,9 @@ La plataforma será utilizada antes, durante y después de una operación de fum
 
 </p>
 
-**1.2.2.2.5. ¿Qué características son importantes?**
+#### 1.2.2.2. Lean UX Assumptions
+
+**1.2.2.2.1. Business Assumptions**
 
 <ul> 
     <li>Gestión de fincas y parcelas.</li> 
@@ -517,35 +528,40 @@ La plataforma será utilizada antes, durante y después de una operación de fum
 
 La plataforma debe presentar una interfaz web clara y organizada, que permita a los usuarios acceder de manera sencilla a las principales funciones relacionadas con la gestión de sus operaciones. La información de las parcelas, misiones, condiciones meteorológicas y monitoreo deberá presentarse de manera comprensible, diferenciando las funcionalidades disponibles según el rol del usuario.
 
-</p>
-
-**1.2.2.2.7. Business Outcomes**
-
-<ul> 
-    <li>Centralizar la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.</li> 
-    <li>Ofrecer una solución tecnológica especializada para la gestión de operaciones agrícolas.</li> 
-    <li>Facilitar la organización y disponibilidad de información relacionada con las misiones de fumigación.</li> 
+<ul>
+  <li>Reducción del 40% en el tiempo y costo de la aplicación de pesticidas frente a los métodos tradicionales.</li>
+  <li>Reducción en el tiempo de respuesta ante una infestación de plagas gracias al monitoreo continuo de los cultivos.</li>
+  <li>Aumento del 25% en la retención de clientes después del primer ciclo de cultivo.</li>
+  <li>Incremento del 40% en la adopción de funciones premium tras el periodo de prueba gratuito.</li>
 </ul>
 
-**1.2.2.2.8. User Outcomes**
+**1.2.2.2.3. User Assumptions**
 
-<ul> 
-    <li>Gestionar sus fincas y parcelas desde una única plataforma.</li> 
-    <li>Planificar misiones y definir las áreas de fumigación mediante un mapa.</li> 
-    <li>Consultar las condiciones meteorológicas antes de una misión.</li> 
-    <li>Monitorear el estado y ubicación del dron durante una operación.</li> 
-    <li>Consultar el historial y reportes de las misiones realizadas.</li> 
+<ul>
+  <li>Los usuarios principales son pequeños y medianos agricultores (PyMAs), así como ingenieros agrónomos y técnicos de campo.</li>
+  <li><strong>Necesidad:</strong> los agricultores priorizan soluciones que les ahorren tiempo y reduzcan la incertidumbre en el manejo de plagas.</li>
+  <li><strong>Comportamiento:</strong> los usuarios están dispuestos a adoptar nuevas tecnologías si la interfaz es intuitiva y el entrenamiento es mínimo.</li>
+  <li><strong>Dolor:</strong> la falta de datos en tiempo real sobre las operaciones de fumigación es un problema para la toma de decisiones.</li>
+  <li><strong>Contexto:</strong> los agricultores y técnicos prefieren supervisar operaciones desde dispositivos móviles debido a la distancia de las zonas de cultivo.</li>
 </ul>
 
-**1.2.2.2.9. Features**
+**1.2.2.2.4. User Outcome and Benefit Assumptions**
 
-<ul> <li>Módulo de gestión de fincas y parcelas.</li> 
-    <li>Mapa interactivo para selección del área de fumigación.</li> 
-    <li>Módulo de creación y gestión de misiones.</li> 
-    <li>Integración con API meteorológica.</li> 
-    <li>Módulo de monitoreo de drones con datos simulados.</li> 
-    <li>Historial y generación de reportes.</li> 
-    <li>Gestión de roles: agricultor, operador y técnico.</li> 
+<ul>
+  <li>Evitar pérdidas económicas por plagas.</li>
+  <li>Tener control de sus campos y parcelas.</li>
+  <li>Acceder a datos en tiempo real sobre las operaciones.</li>
+  <li>Mejorar la productividad y rentabilidad.</li>
+  <li>Reducir la exposición de los trabajadores a químicos peligrosos.</li>
+</ul>
+
+**1.2.2.2.5. Feature Assumptions**
+
+<ul>
+  <li><strong>Funcionalidad:</strong> los drones autónomos cubrirán las hectáreas de cultivo con mayor precisión y velocidad que los métodos tradicionales.</li>
+  <li><strong>Tecnología:</strong> la plataforma permitirá controlar y monitorear las operaciones de los drones desde la aplicación en tiempo real.</li>
+  <li><strong>Experiencia:</strong> la plataforma web/móvil será adoptada rápidamente incluso por usuarios con baja alfabetización digital.</li>
+  <li><strong>Integración:</strong> los reportes automáticos de fumigación, incluyendo área cubierta, insumos usados y tiempo, serán útiles para la gestión de las operaciones.</li>
 </ul>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
@@ -554,7 +570,7 @@ Hypothesis Statement 1
 
 <p align="justify">
 
-Creemos que centralizar la gestión de fincas, parcelas y misiones en una plataforma web permitirá a los agricultores organizar de manera más eficiente sus operaciones de fumigación. Sabremos que esto es cierto cuando los usuarios puedan gestionar estos elementos desde un único sistema y completen el flujo de planificación de una misión.
+We believe we will achieve a 40% reduction in spraying time and cost if small and medium farmers (PyMAs) attain precise and efficient crop coverage with the autonomous drone spraying feature.
 
 </p>
 
@@ -562,11 +578,25 @@ Hypothesis Statement 2
 
 <p align="justify">
 
-Creemos que permitir la selección del área de fumigación mediante un mapa interactivo facilitará la planificación de las misiones. Sabremos que esto es cierto cuando los usuarios puedan definir correctamente el área que desean fumigar utilizando el mapa.
+We believe we will achieve a faster response time to pest infestations if farmers and agricultural technical staff attain continuous, real-time visibility of field and drone status with the mission monitoring and control feature.
 
 </p>
 
-Hypothesis Statement 3
+**Hypothesis Statement 3**
+
+<p align="justify">
+
+We believe we will achieve higher platform adoption and customer retention if farmers with low digital literacy attain an intuitive and easy-to-learn experience with the web/mobile monitoring platform.
+
+</p>
+
+**Hypothesis Statement 4**
+
+<p align="justify">
+
+We believe we will achieve increased adoption of premium features and improved operational decision-making if farmers and technical staff attain valuable, ready-to-use operational data with the automated spraying and usage report feature.
+
+</p>
 
 <p align="justify">
 
@@ -585,7 +615,7 @@ Creemos que visualizar el estado y ubicación del dron durante una misión permi
 
 <div align="center">
 
-<img src="assets/ux/lean_ux_canvas.png" alt="Lean UX Canvas" width="1000"/>
+<img width="1557" height="1010" alt="export-canva-48djfk42n3h4Hand56nD" src="https://github.com/user-attachments/assets/2d3277d5-22a1-40bb-a3c9-ad852362d1ef" />
 
 </div>
 
@@ -593,27 +623,70 @@ Descripción:
 
 <p align="justify">
 
-El Lean UX Canvas de AgriDron Solutions permite organizar las principales hipótesis relacionadas con el problema, los usuarios, los resultados esperados y la solución propuesta. El canvas se utilizará como herramienta para orientar el diseño y validación de la plataforma, tomando como punto de partida las necesidades relacionadas con la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.
+El Lean UX Canvas (Iteración 1) resume el modelo de negocio de AgriDron Solutions. El <strong>Business Problem</strong> describe la necesidad de mejorar la forma en que los agricultores y el personal técnico gestionan las operaciones de fumigación. Las <strong>Solutions</strong> propuestas incluyen fumigación con drones, monitoreo en tiempo real y una app móvil/web. Los <strong>Business Outcomes</strong> esperados incluyen reducir el tiempo y costo de fumigación, disminuir el tiempo de respuesta ante infestaciones y aumentar la retención de clientes.
+
+</p>
+
+<p align="justify">
+
+En cuanto a los <strong>Users & Customers</strong>, los principales segmentos son los pequeños y medianos agricultores (PyMAs) y el personal técnico. Sus <strong>User Outcomes & Benefits</strong> incluyen tener mayor control de sus campos, acceder a información de sus operaciones y reducir su exposición a productos químicos. Las <strong>Hypotheses</strong> buscan validar si los usuarios están dispuestos a pagar por el servicio y si las funciones de fumigación, monitoreo y reporte generan valor. El siguiente paso será validar la disposición de pago y el valor percibido mediante entrevistas y pruebas piloto.
 
 </p>
 
 ### 1.3. Segmentos objetivo
 
-1.3.1. Agricultores
+#### 1.3.1. Pequeños y Medianos Agricultores (PyMAs)
 
 <p align="justify">
 
-Los agricultores constituyen el principal segmento objetivo de AgriDron Solutions. Son responsables de gestionar sus fincas y parcelas y requieren planificar las operaciones de fumigación que se realizarán mediante drones. La plataforma les permitirá registrar y administrar sus parcelas, definir las áreas de fumigación mediante un mapa, crear misiones, consultar las condiciones meteorológicas y revisar posteriormente el historial y los reportes de las operaciones.
+Este es el segmento principal de AgriDron Solutions. Está conformado por productores agrícolas con extensiones de 5 a 50 hectáreas, que cultivan principalmente para el mercado local y regional. Pueden trabajar de forma independiente o agrupados en cooperativas y buscan reducir costos y proteger el rendimiento de sus cultivos.
 
 </p>
-
-1.3.2. Operadores y técnicos
 
 <p align="justify">
 
-Los operadores y técnicos constituyen un segmento relacionado con la ejecución y supervisión de las operaciones de fumigación. Estos usuarios podrán interactuar con las funcionalidades asociadas a la gestión y monitoreo de las misiones, de acuerdo con los permisos correspondientes a cada rol.
+<strong>Características cuantitativas:</strong> edad entre 28 y 60 años, extensión de cultivo de 5 a 50 hectáreas, nivel educativo variado desde educación básica hasta técnica, familiaridad tecnológica media-baja, con adopción creciente de smartphones.
 
 </p>
+
+<p align="justify">
+
+<strong>Características cualitativas:</strong> su principal motivación es reducir costos y mejorar el rendimiento de sus cultivos. Sus principales problemas son las pérdidas por plagas, los costos de mano de obra y la falta de información para tomar decisiones.
+
+</p>
+
+<p align="justify">
+
+<strong>Relación con la solución:</strong> este segmento utilizará la plataforma para gestionar fincas y parcelas, seleccionar áreas de fumigación en el mapa, crear misiones, consultar el clima y revisar reportes e historial de sus operaciones.
+
+</p>
+
+#### 1.3.2. Personal Técnico (Ingenieros Agrónomos y Técnicos de Campo)
+
+<p align="justify">
+
+Este segmento está conformado por ingenieros agrónomos, técnicos agrícolas y operadores de drones. Son usuarios de la plataforma que se encargan de revisar la información, planificar las operaciones y supervisar las misiones de fumigación.
+
+</p>
+
+<p align="justify">
+
+<strong>Características cuantitativas:</strong> edad entre 22 y 45 años, formación técnica o universitaria en agronomía, ingeniería agrícola o carreras afines, experiencia de 1 a 15 años en campo, a cargo de la supervisión de múltiples parcelas o unidades productivas de forma simultánea.
+
+</p>
+
+<p align="justify">
+
+<strong>Características cualitativas:</strong> cuentan con mayor familiaridad tecnológica que el agricultor promedio y valoran herramientas que les ayuden a ahorrar tiempo. Su principal motivación es contar con información precisa para planificar las operaciones. Su principal problema es la dificultad para supervisar varios campos al mismo tiempo.
+
+</p>
+
+<p align="justify">
+
+<strong>Relación con la solución:</strong> este segmento utilizará la plataforma para revisar información de las operaciones, planificar y ejecutar misiones de fumigación mediante el software de control de drones y supervisar varias unidades productivas a la vez.
+
+</p>
+
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
@@ -793,6 +866,7 @@ Los operadores y técnicos constituyen un segmento relacionado con la ejecución
 ---
 
 ## 2.4. Big Picture EventStorming
+asdasdasdasdasfsdsd
 
 <div align="center">
 
