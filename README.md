@@ -1791,16 +1791,216 @@ El componente permite cambiar o adaptar el proveedor meteorológico sin modifica
 ---
 
 ## 4.7. Software Object-Oriented Design
+El diseño orientado a objetos representa los principales elementos del dominio y sus relaciones. El Project Statement solicita que los Class Diagrams incluyan clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones y multiplicidades cuando correspondan.
 
 ### 4.7.1. Class Diagrams
 
-![Class Diagram](assets/design/class_diagram.png)
+### 4.7.1.1. Field Management
 
-**Descripción:**
+```mermaid
+classDiagram
+    class Farm {
+        -Long id
+        -String name
+        -String location
+        -String ownerName
+        +register()
+        +update()
+        +getParcels()
+    }
+    class Parcel {
+        -Long id
+        -String name
+        -String cropType
+        -Double area
+        -String geometry
+        +defineArea()
+        +updateCrop()
+        +getGeometry()
+    }
+    class FumigationArea {
+        -Long id
+        -String geometry
+        -Double area
+        +calculateArea()
+        +updateGeometry()
+    }
+    class Crop {
+        -Long id
+        -String name
+        -String variety
+        +getInformation()
+    }
+    Farm "1" *-- "1..*" Parcel : contains
+    Parcel "1" *-- "0..*" FumigationArea : defines
+    Parcel "1" --> "1" Crop : has
+```
 
-[DESCRIPCIÓN.]
+### 4.7.1.2. Flight Operations
 
----
+```mermaid
+classDiagram
+    class Mission {
+        -Long id
+        -String code
+        -LocalDate scheduledDate
+        -MissionStatus status
+        -Double plannedArea
+        -Double treatedArea
+        +create()
+        +schedule()
+        +start()
+        +pause()
+        +complete()
+        +cancel()
+    }
+    class Drone {
+        -Long id
+        -String serialNumber
+        -String model
+        -Double capacity
+        -DroneStatus status
+        +assignToMission()
+        +updateStatus()
+        +getLocation()
+    }
+    class Incident {
+        -Long id
+        -String type
+        -String description
+        -LocalDateTime occurredAt
+        +register()
+        +update()
+    }
+    class OperationStatus {
+        -Double latitude
+        -Double longitude
+        -String status
+        -LocalDateTime timestamp
+        +updateLocation()
+    }
+    class MissionStatus {
+        <<enumeration>>
+        PLANNED
+        AUTHORIZED
+        IN_PROGRESS
+        PAUSED
+        COMPLETED
+        CANCELLED
+    }
+    class DroneStatus {
+        <<enumeration>>
+        AVAILABLE
+        ASSIGNED
+        IN_FLIGHT
+        PAUSED
+        MAINTENANCE
+    }
+    Mission "1" --> "1" Drone : uses
+    Mission "1" *-- "0..*" Incident : records
+    Mission "1" *-- "0..*" OperationStatus : tracks
+    Mission --> MissionStatus : has
+    Drone --> DroneStatus : has
+```
+
+### 4.7.1.3. Weather Integration
+
+```mermaid
+classDiagram
+    class WeatherService {
+        -WeatherApiClient apiClient
+        +getCurrentConditions(latitude, longitude)
+        +getForecast(latitude, longitude)
+        +evaluateConditions(weather)
+    }
+    class WeatherApiClient {
+        <<interface>>
+        +getCurrentWeather(latitude, longitude)
+        +getForecast(latitude, longitude)
+    }
+    class WeatherCondition {
+        -Double temperature
+        -Double humidity
+        -Double windSpeed
+        -Double precipitation
+        -LocalDateTime observedAt
+        +isSuitable()
+    }
+    class WeatherAlert {
+        -Long id
+        -String severity
+        -String message
+        -LocalDateTime createdAt
+        +generate()
+    }
+    WeatherService --> WeatherApiClient : uses
+    WeatherService --> WeatherCondition : evaluates
+    WeatherService --> WeatherAlert : generates
+```
+
+### 4.7.1.4. Analytics & Reporting
+
+```mermaid
+classDiagram
+    class MissionReport {
+        -Long id
+        -Double treatedArea
+        -Double appliedVolume
+        -String observations
+        -LocalDateTime generatedAt
+        +generate()
+        +export()
+    }
+    class MissionHistory {
+        -Long id
+        -Long missionId
+        -LocalDateTime completedAt
+        -String finalStatus
+        +register()
+        +findByDate()
+    }
+    class OperationalMetric {
+        -String name
+        -Double value
+        -String unit
+        +calculate()
+    }
+    MissionReport "1" --> "1" MissionHistory : summarizes
+    MissionReport "1" *-- "0..*" OperationalMetric : contains
+```
+
+### 4.7.1.5. Shared / Identity
+
+```mermaid
+classDiagram
+    class User {
+        -Long id
+        -String name
+        -String email
+        -String passwordHash
+        -UserRole role
+        +authenticate()
+        +updateProfile()
+    }
+    class UserRole {
+        <<enumeration>>
+        FARMER
+        OPERATOR
+        TECHNICIAN
+    }
+    class Farmer {
+        +requestService()
+        +viewReports()
+    }
+    class Operator {
+        +createMission()
+        +monitorMission()
+        +registerResult()
+    }
+    User <|-- Farmer
+    User <|-- Operator
+    User --> UserRole : has
+```
 
 ## 4.8. Database Design
 
