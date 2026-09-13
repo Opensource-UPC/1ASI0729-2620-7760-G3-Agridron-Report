@@ -25,16 +25,16 @@
 
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
     <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">U202421392</th>
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
     </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
+     <tr>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Ramirez Gutierrez, Gabriel</th>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[Nicho Huillcañahui , Edwin Noe]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241G306</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
@@ -59,7 +59,8 @@
 | :--- | :--- | :--- | :--- |
 | 0.1.0 | 05/09/2026 | Sebastián Sayago | Creación inicial del documento. |
 | 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
-
+| 0.3.0 | 09/09/2026 | Nicho Huillcañahui | Implementación inicial del capitulo 2 |
+| 0.4.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
 
 
 ---
@@ -872,81 +873,39 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 
 ### 2.3.1. User Personas
 
-#### Persona 1: [NOMBRE]
+#### Persona 1: 
 
-![User Persona 1](assets/needfinding/persona_01.png)
+<img width="1050" height="2188" alt="User persona segmento 1" src="https://github.com/user-attachments/assets/d52e16b8-b266-4790-a3d5-8aa907449ce4" />
 
-**Descripción:**
+#### Persona 2: 
 
-[DESCRIPCIÓN.]
-
-**Necesidades:**
-
-- [NECESIDAD 1]
-- [NECESIDAD 2]
-
-**Objetivos:**
-
-- [OBJETIVO 1]
-- [OBJETIVO 2]
-
-**Frustraciones:**
-
-- [FRUSTRACIÓN 1]
-- [FRUSTRACIÓN 2]
-
-#### Persona 2: [NOMBRE]
-
-![User Persona 2](assets/needfinding/persona_02.png)
-
-[REPETIR ESTRUCTURA.]
+<img width="1050" height="2188" alt="User Persona Segmento 2" src="https://github.com/user-attachments/assets/c326f206-6eaa-4301-8275-89d98a6dba66" />
 
 ### 2.3.2. User Task Matrix
 
 <img width="1437" height="1007" alt="User task Matrix" src="https://github.com/user-attachments/assets/fce876c3-5752-4e1d-b58d-0591756dbe83" />
 
-[EXPLICAR EL JOURNEY MAP Y LOS PRINCIPALES PUNTOS DE DOLOR.]
-
-**//REVISAR ESTA REVISION.** **OJASOCHSMR**
-
 ### 2.3.3. User Journey Mapping
 
+**Segmento 1:**
 <div align="center">
-
 <img width="1732" height="882" alt="User Journey Map- Segmento 1" src="https://github.com/user-attachments/assets/f17ce534-c771-47b4-94a9-a1d32b50d0a7" />
-
-
 </div>
 
-**Descripción:**
-
-<p align="justify">
-
-[EXPLICAR EL JOURNEY MAP Y LOS PRINCIPALES PUNTOS DE DOLOR.]
-
-**//REVISAR ESTA REVISION.** **OJASOCHSMR**
-
+**Segmento 2:**
+<div align="center">
 <img width="1632" height="881" alt="User Journey Map- Segmento 2" src="https://github.com/user-attachments/assets/1b8a52d1-592e-40cc-a4fc-b59d3e753b67" />
-
-**Descripción:**
-
-</p>
+</div>
 
 ### 2.3.4. Empathy Mapping
 
-<div align="center">
+**Segmento 1:**
 
-![Empathy Mapping](assets/needfinding/empathy_mapping.png)
+<img width="1050" height="1858" alt="Empathy map Segmento 1" src="https://github.com/user-attachments/assets/28a8792f-1bf5-440b-a0ac-2d8713a8fe18" />
 
-</div>
+**Segmento 2:**
 
-**Descripción:**
-
-<p align="justify">
-
-[EXPLICAR EL EMPATHY MAP.]
-
-</p>
+<img width="1050" height="1948" alt="Empathy map - Segmento 2" src="https://github.com/user-attachments/assets/d661caf2-fbcf-4763-a194-b1915d1a1116" />
 
 ---
 
