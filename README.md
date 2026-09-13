@@ -24,28 +24,25 @@
 </div>
 
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
-    <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
-    </tr>
+ 
      <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CODIGO]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202421392</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</td>
     </tr>
+     <tr>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Ramirez Gutierrez, Gabriel</th>
+    </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241G306</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[Nicho Huillcañahui , Edwin Noe]</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U202422642]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastian Leonardo</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">{U202222473]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202222473</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Vasquez Roncal, Alexander Felipe</td>
     </tr>
 </table>
@@ -63,6 +60,8 @@
 | :--- | :--- | :--- | :--- |
 | 0.1.0 | 05/09/2026 | Sebastián Sayago | Creación inicial del documento. |
 | 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
+| 0.3.0 | 09/09/2026 | Nicho Huillcañahui | Implementación inicial del capitulo 2 |
+| 0.4.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
 | 0.3.0 | 07/09/2026 | Sebastián Sayago | Implementación del capitulo 2 |
 | 0.4.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 3 |
 | 0.5.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
@@ -863,9 +862,7 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 | **Nombres y Apellidos:**<br>Carlos Mendoza<br><br>**Edad:**<br>38 años<br><br>**Distrito / Valle:**<br>Desconocido<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Operador técnico y proveedor de servicios de pulverización agrícola con drones (6 años de experiencia)<br><br>**Fecha:**<br>PORCONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR) | ![Captura Entrevista Carlos Mendoza](https://placehold.co/320x180?text=Entrevista+Carlos+Mendoza)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)* | **Perfil Tecnológico y Dispositivos:**<br>Gestiona sus operaciones principalmente a través de su smartphone Android para llamadas, mensajería y revisión de aplicaciones meteorológicas; complementa la administración de servicios cargando datos en hojas de cálculo de Microsoft Excel en computadora cuando maneja varios trabajos en paralelo. Utiliza WhatsApp y llamadas telefónicas como sus canales centrales y casi exclusivos de interacción con los clientes.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Presta servicios de aplicación preventiva y curativa contra plagas para diversos agricultores. La coordinación previa es altamente desgastante: atiende solicitudes dispersas entre chats de WhatsApp y llamadas, debiendo solicitar manualmente datos como cultivo, área estimada, producto a aplicar y obstáculos físicos (árboles, postes, cables). Enfrenta problemas frecuentes por la falta de precisión geográfica de los clientes, quienes envían referencias verbales o ubicaciones aproximadas, así como discrepancias entre las hectáreas estimadas 'al ojo' y la superficie real en campo. Registra los servicios de forma descentralizada entre notas rápidas en el celular, hojas sueltas y tablas de Excel. Ante variaciones imprevistas de viento o lluvia, se ve obligado a pausar la labor notificando por chat o llamada, afrontando dificultades para justificar y demostrar con exactitud cuánto terreno se avanzó y cuánto quedó pendiente por falta de un registro técnico respaldado.<br><br>**Personalidad y Metas:**<br>Experimentado, pragmático, responsable y enfocado en la eficiencia operativa. Busca reducir el desgaste administrativo de coordinar clientes dispersos, evitar malentendidos sobre el área realmente trabajada y centralizar su flujo de trabajo en una sola plataforma.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente conveniente contar con un calendario web integrado a mapas satelitales para visualizar linderos y áreas antes de desplazarse al predio. Valora positivamente el registro digital de bitácoras (hectáreas tratadas, volumen de insumo aplicado y notas de campo) como un soporte transparente para prevenir reclamos o discrepancias con los clientes. Aprueba la integración de alertas meteorológicas preventivas para orientar la toma de decisiones antes de movilizar equipos al campo. Destaca como prioridad que la plataforma consolide cliente, terreno, fechas y reportes finales en un único sistema accesible. |
 | **Nombres y Apellidos:**<br>Daniel Arias Dextre (en representación de su padre, Roberto Arias)<br><br>**Edad:**<br>24 años<br><br>**Distrito / Valle:**<br>Reside en Lima (operaciones familiares en el Valle de Ica y Arequipa)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Asistente técnico operativo y co-gestor del negocio familiar de fumigación agroaérea<br><br>**Fecha:**<br>CONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR) | ![Captura Entrevista Daniel Arias](https://placehold.co/320x180?text=Entrevista+Daniel+Arias)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)* | **Perfil Tecnológico y Dispositivos:**<br>En campo apoyan las operaciones mediante un smartphone Android convencional con navegador Google Chrome y una tablet de apoyo para revisión fotográfica. Para el cierre administrativo utilizan una laptop en casa donde procesan facturas y organizan datos en Microsoft Excel. Sus herramientas digitales de coordinación se reducen a WhatsApp para comunicación continua con clientes y Google Calendar para agendar fechas tentativas, experimentando desorden y pérdida recurrente de información por la dispersión de mensajes.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Prestan servicios técnicos en fundos de algodón, espárrago y vid (principalmente en Ica y eventualmente Arequipa) utilizando un dron DJI T10 (capacidad de 10 litros) junto a una unidad de respaldo para labores preventivas y curativas, cubriendo de 15 a 25 ha/día con una tarifa de 35 a 55 soles/ha. La coordinación previa es caótica y manual: los clientes envían referencias imprecisas, en lugar de coordenadas exactas, obligándolos a recorrer el perímetro a pie junto al capataz perdiendo más de 30 minutos antes de operar. Enfrentan desconfianza y quejas por diferencias entre las hectáreas estimadas por el agricultor y las reales, así como por la dispersión del producto causada por el viento. No cuentan con bitácora digital: anotan datos en libretas de papel que luego transcriben a Excel y conservan fotos dispersas en el móvil. Monitorean el clima con Google Weather y un anemómetro manual (límite operativo de 15 km/h), pero carecen de actas formales para justificar suspensiones por mal tiempo o lluvias imprevistas ante el cliente.<br><br>**Personalidad y Metas:**<br>Joven, colaborador, pragmático, observador y con visión modernizadora sobre el negocio de su padre. Busca eliminar la duplicidad de tareas administrativas, agilizar la llegada a campo y erradicar las discrepancias con los clientes mediante registros digitales claros.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente provechoso visualizar las parcelas prediseñadas en un mapa satelital interactivo, estimando un ahorro de 20 a 30 minutos por servicio al suprimir la inspección perimetral manual. Valora la bitácora web rápida para ingresar hectáreas tratadas e insumos desde el celular al culminar el vuelo, eliminando el papeleo de libretas y otorgando transparencia al cliente. Asimismo, respalda firmemente la planificación anticipada de rutas de vuelo sobre el mapa antes de arribar al predio para ejecutar la labor directamente y optimizar la ventana climática. |
 
-
 ### 2.2.3. Análisis de entrevistas
-
 
 | Segmento Objetivo | Análisis Estadístico y Cualitativo de Hallazgos |
 | :--- | :--- |
@@ -878,51 +875,13 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 
 ### 2.3.1. User Personas
 
-#### Persona 1: Laura Ramos Paucar
+#### Persona 1: 
 
-![User Persona 1](assets/needfinding/User_Person_segment_1.png)
+<img width="1050" height="2188" alt="User persona segmento 1" src="https://github.com/user-attachments/assets/d52e16b8-b266-4790-a3d5-8aa907449ce4" />
 
-**Descripción:**
+#### Persona 2: 
 
-Laura Ramos Paucar representa a una pequeña o mediana agricultora responsable de administrar sus cultivos y coordinar las actividades realizadas en sus parcelas. Tiene conocimientos sobre las labores agrícolas y utiliza herramientas digitales principalmente para comunicarse, consultar información y llevar algunos registros administrativos.
-
-Durante sus actividades de campo utiliza principalmente un smartphone Android, mientras que para tareas administrativas recurre a una laptop. Utiliza herramientas como WhatsApp, banca móvil y hojas de cálculo, pero la información relacionada con sus parcelas y fumigaciones se encuentra distribuida entre diferentes medios.
-
-Laura busca incorporar tecnologías que le permitan mejorar la planificación de las fumigaciones, reducir desperdicios y contar con mayor control sobre las operaciones realizadas en sus terrenos.
-
-**Necesidades:**
-
-- Registrar y consultar sus fincas y parcelas de manera organizada.
-- Delimitar las áreas de fumigación mediante un mapa.
-- Consultar las condiciones meteorológicas antes de programar una fumigación.
-- Conocer el avance de las operaciones realizadas en sus parcelas.
-- Mantener un historial digital de las fumigaciones realizadas.
-- Obtener reportes que le permitan verificar las operaciones y tomar decisiones.
-- Utilizar la plataforma fácilmente desde un smartphone.
-
-**Objetivos:**
-
-- Reducir los costos asociados a la fumigación y al uso innecesario de insumos.
-- Evitar retrasos ocasionados por condiciones climáticas desfavorables.
-- Mejorar el control y seguimiento de las operaciones de fumigación.
-- Mantener información organizada sobre sus parcelas y tratamientos.
-- Contar con evidencia digital de las operaciones realizadas.
-- Tomar decisiones oportunas basándose en información de sus cultivos y operaciones.
-
-**Frustraciones:**
-
-- Llevar información de las parcelas y fumigaciones en diferentes medios, como cuadernos, Excel y WhatsApp.
--  No contar con una delimitación digital de las áreas de trabajo.
--  Tener poca visibilidad sobre el avance real de una fumigación.
--  Tener que reprogramar operaciones debido a cambios repentinos del clima.
--  Depender de la información proporcionada por trabajadores u operadores para verificar el trabajo realizado.
--  Generar costos adicionales cuando una aplicación debe repetirse o no se realiza correctamente.
-
-#### Persona 2: Diego mendoza Rios
-
-![User Persona 2](assets/needfinding/User_Person_segment_2.png)
-
-**Descripción:**
+<img width="1050" height="2188" alt="User Persona Segmento 2" src="https://github.com/user-attachments/assets/c326f206-6eaa-4301-8275-89d98a6dba66" />
 
 Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
 en pilotaje de multirrotores y aplicación aeroagrícola. Opera un dron con tanque de 40 litros para tratamientos preventivos y curativos
@@ -930,111 +889,29 @@ en frutales (palto, vid, cítricos) y panllevar en el valle de Cañete y valles 
 en el predio agrícola de su familia y presta servicios a terceros, enfrentando a diario la falta de cartografía formal de
 los clientes y el desgaste de coordinar cotizaciones por chat.
 
-**Necesidades:**
-
-- arcelas predelimitadas: Recibir órdenes de servicio con las parcelas previamente delimitadas en mapas satelitales interactivos.
-- Actas de servicio digitales: Emitir actas de servicio digitales inmediatas con el registro de hectáreas y químicos de fumigación aplicados.
-- Monitoreo en tiempo real: Monitorear en tiempo real los parámetros del dron (batería, ubicación y avance) para mejorar el control de vuelo y dar transparencia al agricultor.
-
-**Objetivos:**
-
-- Optimizar el costo por hectárea reduciendo el consumo de agua y productos químicos en cada campaña.
-- Conseguir un control de plagas uniforme sin dañar la estructura vegetal ni las flores de los cultivos.
-- Eliminar la exposición directa de las cuadrillas de campo a sustancias químicas peligrosas.
-- Tener trazabilidad de los tratamientos realizados mediante un registro digital formal que reemplace libretas y apuntes en papel.
-
-**Frustraciones:**
-
-- erder entre 30 y 60 minutos recorriendo linderos o marcando la trayectoria a pie porque el cliente solo da referencias verbales.
-- Desconfianza y reclamos de productores que calculan sus áreas "al tanteo" y dudan del reporte del GPS del dron.
-- Dificultad para sustentar cancelaciones o pausas cuando el viento supera los 12-15 km/h sin un reporte técnico formal.
-- Saturación administrativa por responder mensajes y cotizar mientras realiza calibraciones de campo.
-
-### 2.3.2. User Task Matrix
-
-| Tarea                                                      | Usuario            | Frecuencia | Importancia | Dificultad | Problemas actuales                                                                                     |
-|:-----------------------------------------------------------|:-------------------|:-----------|:------------|:-----------|:-------------------------------------------------------------------------------------------------------|
-| **Delimitar linderos y mapas de parcela**                  | Diego Mendoza Ríos | Alta       | Alta        | Alta       | Recibe referencias verbales imprecisas y debe caminar los predios a pie para marcar obstáculos.        |
-| **Monitorear parámetros de vuelo y avance en tiempo real** | Diego Mendoza Ríos | Alta       | Alta        | Media      | Falta de una interfaz unificada para verificar batería, GPS y tanque simultáneamente.                  |
-| **Emitir actas/reportes de servicio digitales**            | Diego Mendoza Ríos | Alta       | Alta        | Media      | Genera desconfianza y reclamos de cobro con clientes que calculan hectáreas "al tanteo".               |
-| **Sustentar pausas climáticas por viento**                 | Diego Mendoza Ríos | Media      | Alta        | Alta       | Dificultad para justificar cancelaciones cuando el viento supera los 12-15 km/h sin un reporte formal. |
-| **Gestionar cotizaciones y agendas de trabajo**            | Diego Mendoza Ríos | Alta       | Media       | Alta       | Saturación administrativa por responder mensajes y cotizar mientras realiza maniobras de campo.        |
+<img width="1437" height="1007" alt="User task Matrix" src="https://github.com/user-attachments/assets/fce876c3-5752-4e1d-b58d-0591756dbe83" />
 
 ### 2.3.3. User Journey Mapping
 
+**Segmento 1:**
 <div align="center">
-
-![User Journey Mapping](assets/needfinding/user_journey_mapping.png)
-
+<img width="1732" height="882" alt="User Journey Map- Segmento 1" src="https://github.com/user-attachments/assets/f17ce534-c771-47b4-94a9-a1d32b50d0a7" />
 </div>
 
-**Descripción:**
-
-<p align="justify">
-
-El journey map representa el recorrido actual ("as-is") de <strong>Diego Mendoza Ríos</strong>, piloto operador de dron que presta servicios de fumigación aeroagrícola a terceros, desde el primer contacto con el cliente hasta el cierre del servicio. Se seleccionó a este usuario porque concentra las tareas de mayor frecuencia e importancia identificadas en el User Task Matrix (2.3.2).
-
-</p>
-
-<p align="justify">
-
-El recorrido se organizó en seis etapas: <em>Contacto y Cotización</em>, <em>Coordinación y Delimitación</em>, <em>Preparación en Campo</em>, <em>Ejecución del Vuelo</em>, <em>Imprevisto Climático</em> y <em>Cierre y Reporte</em>. La curva emocional muestra que el nivel de satisfacción de Diego se mantiene predominantemente negativo a lo largo del proceso, con dos caídas críticas: durante la <strong>coordinación y delimitación</strong> del predio, y durante el manejo de un <strong>imprevisto climático</strong>.
-
-</p>
-
-<p align="justify">
-
-Los principales puntos de dolor identificados son:
-
-</p>
-
-<ul>
-  <li>Dependencia de referencias verbales imprecisas del cliente, lo que obliga a Diego a recorrer los linderos a pie durante 30 a 60 minutos.</li>
-  <li>Cálculo manual de insumos (agua y químicos) a partir de un área estimada, con riesgo de sub- o sobre-dosificación.</li>
-  <li>Ausencia de una interfaz unificada para monitorear batería, GPS y tanque del dron durante el vuelo.</li>
-  <li>Falta de evidencia técnica objetiva (por ejemplo, velocidad del viento) para sustentar pausas o cancelaciones ante el cliente.</li>
-  <li>Desconfianza del cliente respecto al área reportada por el GPS del dron, al no contar con actas de servicio digitales.</li>
-</ul>
-
-<p align="justify">
-
-Estos hallazgos evidencian que la mayor fuente de fricción no ocurre durante el vuelo en sí, sino en las etapas de coordinación previa y de cierre del servicio, donde la falta de digitalización genera pérdida de tiempo, sobrecostos y desconfianza. Estos puntos de dolor sustentan directamente las necesidades identificadas para Diego en el apartado 2.3.1 (parcelas predelimitadas, actas de servicio digitales y monitoreo en tiempo real).
-
-</p>
+**Segmento 2:**
+<div align="center">
+<img width="1632" height="881" alt="User Journey Map- Segmento 2" src="https://github.com/user-attachments/assets/1b8a52d1-592e-40cc-a4fc-b59d3e753b67" />
+</div>
 
 ### 2.3.4. Empathy Mapping
 
-<div align="center">
+**Segmento 1:**
 
-![Empathy Mapping](assets/needfinding/empathy_mapping.png)
+<img width="1050" height="1858" alt="Empathy map Segmento 1" src="https://github.com/user-attachments/assets/28a8792f-1bf5-440b-a0ac-2d8713a8fe18" />
 
-</div>
+**Segmento 2:**
 
-**Descripción:**
-
-<p align="justify">
-
-El empathy map profundiza en la perspectiva de <strong>Diego Mendoza Ríos</strong>, piloto operador de dron, complementando el recorrido descrito en el User Journey Mapping (2.3.3). Se construyó sobre los seis campos del modelo clásico (Dice, Piensa, Hace, Siente, Dolores y Ganancias) a partir de la información recogida en las entrevistas (2.2) y su perfil de usuario (2.3.1).
-
-</p>
-
-<p align="justify">
-
-En los cuadrantes de <strong>Dice</strong> y <strong>Piensa</strong> se evidencia que Diego necesita información del terreno con anticipación y expresa dudas sobre si sus reportes generarán confianza en el cliente sin evidencia digital de respaldo. En <strong>Hace</strong> y <strong>Siente</strong> se observa que gran parte de sus acciones —recorrer linderos a pie, calcular insumos manualmente y coordinar por WhatsApp— están directamente asociadas a frustración, tensión y desgaste emocional, lo que confirma que el problema no es solo operativo, sino también de carga cognitiva y confianza.
-
-</p>
-
-<p align="justify">
-
-En la franja de <strong>Dolores</strong> se consolidan las fricciones más críticas: la pérdida de tiempo delimitando prediales, la falta de un reporte técnico para sustentar pausas por viento, los reclamos por desconfianza en el área reportada y la sobrecarga administrativa. En contraste, la franja de <strong>Ganancias</strong> recoge lo que Diego valoraría de una solución digital: parcelas predelimitadas, actas de servicio digitales, monitoreo en tiempo real y evidencia objetiva que respalde su trabajo frente al cliente.
-
-</p>
-
-<p align="justify">
-
-El empathy map confirma que los puntos de dolor identificados en el journey map no son hechos aislados, sino que están conectados con una necesidad más profunda de <strong>confianza y respaldo digital</strong> en cada etapa del servicio, lo cual refuerza la justificación de las funcionalidades propuestas para AgriDron Solutions (delimitación satelital, reportes automáticos y monitoreo en tiempo real).
-
-</p>
+<img width="1050" height="1948" alt="Empathy map - Segmento 2" src="https://github.com/user-attachments/assets/d661caf2-fbcf-4763-a194-b1915d1a1116" />
 
 ---
 
