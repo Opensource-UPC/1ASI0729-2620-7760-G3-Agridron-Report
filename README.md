@@ -2192,14 +2192,176 @@ classDiagram
 ```
 
 ## 4.8. Database Design
+El diseño de base de datos define la persistencia necesaria para los objetos de cada Bounded Context. Para almacenamiento relacional se especifican tablas, columnas, claves primarias, claves foráneas y relaciones entre tablas. Esto corresponde a lo solicitado por el Project Statement.
 
 ### 4.8.1. Database Diagrams
 
-![Database Diagram](assets/database/database_diagram.png)
+### 4.8.1.1. Field Management
 
-**Descripción:**
+```mermaid
+erDiagram
+    FARM ||--o{ PARCEL : contains
+    PARCEL ||--o{ FUMIGATION_AREA : defines
+    CROP ||--o{ PARCEL : assigned_to
+    FARM {
+        BIGINT id PK
+        VARCHAR name
+        VARCHAR location
+        VARCHAR owner_name
+        TIMESTAMP created_at
+    }
+    PARCEL {
+        BIGINT id PK
+        BIGINT farm_id FK
+        BIGINT crop_id FK
+        VARCHAR name
+        DECIMAL area
+        TEXT geometry
+        TIMESTAMP created_at
+    }
+    FUMIGATION_AREA {
+        BIGINT id PK
+        BIGINT parcel_id FK
+        DECIMAL area
+        TEXT geometry
+        TIMESTAMP created_at
+    }
+    CROP {
+        BIGINT id PK
+        VARCHAR name
+        VARCHAR variety
+    }
+```
 
-[DESCRIPCIÓN.]
+**Restricciones principales:** `FARM.id`, `PARCEL.id`, `FUMIGATION_AREA.id` y `CROP.id` son PK; las FK mantienen las relaciones indicadas; `area` debe ser mayor que cero.
+
+### 4.8.1.2. Flight Operations
+
+```mermaid
+erDiagram
+    PARCEL ||--o{ MISSION : scheduled_for
+    DRONE ||--o{ MISSION : assigned_to
+    MISSION ||--o{ INCIDENT : records
+    MISSION ||--o{ OPERATION_STATUS : tracks
+    PARCEL {
+        BIGINT id PK
+        VARCHAR name
+    }
+    DRONE {
+        BIGINT id PK
+        VARCHAR serial_number UK
+        VARCHAR model
+        DECIMAL capacity
+        VARCHAR status
+    }
+    MISSION {
+        BIGINT id PK
+        BIGINT parcel_id FK
+        BIGINT drone_id FK
+        VARCHAR code UK
+        DATE scheduled_date
+        VARCHAR status
+        DECIMAL planned_area
+        DECIMAL treated_area
+        TIMESTAMP started_at
+        TIMESTAMP completed_at
+    }
+    INCIDENT {
+        BIGINT id PK
+        BIGINT mission_id FK
+        VARCHAR type
+        TEXT description
+        TIMESTAMP occurred_at
+    }
+    OPERATION_STATUS {
+        BIGINT id PK
+        BIGINT mission_id FK
+        DECIMAL latitude
+        DECIMAL longitude
+        VARCHAR status
+        TIMESTAMP recorded_at
+    }
+```
+
+**Restricciones principales:** `MISSION.parcel_id` y `MISSION.drone_id` son FK; `MISSION.code` y `DRONE.serial_number` son únicos; las FK de `INCIDENT` y `OPERATION_STATUS` referencian `MISSION.id`; las áreas no pueden ser negativas.
+
+### 4.8.1.3. Weather Integration
+
+Para el MVP, la información meteorológica puede almacenarse únicamente cuando sea necesaria para mantener trazabilidad de la evaluación asociada a una misión.
+
+```mermaid
+erDiagram
+    MISSION ||--o{ WEATHER_OBSERVATION : evaluated_with
+    WEATHER_OBSERVATION ||--o{ WEATHER_ALERT : may_generate
+    MISSION {
+        BIGINT id PK
+        VARCHAR code UK
+    }
+    WEATHER_OBSERVATION {
+        BIGINT id PK
+        BIGINT mission_id FK
+        DECIMAL temperature
+        DECIMAL humidity
+        DECIMAL wind_speed
+        DECIMAL precipitation
+        TIMESTAMP observed_at
+    }
+    WEATHER_ALERT {
+        BIGINT id PK
+        BIGINT observation_id FK
+        VARCHAR severity
+        TEXT message
+        TIMESTAMP created_at
+    }
+```
+
+**Restricciones principales:** `WEATHER_OBSERVATION.mission_id` y `WEATHER_ALERT.observation_id` son FK; los valores meteorológicos deben validarse según la fuente; cada observación conserva su fecha y hora.
+
+### 4.8.1.4. Analytics & Reporting
+
+```mermaid
+erDiagram
+    MISSION ||--|| MISSION_REPORT : generates
+    MISSION_REPORT ||--o{ OPERATIONAL_METRIC : contains
+    MISSION {
+        BIGINT id PK
+        VARCHAR code UK
+    }
+    MISSION_REPORT {
+        BIGINT id PK
+        BIGINT mission_id FK,UK
+        DECIMAL treated_area
+        DECIMAL applied_volume
+        TEXT observations
+        TIMESTAMP generated_at
+    }
+    OPERATIONAL_METRIC {
+        BIGINT id PK
+        BIGINT report_id FK
+        VARCHAR name
+        DECIMAL value
+        VARCHAR unit
+    }
+```
+
+**Restricciones principales:** `MISSION_REPORT.mission_id` es FK y UNIQUE para mantener una relación uno a uno con la misión; `OPERATIONAL_METRIC.report_id` referencia `MISSION_REPORT.id`; `treated_area` y `applied_volume` no pueden ser negativos.
+
+## 4.8.1.5. Vista integrada de persistencia
+
+```mermaid
+flowchart LR
+    FM["Field Management"]
+    FO["Flight Operations"]
+    WI["Weather Integration"]
+    AR["Analytics & Reporting"]
+    FM -->|"Parcel information"| FO
+    FO -->|"Mission"| WI
+    WI -->|"Weather evaluation"| FO
+    FO -->|"Completed mission"| AR
+```
+
+La separación por Bounded Context conserva responsabilidades claras, mientras que las relaciones entre contextos permiten soportar el flujo principal del negocio.
+
 
 ---
 
