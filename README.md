@@ -855,11 +855,6 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 | **Nombres y Apellidos:**<br>Carlos Mendoza<br><br>**Edad:**<br>38 años<br><br>**Distrito / Valle:**<br>Desconocido<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Operador técnico y proveedor de servicios de pulverización agrícola con drones (6 años de experiencia)<br><br>**Fecha:**<br>PORCONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR) | ![Captura Entrevista Carlos Mendoza](https://placehold.co/320x180?text=Entrevista+Carlos+Mendoza)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)* | **Perfil Tecnológico y Dispositivos:**<br>Gestiona sus operaciones principalmente a través de su smartphone Android para llamadas, mensajería y revisión de aplicaciones meteorológicas; complementa la administración de servicios cargando datos en hojas de cálculo de Microsoft Excel en computadora cuando maneja varios trabajos en paralelo. Utiliza WhatsApp y llamadas telefónicas como sus canales centrales y casi exclusivos de interacción con los clientes.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Presta servicios de aplicación preventiva y curativa contra plagas para diversos agricultores. La coordinación previa es altamente desgastante: atiende solicitudes dispersas entre chats de WhatsApp y llamadas, debiendo solicitar manualmente datos como cultivo, área estimada, producto a aplicar y obstáculos físicos (árboles, postes, cables). Enfrenta problemas frecuentes por la falta de precisión geográfica de los clientes, quienes envían referencias verbales o ubicaciones aproximadas, así como discrepancias entre las hectáreas estimadas 'al ojo' y la superficie real en campo. Registra los servicios de forma descentralizada entre notas rápidas en el celular, hojas sueltas y tablas de Excel. Ante variaciones imprevistas de viento o lluvia, se ve obligado a pausar la labor notificando por chat o llamada, afrontando dificultades para justificar y demostrar con exactitud cuánto terreno se avanzó y cuánto quedó pendiente por falta de un registro técnico respaldado.<br><br>**Personalidad y Metas:**<br>Experimentado, pragmático, responsable y enfocado en la eficiencia operativa. Busca reducir el desgaste administrativo de coordinar clientes dispersos, evitar malentendidos sobre el área realmente trabajada y centralizar su flujo de trabajo en una sola plataforma.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente conveniente contar con un calendario web integrado a mapas satelitales para visualizar linderos y áreas antes de desplazarse al predio. Valora positivamente el registro digital de bitácoras (hectáreas tratadas, volumen de insumo aplicado y notas de campo) como un soporte transparente para prevenir reclamos o discrepancias con los clientes. Aprueba la integración de alertas meteorológicas preventivas para orientar la toma de decisiones antes de movilizar equipos al campo. Destaca como prioridad que la plataforma consolide cliente, terreno, fechas y reportes finales en un único sistema accesible. |
 | **Nombres y Apellidos:**<br>Daniel Arias Dextre (en representación de su padre, Roberto Arias)<br><br>**Edad:**<br>24 años<br><br>**Distrito / Valle:**<br>Reside en Lima (operaciones familiares en el Valle de Ica y Arequipa)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Asistente técnico operativo y co-gestor del negocio familiar de fumigación agroaérea<br><br>**Fecha:**<br>CONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR) | ![Captura Entrevista Daniel Arias](https://placehold.co/320x180?text=Entrevista+Daniel+Arias)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)* | **Perfil Tecnológico y Dispositivos:**<br>En campo apoyan las operaciones mediante un smartphone Android convencional con navegador Google Chrome y una tablet de apoyo para revisión fotográfica. Para el cierre administrativo utilizan una laptop en casa donde procesan facturas y organizan datos en Microsoft Excel. Sus herramientas digitales de coordinación se reducen a WhatsApp para comunicación continua con clientes y Google Calendar para agendar fechas tentativas, experimentando desorden y pérdida recurrente de información por la dispersión de mensajes.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Prestan servicios técnicos en fundos de algodón, espárrago y vid (principalmente en Ica y eventualmente Arequipa) utilizando un dron DJI T10 (capacidad de 10 litros) junto a una unidad de respaldo para labores preventivas y curativas, cubriendo de 15 a 25 ha/día con una tarifa de 35 a 55 soles/ha. La coordinación previa es caótica y manual: los clientes envían referencias imprecisas, en lugar de coordenadas exactas, obligándolos a recorrer el perímetro a pie junto al capataz perdiendo más de 30 minutos antes de operar. Enfrentan desconfianza y quejas por diferencias entre las hectáreas estimadas por el agricultor y las reales, así como por la dispersión del producto causada por el viento. No cuentan con bitácora digital: anotan datos en libretas de papel que luego transcriben a Excel y conservan fotos dispersas en el móvil. Monitorean el clima con Google Weather y un anemómetro manual (límite operativo de 15 km/h), pero carecen de actas formales para justificar suspensiones por mal tiempo o lluvias imprevistas ante el cliente.<br><br>**Personalidad y Metas:**<br>Joven, colaborador, pragmático, observador y con visión modernizadora sobre el negocio de su padre. Busca eliminar la duplicidad de tareas administrativas, agilizar la llegada a campo y erradicar las discrepancias con los clientes mediante registros digitales claros.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente provechoso visualizar las parcelas prediseñadas en un mapa satelital interactivo, estimando un ahorro de 20 a 30 minutos por servicio al suprimir la inspección perimetral manual. Valora la bitácora web rápida para ingresar hectáreas tratadas e insumos desde el celular al culminar el vuelo, eliminando el papeleo de libretas y otorgando transparencia al cliente. Asimismo, respalda firmemente la planificación anticipada de rutas de vuelo sobre el mapa antes de arribar al predio para ejecutar la labor directamente y optimizar la ventana climática. |
 
-
-
-
-### 2.2.3. Análisis de entrevistas
-
 ### 2.2.3. Análisis de entrevistas
 
 | Segmento Objetivo | Análisis Estadístico y Cualitativo de Hallazgos |
@@ -908,18 +903,18 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 
 ### 2.3.2. User Task Matrix
 
-[PEGAR / CONSTRUIR AQUÍ LA MATRIZ DE TAREAS.]
+<img width="1437" height="1007" alt="User task Matrix" src="https://github.com/user-attachments/assets/fce876c3-5752-4e1d-b58d-0591756dbe83" />
 
-| Tarea | Usuario | Frecuencia | Importancia | Dificultad | Problemas actuales |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| [TAREA] | [USUARIO] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [PROBLEMA] |
-| [TAREA] | [USUARIO] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [ALTA/MEDIA/BAJA] | [PROBLEMA] |
+[EXPLICAR EL JOURNEY MAP Y LOS PRINCIPALES PUNTOS DE DOLOR.]
+
+**//REVISAR ESTA REVISION.** **OJASOCHSMR**
 
 ### 2.3.3. User Journey Mapping
 
 <div align="center">
 
-![User Journey Mapping](assets/needfinding/user_journey_mapping.png)
+<img width="1732" height="882" alt="User Journey Map- Segmento 1" src="https://github.com/user-attachments/assets/f17ce534-c771-47b4-94a9-a1d32b50d0a7" />
+
 
 </div>
 
@@ -928,6 +923,12 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 <p align="justify">
 
 [EXPLICAR EL JOURNEY MAP Y LOS PRINCIPALES PUNTOS DE DOLOR.]
+
+**//REVISAR ESTA REVISION.** **OJASOCHSMR**
+
+<img width="1632" height="881" alt="User Journey Map- Segmento 2" src="https://github.com/user-attachments/assets/1b8a52d1-592e-40cc-a4fc-b59d3e753b67" />
+
+**Descripción:**
 
 </p>
 
