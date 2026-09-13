@@ -61,10 +61,10 @@
 | 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
 | 0.3.0 | 09/09/2026 | Nicho Huillcañahui | Implementación inicial del capitulo 2 |
 | 0.4.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
-| 0.3.0 | 07/09/2026 | Sebastián Sayago | Implementación del capitulo 2 |
-| 0.4.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 3 |
+| 0.3.0 | 07/09/2026 | Nicho Huillcañahui | Implementación del capitulo 2 |
+| 0.4.0 | 08/09/2026 | ??? | Implementación del capitulo 3 |
 | 0.5.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
-| 1.0.0 | 15/09/2026 | Sebastián Sayago | Evidencia completa de entrega AV1 |
+| 1.0.0 | 15/09/2026 | Agridron | Evidencia completa de entrega AV1 |
 
 
 
@@ -181,7 +181,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>[CRITERIO ESPECÍFICO 1]</strong></td>
+      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
       <td>
         <p><b>[INTEGRANTE 1]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -189,23 +189,40 @@
         <b>[INTEGRANTE 2]</b><br>
         <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
         <br><br>
-        <b>[REPETIR PARA TODOS LOS INTEGRANTES]</b>
+        <p><b>[INTEGRANTE 3]</b><br></p>
+        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <br>
+        <b>[INTEGRANTE 4]</b><br>
+        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <br><br>
+           <p><b>[INTEGRANTE 5]</b><br></p>
+        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <br></b>
       </td>
-      <td>[CONCLUSIÓN]</td>
+      <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
     </tr>
     <tr>
-      <td><strong>[CRITERIO ESPECÍFICO 2]</strong></td>
-      <td>
+      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
+       <td>
         <p><b>[INTEGRANTE 1]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
         <b>[INTEGRANTE 2]</b><br>
         <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
         <br><br>
-        <b>[REPETIR PARA TODOS LOS INTEGRANTES]</b>
+        <p><b>[INTEGRANTE 3]</b><br></p>
+        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <br>
+        <b>[INTEGRANTE 4]</b><br>
+        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <br><br>
+        <p><b>[INTEGRANTE 5]</b><br></p>
+        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <br></b>
       </td>
-      <td>[CONCLUSIÓN]</td>
+      <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
     </tr>
+    <tr>
   </tbody>
 </table>
 ---
@@ -341,10 +358,10 @@ Pilares de valor:
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      Mi nombre es Sebastián Leonardo Sayago Vidal, estudio Ingeniería de Software en la UPC, estando presente en el 5to ciclo de la carrera. Me considero una persona responsable al cumplir con mi trabajo asignado en el plazo respectivo. Busco que lo que tenga que hacer, se haga de la forma correcta y tenga una buena presentación y priorizar la calidad de mis resultados.
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Mi participación incluyó la definición y documentación de las prácticas que utilizará el equipo para mantener la consistencia del proyecto durante su desarrollo, considerando la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue.
     </td>
   </tr>
   <tr>
