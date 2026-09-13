@@ -24,9 +24,10 @@
 </div>
 
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
-    <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">U202421392</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
+ 
+     <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202421392</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</td>
     </tr>
      <tr>
         <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
@@ -61,6 +62,11 @@
 | 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
 | 0.3.0 | 09/09/2026 | Nicho Huillcañahui | Implementación inicial del capitulo 2 |
 | 0.4.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
+| 0.3.0 | 07/09/2026 | Sebastián Sayago | Implementación del capitulo 2 |
+| 0.4.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 3 |
+| 0.5.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
+| 1.0.0 | 15/09/2026 | Sebastián Sayago | Evidencia completa de entrega AV1 |
+
 
 
 ---
@@ -734,7 +740,7 @@ A continuación, se detallan los cuadrantes estratégicos de AgriDron Solutions 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 <p align="justify">
-    
+
 A partir de los hallazgos obtenidos en el análisis competitivo y la matriz SWOT, se definen las estrategias y tácticas comerciales, técnicas y operativas que AgriDron Solutions implementará para posicionarse en el mercado:
 
 #### 1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)
@@ -742,7 +748,7 @@ Los competidores líderes manejan esquemas de precios enterprise con tarifas anu
 *   **Táctica de Pricing por Escala de Uso:** Implementar un modelo de suscripción flexible basado en rangos de hectáreas gestionadas o paquetes mensuales por temporada de fumigación, evitando contratos anuales forzosos.
 *   **Táctica Freemium de Entrada:** Ofrecer acceso gratuito para la delimitación de parcelas y consulta de métricas básicas de terreno, incentivando la conversión a planes de pago cuando el usuario requiera planificar rutas avanzadas de fumigación y monitorear condiciones meteorológicas.
 
-#### 2. Estrategia de Diferenciación por Interoperabilidad Abierta 
+#### 2. Estrategia de Diferenciación por Interoperabilidad Abierta
 Mientras que herramientas como Climate FieldView priorizan maquinaria terrestre con dispositivos propietarios y plataformas como DJI restringen su ecosistema a su propio hardware, AgriDron Solutions se posiciona como una plataforma web integradora:
 *   **Táctica de Gestión Abierta de Órdenes de Servicio:** Proveer una plataforma web accesible mediante APIs RESTful que permita registrar parcelas, programar órdenes de fumigación y actualizar bitácoras de trabajo de forma manual por el operador técnico, sin requerir sincronizaciones complejas ni depender de una marca específica de dron.
 *   **Táctica de Validación Climática Contextual:** Integrar servicios externos de pronóstico meteorológico hiperlocal directamente en el flujo de trazado de parcelas, alertando al usuario sobre velocidades de viento y humedad que provoquen deriva química antes de ejecutar la misión.
@@ -768,7 +774,7 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 
 **Preguntas del segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
 
-#### Bloque A: Perfil Demográfico y Tecnológico 
+#### Bloque A: Perfil Demográfico y Tecnológico
 1. ¿Cuál es su nombre, edad y en qué distrito o valle agrícola se encuentra ubicado su predio?
 2. ¿Qué tipos de cultivo maneja principalmente y cuántas hectáreas tiene bajo su administración?
 3. ¿Qué dispositivos utiliza con mayor frecuencia para coordinar sus labores (computadora, laptop, smartphone Android/iOS) y qué navegador web suele utilizar (Chrome, Edge, Safari)?
@@ -782,11 +788,11 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 *    **Why (Por qué):**
 7. ¿Por qué considera que los métodos de fumigación que utiliza hoy en día le generan sobrecostos, demoras o riesgos en su cosecha?
 
-*    **Who (Quién):** 
+*    **Who (Quién):**
 8. ¿Quiénes toman la decisión de programar una fumigación y cómo supervisa o verifica usted el trabajo realizado por los aplicadores en campo?
 
 
-*    **When (Cuándo):** 
+*    **When (Cuándo):**
 9. ¿Con qué frecuencia y en qué momentos de la temporada agrícola requiere aplicar tratamientos a sus cultivos?
 10. ¿Cuándo y por qué medio consulta el pronóstico del clima antes de fumigar, y cómo le afecta un cambio repentino de viento o lluvia durante la labor?
 
@@ -796,7 +802,7 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 *    **How (Cómo):**
 12. Si una plataforma web le permitiera dibujar sus parcelas sobre un mapa satelital para ordenar un servicio de dron, ¿cómo le resultaría más fácil hacerlo y qué apoyo requeriría para utilizarla?
 
-*    **How Much (Cuánto):** 
+*    **How Much (Cuánto):**
 13. ¿Cuánto consideraría razonable pagar mensualmente por un software web que le ayude a planificar y certificar los servicios de fumigación?
 
 #### Bloque C: Percepción sobre la Propuesta de Valor AgriDron Web
@@ -840,7 +846,7 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 
 
 ### 2.2.2. Registro de entrevistas
-Para la recolección de requerimientos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto:  **Segmento 1 (Agricultores y dueños de Fincas)** y **Segmento 2 (Operadores Técnicos de Fumigación con Drones)**. 
+Para la recolección de requerimientos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto:  **Segmento 1 (Agricultores y dueños de Fincas)** y **Segmento 2 (Operadores Técnicos de Fumigación con Drones)**.
 
 La evidencia audiovisual consolidada se encuentra alojada en Microsoft Stream a través del siguiente enlace institucional:
 * **Enlace al repositorio de video:** [Entrevistas Needfinding - AgriDron Solutions](https://web.microsoftstream.com/video/placeholder-agridron-needfinding) => LINK DEL VIDEO
@@ -863,10 +869,6 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 | **Segmento 1:**<br>Agricultores y Administradores de Fincas | **1. Variables Demográficas y Geográficas:**<br>• **Rango de edad:** La muestra presenta un espectro generacional distribuido en un 50% de jóvenes profesionales tecnificados (25 años) y un 50% de agricultores tradicionales de mayor experiencia.<br>• **Distribución geográfica:** 50% en el Valle de Ica (distrito de Subtanjalla) y 50% en valles costeros aledaños a Lima.<br>• **Tamaño de predio y cultivos:** Predominan cultivos de alta rentabilidad como frutales (uva de mesa, mandarina, palta) y hortalizas (espárrago), con áreas productivas que oscilan entre medianas (18 ha) y pequeñas parcelas familiares.<br><br>**2. Variables Tecnológicas y Canales de Interacción:**<br>• **Dispositivos móviles:** El 100% de los entrevistados utiliza smartphone Android como dispositivo primario de trabajo en campo.<br>• **Dispositivos de escritorio / Navegadores:** El 50% utiliza laptops para tareas administrativas al cierre del día, mientras que el 50% prescinde por completo de la computadora para la gestión agrícola. El 100% que navega en internet emplea Google Chrome.<br>• **Canales de comunicación y banca:** El 100% utiliza WhatsApp como herramienta prioritaria de coordinación operativa y transaccional con personal y proveedores, y el 100% recurre a aplicativos de banca móvil para el pago de jornales y servicios.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Métodos actuales y costos:** El 100% emplea métodos tradicionales combinados (tractores con barras/parihuelas y cuadrillas con mochilas manuales a motor), reportando un gasto de entre 180 a 200 soles por hectárea tratada en pasadas convencionales.<br>• **Inconvenientes fitosanitarios y de supervisión:** El 100% manifiesta frustración por la alta exposición de los operarios a agroquímicos, el excesivo consumo de agua/producto, la compactación del suelo y el daño físico a flores y ramas. La supervisión presencial resulta agotadora e ineficiente.<br>• **Registro cartográfico y administrativo:** El 100% carece de cartografía digital; los linderos se mantienen de memoria o en planos de papel antiguos, y los registros de insumos y fechas se llevan manualmente en cuadernos de campo (el 50% los traslada posteriormente a hojas de Excel).<br>• **Impacto climático:** El 100% sufre pérdidas directas de dinero por vientos imprevistos que causan deriva y evaporación del fitosanitario fuera del lote.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Delimitación satelital interactiva:** El 100% califica positivamente el mapeo sobre imágenes satelitales, destacando que un 50% prefiere trazo por clics en pantalla y un 50% sugiere delimitación asistida mediante GPS móvil o acompañamiento inicial.<br>• **Alertas meteorológicas:** El 100% considera indispensable recibir alertas preventivas automáticas de viento y humedad para evitar preparar caldo o coordinar visitas fallidas.<br>• **Seguimiento y reprogramación:** El 100% exige reportes visuales ágiles ante cancelaciones por mal clima que detallen claramente las hectáreas tratadas frente a las pendientes, con opción de reprogramación inmediata (idealmente vinculada a notificaciones breves).<br>• **Disposición a pagar:** Presentan una disposición de suscripción mensual que varía entre los 40 y 120 soles, directamente proporcional al tamaño del predio tecnificado. |
 | **Segmento 2:**<br>Operadores Técnicos y Proveedores de Fumigación con Drones | **1. Variables Demográficas y Perfil Profesional:**<br>• **Rango de edad:** La edad promedio observada se distribuye entre jóvenes técnicos en formación (24 a 25 años, 66.7%) y operadores consolidados (38 años, 33.3%).<br>• **Ámbito de operación:** Cobertura de valles de la costa central y sur (Cañete, Mala, Chincha, Ica y Arequipa).<br>• **Nivel formativo:** El 66.7% cuenta con formación técnica o universitaria en ciencias agrícolas (Ingeniería Agrícola / Agronomía) complementada con acreditaciones de pilotaje, mientras que el 33.3% posee una trayectoria práctica especializada de hasta 6 años en operación continua.<br><br>**2. Variables Tecnológicas y Ecosistema Digital:**<br>• **Equipamiento en campo:** El 100% utiliza smartphones Android para la coordinación diaria, un 66.7% opera además con tablets (integradas en la radiocontroladora del dron o de apoyo fotográfico) y el 100% usa laptops en gabinete para consolidación administrativa mediante Google Chrome.<br>• **Canales y herramientas de gestión:** El 100% depende de WhatsApp y llamadas telefónicas para cotizaciones y acuerdos de servicio; el 66.7% recurre a Google Calendar para agendar citas tentativas y el 100% utiliza hojas de cálculo (Google Sheets / Microsoft Excel) como bitácora y control de costos.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Capacidad de servicio y tarifas:** Operan drones multirrotor de 10 a 30 litros de capacidad para aplicaciones preventivas y curativas. El rendimiento diario promedio oscila entre 15 y 35 ha/día, con tarifas cobradas al cliente entre 35 y 90 soles por hectárea fumigada.<br>• **Dolor en delimitación y reconocimiento perimetral:** El 100% coincide en que la falta de coordenadas precisas o linderos satelitales formalizados genera pérdidas de 30 a 60 minutos por servicio al tener que caminar los terrenos a pie o realizar vuelos manuales previos de reconocimiento para ubicar obstáculos (postes, acequias, árboles).<br>• **Disputas de área y justificación técnica:** El 100% reporta desconfianza y fricciones frecuentes con los agricultores debido a diferencias entre el área calculada mediante mediciones referenciales y la superficie neta pulverizada que mide el GPS del dron. Asimismo, el 100% enfrenta dificultades para justificar suspensiones por ráfagas de viento mayores a 12-15 km/h al carecer de actas o sustentos meteorológicos formales ante el cliente.<br>• **Desgaste de coordinación:** El 100% califica como ineficiente y agotador el proceso de cotizar y ajustar horarios atendiendo mensajes dispersos mientras ejecutan maniobras en campo.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Mapas y parcelas predefinidas:** El 100% valida que recibir la parcela previamente trazada por el agricultor reduciría hasta un 80% el tiempo de alistamiento de vuelo en campo.<br>• **Bitácora digital inmediata:** El 100% considera de alta utilidad emitir un acta digital rápida al culminar la labor para registrar hectáreas reales, químicos de fumigación aplicados e incidencias, evitando disputas de cobro.<br>• **Alertas meteorológicas:** El 100% señala que las alertas climáticas integradas respaldan técnicamente la decisión de pausar o posponer una labor sin deteriorar la relación con el agricultor.<br>• **Monitoreo de estado en tiempo real:** El 100% de los consultados en este aspecto califica como una función fundamental visualizar el estado del dron (batería, ubicación , quimico restante,etc.) para brindar total transparencia y hacer un mejor trabajo. |
 
-
-
-
-
 ---
 
 ## 2.3. Needfinding
@@ -881,7 +883,11 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 
 <img width="1050" height="2188" alt="User Persona Segmento 2" src="https://github.com/user-attachments/assets/c326f206-6eaa-4301-8275-89d98a6dba66" />
 
-### 2.3.2. User Task Matrix
+Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
+en pilotaje de multirrotores y aplicación aeroagrícola. Opera un dron con tanque de 40 litros para tratamientos preventivos y curativos
+en frutales (palto, vid, cítricos) y panllevar en el valle de Cañete y valles vecinos (Mala, Quilmaná). Apoya las labores técnicas
+en el predio agrícola de su familia y presta servicios a terceros, enfrentando a diario la falta de cartografía formal de
+los clientes y el desgaste de coordinar cotizaciones por chat.
 
 <img width="1437" height="1007" alt="User task Matrix" src="https://github.com/user-attachments/assets/fce876c3-5752-4e1d-b58d-0591756dbe83" />
 
@@ -910,7 +916,6 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 ---
 
 ## 2.4. Big Picture EventStorming
-asdasdasdasdasfsdsd
 
 <div align="center">
 
@@ -922,7 +927,19 @@ asdasdasdasdasfsdsd
 
 <p align="justify">
 
-[EXPLICAR EL FLUJO GENERAL DEL DOMINIO, EVENTOS PRINCIPALES, ACTORES Y PROCESOS IDENTIFICADOS.]
+El Big Picture EventStorming representa el flujo completo del dominio de <strong>AgriDron Solutions</strong>, desde que un visitante crea su cuenta hasta el cierre del servicio de fumigación. Se construyó a partir de las user stories definidas en el apartado 3.1, agrupando los eventos de dominio (en naranja, redactados en pasado) según el actor que los origina (en amarillo) y, cuando corresponde, el sistema externo involucrado (en celeste).
+
+</p>
+
+<p align="justify">
+
+El flujo se organizó en dos grandes fases. La primera, <strong>Onboarding y Planificación de Misión</strong>, cubre desde la creación de la cuenta y el registro de la finca por parte del <em>Agricultor</em>, hasta la delimitación satelital del área de fumigación, la consulta de condiciones climáticas mediante la <em>Weather API</em>, la creación de la misión y su asignación a un <em>Operador</em> por parte del <em>Supervisor</em>. La segunda fase, <strong>Ejecución, Monitoreo y Cierre del Servicio</strong>, abarca el inicio de jornada del operador (validado por geocerca), la ejecución y monitoreo en tiempo real de los drones, el registro de incidencias en campo, y el cierre de la misión con la generación de reportes de productividad y eficiencia.
+
+</p>
+
+<p align="justify">
+
+Durante el ejercicio se identificaron tres <strong>hotspots</strong> (en rosado) que representan preguntas aún abiertas sobre reglas de negocio: qué ocurre cuando no hay operadores disponibles para asignar una misión, cómo se valida que el registro de horas del operador sea rechazado si se encuentra fuera de la geocerca autorizada, y quién tiene la potestad de aprobar una reprogramación cuando se registra una incidencia climática o técnica. Estos hotspots orientan directamente la definición de reglas de negocio que se detallarán en el Capítulo III (Requirements Specification).
 
 </p>
 
@@ -930,11 +947,23 @@ asdasdasdasdasfsdsd
 
 ## 2.5. Ubiquitous Language
 
-| Término | Definición |
-| :--- | :--- |
-| [TÉRMINO] | [DEFINICIÓN DENTRO DEL DOMINIO] |
-| [TÉRMINO] | [DEFINICIÓN DENTRO DEL DOMINIO] |
-| [TÉRMINO] | [DEFINICIÓN DENTRO DEL DOMINIO] |
+| Término                                   | Definición                                                                                                                                                                                                                            |
+|:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Finca**                                 | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas.                                                                |
+| **Parcela / Área de fumigación**          | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de dibujarla.         |
+| **Misión de fumigación**                  | Solicitud de servicio creada por un Agricultor sobre un área y un cultivo específicos. Atraviesa los estados *Pendiente*, *Asignada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida.                         |
+| **Geocerca**                              | Perímetro virtual asociado a una finca registrada, utilizado para validar automáticamente si un Operador se encuentra físicamente dentro del predio antes de iniciar el registro de su jornada de trabajo.                            |
+| **Jornada de trabajo**                    | Periodo de tiempo trabajado por un Operador en campo, cuyo registro se inicia automáticamente al confirmarse su ubicación dentro de la geocerca de la finca, o de forma manual con verificación del Supervisor si esto no es posible. |
+| **Operador**                              | Piloto certificado que ejecuta las misiones de fumigación en campo, monitorea los parámetros del dron durante el vuelo y reporta incidencias o avances de la operación.                                                               |
+| **Agricultor**                            | Usuario propietario o administrador de una o más fincas, responsable de registrar parcelas, crear misiones de fumigación y consultar el historial y los reportes de productividad de sus operaciones.                                 |
+| **Supervisor**                            | Usuario responsable de asignar misiones a operadores disponibles, monitorear en tiempo real el estado de los drones activos, gestionar el inventario de insumos y consultar reportes de eficiencia operativa.                         |
+| **Incidencia**                            | Evento imprevisto registrado por un Operador durante una misión en progreso (por ejemplo, clima adverso o falla técnica del equipo), que puede derivar en la pausa automática de la misión y una alerta al Supervisor.                |
+| **Acta de servicio**                      | Registro digital inmediato emitido al completar una misión, que detalla las hectáreas efectivamente fumigadas y los químicos aplicados, sirviendo como evidencia verificable frente al cliente.                                       |
+| **Reporte de productividad**              | Documento generado por el Agricultor que resume, por finca y rango de fechas, el área total fumigada, los insumos utilizados, las horas de operación, el costo por hectárea y el rendimiento estimado.                                |
+| **Reporte de eficiencia operativa**       | Documento generado por el Supervisor con métricas de desempeño como tiempo promedio por hectárea, costo por hectárea, eficiencia en el uso de insumos y horas-hombre invertidas, incluyendo comparativas entre operadores.            |
+| **Inventario de insumos**                 | Registro del stock disponible de pesticidas y fertilizantes gestionado por el Supervisor, con umbrales mínimos que generan alertas de reabastecimiento cuando el stock es crítico.                                                    |
+| **Condiciones climáticas**                | Información meteorológica obtenida de un servicio externo (Weather API) y consultada antes o durante una misión, utilizada para planificar operaciones y sustentar pausas por viento u otros factores adversos.                       |
+| **Dashboard de monitoreo en tiempo real** | Panel que muestra la posición GPS, el nivel de batería, el estado de vuelo y el avance porcentual de los drones activos, actualizado continuamente durante la ejecución de una misión.                                                |
 
 ---
 
@@ -997,7 +1026,7 @@ asdasdasdasdasfsdsd
 
 <p align="justify">
 
-Diagrama que muestra la relación entre los actores clave (agricultor, operador y supervisor), 
+Diagrama que muestra la relación entre los actores clave (agricultor, operador y supervisor),
 los objetivos estratégicos del proyecto y las funcionalidades necesarias para lograrlos
 
 </p>
@@ -1432,36 +1461,36 @@ El flujo comienza cuando un agricultor solicita un servicio de fumigación y ter
 
 ```mermaid
 flowchart LR
-    A["Agricultor / Cliente"] --> C1["Registrar parcela"]
-    C1 --> E1["Parcela registrada"]
-    E1 --> C2["Delimitar área de fumigación"]
-    C2 --> E2["Área de fumigación delimitada"]
-    E2 --> C3["Crear misión"]
-    C3 --> E3["Misión creada"]
-    E3 --> C4["Programar misión"]
-    C4 --> E4["Misión programada"]
-    E4 --> P1{"Política: verificar condiciones meteorológicas"}
-    P1 --> C5["Consultar condiciones meteorológicas"]
-    C5 --> E5["Condiciones meteorológicas obtenidas"]
-    E5 --> P2{"Política: evaluar condiciones"}
-    P2 -->|Condiciones favorables| E6["Misión autorizada"]
-    P2 -->|Condiciones desfavorables| E7["Alerta meteorológica generada"]
-    E6 --> C6["Iniciar operación"]
-    C6 --> E8["Operación iniciada"]
-    E8 --> C7["Monitorear operación"]
-    C7 --> E9["Estado de operación actualizado"]
-    E9 --> P3{"¿Ocurrió un incidente?"}
-    P3 -->|Sí| C8["Registrar incidente"]
-    C8 --> E10["Incidente registrado"]
-    E10 --> C7
-    P3 -->|No| C9["Finalizar operación"]
-    C9 --> E11["Operación finalizada"]
-    E11 --> C10["Registrar resultado"]
-    C10 --> E12["Resultado de misión registrado"]
-    E12 --> C11["Actualizar historial"]
-    C11 --> E13["Historial actualizado"]
-    E13 --> C12["Generar reporte"]
-    C12 --> E14["Reporte generado"]
+  A["Agricultor / Cliente"] --> C1["Registrar parcela"]
+  C1 --> E1["Parcela registrada"]
+  E1 --> C2["Delimitar área de fumigación"]
+  C2 --> E2["Área de fumigación delimitada"]
+  E2 --> C3["Crear misión"]
+  C3 --> E3["Misión creada"]
+  E3 --> C4["Programar misión"]
+  C4 --> E4["Misión programada"]
+  E4 --> P1{"Política: verificar condiciones meteorológicas"}
+  P1 --> C5["Consultar condiciones meteorológicas"]
+  C5 --> E5["Condiciones meteorológicas obtenidas"]
+  E5 --> P2{"Política: evaluar condiciones"}
+  P2 -->|Condiciones favorables| E6["Misión autorizada"]
+  P2 -->|Condiciones desfavorables| E7["Alerta meteorológica generada"]
+  E6 --> C6["Iniciar operación"]
+  C6 --> E8["Operación iniciada"]
+  E8 --> C7["Monitorear operación"]
+  C7 --> E9["Estado de operación actualizado"]
+  E9 --> P3{"¿Ocurrió un incidente?"}
+  P3 -->|Sí| C8["Registrar incidente"]
+  C8 --> E10["Incidente registrado"]
+  E10 --> C7
+  P3 -->|No| C9["Finalizar operación"]
+  C9 --> E11["Operación finalizada"]
+  E11 --> C10["Registrar resultado"]
+  C10 --> E12["Resultado de misión registrado"]
+  E12 --> C11["Actualizar historial"]
+  C11 --> E13["Historial actualizado"]
+  E13 --> C12["Generar reporte"]
+  C12 --> E14["Reporte generado"]
 ```
 
 ### Actores principales
@@ -1575,17 +1604,17 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 ```mermaid
 flowchart LR
-    FM["Field Management"]
-    FO["Flight Operations"]
-    WI["Weather Integration"]
-    AR["Analytics & Reporting"]
-    API["API Meteorológica Externa"]
+  FM["Field Management"]
+  FO["Flight Operations"]
+  WI["Weather Integration"]
+  AR["Analytics & Reporting"]
+  API["API Meteorológica Externa"]
 
-    FM -->|"Información de parcela y área"| FO
-    FO -->|"Solicitud de condiciones"| WI
-    WI -->|"Condiciones y alertas"| FO
-    FO -->|"Resultados de operación"| AR
-    WI -->|"Consulta"| API
+  FM -->|"Información de parcela y área"| FO
+  FO -->|"Solicitud de condiciones"| WI
+  WI -->|"Condiciones y alertas"| FO
+  FO -->|"Resultados de operación"| AR
+  WI -->|"Consulta"| API
 ```
 
 ### Justificación
@@ -1600,18 +1629,18 @@ El **System Context Diagram de C4** representa el sistema como una única unidad
 
 ```mermaid
 C4Context
-    title System Context Diagram - AgriDron Solutions
+  title System Context Diagram - AgriDron Solutions
 
-    Person(farmer, "Agricultor / Cliente", "Solicita servicios de fumigación y consulta información de sus operaciones.")
-    Person(operator, "Operador Técnico", "Gestiona parcelas, planifica misiones, monitorea operaciones y registra resultados.")
+  Person(farmer, "Agricultor / Cliente", "Solicita servicios de fumigación y consulta información de sus operaciones.")
+  Person(operator, "Operador Técnico", "Gestiona parcelas, planifica misiones, monitorea operaciones y registra resultados.")
 
-    System(agridron, "AgriDron Solutions", "Plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.")
+  System(agridron, "AgriDron Solutions", "Plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.")
 
-    System_Ext(weather, "API Meteorológica", "Servicio externo que proporciona información de condiciones meteorológicas.")
+  System_Ext(weather, "API Meteorológica", "Servicio externo que proporciona información de condiciones meteorológicas.")
 
-    Rel(farmer, agridron, "Solicita y consulta servicios")
-    Rel(operator, agridron, "Gestiona parcelas, misiones y operaciones")
-    Rel(agridron, weather, "Consulta condiciones meteorológicas")
+  Rel(farmer, agridron, "Solicita y consulta servicios")
+  Rel(operator, agridron, "Gestiona parcelas, misiones y operaciones")
+  Rel(agridron, weather, "Consulta condiciones meteorológicas")
 ```
 
 ### Descripción
@@ -1633,28 +1662,28 @@ Los contenedores definidos son:
 
 ```mermaid
 C4Container
-    title Container Diagram - AgriDron Solutions
+  title Container Diagram - AgriDron Solutions
 
-    Person(farmer, "Agricultor / Cliente", "Consulta información de sus servicios y operaciones.")
-    Person(operator, "Operador Técnico", "Gestiona parcelas, planifica y monitorea operaciones de fumigación.")
+  Person(farmer, "Agricultor / Cliente", "Consulta información de sus servicios y operaciones.")
+  Person(operator, "Operador Técnico", "Gestiona parcelas, planifica y monitorea operaciones de fumigación.")
 
-    System_Ext(weather, "API Meteorológica", "API externa para obtener condiciones meteorológicas.")
+  System_Ext(weather, "API Meteorológica", "API externa para obtener condiciones meteorológicas.")
 
-    System_Boundary(agridron, "AgriDron Solutions") {
-        Container(landing, "Landing Page", "HTML / CSS / JavaScript", "Presenta la solución y permite acceder a la plataforma.")
-        Container(frontend, "Frontend Angular", "Angular / TypeScript", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
-        Container(backend, "Backend Spring Boot", "Java / Spring Boot", "Implementa la lógica de negocio y expone la API REST.")
-        ContainerDb(database, "Base de Datos Relacional", "SQL", "Almacena usuarios, parcelas, misiones, drones, operaciones, incidentes y reportes.")
-    }
+  System_Boundary(agridron, "AgriDron Solutions") {
+    Container(landing, "Landing Page", "HTML / CSS / JavaScript", "Presenta la solución y permite acceder a la plataforma.")
+    Container(frontend, "Frontend Angular", "Angular / TypeScript", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
+    Container(backend, "Backend Spring Boot", "Java / Spring Boot", "Implementa la lógica de negocio y expone la API REST.")
+    ContainerDb(database, "Base de Datos Relacional", "SQL", "Almacena usuarios, parcelas, misiones, drones, operaciones, incidentes y reportes.")
+  }
 
-    Rel(farmer, landing, "Consulta información")
-    Rel(operator, landing, "Consulta información")
-    Rel(farmer, frontend, "Consulta servicios")
-    Rel(operator, frontend, "Gestiona operaciones")
-    Rel(landing, frontend, "Redirige al acceso de la plataforma")
-    Rel(frontend, backend, "Consume API REST", "HTTPS / JSON")
-    Rel(backend, database, "Lee y almacena información", "SQL")
-    Rel(backend, weather, "Consulta condiciones meteorológicas", "HTTPS / JSON")
+  Rel(farmer, landing, "Consulta información")
+  Rel(operator, landing, "Consulta información")
+  Rel(farmer, frontend, "Consulta servicios")
+  Rel(operator, frontend, "Gestiona operaciones")
+  Rel(landing, frontend, "Redirige al acceso de la plataforma")
+  Rel(frontend, backend, "Consume API REST", "HTTPS / JSON")
+  Rel(backend, database, "Lee y almacena información", "SQL")
+  Rel(backend, weather, "Consulta condiciones meteorológicas", "HTTPS / JSON")
 ```
 
 ### Descripción de los contenedores
@@ -1697,50 +1726,50 @@ La API RESTful implementada con Spring Boot concentra la lógica de aplicación 
 
 ```mermaid
 flowchart LR
-    subgraph API["RESTful API - Spring Boot"]
-        subgraph Presentation["API / Presentation Layer"]
-            FC["Field Controller"]
-            MC["Mission Controller"]
-            WC["Weather Controller"]
-            RC["Report Controller"]
-        end
-        subgraph Application["Application Layer"]
-            FS["Field Service"]
-            MS["Mission Service"]
-            WS["Weather Service"]
-            RS["Report Service"]
-        end
-        subgraph Domain["Domain Layer"]
-            FD["Field Management Domain"]
-            MD["Flight Operations Domain"]
-            WD["Weather Integration Domain"]
-            RD["Analytics & Reporting Domain"]
-        end
-        subgraph Infrastructure["Infrastructure Layer"]
-            FR["Field Repository"]
-            MR["Mission Repository"]
-            RR["Report Repository"]
-            WA["Weather API Adapter"]
-        end
+  subgraph API["RESTful API - Spring Boot"]
+    subgraph Presentation["API / Presentation Layer"]
+      FC["Field Controller"]
+      MC["Mission Controller"]
+      WC["Weather Controller"]
+      RC["Report Controller"]
     end
-    DB[("Relational Database")]
-    Weather["Weather API"]
-    FC --> FS
-    MC --> MS
-    WC --> WS
-    RC --> RS
-    FS --> FD
-    MS --> MD
-    WS --> WD
-    RS --> RD
-    FS --> FR
-    MS --> MR
-    RS --> RR
-    WS --> WA
-    FR --> DB
-    MR --> DB
-    RR --> DB
-    WA --> Weather
+    subgraph Application["Application Layer"]
+      FS["Field Service"]
+      MS["Mission Service"]
+      WS["Weather Service"]
+      RS["Report Service"]
+    end
+    subgraph Domain["Domain Layer"]
+      FD["Field Management Domain"]
+      MD["Flight Operations Domain"]
+      WD["Weather Integration Domain"]
+      RD["Analytics & Reporting Domain"]
+    end
+    subgraph Infrastructure["Infrastructure Layer"]
+      FR["Field Repository"]
+      MR["Mission Repository"]
+      RR["Report Repository"]
+      WA["Weather API Adapter"]
+    end
+  end
+  DB[("Relational Database")]
+  Weather["Weather API"]
+  FC --> FS
+  MC --> MS
+  WC --> WS
+  RC --> RS
+  FS --> FD
+  MS --> MD
+  WS --> WD
+  RS --> RD
+  FS --> FR
+  MS --> MR
+  RS --> RR
+  WS --> WA
+  FR --> DB
+  MR --> DB
+  RR --> DB
+  WA --> Weather
 ```
 
 ### Responsabilidades
@@ -1758,43 +1787,43 @@ La aplicación web utiliza Angular para proporcionar las funcionalidades de oper
 
 ```mermaid
 flowchart LR
-    subgraph Web["Web Application - Angular"]
-        subgraph Field["Field Management"]
-            Farms["Farm Management"]
-            Parcels["Parcel Management"]
-            Map["Interactive Map"]
-        end
-        subgraph Flight["Flight Operations"]
-            Missions["Mission Management"]
-            Schedule["Mission Calendar"]
-            Monitor["Mission Monitoring"]
-        end
-        subgraph Weather["Weather Integration"]
-            WeatherView["Weather View"]
-            Alerts["Weather Alerts"]
-        end
-        subgraph Reports["Analytics & Reporting"]
-            History["Mission History"]
-            ReportsView["Reports"]
-            Metrics["Operational Metrics"]
-        end
-        Shared["Shared Components / Authentication"]
-        APIClient["REST API Client"]
+  subgraph Web["Web Application - Angular"]
+    subgraph Field["Field Management"]
+      Farms["Farm Management"]
+      Parcels["Parcel Management"]
+      Map["Interactive Map"]
     end
-    API["RESTful API"]
-    Farms --> APIClient
-    Parcels --> APIClient
-    Map --> APIClient
-    Missions --> APIClient
-    Schedule --> APIClient
-    Monitor --> APIClient
-    WeatherView --> APIClient
-    Alerts --> APIClient
-    History --> APIClient
-    ReportsView --> APIClient
-    Metrics --> APIClient
-    Shared --> APIClient
-    APIClient --> API
+    subgraph Flight["Flight Operations"]
+      Missions["Mission Management"]
+      Schedule["Mission Calendar"]
+      Monitor["Mission Monitoring"]
+    end
+    subgraph Weather["Weather Integration"]
+      WeatherView["Weather View"]
+      Alerts["Weather Alerts"]
+    end
+    subgraph Reports["Analytics & Reporting"]
+      History["Mission History"]
+      ReportsView["Reports"]
+      Metrics["Operational Metrics"]
+    end
+    Shared["Shared Components / Authentication"]
+    APIClient["REST API Client"]
+  end
+  API["RESTful API"]
+  Farms --> APIClient
+  Parcels --> APIClient
+  Map --> APIClient
+  Missions --> APIClient
+  Schedule --> APIClient
+  Monitor --> APIClient
+  WeatherView --> APIClient
+  Alerts --> APIClient
+  History --> APIClient
+  ReportsView --> APIClient
+  Metrics --> APIClient
+  Shared --> APIClient
+  APIClient --> API
 ```
 
 ### Responsabilidades
@@ -1812,23 +1841,23 @@ La integración meteorológica se mantiene aislada para evitar acoplar directame
 
 ```mermaid
 flowchart LR
-    Backend["Backend Spring Boot"]
-    subgraph WeatherIntegration["Weather Integration"]
-        WS["Weather Service"]
-        WClient["Weather API Client"]
-        Mapper["Weather Response Mapper"]
-        Evaluator["Weather Condition Evaluator"]
-        Alert["Weather Alert Generator"]
-    end
-    External["External Weather API"]
-    Backend --> WS
-    WS --> WClient
-    WClient --> External
-    External --> WClient
-    WClient --> Mapper
-    Mapper --> Evaluator
-    Evaluator --> Alert
-    Alert --> Backend
+  Backend["Backend Spring Boot"]
+  subgraph WeatherIntegration["Weather Integration"]
+    WS["Weather Service"]
+    WClient["Weather API Client"]
+    Mapper["Weather Response Mapper"]
+    Evaluator["Weather Condition Evaluator"]
+    Alert["Weather Alert Generator"]
+  end
+  External["External Weather API"]
+  Backend --> WS
+  WS --> WClient
+  WClient --> External
+  External --> WClient
+  WClient --> Mapper
+  Mapper --> Evaluator
+  Evaluator --> Alert
+  Alert --> Backend
 ```
 
 El componente permite cambiar o adaptar el proveedor meteorológico sin modificar directamente los componentes de **Flight Operations**.
@@ -1844,218 +1873,380 @@ El diseño orientado a objetos representa los principales elementos del dominio 
 
 ```mermaid
 classDiagram
-    class Farm {
-        -Long id
-        -String name
-        -String location
-        -String ownerName
-        +register()
-        +update()
-        +getParcels()
-    }
-    class Parcel {
-        -Long id
-        -String name
-        -String cropType
-        -Double area
-        -String geometry
-        +defineArea()
-        +updateCrop()
-        +getGeometry()
-    }
-    class FumigationArea {
-        -Long id
-        -String geometry
-        -Double area
-        +calculateArea()
-        +updateGeometry()
-    }
-    class Crop {
-        -Long id
-        -String name
-        -String variety
-        +getInformation()
-    }
-    Farm "1" *-- "1..*" Parcel : contains
-    Parcel "1" *-- "0..*" FumigationArea : defines
-    Parcel "1" --> "1" Crop : has
+  class Farm {
+    -Long id
+    -String name
+    -String location
+    -String ownerName
+    +register()
+    +update()
+    +getParcels()
+  }
+  class Parcel {
+    -Long id
+    -String name
+    -String cropType
+    -Double area
+    -String geometry
+    +defineArea()
+    +updateCrop()
+    +getGeometry()
+  }
+  class FumigationArea {
+    -Long id
+    -String geometry
+    -Double area
+    +calculateArea()
+    +updateGeometry()
+  }
+  class Crop {
+    -Long id
+    -String name
+    -String variety
+    +getInformation()
+  }
+  Farm "1" *-- "1..*" Parcel : contains
+  Parcel "1" *-- "0..*" FumigationArea : defines
+  Parcel "1" --> "1" Crop : has
 ```
 
 ### 4.7.1.2. Flight Operations
 
 ```mermaid
 classDiagram
-    class Mission {
-        -Long id
-        -String code
-        -LocalDate scheduledDate
-        -MissionStatus status
-        -Double plannedArea
-        -Double treatedArea
-        +create()
-        +schedule()
-        +start()
-        +pause()
-        +complete()
-        +cancel()
-    }
-    class Drone {
-        -Long id
-        -String serialNumber
-        -String model
-        -Double capacity
-        -DroneStatus status
-        +assignToMission()
-        +updateStatus()
-        +getLocation()
-    }
-    class Incident {
-        -Long id
-        -String type
-        -String description
-        -LocalDateTime occurredAt
-        +register()
-        +update()
-    }
-    class OperationStatus {
-        -Double latitude
-        -Double longitude
-        -String status
-        -LocalDateTime timestamp
-        +updateLocation()
-    }
-    class MissionStatus {
-        <<enumeration>>
-        PLANNED
-        AUTHORIZED
-        IN_PROGRESS
-        PAUSED
-        COMPLETED
-        CANCELLED
-    }
-    class DroneStatus {
-        <<enumeration>>
-        AVAILABLE
-        ASSIGNED
-        IN_FLIGHT
-        PAUSED
-        MAINTENANCE
-    }
-    Mission "1" --> "1" Drone : uses
-    Mission "1" *-- "0..*" Incident : records
-    Mission "1" *-- "0..*" OperationStatus : tracks
-    Mission --> MissionStatus : has
-    Drone --> DroneStatus : has
+  class Mission {
+    -Long id
+    -String code
+    -LocalDate scheduledDate
+    -MissionStatus status
+    -Double plannedArea
+    -Double treatedArea
+    +create()
+    +schedule()
+    +start()
+    +pause()
+    +complete()
+    +cancel()
+  }
+  class Drone {
+    -Long id
+    -String serialNumber
+    -String model
+    -Double capacity
+    -DroneStatus status
+    +assignToMission()
+    +updateStatus()
+    +getLocation()
+  }
+  class Incident {
+    -Long id
+    -String type
+    -String description
+    -LocalDateTime occurredAt
+    +register()
+    +update()
+  }
+  class OperationStatus {
+    -Double latitude
+    -Double longitude
+    -String status
+    -LocalDateTime timestamp
+    +updateLocation()
+  }
+  class MissionStatus {
+    <<enumeration>>
+    PLANNED
+    AUTHORIZED
+    IN_PROGRESS
+    PAUSED
+    COMPLETED
+    CANCELLED
+  }
+  class DroneStatus {
+    <<enumeration>>
+    AVAILABLE
+    ASSIGNED
+    IN_FLIGHT
+    PAUSED
+    MAINTENANCE
+  }
+  Mission "1" --> "1" Drone : uses
+  Mission "1" *-- "0..*" Incident : records
+  Mission "1" *-- "0..*" OperationStatus : tracks
+  Mission --> MissionStatus : has
+  Drone --> DroneStatus : has
 ```
 
 ### 4.7.1.3. Weather Integration
 
 ```mermaid
 classDiagram
-    class WeatherService {
-        -WeatherApiClient apiClient
-        +getCurrentConditions(latitude, longitude)
-        +getForecast(latitude, longitude)
-        +evaluateConditions(weather)
-    }
-    class WeatherApiClient {
-        <<interface>>
-        +getCurrentWeather(latitude, longitude)
-        +getForecast(latitude, longitude)
-    }
-    class WeatherCondition {
-        -Double temperature
-        -Double humidity
-        -Double windSpeed
-        -Double precipitation
-        -LocalDateTime observedAt
-        +isSuitable()
-    }
-    class WeatherAlert {
-        -Long id
-        -String severity
-        -String message
-        -LocalDateTime createdAt
-        +generate()
-    }
-    WeatherService --> WeatherApiClient : uses
-    WeatherService --> WeatherCondition : evaluates
-    WeatherService --> WeatherAlert : generates
+  class WeatherService {
+    -WeatherApiClient apiClient
+    +getCurrentConditions(latitude, longitude)
+    +getForecast(latitude, longitude)
+    +evaluateConditions(weather)
+  }
+  class WeatherApiClient {
+    <<interface>>
+    +getCurrentWeather(latitude, longitude)
+    +getForecast(latitude, longitude)
+  }
+  class WeatherCondition {
+    -Double temperature
+    -Double humidity
+    -Double windSpeed
+    -Double precipitation
+    -LocalDateTime observedAt
+    +isSuitable()
+  }
+  class WeatherAlert {
+    -Long id
+    -String severity
+    -String message
+    -LocalDateTime createdAt
+    +generate()
+  }
+  WeatherService --> WeatherApiClient : uses
+  WeatherService --> WeatherCondition : evaluates
+  WeatherService --> WeatherAlert : generates
 ```
 
 ### 4.7.1.4. Analytics & Reporting
 
 ```mermaid
 classDiagram
-    class MissionReport {
-        -Long id
-        -Double treatedArea
-        -Double appliedVolume
-        -String observations
-        -LocalDateTime generatedAt
-        +generate()
-        +export()
-    }
-    class MissionHistory {
-        -Long id
-        -Long missionId
-        -LocalDateTime completedAt
-        -String finalStatus
-        +register()
-        +findByDate()
-    }
-    class OperationalMetric {
-        -String name
-        -Double value
-        -String unit
-        +calculate()
-    }
-    MissionReport "1" --> "1" MissionHistory : summarizes
-    MissionReport "1" *-- "0..*" OperationalMetric : contains
+  class MissionReport {
+    -Long id
+    -Double treatedArea
+    -Double appliedVolume
+    -String observations
+    -LocalDateTime generatedAt
+    +generate()
+    +export()
+  }
+  class MissionHistory {
+    -Long id
+    -Long missionId
+    -LocalDateTime completedAt
+    -String finalStatus
+    +register()
+    +findByDate()
+  }
+  class OperationalMetric {
+    -String name
+    -Double value
+    -String unit
+    +calculate()
+  }
+  MissionReport "1" --> "1" MissionHistory : summarizes
+  MissionReport "1" *-- "0..*" OperationalMetric : contains
 ```
 
 ### 4.7.1.5. Shared / Identity
 
 ```mermaid
 classDiagram
-    class User {
-        -Long id
-        -String name
-        -String email
-        -String passwordHash
-        -UserRole role
-        +authenticate()
-        +updateProfile()
-    }
-    class UserRole {
-        <<enumeration>>
-        FARMER
-        OPERATOR
-        TECHNICIAN
-    }
-    class Farmer {
-        +requestService()
-        +viewReports()
-    }
-    class Operator {
-        +createMission()
-        +monitorMission()
-        +registerResult()
-    }
-    User <|-- Farmer
-    User <|-- Operator
-    User --> UserRole : has
+  class User {
+    -Long id
+    -String name
+    -String email
+    -String passwordHash
+    -UserRole role
+    +authenticate()
+    +updateProfile()
+  }
+  class UserRole {
+    <<enumeration>>
+    FARMER
+    OPERATOR
+    TECHNICIAN
+  }
+  class Farmer {
+    +requestService()
+    +viewReports()
+  }
+  class Operator {
+    +createMission()
+    +monitorMission()
+    +registerResult()
+  }
+  User <|-- Farmer
+  User <|-- Operator
+  User --> UserRole : has
 ```
 
 ## 4.8. Database Design
+El diseño de base de datos define la persistencia necesaria para los objetos de cada Bounded Context. Para almacenamiento relacional se especifican tablas, columnas, claves primarias, claves foráneas y relaciones entre tablas. Esto corresponde a lo solicitado por el Project Statement.
 
 ### 4.8.1. Database Diagrams
 
-![Database Diagram](assets/database/database_diagram.png)
+### 4.8.1.1. Field Management
 
-**Descripción:**
+```mermaid
+erDiagram
+    FARM ||--o{ PARCEL : contains
+    PARCEL ||--o{ FUMIGATION_AREA : defines
+    CROP ||--o{ PARCEL : assigned_to
+    FARM {
+        BIGINT id PK
+        VARCHAR name
+        VARCHAR location
+        VARCHAR owner_name
+        TIMESTAMP created_at
+    }
+    PARCEL {
+        BIGINT id PK
+        BIGINT farm_id FK
+        BIGINT crop_id FK
+        VARCHAR name
+        DECIMAL area
+        TEXT geometry
+        TIMESTAMP created_at
+    }
+    FUMIGATION_AREA {
+        BIGINT id PK
+        BIGINT parcel_id FK
+        DECIMAL area
+        TEXT geometry
+        TIMESTAMP created_at
+    }
+    CROP {
+        BIGINT id PK
+        VARCHAR name
+        VARCHAR variety
+    }
+```
 
-[DESCRIPCIÓN.]
+**Restricciones principales:** `FARM.id`, `PARCEL.id`, `FUMIGATION_AREA.id` y `CROP.id` son PK; las FK mantienen las relaciones indicadas; `area` debe ser mayor que cero.
+
+### 4.8.1.2. Flight Operations
+
+```mermaid
+erDiagram
+    PARCEL ||--o{ MISSION : scheduled_for
+    DRONE ||--o{ MISSION : assigned_to
+    MISSION ||--o{ INCIDENT : records
+    MISSION ||--o{ OPERATION_STATUS : tracks
+    PARCEL {
+        BIGINT id PK
+        VARCHAR name
+    }
+    DRONE {
+        BIGINT id PK
+        VARCHAR serial_number UK
+        VARCHAR model
+        DECIMAL capacity
+        VARCHAR status
+    }
+    MISSION {
+        BIGINT id PK
+        BIGINT parcel_id FK
+        BIGINT drone_id FK
+        VARCHAR code UK
+        DATE scheduled_date
+        VARCHAR status
+        DECIMAL planned_area
+        DECIMAL treated_area
+        TIMESTAMP started_at
+        TIMESTAMP completed_at
+    }
+    INCIDENT {
+        BIGINT id PK
+        BIGINT mission_id FK
+        VARCHAR type
+        TEXT description
+        TIMESTAMP occurred_at
+    }
+    OPERATION_STATUS {
+        BIGINT id PK
+        BIGINT mission_id FK
+        DECIMAL latitude
+        DECIMAL longitude
+        VARCHAR status
+        TIMESTAMP recorded_at
+    }
+```
+
+**Restricciones principales:** `MISSION.parcel_id` y `MISSION.drone_id` son FK; `MISSION.code` y `DRONE.serial_number` son únicos; las FK de `INCIDENT` y `OPERATION_STATUS` referencian `MISSION.id`; las áreas no pueden ser negativas.
+
+### 4.8.1.3. Weather Integration
+
+Para el MVP, la información meteorológica puede almacenarse únicamente cuando sea necesaria para mantener trazabilidad de la evaluación asociada a una misión.
+
+```mermaid
+erDiagram
+    MISSION ||--o{ WEATHER_OBSERVATION : evaluated_with
+    WEATHER_OBSERVATION ||--o{ WEATHER_ALERT : may_generate
+    MISSION {
+        BIGINT id PK
+        VARCHAR code UK
+    }
+    WEATHER_OBSERVATION {
+        BIGINT id PK
+        BIGINT mission_id FK
+        DECIMAL temperature
+        DECIMAL humidity
+        DECIMAL wind_speed
+        DECIMAL precipitation
+        TIMESTAMP observed_at
+    }
+    WEATHER_ALERT {
+        BIGINT id PK
+        BIGINT observation_id FK
+        VARCHAR severity
+        TEXT message
+        TIMESTAMP created_at
+    }
+```
+
+**Restricciones principales:** `WEATHER_OBSERVATION.mission_id` y `WEATHER_ALERT.observation_id` son FK; los valores meteorológicos deben validarse según la fuente; cada observación conserva su fecha y hora.
+
+### 4.8.1.4. Analytics & Reporting
+
+```mermaid
+erDiagram
+    MISSION ||--|| MISSION_REPORT : generates
+    MISSION_REPORT ||--o{ OPERATIONAL_METRIC : contains
+    MISSION {
+        BIGINT id PK
+        VARCHAR code UK
+    }
+    MISSION_REPORT {
+        BIGINT id PK
+        BIGINT mission_id FK,UK
+        DECIMAL treated_area
+        DECIMAL applied_volume
+        TEXT observations
+        TIMESTAMP generated_at
+    }
+    OPERATIONAL_METRIC {
+        BIGINT id PK
+        BIGINT report_id FK
+        VARCHAR name
+        DECIMAL value
+        VARCHAR unit
+    }
+```
+
+**Restricciones principales:** `MISSION_REPORT.mission_id` es FK y UNIQUE para mantener una relación uno a uno con la misión; `OPERATIONAL_METRIC.report_id` referencia `MISSION_REPORT.id`; `treated_area` y `applied_volume` no pueden ser negativos.
+
+## 4.8.1.5. Vista integrada de persistencia
+
+```mermaid
+flowchart LR
+    FM["Field Management"]
+    FO["Flight Operations"]
+    WI["Weather Integration"]
+    AR["Analytics & Reporting"]
+    FM -->|"Parcel information"| FO
+    FO -->|"Mission"| WI
+    WI -->|"Weather evaluation"| FO
+    FO -->|"Completed mission"| AR
+```
+
+La separación por Bounded Context conserva responsabilidades claras, mientras que las relaciones entre contextos permiten soportar el flujo principal del negocio.
+
 
 ---
 
@@ -2185,30 +2376,30 @@ Se utilizará **GitFlow** como estrategia de organización de ramas.
 
 ```mermaid
 gitGraph
-    commit id: "Initial"
-    branch develop
-    checkout develop
-    commit id: "Setup project"
+  commit id: "Initial"
+  branch develop
+  checkout develop
+  commit id: "Setup project"
 
-    branch feature/field-management
-    checkout feature/field-management
-    commit id: "feat: add parcel management"
-    checkout develop
-    merge feature/field-management
+  branch feature/field-management
+  checkout feature/field-management
+  commit id: "feat: add parcel management"
+  checkout develop
+  merge feature/field-management
 
-    branch feature/flight-operations
-    checkout feature/flight-operations
-    commit id: "feat: add mission management"
-    checkout develop
-    merge feature/flight-operations
+  branch feature/flight-operations
+  checkout feature/flight-operations
+  commit id: "feat: add mission management"
+  checkout develop
+  merge feature/flight-operations
 
-    branch release/1.0.0
-    checkout release/1.0.0
-    commit id: "chore: prepare release"
-    checkout main
-    merge release/1.0.0
-    checkout develop
-    merge release/1.0.0
+  branch release/1.0.0
+  checkout release/1.0.0
+  commit id: "chore: prepare release"
+  checkout main
+  merge release/1.0.0
+  checkout develop
+  merge release/1.0.0
 ```
 
 ### Ramas principales
@@ -2421,7 +2612,7 @@ Ejemplo:
 
 ```html
 <section class="mission-summary" aria-labelledby="mission-title">
-    <h2 id="mission-title">Mission Summary</h2>
+  <h2 id="mission-title">Mission Summary</h2>
 </section>
 ```
 
@@ -2439,12 +2630,12 @@ Ejemplo:
 
 ```css
 .mission-card {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .mission-card__status {
-    font-weight: 600;
+  font-weight: 600;
 }
 ```
 
@@ -2464,7 +2655,7 @@ Ejemplo:
 const DEFAULT_MISSION_STATUS = "PENDING";
 
 function createMission(missionData) {
-    // implementation
+  // implementation
 }
 ```
 
@@ -2486,16 +2677,16 @@ Ejemplo:
 
 ```typescript
 export interface Mission {
-    id: number;
-    parcelId: number;
-    scheduledDate: string;
-    status: MissionStatus;
+  id: number;
+  parcelId: number;
+  scheduledDate: string;
+  status: MissionStatus;
 }
 
 export class MissionService {
-    createMission(mission: Mission): void {
-        // implementation
-    }
+  createMission(mission: Mission): void {
+    // implementation
+  }
 }
 ```
 
@@ -2532,10 +2723,10 @@ Ejemplo:
 @RequestMapping("/api/missions")
 public class MissionController {
 
-    @GetMapping("/{id}")
-    public MissionResponseDTO getMission(@PathVariable Long id) {
-        return missionService.getMission(id);
-    }
+  @GetMapping("/{id}")
+  public MissionResponseDTO getMission(@PathVariable Long id) {
+    return missionService.getMission(id);
+  }
 }
 ```
 
@@ -2595,27 +2786,27 @@ Se propone separar los componentes desplegables de acuerdo con la arquitectura d
 
 ```mermaid
 flowchart TB
-    User["User"]
-    GitHub["GitHub Repository"]
+  User["User"]
+  GitHub["GitHub Repository"]
 
-    subgraph Cloud["Cloud Environment"]
-        Landing["Landing Page"]
-        Frontend["Angular Frontend"]
-        Backend["Spring Boot REST API"]
-        Database[("Relational Database")]
-    end
+  subgraph Cloud["Cloud Environment"]
+    Landing["Landing Page"]
+    Frontend["Angular Frontend"]
+    Backend["Spring Boot REST API"]
+    Database[("Relational Database")]
+  end
 
-    Weather["External Weather API"]
+  Weather["External Weather API"]
 
-    User --> Landing
-    User --> Frontend
-    Frontend --> Backend
-    Backend --> Database
-    Backend --> Weather
+  User --> Landing
+  User --> Frontend
+  Frontend --> Backend
+  Backend --> Database
+  Backend --> Weather
 
-    GitHub -->|"CI/CD"| Landing
-    GitHub -->|"CI/CD"| Frontend
-    GitHub -->|"CI/CD"| Backend
+  GitHub -->|"CI/CD"| Landing
+  GitHub -->|"CI/CD"| Frontend
+  GitHub -->|"CI/CD"| Backend
 ```
 
 ## 5.1.4.3. Ambientes
@@ -2654,22 +2845,22 @@ Pipeline conceptual:
 
 ```mermaid
 flowchart LR
-    Commit["Push / Pull Request"]
-    Checkout["Checkout"]
-    Build["Build"]
-    Test["Automated Tests"]
-    Package["Package"]
-    DeployStaging["Deploy Staging"]
-    Validate["Validation"]
-    DeployProd["Deploy Production"]
+  Commit["Push / Pull Request"]
+  Checkout["Checkout"]
+  Build["Build"]
+  Test["Automated Tests"]
+  Package["Package"]
+  DeployStaging["Deploy Staging"]
+  Validate["Validation"]
+  DeployProd["Deploy Production"]
 
-    Commit --> Checkout
-    Checkout --> Build
-    Build --> Test
-    Test --> Package
-    Package --> DeployStaging
-    DeployStaging --> Validate
-    Validate --> DeployProd
+  Commit --> Checkout
+  Checkout --> Build
+  Build --> Test
+  Test --> Package
+  Package --> DeployStaging
+  DeployStaging --> Validate
+  Validate --> DeployProd
 ```
 
 ### Backend
@@ -2800,17 +2991,17 @@ La estrategia propuesta es:
 
 ```mermaid
 flowchart TD
-    A["feature/*"] --> B["Pull Request"]
-    B --> C{"Tests pass?"}
-    C -->|"No"| A
-    C -->|"Yes"| D["develop"]
-    D --> E["release/x.y.z"]
-    E --> F["Staging"]
-    F --> G{"Validation approved?"}
-    G -->|"No"| E
-    G -->|"Yes"| H["main"]
-    H --> I["Tag vX.Y.Z"]
-    I --> J["Production"]
+  A["feature/*"] --> B["Pull Request"]
+  B --> C{"Tests pass?"}
+  C -->|"No"| A
+  C -->|"Yes"| D["develop"]
+  D --> E["release/x.y.z"]
+  E --> F["Staging"]
+  F --> G{"Validation approved?"}
+  G -->|"No"| E
+  G -->|"Yes"| H["main"]
+  H --> I["Tag vX.Y.Z"]
+  I --> J["Production"]
 ```
 
 ## 5.1.4.9. Trazabilidad del deployment
