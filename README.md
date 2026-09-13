@@ -26,7 +26,11 @@
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
     <tr>
         <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+    </tr>
+     <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CODIGO]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
@@ -37,11 +41,11 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">[Nicho Huillcañahui , Edwin Noe]</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U202422642]</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastian Leonardo</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202222473</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">{U202222473]</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Vasquez Roncal, Alexander Felipe</td>
     </tr>
 </table>
@@ -59,6 +63,10 @@
 | :--- | :--- | :--- | :--- |
 | 0.1.0 | 05/09/2026 | Sebastián Sayago | Creación inicial del documento. |
 | 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
+| 0.3.0 | 07/09/2026 | Sebastián Sayago | Implementación del capitulo 2 |
+| 0.4.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 3 |
+| 0.5.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
+| 1.0.0 | 15/09/2026 | Sebastián Sayago | Evidencia completa de entrega AV1 |
 
 
 
