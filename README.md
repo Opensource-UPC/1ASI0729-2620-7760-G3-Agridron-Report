@@ -467,15 +467,20 @@ Pilares de valor:
     <td><b>Nombre:</b> Vasquez Roncal, Alexander Felipe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+        Mi nombre es Alexander Vasquez, tengo 27 años y actualmente
+        estoy cursando el cuarto ciclo de la carrera de Ingeniería de
+        Software. Soy una persona disciplinada, con capacidad para
+        trabajar en equipo. Mis habilidades técnicas incluyen lenguajes
+        de programación como Python y C + +. Me esfuerzo por
+        contribuir activamente al desarrollo del proyecto
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Mi participacion incluyo hacer la documentacion del capitulo 3 y 4, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.
     </td>
   </tr>
 </table>
