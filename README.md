@@ -437,7 +437,7 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_04.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/SebastiánSayago_Foto.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
