@@ -289,8 +289,8 @@
         <b>[INTEGRANTE 4]</b><br>
         <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
         <br><br>
-           <p><b>[INTEGRANTE 5]</b><br></p>
-        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+           <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
+        <p><em><b>AV1</b></em><br>implementacion del capitulo 3 y 4 ademas de creacion de mockups de landing pague and Web Aplication</p>
         <br></b>
       </td>
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
@@ -310,8 +310,9 @@
         <b>[INTEGRANTE 4]</b><br>
         <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
         <br><br>
-        <p><b>[INTEGRANTE 5]</b><br></p>
-        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
+        <p><em><b>AV1</b></em><br>Me encargue de crear la organizacion en github
+para poder trabajar de manera colaborativa.</p>
         <br></b>
       </td>
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
@@ -460,7 +461,7 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_05.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/Alexander_Vasquez.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
