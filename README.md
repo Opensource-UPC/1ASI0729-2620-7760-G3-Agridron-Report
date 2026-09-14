@@ -77,89 +77,183 @@
 - [Contenido](#contenido)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Student Outcome](#student-outcome)
-  - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [1.2.2. Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [](#)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions-1)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-      - [2.3.1. User Personas](#231-user-personas)
-      - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. User Stories](#31-user-stories)
-    - [3.2. Impact Mapping](#32-impact-mapping)
-    - [3.3. Product Backlog](#33-product-backlog)
-  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-      - [4.2.1. Organization Systems](#421-organization-systems)
-      - [4.2.2. Labeling Systems](#422-labeling-systems)
-      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-      - [4.2.4. Searching Systems](#424-searching-systems)
-      - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-      - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-      - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-      - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-      - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-      - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-      - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-      - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-      - [4.8.1. Database Diagrams](#481-database-diagrams)
-  - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-      - [5.1.2. Source Code Management](#512-source-code-management)
-      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-      - [5.2.1. Sprint 1](#521-sprint-1)
-        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
-      - [5.3.1. Interview Design](#531-interview-design)
-      - [5.3.2. Interview Registry](#532-interview-registry)
-      - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-  - [Conclusiones](#conclusiones)
-  - [Bibliografía](#bibliografía)
-  - [Anexos](#anexos)
+      - [1.3.1. Pequeños y Medianos Agricultores (PyMAs)](#131-pequeños-y-medianos-agricultores-pymas)
+      - [1.3.2. Personal Técnico (Ingenieros Agrónomos y Técnicos de Campo)](#132-personal-técnico-ingenieros-agrónomos-y-técnicos-de-campo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [Competitive Analysis Landscape](#competitive-analysis-landscape)
+      - [Análisis SWOT (Fortalezas, Oportunidades, Debilidades y Amenazas)](#análisis-swot-fortalezas-oportunidades-debilidades-y-amenazas)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)](#1-estrategia-de-enfoque-en-costos-y-accesibilidad-frente-a-dronedeploy-y-agrivi)
+      - [2. Estrategia de Diferenciación por Interoperabilidad Abierta](#2-estrategia-de-diferenciación-por-interoperabilidad-abierta)
+      - [3. Estrategia de Adopción Digital y Curva de Aprendizaje Acelerada (Usabilidad)](#3-estrategia-de-adopción-digital-y-curva-de-aprendizaje-acelerada-usabilidad)
+      - [4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas](#4-estrategia-de-penetración-de-canal-y-trabajo-con-comunidades-agrícolas)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [Bloque A: Perfil Demográfico y Tecnológico](#bloque-a-perfil-demográfico-y-tecnológico)
+      - [Bloque B: Contexto Operativo y Puntos de Dolor - (Tecnica 5W + 2H)](#bloque-b-contexto-operativo-y-puntos-de-dolor---tecnica-5w--2h)
+      - [Bloque C: Percepción sobre la Propuesta de Valor AgriDron Web](#bloque-c-percepción-sobre-la-propuesta-de-valor-agridron-web)
+      - [Bloque A: Perfil Demográfico y Tecnológico (Insumo para User Persona)](#bloque-a-perfil-demográfico-y-tecnológico-insumo-para-user-persona)
+      - [Bloque B: Contexto Operativo y Dolores de Gestión (5W + 2H)](#bloque-b-contexto-operativo-y-dolores-de-gestión-5w--2h)
+      - [Bloque C: Percepción sobre la Propuesta de Valor (AgriDron Web)](#bloque-c-percepción-sobre-la-propuesta-de-valor-agridron-web-1)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+      - [Persona 1:](#persona-1)
+      - [Persona 2:](#persona-2)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [\[PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.\]](#pegar-aquí-las-general-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [| **Supervisor** | Dashboard, Misiones, Operadores, Monitoreo, Reportes, Inventario | Asignar Misión, Monitorear Drones, Ver Eficiencia |](#-supervisor--dashboard-misiones-operadores-monitoreo-reportes-inventario--asignar-misión-monitorear-drones-ver-eficiencia-)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+    - [Flujo principal del dominio](#flujo-principal-del-dominio)
+    - [Actores principales](#actores-principales)
+    - [Comandos](#comandos)
+    - [Eventos de dominio](#eventos-de-dominio)
+    - [Políticas y reglas de negocio](#políticas-y-reglas-de-negocio)
+    - [Agregados principales](#agregados-principales)
+- [4.6.1.1. Bounded Contexts](#4611-bounded-contexts)
+  - [Bounded Context 1: Field Management](#bounded-context-1-field-management)
+  - [Bounded Context 2: Flight Operations](#bounded-context-2-flight-operations)
+  - [Bounded Context 3: Weather Integration](#bounded-context-3-weather-integration)
+  - [Bounded Context 4: Analytics \& Reporting](#bounded-context-4-analytics--reporting)
+    - [Relación entre Bounded Contexts](#relación-entre-bounded-contexts)
+    - [Justificación](#justificación)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [Descripción](#descripción)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [Descripción de los contenedores](#descripción-de-los-contenedores)
+    - [Flujo de comunicación](#flujo-de-comunicación)
+  - [Trazabilidad entre dominio y arquitectura](#trazabilidad-entre-dominio-y-arquitectura)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.6.4.1. RESTful API](#4641-restful-api)
+    - [Responsabilidades](#responsabilidades)
+  - [4.6.4.2. Web Application](#4642-web-application)
+    - [Responsabilidades](#responsabilidades-1)
+  - [4.6.4.3. Weather Integration Component](#4643-weather-integration-component)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.1.1. Field Management](#4711-field-management)
+    - [4.7.1.2. Flight Operations](#4712-flight-operations)
+    - [4.7.1.3. Weather Integration](#4713-weather-integration)
+    - [4.7.1.4. Analytics \& Reporting](#4714-analytics--reporting)
+    - [4.7.1.5. Shared / Identity](#4715-shared--identity)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+    - [4.8.1.1. Field Management](#4811-field-management)
+    - [4.8.1.2. Flight Operations](#4812-flight-operations)
+    - [4.8.1.3. Weather Integration](#4813-weather-integration)
+    - [4.8.1.4. Analytics \& Reporting](#4814-analytics--reporting)
+  - [4.8.1.5. Vista integrada de persistencia](#4815-vista-integrada-de-persistencia)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+  - [5.1.1.1. Propósito](#5111-propósito)
+  - [5.1.1.2. Herramientas del proyecto](#5112-herramientas-del-proyecto)
+  - [5.1.1.3. Configuración base](#5113-configuración-base)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+    - [Base de datos](#base-de-datos)
+    - [Control de versiones](#control-de-versiones)
+  - [5.1.1.4. Estructura de repositorios](#5114-estructura-de-repositorios)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+  - [5.1.2.1. Plataforma y repositorios](#5121-plataforma-y-repositorios)
+  - [5.1.2.2. GitFlow Workflow](#5122-gitflow-workflow)
+    - [Ramas principales](#ramas-principales)
+  - [5.1.2.3. Convención para Feature Branches](#5123-convención-para-feature-branches)
+  - [5.1.2.4. Convención para Release Branches](#5124-convención-para-release-branches)
+  - [5.1.2.5. Convención para Hotfix Branches](#5125-convención-para-hotfix-branches)
+  - [5.1.2.6. Pull Requests](#5126-pull-requests)
+  - [5.1.2.7. Conventional Commits](#5127-conventional-commits)
+  - [5.1.2.8. Semantic Versioning](#5128-semantic-versioning)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+  - [5.1.3.1. Principios generales](#5131-principios-generales)
+  - [5.1.3.2. HTML](#5132-html)
+  - [5.1.3.3. CSS](#5133-css)
+  - [5.1.3.4. JavaScript](#5134-javascript)
+  - [5.1.3.5. TypeScript / Angular](#5135-typescript--angular)
+  - [5.1.3.6. Java / Spring Boot](#5136-java--spring-boot)
+  - [5.1.3.7. API REST](#5137-api-rest)
+  - [5.1.3.8. Documentación y lenguaje](#5138-documentación-y-lenguaje)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.1.4.1. Objetivo](#5141-objetivo)
+  - [5.1.4.2. Arquitectura de despliegue](#5142-arquitectura-de-despliegue)
+  - [5.1.4.3. Ambientes](#5143-ambientes)
+  - [5.1.4.4. Integración continua](#5144-integración-continua)
+    - [Backend](#backend-1)
+    - [Frontend](#frontend-1)
+    - [Landing Page](#landing-page)
+  - [5.1.4.5. Variables y secretos](#5145-variables-y-secretos)
+  - [5.1.4.6. Configuración de base de datos](#5146-configuración-de-base-de-datos)
+  - [5.1.4.7. Configuración de la API meteorológica](#5147-configuración-de-la-api-meteorológica)
+  - [5.1.4.8. Estrategia de deployment](#5148-estrategia-de-deployment)
+  - [5.1.4.9. Trazabilidad del deployment](#5149-trazabilidad-del-deployment)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [Sprint Goal \& User Stories](#sprint-goal--user-stories)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Interview Design](#531-interview-design)
+    - [5.3.2. Interview Registry](#532-interview-registry)
+    - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusión 1](#conclusión-1)
+  - [Conclusión 2](#conclusión-2)
+  - [Recomendaciones](#recomendaciones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  - [Anexo A: Evidencias adicionales](#anexo-a-evidencias-adicionales)
+  - [Anexo B: Videos de Exposiciones](#anexo-b-videos-de-exposiciones)
+  - [Anexo C: Otros](#anexo-c-otros)
 
 ---
 
@@ -326,22 +420,22 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_03.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/Chapter1/Gabriel_Ramirez.jpg" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
     <td><b>Nombre:</b> Ramirez Gutierrez, Gabriel</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202416053 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U202416053 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      Soy Gabriel Ramírez, estudiante de Ingeniería de Software con interés en el desarrollo frontend, la experiencia de usuario y la creación de interfaces claras y funcionales. Me gusta trabajar en la implementación de páginas web con enfoque en usabilidad, comunicación visual y estructura narrativa, para que la propuesta de valor del producto sea comprensible desde el primer contacto. También soy una persona organizada, responsable y comprometida con la calidad del trabajo entregado.
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Me encargué principalmente del desarrollo de la Landing Page de AgriDron, definiendo la estructura visual, la propuesta de valor, los elementos de navegación y la experiencia inicial del usuario. Además, colaboré con la coordinación del contenido y la presentación del producto para asegurar que la primera impresión del sistema fuera clara, atractiva y alineada con la solución propuesta.
     </td>
   </tr>
   <tr>
@@ -3046,59 +3140,111 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 
 ### 5.2.1. Sprint 1
 
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Incluye las secciones internas de Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review y Team Collaboration Insights during Sprint.
+
 #### 5.2.1.1. Sprint Planning 1
 
-**Objetivo del Sprint:**
+| Campo | Detalle |
+| :--- | :--- |
+| Sprint # | 1 |
+| Sprint Planning Background | En este sprint se definió la base funcional de AgriDron Solutions con foco en la propuesta de valor del producto, la navegación inicial de la landing page y la estructura inicial del ecosistema web para agricultores y operadores técnicos. |
+| Date | 15/09/2026 |
+| Time | 18:30 PM |
+| Location | Reunión virtual (Google Meet / Zoom) |
+| Prepared By | Edwin Noe Nicho Huillcañahui |
+| Attendees (to planning meeting) | Italo Gianfranco Damacen Galindo, Edwin Noe Nicho Huillcañahui, Gabriel Ramírez Gutiérrez, Sebastián Leonardo Sayago Vidal, Alexander Felipe Vásquez Roncal |
+| Sprint 1 - Review Summary | Se validó la estructura inicial del producto, la claridad del valor para los agricultores, y la necesidad de crear una primera versión funcional de la landing page y la gestión básica de usuarios y fincas. |
+| Sprint 1 - Retrospective Summary | Se identificaron oportunidades para mejorar la coordinación del equipo, definir mejor la distribución de tareas y acelerar la integración entre frontend y backend en los siguientes sprint. |
 
-[OBJETIVO.]
+#### Sprint Goal & User Stories
 
-**Fecha de inicio:** [FECHA]
+| Aspecto | Descripción |
+| :--- | :--- |
+| Sprint 1 Goal | Definir la base del producto AgriDron para que el usuario pueda entender la propuesta de valor, registrarse, iniciar sesión y gestionar los primeros datos de una finca y la programación de una misión. |
+| Velocity | 18 |
+| Sum of Story Points | 18 |
 
-**Fecha de finalización:** [FECHA]
+Es muy importante que el equipo dedique atención a la identificación del Sprint Goal. Según el Scrum Guide, “El Sprint Goal es el objetivo individual del Sprint. Es un compromiso para los Developers, flexible en términos del trabajo exacto que se requiere para alcanzarlo. El Sprint Goal también crea coherencia y enfoque, buscando que los miembros del Scrum Team trabajen juntos en vez de ir en pos de iniciativas individuales.”
 
-**Meta del Sprint:**
+Para identificar el Sprint Goal, es recomendable enfocarse en el negocio (business) o la perspectiva de los usuarios (user-focused), como por ejemplo entregar un nuevo feature o feature set. Esta visión ayuda a priorizar lo esencial del sprint y a mantener alineado al equipo con el valor que se desea entregar.
 
-[DESCRIPCIÓN.]
+Escribir objetivos SMART (Specific, Measurable, Attainable, Relevant, Time-bound) puede ser de mucha utilidad para que el equipo articule el Sprint Goal. La estructura propuesta por Scrum.org ofrece un ejemplo claro: “Our focus is on <Outcome> We believe it delivers <Impact> to <Customer(s)> This will be confirmed when <Event happens>”.
+
+Por ejemplo, tomando como ejemplo un solo feature: “Our focus is on sending a basic email that contains a link to a spreadsheet. We believe it delivers confidence in the product to our organization. This will be confirmed when we have an email in an inbox”.
+
+Es importante que el equipo se enfoque en identificar Outcome, Impact, Customer(s), así como Event. El solo hecho de aplicar el template no garantiza un buen Sprint Goal. El siguiente ejemplo es un uso incorrecto del template: “Our focus is on having SAP integrated into the Corporate system. We believe it delivers satisfaction and closure for our project manager. This will be confirmed when Epic SAP-123 is closed in Jira.” Aquí el Goal se está centrándose en el complimiento de un sistema interno, no en un valor observable para el usuario. Un mejor enfoque sería: “Our focus is on having a landing page that explains our new solution clearly and motivates sign-ups. We believe it delivers increased conversion and customer trust. This will be confirmed when the team receives at least 20 qualified leads from the demo landing page.”
+
+Es recomendable que la redacción sea específica en términos de qué features se compromete a lograr y cómo benefician a los segmentos objetivo, sin detallar cómo. Algunos ejemplos de feature-sets con un enfoque de alto nivel:
+
+- “A customer can place an order from a single-product catalog”.
+- “Show a multi-product catalog”.
+- “Show top-selling products”.
+- “Make product catalog manageable for the sales department operator”.
+
+Es muy importante que el equipo establezca en conjunto el Sprint Goal, pues de esa forma todo el equipo puede trabajar en identificar qué epics y stories deberían considerarse en principio en la iteración, en base a su contribución para ese Goal en particular.
+
+A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brinda un contexto previo para entender de mejor manera el propósito del Sprint Goal.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Aspecto | Líder | Colaboradores |
 | :--- | :--- | :--- |
-| [ASPECTO] | [NOMBRE] | [NOMBRES] |
-| [ASPECTO] | [NOMBRE] | [NOMBRES] |
+| Product Strategy & Value Proposition | Italo Gianfranco Damacen Galindo | Sebastián Sayago Vidal, Gabriel Ramírez Gutiérrez |
+| UX / UI / Landing Page | Sebastián Leonardo Sayago Vidal | Alexander Felipe Vásquez Roncal, Italo Damacen Galindo |
+| Backend / Services / Data Model | Gabriel Ramírez Gutiérrez | Edwin Noe Nicho Huillcañahui, Sebastián Sayago Vidal |
+| Testing / Validation / Evidence | Edwin Noe Nicho Huillcañahui | Alexander Vásquez Roncal, Gabriel Ramírez Gutiérrez |
 
 #### 5.2.1.3. Sprint Backlog 1
 
 | ID | User Story | Tarea | Responsable | Estado |
 | :--- | :--- | :--- | :--- | :--- |
-| US-001 | [USER STORY] | [TAREA] | [NOMBRE] | [ESTADO] |
-| US-002 | [USER STORY] | [TAREA] | [NOMBRE] | [ESTADO] |
+| US-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | Definir propuesta de valor, estructura del hero section, CTA principal y mensajes clave de marketing. | Italo Damacen | Done |
+| US-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | Diseñar y desarrollar la sección de servicios con iconografía, descripción y beneficios. | Sebastián Sayago | Done |
+| US-003 | Como visitante, quiero registrarme para acceder a la web application y conocer las funciones del sistema. | Implementar formulario de registro, validaciones y flujo inicial de onboarding. | Gabriel Ramírez | Done |
+| US-004 | Como usuario registrado, quiero iniciar sesión para acceder a mi panel y gestionar mis operaciones. | Desarrollar login, validación de credenciales y redirección al dashboard base. | Gabriel Ramírez | In Progress |
+| US-005 | Como agricultor, quiero registrar una finca para definir el área donde se ejecutará la misión de fumigación. | Crear modelo, formulario y servicio para registrar fincas y parcelas. | Alexander Vásquez | In Progress |
+| US-006 | Como supervisor, quiero visualizar una misión inicial para comprobar el flujo principal del sistema. | Diseñar la vista de creación de misión y estado base de ejecución. | Edwin Nicho | To Do |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-[PEGAR AQUÍ CAPTURAS / EVIDENCIAS DEL DESARROLLO.]
+Durante este sprint se desarrolló la base del producto AgriDron con una landing page informativa, una estructura visual clara para servicios y un primer flujo de autenticación. Además, se inició la definición de los principales módulos de gestión de fincas y misiones, de acuerdo con la arquitectura propuesta en el proyecto.
 
-![Evidencia de desarrollo](assets/evidences/sprint1_development.png)
+![Evidencia de desarrollo](assets/chapter4/landing_mockup.png)
+
+La evidencia de desarrollo incluye la versión inicial del landing page, la propuesta visual del producto y la estructura base del sistema para registro, autenticación y gestión de misiones. En paralelo, se validó la consistencia con la propuesta de valor y los segmentos objetivo, reforzando la dirección de diseño del producto.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-[PEGAR AQUÍ CAPTURAS / EVIDENCIAS DE EJECUCIÓN.]
+La ejecución del sprint se apoyó en reuniones de coordinación semanales, revisión de avances por módulo y validación de tareas cumplidas por cada miembro del equipo. Se utilizó la división por áreas para mantener flujo de trabajo constante y reducir bloqueos en frontend, backend y documentación.
 
-![Evidencia de ejecución](assets/evidences/sprint1_execution.png)
+![Evidencia de ejecución](assets/chapter4/Web_Applications_Wireframes.png)
+
+Se evidenció avance continuo en la implementación de la landing page, la estructura de la aplicación web y la definición del backend base. Además, el equipo registró avances parciales en el flujo de autenticación y en la gestión inicial de misiones, con seguimiento directo del estado de cada story.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-[PEGAR AQUÍ LA DOCUMENTACIÓN / EVIDENCIA DE SERVICIOS.]
+Se documentó la arquitectura inicial del sistema, sus componentes principales y el alcance funcional del primer sprint. La documentación cubrió los servicios propuestos para la solución, así como la relación entre la landing page, la aplicación web y el backend.
+
+La evidencia documental del sprint se centra en:
+
+- Definición del alcance del producto en la landing page.
+- Arquitectura de componentes del sistema AgriDron.
+- Reglas base de gestión para autenticación y gestión de fincas.
+- Descripción de servicios web previstos para la lógica de negocio inicial.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-[PEGAR AQUÍ LA EVIDENCIA DEL DESPLIEGUE.]
+La primera entrega del sprint contempló la preparación de la infraestructura base del proyecto y la configuración inicial para la publicación del producto. Se establecieron los repositorios y la estructura de trabajo para permitir la evolución del proyecto en sprints posteriores.
+
+La evidencia de despliegue inicial incluye la preparación del entorno de desarrollo, la estructura del código por módulos y la base para publicación de la landing page y los servicios web de la aplicación.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-[DESCRIBIR LA COLABORACIÓN DURANTE EL SPRINT.]
+La colaboración del equipo se desarrolló con un enfoque distribuido por responsabilidades, pero con coordinación constante y revisión cruzada de entregables. La comunicación fue clave para mantener alineado el producto con la misión de AgriDron, especialmente en la definición del valor para el usuario y la priorización de funcionalidades del primer sprint.
 
-![Evidencia de colaboración del Sprint](assets/evidences/sprint1_collaboration.png)
+El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de valor y UX, la implementación técnica del sistema y la documentación del proyecto. Esta organización permitió avanzar en paralelo, reducir tiempos de espera y mantener una cultura de colaboración abierta, donde cada integrante asumió responsabilidades claras y contribuyó a la entrega del primer ciclo incremental.
+
+![Evidencia de colaboración del Sprint](assets/chapter4/Web_Applications_User_Flow_Diagrams.png)
 
 ---
 
