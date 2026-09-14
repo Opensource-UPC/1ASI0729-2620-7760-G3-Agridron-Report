@@ -128,7 +128,6 @@
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [\[PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.\]](#pegar-aquí-las-general-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
@@ -259,10 +258,7 @@
 
 ## Student Outcome
 
-> **[PEGAR AQUÍ EL STUDENT OUTCOME CORRESPONDIENTE A LA ENTREGA]**
->
-> **Criterio:** [PEGAR AQUÍ EL CRITERIO]
->
+
 > En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del Student Outcome.
 
 <table>
@@ -275,7 +271,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <p><b>[INTEGRANTE 1]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -286,8 +282,8 @@
         <p><b>[INTEGRANTE 3]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
-        <b>[INTEGRANTE 4]</b><br>
-        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <b>Sayago Vidal, Sebastián leonardo</b><br>
+        <em><b>AV1</b></em><br>Participé en la comunicación de las decisiones técnicas y de desarrollo relacionadas con el proyecto AgriDron Solutions, especialmente en los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo
         <br><br>
            <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
         <p><em><b>AV1</b></em><br>implementacion del capitulo 3 y 4 ademas de creacion de mockups de landing pague and Web Aplication</p>
@@ -296,7 +292,7 @@
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
     </tr>
     <tr>
-      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
        <td>
         <p><b>[INTEGRANTE 1]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -307,8 +303,8 @@
         <p><b>[INTEGRANTE 3]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
-        <b>[INTEGRANTE 4]</b><br>
-        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>Desarrollé documentación técnica relacionada con la arquitectura, diseño y Software Configuration Management (SCM), empleando un lenguaje técnico y preciso.
         <br><br>
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
         <p><em><b>AV1</b></em><br>Me encargue de crear la organizacion en github
@@ -1249,7 +1245,7 @@ los objetivos estratégicos del proyecto y las funcionalidades necesarias para l
 | Success           | 14px          | 400  | 20px |
 | Warning           | 12px          | 400  | 16px |
 
-[PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.]
+
 ---
 
 ## 4.2. Information Architecture
