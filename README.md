@@ -33,7 +33,7 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[CÓDIGO]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
     </tr>
     <tr>
