@@ -230,8 +230,8 @@
     <tr>
       <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
-        <p><b>[INTEGRANTE 1]</b><br></p>
-        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <p><b>Ramirez Gutierrez, Gabriel</b><br></p>
+        <p><em><b>AV1</b></em><br>Presenté la propuesta de valor y el funcionamiento del landing page de AgriDron Solutions, explicando de manera clara la organización de sus secciones, el uso de los recursos visuales y la experiencia planteada para los usuarios.</p>
         <br>
         <b>[INTEGRANTE 2]</b><br>
         <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
@@ -251,8 +251,8 @@
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
        <td>
-        <p><b>[INTEGRANTE 1]</b><br></p>
-        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <p><b>Ramirez Gutierrez, Gabriel</b><br></p>
+        <p><em><b>AV1</b></em><br>Diseñé y desarrollé integralmente el landing page de AgriDron Solutions, definiendo su estructura, contenido visual, distribución de secciones y propuesta de navegación para comunicar el valor de la solución de forma clara y atractiva.</p>
         <br>
         <b>[INTEGRANTE 2]</b><br>
         <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
