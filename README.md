@@ -105,18 +105,10 @@
       - [4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas](#4-estrategia-de-penetración-de-canal-y-trabajo-con-comunidades-agrícolas)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [Bloque A: Perfil Demográfico y Tecnológico](#bloque-a-perfil-demográfico-y-tecnológico)
-      - [Bloque B: Contexto Operativo y Puntos de Dolor - (Tecnica 5W + 2H)](#bloque-b-contexto-operativo-y-puntos-de-dolor---tecnica-5w--2h)
-      - [Bloque C: Percepción sobre la Propuesta de Valor AgriDron Web](#bloque-c-percepción-sobre-la-propuesta-de-valor-agridron-web)
-      - [Bloque A: Perfil Demográfico y Tecnológico (Insumo para User Persona)](#bloque-a-perfil-demográfico-y-tecnológico-insumo-para-user-persona)
-      - [Bloque B: Contexto Operativo y Dolores de Gestión (5W + 2H)](#bloque-b-contexto-operativo-y-dolores-de-gestión-5w--2h)
-      - [Bloque C: Percepción sobre la Propuesta de Valor (AgriDron Web)](#bloque-c-percepción-sobre-la-propuesta-de-valor-agridron-web-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [Persona 1:](#persona-1)
-      - [Persona 2:](#persona-2)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
@@ -128,14 +120,12 @@
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [\[PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.\]](#pegar-aquí-las-general-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [| **Supervisor** | Dashboard, Misiones, Operadores, Monitoreo, Reportes, Inventario | Asignar Misión, Monitorear Drones, Ver Eficiencia |](#-supervisor--dashboard-misiones-operadores-monitoreo-reportes-inventario--asignar-misión-monitorear-drones-ver-eficiencia-)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
@@ -147,30 +137,12 @@
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [Flujo principal del dominio](#flujo-principal-del-dominio)
-    - [Actores principales](#actores-principales)
-    - [Comandos](#comandos)
-    - [Eventos de dominio](#eventos-de-dominio)
-    - [Políticas y reglas de negocio](#políticas-y-reglas-de-negocio)
-    - [Agregados principales](#agregados-principales)
-- [4.6.1.1. Bounded Contexts](#4611-bounded-contexts)
-  - [Bounded Context 1: Field Management](#bounded-context-1-field-management)
-  - [Bounded Context 2: Flight Operations](#bounded-context-2-flight-operations)
-  - [Bounded Context 3: Weather Integration](#bounded-context-3-weather-integration)
-  - [Bounded Context 4: Analytics \& Reporting](#bounded-context-4-analytics--reporting)
-    - [Relación entre Bounded Contexts](#relación-entre-bounded-contexts)
-    - [Justificación](#justificación)
+        - [4.6.1.1. Bounded Contexts](#4611-bounded-contexts)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [Descripción](#descripción)
     - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [Descripción de los contenedores](#descripción-de-los-contenedores)
-    - [Flujo de comunicación](#flujo-de-comunicación)
-  - [Trazabilidad entre dominio y arquitectura](#trazabilidad-entre-dominio-y-arquitectura)
     - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.6.4.1. RESTful API](#4641-restful-api)
-    - [Responsabilidades](#responsabilidades)
+      - [4.6.4.1. RESTful API](#4641-restful-api)
   - [4.6.4.2. Web Application](#4642-web-application)
-    - [Responsabilidades](#responsabilidades-1)
   - [4.6.4.3. Weather Integration Component](#4643-weather-integration-component)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
@@ -185,50 +157,34 @@
     - [4.8.1.2. Flight Operations](#4812-flight-operations)
     - [4.8.1.3. Weather Integration](#4813-weather-integration)
     - [4.8.1.4. Analytics \& Reporting](#4814-analytics--reporting)
-  - [4.8.1.5. Vista integrada de persistencia](#4815-vista-integrada-de-persistencia)
+    - [4.8.1.5. Vista integrada de persistencia](#4815-vista-integrada-de-persistencia)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-  - [5.1.1.1. Propósito](#5111-propósito)
-  - [5.1.1.2. Herramientas del proyecto](#5112-herramientas-del-proyecto)
-  - [5.1.1.3. Configuración base](#5113-configuración-base)
-    - [Frontend](#frontend)
-    - [Backend](#backend)
-    - [Base de datos](#base-de-datos)
-    - [Control de versiones](#control-de-versiones)
-  - [5.1.1.4. Estructura de repositorios](#5114-estructura-de-repositorios)
+      - [5.1.1.1. Propósito](#5111-propósito)
+      - [5.1.1.2. Herramientas del proyecto](#5112-herramientas-del-proyecto)
+      - [5.1.1.3. Configuración base](#5113-configuración-base)
+      - [5.1.1.4. Estructura de repositorios](#5114-estructura-de-repositorios)
     - [5.1.2. Source Code Management](#512-source-code-management)
-  - [5.1.2.1. Plataforma y repositorios](#5121-plataforma-y-repositorios)
-  - [5.1.2.2. GitFlow Workflow](#5122-gitflow-workflow)
-    - [Ramas principales](#ramas-principales)
-  - [5.1.2.3. Convención para Feature Branches](#5123-convención-para-feature-branches)
-  - [5.1.2.4. Convención para Release Branches](#5124-convención-para-release-branches)
-  - [5.1.2.5. Convención para Hotfix Branches](#5125-convención-para-hotfix-branches)
-  - [5.1.2.6. Pull Requests](#5126-pull-requests)
-  - [5.1.2.7. Conventional Commits](#5127-conventional-commits)
-  - [5.1.2.8. Semantic Versioning](#5128-semantic-versioning)
+      - [5.1.2.1. Plataforma y repositorios](#5121-plataforma-y-repositorios)
+        - [5.1.2.2. GitFlow Workflow](#5122-gitflow-workflow)
+        - [5.1.2.3. Convención para Feature Branches](#5123-convención-para-feature-branches)
+        - [5.1.2.4. Convención para Release Branches](#5124-convención-para-release-branches)
+        - [5.1.2.5. Convención para Hotfix Branches](#5125-convención-para-hotfix-branches)
+        - [5.1.2.6. Pull Requests](#5126-pull-requests)
+        - [5.1.2.7. Conventional Commits](#5127-conventional-commits)
+        - [5.1.2.8. Semantic Versioning](#5128-semantic-versioning)
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
-  - [5.1.3.1. Principios generales](#5131-principios-generales)
-  - [5.1.3.2. HTML](#5132-html)
-  - [5.1.3.3. CSS](#5133-css)
-  - [5.1.3.4. JavaScript](#5134-javascript)
-  - [5.1.3.5. TypeScript / Angular](#5135-typescript--angular)
-  - [5.1.3.6. Java / Spring Boot](#5136-java--spring-boot)
-  - [5.1.3.7. API REST](#5137-api-rest)
-  - [5.1.3.8. Documentación y lenguaje](#5138-documentación-y-lenguaje)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.1.4.1. Objetivo](#5141-objetivo)
-  - [5.1.4.2. Arquitectura de despliegue](#5142-arquitectura-de-despliegue)
-  - [5.1.4.3. Ambientes](#5143-ambientes)
-  - [5.1.4.4. Integración continua](#5144-integración-continua)
-    - [Backend](#backend-1)
-    - [Frontend](#frontend-1)
-    - [Landing Page](#landing-page)
-  - [5.1.4.5. Variables y secretos](#5145-variables-y-secretos)
-  - [5.1.4.6. Configuración de base de datos](#5146-configuración-de-base-de-datos)
-  - [5.1.4.7. Configuración de la API meteorológica](#5147-configuración-de-la-api-meteorológica)
-  - [5.1.4.8. Estrategia de deployment](#5148-estrategia-de-deployment)
-  - [5.1.4.9. Trazabilidad del deployment](#5149-trazabilidad-del-deployment)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+          - [5.1.4.1. Objetivo](#5141-objetivo)
+          - [5.1.4.2. Arquitectura de despliegue](#5142-arquitectura-de-despliegue)
+          - [5.1.4.3. Ambientes](#5143-ambientes)
+          - [5.1.4.4. Integración continua](#5144-integración-continua)
+          - [5.1.4.5. Variables y secretos](#5145-variables-y-secretos)
+          - [5.1.4.6. Configuración de base de datos](#5146-configuración-de-base-de-datos)
+          - [5.1.4.7. Configuración de la API meteorológica](#5147-configuración-de-la-api-meteorológica)
+          - [5.1.4.8. Estrategia de deployment](#5148-estrategia-de-deployment)
+          - [5.1.4.9. Trazabilidad del deployment](#5149-trazabilidad-del-deployment)
   - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
@@ -259,10 +215,7 @@
 
 ## Student Outcome
 
-> **[PEGAR AQUÍ EL STUDENT OUTCOME CORRESPONDIENTE A LA ENTREGA]**
->
-> **Criterio:** [PEGAR AQUÍ EL CRITERIO]
->
+
 > En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del Student Outcome.
 
 <table>
@@ -275,7 +228,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <p><b>[INTEGRANTE 1]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -286,17 +239,17 @@
         <p><b>[INTEGRANTE 3]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
-        <b>[INTEGRANTE 4]</b><br>
-        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <b>Sayago Vidal, Sebastián leonardo</b><br>
+        <em><b>AV1</b></em><br>Participé en la comunicación de las decisiones técnicas y de desarrollo relacionadas con el proyecto AgriDron Solutions, especialmente en los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo
         <br><br>
-           <p><b>[INTEGRANTE 5]</b><br></p>
-        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+           <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
+        <p><em><b>AV1</b></em><br>implementacion del capitulo 3 y 4 ademas de creacion de mockups de landing pague and Web Aplication</p>
         <br></b>
       </td>
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
     </tr>
     <tr>
-      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
        <td>
         <p><b>[INTEGRANTE 1]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -307,11 +260,12 @@
         <p><b>[INTEGRANTE 3]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
-        <b>[INTEGRANTE 4]</b><br>
-        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>Desarrollé documentación técnica relacionada con la arquitectura, diseño y Software Configuration Management (SCM), empleando un lenguaje técnico y preciso.
         <br><br>
-        <p><b>[INTEGRANTE 5]</b><br></p>
-        <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
+        <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
+        <p><em><b>AV1</b></em><br>Me encargue de crear la organizacion en github
+para poder trabajar de manera colaborativa.</p>
         <br></b>
       </td>
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
@@ -440,7 +394,7 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_04.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/SebastiánSayago_Foto.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
@@ -460,22 +414,27 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_05.png" alt="Foto del integrante" width="500"/>
+      <img src="assets/team/Alexander_Vasquez.png" alt="Foto del integrante" width="500"/>
     </td>
   </tr>
   <tr>
     <td><b>Nombre:</b> Vasquez Roncal, Alexander Felipe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+        Mi nombre es Alexander Vasquez, tengo 27 años y actualmente
+        estoy cursando el cuarto ciclo de la carrera de Ingeniería de
+        Software. Soy una persona disciplinada, con capacidad para
+        trabajar en equipo. Mis habilidades técnicas incluyen lenguajes
+        de programación como Python y C + +. Me esfuerzo por
+        contribuir activamente al desarrollo del proyecto
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Mi participacion incluyo hacer la documentacion del capitulo 3 y 4, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.
     </td>
   </tr>
 </table>
@@ -1243,7 +1202,7 @@ los objetivos estratégicos del proyecto y las funcionalidades necesarias para l
 | Success           | 14px          | 400  | 20px |
 | Warning           | 12px          | 400  | 16px |
 
-[PEGAR AQUÍ LAS GENERAL STYLE GUIDELINES.]
+
 ---
 
 ## 4.2. Information Architecture
@@ -3276,29 +3235,51 @@ El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de 
 
 ---
 
-# Conclusiones
-
-## Conclusión 1
-
-[PEGAR AQUÍ LA CONCLUSIÓN.]
-
-## Conclusión 2
-
-[PEGAR AQUÍ LA CONCLUSIÓN.]
-
-## Recomendaciones
-
-[PEGAR AQUÍ LAS RECOMENDACIONES.]
+## Conclusiones y recomendaciones
+ 
+<p align="justify">
+ 
+Esta sección presenta una <strong>primera versión (avance AV1)</strong> de las conclusiones del proyecto. En esta etapa del ciclo de vida, el equipo ha completado el Capítulo I (Introducción y Lean UX Process), el Capítulo II (Requirements Elicitation & Analysis), el Capítulo III (Requirements Specification) y el Capítulo IV (Product Design), además de iniciar el Capítulo V con la configuración del entorno de desarrollo y el primer Sprint. Dado que aún no se han ejecutado las Validation Interviews (5.3) ni se cuenta con una versión funcional completa de la Web Application y el RESTful API, las conclusiones aquí presentadas son de carácter <strong>preliminar y de diseño</strong>, contrastando los artefactos elaborados contra los Problem Statements, Assumptions e Hypothesis Statements definidos en el Lean UX Process (1.2.2), y no todavía contra resultados de uso real. Esta sección se expandirá en las siguientes entregas (TB1, AV2, TB2) con hallazgos provenientes de las entrevistas de validación y del producto desplegado.
+ 
+</p>
+ 
+<p align="justify">
+ 
+Respecto a los <strong>Problem Statements</strong> (1.2.2.1), el proceso de Needfinding (2.2 y 2.3) confirmó que los cuatro problemas planteados —gestión dispersa de fincas y parcelas, ausencia de sustento técnico para decisiones climáticas, falta de visibilidad del estado del dron durante el vuelo y dificultad para consultar el historial de operaciones— corresponden a fricciones reales identificadas en las entrevistas y representadas en el User Journey Map (2.3.3) y el Empathy Map (2.3.4) de Diego Mendoza Ríos. Esto es consistente con la literatura revisada: García-Munguía et al. (2024) documentan que la adopción de drones agrícolas aún enfrenta brechas operativas en la planificación y el control de las aplicaciones de fumigación, mientras que la FAO (s. f.) enmarca la protección vegetal como un proceso que requiere información oportuna para la toma de decisiones, lo cual respalda la necesidad identificada en el Problem Statement 2 sobre la consulta de condiciones meteorológicas antes de una misión.
+ 
+</p>
+ 
+<p align="justify">
+ 
+Respecto a las <strong>Assumptions</strong> (1.2.2.2), estas se mantienen como creencias no validadas al cierre de esta entrega. El equipo tradujo dichas suposiciones en decisiones concretas de diseño: la gestión de fincas y parcelas se refleja en el modelo de dominio de Field Management (4.7.1.1), la consulta meteorológica en el componente de Weather Integration (4.6.4.3), y el monitoreo del dron en el Wireflow y los Mock-ups de la sección 4.4. Sin embargo, ninguna de estas decisiones ha sido puesta a prueba frente a usuarios reales fuera de las entrevistas de needfinding, por lo que la validación formal de estas asunciones queda pendiente para la sección 5.3 (Validation Interviews).
+ 
+</p>
+ 
+<p align="justify">
+ 
+Respecto a los <strong>Hypothesis Statements</strong> (1.2.2.3), los cuatro enunciados definidos —reducción del tiempo y costo de fumigación, menor tiempo de respuesta ante infestaciones, mayor adopción por facilidad de uso, y mejor toma de decisiones a partir de reportes automatizados— dependen de features que a la fecha de esta entrega están diseñadas (User Stories, Wireframes, Mock-ups, Class Diagrams y Database Diagrams) pero no implementadas ni medidas. Cabe precisar que, dado el alcance académico del curso, el monitoreo de drones se sustentará en datos simulados y no en telemetría real, tal como se indicó en las Assumptions (1.2.2.2); por ello, hipótesis como la reducción del 40% en tiempo y costo de fumigación —cifra de referencia contrastada con estudios como el de Safaeinejad et al. (2025), quienes reportan reducciones de huella ambiental y energética al comparar la fumigación con drones frente a métodos convencionales— no podrán validarse con datos operativos reales dentro del ciclo de vida del curso, sino que se tratarán como una meta de referencia para el diseño de las funcionalidades.
+ 
+</p>
+ 
+<p align="justify">
+ 
+En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró trazabilidad entre los distintos artefactos: los hotspots identificados en el Big Picture EventStorming (2.4) se resolvieron como rutas alternativas explícitas en el User Flow Diagram (4.4.4), y el Design-Level EventStorming (4.6.1) junto con los Class Diagrams (4.7.1) se tradujeron de forma consistente en el Database Diagram (4.8.1). Esta trazabilidad de extremo a extremo —desde la necesidad detectada en needfinding hasta el modelo de base de datos— es el principal resultado tangible de esta primera entrega.
+ 
+</p>
 
 ---
 
 # Bibliografía
 
-> Registrar las fuentes utilizadas siguiendo el formato APA 7.
+> Fuentes utilizadas, registradas siguiendo el formato APA 7ª edición, en orden alfabético por apellido del primer autor.
 
-1. [REFERENCIA APA 7]
-2. [REFERENCIA APA 7]
-3. [REFERENCIA APA 7]
+1. García-Munguía, A., Guerra-Ávila, P. L., Islas-Ojeda, E., Flores-Sánchez, J. L., Vázquez-Martínez, O., García-Munguía, A. M., & García-Munguía, O. (2024). A review of drone technology and operation processes in agricultural crop spraying. *Drones*, *8*(11), 674. https://doi.org/10.3390/drones8110674
+
+2. Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). *Acerca de producción y protección vegetal*. FAO. Recuperado el 21 de febrero de 2025, de https://www.fao.org/plant-production-protection/about/es
+
+3. Safaeinejad, M., Karami, H., Ranjbar, S., Bakhoda, H., & Ahmadi, E. (2025). Reducing energy and environmental footprint in agriculture: A study on drone spraying vs conventional methods. *PLOS ONE*, *20*(9), e0323779. https://doi.org/10.1371/journal.pone.0323779
+
+4. Zhang, Y., Li, H., Torres-Sánchez, J., & García, C. (2024). Drones in precision agriculture: A comprehensive review of applications, technologies, and challenges. *Drones*, *8*(11), 686. https://doi.org/10.3390/drones8110686
 
 ---
 
@@ -3306,7 +3287,8 @@ El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de 
 
 ## Anexo A: Evidencias adicionales
 
-[PEGAR AQUÍ EVIDENCIAS ADICIONALES.]
+> Enlace de miro
+https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
 
 ## Anexo B: Videos de Exposiciones
 
