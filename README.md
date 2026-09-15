@@ -60,10 +60,11 @@
 | 0.1.0 | 05/09/2026 | Sebastián Sayago | Creación inicial del documento. |
 | 0.2.0 | 06/09/2026 | Sebastián Sayago | Implementación inicial del capitulo 1 |
 | 0.3.0 | 09/09/2026 | Nicho Huillcañahui | Implementación inicial del capitulo 2 |
-| 0.4.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
-| 0.3.0 | 07/09/2026 | Nicho Huillcañahui | Implementación del capitulo 2 |
-| 0.4.0 | 08/09/2026 | ??? | Implementación del capitulo 3 |
-| 0.5.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
+| 0.4.0 | 12/09/2026 | Italo Damacen | Implementación completa del capitulo 1 |
+| 0.5.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
+| 0.6.0 | 07/09/2026 | Nicho Huillcañahui | Implementación del capitulo 2 |
+| 0.7.0 | 08/09/2026 | ??? | Implementación del capitulo 3 |
+| 0.8.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
 | 1.0.0 | 15/09/2026 | Agridron | Evidencia completa de entrega AV1 |
 
 
@@ -242,9 +243,11 @@
         <b>Sayago Vidal, Sebastián leonardo</b><br>
         <em><b>AV1</b></em><br>Participé en la comunicación de las decisiones técnicas y de desarrollo relacionadas con el proyecto AgriDron Solutions, especialmente en los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo
         <br><br>
-           <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
+        <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
         <p><em><b>AV1</b></em><br>implementacion del capitulo 3 y 4 ademas de creacion de mockups de landing pague and Web Aplication</p>
-        <br></b>
+        <br>
+        <p><b>Damacen Galindo, Italo Gianfranco</b><br></p>
+        <p><em><b>AV1</b></em><br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada, así como el proceso Lean UX utilizado para definir y orientar la propuesta de solución.</p>
       </td>
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
     </tr>
@@ -266,7 +269,9 @@
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
         <p><em><b>AV1</b></em><br>Me encargue de crear la organizacion en github
 para poder trabajar de manera colaborativa.</p>
-        <br></b>
+        <br>
+        <p><b>Damacen Galindo, Italo Gianfranco</b><br></p>
+        <p><em><b>AV1</b></em><br>Elaboré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes y la problemática, además de los componentes del proceso Lean UX. Organicé y redacté estos contenidos utilizando un lenguaje técnico y estructurado para comunicar de manera clara el propósito, contexto, problemática y propuesta de valor del proyecto.</p>
       </td>
       <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
     </tr>
