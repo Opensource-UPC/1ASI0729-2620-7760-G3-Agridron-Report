@@ -1546,7 +1546,17 @@ El mockup de la Landing Page en versión Desktop representa la propuesta visual 
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.png" alt="Web Applications User Flow Diagrams" width="650"/>
+<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.jpg" alt="Web Applications User Flow Diagrams" width="650"/>
+
+**Descripción**
+
+<p align="justify">
+
+El User Flow Diagram representa el flujo lógico para el <em>User Goal</em> "planificar y ejecutar una misión de fumigación", complementando el Wireflow (4.4.2) con los puntos de decisión que determinan el camino que sigue el usuario. El camino feliz parte del inicio de sesión y avanza a través del registro de finca, la delimitación de la parcela, la creación de la misión, la validación del clima, la asignación de un operador disponible, el inicio de jornada dentro de la geocerca y la ejecución del vuelo, hasta cerrar con la emisión del acta digital y el reporte.
+
+</p>
+
+**Link del Miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
 
 
 ---
