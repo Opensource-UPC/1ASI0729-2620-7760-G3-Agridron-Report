@@ -78,7 +78,6 @@
 - [Contenido](#contenido)
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Student Outcome](#student-outcome)
-  - [](#)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -241,7 +240,7 @@
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
         <b>Sayago Vidal, Sebastián leonardo</b><br>
-        <em><b>AV1</b></em><br>Participé en la comunicación de las decisiones técnicas y de desarrollo relacionadas con el proyecto AgriDron Solutions, especialmente en los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo
+        <em><b>AV1</b></em><br>Participé en la presentación de las decisiones técnicas y de desarrollo relacionadas con AgriDron Solutions, explicando los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo mediante diagramas y recursos audiovisuales.
         <br><br>
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
         <p><em><b>AV1</b></em><br>implementacion del capitulo 3 y 4 ademas de creacion de mockups de landing pague and Web Aplication</p>
@@ -249,7 +248,7 @@
         <p><b>Damacen Galindo, Italo Gianfranco</b><br></p>
         <p><em><b>AV1</b></em><br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada, así como el proceso Lean UX utilizado para definir y orientar la propuesta de solución.</p>
       </td>
-      <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
+      <td>[CONCLUSIÓN]</td></em><br>Como equipo, durante el AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones correspondientes a su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p>
     </tr>
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
@@ -264,7 +263,7 @@
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
         <br>
         <b>Sayago Vidal, Sebastián Leonardo</b><br>
-        <em><b>AV1</b></em><br>Desarrollé documentación técnica relacionada con la arquitectura, diseño y Software Configuration Management (SCM), empleando un lenguaje técnico y preciso.
+        <em><b>AV1</b></em><br>Desarrollé y estructuré documentación técnica relacionada con la arquitectura, diseño y Software Configuration Management (SCM) de AgriDron Solutions, empleando un lenguaje técnico, preciso y organizado para comunicar las decisiones y características de la solución.
         <br><br>
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br></p>
         <p><em><b>AV1</b></em><br>Me encargue de crear la organizacion en github
@@ -273,7 +272,7 @@ para poder trabajar de manera colaborativa.</p>
         <p><b>Damacen Galindo, Italo Gianfranco</b><br></p>
         <p><em><b>AV1</b></em><br>Elaboré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes y la problemática, además de los componentes del proceso Lean UX. Organicé y redacté estos contenidos utilizando un lenguaje técnico y estructurado para comunicar de manera clara el propósito, contexto, problemática y propuesta de valor del proyecto.</p>
       </td>
-      <td>[CONCLUSIÓN]</td></em><br>[ACCIÓN REALIZADA]</p>
+      <td>[CONCLUSIÓN]</td></em><br>Como equipo, durante el AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar tanto la propuesta de solución como aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos durante este avance.</p>
     </tr>
     <tr>
   </tbody>
