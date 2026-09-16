@@ -3295,6 +3295,7 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 **Link LandingPague:** https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/
 
+**Link PPT:** https://canva.link/zzlw6fefxwlie78
 
 ## Anexo B: Videos de Exposiciones
 
