@@ -3233,33 +3233,6 @@ El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de 
 
 ---
 
-## 5.3. Validation Interviews
-
-### 5.3.1. Interview Design
-
-[DESCRIBIR EL DISEÑO DE LAS ENTREVISTAS DE VALIDACIÓN.]
-
-### 5.3.2. Interview Registry
-
-[REGISTRAR LAS ENTREVISTAS DE VALIDACIÓN.]
-
-### 5.3.3. Heuristic Evaluations
-
-[PEGAR AQUÍ LOS RESULTADOS DE LAS EVALUACIONES HEURÍSTICAS.]
-
----
-
-## 5.4. Video About-the-Product
-
-**Enlace al video:**
-
-[PEGAR AQUÍ EL ENLACE AL VIDEO]
-
-**Descripción:**
-
-[DESCRIBIR BREVEMENTE EL CONTENIDO DEL VIDEO.]
-
----
 
 ## Conclusiones y recomendaciones
  
