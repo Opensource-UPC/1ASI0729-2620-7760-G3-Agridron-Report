@@ -3292,10 +3292,10 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo A: Evidencias adicionales
 
-> Enlace de miro: 
-https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
-> Link LandingPague: 
-https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/
+**Enlace de miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
+
+**Link LandingPague:** https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/
+
 
 ## Anexo B: Videos de Exposiciones
 
