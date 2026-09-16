@@ -278,8 +278,8 @@
         <p><b>Ramirez Gutierrez, Gabriel</b><br></p>
         <p><em><b>AV1</b></em><br>Presenté la propuesta de valor y el funcionamiento del landing page de AgriDron Solutions, explicando de manera clara la organización de sus secciones, el uso de los recursos visuales y la experiencia planteada para los usuarios.</p>
         <br>
-        <b>[INTEGRANTE 2]</b><br>
-        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <b>Nicho Huillcañahui Edwin Noe</b><br>
+        <em><b>AV1</b></em><br> Participé en el video de exposición explicando ante cámara los hallazgos del Capítulo II. Prioricé un lenguaje sencillo al presentar los perfiles de usuario (User Personas) y sus necesidades a una audiencia no técnica, apoyándome en las capturas de UXPressia para ilustrar el discurso en lugar de leer texto. Durante las entrevistas de Needfinding, apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar, y en la sustentación grupal recibí y respondí preguntas del docente sobre el criterio usado para identificar patrones entre segmentos.
         <br><br>
         <p><b>[INTEGRANTE 3]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -301,8 +301,8 @@
         <p><b>Ramirez Gutierrez, Gabriel</b><br></p>
         <p><em><b>AV1</b></em><br>Diseñé y desarrollé integralmente el landing page de AgriDron Solutions, definiendo su estructura, contenido visual, distribución de secciones y propuesta de navegación para comunicar el valor de la solución de forma clara y atractiva.</p>
         <br>
-        <b>[INTEGRANTE 2]</b><br>
-        <em><b>AV1</b></em><br>[ACCIÓN REALIZADA]
+        <b>Nicho Huillcañahui Edwin Noe</b><br>
+        <em><b>AV1</b></em><br> Redacté en el Informe de Proyecto (Markdown) las secciones de Análisis Competitivo, Diseño y Registro de Entrevistas, y Needfinding, transcribiendo de forma descriptiva las respuestas de los entrevistados y sustentando con porcentajes las características comunes de cada segmento. Cuidé la ortografía y gramática, seguí la estructura de tablas exigida (Competitive Analysis Landscape, User Task Matrix) y usé el idioma inglés para el Ubiquitous Language según lo indicado en el enunciado.
         <br><br>
         <p><b>[INTEGRANTE 3]</b><br></p>
         <p><em><b>AV1</b></em><br>[ACCIÓN REALIZADA]</p>
@@ -402,22 +402,22 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_02.png" alt="Foto del integrante" width="500"/>
+     <img width="1200" height="1600" alt="Foto EdwinNicho" src="https://github.com/user-attachments/assets/3d3dea48-8f1b-4aa7-905d-9d25ebf87779" />
     </td>
   </tr>
   <tr>
     <td><b>Nombre:</b> Nicho Huillcánahui, Edwin Noe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U20241G306 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U20241G306 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+     Soy Edwin, estudiante de 5to ciclo de Ingeniería de Software. Cuento con conocimientos en C++, además de nociones de Python, HTML y CSS. Durante el desarrollo de este proyecto aprendí a manejar GitHub Web y UXPressia, herramientas que me permitieron colaborar en el control de versiones del equipo y en la elaboración de los artefactos de investigación de usuarios. Me siento especialmente cómodo realizando labores de documentación, cuidando la claridad y el orden de la información que presento. En mis ratos libres disfruto aprender nuevos idiomas y practicar lógica de programación, lo cual complementa mi interés constante por seguir desarrollando mis habilidades técnicas.
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Como integrante del equipo, mi función principal se centró en la investigación correspondiente al Capítulo II del proyecto, encargándome del análisis de competidores, el diseño y registro de entrevistas, y el proceso de Needfinding. A partir de esta investigación, elaboré los artefactos necesarios para sustentar los hallazgos: User Personas, User Task Matrix, User Journey Maps, Empathy Maps, además del Big Picture Event Storming y el Ubiquitous Language del dominio del problema.
     </td>
   </tr>
   <tr>
