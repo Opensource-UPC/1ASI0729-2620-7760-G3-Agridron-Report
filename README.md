@@ -969,7 +969,7 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 #### Persona 1:
 
 <div align="center">
-  <img src="./assets/chapter2/Userpersona-Segmento-1.png" alt="User Persona Segmento 1" />
+  <img src="./assets/Chapter2/Userpersona-Segmento-1.png" alt="User Persona Segmento 1" />
 </div>
 <br>
 Laura cursa el 10mo ciclo de Ingeniería Agrónoma y se desempeña como administradora de campo en el distrito de Subtanjalla, Ica. Combina sus conocimientos técnicos en monitoreo y sanidad vegetal con la gestión diaria del predio agrícola familiar, buscando incorporar tecnologías de precisión para optimizar el uso de agua e insumos y mejorar el control de plagas. En su trabajo enfrenta problemas como la aplicación de productos químicos condicionada por el viento, el registro manual de tratamientos, la falta de información digital para delimitar áreas y la dificultad de coordinar labores cuando las condiciones climáticas interrumpen el trabajo.
@@ -977,7 +977,7 @@ Laura cursa el 10mo ciclo de Ingeniería Agrónoma y se desempeña como administ
 #### Persona 2: 
 
 <div align = "center"> 
-  <img  witdh = "789" height="1600"src="./assets/chapter2/Userpersona-Segmento-2.png" alt="User Persona Segmento 1" />
+  <img  witdh = "789" height="1600"src="./assets/Chapter2/Userpersona-Segmento-2.png" alt="User Persona Segmento 1" />
 </div>
 <br>
 Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
@@ -989,7 +989,7 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 ### 2.3.2. User Task Matrix
 
 <div> 
-  <img src="./assets/chapter2/UserTaskMatrix.png" alt="User Task Matrix" />
+  <img src="./assets/Chapter2/UserTaskMatrix.png" alt="User Task Matrix" />
 </div>
 
 ### 2.3.3. User Journey Mapping
@@ -1002,7 +1002,7 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 
 **Segmento 2:**
 <div align="center">
-   <img src="./assets/chapter2/UserJourneyMap-Segmento-2.png" alt="User Journey Segmento 2" />
+   <img src="./assets/Chapter2/UserJourneyMap-Segmento-2.png" alt="User Journey Segmento 2" />
 </div>
 
 ### 2.3.4. Empathy Mapping
@@ -1010,19 +1010,19 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 **Segmento 1:**
 
 <div align="center">
-   <img src="./assets/chapter2/Empathymap-Segmento-1.png" alt="Empathy Mappging Segmento 1" />
+   <img src="./assets/Chapter2/Empathymap-Segmento-1.png" alt="Empathy Mappging Segmento 1" />
 </div>
 
 **Segmento 2:**
 <div align="center">
-   <img src="./assets/chapter2/Empathymap-Segmento-2.png" alt="Empathy Mappging Segmento 1" />
+   <img src="./assets/Chapter2/Empathymap-Segmento-2.png" alt="Empathy Mappging Segmento 1" />
 </div>
 ---
 
 ## 2.4. Big Picture EventStorming
 
 <div align="center">
-   <img src="./assets/chapter2/EventStorming.jpg" alt="Event Storming" />
+   <img src="./assets/Chapter2/EventStorming.jpg" alt="Event Storming" />
 </div>
 
 **Descripción:**
@@ -1037,7 +1037,7 @@ El Big Picture EventStorming representa el flujo completo del dominio de <strong
 
 El flujo se organizó en dos grandes fases. La primera, <strong>Onboarding y Planificación de Misión</strong>, cubre desde la creación de la cuenta y el registro de la finca/parcela/terreno por parte del <em>Agricultor</em>, hasta la delimitación del área de fumigación mediante el mapa interactivo, la consulta de condiciones climáticas con la <em>Weather API</em>, la solicitud de la misión y su confirmación o programación directa por parte del <em>Operador Técnico</em>. La segunda fase, <strong>Ejecución, Monitoreo y Cierre del Servicio</strong>, abarca el inicio de la jornada de vuelo del operador, la ejecución y monitoreo de parámetros del dron, el registro de incidencias en campo (derivando en pausas si el clima es adverso), y el cierre de la misión con la generación de reportes de productividad para el agricultor y de rendimiento operativo para el técnico.
 
-</p>
+
 
 <p align="justify">
 
