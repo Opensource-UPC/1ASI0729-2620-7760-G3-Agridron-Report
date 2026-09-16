@@ -966,82 +966,104 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 
 ### 2.3.1. User Personas
 
-#### Persona 1: 
+#### Persona 1:
 
-<img width="1050" height="2188" alt="User persona segmento 1" src="https://github.com/user-attachments/assets/d52e16b8-b266-4790-a3d5-8aa907449ce4" />
+<div align="center">
+  <img src="./assets/chapter2/Userpersona-Segmento-1.png" alt="User Persona Segmento 1" />
+</div>
+<br>
+Laura cursa el 10mo ciclo de Ingeniería Agrónoma y se desempeña como administradora de campo en el distrito de Subtanjalla, Ica. Combina sus conocimientos técnicos en monitoreo y sanidad vegetal con la gestión diaria del predio agrícola familiar, buscando incorporar tecnologías de precisión para optimizar el uso de agua e insumos y mejorar el control de plagas. En su trabajo enfrenta problemas como la aplicación de productos químicos condicionada por el viento, el registro manual de tratamientos, la falta de información digital para delimitar áreas y la dificultad de coordinar labores cuando las condiciones climáticas interrumpen el trabajo.
 
 #### Persona 2: 
 
-<img width="1050" height="2188" alt="User Persona Segmento 2" src="https://github.com/user-attachments/assets/c326f206-6eaa-4301-8275-89d98a6dba66" />
-
+<div align = "center"> 
+  <img  witdh = "789" height="1600"src="./assets/chapter2/Userpersona-Segmento-2.png" alt="User Persona Segmento 1" />
+</div>
+<br>
 Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
 en pilotaje de multirrotores y aplicación aeroagrícola. Opera un dron con tanque de 40 litros para tratamientos preventivos y curativos
 en frutales (palto, vid, cítricos) y panllevar en el valle de Cañete y valles vecinos (Mala, Quilmaná). Apoya las labores técnicas
 en el predio agrícola de su familia y presta servicios a terceros, enfrentando a diario la falta de cartografía formal de
 los clientes y el desgaste de coordinar cotizaciones por chat.
 
-<img width="1437" height="1007" alt="User task Matrix" src="https://github.com/user-attachments/assets/fce876c3-5752-4e1d-b58d-0591756dbe83" />
+### 2.3.2. User Task Matrix
+
+<div> 
+  <img src="./assets/chapter2/UserTaskMatrix.png" alt="User Task Matrix" />
+</div>
 
 ### 2.3.3. User Journey Mapping
 
 **Segmento 1:**
+
 <div align="center">
-<img width="1732" height="882" alt="User Journey Map- Segmento 1" src="https://github.com/user-attachments/assets/f17ce534-c771-47b4-94a9-a1d32b50d0a7" />
+ <img src="/assets/Chapter2/UserJourneyMap-Segmento-1.png" alt="User Journey Segmento 1" />
 </div>
 
 **Segmento 2:**
 <div align="center">
-<img width="1632" height="881" alt="User Journey Map- Segmento 2" src="https://github.com/user-attachments/assets/1b8a52d1-592e-40cc-a4fc-b59d3e753b67" />
+   <img src="./assets/chapter2/UserJourneyMap-Segmento-2.png" alt="User Journey Segmento 2" />
 </div>
 
 ### 2.3.4. Empathy Mapping
 
 **Segmento 1:**
 
-<img width="1050" height="1858" alt="Empathy map Segmento 1" src="https://github.com/user-attachments/assets/28a8792f-1bf5-440b-a0ac-2d8713a8fe18" />
+<div align="center">
+   <img src="./assets/chapter2/Empathymap-Segmento-1.png" alt="Empathy Mappging Segmento 1" />
+</div>
 
 **Segmento 2:**
-
-<img width="1050" height="1948" alt="Empathy map - Segmento 2" src="https://github.com/user-attachments/assets/d661caf2-fbcf-4763-a194-b1915d1a1116" />
-
+<div align="center">
+   <img src="./assets/chapter2/Empathymap-Segmento-2.png" alt="Empathy Mappging Segmento 1" />
+</div>
 ---
 
 ## 2.4. Big Picture EventStorming
 
-<img src="assets/architecture/big_picture_eventstorming.jpg" alt="Big Picture EventStorming" width="650"/>
+<div align="center">
+   <img src="./assets/chapter2/EventStorming.jpg" alt="Event Storming" />
+</div>
 
 **Descripción:**
 
 <p align="justify">
 
-El Big Picture EventStorming representa el flujo completo del dominio de <strong>AgriDron Solutions</strong>, desde que un visitante crea su cuenta hasta el cierre del servicio de fumigación. Se construyó a partir de las user stories definidas en el apartado 3.1, agrupando los eventos de dominio (en naranja, redactados en pasado) según el actor que los origina (en amarillo) y, cuando corresponde, el sistema externo involucrado (en celeste).
+El Big Picture EventStorming representa el flujo completo del dominio de <strong>AgriDron Solutions</strong>, desde que un visitante crea su cuenta hasta el cierre del servicio de fumigación. Se construyó agrupando los eventos de dominio (en naranja, redactados en pasado) según el actor que los origina (en amarillo) y, cuando corresponde, el sistema externo involucrado (en celeste).
 
 </p>
 
 **Link del Miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
 
+El flujo se organizó en dos grandes fases. La primera, <strong>Onboarding y Planificación de Misión</strong>, cubre desde la creación de la cuenta y el registro de la finca/parcela/terreno por parte del <em>Agricultor</em>, hasta la delimitación del área de fumigación mediante el mapa interactivo, la consulta de condiciones climáticas con la <em>Weather API</em>, la solicitud de la misión y su confirmación o programación directa por parte del <em>Operador Técnico</em>. La segunda fase, <strong>Ejecución, Monitoreo y Cierre del Servicio</strong>, abarca el inicio de la jornada de vuelo del operador, la ejecución y monitoreo de parámetros del dron, el registro de incidencias en campo (derivando en pausas si el clima es adverso), y el cierre de la misión con la generación de reportes de productividad para el agricultor y de rendimiento operativo para el técnico.
+
+</p>
+
+<p align="justify">
+
+Durante el ejercicio se identificaron tres <strong>hotspots</strong> (en rosado) que representan preguntas abiertas sobre reglas de negocio operativas: qué flujo alternativo sigue el sistema si el operador rechaza la fecha u orden solicitada, cómo valida técnicamente el operador que el polígono trazado por el agricultor no contenga obstáculos aéreos críticos (cables de alta tensión, árboles o acequias) antes del despegue, y cuál es el mecanismo para acordar y validar una reprogramación de las hectáreas pendientes tras una suspensión climática. Estos puntos críticos orientan directamente la especificación de requerimientos en el Capítulo III.
+
+</p>
 
 ---
 
 ## 2.5. Ubiquitous Language
 
-| Término                                   | Definición                                                                                                                                                                                                                            |
-|:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Finca**                                 | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas.                                                                |
-| **Parcela / Área de fumigación**          | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de dibujarla.         |
-| **Misión de fumigación**                  | Solicitud de servicio creada por un Agricultor sobre un área y un cultivo específicos. Atraviesa los estados *Pendiente*, *Asignada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida.                         |
-| **Geocerca**                              | Perímetro virtual asociado a una finca registrada, utilizado para validar automáticamente si un Operador se encuentra físicamente dentro del predio antes de iniciar el registro de su jornada de trabajo.                            |
-| **Jornada de trabajo**                    | Periodo de tiempo trabajado por un Operador en campo, cuyo registro se inicia automáticamente al confirmarse su ubicación dentro de la geocerca de la finca, o de forma manual con verificación del Supervisor si esto no es posible. |
-| **Operador**                              | Piloto certificado que ejecuta las misiones de fumigación en campo, monitorea los parámetros del dron durante el vuelo y reporta incidencias o avances de la operación.                                                               |
-| **Agricultor**                            | Usuario propietario o administrador de una o más fincas, responsable de registrar parcelas, crear misiones de fumigación y consultar el historial y los reportes de productividad de sus operaciones.                                 |
-| **Supervisor**                            | Usuario responsable de asignar misiones a operadores disponibles, monitorear en tiempo real el estado de los drones activos, gestionar el inventario de insumos y consultar reportes de eficiencia operativa.                         |
-| **Incidencia**                            | Evento imprevisto registrado por un Operador durante una misión en progreso (por ejemplo, clima adverso o falla técnica del equipo), que puede derivar en la pausa automática de la misión y una alerta al Supervisor.                |
-| **Acta de servicio**                      | Registro digital inmediato emitido al completar una misión, que detalla las hectáreas efectivamente fumigadas y los químicos aplicados, sirviendo como evidencia verificable frente al cliente.                                       |
-| **Reporte de productividad**              | Documento generado por el Agricultor que resume, por finca y rango de fechas, el área total fumigada, los insumos utilizados, las horas de operación, el costo por hectárea y el rendimiento estimado.                                |
-| **Reporte de eficiencia operativa**       | Documento generado por el Supervisor con métricas de desempeño como tiempo promedio por hectárea, costo por hectárea, eficiencia en el uso de insumos y horas-hombre invertidas, incluyendo comparativas entre operadores.            |
-| **Inventario de insumos**                 | Registro del stock disponible de pesticidas y fertilizantes gestionado por el Supervisor, con umbrales mínimos que generan alertas de reabastecimiento cuando el stock es crítico.                                                    |
-| **Condiciones climáticas**                | Información meteorológica obtenida de un servicio externo (Weather API) y consultada antes o durante una misión, utilizada para planificar operaciones y sustentar pausas por viento u otros factores adversos.                       |
-| **Dashboard de monitoreo en tiempo real** | Panel que muestra la posición GPS, el nivel de batería, el estado de vuelo y el avance porcentual de los drones activos, actualizado continuamente durante la ejecución de una misión.                                                |
+| Término | Definición |
+| :--- | :--- |
+| **Finca** | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas. |
+| **Parcela / Área de fumigación** | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de trazarla. |
+| **Misión de fumigación** | Solicitud de servicio creada por un Agricultor sobre un área y cultivo específicos. Atraviesa los estados *Pendiente*, *Confirmada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida. |
+| **Sesión de pulverización** | Periodo continuo de vuelo y aplicación aeroagrícola ejecutado en campo por el Operador, sujeto a ventanas climáticas óptimas y disponibilidad de batería y carga de fitosanitarios. |
+| **Obstáculo aéreo / perimetral** | Elemento físico presente en el predio (postes, cables de alta tensión, copas de árboles, acequias) que el Operador debe identificar y registrar para evitar colisiones durante el vuelo. |
+| **Operador Técnico** | Piloto acreditado que gestiona sus solicitudes de servicio, valida las parcelas, programa los vuelos, calibra los equipos y ejecuta la fumigación en campo. |
+| **Agricultor** | Usuario propietario o administrador de una finca, responsable de delimitar lotes, solicitar misiones de fumigación y consultar el historial de trabajo y reportes de productividad. |
+| **Incidencia** | Evento adverso imprevisto reportado por el Operador durante una misión (ráfagas de viento mayores a 12-15 km/h, lluvia repentina, fallas mecánicas), que genera la pausa del servicio. |
+| **Acta de servicio** | Constancia digital inmediata emitida por el Operador al culminar la faena, donde se certifican las hectáreas netas tratadas, insumos fitosanitarios descargados y observaciones de campo. |
+| **Reporte de productividad** | Documento consolidado que consulta el Agricultor con el histórico de áreas fumigadas, insumos utilizados, costos por hectárea y fechas de tratamiento por predio. |
+| **Reporte de rendimiento técnico** | Resumen operativo generado por el Operador con métricas de desempeño propio (hectáreas tratadas por jornada, horas de vuelo acumuladas y volumen promedio aplicado). |
+| **Condiciones meteorológicas** | Datos ambientales en tiempo real (velocidad del viento, temperatura y probabilidad de lluvia) provistos por una API externa para validar la viabilidad técnica antes del despegue. |
+| **Monitoreo de vuelo simulado** | Visualización interactiva con datos emulados de telemetría (posición GPS, nivel de batería, volumen de químico restante y avance porcentual) para representar el progreso del dron durante la misión sin requerir integración con hardware físico. |
 
 ---
 
