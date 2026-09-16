@@ -418,7 +418,7 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/SebastiánSayago_Foto.png" alt="Foto del integrante" width="600"/>
+      <img src="assets/Chapter1/SebastiánSayago_Foto.png" alt="Foto del integrante" width="600"/>
     </td>
   </tr>
   <tr>
@@ -438,7 +438,7 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/Alexander_Vasquez.png" alt="Foto del integrante" width="600"/>
+      <img src="assets/Chapter1/team/Alexander_Vasquez.png" alt="Foto del integrante" width="600"/>
     </td>
   </tr>
   <tr>
