@@ -14,9 +14,9 @@
 
 ### **Informe del Trabajo Final**
 
-**Nombre de la Startup:** AgriDron
+**Nombre de la Startup:** AgriDron Solutions
 
-**Nombre del producto:** [AgriDron Solutions]
+**Nombre del producto:** AgriDron
 <br>
 
 ### **Integrantes**
@@ -63,7 +63,7 @@
 | 0.4.0 | 12/09/2026 | Italo Damacen | Implementación completa del capitulo 1 |
 | 0.5.0 | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2 |
 | 0.6.0 | 07/09/2026 | Nicho Huillcañahui | Implementación del capitulo 2 |
-| 0.7.0 | 08/09/2026 | ??? | Implementación del capitulo 3 |
+| 0.7.0 | 08/09/2026 |Alexander Vasquez | Implementación del capitulo 3 |
 | 0.8.0 | 08/09/2026 | Sebastián Sayago | Implementación del capitulo 4 |
 | 1.0.0 | 15/09/2026 | Agridron | Evidencia completa de entrega AV1 |
 
@@ -3292,8 +3292,10 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo A: Evidencias adicionales
 
-> Enlace de miro
+> Enlace de miro: 
 https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
+> Link LandingPague: 
+https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/
 
 ## Anexo B: Videos de Exposiciones
 
