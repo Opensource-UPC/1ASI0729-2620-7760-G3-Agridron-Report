@@ -449,7 +449,7 @@ Pilares de valor:
     <td><b>Nombre:</b> Sayago Vidal, Sebastian Leonardo</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202422642 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U202422642 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
