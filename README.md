@@ -1141,7 +1141,6 @@ los objetivos estratégicos del proyecto y las funcionalidades necesarias para l
 ---
 
 ## 3.3. Product Backlog
-## 3.3. Product Backlog
 
 | ID     | Epic / Módulo        | User Story / Technical Story                                                                                                                                         | Prioridad  | Story Points  | Estado |
 |:-------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:-------------:|:-------|
