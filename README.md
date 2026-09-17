@@ -2503,45 +2503,17 @@ El control de versiones del proyecto se realizará mediante **Git gestionado des
 
 Los repositorios considerados para AgriDron Solutions son:
 
-| Producto                 | Repositorio                   | Contenido                                                     |
-|--------------------------|-------------------------------|---------------------------------------------------------------|
-| Landing Page             | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript                                        |
-| Frontend Web Application | `AgiDron-FrontEnd-7760-G3`    | Angular y TypeScript                                          |
-| Web Services             | `AgiDron-BackEnd-7760-G3`     | Java, Spring Boot, pruebas unitarias e integración/aceptación |
-
-> Los nombres anteriores son una propuesta de nomenclatura. Si el equipo ya creó repositorios con nombres diferentes, deben sustituirse por los nombres reales y sus URLs reales antes de entregar el informe.
+| Producto                 | Repositorio                   | Contenido                                                     | Link de Github                                                |
+|--------------------------|-------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| Landing Page             | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript                                        | https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3 |
+| Frontend Web Application | `AgiDron-FrontEnd-7760-G3`    | Angular y TypeScript                                          | https://github.com/Opensource-UPC/Agridron-frontend           |
+| Web Services             | `AgiDron-BackEnd-7760-G3`     | Java, Spring Boot, pruebas unitarias e integración/aceptación | https://github.com/Opensource-UPC/Agridron-backend            |
 
 ## 5.1.2.2. GitFlow Workflow
 
 Se utilizará **GitFlow** como estrategia de organización de ramas.
 
-```mermaid
-gitGraph
-  commit id: "Initial"
-  branch develop
-  checkout develop
-  commit id: "Setup project"
-
-  branch feature/field-management
-  checkout feature/field-management
-  commit id: "feat: add parcel management"
-  checkout develop
-  merge feature/field-management
-
-  branch feature/flight-operations
-  checkout feature/flight-operations
-  commit id: "feat: add mission management"
-  checkout develop
-  merge feature/flight-operations
-
-  branch release/1.0.0
-  checkout release/1.0.0
-  commit id: "chore: prepare release"
-  checkout main
-  merge release/1.0.0
-  checkout develop
-  merge release/1.0.0
-```
+<img src="assets/chapter5/GitFlow_Workflow.png" alt="Web Applications User Flow Diagrams" width="650"/>
 
 ### Ramas principales
 
@@ -2557,22 +2529,7 @@ gitGraph
 
 Cada funcionalidad debe desarrollarse en una rama independiente.
 
-Formato:
-
-```text
-feature/<descripcion>
-```
-
-Ejemplos:
-
-```text
-feature/field-management
-feature/parcel-registration
-feature/mission-planning
-feature/weather-integration
-feature/mission-monitoring
-feature/mission-reports
-```
+<img src="assets/chapter5/Feature_Branches.png" alt="Web Applications User Flow Diagrams" width="650"/>
 
 Se utilizarán nombres en **inglés**, en minúsculas y separados mediante guiones.
 
@@ -3173,6 +3130,10 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Incluye las secciones internas de Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review y Team Collaboration Insights during Sprint.
 
+**Link del trello:** https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron
+
+<img src="assets/chapter5/sprint_1.png" alt="Sprint 1" width="650"/>
+
 #### 5.2.1.1. Sprint Planning 1
 
 | Campo                            | Detalle                                                                                                                                                                                                                                        |
@@ -3226,6 +3187,10 @@ A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brin
 | Testing / Validation / Evidence      | Edwin Noe Nicho Huillcañahui     | Alexander Vásquez Roncal, Gabriel Ramírez Gutiérrez    |
 
 #### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal de este Sprint es desarrollar e implementar el sitio web estático (Landing Page) de AgriDron Solutions, orientado a comunicar la propuesta de valor de la plataforma y presentar sus principales funcionalidades a los dos segmentos objetivo: pequeños y medianos agricultores/propietarios de fincas y técnicos agrícolas/operadores de drones de campo. Durante este Sprint se implementarán las secciones de navegación, propuesta de valor, funcionalidades, funcionamiento de la plataforma, beneficios orientados a cada segmento, información del equipo y llamados a la acción (CTA) que permitan a los usuarios acceder a la aplicación web. Asimismo, se considerarán los flujos de navegación y acceso definidos en las User Stories correspondientes a la Landing Page.
+
+
 
 | ID     | User Story                                                                                                                                     | Tarea                                                                              | Responsable       | Estado |
 |:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|:------------------|:-------|
