@@ -397,11 +397,7 @@ Pilares de valor:
   </tr>
   <tr>
     <td rowspan="4" align="center">
-<<<<<<< HEAD
-      <img src="assets/Chapter1/Gabriel_Ramirez.jpg" alt="Foto del integrante" width="1200" />
-=======
-      <img src="assets/Chapter1/team/Gabriel_Ramirez.jpg" alt="Foto del integrante" width="1200" />
->>>>>>> ad821a6a7a9ba2aae2f65beaf2bb92c11ad3597d
+< <img src="assets/Chapter1/team/Gabriel_Ramirez.jpg" alt="Gabriel Ramirez" width="1200" />
     </td>
   </tr>
   <tr>
