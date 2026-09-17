@@ -2505,11 +2505,12 @@ El control de versiones del proyecto se realizará mediante **Git gestionado des
 
 Los repositorios considerados para AgriDron Solutions son:
 
-| Producto                 | Repositorio                   | Contenido                                                     |
-|--------------------------|-------------------------------|---------------------------------------------------------------|
-| Landing Page             | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript                                        |
-| Frontend Web Application | `AgiDron-FrontEnd-7760-G3`    | Angular y TypeScript                                          |
-| Web Services             | `AgiDron-BackEnd-7760-G3`     | Java, Spring Boot, pruebas unitarias e integración/aceptación |
+
+| Producto       | Repositorio                              | URL                                                                                                                                                  | Contenido                            |
+| -------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| Project Report | `1ASI0729-2620-7760-G3-Agridron-Report-` | [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report-](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report-) | Informe y documentación del proyecto |
+| Landing Page   | `AgiDron-LandingPage-7760-G3`            | [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)                       | Landing Page del producto            |
+
 
 > Los nombres anteriores son una propuesta de nomenclatura. Si el equipo ya creó repositorios con nombres diferentes, deben sustituirse por los nombres reales y sus URLs reales antes de entregar el informe.
 
