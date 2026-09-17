@@ -3155,22 +3155,22 @@ En esta sección se registra y explica el avance en términos de producto y trab
 | Campo | Detalle |
 | :--- | :--- |
 | Sprint # | 1 |
-| Sprint Planning Background | En este sprint se definió la base funcional de AgriDron Solutions con foco en la propuesta de valor del producto, la navegación inicial de la landing page y la estructura inicial del ecosistema web para agricultores y operadores técnicos. |
+| Sprint Planning Background | En este sprint se definió la base funcional de la landing page de AgriDron Solutions, con foco en la propuesta de valor, la navegación, la presentación de servicios y los llamados a la acción para los visitantes. |
 | Date | 15/09/2026 |
 | Time | 18:30 PM |
 | Location | Reunión virtual (Google Meet / Zoom) |
 | Prepared By | Edwin Noe Nicho Huillcañahui |
 | Attendees (to planning meeting) | Italo Gianfranco Damacen Galindo, Edwin Noe Nicho Huillcañahui, Gabriel Ramírez Gutiérrez, Sebastián Leonardo Sayago Vidal, Alexander Felipe Vásquez Roncal |
-| Sprint 1 - Review Summary | Se validó la estructura inicial del producto, la claridad del valor para los agricultores, y la necesidad de crear una primera versión funcional de la landing page y la gestión básica de usuarios y fincas. |
-| Sprint 1 - Retrospective Summary | Se identificaron oportunidades para mejorar la coordinación del equipo, definir mejor la distribución de tareas y acelerar la integración entre frontend y backend en los siguientes sprint. |
+| Sprint 1 - Review Summary | Se validó la estructura inicial de la landing page, la claridad de la propuesta de valor para los agricultores y la presentación de los servicios, planes y canales de contacto de AgriDron. |
+| Sprint 1 - Retrospective Summary | Se identificaron oportunidades para mejorar la coordinación del equipo, definir mejor la distribución de tareas y agilizar la validación responsive y de contenidos en los siguientes sprint. |
 
 #### Sprint Goal & User Stories
 
 | Aspecto | Descripción |
 | :--- | :--- |
-| Sprint 1 Goal | Definir la base del producto AgriDron para que el usuario pueda entender la propuesta de valor, registrarse, iniciar sesión y gestionar los primeros datos de una finca y la programación de una misión. |
-| Velocity | 18 |
-| Sum of Story Points | 18 |
+| Sprint 1 Goal | Construir una landing page informativa y responsive que explique la propuesta de valor de AgriDron, presente sus servicios y planes, y facilite el contacto de los visitantes interesados. |
+| Velocity | 16 |
+| Sum of Story Points | 16 |
 
 Es muy importante que el equipo dedique atención a la identificación del Sprint Goal. Según el Scrum Guide, “El Sprint Goal es el objetivo individual del Sprint. Es un compromiso para los Developers, flexible en términos del trabajo exacto que se requiere para alcanzarlo. El Sprint Goal también crea coherencia y enfoque, buscando que los miembros del Scrum Team trabajen juntos en vez de ir en pos de iniciativas individuales.”
 
@@ -3199,39 +3199,57 @@ A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brin
 | :--- | :--- | :--- |
 | Product Strategy & Value Proposition | Italo Gianfranco Damacen Galindo | Sebastián Sayago Vidal, Gabriel Ramírez Gutiérrez |
 | UX / UI / Landing Page | Sebastián Leonardo Sayago Vidal | Alexander Felipe Vásquez Roncal, Italo Damacen Galindo |
-| Backend / Services / Data Model | Gabriel Ramírez Gutiérrez | Edwin Noe Nicho Huillcañahui, Sebastián Sayago Vidal |
+| Content, CTAs & Navigation | Gabriel Ramírez Gutiérrez | Edwin Noe Nicho Huillcañahui, Sebastián Sayago Vidal |
 | Testing / Validation / Evidence | Edwin Noe Nicho Huillcañahui | Alexander Vásquez Roncal, Gabriel Ramírez Gutiérrez |
 
 #### 5.2.1.3. Sprint Backlog 1
 
 | ID | User Story | Tarea | Responsable | Estado |
 | :--- | :--- | :--- | :--- | :--- |
-| US-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | Definir propuesta de valor, estructura del hero section, CTA principal y mensajes clave de marketing. | Italo Damacen | Done |
-| US-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | Diseñar y desarrollar la sección de servicios con iconografía, descripción y beneficios. | Sebastián Sayago | Done |
-| US-003 | Como visitante, quiero registrarme para acceder a la web application y conocer las funciones del sistema. | Implementar formulario de registro, validaciones y flujo inicial de onboarding. | Gabriel Ramírez | Done |
-| US-004 | Como usuario registrado, quiero iniciar sesión para acceder a mi panel y gestionar mis operaciones. | Desarrollar login, validación de credenciales y redirección al dashboard base. | Gabriel Ramírez | In Progress |
-| US-005 | Como agricultor, quiero registrar una finca para definir el área donde se ejecutará la misión de fumigación. | Crear modelo, formulario y servicio para registrar fincas y parcelas. | Alexander Vásquez | In Progress |
-| US-006 | Como supervisor, quiero visualizar una misión inicial para comprobar el flujo principal del sistema. | Diseñar la vista de creación de misión y estado base de ejecución. | Edwin Nicho | To Do |
+| LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | Definir el mensaje principal y el público objetivo. | Italo Damacen | Done |
+| LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | Diseñar la composición visual del hero section y seleccionar la imagen principal. | Sebastián Sayago | Done |
+| LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | Implementar el hero section, el CTA principal y la navegación hacia las secciones. | Sebastián Sayago | Done |
+| LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | Validar la visualización del hero y el CTA en desktop y mobile. | Edwin Nicho | Done |
+| LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | Definir los servicios y beneficios que se comunicarán al visitante. | Italo Damacen | Done |
+| LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | Diseñar las tarjetas, iconos y jerarquía visual de la sección. | Alexander Vásquez | Done |
+| LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | Implementar la sección de servicios con al menos tres opciones. | Sebastián Sayago | Done |
+| LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | Comprobar la legibilidad, orden y adaptación responsive de las tarjetas. | Edwin Nicho | Done |
+| LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | Definir los planes, precios y características que se mostrarán. | Italo Damacen | Done |
+| LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | Diseñar la tabla o tarjetas comparativas de planes. | Alexander Vásquez | Done |
+| LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | Implementar la sección de planes y destacar la opción recomendada. | Sebastián Sayago | Done |
+| LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | Verificar la claridad de precios, beneficios y CTA de cada plan. | Edwin Nicho | Done |
+| LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | Definir el CTA de registro y su ubicación dentro de la landing page. | Italo Damacen | Done |
+| LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | Diseñar el formulario o modal de registro y sus estados visuales. | Alexander Vásquez | Done |
+| LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | Implementar el enlace y la navegación hacia el flujo de registro. | Gabriel Ramírez | Done |
+| LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | Validar el CTA y la navegación de registro desde desktop y mobile. | Edwin Nicho | Done |
+| LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | Definir el CTA de inicio de sesión en la navegación y en las secciones relevantes. | Italo Damacen | Done |
+| LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | Diseñar el acceso visual al formulario de inicio de sesión. | Alexander Vásquez | Done |
+| LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | Implementar el enlace y la navegación hacia el flujo de inicio de sesión. | Gabriel Ramírez | Done |
+| LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | Comprobar que el CTA sea visible, accesible y responsive. | Edwin Nicho | Done |
+| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | Redactar y organizar el contenido de términos, condiciones y privacidad. | Italo Damacen | Done |
+| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | Diseñar los enlaces legales y la estructura del footer. | Alexander Vásquez | Done |
+| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | Implementar el footer y la navegación a las páginas legales. | Sebastián Sayago | Done |
+| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | Verificar los enlaces, el contraste y la lectura en dispositivos móviles. | Edwin Nicho | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante este sprint se desarrolló la base del producto AgriDron con una landing page informativa, una estructura visual clara para servicios y un primer flujo de autenticación. Además, se inició la definición de los principales módulos de gestión de fincas y misiones, de acuerdo con la arquitectura propuesta en el proyecto.
+Durante este sprint se desarrolló la landing page informativa de AgriDron con una estructura visual clara para la propuesta de valor, los servicios, los planes y los llamados a la acción de registro e inicio de sesión.
 
 ![Evidencia de desarrollo](assets/chapter4/landing_mockup.png)
 
-La evidencia de desarrollo incluye la versión inicial del landing page, la propuesta visual del producto y la estructura base del sistema para registro, autenticación y gestión de misiones. En paralelo, se validó la consistencia con la propuesta de valor y los segmentos objetivo, reforzando la dirección de diseño del producto.
+La evidencia de desarrollo incluye la versión inicial de la landing page, la propuesta visual del producto, el footer con enlaces legales y la navegación hacia los flujos de registro e inicio de sesión. En paralelo, se validó la consistencia con la propuesta de valor y los segmentos objetivo, reforzando la dirección de diseño del producto.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-La ejecución del sprint se apoyó en reuniones de coordinación semanales, revisión de avances por módulo y validación de tareas cumplidas por cada miembro del equipo. Se utilizó la división por áreas para mantener flujo de trabajo constante y reducir bloqueos en frontend, backend y documentación.
+La ejecución del sprint se apoyó en reuniones de coordinación semanales, revisión de avances por sección y validación de tareas cumplidas por cada miembro del equipo. Se utilizó la división por áreas para mantener un flujo de trabajo constante y reducir bloqueos en diseño, contenido y validación.
 
 ![Evidencia de ejecución](assets/chapter4/Web_Applications_Wireframes.png)
 
-Se evidenció avance continuo en la implementación de la landing page, la estructura de la aplicación web y la definición del backend base. Además, el equipo registró avances parciales en el flujo de autenticación y en la gestión inicial de misiones, con seguimiento directo del estado de cada story.
+Se evidenció avance continuo en la implementación de la landing page, la adaptación responsive, la organización de contenidos y la navegación de sus llamados a la acción, con seguimiento directo del estado de cada story.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Se documentó la arquitectura inicial del sistema, sus componentes principales y el alcance funcional del primer sprint. La documentación cubrió los servicios propuestos para la solución, así como la relación entre la landing page, la aplicación web y el backend.
+Se documentó la estructura de la landing page, sus secciones principales y el alcance funcional del primer sprint. La documentación cubrió la propuesta de valor, los servicios, los planes, los llamados a la acción y los enlaces legales.
 
 La evidencia documental del sprint se centra en:
 
