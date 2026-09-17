@@ -3128,12 +3128,6 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 
 ### 5.2.1. Sprint 1
 
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Incluye las secciones internas de Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review y Team Collaboration Insights during Sprint.
-
-**Link del trello:** https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron
-
-<img src="assets/chapter5/sprint_1.png" alt="Sprint 1" width="650"/>
-
 #### 5.2.1.1. Sprint Planning 1
 
 | Campo                            | Detalle                                                                                                                                                                                                                                        |
@@ -3188,8 +3182,11 @@ A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brin
 
 #### 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal de este Sprint es desarrollar e implementar el sitio web estático (Landing Page) de AgriDron Solutions, orientado a comunicar la propuesta de valor de la plataforma y presentar sus principales funcionalidades a los dos segmentos objetivo: pequeños y medianos agricultores/propietarios de fincas y técnicos agrícolas/operadores de drones de campo. Durante este Sprint se implementarán las secciones de navegación, propuesta de valor, funcionalidades, funcionamiento de la plataforma, beneficios orientados a cada segmento, información del equipo y llamados a la acción (CTA) que permitan a los usuarios acceder a la aplicación web. Asimismo, se considerarán los flujos de navegación y acceso definidos en las User Stories correspondientes a la Landing Page.
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Incluye las secciones internas de Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review y Team Collaboration Insights during Sprint.
 
+**Link del trello:** https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron
+
+<img src="assets/chapter5/sprint_1.png" alt="Sprint 1" width="650"/>
 
 
 | ID     | User Story                                                                                                                                     | Tarea                                                                              | Responsable       | Estado |
@@ -3231,7 +3228,7 @@ La evidencia de desarrollo incluye la versión inicial del landing page, la prop
 
 La ejecución del sprint se apoyó en reuniones de coordinación semanales, revisión de avances por módulo y validación de tareas cumplidas por cada miembro del equipo. Se utilizó la división por áreas para mantener flujo de trabajo constante y reducir bloqueos en frontend, backend y documentación.
 
-![Evidencia de ejecución](assets/chapter4/Web_Applications_Wireframes.png)
+![Evidencia de ejecución](assets/chapter5/Sprint_Review.png)
 
 Se evidenció avance continuo en la implementación de la landing page, la estructura de la aplicación web y la definición del backend base. Además, el equipo registró avances parciales en el flujo de autenticación y en la gestión inicial de misiones, con seguimiento directo del estado de cada story.
 
