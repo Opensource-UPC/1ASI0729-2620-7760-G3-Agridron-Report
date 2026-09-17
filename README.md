@@ -101,8 +101,6 @@
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-      - [Competitive Analysis Landscape](#competitive-analysis-landscape)
-      - [Análisis SWOT (Fortalezas, Oportunidades, Debilidades y Amenazas)](#análisis-swot-fortalezas-oportunidades-debilidades-y-amenazas)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
       - [1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)](#1-estrategia-de-enfoque-en-costos-y-accesibilidad-frente-a-dronedeploy-y-agrivi)
       - [2. Estrategia de Diferenciación por Interoperabilidad Abierta](#2-estrategia-de-diferenciación-por-interoperabilidad-abierta)
@@ -110,18 +108,10 @@
       - [4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas](#4-estrategia-de-penetración-de-canal-y-trabajo-con-comunidades-agrícolas)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [Bloque A: Perfil Demográfico y Tecnológico](#bloque-a-perfil-demográfico-y-tecnológico)
-      - [Bloque B: Contexto Operativo y Puntos de Dolor - (Tecnica 5W + 2H)](#bloque-b-contexto-operativo-y-puntos-de-dolor---tecnica-5w--2h)
-      - [Bloque C: Percepción sobre la Propuesta de Valor AgriDron Web](#bloque-c-percepción-sobre-la-propuesta-de-valor-agridron-web)
-      - [Bloque A: Perfil Demográfico y Tecnológico (Insumo para User Persona)](#bloque-a-perfil-demográfico-y-tecnológico-insumo-para-user-persona)
-      - [Bloque B: Contexto Operativo y Dolores de Gestión (5W + 2H)](#bloque-b-contexto-operativo-y-dolores-de-gestión-5w--2h)
-      - [Bloque C: Percepción sobre la Propuesta de Valor (AgriDron Web)](#bloque-c-percepción-sobre-la-propuesta-de-valor-agridron-web-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [Persona 1:](#persona-1)
-      - [Persona 2:](#persona-2)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
@@ -129,10 +119,6 @@
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
-    - [User Stories - Landing Page (Rol: Visitante / Visitor).](#user-stories---landing-page-rol-visitante--visitor)
-    - [User Stories - Web Application (Roles: Agricultor y  Operador)](#user-stories---web-application-roles-agricultor-y--operador)
-    - [Resumen de Épicas del Proyecto](#resumen-de-épicas-del-proyecto)
-    - [Technical User Stories (Historias Técnicas e Infraestructura)](#technical-user-stories-historias-técnicas-e-infraestructura)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -155,30 +141,13 @@
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-      - [Flujo principal del dominio](#flujo-principal-del-dominio)
-      - [Actores principales](#actores-principales)
-      - [Comandos](#comandos)
-      - [Eventos de dominio](#eventos-de-dominio)
-      - [Políticas y reglas de negocio](#políticas-y-reglas-de-negocio)
-      - [Agregados principales](#agregados-principales)
       - [4.6.1.1. Bounded Contexts](#4611-bounded-contexts)
-        - [Bounded Context 1: Field Management](#bounded-context-1-field-management)
-        - [Bounded Context 2: Flight Operations](#bounded-context-2-flight-operations)
-        - [Bounded Context 3: Weather Integration](#bounded-context-3-weather-integration)
-        - [Bounded Context 4: Analytics \& Reporting](#bounded-context-4-analytics--reporting)
-        - [Relación entre Bounded Contexts](#relación-entre-bounded-contexts)
-        - [Justificación](#justificación)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-      - [Descripción](#descripción)
     - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-      - [Descripción de los contenedores](#descripción-de-los-contenedores)
-      - [Flujo de comunicación](#flujo-de-comunicación)
     - [Trazabilidad entre dominio y arquitectura](#trazabilidad-entre-dominio-y-arquitectura)
     - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
       - [4.6.4.1. RESTful API](#4641-restful-api)
-        - [Responsabilidades](#responsabilidades)
       - [4.6.4.2. Web Application](#4642-web-application)
-        - [Responsabilidades](#responsabilidades-1)
       - [4.6.4.3. Weather Integration Component](#4643-weather-integration-component)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
@@ -200,15 +169,10 @@
       - [5.1.1.1. Propósito](#5111-propósito)
       - [5.1.1.2. Herramientas del proyecto](#5112-herramientas-del-proyecto)
       - [5.1.1.3. Configuración base](#5113-configuración-base)
-        - [Frontend](#frontend)
-        - [Backend](#backend)
-        - [Base de datos](#base-de-datos)
-        - [Control de versiones](#control-de-versiones)
       - [5.1.1.4. Estructura de repositorios](#5114-estructura-de-repositorios)
     - [5.1.2. Source Code Management](#512-source-code-management)
       - [5.1.2.1. Plataforma y repositorios](#5121-plataforma-y-repositorios)
       - [5.1.2.2. GitFlow Workflow](#5122-gitflow-workflow)
-        - [Ramas principales](#ramas-principales)
       - [5.1.2.3. Convención para Feature Branches](#5123-convención-para-feature-branches)
       - [5.1.2.4. Convención para Release Branches](#5124-convención-para-release-branches)
       - [5.1.2.5. Convención para Hotfix Branches](#5125-convención-para-hotfix-branches)
@@ -229,9 +193,6 @@
       - [5.1.4.2. Arquitectura de despliegue](#5142-arquitectura-de-despliegue)
       - [5.1.4.3. Ambientes](#5143-ambientes)
       - [5.1.4.4. Integración continua](#5144-integración-continua)
-        - [Backend](#backend-1)
-        - [Frontend](#frontend-1)
-        - [Landing Page](#landing-page)
       - [5.1.4.5. Variables y secretos](#5145-variables-y-secretos)
       - [5.1.4.6. Configuración de base de datos](#5146-configuración-de-base-de-datos)
       - [5.1.4.7. Configuración de la API meteorológica](#5147-configuración-de-la-api-meteorológica)
@@ -1925,38 +1886,8 @@ El **Design-Level Event Storming** permite representar el flujo principal del do
 
 El flujo comienza cuando un agricultor solicita un servicio de fumigación y termina con el registro de los resultados y la generación de información histórica para consulta.
 
-```mermaid
-flowchart LR
-  A["Agricultor / Cliente"] --> C1["Registrar parcela"]
-  C1 --> E1["Parcela registrada"]
-  E1 --> C2["Delimitar área de fumigación"]
-  C2 --> E2["Área de fumigación delimitada"]
-  E2 --> C3["Crear misión"]
-  C3 --> E3["Misión creada"]
-  E3 --> C4["Programar misión"]
-  C4 --> E4["Misión programada"]
-  E4 --> P1{"Política: verificar condiciones meteorológicas"}
-  P1 --> C5["Consultar condiciones meteorológicas"]
-  C5 --> E5["Condiciones meteorológicas obtenidas"]
-  E5 --> P2{"Política: evaluar condiciones"}
-  P2 -->|Condiciones favorables| E6["Misión autorizada"]
-  P2 -->|Condiciones desfavorables| E7["Alerta meteorológica generada"]
-  E6 --> C6["Iniciar operación"]
-  C6 --> E8["Operación iniciada"]
-  E8 --> C7["Monitorear operación"]
-  C7 --> E9["Estado de operación actualizado"]
-  E9 --> P3{"¿Ocurrió un incidente?"}
-  P3 -->|Sí| C8["Registrar incidente"]
-  C8 --> E10["Incidente registrado"]
-  E10 --> C7
-  P3 -->|No| C9["Finalizar operación"]
-  C9 --> E11["Operación finalizada"]
-  E11 --> C10["Registrar resultado"]
-  C10 --> E12["Resultado de misión registrado"]
-  E12 --> C11["Actualizar historial"]
-  C11 --> E13["Historial actualizado"]
-  E13 --> C12["Generar reporte"]
-  C12 --> E14["Reporte generado"]
+<img src="assets/chapter4/flujo_dominio.png" alt="Flujo principal del dominio" width="650"/>
+**Link de Lucidchart:** [https://lucid.app/lucidchart/e8a59167-4148-4d11-ab49-19abe080e585/edit?view_items=J4zqxcoJNdUQq%2BczQQMJK5LES6g%3D&page=0_0&invitationId=inv_ac46e8d4-1e8b-4dcd-b431-e285187b3edc](https://lucid.app/lucidchart/e8a59167-4148-4d11-ab49-19abe080e585/edit?view_items=J4zqxcoJNdUQq%2BczQQMJK5LES6g%3D&page=0_0&invitationId=inv_ac46e8d4-1e8b-4dcd-b431-e285187b3edc)
 ```
 
 ### Actores principales
