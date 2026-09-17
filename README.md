@@ -138,8 +138,7 @@
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [| **Supervisor** | Dashboard, Misiones, Operadores, Monitoreo, Reportes, Inventario | Asignar Misión, Monitorear Drones, Ver Eficiencia |](#-supervisor--dashboard-misiones-operadores-monitoreo-reportes-inventario--asignar-misión-monitorear-drones-ver-eficiencia-)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)    
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
@@ -969,7 +968,7 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 #### Persona 1:
 
 <div align="center">
-  <img src="./assets/chapter2/Userpersona-Segmento-1.png" alt="User Persona Segmento 1" />
+  <img src="./assets/Chapter2/Userpersona-Segmento-1.png" alt="User Persona Segmento 1" />
 </div>
 <br>
 Laura cursa el 10mo ciclo de Ingeniería Agrónoma y se desempeña como administradora de campo en el distrito de Subtanjalla, Ica. Combina sus conocimientos técnicos en monitoreo y sanidad vegetal con la gestión diaria del predio agrícola familiar, buscando incorporar tecnologías de precisión para optimizar el uso de agua e insumos y mejorar el control de plagas. En su trabajo enfrenta problemas como la aplicación de productos químicos condicionada por el viento, el registro manual de tratamientos, la falta de información digital para delimitar áreas y la dificultad de coordinar labores cuando las condiciones climáticas interrumpen el trabajo.
@@ -977,7 +976,7 @@ Laura cursa el 10mo ciclo de Ingeniería Agrónoma y se desempeña como administ
 #### Persona 2: 
 
 <div align = "center"> 
-  <img  witdh = "789" height="1600"src="./assets/chapter2/Userpersona-Segmento-2.png" alt="User Persona Segmento 1" />
+  <img  witdh = "789" height="1600"src="./assets/Chapter2/Userpersona-Segmento-2.png" alt="User Persona Segmento 1" />
 </div>
 <br>
 Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
@@ -989,7 +988,7 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 ### 2.3.2. User Task Matrix
 
 <div> 
-  <img src="./assets/chapter2/UserTaskMatrix.png" alt="User Task Matrix" />
+  <img src="./assets/Chapter2/UserTaskMatrix.png" alt="User Task Matrix" />
 </div>
 
 ### 2.3.3. User Journey Mapping
@@ -1002,7 +1001,7 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 
 **Segmento 2:**
 <div align="center">
-   <img src="./assets/chapter2/UserJourneyMap-Segmento-2.png" alt="User Journey Segmento 2" />
+   <img src="./assets/Chapter2/UserJourneyMap-Segmento-2.png" alt="User Journey Segmento 2" />
 </div>
 
 ### 2.3.4. Empathy Mapping
@@ -1010,19 +1009,19 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 **Segmento 1:**
 
 <div align="center">
-   <img src="./assets/chapter2/Empathymap-Segmento-1.png" alt="Empathy Mappging Segmento 1" />
+   <img src="./assets/Chapter2/Empathymap-Segmento-1.png" alt="Empathy Mappging Segmento 1" />
 </div>
 
 **Segmento 2:**
 <div align="center">
-   <img src="./assets/chapter2/Empathymap-Segmento-2.png" alt="Empathy Mappging Segmento 1" />
+   <img src="./assets/Chapter2/Empathymap-Segmento-2.png" alt="Empathy Mappging Segmento 1" />
 </div>
 ---
 
 ## 2.4. Big Picture EventStorming
 
 <div align="center">
-   <img src="./assets/chapter2/EventStorming.jpg" alt="Event Storming" />
+   <img src="./assets/Chapter2/EventStorming.jpg" alt="Event Storming" />
 </div>
 
 **Descripción:**
@@ -1037,7 +1036,7 @@ El Big Picture EventStorming representa el flujo completo del dominio de <strong
 
 El flujo se organizó en dos grandes fases. La primera, <strong>Onboarding y Planificación de Misión</strong>, cubre desde la creación de la cuenta y el registro de la finca/parcela/terreno por parte del <em>Agricultor</em>, hasta la delimitación del área de fumigación mediante el mapa interactivo, la consulta de condiciones climáticas con la <em>Weather API</em>, la solicitud de la misión y su confirmación o programación directa por parte del <em>Operador Técnico</em>. La segunda fase, <strong>Ejecución, Monitoreo y Cierre del Servicio</strong>, abarca el inicio de la jornada de vuelo del operador, la ejecución y monitoreo de parámetros del dron, el registro de incidencias en campo (derivando en pausas si el clima es adverso), y el cierre de la misión con la generación de reportes de productividad para el agricultor y de rendimiento operativo para el técnico.
 
-</p>
+
 
 <p align="justify">
 
@@ -1164,7 +1163,6 @@ los objetivos estratégicos del proyecto y las funcionalidades necesarias para l
 
 ---
 
-## 3.3. Product Backlog
 ## 3.3. Product Backlog
 
 | ID     | Epic / Módulo        | User Story / Technical Story                                                                                                                                         | Prioridad  | Story Points  | Estado |
@@ -1570,7 +1568,17 @@ El mockup de la Landing Page en versión Desktop representa la propuesta visual 
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.png" alt="Web Applications User Flow Diagrams" width="650"/>
+<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.jpg" alt="Web Applications User Flow Diagrams" width="650"/>
+
+**Descripción**
+
+<p align="justify">
+
+El User Flow Diagram representa el flujo lógico para el <em>User Goal</em> "planificar y ejecutar una misión de fumigación", complementando el Wireflow (4.4.2) con los puntos de decisión que determinan el camino que sigue el usuario. El camino feliz parte del inicio de sesión y avanza a través del registro de finca, la delimitación de la parcela, la creación de la misión, la validación del clima, la asignación de un operador disponible, el inicio de jornada dentro de la geocerca y la ejecución del vuelo, hasta cerrar con la emisión del acta digital y el reporte.
+
+</p>
+
+**Link del Miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
 
 
 ---
