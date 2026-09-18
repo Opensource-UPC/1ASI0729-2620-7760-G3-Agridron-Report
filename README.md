@@ -70,7 +70,9 @@
 | 0.4.0   | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2  |
 | 0.5.0   | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2  |
 | 0.6.5   | 14/09/2026 | Gabriel Ramirez    | Segunda implementacion del capitulo 2  |
-| 1.0.0   | 15/09/2026 | Agridron           | Evidencia completa de entrega AV1      |
+| 0.7.0   | 15/09/2026 | Agridron    | Correccion de errores  |
+| 0.8.0   | 16/09/2026 | Agridron    | Pre-release 1.0 del documento  |
+| 1.0.0   | 17/09/2026 | Agridron           | Evidencia completa de entrega AV1      |
 
 
 
