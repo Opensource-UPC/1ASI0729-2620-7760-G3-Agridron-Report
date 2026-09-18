@@ -2762,6 +2762,7 @@ Los repositorios considerados para AgriDron Solutions son:
 
 | Producto                 | Repositorio                   | Contenido                                                     | Link de Github                                                |
 |--------------------------|-------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| Report                  | `AgiDron-LandingPage-7760-G3-Agridon-Report` | Documento en Markdown                                        | https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report |
 | Landing Page             | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript                                        | https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3 |
 | Frontend Web Application | `AgiDron-FrontEnd-7760-G3`    | Angular y TypeScript                                          | https://github.com/Opensource-UPC/Agridron-frontend           |
 | Web Services             | `AgiDron-BackEnd-7760-G3`     | Java, Spring Boot, pruebas unitarias e integración/aceptación | https://github.com/Opensource-UPC/Agridron-backend            |
