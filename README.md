@@ -3598,8 +3598,7 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo B: Videos de Exposiciones
 
-**Video de exposición:** [ENLACE]
+**Video de exposición AV1:** https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing
 
 ## Anexo C: Otros
 
-[AGREGAR OTROS ANEXOS SI CORRESPONDE.]
