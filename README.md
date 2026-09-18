@@ -906,7 +906,7 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 Para la recolección de requerimientos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto:  **Segmento 1 (Agricultores y dueños de Fincas)** y **Segmento 2 (Operadores Técnicos de Fumigación con Drones)**.
 
 La evidencia audiovisual consolidada se encuentra alojada en Microsoft Stream a través del siguiente enlace institucional:
-* **Enlace al repositorio de video:** [Entrevistas Needfinding - AgriDron Solutions](https://web.microsoftstream.com/video/placeholder-agridron-needfinding) => LINK DEL VIDEO
+* **Enlace al repositorio de video:** [Entrevistas Needfinding - AgriDron Solutions](https://youtu.be/f4bgtmrQYxk)
 
 
 A continuación, se presenta la tabla de registro que sintetiza el análisis descriptivo de cada entrevista:
