@@ -1989,7 +1989,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 ### Relación entre Bounded Contexts
 
-<img src="assets/chapter4/General_Style/DDD-BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
+<img src="assets/chapter4/General_Style/DDD- BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
 ```
 
 ### Justificación
