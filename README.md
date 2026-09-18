@@ -1705,17 +1705,6 @@ En la versión desktop, el wireframe organiza la información en un recorrido se
 
 <img src="assets/chapter4/landing_wireframe.png" alt="Landing Page Wireframe" width="650"/>
 
-**Mobile**
-
-En la versión mobile, la estructura se reorganiza en un diseño de una sola columna para garantizar usabilidad en smartphones y tablets de campo:
-
-- Navegación compacta: La barra superior se condensa en un menú de hamburguesa táctil para evitar saturar la pantalla.
-- Apilamiento vertical: Las tarjetas de funcionalidades, los pasos del proceso y las secciones de roles se apilan verticalmente, facilitando una lectura continua mediante scroll.
-- Acciones principales destacadas: Los botones de conversión (Solicitar Demo y Empieza tu prueba gratuita) mantienen dimensiones óptimas para interacción táctil.
-- Carga ágil: Se simplifican los elementos visuales secundarios para asegurar un rendimiento rápido en zonas rurales con conectividad limitada.
-
-<img src="assets/chapter4/" alt="Landing Page Wireframe" width="650"/>
-
 ### 4.3.2. Landing Page Mock-up
 
 Los mock-ups finales de la Landing Page de AgriDron Solutions representan la consolidación visual de la arquitectura y estructura planteadas en los wireframes. En esta etapa de alta fidelidad se integran la paleta cromática institucional (con predominio del verde bosque #1E4D2B y el verde acento #10B981), las familias tipográficas Inter y Roboto, la escala de espaciado modular basada en 8 px, la iconografía agrícola/tecnológica y los estándares de accesibilidad visual (WCAG 2.1 AA). El resultado es una interfaz pública coherente, moderna y persuasiva, alineada con la propuesta de valor de la agricultura de precisión y la fumigación con drones.
@@ -1725,12 +1714,6 @@ Los mock-ups finales de la Landing Page de AgriDron Solutions representan la con
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde bosque corporativo en componentes estructurales y el verde acento en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita, Solicitar Demo) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por roles (agricultores, operadores, supervisores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F8FAFC), facilitando una lectura escaneable y fluida.
 
 <img src="assets/chapter4/landing_mockup.png" alt="Landing Page Mock-up" width="650"/>
-
-**Mobile**
-
-En el mock-up mobile, la propuesta gráfica ajusta con precisión cada elemento para asegurar una experiencia táctil óptima en smartphones y tablets de campo. El encabezado se sintetiza en una barra compacta con menú desplegable tipo hamburguesa, manteniendo accesibles el logo y el botón de acceso a la plataforma. Los botones primarios de acción adoptan el ancho completo de la pantalla con una zona de contacto táctil no menor a 44 x 44 px. Las tarjetas de funcionalidades y los bloques informativos se apilan verticalmente con un contraste reforzado, asegurando legibilidad inmediata incluso bajo luz solar directa en entornos rurales.
-
-<img src="assets/chapter4/" alt="Landing Page Mock-up" width="650"/>
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1763,6 +1746,8 @@ Este flujo representa el recorrido completo del usuario (agricultor u operador) 
 - Vista en Dispositivos Responsivos (Pantalla 10): Muestra la adaptación y equivalencia de las pantallas clave (Fincas y Monitoreo de Misión) en formato mobile/tablet para su uso directo en campo.
 
 <img src="assets/chapter4/Web_Applications_Wireflow_Diagrams.png" alt="Web Applications Wireflow Diagrams" width="650"/>
+
+**link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1835,6 +1820,8 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Ficha de usuario con opción Editar perfil (Juan Pérez - juan.perez@agro.com) y controles deslizantes (toggle switches) para activar o desactivar notificaciones por correo, alertas en la aplicación y avisos meteorológicos preventivos.
 
 <img src="assets/chapter4/Web_Applications_Mock-ups.png" alt="Web Applications Mock-ups" width="650"/>
+
+**link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
