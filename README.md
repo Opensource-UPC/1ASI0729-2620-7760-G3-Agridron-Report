@@ -1857,7 +1857,9 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 
 ## 4.5. Web Applications Prototyping
 
-[PEGAR AQUÍ EL ENLACE / EVIDENCIA DEL PROTOTIPO.]
+<img src="assets/chapter4/VersionMobile.png" alt="VersionMobile" width="650"/>
+
+<img src="assets/chapter4/VersionDesktop.png" alt="VersionDesktop" width="650"/>
 
 ---
 
@@ -1989,19 +1991,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 ### Relación entre Bounded Contexts
 
-```mermaid
-flowchart LR
-  FM["Field Management"]
-  FO["Flight Operations"]
-  WI["Weather Integration"]
-  AR["Analytics & Reporting"]
-  API["API Meteorológica Externa"]
-
-  FM -->|"Información de parcela y área"| FO
-  FO -->|"Solicitud de condiciones"| WI
-  WI -->|"Condiciones y alertas"| FO
-  FO -->|"Resultados de operación"| AR
-  WI -->|"Consulta"| API
+<img src="assets/chapter4/DDD-BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
 ```
 
 ### Justificación
@@ -3581,8 +3571,7 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo B: Videos de Exposiciones
 
-**Video de exposición:** [ENLACE]
+**Video de exposición AV1:** https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing
 
 ## Anexo C: Otros
 
-[AGREGAR OTROS ANEXOS SI CORRESPONDE.]
