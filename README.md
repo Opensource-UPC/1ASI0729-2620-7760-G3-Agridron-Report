@@ -2009,7 +2009,7 @@ flowchart LR
 - **Weather Integration** aísla la dependencia externa de información meteorológica.
 - **Analytics & Reporting** transforma resultados en información histórica y reportes.
 
-**link de mmiro:** https://miro.com/welcomeonboard/TTZqTjVVY2FwVHRweVBhSnhsdFk2ajFjWUFVM2hTaWVrYk1sLzN5NVAzcHhzSHhTRmFuaW5WV0ZiK2tDcXRvdXBJY1BOcit0OGljUlptWGxHbDVaUVE4VldNNVJabUx5bGR4bE9SS1RSOG5MNnd4SVV2MlQvRWZNODh2Q1N1WjBQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=719621741432
+**link de mmiro:** https://miro.com/app/board/uXjVHl_E4nc=/?share_link_id=823387251080
 
 ### 4.6.2. Software Architecture Context Diagram
 El **System Context Diagram de C4** representa el sistema como una única unidad y muestra los usuarios y sistemas externos que interactúan directamente con él. En este nivel no se detallan tecnologías internas.
