@@ -1857,7 +1857,9 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 
 ## 4.5. Web Applications Prototyping
 
-[PEGAR AQUÍ EL ENLACE / EVIDENCIA DEL PROTOTIPO.]
+<img src="assets/chapter4/VersionMobile.png" alt="VersionMobile" width="650"/>
+
+<img src="assets/chapter4/VersionDesktop.png" alt="VersionDesktop" width="650"/>
 
 ---
 
