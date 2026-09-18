@@ -1989,19 +1989,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 ### Relación entre Bounded Contexts
 
-```mermaid
-flowchart LR
-  FM["Field Management"]
-  FO["Flight Operations"]
-  WI["Weather Integration"]
-  AR["Analytics & Reporting"]
-  API["API Meteorológica Externa"]
-
-  FM -->|"Información de parcela y área"| FO
-  FO -->|"Solicitud de condiciones"| WI
-  WI -->|"Condiciones y alertas"| FO
-  FO -->|"Resultados de operación"| AR
-  WI -->|"Consulta"| API
+<img src="assets/chapter4/General_Style/DDD-BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
 ```
 
 ### Justificación
