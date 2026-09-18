@@ -1874,8 +1874,9 @@ El **Design-Level Event Storming** permite representar el flujo principal del do
 El flujo comienza cuando un agricultor solicita un servicio de fumigación y termina con el registro de los resultados y la generación de información histórica para consulta.
 
 <img src="assets/chapter4/flujo_dominio.png" alt="Flujo principal del dominio" width="650"/>
+
 **Link de Lucidchart:** https://lucid.app/lucidchart/e8a59167-4148-4d11-ab49-19abe080e585/edit?view_items=J4zqxcoJNdUQq%2BczQQMJK5LES6g%3D&page=0_0&invitationId=inv_ac46e8d4-1e8b-4dcd-b431-e285187b3edc
-```
+
 
 ### Actores principales
 
@@ -2007,6 +2008,8 @@ flowchart LR
 - **Flight Operations** gestiona el ciclo de vida de la misión.
 - **Weather Integration** aísla la dependencia externa de información meteorológica.
 - **Analytics & Reporting** transforma resultados en información histórica y reportes.
+
+**link de mmiro:** https://miro.com/welcomeonboard/TTZqTjVVY2FwVHRweVBhSnhsdFk2ajFjWUFVM2hTaWVrYk1sLzN5NVAzcHhzSHhTRmFuaW5WV0ZiK2tDcXRvdXBJY1BOcit0OGljUlptWGxHbDVaUVE4VldNNVJabUx5bGR4bE9SS1RSOG5MNnd4SVV2MlQvRWZNODh2Q1N1WjBQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=719621741432
 
 ### 4.6.2. Software Architecture Context Diagram
 El **System Context Diagram de C4** representa el sistema como una única unidad y muestra los usuarios y sistemas externos que interactúan directamente con él. En este nivel no se detallan tecnologías internas.
