@@ -1880,12 +1880,7 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
-El **Design-Level Event Storming** permite representar el flujo principal del dominio de AgriDron Solutions mediante comandos, eventos de dominio, actores, políticas y agregados. A partir de este análisis se identifican cuatro áreas principales del dominio y se particiona la solución en los siguientes **Bounded Contexts**:
-
-1. **Field Management**
-2. **Flight Operations**
-3. **Weather Integration**
-4. **Analytics & Reporting**
+El **Design-Level Event Storming** permite representar el flujo principal del dominio de AgriDron Solutions mediante comandos, eventos de dominio, actores, políticas y agregados. 
 
 ### Flujo principal del dominio
 
@@ -1963,9 +1958,23 @@ El flujo comienza cuando un agricultor solicita un servicio de fumigación y ter
 
 La partición del dominio se realiza considerando las responsabilidades y conceptos principales de la solución.
 
-## Bounded Context 1: Field Management
+# 4.6.1.1. Bounded Contexts
 
-**Responsabilidad:** administrar la información de campos y parcelas utilizada para planificar servicios.
+La partición del dominio se realiza considerando las responsabilidades y conceptos principales de la solución, y se alinea con los seis Bounded Contexts identificados en el diagrama de EventStorming.
+
+## Bounded Context 1: Identity & Access Management
+
+**Responsabilidad:** gestionar el registro de usuarios, la autenticación segura, el control de acceso y la administración de roles.
+
+**Conceptos:** usuario, credencial, rol, permiso, sesión y token de acceso.
+
+**Operaciones:** registrar usuario, autenticar usuario, asignar/actualizar rol, controlar acceso y cerrar sesión.
+
+**Eventos:** `UsuarioRegistrado`, `UsuarioAutenticado`, `RolAsignado`, `AccesoDenegado`, `SesionCerrada`.
+
+## Bounded Context 2: Field Management
+
+**Responsabilidad:** administrar la información territorial, la delimitación de parcelas en mapa y la asociación de tipos de cultivo para planificar servicios.
 
 **Conceptos:** campo, parcela, cultivo, ubicación, área de fumigación y coordenadas.
 
@@ -1973,9 +1982,9 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `ParcelaRegistrada`, `AreaFumigacionDelimitada`, `InformacionCultivoRegistrada`.
 
-## Bounded Context 2: Flight Operations
+## Bounded Context 3: Flight Operations (Core Domain)
 
-**Responsabilidad:** gestionar la planificación, ejecución y seguimiento de misiones.
+**Responsabilidad:** dominio principal del negocio; gestiona la planificación, programación, seguimiento en tiempo real y registro de resultados de las misiones de fumigación.
 
 **Conceptos:** misión, dron, programación, estado, operación, incidente y hectáreas tratadas.
 
@@ -1983,9 +1992,9 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `MisionCreada`, `MisionProgramada`, `OperacionIniciada`, `EstadoOperacionActualizado`, `IncidenteRegistrado`, `OperacionFinalizada`.
 
-## Bounded Context 3: Weather Integration
+## Bounded Context 4: Weather Integration
 
-**Responsabilidad:** encapsular la integración con la API meteorológica y proporcionar información climática para apoyar la planificación.
+**Responsabilidad:** consultar servicios meteorológicos externos, evaluar las condiciones ambientales en campo y emitir alertas climáticas.
 
 **Conceptos:** consulta meteorológica, condición, viento, temperatura, humedad, precipitación y alerta.
 
@@ -1993,27 +2002,30 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `CondicionesMeteorologicasObtenidas`, `CondicionesEvaluadas`, `AlertaMeteorologicaGenerada`.
 
-## Bounded Context 4: Analytics & Reporting
+## Bounded Context 5: Analytics & Reporting
 
-**Responsabilidad:** conservar y presentar información histórica de las operaciones.
+**Responsabilidad:** procesar la información histórica de las operaciones, calcular indicadores de rendimiento y generar reportes fitosanitarios.
 
-**Conceptos:** historial, resultado, reporte, estadística y métrica.
+**Conceptos:** historial, resultado, reporte fitosanitario, estadística, métrica e indicador de rendimiento.
 
-**Operaciones:** registrar resultados, consultar historial, consolidar métricas y generar reportes.
+**Operaciones:** registrar resultados, consultar historial, calcular indicadores, consolidar métricas y generar reportes.
 
-**Eventos:** `ResultadoMisionRegistrado`, `HistorialActualizado`, `ReporteGenerado`.
+**Eventos:** `ResultadoMisionRegistrado`, `HistorialActualizado`, `IndicadorCalculado`, `ReporteGenerado`.
+
+## Bounded Context 6: Inventory & Resource Management
+
+**Responsabilidad:** controlar el inventario de la flota de drones, insumos agroquímicos y boquillas, y registrar el mantenimiento preventivo.
+
+**Conceptos:** dron, insumo agroquímico, boquilla, stock, mantenimiento preventivo y registro de mantenimiento.
+
+**Operaciones:** registrar/actualizar dron, registrar insumo o boquilla, controlar stock, programar mantenimiento preventivo y registrar mantenimiento realizado.
+
+**Eventos:** `DronRegistrado`, `InsumoRegistrado`, `StockActualizado`, `MantenimientoProgramado`, `MantenimientoRegistrado`.
 
 ### Relación entre Bounded Contexts
 
 <img src="assets/chapter4/DDD-BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
 ```
-
-### Justificación
-
-- **Field Management** mantiene la información territorial.
-- **Flight Operations** gestiona el ciclo de vida de la misión.
-- **Weather Integration** aísla la dependencia externa de información meteorológica.
-- **Analytics & Reporting** transforma resultados en información histórica y reportes.
 
 **link de mmiro:** https://miro.com/app/board/uXjVHl_E4nc=/?share_link_id=823387251080
 
@@ -2258,11 +2270,117 @@ El componente permite cambiar o adaptar el proveedor meteorológico sin modifica
 ---
 
 ## 4.7. Software Object-Oriented Design
-El diseño orientado a objetos representa los principales elementos del dominio y sus relaciones. El Project Statement solicita que los Class Diagrams incluyan clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones y multiplicidades cuando correspondan.
+El diseño orientado a objetos representa los principales elementos del dominio y sus relaciones. El Project Statement solicita que los Class Diagrams incluyan clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones y multiplicidades cuando correspondan. La solución se organiza en seis Bounded Contexts (Identity & Access Management, Field Management, Flight Operations, Weather Integration, Analytics & Reporting e Inventory & Resource Management), por lo que primero se presenta una vista general de las clases principales de cada contexto y luego un diagrama por cada uno de ellos, junto con los elementos compartidos (Shared).
 
 ### 4.7.1. Class Diagrams
 
-### 4.7.1.1. Field Management
+Los Class Diagrams se presentan por Bounded Context para mantener cada modelo legible y con responsabilidades claras. Las referencias entre contextos se realizan mediante identificadores (por ejemplo, `parcelId`, `droneId` u `operatorId` en `Mission`), y no mediante asociaciones directas entre clases de contextos distintos.
+
+### 4.7.1.1. Overview
+
+```mermaid
+classDiagram
+  namespace IAM {
+    class User
+  }
+  namespace FieldManagement {
+    class Farm
+    class Parcel
+    class FumigationArea
+    class Crop
+  }
+  namespace FlightOperations {
+    class Mission
+    class Incident
+    class OperationStatus
+    class MissionResult
+  }
+  namespace WeatherIntegration {
+    class WeatherCondition
+    class WeatherAlert
+  }
+  namespace AnalyticsReporting {
+    class MissionReport
+    class MissionHistory
+    class OperationalMetric
+    class PerformanceIndicator
+  }
+  namespace InventoryResourceManagement {
+    class Drone
+    class AgrochemicalSupply
+    class Nozzle
+    class MaintenanceRecord
+  }
+  namespace Shared {
+    class BaseApi
+    class BaseEndpoint
+  }
+
+  Farm "1" *-- "1..*" Parcel
+  Parcel "1" *-- "0..*" FumigationArea
+  Parcel "*" --> "1" Crop
+  Mission "1" *-- "0..*" Incident
+  Mission "1" *-- "0..*" OperationStatus
+  Mission "1" *-- "0..1" MissionResult
+  Drone "1" *-- "0..*" MaintenanceRecord
+  MissionReport "1" *-- "0..*" OperationalMetric
+
+  Farm ..> User : ownerId
+  Mission ..> Parcel : parcelId
+  Mission ..> Drone : droneId
+  Mission ..> User : operatorId
+  Mission ..> WeatherAlert : consulta
+  WeatherCondition ..> Parcel : coordenadas
+  MissionHistory ..> Mission : missionId
+  MissionResult ..> MissionReport : alimenta
+  MissionResult ..> AgrochemicalSupply : supplyId
+  BaseEndpoint --> BaseApi
+```
+
+### 4.7.1.2. Identity & Access Management
+
+```mermaid
+classDiagram
+  class User {
+    -Long id
+    -String username
+    -String email
+    -String passwordHash
+    -UserRole role
+    +signUp()
+    +authenticate()
+    +updateProfile()
+    +hasRole(role)
+  }
+  class UserRole {
+    <<enumeration>>
+    FARMER
+    OPERATOR
+    TECHNICIAN
+  }
+  class SignInCommand {
+    -String username
+    -String password
+  }
+  class SignUpCommand {
+    -String username
+    -String email
+    -String password
+    -UserRole role
+  }
+  class AuthenticationService {
+    +signIn(command)
+    +signUp(command)
+    +signOut()
+    +hasAccess(user, requiredRole)
+  }
+  User --> UserRole : has
+  AuthenticationService --> User : manages
+  AuthenticationService ..> SignInCommand : handles
+  AuthenticationService ..> SignUpCommand : handles
+```
+
+### 4.7.1.3. Field Management
 
 ```mermaid
 classDiagram
@@ -2270,7 +2388,7 @@ classDiagram
     -Long id
     -String name
     -String location
-    -String ownerName
+    -Long ownerId
     +register()
     +update()
     +getParcels()
@@ -2278,15 +2396,17 @@ classDiagram
   class Parcel {
     -Long id
     -String name
-    -String cropType
     -Double area
     -String geometry
+    -Long farmId
+    -Long cropId
     +defineArea()
     +updateCrop()
     +getGeometry()
   }
   class FumigationArea {
     -Long id
+    -Long parcelId
     -String geometry
     -Double area
     +calculateArea()
@@ -2300,10 +2420,10 @@ classDiagram
   }
   Farm "1" *-- "1..*" Parcel : contains
   Parcel "1" *-- "0..*" FumigationArea : defines
-  Parcel "1" --> "1" Crop : has
+  Parcel "*" --> "1" Crop : has
 ```
 
-### 4.7.1.2. Flight Operations
+### 4.7.1.4. Flight Operations
 
 ```mermaid
 classDiagram
@@ -2314,6 +2434,9 @@ classDiagram
     -MissionStatus status
     -Double plannedArea
     -Double treatedArea
+    -Long parcelId
+    -Long droneId
+    -Long operatorId
     +create()
     +schedule()
     +start()
@@ -2321,18 +2444,9 @@ classDiagram
     +complete()
     +cancel()
   }
-  class Drone {
-    -Long id
-    -String serialNumber
-    -String model
-    -Double capacity
-    -DroneStatus status
-    +assignToMission()
-    +updateStatus()
-    +getLocation()
-  }
   class Incident {
     -Long id
+    -Long missionId
     -String type
     -String description
     -LocalDateTime occurredAt
@@ -2340,11 +2454,21 @@ classDiagram
     +update()
   }
   class OperationStatus {
+    -Long id
+    -Long missionId
     -Double latitude
     -Double longitude
     -String status
     -LocalDateTime timestamp
     +updateLocation()
+  }
+  class MissionResult {
+    -Long id
+    -Long missionId
+    -Double treatedArea
+    -Double appliedVolume
+    -String observations
+    +register()
   }
   class MissionStatus {
     <<enumeration>>
@@ -2355,22 +2479,13 @@ classDiagram
     COMPLETED
     CANCELLED
   }
-  class DroneStatus {
-    <<enumeration>>
-    AVAILABLE
-    ASSIGNED
-    IN_FLIGHT
-    PAUSED
-    MAINTENANCE
-  }
-  Mission "1" --> "1" Drone : uses
+  Mission --> MissionStatus : has
   Mission "1" *-- "0..*" Incident : records
   Mission "1" *-- "0..*" OperationStatus : tracks
-  Mission --> MissionStatus : has
-  Drone --> DroneStatus : has
+  Mission "1" *-- "0..1" MissionResult : produces
 ```
 
-### 4.7.1.3. Weather Integration
+### 4.7.1.5. Weather Integration
 
 ```mermaid
 classDiagram
@@ -2395,22 +2510,31 @@ classDiagram
   }
   class WeatherAlert {
     -Long id
-    -String severity
+    -AlertSeverity severity
     -String message
     -LocalDateTime createdAt
     +generate()
   }
+  class AlertSeverity {
+    <<enumeration>>
+    LOW
+    MEDIUM
+    HIGH
+  }
   WeatherService --> WeatherApiClient : uses
   WeatherService --> WeatherCondition : evaluates
   WeatherService --> WeatherAlert : generates
+  WeatherAlert --> AlertSeverity : has
 ```
 
-### 4.7.1.4. Analytics & Reporting
+### 4.7.1.6. Analytics & Reporting
 
 ```mermaid
 classDiagram
   class MissionReport {
     -Long id
+    -Long missionId
+    -ReportType type
     -Double treatedArea
     -Double appliedVolume
     -String observations
@@ -2432,61 +2556,168 @@ classDiagram
     -String unit
     +calculate()
   }
+  class PerformanceIndicator {
+    -String name
+    -Double value
+    -String unit
+    -String period
+    +calculate()
+  }
+  class ReportType {
+    <<enumeration>>
+    MISSION_SUMMARY
+    PHYTOSANITARY
+  }
+  MissionReport --> ReportType : has
   MissionReport "1" --> "1" MissionHistory : summarizes
   MissionReport "1" *-- "0..*" OperationalMetric : contains
 ```
 
-### 4.7.1.5. Shared / Identity
+### 4.7.1.7. Inventory & Resource Management
 
 ```mermaid
 classDiagram
-  class User {
+  class Drone {
+    -Long id
+    -String serialNumber
+    -String model
+    -Double capacity
+    -DroneStatus status
+    +register()
+    +assignToMission()
+    +updateStatus()
+    +getLocation()
+  }
+  class AgrochemicalSupply {
     -Long id
     -String name
-    -String email
-    -String passwordHash
-    -UserRole role
-    +authenticate()
-    +updateProfile()
+    -String type
+    -Double stock
+    -String unit
+    +register()
+    +increaseStock()
+    +decreaseStock()
   }
-  class UserRole {
+  class Nozzle {
+    -Long id
+    -String model
+    -String type
+    -String status
+    +register()
+    +updateStatus()
+  }
+  class MaintenanceRecord {
+    -Long id
+    -Long droneId
+    -String description
+    -LocalDate scheduledDate
+    -LocalDateTime performedAt
+    -MaintenanceStatus status
+    +schedule()
+    +markAsDone()
+  }
+  class DroneStatus {
     <<enumeration>>
-    FARMER
-    OPERATOR
-    TECHNICIAN
+    AVAILABLE
+    ASSIGNED
+    IN_FLIGHT
+    PAUSED
+    MAINTENANCE
   }
-  class Farmer {
-    +requestService()
-    +viewReports()
+  class MaintenanceStatus {
+    <<enumeration>>
+    SCHEDULED
+    COMPLETED
+    OVERDUE
   }
-  class Operator {
-    +createMission()
-    +monitorMission()
-    +registerResult()
-  }
-  User <|-- Farmer
-  User <|-- Operator
-  User --> UserRole : has
+  Drone --> DroneStatus : has
+  Drone "1" o-- "0..*" Nozzle : equipped with
+  Drone "1" *-- "0..*" MaintenanceRecord : has
+  MaintenanceRecord --> MaintenanceStatus : has
 ```
-**Link LuciChart:** https://lucid.app/lucidchart/a19c55c2-6693-47c1-a66c-347112de89c0/edit?viewport_loc=-1180%2C-484%2C5244%2C2796%2C0_0&invitationId=inv_bd423e8a-a95b-4985-ac69-5194098d2c5f
+
+### 4.7.1.8. Shared
+
+```mermaid
+classDiagram
+  class BaseApi {
+    -AxiosInstance http
+    +getHttp()
+  }
+  class BaseEndpoint {
+    -AxiosInstance http
+    -String endpointPath
+    +getAll()
+    +getById(id)
+    +create(resource)
+    +update(id, resource)
+    +delete(id)
+  }
+  class IamInterceptor {
+    <<interceptor>>
+    +intercept(config)
+  }
+  class Layout {
+    -Boolean drawer
+    -List items
+    +toggleDrawer()
+  }
+  class LanguageSwitcher {
+    -String locale
+    -List availableLocales
+    +changeLocale(locale)
+  }
+  class FooterContent
+  class Home
+  class About
+  class PageNotFound {
+    -String unavailableRoute
+  }
+  BaseEndpoint --> BaseApi : uses
+  BaseApi ..> IamInterceptor : applies
+  Layout *-- LanguageSwitcher
+  Layout *-- FooterContent
+```
+
 
 ## 4.8. Database Design
-El diseño de base de datos define la persistencia necesaria para los objetos de cada Bounded Context. Para almacenamiento relacional se especifican tablas, columnas, claves primarias, claves foráneas y relaciones entre tablas. Esto corresponde a lo solicitado por el Project Statement.
+El diseño de base de datos define la persistencia necesaria para los objetos de cada Bounded Context. Para almacenamiento relacional se especifican tablas, columnas, claves primarias, claves foráneas y relaciones entre tablas. Esto corresponde a lo solicitado por el Project Statement. La solución se organiza en seis Bounded Contexts (Identity & Access Management, Field Management, Flight Operations, Weather Integration, Analytics & Reporting e Inventory & Resource Management); cada diagrama muestra las tablas propias del contexto y, cuando es necesario, las tablas de otros contextos que referencia mediante claves foráneas.
 
 ### 4.8.1. Database Diagrams
 
-### 4.8.1.1. Field Management
+### 4.8.1.1. Identity & Access Management
 
 ```mermaid
 erDiagram
+    USER_ACCOUNT {
+        BIGINT id PK
+        VARCHAR username UK
+        VARCHAR email UK
+        VARCHAR password_hash
+        VARCHAR role
+        TIMESTAMP created_at
+    }
+```
+
+**Restricciones principales:** `USER_ACCOUNT.id` es PK; `username` y `email` son únicos; `role` solo admite los valores `FARMER`, `OPERATOR` y `TECHNICIAN`; `password_hash` nunca almacena la contraseña en texto plano. Esta tabla es referenciada por los demás contextos mediante FK (`FARM.owner_id`, `MISSION.operator_id`).
+
+### 4.8.1.2. Field Management
+
+```mermaid
+erDiagram
+    USER_ACCOUNT ||--o{ FARM : owns
     FARM ||--o{ PARCEL : contains
     PARCEL ||--o{ FUMIGATION_AREA : defines
     CROP ||--o{ PARCEL : assigned_to
+    USER_ACCOUNT {
+        BIGINT id PK
+        VARCHAR username
+    }
     FARM {
         BIGINT id PK
+        BIGINT owner_id FK
         VARCHAR name
         VARCHAR location
-        VARCHAR owner_name
         TIMESTAMP created_at
     }
     PARCEL {
@@ -2512,16 +2743,19 @@ erDiagram
     }
 ```
 
-**Restricciones principales:** `FARM.id`, `PARCEL.id`, `FUMIGATION_AREA.id` y `CROP.id` son PK; las FK mantienen las relaciones indicadas; `area` debe ser mayor que cero.
+**Restricciones principales:** `FARM.id`, `PARCEL.id`, `FUMIGATION_AREA.id` y `CROP.id` son PK; las FK mantienen las relaciones indicadas (`FARM.owner_id` referencia `USER_ACCOUNT.id`); `area` debe ser mayor que cero.
 
-### 4.8.1.2. Flight Operations
+### 4.8.1.3. Flight Operations
 
 ```mermaid
 erDiagram
     PARCEL ||--o{ MISSION : scheduled_for
     DRONE ||--o{ MISSION : assigned_to
+    USER_ACCOUNT ||--o{ MISSION : operates
     MISSION ||--o{ INCIDENT : records
     MISSION ||--o{ OPERATION_STATUS : tracks
+    MISSION ||--o| MISSION_RESULT : produces
+    AGROCHEMICAL_SUPPLY ||--o{ MISSION_RESULT : applied_in
     PARCEL {
         BIGINT id PK
         VARCHAR name
@@ -2529,14 +2763,20 @@ erDiagram
     DRONE {
         BIGINT id PK
         VARCHAR serial_number UK
-        VARCHAR model
-        DECIMAL capacity
-        VARCHAR status
+    }
+    USER_ACCOUNT {
+        BIGINT id PK
+        VARCHAR username
+    }
+    AGROCHEMICAL_SUPPLY {
+        BIGINT id PK
+        VARCHAR name
     }
     MISSION {
         BIGINT id PK
         BIGINT parcel_id FK
         BIGINT drone_id FK
+        BIGINT operator_id FK
         VARCHAR code UK
         DATE scheduled_date
         VARCHAR status
@@ -2560,11 +2800,20 @@ erDiagram
         VARCHAR status
         TIMESTAMP recorded_at
     }
+    MISSION_RESULT {
+        BIGINT id PK
+        BIGINT mission_id FK,UK
+        BIGINT supply_id FK
+        DECIMAL treated_area
+        DECIMAL applied_volume
+        TEXT observations
+        TIMESTAMP registered_at
+    }
 ```
 
-**Restricciones principales:** `MISSION.parcel_id` y `MISSION.drone_id` son FK; `MISSION.code` y `DRONE.serial_number` son únicos; las FK de `INCIDENT` y `OPERATION_STATUS` referencian `MISSION.id`; las áreas no pueden ser negativas.
+**Restricciones principales:** `MISSION.parcel_id`, `MISSION.drone_id` y `MISSION.operator_id` son FK hacia Field Management, Inventory & Resource Management e Identity & Access Management respectivamente; `MISSION.code` y `DRONE.serial_number` son únicos; las FK de `INCIDENT` y `OPERATION_STATUS` referencian `MISSION.id`; `MISSION_RESULT.mission_id` es FK y UNIQUE (un resultado por misión); `status` solo admite `PLANNED`, `AUTHORIZED`, `IN_PROGRESS`, `PAUSED`, `COMPLETED` y `CANCELLED`; las áreas y volúmenes no pueden ser negativos.
 
-### 4.8.1.3. Weather Integration
+### 4.8.1.4. Weather Integration
 
 Para el MVP, la información meteorológica puede almacenarse únicamente cuando sea necesaria para mantener trazabilidad de la evaluación asociada a una misión.
 
@@ -2594,21 +2843,29 @@ erDiagram
     }
 ```
 
-**Restricciones principales:** `WEATHER_OBSERVATION.mission_id` y `WEATHER_ALERT.observation_id` son FK; los valores meteorológicos deben validarse según la fuente; cada observación conserva su fecha y hora.
+**Restricciones principales:** `WEATHER_OBSERVATION.mission_id` y `WEATHER_ALERT.observation_id` son FK; los valores meteorológicos deben validarse según la fuente; `severity` solo admite `LOW`, `MEDIUM` y `HIGH`; cada observación conserva su fecha y hora.
 
-### 4.8.1.4. Analytics & Reporting
+### 4.8.1.5. Analytics & Reporting
 
 ```mermaid
 erDiagram
-    MISSION ||--|| MISSION_REPORT : generates
+    MISSION ||--|| MISSION_HISTORY : archived_in
+    MISSION ||--o{ MISSION_REPORT : generates
     MISSION_REPORT ||--o{ OPERATIONAL_METRIC : contains
     MISSION {
         BIGINT id PK
         VARCHAR code UK
     }
-    MISSION_REPORT {
+    MISSION_HISTORY {
         BIGINT id PK
         BIGINT mission_id FK,UK
+        VARCHAR final_status
+        TIMESTAMP completed_at
+    }
+    MISSION_REPORT {
+        BIGINT id PK
+        BIGINT mission_id FK
+        VARCHAR type
         DECIMAL treated_area
         DECIMAL applied_volume
         TEXT observations
@@ -2621,19 +2878,72 @@ erDiagram
         DECIMAL value
         VARCHAR unit
     }
+    PERFORMANCE_INDICATOR {
+        BIGINT id PK
+        VARCHAR name
+        DECIMAL value
+        VARCHAR unit
+        VARCHAR period
+        TIMESTAMP calculated_at
+    }
 ```
 
-**Restricciones principales:** `MISSION_REPORT.mission_id` es FK y UNIQUE para mantener una relación uno a uno con la misión; `OPERATIONAL_METRIC.report_id` referencia `MISSION_REPORT.id`; `treated_area` y `applied_volume` no pueden ser negativos.
+**Restricciones principales:** `MISSION_HISTORY.mission_id` es FK y UNIQUE para mantener una relación uno a uno con la misión; `MISSION_REPORT.mission_id` es FK y la combinación (`mission_id`, `type`) es única; `type` solo admite `MISSION_SUMMARY` y `PHYTOSANITARY`; `OPERATIONAL_METRIC.report_id` referencia `MISSION_REPORT.id`; `PERFORMANCE_INDICATOR` es una tabla independiente que consolida valores por periodo; `treated_area` y `applied_volume` no pueden ser negativos.
 
-## 4.8.1.5. Vista integrada de persistencia
+### 4.8.1.6. Inventory & Resource Management
+
+```mermaid
+erDiagram
+    DRONE ||--o{ NOZZLE : equipped_with
+    DRONE ||--o{ MAINTENANCE_RECORD : has
+    DRONE {
+        BIGINT id PK
+        VARCHAR serial_number UK
+        VARCHAR model
+        DECIMAL capacity
+        VARCHAR status
+        TIMESTAMP created_at
+    }
+    NOZZLE {
+        BIGINT id PK
+        BIGINT drone_id FK
+        VARCHAR model
+        VARCHAR type
+        VARCHAR status
+    }
+    MAINTENANCE_RECORD {
+        BIGINT id PK
+        BIGINT drone_id FK
+        TEXT description
+        DATE scheduled_date
+        TIMESTAMP performed_at
+        VARCHAR status
+    }
+    AGROCHEMICAL_SUPPLY {
+        BIGINT id PK
+        VARCHAR name
+        VARCHAR type
+        DECIMAL stock
+        VARCHAR unit
+    }
+```
+
+**Restricciones principales:** `DRONE.id`, `NOZZLE.id`, `MAINTENANCE_RECORD.id` y `AGROCHEMICAL_SUPPLY.id` son PK; `DRONE.serial_number` es único; `NOZZLE.drone_id` admite nulo (boquilla en inventario sin dron asignado) y `MAINTENANCE_RECORD.drone_id` es FK obligatoria; `DRONE.status` solo admite `AVAILABLE`, `ASSIGNED`, `IN_FLIGHT`, `PAUSED` y `MAINTENANCE`; `MAINTENANCE_RECORD.status` solo admite `SCHEDULED`, `COMPLETED` y `OVERDUE`; `capacity` debe ser mayor que cero y `stock` no puede ser negativo.
+
+### 4.8.1.7. Vista integrada de persistencia
 
 ```mermaid
 flowchart LR
+    IAM["Identity & Access Management"]
     FM["Field Management"]
     FO["Flight Operations"]
     WI["Weather Integration"]
     AR["Analytics & Reporting"]
+    IR["Inventory & Resource Management"]
+    IAM -->|"Owner / Operator"| FM
+    IAM -->|"Operator"| FO
     FM -->|"Parcel information"| FO
+    IR -->|"Drones and supplies"| FO
     FO -->|"Mission"| WI
     WI -->|"Weather evaluation"| FO
     FO -->|"Completed mission"| AR
@@ -2641,6 +2951,32 @@ flowchart LR
 
 La separación por Bounded Context conserva responsabilidades claras, mientras que las relaciones entre contextos permiten soportar el flujo principal del negocio.
 
+### 4.8.2. Normalización
+
+El modelo relacional se diseñó aplicando hasta la Tercera Forma Normal (3FN) en cada Bounded Context, con algunas excepciones controladas que se justifican más abajo.
+
+**Primera Forma Normal (1FN).** Todas las columnas almacenan valores atómicos y no existen grupos repetitivos. Las colecciones se modelan como tablas hijas con FK en lugar de columnas multivaluadas:
+- Las incidencias, estados de operación y resultados de una misión están en `INCIDENT`, `OPERATION_STATUS` y `MISSION_RESULT`, no dentro de `MISSION`.
+- Las métricas de un reporte están en `OPERATIONAL_METRIC` (FK a `MISSION_REPORT`), no como columnas `metric_1`, `metric_2`, etc.
+- Las boquillas de un dron están en `NOZZLE` (FK a `DRONE`) y los mantenimientos en `MAINTENANCE_RECORD`.
+- La geometría de parcelas y áreas se guarda como un único valor (`geometry`, en formato GeoJSON/WKT), tratado como dato atómico.
+
+**Segunda Forma Normal (2FN).** Todas las tablas usan una PK simple (`id`), por lo que no existen dependencias parciales: cada atributo no clave depende de la clave completa. Las únicas claves compuestas son restricciones UNIQUE, no PK (por ejemplo, `MISSION_REPORT` con (`mission_id`, `type`)).
+
+**Tercera Forma Normal (3FN).** No hay dependencias transitivas entre atributos no clave: los datos descriptivos se separan en su propia tabla y se referencian por FK.
+- El cultivo (`name`, `variety`) está en `CROP` y `PARCEL` solo guarda `crop_id`.
+- Los datos del propietario están en `USER_ACCOUNT` y `FARM` solo guarda `owner_id`; lo mismo para `MISSION.operator_id`.
+- Los datos del dron (`model`, `capacity`, `serial_number`) están en `DRONE` y `MISSION` solo guarda `drone_id`.
+- Los datos de la parcela se consultan desde `PARCEL` mediante `MISSION.parcel_id`.
+- Las observaciones meteorológicas (`WEATHER_OBSERVATION`) y sus alertas (`WEATHER_ALERT`) se separan porque una observación puede generar varias alertas o ninguna.
+
+**Desnormalización controlada.** Algunos atributos se duplican a propósito, por trazabilidad o rendimiento de consulta:
+- `MISSION_REPORT.treated_area` y `applied_volume` guardan una copia de lo registrado en `MISSION` y `MISSION_RESULT` al momento de generar el reporte, de modo que el reporte sea un registro histórico que no cambie si después se corrige la misión.
+- `MISSION_HISTORY.final_status` conserva el estado final de la misión en el historial.
+- `PARCEL.area` y `FUMIGATION_AREA.area` son valores derivables de `geometry`, pero se almacenan para evitar recalcularlos en cada consulta.
+- `MISSION.treated_area` resume el resultado de la operación y puede coincidir con `MISSION_RESULT.treated_area`.
+
+Estas duplicaciones se mantienen sincronizadas desde la capa de aplicación al momento de registrar o finalizar una misión, y están limitadas a atributos de solo lectura una vez generado el reporte o historial.
 
 ---
 
