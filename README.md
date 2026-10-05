@@ -3811,6 +3811,9 @@ La ejecución del sprint se apoyó en reuniones de coordinación semanales, revi
 
 Se evidenció avance continuo en la implementación de la landing page, la estructura de la aplicación web y la definición del backend base. Además, el equipo registró avances parciales en el flujo de autenticación y en la gestión inicial de misiones, con seguimiento directo del estado de cada story.
 
+![Evidencia de ejecucion de landing](assets/chapter4/landing_mockup.png)
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Se documentó la arquitectura inicial del sistema, sus componentes principales y el alcance funcional del primer sprint. La documentación cubrió los servicios propuestos para la solución, así como la relación entre la landing page, la aplicación web y el backend.
