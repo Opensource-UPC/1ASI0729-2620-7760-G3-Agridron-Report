@@ -3753,13 +3753,20 @@ Es muy importante que el equipo establezca en conjunto el Sprint Goal, pues de e
 A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brinda un contexto previo para entender de mejor manera el propósito del Sprint Goal.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
+Esta distribución permite definir responsabilidades claras dentro del equipo y facilita la coordinación durante el desarrollo del proyecto. Asimismo, la organización de líderes y colaboradores mantiene relación directa con la posterior selección de tareas, ya que el líder de cada aspecto tiene la responsabilidad principal de coordinar y dar seguimiento al trabajo correspondiente.
 
-| Aspecto                              | Líder                            | Colaboradores                                          |
-|:-------------------------------------|:---------------------------------|:-------------------------------------------------------|
-| Product Strategy & Value Proposition | Italo Gianfranco Damacen Galindo | Sebastián Sayago Vidal, Gabriel Ramírez Gutiérrez      |
-| UX / UI / Landing Page               | Sebastián Leonardo Sayago Vidal  | Alexander Felipe Vásquez Roncal, Italo Damacen Galindo |
-| Backend / Services / Data Model      | Gabriel Ramírez Gutiérrez        | Edwin Noe Nicho Huillcañahui, Sebastián Sayago Vidal   |
-| Testing / Validation / Evidence      | Edwin Noe Nicho Huillcañahui     | Alexander Vásquez Roncal, Gabriel Ramírez Gutiérrez    |
+| Team Member (Last Name, First Name) | GitHub Username | Identity & Access Management | Field Management | Flight Operations | Weather Integration | Analytics & Reporting | Inventory & Resource Management |
+|---|---|---|---|---|---|---|---|
+| Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | **L** | C | C | C | C | C |
+| Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez | C | **L** | **L** | C | C | C |
+| Damacen Galindo, Italo Gianfranco | ItaloDMc | C | C | C | **L** | C | C |
+| Sayago Vidal, Sebastián Leonardo | SSayag0V | C | C | C | C | **L** | C |
+| Nicho Huillcañahui, Edwin Noe | Edwindeploy21 | C | C | C | C | C | **L** |
+
+**Leyenda:**
+
+- **L (Leader):** integrante responsable de liderar y coordinar el trabajo relacionado con el aspecto asignado.
+- **C (Collaborator):** integrante que participa como colaborador y brinda apoyo en el desarrollo del aspecto.
 
 #### 5.2.1.3. Sprint Backlog 1
 
