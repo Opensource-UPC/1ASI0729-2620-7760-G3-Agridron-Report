@@ -194,7 +194,6 @@
   - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-        - [Sprint Goal \& User Stories](#sprint-goal--user-stories)
       - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
       - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
@@ -202,6 +201,15 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.2.2. Sprint 2](#521-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Interview Design](#531-interview-design)
     - [5.3.2. Interview Registry](#532-interview-registry)
@@ -3847,6 +3855,163 @@ La colaboración del equipo se desarrolló con un enfoque distribuido por respon
 El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de valor y UX, la implementación técnica del sistema y la documentación del proyecto. Esta organización permitió avanzar en paralelo, reducir tiempos de espera y mantener una cultura de colaboración abierta, donde cada integrante asumió responsabilidades claras y contribuyó a la entrega del primer ciclo incremental.
 
 ![Evidencia de colaboración del Sprint](assets/chapter4/Web_Applications_User_Flow_Diagrams.png)
+
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Campo | Detalle |
+|:---|:---|
+| Sprint # | 2 |
+| Sprint Planning Background | En este sprint se continuó con la evolución funcional y arquitectónica de AgriDron Solutions, tomando como base las User Stories priorizadas del Product Backlog. El trabajo se orientó principalmente a desarrollar y especificar las capacidades relacionadas con la gestión de usuarios, gestión territorial, planificación y ejecución de misiones, integración meteorológica, generación de información analítica y gestión de recursos de fumigación. |
+| Date |  |
+| Time |  |
+| Location | Reunión virtual (Google Meet / Zoom) |
+| Prepared By |  |
+| Attendees (to planning meeting) | Italo Gianfranco Damacen Galindo, Edwin Noe Nicho Huillcañahui, Gabriel Ramírez Gutiérrez, Sebastián Leonardo Sayago Vidal, Alexander Felipe Vásquez Roncal |
+| Sprint 1 - Review Summary | Se revisó el avance alcanzado durante el Sprint 1, principalmente en la construcción de la Landing Page y en la definición inicial de la propuesta de valor, servicios, planes, registro, inicio de sesión y contenido legal. |
+| Sprint 1 - Retrospective Summary | Se identificó la necesidad de continuar con una distribución clara de responsabilidades y mejorar la coordinación entre las actividades de análisis, diseño y desarrollo, manteniendo una comunicación constante para integrar los avances individuales. |
+
+##### Sprint Goal & User Stories
+
+| Aspecto | Descripción |
+|:---|:---|
+| Sprint 2 Goal | Avanzar en la definición y construcción de las funcionalidades principales de AgriDron Solutions, cubriendo la gestión de usuarios, parcelas, recursos, misiones, condiciones meteorológicas y resultados de las operaciones de fumigación. |
+| Velocity |  |
+| Sum of Story Points |  |
+
+El Sprint Goal del segundo sprint se centra en avanzar desde la base informativa construida durante el Sprint 1 hacia las funcionalidades centrales de la plataforma. Para ello, el equipo trabajará sobre User Stories relacionadas con la gestión de usuarios, terrenos, recursos, misiones, condiciones meteorológicas y generación de información sobre las operaciones realizadas.
+
+El objetivo es que las funcionalidades seleccionadas mantengan coherencia con la propuesta de valor de AgriDron Solutions y permitan construir progresivamente una plataforma orientada a la planificación y monitoreo de operaciones de fumigación mediante drones.
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Aspecto | Líder | Colaboradores |
+|:---|:---|:---|
+| Identity & Access Management | Gabriel Ramírez Gutiérrez | Sebastián Sayago Vidal, Edwin Noe Nicho Huillcañahui |
+| Field Management | Alexander Felipe Vásquez Roncal | Italo Gianfranco Damacen Galindo, Sebastián Sayago Vidal |
+| Flight Operations | Alexander Felipe Vásquez Roncal | Edwin Noe Nicho Huillcañahui, Italo Gianfranco Damacen Galindo |
+| Weather Integration | Italo Gianfranco Damacen Galindo | Alexander Felipe Vásquez Roncal, Gabriel Ramírez Gutiérrez |
+| Analytics & Reporting | Sebastián Leonardo Sayago Vidal | Gabriel Ramírez Gutiérrez, Edwin Noe Nicho Huillcañahui |
+| Inventory & Resource Management | Edwin Noe Nicho Huillcañahui | Italo Gianfranco Damacen Galindo, Alexander Felipe Vásquez Roncal |
+
+---
+
+#### 5.2.2.3. Sprint Backlog 2
+
+En esta sección se registra el trabajo planificado para el Sprint 2 a partir de las User Stories seleccionadas del Product Backlog. Las tareas representan las actividades necesarias para cumplir con los criterios de aceptación de cada User Story y se distribuyen entre los integrantes del equipo de acuerdo con los aspectos trabajados durante el sprint.
+
+| Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 2 | AU-001 | Registro de usuario agricultor | T01 | Definir datos requeridos para el registro | Identificar y estructurar los datos personales necesarios para registrar un usuario con rol de agricultor. | 2 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-001 | Registro de usuario agricultor | T02 | Implementar flujo de registro de agricultor | Implementar el flujo de registro y validación de los datos proporcionados por el agricultor. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-001 | Registro de usuario agricultor | T03 | Validar creación del perfil | Verificar que el registro genere correctamente el perfil asociado al rol de agricultor. | 2 | Edwin Nicho | Done |
+| Sprint 2 | AU-003 | Inicio de sesión seguro | T04 | Implementar autenticación de usuarios | Implementar el flujo de autenticación mediante las credenciales registradas por el usuario. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-003 | Inicio de sesión seguro | T05 | Validar acceso según rol | Comprobar que el usuario autenticado pueda acceder al panel correspondiente a su rol. | 3 | Sebastián Sayago | Done |
+| Sprint 2 | AU-006 | Asignación y gestión de roles | T06 | Definir roles y permisos | Establecer los roles de usuario y los permisos asociados dentro de la plataforma. | 2 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-006 | Asignación y gestión de roles | T07 | Implementar gestión de roles | Implementar la asignación y actualización de roles para los usuarios administrados por el sistema. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | FM-001 | Registro de finca agrícola | T08 | Implementar registro de fincas | Implementar el registro de nombre, ubicación y departamento de una finca agrícola. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | FM-002 | Delimitación geográfica de parcela | T09 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
+| Sprint 2 | FM-002 | Delimitación geográfica de parcela | T10 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | FM-004 | Asignación de tipo de cultivo y fenología | T11 | Registrar información del cultivo | Implementar el registro del tipo de cultivo y etapa fenológica asociada a una parcela. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | FM-005 | Consulta y filtrado de parcelas | T12 | Implementar consulta y filtros | Permitir la consulta de parcelas y aplicar filtros según los criterios definidos por el usuario. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | DR-001 | Registro de nuevo dron en inventario | T13 | Registrar información técnica del dron | Implementar el registro del modelo, número de serie y capacidad del tanque del dron. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-002 | Consulta del estado operativo de flota | T14 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en mantenimiento o en misión. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-003 | Registro de agroquímicos e insumos | T15 | Registrar insumos agrícolas | Implementar el registro de productos agroquímicos y sus principales características. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-005 | Programación de mantenimiento preventivo | T16 | Registrar mantenimiento de drones | Implementar el registro de fechas y horas de mantenimiento preventivo de los drones. | 3 | Edwin Nicho | Done |
+| Sprint 2 | MI-001 | Solicitud de misión de fumigación | T17 | Crear solicitud de misión | Implementar el flujo para crear una solicitud indicando parcela, fecha estimada y producto a aplicar. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | MI-002 | Asignación de dron e insumos a la misión | T18 | Asignar recursos a la misión | Implementar la selección de un dron disponible y los insumos requeridos para una misión. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | MI-003 | Asignación de operador técnico a la misión | T19 | Asignar operador a la misión | Implementar la asignación del operador técnico responsable de ejecutar la misión. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | MI-004 | Configuración de parámetros de vuelo | T20 | Configurar parámetros operativos | Implementar la configuración de altura, velocidad y tasa de pulverización de la misión. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | MI-005 | Consulta de calendario de misiones | T21 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | TR-001 | Visualización de posición de dron en tiempo real | T22 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | TR-002 | Monitoreo de indicadores de vuelo | T23 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | TR-005 | Registro de finalización de misión | T24 | Registrar finalización de operación | Implementar el cambio de estado de la misión a realizada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | CL-001 | Consulta de condiciones climáticas actuales | T25 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
+| Sprint 2 | CL-002 | Alerta por exceso de velocidad de viento | T26 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
+| Sprint 2 | CL-003 | Identificación de ventana óptima de pulverización | T27 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | Done |
+| Sprint 2 | CL-005 | Configuración de umbrales meteorológicos por cultivo | T28 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
+| Sprint 2 | RP-001 | Generación de informe de servicio fitosanitario | T29 | Consolidar resultados de misión | Integrar los datos obtenidos de una misión completada para generar un resumen de servicio. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-002 | Exportación de informes en formato PDF | T30 | Implementar exportación de reportes | Implementar la generación y exportación del informe de fumigación en formato PDF. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-003 | Visualización de panel con métricas generales | T31 | Implementar dashboard de métricas | Implementar la visualización de métricas generales de hectáreas tratadas y horas de vuelo. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-004 | Historial de misiones con filtros avanzados | T32 | Implementar historial de misiones | Implementar la consulta del historial de operaciones y sus filtros por fecha y parcela. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-005 | Balance de consumo de productos agroquímicos | T33 | Consolidar consumo de insumos | Implementar el cálculo y presentación del volumen acumulado de productos utilizados por finca. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | TU-001 | Configuración de arquitectura limpia base | T34 | Estructurar backend por capas | Configurar la estructura base del backend siguiendo la separación entre Domain, Application, Infrastructure e Interfaces. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | TU-005 | Integración de cliente de servicio meteorológico | T35 | Implementar cliente de clima | Implementar el cliente encargado de consumir la API meteorológica externa y normalizar su respuesta. | 4 | Italo Damacen | Done |
+| Sprint 2 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | T36 | Documentar endpoints | Configurar la documentación de los servicios mediante OpenAPI/Swagger. | 3 | Gabriel Ramírez | Done |
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se avanzó en la construcción de las funcionalidades principales de AgriDron Solutions a partir de las User Stories priorizadas. El trabajo se distribuyó entre los integrantes del equipo considerando las responsabilidades asociadas a la gestión de usuarios, gestión territorial, operaciones de vuelo, integración meteorológica, analítica y gestión de recursos.
+
+Asimismo, se desarrollaron los elementos de análisis y diseño necesarios para representar las responsabilidades de los diferentes Bounded Contexts de la solución. Esta organización permitió relacionar las funcionalidades del Product Backlog con las responsabilidades específicas de cada parte del dominio.
+
+La evidencia de desarrollo del sprint debe incluir capturas de los avances realizados y, cuando corresponda, referencias a las ramas y commits utilizados para implementar las User Stories seleccionadas.
+
+![Evidencia de desarrollo del Sprint 2](assets/chapter5/sprint_2_development.png)
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+La ejecución del Sprint 2 se realizó mediante coordinación entre los integrantes del equipo y seguimiento de las tareas asociadas a las User Stories seleccionadas. Cada integrante trabajó sobre los aspectos asignados, manteniendo comunicación con los demás miembros para validar la integración de los avances.
+
+Durante el sprint se revisaron progresivamente las funcionalidades relacionadas con usuarios, parcelas, recursos, misiones, condiciones meteorológicas y resultados de las operaciones.
+
+![Evidencia de ejecución del Sprint 2](assets/chapter5/Sprint_2_Review.png)
+
+La evidencia de ejecución debe mostrar los avances funcionales alcanzados durante el sprint y la validación de las tareas completadas.
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se continuó con la definición y documentación de los servicios necesarios para soportar las User Stories seleccionadas. Los servicios se relacionan principalmente con la gestión de usuarios, parcelas, misiones, información meteorológica, recursos y reportes.
+
+La evidencia documental del sprint contempla:
+
+- Servicios asociados al registro y autenticación de usuarios.
+- Servicios para la gestión de fincas y parcelas.
+- Servicios relacionados con la planificación y gestión de misiones.
+- Integración con el servicio meteorológico externo.
+- Servicios para la consulta de historial, métricas y reportes.
+- Servicios relacionados con la gestión de drones e insumos.
+
+La documentación deberá complementarse con las capturas correspondientes y, cuando se encuentre disponible, con la URL de la documentación OpenAPI/Swagger y los identificadores de los commits relacionados.
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se continuó con la configuración y preparación de los componentes necesarios para la evolución del producto. El trabajo de despliegue se mantuvo alineado con la estructura de repositorios y la estrategia de control de versiones definida para el proyecto.
+
+La evidencia de despliegue debe mostrar los cambios realizados en los entornos utilizados durante el sprint y, cuando corresponda, las configuraciones empleadas para publicar los componentes desarrollados.
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó de manera distribuida de acuerdo con los aspectos funcionales y técnicos definidos para la iteración. La asignación de responsabilidades permitió que cada integrante se enfocara en un conjunto específico de funcionalidades, manteniendo coordinación con los demás miembros para asegurar la consistencia del producto.
+
+La distribución de los aspectos principales fue la siguiente:
+
+- **Identity & Access Management:** Gabriel Ramírez Gutiérrez.
+- **Field Management:** Alexander Felipe Vásquez Roncal.
+- **Flight Operations:** Alexander Felipe Vásquez Roncal.
+- **Weather Integration:** Italo Gianfranco Damacen Galindo.
+- **Analytics & Reporting:** Sebastián Leonardo Sayago Vidal.
+- **Inventory & Resource Management:** Edwin Noe Nicho Huillcañahui.
+
+La coordinación entre los integrantes permitió relacionar las User Stories con las responsabilidades de cada área del dominio y mantener una visión integrada del sistema. Además, la revisión cruzada de los avances ayudó a identificar dependencias entre funcionalidades, especialmente entre la gestión territorial, la planificación de misiones, las condiciones meteorológicas y el análisis de los resultados obtenidos.
+
+![Evidencia de colaboración del Sprint 2](assets/chapter5/team_collaboration_sprint_2.png)
 
 ---
 
