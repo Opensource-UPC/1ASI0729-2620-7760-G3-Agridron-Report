@@ -4170,6 +4170,23 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
  
 </p>
 
+<p align="justify">
+Esta sección presenta la consolidación de conclusiones correspondiente a la <strong>entrega TB1</strong> del proyecto AgriDron Solutions. Tras el primer avance (AV1), el equipo incorporó las observaciones y críticas constructivas brindadas por el docente, optimizando la coherencia y exhaustividad de la documentación técnica en Markdown. Para esta entrega, el hito principal consistió en dar el salto del diseño preliminar con el objetivo de acercase a implementar la logica de negocio complea y luego pasar al backend, donde cada integrante asumió la responsabilidad de modelar e implementar un Bounded Context (BC) específico aplicando los patrones y principios de Domain-Driven Design (DDD), estructurado rigurosamente en cuatro capas de software.
+</p>
+<p align="justify">
+Respecto a la <strong>trazabilidad de requisitos y supuestos (Lean UX y Needfinding)</strong>, las mejoras aplicadas en esta entrega permitieron cerrar la brecha entre los artefactos de análisis (EventStorming y User Stories) y el código fuente. Las entidades identificadas en cada Bounded Context (por ejemplo, drones, boquillas, o la delimitación geográfica en Field Management) responden directamente a los puntos de dolor detectados durante las entrevistas de campo. La estandarización de convenciones en idioma inglés, GitFlow, Conventional Commits y la separación por paquetes facilitaron la integración paralela de los servicios desarrollados por cada integrante sin presentar colisiones arquitectónicas críticas.
+</p>
+
+<p align="justify">
+Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo concluye que resulta indispensable:
+</p>
+
+<ol>
+  <li><strong>Profundizar en la integración entre Bounded Contexts:</strong> Se recomienda afinar la comunicación intercontexto para asegurar consistencia transaccional cuando eventos críticos se disparen (por ejemplo, validar disponibilidad de insumos y dron antes de autorizar el despegue de una misión).</li>
+  <li><strong>Conectar el Frontend Angular con los Web Services desplegados:</strong> Avanzar en el consumo integral de los endpoints RESTful implementados en Spring Boot desde la aplicación web interactiva, reemplazando progresivamente los datos emulados por la persistencia real del backend.</li>
+  <li><strong>Ejecutar la validación con usuarios (Validation Interviews):</strong> Proceder con la planificación y aplicación de las entrevistas de validación (5.3) sobre el producto interactivo desplegado, con el fin de medir la usabilidad heurística y contrastar las hipótesis operativas (reducción de tiempos de planificación y control de derivas climáticas) frente a agricultores y operadores técnicos en campo.</li>
+</ol>
+
 ---
 
 # Bibliografía
