@@ -757,33 +757,112 @@ Para validar la propuesta de valor de AgriDron Solutions y asegurar un posiciona
 
 A continuación, se presenta el Competitive Analysis Landscape, cuyo objetivo es contrastar objetivamente las capacidades, fortalezas, debilidades y modelos comerciales de AgriDron Solutions frente a los competidores analizados:
 
-#### Competitive Analysis Landscape
-
-| Criterio                                  | AgriDron Solutions                                                                                                                                                                                                                                                                                   | DroneDeploy                                                                                                               | Climate FieldView                                                                                                          | Agrivi                                                                                                                        |
-|:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| **¿Por qué llevar a cabo este análisis?** | El objetivo de este análisis es evaluar las soluciones digitales agropecuarias actuales para identificar brechas de mercado, validar nuestra ventaja competitiva en la planificación y monitoreo de fumigación con drones, y estructurar una oferta accesible para pequeños y medianos agricultores. | Analizar al referente global en gestión de operaciones y mapas con drones en la nube.                                     | Evaluar al líder en analítica agronómica, clima y prescripción digital de insumos.                                         | Analizar al líder SaaS en gestión administrativa, trazabilidad y control fitosanitario de campos.                             |
-| **Logo / Identificador**                  | ![AgriDron](assets/logos/Agridron_Logo.png)                                                                                                                                                                                                                                                           | ![DroneDeploy](assets/logos/dronedeploy-logo.png)                                                                         | ![Climate FieldView](assets/logos/Climate_FieldView.jpg)                                                                   | ![Agrivi](assets/logos/agrivi.jpg)                                                                                            |
-| **Perfil**                                | Plataforma web distribuida e interoperable diseñada para la planificación sobre mapas interactivos, validación climática vía API externa y simulación de telemetría para operaciones de fumigación con drones.                                                                                       | Plataforma empresarial de software para mapeo aéreo, fotogrametría 3D y análisis multiespectral con drones.               | Plataforma digital corporativa enfocada en la recolección masiva de datos agronómicos terrestres y satelitales.            | Sistema integral de planificación de recursos agrícolas (Farm ERP) en la nube enfocado en gestión y cumplimiento normativo.   |
-| **Ventaja competitiva**                   | Plataforma web abierta e intuitiva que integra delimitación de polígonos, consulta meteorológica en tiempo real y seguimiento de drones sin ataduras a hardware propietario.                                                                                                                         | Algoritmos líderes de procesamiento rápido de ortomosaicos y amplia compatibilidad con marcas de drones comerciales.      | Respaldo y validación agronómica global de Bayer, con integración directa a maquinaria pesada y satélites.                 | Módulo exhaustivo de trazabilidad agrícola, cumplimiento de certificaciones internacionales y gestión financiera del cultivo. |
-| **¿Qué valor ofrece a los clientes?**     | Automatización accesible del flujo de fumigación, reducción del desperdicio de insumos químicos, prevención por clima adverso y visibilidad operativa en tiempo real.                                                                                                                                | Información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación.               | Optimización del rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo.         | Centralización administrativa de la finca, control estricto de inventarios y reducción de costos operativos generales.        |
-| **Mercado objetivo**                      | Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación.                                                                                                                                                                                       | Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea.                                 | Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada.                                          | Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias.                               |
-| **Estrategias de marketing**              | Marketing digital educativo, demostraciones en cooperativas locales, esquema freemium para visualización de parcelas y alianzas con técnicos de campo.                                                                                                                                               | Venta directa enterprise, marketing de contenidos B2B global, eventos del sector aeroespacial y certificaciones técnicas. | Distribución a través de redes de concesionarios de insumos Bayer, patrocinios agrícolas y pruebas de campo a gran escala. | Marketing inbound, presencia en conferencias globales AgTech, certificaciones digitales y canal de consultoría especializada. |
-| **Productos & Servicios**                 | Aplicación web (Angular), servicio RESTful (Spring Boot), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo.                                                                                                                                                      | Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D.            | Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra.         | Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo.    |
-| **Precios & Costos**                      | Esquema de suscripción modular mensual/anual económico, adaptado por cantidad de hectáreas gestionadas.                                                                                                                                                                                              | Modelo de suscripción SaaS anual de costo elevado (desde cientos hasta miles de USD anuales por usuario).                 | Suscripción anual base más costos adicionales por dispositivos de conexión física y hectáreas monitoreadas.                | Suscripción SaaS por niveles basada en el número de hectáreas y módulos empresariales contratados (alto costo).               |
-| **Canales de distribución**               | Aplicación web responsive (Desktop y Mobile) accesible desde cualquier navegador estándar y Landing Page oficial.                                                                                                                                                                                    | Plataforma web SaaS, aplicación móvil (iOS/Android) y portal en la nube.                                                  | Plataforma web, aplicaciones móviles (iOS/Android) y canal de distribución físico de hardware.                             | Plataforma web SaaS y aplicación móvil operativa para smartphones y tablets.                                                  |
-
----
-
-#### Análisis SWOT (Fortalezas, Oportunidades, Debilidades y Amenazas)
-
-A continuación, se detallan los cuadrantes estratégicos de AgriDron Solutions en contraste directo con los competidores identificados:
-
-| Cuadrante                         | Descripción Estratégica                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|:----------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Fortalezas (Strengths)**        | • Plataforma web moderna construida sobre arquitectura distribuida escalable (Spring Boot y Angular).<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química. |
-| **Debilidades (Weaknesses)**      | • Startup en etapa inicial con menor músculo financiero y base de clientes reducida frente a gigantes consolidados.<br>• Dependencia inicial de simulación para los flujos de telemetría de drones antes de la integración con hardware físico masivo.<br>• Marca nueva sin reconocimiento previo en ferias o asociaciones agrarias regionales.                                                                                                                                               |
-| **Oportunidades (Opportunities)** | • Creciente interés de pequeños y medianos agricultores por modernizar la fumigación para reducir pérdidas económicas por plagas.<br>• Brecha de mercado desatendida por competidores de alto costo (DroneDeploy, Agrivi), que no diseñan soluciones accesibles para predios de 5 a 50 hectáreas.<br>• Necesidad de cooperativas locales de centralizar la supervisión de múltiples lotes en un solo panel colaborativo.                                                                      |
-| **Amenazas (Threats)**            | • Resistencia cultural al cambio tecnológico por parte de productores agrícolas acostumbrados a métodos tradicionales manuales.<br>• Expansión o reducción de precios de plataformas consolidadas (como Bayer Climate FieldView) hacia segmentos de menores extensiones.<br>• Deficiencias de infraestructura de conectividad a internet en zonas rurales que dificulten el uso de plataformas web en campo.                                                                                  |
+<table>
+  <thead>
+    <tr>
+      <th colspan="6" align="center">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+      <td colspan="4">
+        El objetivo de este análisis es evaluar las soluciones digitales agropecuarias actuales para identificar brechas de mercado, validar nuestra ventaja competitiva en la planificación y monitoreo de fumigación con drones, y estructurar una oferta accesible para pequeños y medianos agricultores.<br><br>
+        <b>DroneDeploy:</b> Analizar al referente global en gestión de operaciones y mapas con drones en la nube.<br>
+        <b>Climate FieldView:</b> Evaluar al líder en analítica agronómica, clima y prescripción digital de insumos.<br>
+        <b>Agrivi:</b> Analizar al líder SaaS en gestión administrativa, trazabilidad y control fitosanitario de campos.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="2"></th>
+      <th align="center">AgriDron Solutions<br><img src="assets/logos/Agridron_Logo.png" alt="AgriDron" width="120"/></th>
+      <th align="center">DroneDeploy<br><img src="assets/logos/dronedeploy-logo.png" alt="DroneDeploy" width="120"/></th>
+      <th align="center">Climate FieldView<br><img src="assets/logos/Climate_FieldView.jpg" alt="Climate FieldView" width="120"/></th>
+      <th align="center">Agrivi<br><img src="assets/logos/agrivi.jpg" alt="Agrivi" width="120"/></th>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center"><b>Perfil</b></td>
+      <td><b>Overview</b></td>
+      <td>Plataforma web distribuida e interoperable diseñada para la planificación sobre mapas interactivos, validación climática vía API externa y simulación de telemetría para operaciones de fumigación con drones.</td>
+      <td>Plataforma empresarial de software para mapeo aéreo, fotogrametría 3D y análisis multiespectral con drones.</td>
+      <td>Plataforma digital corporativa enfocada en la recolección masiva de datos agronómicos terrestres y satelitales.</td>
+      <td>Sistema integral de planificación de recursos agrícolas (Farm ERP) en la nube enfocado en gestión y cumplimiento normativo.</td>
+    </tr>
+    <tr>
+      <td><b>Ventaja competitiva</b><br><i>¿Qué valor ofrece a los clientes?</i></td>
+      <td>Plataforma web abierta e intuitiva que integra delimitación de polígonos, consulta meteorológica en tiempo real y seguimiento de drones sin ataduras a hardware propietario.<br><br>Automatización accesible del flujo de fumigación, reducción del desperdicio de insumos químicos, prevención por clima adverso y visibilidad operativa en tiempo real.</td>
+      <td>Algoritmos líderes de procesamiento rápido de ortomosaicos y amplia compatibilidad con marcas de drones comerciales.<br><br>Información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación.</td>
+      <td>Respaldo y validación agronómica global de Bayer, con integración directa a maquinaria pesada y satélites.<br><br>Optimización del rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo.</td>
+      <td>Módulo exhaustivo de trazabilidad agrícola, cumplimiento de certificaciones internacionales y gestión financiera del cultivo.<br><br>Centralización administrativa de la finca, control estricto de inventarios y reducción de costos operativos generales.</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center"><b>Perfil de Marketing</b></td>
+      <td><b>Mercado objetivo</b></td>
+      <td>Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación.</td>
+      <td>Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea.</td>
+      <td>Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada.</td>
+      <td>Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias.</td>
+    </tr>
+    <tr>
+      <td><b>Estrategias de marketing</b></td>
+      <td>Marketing digital educativo, demostraciones en cooperativas locales, esquema freemium para visualización de parcelas y alianzas con técnicos de campo.</td>
+      <td>Venta directa enterprise, marketing de contenidos B2B global, eventos del sector aeroespacial y certificaciones técnicas.</td>
+      <td>Distribución a través de redes de concesionarios de insumos Bayer, patrocinios agrícolas y pruebas de campo a gran escala.</td>
+      <td>Marketing inbound, presencia en conferencias globales AgTech, certificaciones digitales y canal de consultoría especializada.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" align="center"><b>Perfil de Producto</b></td>
+      <td><b>Productos &amp; Servicios</b></td>
+      <td>Aplicación web (Angular), servicio RESTful (Spring Boot), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo.</td>
+      <td>Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D.</td>
+      <td>Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra.</td>
+      <td>Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo.</td>
+    </tr>
+    <tr>
+      <td><b>Precios &amp; Costos</b></td>
+      <td>Esquema de suscripción modular mensual/anual económico, adaptado por cantidad de hectáreas gestionadas.</td>
+      <td>Modelo de suscripción SaaS anual de costo elevado (desde cientos hasta miles de USD anuales por usuario).</td>
+      <td>Suscripción anual base más costos adicionales por dispositivos de conexión física y hectáreas monitoreadas.</td>
+      <td>Suscripción SaaS por niveles basada en el número de hectáreas y módulos empresariales contratados (alto costo).</td>
+    </tr>
+    <tr>
+      <td><b>Canales de distribución (Web y/o Móvil)</b></td>
+      <td>Aplicación web responsive (Desktop y Mobile) accesible desde cualquier navegador estándar y Landing Page oficial.</td>
+      <td>Plataforma web SaaS, aplicación móvil (iOS/Android) y portal en la nube.</td>
+      <td>Plataforma web, aplicaciones móviles (iOS/Android) y canal de distribución físico de hardware.</td>
+      <td>Plataforma web SaaS y aplicación móvil operativa para smartphones y tablets.</td>
+    </tr>
+    <tr>
+      <td rowspan="4" align="center"><b>Análisis SWOT</b></td>
+      <td><b>Fortalezas</b></td>
+      <td>• Plataforma web moderna construida sobre arquitectura distribuida escalable (Spring Boot y Angular).<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química.</td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+    </tr>
+    <tr>
+      <td><b>Debilidades</b></td>
+      <td>• Startup en etapa inicial con menor músculo financiero y base de clientes reducida frente a gigantes consolidados.<br>• Dependencia inicial de simulación para los flujos de telemetría de drones antes de la integración con hardware físico masivo.<br>• Marca nueva sin reconocimiento previo en ferias o asociaciones agrarias regionales.</td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+    </tr>
+    <tr>
+      <td><b>Oportunidades</b></td>
+      <td>• Creciente interés de pequeños y medianos agricultores por modernizar la fumigación para reducir pérdidas económicas por plagas.<br>• Brecha de mercado desatendida por competidores de alto costo (DroneDeploy, Agrivi), que no diseñan soluciones accesibles para predios de 5 a 50 hectáreas.<br>• Necesidad de cooperativas locales de centralizar la supervisión de múltiples lotes en un solo panel colaborativo.</td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+    </tr>
+    <tr>
+      <td><b>Amenazas</b></td>
+      <td>• Resistencia cultural al cambio tecnológico por parte de productores agrícolas acostumbrados a métodos tradicionales manuales.<br>• Expansión o reducción de precios de plataformas consolidadas (como Bayer Climate FieldView) hacia segmentos de menores extensiones.<br>• Deficiencias de infraestructura de conectividad a internet en zonas rurales que dificulten el uso de plataformas web en campo.</td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+      <td><i>Pendiente de redacción</i></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
