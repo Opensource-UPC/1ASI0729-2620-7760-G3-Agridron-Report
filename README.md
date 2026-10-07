@@ -4041,7 +4041,7 @@ Asimismo, se desarrollaron los elementos de análisis y diseño necesarios para 
 
 La evidencia de desarrollo del sprint debe incluir capturas de los avances realizados y, cuando corresponda, referencias a las ramas y commits utilizados para implementar las User Stories seleccionadas.
 
-![Evidencia de desarrollo del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+![Evidencia de desarrollo del Sprint 2](assets/chapter5/sprint_2_development.png)
 
 ---
 
@@ -4051,7 +4051,7 @@ La ejecución del Sprint 2 se realizó mediante coordinación entre los integran
 
 Durante el sprint se revisaron progresivamente las funcionalidades relacionadas con usuarios, parcelas, recursos, misiones, condiciones meteorológicas y resultados de las operaciones.
 
-![Evidencia de ejecución del Sprint 2](assets/chapter5/Sprint_2_Review.png)
+![Evidencia de ejecucion del Sprint 2](assets/chapter5/deployment_sprint_2.png)
 
 La evidencia de ejecución debe mostrar los avances funcionales alcanzados durante el sprint y la validación de las tareas completadas.
 
