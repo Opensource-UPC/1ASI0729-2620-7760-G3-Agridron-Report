@@ -4189,7 +4189,7 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 **Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)6
 
-**Link LandingPague:** [https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/](https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/)
+**Link LandingPague:** [https://agridronlandingpage.web.app/](https://agridronlandingpage.web.app/)
 
 **Link FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
