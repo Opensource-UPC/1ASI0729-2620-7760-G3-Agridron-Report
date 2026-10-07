@@ -3958,6 +3958,8 @@ Se evidenció avance continuo en la implementación de la landing page, la estru
 
 ![Evidencia de ejecucion de landing](assets/chapter4/landing_mockup.png)
 
+**Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -4236,11 +4238,13 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo A: Evidencias adicionales
 
-**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)6
+**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
 
-**Link LandingPague:** [https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/](https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/)
+**Link Repositorio LandingPage:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
 
-**Link FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+**Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+
+**Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
 **Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
 
