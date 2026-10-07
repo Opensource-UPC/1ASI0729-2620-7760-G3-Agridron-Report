@@ -73,6 +73,48 @@
 | 0.7.0   | 15/09/2026 | Agridron    | Correccion de errores  |
 | 0.8.0   | 16/09/2026 | Agridron    | Pre-release 1.0 del documento  |
 | 1.0.0   | 17/09/2026 | Agridron           | Evidencia completa de entrega AV1      |
+| 1.1.0   | 6/10/2026 | Agridron           | Evidencia completa de entrega TB1      |
+
+---
+Project Report Collaboration Insights
+URL del repositorio (report): https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report
+
+URL del repositorio (landing-page): https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3
+
+URL del repositorio (front-end): https://github.com/Opensource-UPC/Agridron-frontend
+
+
+Primera entrega (AV1)
+
+Las actividades se enfocaron en la construcción estratégica y los fundamentos del proyecto dentro del Capítulo I. El equipo trabajó en la definición detallada del perfil de la startup y la presentación formal de sus integrantes, para luego abordar el planteamiento de la solución aplicando la metodología Lean UX.
+
+Posteriormente, en el Capítulo II se llevaron a cabo las dinámicas de elicitación y análisis de requerimientos. El equipo ejecutó un análisis competitivo exhaustivo, diseñó y aplicó guías de entrevista estructuradas a usuarios del segmento objetivo, y procesó los hallazgos mediante técnicas de Needfinding. Se consolidaron los User Personas, las matrices de tareas, los User Journey Maps y los Empathy Maps. Adicionalmente, se facilitaron sesiones colaborativas de Big Picture EventStorming para mapear la complejidad del dominio de negocio y consensuar el Ubiquitous Language que rige la arquitectura del sistema.
+
+En el Capítulo III, se estructuraron las historias de usuario asociadas a Impact Mapping y se organizó el Product Backlog priorizado. A la par, el Capítulo IV se enfocó en diseño de producto y arquitectura de software. En esta etapa se establecieron las guías de estilo para aplicaciones web, la arquitectura de información detallada (sistemas de organización, etiquetado, búsqueda, navegación y metadatos SEO), así como el diseño de la interfaz y experiencia de usuario a nivel de Wireframes, Mockups, Wireflows, User Flows y prototipos interactivos. Asimismo, aplicando Domain-Driven Design (DDD), se ejecutó el Design-Level EventStorming y se construyeron los diagramas C4 (Context, Container y Component), acompañados de los diagramas de clases orientados a objetos y el modelado completo de la base de datos.
+
+Por último, el Capítulo V concentró la configuración del entorno de gestión del código fuente, donde se definieron las convenciones de desarrollo, los estándares de estilo de código, la estrategia de ramificación (GitFlow) y las pautas para el despliegue de las aplicaciones y servicios, asentando las bases técnicas para el ciclo de vida del desarrollo de software.
+
+
+<p align="center">
+<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.png" alt="Contributors-AV1" width="500"/>
+  <br/><i>Contribuciones del avance 1 (AV1)</i>
+</p>
+<br>
+
+<div style="page-break-after: always;"></div>
+
+Segunda entrega (TB1)
+
+Se realizaron las respectivas correcciones al documento en relación a las revisiones dadas en la primera entrega. Se empezó con la actualización del landing page. Se actualizó el capitulo 5 para definir las bases de trabajo y las actividades respectivas en relación al desarrollo del Frontend, además de presentar la evidencia respectiva del despliege de este
+
+
+<p align="center">
+<img src="assets/Web_Applications_User_Flow_TB1.png" alt="Contributors-TB1" width="500"/>
+  <br/><i>Contribuciones de la entrega parcial 1 (TB1)</i>
+</p>
+<br>
+
+<div style="page-break-after: always;"></div>
 
 
 
