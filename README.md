@@ -4041,7 +4041,7 @@ Asimismo, se desarrollaron los elementos de análisis y diseño necesarios para 
 
 La evidencia de desarrollo del sprint debe incluir capturas de los avances realizados y, cuando corresponda, referencias a las ramas y commits utilizados para implementar las User Stories seleccionadas.
 
-![Evidencia de desarrollo del Sprint 2](assets/chapter5/sprint_2_development.png)
+![Evidencia de desarrollo del Sprint 2](assets/chapter5/deployment_sprint_2.png)
 
 ---
 
