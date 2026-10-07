@@ -4055,6 +4055,8 @@ Durante el sprint se revisaron progresivamente las funcionalidades relacionadas 
 
 La evidencia de ejecución debe mostrar los avances funcionales alcanzados durante el sprint y la validación de las tareas completadas.
 
+**Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
+
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
@@ -4081,6 +4083,8 @@ Durante el Sprint 2 se continuó con la configuración y preparación de los com
 La evidencia de despliegue debe mostrar los cambios realizados en los entornos utilizados durante el sprint y, cuando corresponda, las configuraciones empleadas para publicar los componentes desarrollados.
 
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+
+
 
 ---
 
@@ -4183,17 +4187,21 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo A: Evidencias adicionales
 
-**Enlace de miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=439115746776
+**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)6
 
-**Link LandingPague:** https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/
+**Link LandingPague:** [https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/](https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/)
 
-**Link PPT:** https://canva.link/zzlw6fefxwlie78
+**Link FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
-**Link GitHub:** https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report#31-user-stories
+**Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
+
+**Link PPT:** [https://canva.link/zzlw6fefxwlie78](https://canva.link/zzlw6fefxwlie78)
+
+**Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
 ## Anexo B: Videos de Exposiciones
 
-**Video de exposición AV1:** https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing
+**Video de exposición AV1:** [https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing](https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing)
 
 ## Anexo C: Otros
 
