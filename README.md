@@ -4248,8 +4248,6 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 **Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
 
-**Link PPT:** [https://canva.link/zzlw6fefxwlie78](https://canva.link/zzlw6fefxwlie78)
-
 **Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
 ## Anexo B: Videos de Exposiciones
