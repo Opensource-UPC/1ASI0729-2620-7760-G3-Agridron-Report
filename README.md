@@ -2999,25 +2999,34 @@ El Project Statement indica que esta sección debe especificar el nombre de cada
 
 ## 5.1.1.2. Herramientas del proyecto
 
-| Categoría             | Herramienta / Tecnología | Propósito                                                                   | Referencia                             |
-|-----------------------|--------------------------|-----------------------------------------------------------------------------|----------------------------------------|
-| Control de versiones  | Git                      | Control local de versiones del código fuente.                               | https://git-scm.com/                   |
-| Repositorios          | GitHub                   | Hospedaje de repositorios y colaboración mediante branches y Pull Requests. | https://github.com/                    |
-| Gestión del proyecto  | Trello / Jira / YouTrack | Organización del backlog, tareas y seguimiento del trabajo.                 | Según herramienta seleccionada         |
-| Editor / IDE Frontend | Visual Studio Code       | Desarrollo de Landing Page y Frontend Angular/TypeScript.                   | https://code.visualstudio.com/         |
-| IDE Backend           | IntelliJ IDEA / Eclipse  | Desarrollo del Backend Java/Spring Boot.                                    | https://www.jetbrains.com/idea/        |
-| Runtime Frontend      | Node.js + npm            | Instalación de dependencias y ejecución de herramientas Angular.            | https://nodejs.org/                    |
-| Framework Frontend    | Angular                  | Implementación de la aplicación web.                                        | https://angular.dev/                   |
-| Lenguaje Frontend     | TypeScript               | Desarrollo de la lógica del Frontend Angular.                               | https://www.typescriptlang.org/        |
-| Lenguaje Backend      | Java                     | Implementación del Backend y lógica de negocio.                             | https://www.java.com/                  |
-| Framework Backend     | Spring Boot              | Implementación de servicios REST y lógica del Backend.                      | https://spring.io/projects/spring-boot |
-| Build Backend         | Maven                    | Gestión de dependencias y construcción del proyecto Spring Boot.            | https://maven.apache.org/              |
-| Base de datos         | PostgreSQL / SQL         | Persistencia de la información de la plataforma.                            | https://www.postgresql.org/            |
-| API testing           | Postman                  | Prueba de endpoints REST durante el desarrollo.                             | https://www.postman.com/               |
-| Documentación API     | Swagger / OpenAPI        | Documentación y consulta de los servicios REST.                             | https://swagger.io/                    |
-| Diseño UI/UX          | Figma                    | Diseño de wireframes, mock-ups y prototipos.                                | https://www.figma.com/                 |
-| Diagramación          | Mermaid                  | Diagramas como código dentro del repositorio Markdown.                      | https://mermaid.js.org/                |
-| Documentación         | Markdown                 | Elaboración de documentación técnica dentro del repositorio.                | https://www.markdownguide.org/         |
+La siguiente tabla indica, para cada actividad del ciclo de vida del producto, los productos de software que utiliza el equipo, su propósito de uso en el proyecto y su ruta de referencia (productos SaaS) o de descarga (productos que se ejecutan en el computador de cada integrante).
+
+| Actividad               | Producto                         | Propósito de uso en el proyecto                                                   | Tipo  | Ruta de referencia o descarga                                                                 |
+|-------------------------|----------------------------------|-----------------------------------------------------------------------------------|-------|-----------------------------------------------------------------------------------------------|
+| Project Management      | Trello                           | Organización de los Sprint Backlogs y seguimiento de las tareas del equipo.       | SaaS  | https://trello.com/                                                                           |
+| Requirements Management | Trello                           | Gestión del Product Backlog y de los User Stories.                                | SaaS  | https://trello.com/                                                                           |
+| Requirements Management | UXPressia                        | Elaboración de User Personas, Empathy Maps, User Journey Maps e Impact Mapping.   | SaaS  | https://uxpressia.com/                                                                        |
+| Requirements Management | Miro                             | Elaboración de Big Picture EventStorming y Design-Level EventStorming.            | SaaS  | https://miro.com/                                                                             |
+| Product UX/UI Design    | Figma                            | Diseño de wireframes, mock-ups y prototipos del Landing Page y de la Web Application. | SaaS  | https://www.figma.com/                                                                    |
+| Product UX/UI Design    | Lucidchart                       | Elaboración de diagramas de flujo, Wireflows y User Flows.                        | SaaS  | https://www.lucidchart.com/                                                                   |
+| Software Development    | Git                              | Control de versiones local del código fuente.                                     | Local | https://git-scm.com/downloads                                                                 |
+| Software Development    | GitHub                           | Hospedaje de repositorios y colaboración mediante GitFlow, Pull Requests y Conventional Commits. | SaaS  | https://github.com/                                                         |
+| Software Development    | HTML5, CSS3 y JavaScript         | Implementación del Landing Page.                                                  | Local | https://developer.mozilla.org/                                                                |
+| Software Development    | Visual Studio Code               | Editor para el desarrollo del Landing Page y del Frontend Web Application.        | Local | https://code.visualstudio.com/download                                                        |
+| Software Development    | Node.js y npm                    | Instalación de dependencias y ejecución de las herramientas de Angular.           | Local | https://nodejs.org/en/download                                                                |
+| Software Development    | Angular                          | Framework del Frontend Web Application.                                           | Local | https://angular.dev/                                                                          |
+| Software Development    | TypeScript                       | Lenguaje de programación del Frontend Web Application.                            | Local | https://www.typescriptlang.org/download                                                       |
+| Software Development    | Angular Material                 | Biblioteca de componentes de UI basada en Material Design.                        | Local | https://material.angular.dev/                                                                 |
+| Software Development    | Java (JDK)                       | Lenguaje de programación de los Web Services.                                     | Local | https://jdk.java.net/                                                                         |
+| Software Development    | Spring Boot y Spring Data JPA    | Implementación del RESTful API y acceso a datos de los Web Services.              | Local | https://spring.io/projects/spring-boot y https://spring.io/projects/spring-data-jpa           |
+| Software Development    | Maven                            | Gestión de dependencias y construcción del proyecto de los Web Services.          | Local | https://maven.apache.org/download.cgi                                                         |
+| Software Development    | IntelliJ IDEA                    | IDE para el desarrollo de los Web Services.                                       | Local | https://www.jetbrains.com/idea/download/                                                      |
+| Software Development    | PostgreSQL                       | Base de datos relacional para la persistencia de la información.                  | Local | https://www.postgresql.org/download/                                                          |
+| Software Development    | Postman                          | Pruebas manuales de los endpoints del RESTful API.                                | Local | https://www.postman.com/downloads/                                                            |
+| Software Deployment     | GitHub Actions                   | Automatización de la integración continua y del despliegue desde los repositorios. | SaaS  | https://github.com/features/actions                                                          |
+| Software Documentation  | Markdown                         | Elaboración del informe del proyecto en el archivo README.md.                     | Local | https://www.markdownguide.org/                                                                |
+| Software Documentation  | Mermaid                          | Diagramas como código (C4 Model, diagramas de clases y de base de datos) renderizados en GitHub. | SaaS  | https://mermaid.js.org/                                                       |
+| Software Documentation  | Swagger / OpenAPI                | Documentación de los endpoints de los Web Services.                               | Local | https://swagger.io/specification/                                                             |
 
 > **Nota:** Las herramientas de gestión de proyectos y los proveedores cloud deberán reemplazarse por los productos concretos que el equipo haya seleccionado en su implementación final. La tabla mantiene como propuesta las herramientas que no han sido fijadas previamente.
 
