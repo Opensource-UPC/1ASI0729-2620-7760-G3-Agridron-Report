@@ -73,6 +73,48 @@
 | 0.7.0   | 15/09/2026 | Agridron    | Correccion de errores  |
 | 0.8.0   | 16/09/2026 | Agridron    | Pre-release 1.0 del documento  |
 | 1.0.0   | 17/09/2026 | Agridron           | Evidencia completa de entrega AV1      |
+| 1.1.0   | 6/10/2026 | Agridron           | Evidencia completa de entrega TB1      |
+
+---
+Project Report Collaboration Insights
+URL del repositorio (report): https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report
+
+URL del repositorio (landing-page): https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3
+
+URL del repositorio (front-end): https://github.com/Opensource-UPC/Agridron-frontend
+
+
+Primera entrega (AV1)
+
+Las actividades se enfocaron en la construcción estratégica y los fundamentos del proyecto dentro del Capítulo I. El equipo trabajó en la definición detallada del perfil de la startup y la presentación formal de sus integrantes, para luego abordar el planteamiento de la solución aplicando la metodología Lean UX.
+
+Posteriormente, en el Capítulo II se llevaron a cabo las dinámicas de elicitación y análisis de requerimientos. El equipo ejecutó un análisis competitivo exhaustivo, diseñó y aplicó guías de entrevista estructuradas a usuarios del segmento objetivo, y procesó los hallazgos mediante técnicas de Needfinding. Se consolidaron los User Personas, las matrices de tareas, los User Journey Maps y los Empathy Maps. Adicionalmente, se facilitaron sesiones colaborativas de Big Picture EventStorming para mapear la complejidad del dominio de negocio y consensuar el Ubiquitous Language que rige la arquitectura del sistema.
+
+En el Capítulo III, se estructuraron las historias de usuario asociadas a Impact Mapping y se organizó el Product Backlog priorizado. A la par, el Capítulo IV se enfocó en diseño de producto y arquitectura de software. En esta etapa se establecieron las guías de estilo para aplicaciones web, la arquitectura de información detallada (sistemas de organización, etiquetado, búsqueda, navegación y metadatos SEO), así como el diseño de la interfaz y experiencia de usuario a nivel de Wireframes, Mockups, Wireflows, User Flows y prototipos interactivos. Asimismo, aplicando Domain-Driven Design (DDD), se ejecutó el Design-Level EventStorming y se construyeron los diagramas C4 (Context, Container y Component), acompañados de los diagramas de clases orientados a objetos y el modelado completo de la base de datos.
+
+Por último, el Capítulo V concentró la configuración del entorno de gestión del código fuente, donde se definieron las convenciones de desarrollo, los estándares de estilo de código, la estrategia de ramificación (GitFlow) y las pautas para el despliegue de las aplicaciones y servicios, asentando las bases técnicas para el ciclo de vida del desarrollo de software.
+
+
+<p align="center">
+<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.png" alt="Contributors-AV1" width="500"/>
+  <br/><i>Contribuciones del avance 1 (AV1)</i>
+</p>
+<br>
+
+<div style="page-break-after: always;"></div>
+
+Segunda entrega (TB1)
+
+Se realizaron las respectivas correcciones al documento en relación a las revisiones dadas en la primera entrega. Se empezó con la actualización del landing page. Se actualizó el capitulo 5 para definir las bases de trabajo y las actividades respectivas en relación al desarrollo del Frontend, además de presentar la evidencia respectiva del despliege de este
+
+
+<p align="center">
+<img src="assets/Web_Applications_User_Flow_TB1.png" alt="Contributors-TB1" width="500"/>
+  <br/><i>Contribuciones de la entrega parcial 1 (TB1)</i>
+</p>
+<br>
+
+<div style="page-break-after: always;"></div>
 
 
 
@@ -246,6 +288,7 @@
           <p><em><b>TB1</b></em><br>Expuse de manera clara y estructurada el diseño e implementación del Bounded Context 6 (Inventory & Resource Management). Identifique las entidades necesarias a modelar y de acuerdo a la logica de negoció (control de inventario de drones, agroquímicos, boquillas y mantenimiento). Implemente la arquitectura en 4 capas (Domain, Application, Infrastructure e Interfaces/Presentation),según lo trabajado en el curso ,y por ultimo integre de los endpoints relacionados al BC#6 </p>
         <p><b></b><br><em><b></b></em><br></p>
         <p><b>Sayago Vidal, Sebastián Leonardo</b><br><em><b>AV1</b></em><br>Participé en la presentación de las decisiones técnicas y de desarrollo relacionadas con AgriDron Solutions, explicando los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo mediante diagramas y recursos audiovisuales.</p>
+          <em><b>TB1</b></em><br>Participé en la presentación y explicación del Bounded Context Analytics & Reporting, comunicando sus responsabilidades, conceptos, operaciones y eventos, así como los componentes que lo conforman y su relación con la arquitectura de AgriDron Solutions. Para facilitar la comprensión de estos aspectos técnicos, utilicé los diagramas de diseño como apoyo durante la exposición.</p>
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Implementación del capítulo 3 y 4, además de creación de mockups de landing page y Web Application.</p>
           <p><em><b>TB1</b></em><br>Implementación del Bounded Contex 2 FieldManamegent y revision del readme</p>
         <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando de manera clara y ordenada el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada. Durante la presentación, expliqué el proceso Lean UX y las decisiones tomadas para orientar la propuesta de solución, utilizando diapositivas y recursos visuales para facilitar la comprensión de los contenidos según el objetivo de cada sección.</p>
@@ -259,6 +302,7 @@
         <p><b>Nicho Huillcañahui Edwin Noe</b><br><em><b>AV1</b></em><br>Redacté en el Informe de Proyecto (Markdown) las secciones de Análisis Competitivo, Diseño y Registro de Entrevistas, y Needfinding, transcribiendo de forma descriptiva las respuestas de los entrevistados y sustentando con porcentajes las características comunes de cada segmento. Cuidé la ortografía y gramática, seguí la estructura de tablas exigida (Competitive Analysis Landscape, User Task Matrix) y usé el idioma inglés para el Ubiquitous Language según lo indicado en el enunciado.</p>
            <p><em><b>TB1</b></em><br>Redacté la documentación técnica del Bounded Context 6 (Inventory & Resource Management), especificando las entidades Drone, AgrochemicalSupply, Nozzle y MaintenanceRecord. Implementé y documenté las 4 capas de software (Domain, Application, Infrastructure y Presentation) siguiendo principios DDD, estándares en inglés facilitar la integración con el equipo</p>
         <p><b>Sayago Vidal, Sebastián Leonardo</b><br><em><b>AV1</b></em><br>Desarrollé y estructuré documentación técnica relacionada con la arquitectura, diseño y Software Configuration Management (SCM) de AgriDron Solutions, empleando un lenguaje técnico, preciso y organizado para comunicar las decisiones y características de la solución.</p>
+                    <b>AV1</b></em><br>Desarrollé y estructuré documentación técnica correspondiente al Bounded Context Analytics & Reporting, incluyendo sus responsabilidades, conceptos, operaciones, eventos y componentes, manteniendo coherencia con los demás artefactos de arquitectura y diseño de AgriDron Solutions. Asimismo, participé en la elaboración y organización de la documentación correspondiente al presente avance, empleando un lenguaje técnico y estructurado para facilitar la comprensión de la solución.</p>
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Me encargué de crear la organización en GitHub para poder trabajar de manera colaborativa.</p>
           <p><em><b>TB1</b></em><br>Coordinacion del proyecto para unir las ramas en una sola y revisar que el web app funcione</p>
         <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Elaboré y estructuré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes, la problemática identificada y los componentes del proceso Lean UX. Organicé la información de manera clara y sintetizada, empleando un lenguaje técnico acorde con el contexto del proyecto para comunicar de forma ordenada el propósito, contexto, problemática y propuesta de valor de la solución.</p>
@@ -3852,13 +3896,20 @@ Es muy importante que el equipo establezca en conjunto el Sprint Goal, pues de e
 A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brinda un contexto previo para entender de mejor manera el propósito del Sprint Goal.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
+Esta distribución permite definir responsabilidades claras dentro del equipo y facilita la coordinación durante el desarrollo del proyecto. Asimismo, la organización de líderes y colaboradores mantiene relación directa con la posterior selección de tareas, ya que el líder de cada aspecto tiene la responsabilidad principal de coordinar y dar seguimiento al trabajo correspondiente.
 
-| Aspecto                              | Líder                            | Colaboradores                                          |
-|:-------------------------------------|:---------------------------------|:-------------------------------------------------------|
-| Product Strategy & Value Proposition | Italo Gianfranco Damacen Galindo | Sebastián Sayago Vidal, Gabriel Ramírez Gutiérrez      |
-| UX / UI / Landing Page               | Sebastián Leonardo Sayago Vidal  | Alexander Felipe Vásquez Roncal, Italo Damacen Galindo |
-| Backend / Services / Data Model      | Gabriel Ramírez Gutiérrez        | Edwin Noe Nicho Huillcañahui, Sebastián Sayago Vidal   |
-| Testing / Validation / Evidence      | Edwin Noe Nicho Huillcañahui     | Alexander Vásquez Roncal, Gabriel Ramírez Gutiérrez    |
+| Team Member (Last Name, First Name) | GitHub Username | Identity & Access Management | Field Management | Flight Operations | Weather Integration | Analytics & Reporting | Inventory & Resource Management |
+|---|---|---|---|---|---|---|---|
+| Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | **L** | C | C | C | C | C |
+| Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez | C | **L** | **L** | C | C | C |
+| Damacen Galindo, Italo Gianfranco | ItaloDMc | C | C | C | **L** | C | C |
+| Sayago Vidal, Sebastián Leonardo | SSayag0V | C | C | C | C | **L** | C |
+| Nicho Huillcañahui, Edwin Noe | Edwindeploy21 | C | C | C | C | C | **L** |
+
+**Leyenda:**
+
+- **L (Leader):** integrante responsable de liderar y coordinar el trabajo relacionado con el aspecto asignado.
+- **C (Collaborator):** integrante que participa como colaborador y brinda apoyo en el desarrollo del aspecto.
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -3911,6 +3962,8 @@ La ejecución del sprint se apoyó en reuniones de coordinación semanales, revi
 Se evidenció avance continuo en la implementación de la landing page, la estructura de la aplicación web y la definición del backend base. Además, el equipo registró avances parciales en el flujo de autenticación y en la gestión inicial de misiones, con seguimiento directo del estado de cada story.
 
 ![Evidencia de ejecucion de landing](assets/chapter4/landing_mockup.png)
+
+**Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
@@ -4143,6 +4196,23 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
  
 </p>
 
+<p align="justify">
+Esta sección presenta la consolidación de conclusiones correspondiente a la <strong>entrega TB1</strong> del proyecto AgriDron Solutions. Tras el primer avance (AV1), el equipo incorporó las observaciones y críticas constructivas brindadas por el docente, optimizando la coherencia y exhaustividad de la documentación técnica en Markdown. Para esta entrega, el hito principal consistió en dar el salto del diseño preliminar con el objetivo de acercase a implementar la logica de negocio complea y luego pasar al backend, donde cada integrante asumió la responsabilidad de modelar e implementar un Bounded Context (BC) específico aplicando los patrones y principios de Domain-Driven Design (DDD), estructurado rigurosamente en cuatro capas de software.
+</p>
+<p align="justify">
+Respecto a la <strong>trazabilidad de requisitos y supuestos (Lean UX y Needfinding)</strong>, las mejoras aplicadas en esta entrega permitieron cerrar la brecha entre los artefactos de análisis (EventStorming y User Stories) y el código fuente. Las entidades identificadas en cada Bounded Context (por ejemplo, drones, boquillas, o la delimitación geográfica en Field Management) responden directamente a los puntos de dolor detectados durante las entrevistas de campo. La estandarización de convenciones en idioma inglés, GitFlow, Conventional Commits y la separación por paquetes facilitaron la integración paralela de los servicios desarrollados por cada integrante sin presentar colisiones arquitectónicas críticas.
+</p>
+
+<p align="justify">
+Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo concluye que resulta indispensable:
+</p>
+
+<ol>
+  <li><strong>Profundizar en la integración entre Bounded Contexts:</strong> Se recomienda afinar la comunicación intercontexto para asegurar consistencia transaccional cuando eventos críticos se disparen (por ejemplo, validar disponibilidad de insumos y dron antes de autorizar el despegue de una misión).</li>
+  <li><strong>Conectar el Frontend Angular con los Web Services desplegados:</strong> Avanzar en el consumo integral de los endpoints RESTful implementados en Spring Boot desde la aplicación web interactiva, reemplazando progresivamente los datos emulados por la persistencia real del backend.</li>
+  <li><strong>Ejecutar la validación con usuarios (Validation Interviews):</strong> Proceder con la planificación y aplicación de las entrevistas de validación (5.3) sobre el producto interactivo desplegado, con el fin de medir la usabilidad heurística y contrastar las hipótesis operativas (reducción de tiempos de planificación y control de derivas climáticas) frente a agricultores y operadores técnicos en campo.</li>
+</ol>
+
 ---
 
 # Bibliografía
@@ -4163,15 +4233,15 @@ En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró
 
 ## Anexo A: Evidencias adicionales
 
-**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)6
+**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
 
 **Link LandingPague:** [https://agridronlandingpage.web.app/](https://agridronlandingpage.web.app/)
 
-**Link FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+**Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+
+**Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
 **Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
-
-**Link PPT:** [https://canva.link/zzlw6fefxwlie78](https://canva.link/zzlw6fefxwlie78)
 
 **Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
