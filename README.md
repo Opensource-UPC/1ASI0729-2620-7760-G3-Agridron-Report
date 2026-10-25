@@ -3835,10 +3835,10 @@ El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de 
 |:---|:---|
 | Sprint # | 2 |
 | Sprint Planning Background | En este sprint se continuó con la evolución funcional y arquitectónica de AgriDron Solutions, tomando como base las User Stories priorizadas del Product Backlog. El trabajo se orientó principalmente a desarrollar y especificar las capacidades relacionadas con la gestión de usuarios, gestión territorial, planificación y ejecución de misiones, integración meteorológica, generación de información analítica y gestión de recursos de fumigación. |
-| Date |  |
-| Time |  |
+| Date | **[Completar con la fecha real de la reunión de planificación]** |
+| Time | **[Completar con la hora real de la reunión de planificación]** |
 | Location | Reunión virtual (Google Meet / Zoom) |
-| Prepared By |  |
+| Prepared By | **[Indicar a la persona que elaboró el registro]** |
 | Attendees (to planning meeting) | Italo Gianfranco Damacen Galindo, Edwin Noe Nicho Huillcañahui, Gabriel Ramírez Gutiérrez, Sebastián Leonardo Sayago Vidal, Alexander Felipe Vásquez Roncal |
 | Sprint 1 - Review Summary | Se revisó el avance alcanzado durante el Sprint 1, principalmente en la construcción de la Landing Page y en la definición inicial de la propuesta de valor, servicios, planes, registro, inicio de sesión y contenido legal. |
 | Sprint 1 - Retrospective Summary | Se identificó la necesidad de continuar con una distribución clara de responsabilidades y mejorar la coordinación entre las actividades de análisis, diseño y desarrollo, manteniendo una comunicación constante para integrar los avances individuales. |
@@ -3848,12 +3848,14 @@ El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de 
 | Aspecto | Descripción |
 |:---|:---|
 | Sprint 2 Goal | Avanzar en la definición y construcción de las funcionalidades principales de AgriDron Solutions, cubriendo la gestión de usuarios, parcelas, recursos, misiones, condiciones meteorológicas y resultados de las operaciones de fumigación. |
-| Velocity |  |
-| Sum of Story Points |  |
+| Velocity | **[Registrar la velocidad acordada/calculada en la planificación; no inferirla de las horas estimadas]** |
+| Sum of Story Points | **[Sumar los Story Points de las User Stories seleccionadas; completar desde el Product Backlog]** |
 
 El Sprint Goal del segundo sprint se centra en avanzar desde la base informativa construida durante el Sprint 1 hacia las funcionalidades centrales de la plataforma. Para ello, el equipo trabajará sobre User Stories relacionadas con la gestión de usuarios, terrenos, recursos, misiones, condiciones meteorológicas y generación de información sobre las operaciones realizadas.
 
 El objetivo es que las funcionalidades seleccionadas mantengan coherencia con la propuesta de valor de AgriDron Solutions y permitan construir progresivamente una plataforma orientada a la planificación y monitoreo de operaciones de fumigación mediante drones.
+
+**Nota de registro:** los campos marcados para completar requieren datos reales de la reunión y del Product Backlog. Las estimaciones en horas del Sprint Backlog no sustituyen a los Story Points ni permiten calcular la velocidad por sí solas.
 
 ---
 
@@ -3865,7 +3867,7 @@ En el Sprint 2 los aspectos de trabajo son los seis Bounded Contexts de la soluc
 |---|---|---|---|---|---|---|---|
 | Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | **L** | | | C | C | |
 | Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez | | **L** | **L** | C | | C |
-| Damacen Galindo, Italo Gianfranco | Ital0Dmc | | C | C | **L** | | C |
+| Damacen Galindo, Italo Gianfranco | ItaloDMc | | C | C | **L** | | C |
 | Sayago Vidal, Sebastián Leonardo | SSayag0V | C | C | | | **L** | |
 | Nicho Huillcañahui, Edwin Noe | Edwindeploy21 | C | | C | | C | **L** |
 
@@ -3880,59 +3882,68 @@ En el Sprint 2 los aspectos de trabajo son los seis Bounded Contexts de la soluc
 
 En esta sección se registra el trabajo planificado para el Sprint 2 a partir de las User Stories seleccionadas del Product Backlog. Las tareas representan las actividades necesarias para cumplir con los criterios de aceptación de cada User Story y se distribuyen entre los integrantes del equipo de acuerdo con los aspectos trabajados durante el sprint.
 
-| Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 |---|---|---|---|---|---|---:|---|---|
-| Sprint 2 | AU-001 | Registro de usuario agricultor | T01 | Definir datos requeridos para el registro | Identificar y estructurar los datos personales necesarios para registrar un usuario con rol de agricultor. | 2 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-001 | Registro de usuario agricultor | T02 | Implementar flujo de registro de agricultor | Implementar el flujo de registro y validación de los datos proporcionados por el agricultor. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-001 | Registro de usuario agricultor | T03 | Validar creación del perfil | Verificar que el registro genere correctamente el perfil asociado al rol de agricultor. | 2 | Edwin Nicho | Done |
-| Sprint 2 | AU-003 | Inicio de sesión seguro | T04 | Implementar autenticación de usuarios | Implementar el flujo de autenticación mediante las credenciales registradas por el usuario. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-003 | Inicio de sesión seguro | T05 | Validar acceso según rol | Comprobar que el usuario autenticado pueda acceder al panel correspondiente a su rol. | 3 | Sebastián Sayago | Done |
-| Sprint 2 | AU-006 | Selección de rol en el registro | T06 | Definir roles y permisos | Establecer los roles de usuario y los permisos asociados dentro de la plataforma. | 2 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-006 | Selección de rol en el registro | T07 | Implementar selección de rol | Implementar la selección de rol en el formulario de registro y su asignación a la cuenta creada. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | FM-001 | Registro de finca agrícola | T08 | Implementar registro de fincas | Implementar el registro del nombre y la ubicación de una finca agrícola. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | FM-002 | Delimitación geográfica de parcela | T09 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
-| Sprint 2 | FM-002 | Delimitación geográfica de parcela | T10 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | FM-004 | Asignación de tipo de cultivo y fenología | T11 | Registrar información del cultivo | Implementar el registro del tipo de cultivo y etapa fenológica asociada a una parcela. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | FM-005 | Consulta y filtrado de parcelas | T12 | Implementar consulta y filtros | Permitir la consulta de parcelas y aplicar filtros según los criterios definidos por el usuario. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | DR-001 | Registro de nuevo dron en inventario | T13 | Registrar información técnica del dron | Implementar el registro del modelo, número de serie y capacidad del tanque del dron. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-002 | Consulta del estado operativo de flota | T14 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en vuelo, en mantenimiento o fuera de servicio. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-003 | Registro de agroquímicos e insumos | T15 | Registrar insumos agrícolas | Implementar el registro de productos agroquímicos y sus principales características. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-005 | Programación de mantenimiento preventivo | T16 | Registrar mantenimiento de drones | Implementar el registro de fechas y horas de mantenimiento preventivo de los drones. | 3 | Edwin Nicho | Done |
-| Sprint 2 | MI-001 | Solicitud de misión de fumigación | T17 | Crear solicitud de misión | Implementar el flujo para crear una solicitud indicando parcela, fecha estimada y producto a aplicar. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | MI-002 | Asignación de dron e insumos a la misión | T18 | Asignar recursos a la misión | Implementar la selección de un dron disponible y los insumos requeridos para una misión. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | MI-003 | Asignación de operador técnico a la misión | T19 | Asignar operador a la misión | Implementar la asignación del operador técnico responsable de ejecutar la misión. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | MI-004 | Configuración de parámetros de vuelo | T20 | Configurar parámetros operativos | Implementar la configuración de altura, velocidad y tasa de pulverización de la misión. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | MI-005 | Consulta de calendario de misiones | T21 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | TR-001 | Visualización de posición de dron en tiempo real | T22 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | TR-002 | Monitoreo de indicadores de vuelo | T23 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | TR-005 | Registro de finalización de misión | T24 | Registrar finalización de operación | Implementar el cambio de estado de la misión a Completada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | CL-001 | Consulta de condiciones climáticas actuales | T25 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
-| Sprint 2 | CL-002 | Alerta por exceso de velocidad de viento | T26 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
-| Sprint 2 | CL-003 | Identificación de ventana óptima de pulverización | T27 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | Done |
-| Sprint 2 | CL-005 | Configuración de umbrales meteorológicos por cultivo | T28 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
-| Sprint 2 | RP-001 | Generación de informe de servicio fitosanitario | T29 | Consolidar resultados de misión | Integrar los datos obtenidos de una misión completada para generar un resumen de servicio. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-002 | Exportación de informes en formato PDF | T30 | Implementar exportación de reportes | Implementar la generación y exportación del informe de fumigación en formato PDF. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-003 | Visualización de panel con métricas generales | T31 | Implementar dashboard de métricas | Implementar la visualización de métricas generales de hectáreas tratadas y horas de vuelo. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-004 | Historial de misiones con filtros avanzados | T32 | Implementar historial de misiones | Implementar la consulta del historial de operaciones y sus filtros por fecha y parcela. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-005 | Balance de consumo de productos agroquímicos | T33 | Consolidar consumo de insumos | Implementar el cálculo y presentación del volumen acumulado de productos utilizados por finca. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | TU-001 | Configuración de arquitectura limpia base | T34 | Estructurar backend por capas | Configurar la estructura base del backend siguiendo la separación entre Domain, Application, Infrastructure e Interfaces. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | TU-005 | Integración de cliente de servicio meteorológico | T35 | Implementar cliente de clima | Implementar el cliente encargado de consumir la API meteorológica externa y normalizar su respuesta. | 4 | Italo Damacen | Done |
-| Sprint 2 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | T36 | Documentar endpoints | Configurar la documentación de los servicios mediante OpenAPI/Swagger. | 3 | Gabriel Ramírez | Done |
+| 2 | AU-001 | Registro de usuario agricultor | T01 | Definir datos requeridos para el registro | Identificar y estructurar los datos personales necesarios para registrar un usuario con rol de agricultor. | 2 | Gabriel Ramírez | Done |
+| 2 | AU-001 | Registro de usuario agricultor | T02 | Implementar flujo de registro de agricultor | Implementar el flujo de registro y validación de los datos proporcionados por el agricultor. | 4 | Gabriel Ramírez | Done |
+| 2 | AU-001 | Registro de usuario agricultor | T03 | Validar creación del perfil | Verificar que el registro genere correctamente el perfil asociado al rol de agricultor. | 2 | Edwin Nicho | Done |
+| 2 | AU-003 | Inicio de sesión seguro | T04 | Implementar autenticación de usuarios | Implementar el flujo de autenticación mediante las credenciales registradas por el usuario. | 4 | Gabriel Ramírez | Done |
+| 2 | AU-003 | Inicio de sesión seguro | T05 | Validar acceso según rol | Comprobar que el usuario autenticado pueda acceder al panel correspondiente a su rol. | 3 | Sebastián Sayago | Done |
+| 2 | AU-006 | Selección de rol en el registro | T06 | Definir roles y permisos | Establecer los roles de usuario y los permisos asociados dentro de la plataforma. | 2 | Gabriel Ramírez | Done |
+| 2 | AU-006 | Selección de rol en el registro | T07 | Implementar selección de rol | Implementar la selección de rol en el formulario de registro y su asignación a la cuenta creada. | 4 | Gabriel Ramírez | Done |
+| 2 | FM-001 | Registro de finca agrícola | T08 | Implementar registro de fincas | Implementar el registro del nombre y la ubicación de una finca agrícola. | 4 | Alexander Vásquez | Done |
+| 2 | FM-002 | Delimitación geográfica de parcela | T09 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
+| 2 | FM-002 | Delimitación geográfica de parcela | T10 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | Done |
+| 2 | FM-004 | Asignación de tipo de cultivo y fenología | T11 | Registrar información del cultivo | Implementar el registro del tipo de cultivo y etapa fenológica asociada a una parcela. | 3 | Alexander Vásquez | Done |
+| 2 | FM-005 | Consulta y filtrado de parcelas | T12 | Implementar consulta y filtros | Permitir la consulta de parcelas y aplicar filtros según los criterios definidos por el usuario. | 3 | Alexander Vásquez | Done |
+| 2 | DR-001 | Registro de nuevo dron en inventario | T13 | Registrar información técnica del dron | Implementar el registro del modelo, número de serie y capacidad del tanque del dron. | 3 | Edwin Nicho | Done |
+| 2 | DR-002 | Consulta del estado operativo de flota | T14 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en vuelo, en mantenimiento o fuera de servicio. | 3 | Edwin Nicho | Done |
+| 2 | DR-003 | Registro de agroquímicos e insumos | T15 | Registrar insumos agrícolas | Implementar el registro de productos agroquímicos y sus principales características. | 3 | Edwin Nicho | Done |
+| 2 | DR-005 | Programación de mantenimiento preventivo | T16 | Registrar mantenimiento de drones | Implementar el registro de fechas y horas de mantenimiento preventivo de los drones. | 3 | Edwin Nicho | Done |
+| 2 | MI-001 | Solicitud de misión de fumigación | T17 | Crear solicitud de misión | Implementar el flujo para crear una solicitud indicando parcela, fecha estimada y producto a aplicar. | 4 | Alexander Vásquez | To-Review |
+| 2 | MI-002 | Asignación de dron e insumos a la misión | T18 | Asignar recursos a la misión | Implementar la selección de un dron disponible y los insumos requeridos para una misión. | 4 | Alexander Vásquez | To-Review |
+| 2 | MI-003 | Asignación de operador técnico a la misión | T19 | Asignar operador a la misión | Implementar la asignación del operador técnico responsable de ejecutar la misión. | 3 | Alexander Vásquez | To-Review |
+| 2 | MI-004 | Configuración de parámetros de vuelo | T20 | Configurar parámetros operativos | Implementar la configuración de altura, velocidad y tasa de pulverización de la misión. | 4 | Alexander Vásquez | To-Review |
+| 2 | MI-005 | Consulta de calendario de misiones | T21 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | To-Review |
+| 2 | TR-001 | Visualización de posición de dron en tiempo real | T22 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | To-Review |
+| 2 | TR-002 | Monitoreo de indicadores de vuelo | T23 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | To-Review |
+| 2 | TR-005 | Registro de finalización de misión | T24 | Registrar finalización de operación | Implementar el cambio de estado de la misión a Completada y registrar los resultados de la operación. | 3 | Alexander Vásquez | To-Review |
+| 2 | CL-001 | Consulta de condiciones climáticas actuales | T25 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
+| 2 | CL-002 | Alerta por exceso de velocidad de viento | T26 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
+| 2 | CL-003 | Identificación de ventana óptima de pulverización | T27 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | Done |
+| 2 | CL-005 | Configuración de umbrales meteorológicos por cultivo | T28 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
+| 2 | RP-001 | Generación de informe de servicio fitosanitario | T29 | Consolidar resultados de misión | Integrar los datos obtenidos de una misión completada para generar un resumen de servicio. | 4 | Sebastián Sayago | Done |
+| 2 | RP-002 | Exportación de informes en formato PDF | T30 | Implementar exportación de reportes | Implementar la generación y exportación del informe de fumigación en formato PDF. | 4 | Sebastián Sayago | To-Review |
+| 2 | RP-003 | Visualización de panel con métricas generales | T31 | Implementar dashboard de métricas | Implementar la visualización de métricas generales de hectáreas tratadas y horas de vuelo. | 4 | Sebastián Sayago | Done |
+| 2 | RP-004 | Historial de misiones con filtros avanzados | T32 | Implementar historial de misiones | Implementar la consulta del historial de operaciones y sus filtros por fecha y parcela. | 4 | Sebastián Sayago | Done |
+| 2 | RP-005 | Balance de consumo de productos agroquímicos | T33 | Consolidar consumo de insumos | Implementar el cálculo y presentación del volumen acumulado de productos utilizados por finca. | 4 | Sebastián Sayago | Done |
+| 2 | TU-001 | Configuración de arquitectura limpia base | T34 | Estructurar backend por capas | Configurar la estructura base del backend siguiendo la separación entre Domain, Application, Infrastructure e Interfaces. | 4 | Gabriel Ramírez | To-Review |
+| 2 | TU-005 | Integración de cliente de servicio meteorológico | T35 | Implementar cliente de clima | Implementar el cliente encargado de consumir la API meteorológica externa y normalizar su respuesta. | 4 | Italo Damacen | To-Review |
+| 2 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | T36 | Documentar endpoints | Configurar la documentación de los servicios mediante OpenAPI/Swagger. | 3 | Gabriel Ramírez | To-Review |
+
+
+**Criterio de seguimiento del backlog.** Se conserva `Done` únicamente cuando el equipo puede respaldar la tarea con implementación y evidencia de revisión. Las tareas `To-Review` señaladas arriba requieren validación contra el repositorio correspondiente y/o una demostración funcional antes de presentarlas como terminadas. En el ZIP del frontend revisado no se encontró un Bounded Context independiente de Flight Operations; por ello, las tareas de planificación y telemetría no deben considerarse verificadas solo con ese artefacto. Las tareas del backend también necesitan contrastarse con el repositorio Spring Boot, que no formaba parte de los archivos revisados.
+
+**Evidencia del tablero del Sprint 2:**
+
+- Captura del tablero: ![Tablero Sprint 2](assets/chapter5/sprint_2_board.png)
+- Enlace público al tablero: **[Pegar aquí la URL real del tablero del equipo]**
+
 
 ---
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2 se implementó la primera versión de la Web Application en Angular, organizada por Bounded Context y por capas (domain, application, infrastructure y presentation). Los principales avances son los siguientes:
+Durante el Sprint 2 se desarrolló la primera versión de la Web Application en Angular, organizada por Bounded Context y por capas (domain, application, infrastructure y presentation). La revisión del código fuente compartido permite respaldar los siguientes módulos del frontend. La finalización de cada funcionalidad debe demostrarse con una prueba o captura; la existencia de archivos por sí sola no acredita todos sus criterios de aceptación:
 
 - **Identity & Access Management:** inicio de sesión con nombre de usuario y contraseña, registro con selección de rol y vista de perfil con cierre de sesión.
 - **Field Management:** registro, edición y eliminación de fincas, parcelas, cultivos y zonas de fumigación, con el filtro de parcelas por finca y de zonas de fumigación por parcela, y el detalle de cada parcela.
-- **Weather Integration:** estado del clima en la vista Inicio, con temperatura, humedad, viento, precipitación y alertas por nivel.
-- **Analytics & Reporting:** vista Reportes e Historial con las pestañas Misiones, Uso de insumos e Indicadores, el filtro por rango de fechas, el detalle de cada reporte y su exportación en JSON y CSV.
-- **Inventory & Resource Management:** flota de drones con su estado, batería, boquilla y próximo servicio, y el detalle de cada dron.
+- **Weather Integration:** widget meteorológico integrado en la interfaz, con datos y alertas. Para la entrega, adjuntar una captura de la vista y evidencia de la respuesta del servicio utilizado.
+- **Analytics & Reporting:** vistas de reportes, historial e indicadores, junto con datos de ejemplo para json-server. La exportación documentada en el frontend es de texto/JSON/CSV; no se encontró evidencia suficiente de generación PDF. Por eso, la User Story RP-002 permanece `To-Review` hasta implementar PDF o corregir formalmente el alcance del Product Backlog.
+- **Inventory & Resource Management:** interfaz de flota de drones y registros de mantenimiento, respaldada por componentes y datos de prueba.
 - **Shared:** barra lateral de navegación, selector de idioma (español e inglés), vista Inicio con indicadores y accesos rápidos, y página de ruta no encontrada.
 
-La Web Application consume un Fake RESTful API: json-server en el entorno local y MockAPI en la versión desplegada.
+La Web Application utiliza datos de prueba mediante un Fake REST API: json-server en el entorno local y MockAPI en la configuración desplegada. Esto permite validar la integración del frontend, pero **no equivale a demostrar la primera versión del backend Spring Boot**. Para acreditar el backend se deben añadir su repositorio, endpoints implementados, pruebas y documentación OpenAPI/Swagger reales.
 
 La siguiente tabla presenta los commits de implementación realizados durante el Sprint 2 en los repositorios de la Landing Page y de la Web Application.
 
@@ -3968,7 +3979,6 @@ La siguiente tabla presenta los commits de implementación realizados durante el
 | Opensource-UPC/Agridron-frontend | feature/fieldManagement | 02bbc7a | se modifico el readme | — | 06/10/2026 |
 | Opensource-UPC/Agridron-frontend | feature/fieldManagement | 8ccd013 | cambios en enviroment | — | 06/10/2026 |
 
-![Evidencia de desarrollo del Sprint 2](assets/chapter5/sprint_2_development.png)
 
 ---
 
@@ -3979,6 +3989,11 @@ La ejecución del Sprint 2 se realizó mediante coordinación entre los integran
 Durante el sprint se revisaron progresivamente las funcionalidades relacionadas con usuarios, parcelas, recursos, misiones, condiciones meteorológicas y resultados de las operaciones.
 
 ![Evidencia de ejecucion del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+![Identity & Access Management](assets/chapter5/sprint_2_iam.png)
+![Field Management](assets/chapter5/sprint_2_field_management.png)
+![Weather Integration](assets/chapter5/sprint_2_weather.png)
+![Analytics & Reporting](assets/chapter5/sprint_2_analytics_reporting.png)
+![Inventory & Resource Management](assets/chapter5/sprint_2_inventory.png)
 
 **Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
 
@@ -4031,7 +4046,7 @@ Si el `id` no existe, json-server responde `404 Not Found`. Las respuestas de la
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2 se desplegó la primera versión de la Web Application en Firebase Hosting. El repositorio del frontend incluye la configuración del despliegue: `firebase.json` publica la carpeta `dist/Agridron-frontend/browser` y `.firebaserc` apunta al proyecto `agridronwebapp`. Los pasos realizados fueron los siguientes:
+Durante el Sprint 2 se configuró el despliegue de la Web Application Angular en Firebase Hosting. En el repositorio del frontend, `firebase.json` publica `dist/Agridron-frontend/browser` y `.firebaserc` apunta al proyecto `agridronwebapp`. Este despliegue corresponde al **frontend**; no debe presentarse como despliegue del backend Spring Boot. Los pasos de publicación del frontend son:
 
 1. Instalar las dependencias del proyecto con `npm install`.
 2. Generar la versión de producción con `npm run build` (`ng build`). Esta versión usa `environment.ts`, que apunta al Fake API publicado en MockAPI. En el entorno de desarrollo Angular lo reemplaza por `environment.development.ts`, que apunta al json-server local.
@@ -4039,7 +4054,15 @@ Durante el Sprint 2 se desplegó la primera versión de la Web Application en Fi
 4. Publicar con `firebase deploy --only hosting`, que sube el contenido de `dist/Agridron-frontend/browser` al proyecto `agridronwebapp`.
 5. Verificar la versión publicada en [https://agridronwebapp.web.app](https://agridronwebapp.web.app).
 
-![Evidencia de despliegue del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+![Evidencia de despliegue del frontend en Firebase](assets/chapter5/deployment_sprint_2.png)
+
+**Evidencia de despliegue del backend (completar según el estado real):**
+
+- Plataforma de despliegue: **[indicar proveedor o “ejecución local”]**
+- URL base de la API: **[indicar URL real o “no desplegado”]**
+- Variables de entorno y conexión a base de datos: **[documentar nombres de variables, sin incluir contraseñas, tokens ni secretos]**
+- ![Backend Spring Boot iniciado y listo](assets/chapter5/sprint_2_backend_deployment.png)
+- ![Configuración de despliegue del backend](assets/chapter5/sprint_2_backend_deployment_config.png)
 
 
 
