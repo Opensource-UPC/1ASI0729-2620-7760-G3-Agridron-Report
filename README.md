@@ -2,21 +2,23 @@
 <img src="assets/logos/upc_logo.png" alt="UPC Logo" width="150"/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
+### Facultad de Ingeniería
 ### Carrera de Ingeniería de Software
+### Ciclo 2026-20
 <br>
 
-**Curso: Desarrollo de Aplicaciones Open Source**
+**Curso: 1ASI0729 - Desarrollo de Aplicaciones Open Source**
 
 **NRC: 7760**
 
-**Docente: FLORES MOROCCO; Juan Antonio**
+**Profesor: Flores Moroco, Juan Antonio**
 <br>
 
-### **Informe del Trabajo Final**
+### **Informe de Trabajo Final**
 
 **Nombre de la Startup:** AgriDron Solutions
 
-**Nombre del producto:** AgriDron
+**Nombre del Producto:** AgriDron
 <br>
 
 ### **Integrantes**
@@ -25,8 +27,12 @@
 
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
     <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">U202421392</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202421392</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241G306</td>
@@ -34,91 +40,78 @@
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramírez Gutiérrez, Gabriel</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastian Leonardo</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202222473</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Vasquez Roncal, Alexander Felipe</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Vásquez Roncal, Alexander Felipe</td>
     </tr>
 </table>
 <br>
 <div align="center">
-<b><i>Septiembre, 2026</i></b>
+<b><i>Octubre, 2026</i></b>
 </div>
 <br>
 
----
-
-## Registro de Versiones
-
-| Versión | Fecha      | Autor              | Descripción                            |
-|:--------|:-----------|:-------------------|:---------------------------------------|
-| 0.1.0   | 05/09/2026 | Sebastián Sayago   | Creación inicial del documento.        |
-| 0.2.0   | 06/09/2026 | Sebastián Sayago   | Implementación inicial del capitulo 1  |
-| 0.3.0   | 09/09/2026 | Nicho Huillcañahui | Implementación inicial del capitulo 2  |
-| 0.3.0   | 07/09/2026 | Nicho Huillcañahui | Implementación del capitulo 2          |
-| 0.6.0   | 07/09/2026 | Nicho Huillcañahui | Implementación del capitulo 2          |
-| 0.5.0   | 08/09/2026 | Sebastián Sayago   | Implementación del capitulo 4          |
-| 0.7.0   | 08/09/2026 | Alexander Vasquez  | Implementación del capitulo 3          |
-| 0.8.0   | 08/09/2026 | Sebastián Sayago   | Implementación del capitulo 4          |
-| 0.4.0   | 12/09/2026 | Italo Damacen      | Implementación completa del capitulo 1 |
-| 0.6.0   | 12/09/2026 | Gabriel Ramirez    | Implementacion del capitulo 5          |
-| 0.4.0   | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2  |
-| 0.5.0   | 13/09/2026 | Nicho Huillcañahui | Segunda implementación del capitulo 2  |
-| 0.6.5   | 14/09/2026 | Gabriel Ramirez    | Segunda implementacion del capitulo 2  |
-| 0.7.0   | 15/09/2026 | Agridron    | Correccion de errores  |
-| 0.8.0   | 16/09/2026 | Agridron    | Pre-release 1.0 del documento  |
-| 1.0.0   | 17/09/2026 | Agridron           | Evidencia completa de entrega AV1      |
-| 1.1.0   | 6/10/2026 | Agridron           | Evidencia completa de entrega TB1      |
-
----
-Project Report Collaboration Insights
-URL del repositorio (report): https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report
-
-URL del repositorio (landing-page): https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3
-
-URL del repositorio (front-end): https://github.com/Opensource-UPC/Agridron-frontend
-
-
-Primera entrega (AV1)
-
-Las actividades se enfocaron en la construcción estratégica y los fundamentos del proyecto dentro del Capítulo I. El equipo trabajó en la definición detallada del perfil de la startup y la presentación formal de sus integrantes, para luego abordar el planteamiento de la solución aplicando la metodología Lean UX.
-
-Posteriormente, en el Capítulo II se llevaron a cabo las dinámicas de elicitación y análisis de requerimientos. El equipo ejecutó un análisis competitivo exhaustivo, diseñó y aplicó guías de entrevista estructuradas a usuarios del segmento objetivo, y procesó los hallazgos mediante técnicas de Needfinding. Se consolidaron los User Personas, las matrices de tareas, los User Journey Maps y los Empathy Maps. Adicionalmente, se facilitaron sesiones colaborativas de Big Picture EventStorming para mapear la complejidad del dominio de negocio y consensuar el Ubiquitous Language que rige la arquitectura del sistema.
-
-En el Capítulo III, se estructuraron las historias de usuario asociadas a Impact Mapping y se organizó el Product Backlog priorizado. A la par, el Capítulo IV se enfocó en diseño de producto y arquitectura de software. En esta etapa se establecieron las guías de estilo para aplicaciones web, la arquitectura de información detallada (sistemas de organización, etiquetado, búsqueda, navegación y metadatos SEO), así como el diseño de la interfaz y experiencia de usuario a nivel de Wireframes, Mockups, Wireflows, User Flows y prototipos interactivos. Asimismo, aplicando Domain-Driven Design (DDD), se ejecutó el Design-Level EventStorming y se construyeron los diagramas C4 (Context, Container y Component), acompañados de los diagramas de clases orientados a objetos y el modelado completo de la base de datos.
-
-Por último, el Capítulo V concentró la configuración del entorno de gestión del código fuente, donde se definieron las convenciones de desarrollo, los estándares de estilo de código, la estrategia de ramificación (GitFlow) y las pautas para el despliegue de las aplicaciones y servicios, asentando las bases técnicas para el ciclo de vida del desarrollo de software.
-
-
-<p align="center">
-<img src="assets/chapter4/Web_Applications_User_Flow_Diagrams.png" alt="Contributors-AV1" width="500"/>
-  <br/><i>Contribuciones del avance 1 (AV1)</i>
-</p>
-<br>
-
 <div style="page-break-after: always;"></div>
 
-Segunda entrega (TB1)
+---
 
-Se realizaron las respectivas correcciones al documento en relación a las revisiones dadas en la primera entrega. Se empezó con la actualización del landing page. Se actualizó el capitulo 5 para definir las bases de trabajo y las actividades respectivas en relación al desarrollo del Frontend, además de presentar la evidencia respectiva del despliege de este
+## Registro de Versiones del Informe
 
+| Versión | Fecha | Autor | Descripción de modificación |
+|:--|:--|:--|:--|
+| 0.1.0 | 05/09/2026 | Sayago Vidal, Sebastián Leonardo | Creación inicial del documento y de la plantilla del informe. |
+| 0.2.0 | 06/09/2026 | Sayago Vidal, Sebastián Leonardo | Estructura del informe, carpeta de assets y avance inicial del Capítulo I. |
+| 0.3.0 | 07/09/2026 | Damacen Galindo, Italo Gianfranco | Startup Profile, Solution Profile, Segmentos objetivo y Lean UX Canvas (1.1 a 1.3). |
+| 0.4.0 | 09/09/2026 | Vásquez Roncal, Alexander Felipe | Avance inicial de los Capítulos III y IV. |
+| 0.5.0 | 10/09/2026 | Sayago Vidal, Sebastián Leonardo | Software Configuration Management (5.1). |
+| 0.6.0 | 11/09/2026 | Nicho Huillcañahui, Edwin Noe | Registro y análisis de entrevistas (2.2.2 y 2.2.3). |
+| 0.7.0 | 13/09/2026 | Vásquez Roncal, Alexander Felipe | User Journey Mapping y Mock-ups de las aplicaciones. |
+| 0.8.0 | 13/09/2026 | Sayago Vidal, Sebastián Leonardo | Database Design (4.8). |
+| 0.9.0 | 14/09/2026 | Ramírez Gutiérrez, Gabriel | Avance del Sprint 1 y Landing Page (5.2.1). |
+| 0.10.0 | 15/09/2026 | Damacen Galindo, Italo Gianfranco | Student Outcome, perfil de integrante y registro de entrevistas. |
+| 0.11.0 | 16/09/2026 | Nicho Huillcañahui, Edwin Noe | Artefactos UX, Ubiquitous Language, User Stories, Technical Stories e Impact Mapping. |
+| 0.12.0 | 16/09/2026 | Vásquez Roncal, Alexander Felipe | Nuevas User Stories, enlaces de Miro y LucidChart y descripción del User Flow. |
+| 0.13.0 | 17/09/2026 | Vásquez Roncal, Alexander Felipe | Reestructuración del Capítulo IV, enlaces de Figma y Trello y evidencia del Sprint Review. |
+| 1.0.0 | 17/09/2026 | Sayago Vidal, Sebastián Leonardo | Domain flow, User Flow Diagram y tabla de contenido. Versión de entrega AV1. |
+| 1.1.0 | 30/09/2026 | Vásquez Roncal, Alexander Felipe | Corrección y ampliación de User Stories según feedback de AV1. |
+| 1.2.0 | 30/09/2026 | Sayago Vidal, Sebastián Leonardo | Actualización de Class Diagrams y Database Diagrams. |
+| 1.2.1 | 05/10/2026 | Sayago Vidal, Sebastián Leonardo | Corrección del formato del Sprint Backlog 1. |
+| 1.3.0 | 06/10/2026 | Damacen Galindo, Italo Gianfranco | Ampliación del Análisis competitivo (2.1.1) y de Herramientas del proyecto (5.1.1.2). |
+| 1.4.0 | 06/10/2026 | Sayago Vidal, Sebastián Leonardo | Sprint 2 (5.2.2). |
+| 2.0.0 | 06/10/2026 | Nicho Huillcañahui, Edwin Noe | Project Report Collaboration Insights, videos de exposición y Student Outcome. Versión de entrega TB1. |
+| 2.1.0 | 17/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección de la carátula, el Registro de Versiones, Project Report Collaboration Insights, Student Outcome, Startup Profile, Solution Profile y Segmentos objetivo según el enunciado, y unificación del segundo segmento como Operadores Técnicos de Drones. |
+| 2.2.0 | 18/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo II según el enunciado (Competidores, Entrevistas, Needfinding, Big Picture Event Storming y Ubiquitous Language), sustento estadístico de los Segmentos objetivo con citas enlazadas a sus fuentes, saltos de página al inicio de los Capítulos I y II y actualización de la tabla de contenido de ambos capítulos. |
+| 2.3.0 | 20/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo III según el enunciado: introducciones, User Stories con varios criterios de aceptación en formato Gherkin, Technical Stories para los recursos del RESTful API, explicación del Impact Mapping y Product Backlog rehecho con los IDs del 3.1, orden por valor de negocio y enlace de Trello. |
 
-<p align="center">
-<img src="assets/Web_Applications_User_Flow_TB1.png" alt="Contributors-TB1" width="500"/>
-  <br/><i>Contribuciones de la entrega parcial 1 (TB1)</i>
-</p>
-<br>
+## Project Report Collaboration Insights
+
+El informe se elabora de forma colaborativa en el repositorio [1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report), que pertenece a la organización Opensource-UPC en GitHub. A continuación se describe, para cada entrega, cómo se desarrollaron las actividades de elaboración del informe, junto con los analíticos de colaboración del repositorio.
+
+### Entrega AV1
+
+El informe se elaboró entre el 05/09/2026 y el 17/09/2026. Sayago Vidal, Sebastián Leonardo creó la plantilla base del README y la estructura de carpetas de assets. A partir de ella, cada integrante asumió capítulos específicos. Damacen Galindo, Italo Gianfranco elaboró el Capítulo I. Nicho Huillcañahui, Edwin Noe desarrolló el Capítulo II, con las entrevistas, el Needfinding y el Ubiquitous Language. Vásquez Roncal, Alexander Felipe trabajó los Capítulos III y IV, incluyendo las User Stories, el Impact Mapping y los Mock-ups. Sayago Vidal, Sebastián Leonardo documentó la arquitectura, el diseño de base de datos y el Software Configuration Management. Por último, Ramírez Gutiérrez, Gabriel elaboró la sección del Sprint 1 y la Landing Page.
+
+Siguiendo GitFlow, los aportes se desarrollaron en ramas feature por capítulo o sección, como feature/capitulo-3, feature/chapter4, feature/database-design y feature/software-configuration-management. Estas ramas se integraron en develop mediante pull requests y se publicaron en main a través de la rama release-1.0, como la versión 1.0.0 del informe.
+
+![Contributors del repositorio del informe en AV1](assets/collaboration/report_contributors_av1.png)
+
+*Figura: Analíticos de contribución del repositorio del informe al cierre de AV1 (Insights > Contributors, rama main). Se observa la participación de los cinco integrantes del equipo, con la mayor actividad concentrada en la semana previa a la entrega.*
+
+### Entrega TB1
+
+Entre el 30/09/2026 y el 06/10/2026, el equipo incorporó las correcciones derivadas de la retroalimentación de AV1. Vásquez Roncal, Alexander Felipe corrigió y amplió las User Stories. Sayago Vidal, Sebastián Leonardo actualizó los Class Diagrams y Database Diagrams, corrigió el formato del Sprint Backlog 1 y documentó el Sprint 2. Damacen Galindo, Italo Gianfranco amplió el Análisis competitivo y la tabla de herramientas del proyecto. Nicho Huillcañahui, Edwin Noe actualizó esta sección, los enlaces de los videos de exposición y el Student Outcome. El trabajo se integró en develop mediante pull requests y luego se publicó en main como la versión 2.0.0 del informe.
+
+![Contributors del repositorio del informe en TB1](assets/collaboration/report_contributors_tb1.png)
+
+*Figura: Analíticos de contribución del repositorio del informe durante TB1 (Insights > Contributors, rama main). Se evidencia la participación continua de los cinco integrantes en la elaboración del informe.*
 
 <div style="page-break-after: always;"></div>
-
-
-
----
 
 # Contenido
 
@@ -126,7 +119,7 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
 
 - [Contenido](#contenido)
   - [Tabla de Contenido](#tabla-de-contenido)
-  - [Student Outcome](#student-outcome)
+- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -136,20 +129,15 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions-1)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
     - [1.3.1. Pequeños y Medianos Agricultores (PyMAs)](#131-pequeños-y-medianos-agricultores-pymas)
-    - [1.3.2. Personal Técnico (Ingenieros Agrónomos y Técnicos de Campo)](#132-personal-técnico-ingenieros-agrónomos-y-técnicos-de-campo)
+    - [1.3.2. Operadores Técnicos de Drones](#132-operadores-técnicos-de-drones)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-      - [1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)](#1-estrategia-de-enfoque-en-costos-y-accesibilidad-frente-a-dronedeploy-y-agrivi)
-      - [2. Estrategia de Diferenciación por Interoperabilidad Abierta](#2-estrategia-de-diferenciación-por-interoperabilidad-abierta)
-      - [3. Estrategia de Adopción Digital y Curva de Aprendizaje Acelerada (Usabilidad)](#3-estrategia-de-adopción-digital-y-curva-de-aprendizaje-acelerada-usabilidad)
-      - [4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas](#4-estrategia-de-penetración-de-canal-y-trabajo-con-comunidades-agrícolas)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -159,7 +147,7 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
@@ -264,12 +252,16 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
   - [Anexo B: Videos de Exposiciones](#anexo-b-videos-de-exposiciones)
   - [Anexo C: Otros](#anexo-c-otros)
 
----
+<div style="page-break-after: always;"></div>
 
-## Student Outcome
+# Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:<br>
+ABET – EAC - Student Outcome 3
 
-> En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del Student Outcome.
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 <table>
   <thead>
@@ -281,524 +273,375 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
   </thead>
   <tbody>
     <tr>
-      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
+      <td><b>Comunica oralmente con efectividad a diferentes rangos de audiencia.</b></td>
       <td>
-        <p><b>Ramirez Gutierrez, Gabriel</b><br><em><b>AV1</b></em><br>Presenté la propuesta de valor y el funcionamiento del landing page de AgriDron Solutions, explicando de manera clara la organización de sus secciones, el uso de los recursos visuales y la experiencia planteada para los usuarios.</p>
-          <p><em><b>TB1</b></em><br>Expuse el diseño e implementación del Bounded Context 1 (Identity & Access Management), explicando de forma clara cómo la plataforma gestiona el registro de usuarios, la autenticación y la asignación de roles y permisos.</p>
-        <p><b>Nicho Huillcañahui Edwin Noe</b><br><em><b>AV1</b></em><br>Participé en el video de exposición explicando ante cámara los hallazgos del Capítulo II. Prioricé un lenguaje sencillo al presentar los perfiles de usuario (User Personas) y sus necesidades a una audiencia no técnica, apoyándome en las capturas de UXPressia para ilustrar el discurso en lugar de leer texto. Durante las entrevistas de Needfinding, apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar, y en la sustentación grupal recibí y respondí preguntas del docente sobre el criterio usado para identificar patrones entre segmentos.</p>
-          <p><em><b>TB1</b></em><br>Expuse de manera clara y estructurada el diseño e implementación del Bounded Context 6 (Inventory & Resource Management). Identifique las entidades necesarias a modelar y de acuerdo a la logica de negoció (control de inventario de drones, agroquímicos, boquillas y mantenimiento). Implemente la arquitectura en 4 capas (Domain, Application, Infrastructure e Interfaces/Presentation),según lo trabajado en el curso ,y por ultimo integre de los endpoints relacionados al BC#6 </p>
-        <p><b></b><br><em><b></b></em><br></p>
-        <p><b>Sayago Vidal, Sebastián Leonardo</b><br><em><b>AV1</b></em><br>Participé en la presentación de las decisiones técnicas y de desarrollo relacionadas con AgriDron Solutions, explicando los aspectos de arquitectura de software, diseño y configuración del entorno de desarrollo mediante diagramas y recursos audiovisuales.</p>
-        <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Implementación del capítulo 3 y 4, además de creación de mockups de landing page y Web Application.</p>
-          <p><em><b>TB1</b></em><br>Implementación del Bounded Contex 2 FieldManamegent y revision del readme</p>
-        <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando de manera clara y ordenada el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada. Durante la presentación, expliqué el proceso Lean UX y las decisiones tomadas para orientar la propuesta de solución, utilizando diapositivas y recursos visuales para facilitar la comprensión de los contenidos según el objetivo de cada sección.</p>
-          <p><em><b>TB1</b></em><br>Expuse el diseño e implementación del Bounded Context 4 (Weather Integration), explicando de forma ordenada cómo el sistema consulta las condiciones meteorológicas de una parcela mediante la API externa, valida la velocidad del viento y aplica umbrales por cultivo para identificar cuándo las condiciones son adecuadas para fumigar.</p>
+        <p><b>Damacen Galindo, Italo Gianfranco</b></p>
+        <p><b><i>AV1</i></b><br>Expuse el Capítulo I, presentando el perfil de la startup, la problemática y el proceso Lean UX con un lenguaje sencillo y apoyado en diapositivas con esquemas visuales. Al cierre de mi parte respondí las preguntas del docente para confirmar que la relación entre la problemática y la propuesta de valor se había comprendido.</p>
+        <p><b><i>TB1</i></b><br>Expuse la primera parte de la presentación, que abarcó la carátula, la Landing Page y la arquitectura de la solución, y luego el Bounded Context Weather Integration. Adapté la explicación técnica al público usando los diagramas de diseño como guía y verifiqué con preguntas que se entendiera cómo la plataforma consulta el servicio meteorológico externo.</p>
+        <p><b>Nicho Huillcañahui, Edwin Noe</b></p>
+        <p><b><i>AV1</i></b><br>Participé en el video de exposición explicando los hallazgos del Capítulo II. Presenté los User Personas y sus necesidades con un lenguaje sencillo para una audiencia no técnica, apoyándome en las capturas de UXPressia en lugar de leer texto. En las entrevistas de Needfinding apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar.</p>
+        <p><b><i>TB1</i></b><br>Expuse el diseño del Bounded Context Inventory & Resource Management, explicando sus entidades (drones, agroquímicos, boquillas y mantenimiento), su organización en cuatro capas y sus endpoints. Usé los diagramas como apoyo visual y respondí las preguntas del docente para validar que la lógica de negocio del contexto había quedado clara.</p>
+        <p><b>Ramírez Gutiérrez, Gabriel</b></p>
+        <p><b><i>AV1</i></b><br>Presenté la propuesta de valor y el funcionamiento de la Landing Page, explicando la organización de sus secciones, los recursos visuales y la experiencia planteada para cada segmento de usuarios.</p>
+        <p><b><i>TB1</i></b><br>Presenté la versión actualizada de la Landing Page mediante una demostración en vivo, mostrando cómo los call-to-action dirigen a cada segmento hacia la Web Application. Antes de la exposición ensayé la demostración con el equipo e incorporé sus observaciones para que el recorrido fuera claro para un público no técnico.</p>
+        <p><b>Sayago Vidal, Sebastián Leonardo</b></p>
+        <p><b><i>AV1</i></b><br>Presenté las decisiones técnicas de AgriDron Solutions, explicando la arquitectura de software, el diseño y la configuración del entorno de desarrollo mediante diagramas, y ajusté el nivel de detalle técnico según las preguntas recibidas.</p>
+        <p><b><i>TB1</i></b><br>Expliqué el Bounded Context Analytics & Reporting, comunicando sus responsabilidades, operaciones, eventos y su relación con la arquitectura general. Utilicé los diagramas de diseño para facilitar la comprensión y confirmé con las preguntas del docente que el flujo de reportes había sido entendido.</p>
+        <p><b>Vásquez Roncal, Alexander Felipe</b></p>
+        <p><b><i>AV1</i></b><br>Expuse los Capítulos III y IV, explicando las User Stories, el Impact Mapping y los Mock-ups de la Landing Page y de la Web Application, con las pantallas como apoyo visual para que la audiencia relacionara cada requisito con su diseño.</p>
+        <p><b><i>TB1</i></b><br>Expuse el Bounded Context Field Management, explicando cómo se registran fincas y parcelas, y escuché las observaciones del equipo sobre la integración de ramas antes de proponer una solución consensuada.</p>
       </td>
-      <td><p>Como equipo, durante el AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones correspondientes a su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p></td>
+      <td>
+        <p><b><i>AV1</i></b><br>Como equipo, durante AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones de su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p>
+        <p><b><i>TB1</i></b><br>En esta entrega cada integrante expuso el Bounded Context a su cargo con apoyo de diagramas, adaptando el lenguaje técnico para que la arquitectura fuera comprensible para el docente y el resto del equipo. A diferencia de AV1, el equipo ensayó la exposición en conjunto y usó las preguntas recibidas para comprobar que cada mensaje había llegado de forma clara, lo que fortaleció la coherencia de la presentación.</p>
+      </td>
     </tr>
     <tr>
-      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
+      <td><b>Comunica por escrito con efectividad a diferentes rangos de audiencia.</b></td>
       <td>
-        <p><b>Ramirez Gutierrez, Gabriel</b><br><em><b>AV1</b></em><br>Diseñé y desarrollé integralmente el landing page de AgriDron Solutions, definiendo su estructura, contenido visual, distribución de secciones y propuesta de navegación para comunicar el valor de la solución de forma clara y atractiva.</p>
-          <p><em><b>TB1</b></em><br>Documenté los endpoints de registro, autenticación y gestión de roles del Bounded Context 1 (Identity & Access Management) mediante OpenAPI/Swagger, y estructuré el backend por capas para facilitar la integración con el resto del equipo.</p>
-        <p><b>Nicho Huillcañahui Edwin Noe</b><br><em><b>AV1</b></em><br>Redacté en el Informe de Proyecto (Markdown) las secciones de Análisis Competitivo, Diseño y Registro de Entrevistas, y Needfinding, transcribiendo de forma descriptiva las respuestas de los entrevistados y sustentando con porcentajes las características comunes de cada segmento. Cuidé la ortografía y gramática, seguí la estructura de tablas exigida (Competitive Analysis Landscape, User Task Matrix) y usé el idioma inglés para el Ubiquitous Language según lo indicado en el enunciado.</p>
-           <p><em><b>TB1</b></em><br>Redacté la documentación técnica del Bounded Context 6 (Inventory & Resource Management), especificando las entidades Drone, AgrochemicalSupply, Nozzle y MaintenanceRecord. Implementé y documenté las 4 capas de software (Domain, Application, Infrastructure y Presentation) siguiendo principios DDD, estándares en inglés facilitar la integración con el equipo</p>
-        <p><b>Sayago Vidal, Sebastián Leonardo</b><br><em><b>AV1</b></em><br>Desarrollé y estructuré documentación técnica relacionada con la arquitectura, diseño y Software Configuration Management (SCM) de AgriDron Solutions, empleando un lenguaje técnico, preciso y organizado para comunicar las decisiones y características de la solución.</p>
-        <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Me encargué de crear la organización en GitHub para poder trabajar de manera colaborativa.</p>
-          <p><em><b>TB1</b></em><br>Coordinacion del proyecto para unir las ramas en una sola y revisar que el web app funcione</p>
-        <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Elaboré y estructuré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes, la problemática identificada y los componentes del proceso Lean UX. Organicé la información de manera clara y sintetizada, empleando un lenguaje técnico acorde con el contexto del proyecto para comunicar de forma ordenada el propósito, contexto, problemática y propuesta de valor de la solución.</p>
-          <p><em><b>TB1</b></em><br>Redacté la documentación técnica del Bounded Context 4 (Weather Integration), describiendo el cliente de la API meteorológica, la validación de la velocidad del viento y los umbrales climáticos por cultivo, de forma clara y consistente con el resto de la documentación del equipo.</p>
+        <p><b>Damacen Galindo, Italo Gianfranco</b></p>
+        <p><b><i>AV1</i></b><br>Elaboré el Capítulo I del informe, desarrollando el Startup Profile, el Solution Profile, los antecedentes, la problemática y los componentes del proceso Lean UX. Organicé la información de forma sintetizada y revisé la redacción antes de cada commit para comunicar con claridad el propósito y la propuesta de valor de la solución.</p>
+        <p><b><i>TB1</i></b><br>Amplié el Análisis competitivo (2.1.1) y la tabla de Herramientas del proyecto (5.1.1.2), siguiendo la estructura de tablas exigida por el enunciado. Verifiqué que la información fuera consistente con el resto del informe y corregí ortografía y formato antes de integrarla.</p>
+        <p><b>Nicho Huillcañahui, Edwin Noe</b></p>
+        <p><b><i>AV1</i></b><br>Redacté las secciones de Análisis competitivo, diseño y registro de entrevistas y Needfinding, describiendo las respuestas de los entrevistados y sustentando con porcentajes las características de cada segmento. Seguí la estructura de tablas exigida y revisé ortografía y gramática antes de publicar.</p>
+        <p><b><i>TB1</i></b><br>Redacté la documentación técnica del Bounded Context Inventory & Resource Management, especificando sus entidades y sus cuatro capas siguiendo los principios de DDD. Mantuve la nomenclatura en inglés para facilitar la integración con el código del equipo.</p>
+        <p><b>Ramírez Gutiérrez, Gabriel</b></p>
+        <p><b><i>AV1</i></b><br>Diseñé y desarrollé la Landing Page, definiendo su estructura, su contenido visual y la distribución de sus secciones para comunicar el valor de la solución de forma clara y atractiva.</p>
+        <p><b><i>TB1</i></b><br>Redacté los textos actualizados de la Landing Page (propuesta de valor, planes y llamados a la acción) con un lenguaje breve y orientado a cada segmento. Antes de publicarlos verifiqué su ortografía y su coherencia con la información del informe.</p>
+        <p><b>Sayago Vidal, Sebastián Leonardo</b></p>
+        <p><b><i>AV1</i></b><br>Desarrollé la documentación técnica de arquitectura, diseño y Software Configuration Management, con un lenguaje técnico, preciso y organizado para comunicar las decisiones de la solución.</p>
+        <p><b><i>TB1</i></b><br>Documenté el Bounded Context Analytics & Reporting, incluyendo responsabilidades, conceptos, operaciones, eventos y componentes, manteniendo coherencia con los demás artefactos de arquitectura. Además, organicé la documentación del Sprint 2 para esta entrega.</p>
+        <p><b>Vásquez Roncal, Alexander Felipe</b></p>
+        <p><b><i>AV1</i></b><br>Creé la organización en GitHub para el trabajo colaborativo del equipo y redacté la documentación de los Capítulos III y IV, organizando las User Stories y la descripción de los Mock-ups.</p>
+        <p><b><i>TB1</i></b><br>Coordiné la integración de las ramas del proyecto y revisé el README completo antes de la entrega, verificando que la estructura y los enlaces fueran correctos.</p>
       </td>
-      <td><p>Como equipo, durante el AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar tanto la propuesta de solución como aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos durante este avance.</p></td>
+      <td>
+        <p><b><i>AV1</i></b><br>Como equipo, durante AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar la propuesta de solución, así como los aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos.</p>
+        <p><b><i>TB1</i></b><br>En esta entrega el equipo corrigió el informe a partir de la retroalimentación de AV1 y documentó los Bounded Contexts con nomenclatura en inglés, manteniendo la coherencia de términos entre el informe, los diagramas y el código. Cada sección se revisó en ortografía, formato y enlaces antes de integrarse mediante pull requests, lo que permitió validar la calidad del informe antes de su presentación.</p>
+      </td>
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
-<p align="justify">
+### 1.1.1. Descripción de la Startup
 
-<strong>AgriDron Solutions</strong> es una startup tecnológica orientada a mejorar la gestión de cultivos mediante el uso de drones para fumigación y monitoreo. La plataforma busca facilitar estas tareas y hacer que las operaciones sean más rápidas y fáciles de controlar.
+**AgriDron Solutions** es una startup tecnológica que busca mejorar la protección de cultivos mediante el uso de drones de fumigación y una plataforma web de monitoreo. Su propósito es que agricultores y personal técnico puedan planificar, ejecutar y supervisar sus operaciones de fumigación desde una sola aplicación, de forma más rápida y fácil de controlar.
 
-</p>
-
-<p align="justify">
-
-AgriDron Solutions ofrece una plataforma que permite planificar misiones de fumigación, monitorear el trabajo en tiempo real y consultar reportes de las operaciones realizadas. El objetivo es que agricultores y personal técnico puedan controlar estas tareas desde una sola aplicación.
-
-</p>
+La plataforma permite registrar fincas y parcelas, seleccionar la zona de fumigación sobre un mapa, crear misiones, consultar las condiciones meteorológicas, monitorear los drones durante la operación y revisar el historial y los reportes de las operaciones realizadas.
 
 **Misión:** Mejorar la gestión de cultivos mediante drones y una plataforma accesible que permita reducir costos y tiempo en las operaciones de fumigación.
 
 **Visión:** Convertirnos en una solución tecnológica de confianza para el sector agrícola, ayudando a modernizar la forma en que se gestionan y supervisan las operaciones de fumigación.
 
-Valores:
+**Valores:**
 
-<ul>
-  <li><strong>Innovación:</strong> buscamos utilizar nuevas tecnologías para mejorar las operaciones agrícolas.</li>
-  <li><strong>Eficiencia:</strong> buscamos reducir el tiempo, los costos y el uso de recursos.</li>
-  <li><strong>Confiabilidad:</strong> buscamos que las operaciones y los datos mostrados en la plataforma sean claros y precisos.</li>
-  <li><strong>Compromiso:</strong> buscamos ofrecer una solución útil y accesible para agricultores y personal técnico.</li>
-</ul>
-
-### 1.1.1. Descripción de la Startup
-
-<p align="justify">
-
-<strong>AgriDron Solutions</strong> es una startup que busca mejorar la protección de cultivos mediante drones y una plataforma de monitoreo. El sistema permitirá gestionar las operaciones de fumigación desde una sola plataforma.
-
-</p>
-
-<p align="justify">
-
-La plataforma permitirá registrar fincas y parcelas, seleccionar áreas de fumigación mediante un mapa, crear misiones, consultar el clima, monitorear los drones y revisar el historial de las operaciones.
-
-</p>
-
-Pilares de valor:
-
-<ul>
-  <li><strong>Innovación tecnológica:</strong> uso de drones aplicados a la agricultura.</li>
-  <li><strong>Eficiencia operativa:</strong> reducción de costos y tiempos frente a métodos tradicionales de fumigación.</li>
-  <li><strong>Confiabilidad de datos:</strong> información clara y disponible durante y después de las operaciones.</li>
-  <li><strong>Compromiso social y ambiental:</strong> reducción de riesgos para los trabajadores y del impacto de la fumigación.</li>
-</ul>
+- **Innovación:** utilizamos nuevas tecnologías, como los drones aplicados a la agricultura, para mejorar las operaciones agrícolas.
+- **Eficiencia:** buscamos reducir el tiempo, los costos y el uso de recursos frente a los métodos tradicionales de fumigación.
+- **Confiabilidad:** buscamos que las operaciones y los datos de la plataforma sean claros, precisos y estén disponibles durante y después de cada operación.
+- **Compromiso:** ofrecemos una solución útil y accesible para agricultores y personal técnico, que además reduce los riesgos para los trabajadores y el impacto ambiental de la fumigación.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> Para cada integrante, colocar foto, nombre, código, carrera, descripción y aporte/rol dentro del proyecto.
-
 <table>
   <tr>
-    <td rowspan="4" align="center">
-      <img width="650"  alt="image" src="https://github.com/user-attachments/assets/4c1d03a8-ec5b-484f-9621-4cf59cc49cca" />
+    <td rowspan="4" align="center" width="200">
+      <img src="https://github.com/user-attachments/assets/4c1d03a8-ec5b-484f-9621-4cf59cc49cca" alt="Foto de Italo Damacen" width="180" />
     </td>
   </tr>
   <tr>
     <td><b>Nombre:</b> Damacen Galindo, Italo Gianfranco</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202421392 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
+    <td><b>Código:</b> U202421392 | <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
-      <b>Descripción:</b><br/>
-      Soy Italo Damacen, estudiante de Ingeniería de Software. Me considero una persona responsable, organizada y comprometida con el trabajo. Cuento con conocimientos en C++, HTML y CSS, además de conocimientos básicos de JavaScript y Java. Me interesa el desarrollo de software y la organización de proyectos.
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      Participé principalmente en la elaboración del Capítulo I de AgriDron Solutions, incluyendo el Startup Profile, Solution Profile, antecedentes, problemática y Lean UX. También apoyé en la organización de las entrevistas, separando la información de cada entrevistado, colocando timestamps y ordenando las evidencias para facilitar su documentación y presentación.
+      <b>Descripción:</b><br>
+      Soy estudiante de Ingeniería de Software. Cuento con conocimientos en C++, HTML y CSS, además de conocimientos básicos de JavaScript y Java. Me considero una persona responsable, organizada y comprometida con el trabajo, con interés en el desarrollo de software y la organización de proyectos.
+      <br><br>
+      <b>Aporte y función dentro del equipo:</b><br>
+      Participé principalmente en la elaboración del Capítulo I de AgriDron Solutions, incluyendo el Startup Profile, el Solution Profile, los antecedentes, la problemática y el proceso Lean UX. También apoyé en la organización de las entrevistas, separando la información de cada entrevistado, colocando los timestamps y ordenando las evidencias para facilitar su documentación y presentación.
     </td>
   </tr>
   <tr>
-    <td rowspan="4" align="center">
-     <img width="650"  alt="Foto EdwinNicho" src="https://github.com/user-attachments/assets/3d3dea48-8f1b-4aa7-905d-9d25ebf87779" />
+    <td rowspan="4" align="center" width="200">
+      <img src="https://github.com/user-attachments/assets/3d3dea48-8f1b-4aa7-905d-9d25ebf87779" alt="Foto de Edwin Nicho" width="180" />
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> Nicho Huillcánahui, Edwin Noe</td>
+    <td><b>Nombre:</b> Nicho Huillcañahui, Edwin Noe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U20241G306 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
+    <td><b>Código:</b> U20241G306 | <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
-      <b>Descripción:</b><br/>
-     Soy Edwin, estudiante de 5to ciclo de Ingeniería de Software. Cuento con conocimientos en C++, además de nociones de Python, HTML y CSS. Durante el desarrollo de este proyecto aprendí a manejar GitHub Web y UXPressia, herramientas que me permitieron colaborar en el control de versiones del equipo y en la elaboración de los artefactos de investigación de usuarios. Me siento especialmente cómodo realizando labores de documentación, cuidando la claridad y el orden de la información que presento. En mis ratos libres disfruto aprender nuevos idiomas y practicar lógica de programación, lo cual complementa mi interés constante por seguir desarrollando mis habilidades técnicas.
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      Como integrante del equipo, mi función principal se centró en la investigación correspondiente al Capítulo II del proyecto, encargándome del análisis de competidores, el diseño y registro de entrevistas, y el proceso de Needfinding. A partir de esta investigación, elaboré los artefactos necesarios para sustentar los hallazgos: User Personas, User Task Matrix, User Journey Maps, Empathy Maps, además del Big Picture Event Storming y el Ubiquitous Language del dominio del problema.
+      <b>Descripción:</b><br>
+      Soy estudiante de quinto ciclo de Ingeniería de Software. Cuento con conocimientos en C++ y nociones de Python, HTML y CSS. Durante el proyecto aprendí a trabajar con GitHub y UXPressia para el control de versiones y la elaboración de artefactos de investigación de usuarios. Destaco en las labores de documentación, cuidando la claridad y el orden de la información.
+      <br><br>
+      <b>Aporte y función dentro del equipo:</b><br>
+      Como integrante del equipo, mi función principal se centró en la investigación correspondiente al Capítulo II del proyecto, encargándome del análisis de competidores, el diseño y registro de entrevistas, y el proceso de Needfinding. A partir de esta investigación, elaboré los artefactos necesarios para sustentar los hallazgos: User Personas, User Task Matrix, User Journey Maps y Empathy Maps, además del Big Picture Event Storming y el Ubiquitous Language del dominio del problema.
     </td>
   </tr>
   <tr>
-    <td rowspan="4" align="center">
- <img src="assets/Chapter1/team/Gabriel_Ramirez.jpg" alt="Gabriel Ramirez" width="650" />
+    <td rowspan="4" align="center" width="200">
+      <img src="assets/Chapter1/team/Gabriel_Ramirez.jpg" alt="Foto de Gabriel Ramírez" width="180" />
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> Ramirez Gutierrez, Gabriel</td>
+    <td><b>Nombre:</b> Ramírez Gutiérrez, Gabriel</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202416053 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
+    <td><b>Código:</b> U202416053 | <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
-      <b>Descripción:</b><br/>
-      Soy Gabriel Ramírez, estudiante de Ingeniería de Software con interés en el desarrollo frontend, la experiencia de usuario y la creación de interfaces claras y funcionales. Me gusta trabajar en la implementación de páginas web con enfoque en usabilidad, comunicación visual y estructura narrativa, para que la propuesta de valor del producto sea comprensible desde el primer contacto. También soy una persona organizada, responsable y comprometida con la calidad del trabajo entregado.
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
+      <b>Descripción:</b><br>
+      Soy estudiante de Ingeniería de Software con interés en el desarrollo frontend y la experiencia de usuario. Cuento con conocimientos en HTML, CSS y JavaScript para la implementación de páginas web responsive, con enfoque en usabilidad y comunicación visual. Me considero una persona organizada, responsable y comprometida con la calidad del trabajo entregado.
+      <br><br>
+      <b>Aporte y función dentro del equipo:</b><br>
       Me encargué principalmente del desarrollo de la Landing Page de AgriDron, definiendo la estructura visual, la propuesta de valor, los elementos de navegación y la experiencia inicial del usuario. Además, colaboré con la coordinación del contenido y la presentación del producto para asegurar que la primera impresión del sistema fuera clara, atractiva y alineada con la solución propuesta.
     </td>
   </tr>
   <tr>
-   <td rowspan="4" align="center">
- <img src="assets/Chapter1/team/SebastiánSayago_Foto.png" alt="Sebastián Sayago" width="650" />
+    <td rowspan="4" align="center" width="200">
+      <img src="assets/Chapter1/team/SebastiánSayago_Foto.png" alt="Foto de Sebastián Sayago" width="180" />
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> Sayago Vidal, Sebastian Leonardo</td>
+    <td><b>Nombre:</b> Sayago Vidal, Sebastián Leonardo</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202422642 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
+    <td><b>Código:</b> U202422642 | <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
-      <b>Descripción:</b><br/>
-      Mi nombre es Sebastián Leonardo Sayago Vidal, estudio Ingeniería de Software en la UPC, estando presente en el 5to ciclo de la carrera. Me considero una persona responsable al cumplir con mi trabajo asignado en el plazo respectivo. Busco que lo que tenga que hacer, se haga de la forma correcta y tenga una buena presentación y priorizar la calidad de mis resultados.
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
+      <b>Descripción:</b><br>
+      Soy estudiante de quinto ciclo de Ingeniería de Software en la UPC. Cuento con conocimientos en Git y GitHub, diseño de arquitectura de software, modelado de bases de datos relacionales y documentación técnica en Markdown. Me considero una persona responsable, que cumple con el trabajo asignado en el plazo establecido y prioriza la calidad y la buena presentación de los resultados.
+      <br><br>
+      <b>Aporte y función dentro del equipo:</b><br>
       Mi participación incluyó la definición y documentación de las prácticas que utilizará el equipo para mantener la consistencia del proyecto durante su desarrollo, considerando la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de programación y el despliegue.
     </td>
   </tr>
   <tr>
-    <td rowspan="4" align="center">
- <img src="assets/Chapter1/team/Alexander_Vasquez.png" alt="Alexander Vasquez" width="650" />
+    <td rowspan="4" align="center" width="200">
+      <img src="assets/Chapter1/team/Alexander_Vasquez.png" alt="Foto de Alexander Vásquez" width="180" />
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> Vasquez Roncal, Alexander Felipe</td>
+    <td><b>Nombre:</b> Vásquez Roncal, Alexander Felipe</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
+    <td><b>Código:</b> U202222473 | <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
-      <b>Descripción:</b><br/>
-        Mi nombre es Alexander Vasquez, tengo 27 años y actualmente
-        estoy cursando el cuarto ciclo de la carrera de Ingeniería de
-        Software. Soy una persona disciplinada, con capacidad para
-        trabajar en equipo. Mis habilidades técnicas incluyen lenguajes
-        de programación como Python y C + +. Me esfuerzo por
-        contribuir activamente al desarrollo del proyecto
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      Mi participacion incluyo hacer la documentacion del capitulo 3 y 4, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.
+      <b>Descripción:</b><br>
+      Soy estudiante de cuarto ciclo de Ingeniería de Software. Cuento con conocimientos en Python y C++, además de experiencia en diseño de interfaces con Figma y en la gestión de repositorios en GitHub. Me considero una persona disciplinada, con capacidad para trabajar en equipo y contribuir activamente al desarrollo del proyecto.
+      <br><br>
+      <b>Aporte y función dentro del equipo:</b><br>
+      Mi participación incluyó la documentación de los Capítulos III y IV, además del diseño de los mock-ups de la Web Application y de la Landing Page. Por otro lado, también elaboré la guía de estilos de ambos productos para mantener un orden y una presentación consistentes.
     </td>
   </tr>
 </table>
 
-<br>
-
----
-
 ## 1.2. Solution Profile
-
-<p align="justify">
-
-<strong>AgriDron Solutions</strong> propone una plataforma que centraliza la planificación, ejecución y monitoreo de operaciones de fumigación agrícola mediante drones. El usuario podrá programar misiones, supervisar los drones y consultar información de las operaciones desde una sola plataforma.
-
-</p>
-
-<p align="justify">
-
-El usuario podrá registrar sus fincas y parcelas, seleccionar en un mapa el área que desea fumigar y crear una misión. Antes de realizar la operación podrá consultar las condiciones meteorológicas mediante una API externa. Durante la misión podrá ver el estado y ubicación del dron. Después podrá revisar el historial y los reportes de las operaciones realizadas.
-
-</p>
 
 ### 1.2.1. Antecedentes y problemática
 
-1.2.1.1. What
+**Antecedentes**
 
-<p align="justify">
+La agricultura enfrenta pérdidas recurrentes por plagas y enfermedades. Según la [Organización de las Naciones Unidas para la Alimentación y la Agricultura \[FAO\] (s. f.)](https://www.fao.org/plant-production-protection/about/es), hasta un 40 % de la producción agrícola mundial se pierde cada año por esta causa. Tradicionalmente, el control fitosanitario se realiza con fumigadoras de mochila o con tractores, métodos que demandan mucha mano de obra y tiempo, aplican producto donde no siempre es necesario y exponen a los trabajadores a agroquímicos. En los últimos años, los drones de fumigación se han convertido en una alternativa más precisa y segura. Sin embargo, su adopción por pequeños y medianos agricultores aún es limitada, y la coordinación de estos servicios se gestiona de forma manual, mediante mensajes y registros dispersos.
 
-El problema central es la presencia recurrente de plagas y parásitos en los cultivos, lo que reduce el rendimiento y la calidad de la cosecha. Los métodos tradicionales de fumigación, ya sean manuales o con tractor, pueden ser lentos, costosos e imprecisos. Además, pueden exponer a los trabajadores a productos químicos.
+**Problemática (5W + 2H)**
 
-</p>
+| Pregunta | Descripción |
+|:--|:--|
+| **Who** (¿Quién?) | Pequeños y medianos agricultores y cooperativas, que contratan o gestionan las fumigaciones, y los operadores técnicos de drones, que planifican y ejecutan las operaciones. |
+| **What** (¿Qué?) | La presencia recurrente de plagas reduce el rendimiento y la calidad de la cosecha, y los métodos tradicionales de fumigación son lentos, costosos, imprecisos y riesgosos para los trabajadores. |
+| **Where** (¿Dónde?) | En terrenos agrícolas donde no existe una gestión ni un monitoreo formal de las operaciones, como los fundos de los valles costeros donde trabajan los entrevistados (Cañete, Huaral e Ica). |
+| **When** (¿Cuándo?) | Principalmente durante las temporadas de crecimiento de los cultivos, cuando se realizan aplicaciones preventivas o curativas ante signos de infestación. |
+| **Why** (¿Por qué?) | No existe un sistema que permita gestionar y monitorear las fumigaciones de forma centralizada. Esto provoca pérdidas económicas, desacuerdos sobre el área tratada y mayor exposición de los trabajadores a riesgos. |
+| **How** (¿Cómo?) | Mediante una plataforma web que permita gestionar fincas y parcelas, delimitar la zona de fumigación en un mapa, crear misiones, consultar el clima, monitorear los drones y revisar reportes e historial. |
+| **How Much** (¿Cuánto?) | Hasta un 40 % de la producción agrícola mundial se pierde cada año por plagas y enfermedades [(FAO, s. f.)](https://www.fao.org/plant-production-protection/about/es). |
 
-1.2.1.2. Where
+**Enunciado del problema**
 
-<p align="justify">
+Los pequeños y medianos agricultores y los operadores técnicos de drones no cuentan con una herramienta que les permita planificar, coordinar y supervisar estas operaciones de forma centralizada. Como consecuencia, la información de las parcelas, las condiciones climáticas y los servicios realizados se gestiona de manera manual y dispersa, lo que genera pérdidas de tiempo, un uso ineficiente de insumos, desacuerdos sobre el área fumigada y una mayor exposición de los trabajadores a riesgos.
 
-La problemática se presenta en terrenos agrícolas donde no existe una correcta gestión y monitoreo de las operaciones. Esto puede dificultar el control de plagas y afectar la producción.
+**Puntos que debe resolver la solución**
 
-</p>
+- Centralizar la información de fincas, parcelas y misiones en una sola plataforma.
+- Permitir la delimitación precisa de la zona de fumigación sobre un mapa interactivo.
+- Validar las condiciones meteorológicas antes de ejecutar una misión.
+- Ofrecer el seguimiento del estado y la ubicación del dron durante la operación.
+- Conservar el historial y los reportes de las operaciones como respaldo para agricultores y operadores.
 
-1.2.1.3. When
+**Objetivos**
 
-<p align="justify">
+*Objetivo general:* Desarrollar una plataforma web responsive que permita a agricultores y operadores técnicos de drones planificar, ejecutar y supervisar operaciones de fumigación con drones de forma centralizada.
 
-El problema de las plagas ocurre principalmente durante las temporadas de crecimiento de los cultivos. El monitoreo y las aplicaciones de fumigación se realizan durante todo el ciclo de cultivo, ya sea de forma preventiva o cuando aparecen signos de infestación.
+*Objetivos específicos:*
 
-</p>
+1. Implementar el registro de fincas y la delimitación de parcelas sobre un mapa interactivo.
+2. Integrar un servicio meteorológico externo para validar las condiciones antes de cada misión.
+3. Implementar el monitoreo de misiones mediante datos de telemetría simulados.
+4. Generar el historial y los reportes de las operaciones realizadas.
+5. Desarrollar una Landing Page que presente la propuesta de valor y dirija a cada segmento hacia la Web Application.
 
-1.2.1.4. Who
+**Restricciones**
 
-<p align="justify">
-
-El ecosistema de AgriDron Solutions involucra a agricultores, cooperativas agrícolas, ingenieros agrónomos, técnicos de campo y operadores de drones. Los agricultores y cooperativas serán los principales clientes, mientras que el personal técnico podrá utilizar la plataforma para supervisar y gestionar las operaciones.
-
-</p>
-
-1.2.1.5. Why
-
-<p align="justify">
-
-La causa principal es la falta de un sistema que permita gestionar y monitorear las operaciones de fumigación de forma centralizada. Esto puede generar pérdidas económicas y aumentar la exposición de los trabajadores a los riesgos de los métodos tradicionales.
-
-</p>
-
-1.2.1.6. How
-
-<p align="justify">
-
-AgriDron Solutions abordará esta problemática mediante una plataforma web que permita gestionar fincas y parcelas, seleccionar áreas de fumigación en un mapa, crear misiones con drones, consultar información meteorológica, monitorear los drones y revisar reportes e historial de operaciones.
-
-</p>
-
-1.2.1.7. How much
-
-<p align="justify">
-
-Según la FAO (2023), se estima que hasta un 40% de la producción agrícola mundial se pierde cada año debido a plagas y enfermedades. Esto muestra la importancia de contar con mejores herramientas para el monitoreo y control de plagas.
-
-</p>
+- La telemetría del dron se simula. El proyecto no incluye integración con hardware real de drones.
+- La información meteorológica depende de un servicio externo de terceros.
+- La solución se compone de una Landing Page, una Web Application responsive y un RESTful API, y no incluye una aplicación móvil nativa.
+- Se utilizan las tecnologías definidas por el curso: HTML, CSS y JavaScript para la Landing Page, Angular para la Web Application y Spring Boot para el RESTful API.
+- El alcance se limita al ciclo académico 2026-20 y a los sprints planificados.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Problem Statement 1
+El estado actual de **la gestión de la fumigación de cultivos en el sector agrícola peruano** se ha centrado principalmente en **métodos manuales y con tractor, realizados por pequeños y medianos agricultores y sus trabajadores de campo, que coordinan los servicios de fumigación mediante llamadas, mensajes de WhatsApp y registros escritos a mano**.
 
-<p align="justify">
+Lo que los productos y servicios existentes no logran abordar es **una forma accesible para que estos agricultores y los operadores técnicos de drones planifiquen, coordinen y supervisen las operaciones con drones en un solo lugar, ya que plataformas como DroneDeploy, Climate FieldView y Agrivi están dirigidas a grandes agroindustrias, con soluciones de alto costo y dependientes de hardware**.
 
-Los agricultores necesitan una forma centralizada de gestionar sus fincas, parcelas y áreas de fumigación, debido a que estas actividades forman parte de la planificación de sus operaciones con drones y pueden requerir coordinación manual.
+Nuestro producto abordará esta brecha mediante **una plataforma web responsive que permita registrar fincas y parcelas, delimitar zonas de fumigación en un mapa interactivo, validar las condiciones meteorológicas con un servicio externo, monitorear las misiones en tiempo real y consultar el historial y los reportes de cada operación**.
 
-</p>
+Nuestro enfoque inicial será **los pequeños y medianos agricultores con predios de 5 a 50 hectáreas y los operadores técnicos de drones que realizan las fumigaciones para ellos**.
 
-Problem Statement 2
-
-<p align="justify">
-
-Los responsables de las operaciones de fumigación necesitan consultar las condiciones meteorológicas antes de realizar una misión, debido a que esta información es relevante para la planificación de la operación.
-
-</p>
-
-Problem Statement 3
-
-<p align="justify">
-
-Los responsables de una misión necesitan realizar un seguimiento del estado y ubicación del dron durante una operación, debido a que requieren conocer el progreso de la misión.
-
-</p>
-
-Problem Statement 4
-
-<p align="justify">
-
-Los usuarios necesitan consultar el historial y los reportes de las misiones realizadas, debido a que requieren mantener un registro de las operaciones de fumigación gestionadas.
-
-</p>
+Sabremos que hemos tenido éxito cuando veamos **a los agricultores programando sus misiones de fumigación a través de la plataforma, a los operadores llegando al campo con la parcela ya delimitada y ahorrando entre 20 y 30 minutos por servicio, y misiones reprogramadas a partir de la validación climática de la plataforma, en lugar de después de visitas fallidas al campo**.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**1.2.2.2.1. ¿Quién es el usuario?**
+**Business Assumptions**
 
-<p align="justify">
+- Los pequeños y medianos agricultores están dispuestos a pagar una suscripción mensual accesible por planificar y supervisar sus fumigaciones.
+- Los operadores técnicos de drones adoptarán la plataforma si les permite recibir las parcelas ya delimitadas y reducir el tiempo de coordinación con sus clientes.
+- Un modelo freemium, con gestión básica de parcelas gratuita, facilitará la adopción y la conversión hacia planes de pago.
+- Las alianzas con cooperativas agrarias serán un canal efectivo para llegar a nuevos agricultores.
+- Al no depender de hardware propietario, la plataforma podrá competir en precio con DroneDeploy, Climate FieldView y Agrivi.
 
-Los principales usuarios de la solución son agricultores, operadores y técnicos relacionados con la planificación, ejecución y supervisión de operaciones de fumigación agrícola mediante drones.
+**Business Outcome Assumptions**
 
-</p>
+- La retención de clientes aumentará en un 25 % después del primer ciclo de cultivo.
+- La adopción de funciones premium aumentará en un 40 % tras el periodo de prueba gratuito.
+- El número de misiones de fumigación programadas mensualmente a través de la plataforma aumentará en un 30 % durante los primeros 6 meses de operación.
+- El costo de adquisición de clientes disminuirá en un 20 % gracias a las alianzas con cooperativas agrarias.
 
-<p align="justify">
+**User Assumptions**
 
-La plataforma se utilizará como una herramienta de apoyo para gestionar las operaciones de fumigación agrícola. Permitirá centralizar actividades como el registro de parcelas, la planificación de misiones, la consulta de condiciones meteorológicas, el monitoreo de drones y la consulta de reportes.
+- Los usuarios principales son pequeños y medianos agricultores con predios de 5 a 50 hectáreas y los operadores técnicos de drones.
+- Los agricultores priorizan las soluciones que les ahorran tiempo y reducen la incertidumbre en el manejo de plagas.
+- Los usuarios adoptarán nuevas tecnologías si la interfaz es intuitiva y requiere una capacitación mínima.
+- La falta de datos en tiempo real sobre las fumigaciones dificulta la toma de decisiones de los usuarios.
+- Los agricultores y los operadores técnicos de drones prefieren supervisar las operaciones desde el celular, debido a la distancia de las zonas de cultivo.
 
-</p>
+**User Outcome and Benefit Assumptions**
 
-**1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+- Los agricultores quieren evitar pérdidas económicas causadas por plagas.
+- Los usuarios quieren tener control sobre sus campos y parcelas desde un solo lugar.
+- Los usuarios quieren acceder a información en tiempo real sobre sus operaciones.
+- Los agricultores buscan mejorar la productividad y la rentabilidad de sus cultivos.
+- Los usuarios quieren reducir la exposición de los trabajadores a químicos peligrosos.
+- Los operadores quieren contar con un respaldo formal del trabajo realizado para evitar desacuerdos con sus clientes.
+- Los usuarios quieren reducir el tiempo y el costo de aplicación de pesticidas frente a los métodos tradicionales.
+- Los usuarios quieren responder con mayor rapidez ante una infestación de plagas.
 
-<ul> 
-    <li><strong>Gestión dispersa de la información:</strong> centralizar la información de fincas, parcelas y misiones dentro de una misma plataforma.</li> 
-    <li><strong>Dificultad para definir el área de fumigación:</strong> utilizar un mapa interactivo para seleccionar el área que será fumigada.</li> 
-    <li><strong>Consulta de condiciones meteorológicas:</strong> integrar una API externa para obtener información climática.</li> 
-    <li><strong>Seguimiento de las misiones:</strong> incorporar un módulo de monitoreo con datos simulados sobre el estado y ubicación del dron.</li> 
-    <li><strong>Consulta de operaciones anteriores:</strong> almacenar el historial y generar reportes de las misiones realizadas.</li> 
-</ul>
+**Feature Assumptions**
 
-**1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?**
-
-<p align="justify">
-
-La plataforma será utilizada antes, durante y después de una operación de fumigación. Antes de la misión, el usuario podrá gestionar la parcela, definir el área de fumigación, crear la misión y consultar las condiciones meteorológicas. Durante la operación podrá consultar el estado y ubicación del dron. Después de la misión podrá consultar el historial y los reportes generados.
-
-</p>
-
-#### 1.2.2.2. Lean UX Assumptions
-
-**1.2.2.2.1. Business Assumptions**
-
-<ul> 
-    <li>Gestión de fincas y parcelas.</li> 
-    <li>Mapa interactivo para definir áreas de fumigación.</li> 
-    <li>Creación y gestión de misiones.</li> <li>Consulta de condiciones meteorológicas mediante una API externa.</li> 
-    <li>Monitoreo del estado y ubicación de los drones.</li> <li>Historial y reportes de las operaciones.</li> 
-    <li>Gestión de roles de usuario.</li> 
-</ul>
-
-**1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?**
-
-<p align="justify">
-
-La plataforma debe presentar una interfaz web clara y organizada, que permita a los usuarios acceder de manera sencilla a las principales funciones relacionadas con la gestión de sus operaciones. La información de las parcelas, misiones, condiciones meteorológicas y monitoreo deberá presentarse de manera comprensible, diferenciando las funcionalidades disponibles según el rol del usuario.
-
-<ul>
-  <li>Reducción del 40% en el tiempo y costo de la aplicación de pesticidas frente a los métodos tradicionales.</li>
-  <li>Reducción en el tiempo de respuesta ante una infestación de plagas gracias al monitoreo continuo de los cultivos.</li>
-  <li>Aumento del 25% en la retención de clientes después del primer ciclo de cultivo.</li>
-  <li>Incremento del 40% en la adopción de funciones premium tras el periodo de prueba gratuito.</li>
-</ul>
-
-**1.2.2.2.3. User Assumptions**
-
-<ul>
-  <li>Los usuarios principales son pequeños y medianos agricultores (PyMAs), así como ingenieros agrónomos y técnicos de campo.</li>
-  <li><strong>Necesidad:</strong> los agricultores priorizan soluciones que les ahorren tiempo y reduzcan la incertidumbre en el manejo de plagas.</li>
-  <li><strong>Comportamiento:</strong> los usuarios están dispuestos a adoptar nuevas tecnologías si la interfaz es intuitiva y el entrenamiento es mínimo.</li>
-  <li><strong>Dolor:</strong> la falta de datos en tiempo real sobre las operaciones de fumigación es un problema para la toma de decisiones.</li>
-  <li><strong>Contexto:</strong> los agricultores y técnicos prefieren supervisar operaciones desde dispositivos móviles debido a la distancia de las zonas de cultivo.</li>
-</ul>
-
-**1.2.2.2.4. User Outcome and Benefit Assumptions**
-
-<ul>
-  <li>Evitar pérdidas económicas por plagas.</li>
-  <li>Tener control de sus campos y parcelas.</li>
-  <li>Acceder a datos en tiempo real sobre las operaciones.</li>
-  <li>Mejorar la productividad y rentabilidad.</li>
-  <li>Reducir la exposición de los trabajadores a químicos peligrosos.</li>
-</ul>
-
-**1.2.2.2.5. Feature Assumptions**
-
-<ul>
-  <li><strong>Funcionalidad:</strong> los drones autónomos cubrirán las hectáreas de cultivo con mayor precisión y velocidad que los métodos tradicionales.</li>
-  <li><strong>Tecnología:</strong> la plataforma permitirá controlar y monitorear las operaciones de los drones desde la aplicación en tiempo real.</li>
-  <li><strong>Experiencia:</strong> la plataforma web/móvil será adoptada rápidamente incluso por usuarios con baja alfabetización digital.</li>
-  <li><strong>Integración:</strong> los reportes automáticos de fumigación, incluyendo área cubierta, insumos usados y tiempo, serán útiles para la gestión de las operaciones.</li>
-</ul>
+1. Un mapa interactivo para registrar fincas y delimitar parcelas permitirá definir con precisión la zona de fumigación antes de llegar al campo.
+2. Una validación climática basada en un servicio meteorológico externo permitirá decidir si una misión es viable antes de programarla.
+3. Un módulo de monitoreo de misiones con telemetría simulada permitirá seguir el estado y la ubicación del dron durante la operación.
+4. Los reportes automáticos y el historial de operaciones servirán como respaldo del trabajo realizado y apoyarán la gestión.
+5. Una interfaz web responsive con un flujo guiado de creación de misiones será adoptada incluso por usuarios con baja alfabetización digital.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Hypothesis Statement 1
+**Hypothesis Statement 1**
 
-<p align="justify">
+Creemos que lograremos un aumento del 30 % en el número de misiones de fumigación programadas mensualmente a través de la plataforma durante los primeros 6 meses de operación\
+si los pequeños y medianos agricultores y los operadores técnicos de drones\
+obtienen una zona de fumigación delimitada con precisión antes de llegar al campo\
+con la funcionalidad de mapa interactivo de fincas y parcelas.
 
-We believe we will achieve a 40% reduction in spraying time and cost if small and medium farmers (PyMAs) attain precise and efficient crop coverage with the autonomous drone spraying feature.
+**Hypothesis Statement 2**
 
-</p>
-
-Hypothesis Statement 2
-
-<p align="justify">
-
-We believe we will achieve a faster response time to pest infestations if farmers and agricultural technical staff attain continuous, real-time visibility of field and drone status with the mission monitoring and control feature.
-
-</p>
+Creemos que lograremos un aumento del 30 % en el número de misiones de fumigación programadas mensualmente a través de la plataforma durante los primeros 6 meses de operación\
+si los pequeños y medianos agricultores y los operadores técnicos de drones\
+obtienen una decisión confiable sobre la viabilidad de una misión antes de programarla\
+con la funcionalidad de validación climática con un servicio externo.
 
 **Hypothesis Statement 3**
 
-<p align="justify">
-
-We believe we will achieve higher platform adoption and customer retention if farmers with low digital literacy attain an intuitive and easy-to-learn experience with the web/mobile monitoring platform.
-
-</p>
+Creemos que lograremos un aumento del 25 % en la retención de clientes después del primer ciclo de cultivo\
+si los agricultores y los operadores técnicos de drones\
+obtienen visibilidad en tiempo real del avance de cada misión\
+con la funcionalidad de monitoreo de misiones.
 
 **Hypothesis Statement 4**
 
-<p align="justify">
+Creemos que lograremos un aumento del 40 % en la adopción de funciones premium tras el periodo de prueba gratuito\
+si los agricultores y los operadores técnicos de drones\
+obtienen evidencia lista para usar de cada operación realizada\
+con la funcionalidad de reportes automáticos e historial de operaciones.
 
-We believe we will achieve increased adoption of premium features and improved operational decision-making if farmers and technical staff attain valuable, ready-to-use operational data with the automated spraying and usage report feature.
+**Hypothesis Statement 5**
 
-</p>
-
-<p align="justify">
-
-Creemos que integrar información meteorológica mediante una API externa ayudará a los usuarios a considerar las condiciones climáticas durante la planificación de una misión. Sabremos que esto es cierto cuando los usuarios puedan consultar dicha información antes de gestionar una operación.
-
-</p>
-
-Hypothesis Statement 4
-
-<p align="justify">
-
-Creemos que visualizar el estado y ubicación del dron durante una misión permitirá a los usuarios realizar un mejor seguimiento de la operación. Sabremos que esto es cierto cuando puedan identificar el estado y posición del dron durante una misión simulada.
-
-</p>
+Creemos que lograremos un aumento del 25 % en la retención de clientes después del primer ciclo de cultivo\
+si los agricultores con baja alfabetización digital\
+obtienen una experiencia intuitiva y fácil de aprender\
+con la plataforma web responsive y su flujo guiado de creación de misiones.
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img width="1557" height="1010" alt="export-canva-48djfk42n3h4Hand56nD" src="https://github.com/user-attachments/assets/2d3277d5-22a1-40bb-a3c9-ad852362d1ef" />
+![Lean UX Canvas de AgriDron Solutions](https://github.com/user-attachments/assets/2d3277d5-22a1-40bb-a3c9-ad852362d1ef)
 
-Descripción:
+*Figura: Lean UX Canvas de AgriDron Solutions.*
 
-<p align="justify">
+El Lean UX Canvas resume el modelo de negocio de AgriDron Solutions. El **Business Problem** describe la necesidad de mejorar la forma en que los agricultores y los operadores técnicos de drones gestionan las operaciones de fumigación. Las **Solutions** propuestas incluyen la fumigación con drones, el monitoreo en tiempo real y una plataforma web responsive. Los **Business Outcomes** esperados incluyen reducir el tiempo y el costo de fumigación, disminuir el tiempo de respuesta ante infestaciones y aumentar la retención de clientes.
 
-El Lean UX Canvas (Iteración 1) resume el modelo de negocio de AgriDron Solutions. El <strong>Business Problem</strong> describe la necesidad de mejorar la forma en que los agricultores y el personal técnico gestionan las operaciones de fumigación. Las <strong>Solutions</strong> propuestas incluyen fumigación con drones, monitoreo en tiempo real y una app móvil/web. Los <strong>Business Outcomes</strong> esperados incluyen reducir el tiempo y costo de fumigación, disminuir el tiempo de respuesta ante infestaciones y aumentar la retención de clientes.
+En cuanto a los **Users & Customers**, los principales segmentos son los pequeños y medianos agricultores (PyMAs) y los operadores técnicos de drones. Sus **User Outcomes & Benefits** incluyen tener mayor control de sus campos, acceder a información de sus operaciones y reducir su exposición a productos químicos. Las **Hypotheses** buscan validar si los usuarios están dispuestos a pagar por el servicio y si las funciones de planificación, validación climática, monitoreo y reportes generan valor. El siguiente paso es validar la disposición de pago y el valor percibido mediante entrevistas y pruebas piloto.
 
-</p>
+## 1.3. Segmentos objetivo
 
-<p align="justify">
-
-En cuanto a los <strong>Users & Customers</strong>, los principales segmentos son los pequeños y medianos agricultores (PyMAs) y el personal técnico. Sus <strong>User Outcomes & Benefits</strong> incluyen tener mayor control de sus campos, acceder a información de sus operaciones y reducir su exposición a productos químicos. Las <strong>Hypotheses</strong> buscan validar si los usuarios están dispuestos a pagar por el servicio y si las funciones de fumigación, monitoreo y reporte generan valor. El siguiente paso será validar la disposición de pago y el valor percibido mediante entrevistas y pruebas piloto.
-
-</p>
-
-### 1.3. Segmentos objetivo
-
-#### 1.3.1. Pequeños y Medianos Agricultores (PyMAs)
-
-<p align="justify">
+### 1.3.1. Pequeños y Medianos Agricultores (PyMAs)
 
 Este es el segmento principal de AgriDron Solutions. Está conformado por productores agrícolas con extensiones de 5 a 50 hectáreas, que cultivan principalmente para el mercado local y regional. Pueden trabajar de forma independiente o agrupados en cooperativas y buscan reducir costos y proteger el rendimiento de sus cultivos.
 
-</p>
+**Características cuantitativas:** edad entre 20 y 60 años, extensión de cultivo de 5 a 50 hectáreas, nivel educativo variado desde educación básica hasta técnica, familiaridad tecnológica media-baja, con adopción creciente de smartphones.
 
-<p align="justify">
+**Características cualitativas:** su principal motivación es reducir costos y mejorar el rendimiento de sus cultivos. Sus principales problemas son las pérdidas por plagas, los costos de mano de obra y la falta de información para tomar decisiones.
 
-<strong>Características cuantitativas:</strong> edad entre 28 y 60 años, extensión de cultivo de 5 a 50 hectáreas, nivel educativo variado desde educación básica hasta técnica, familiaridad tecnológica media-baja, con adopción creciente de smartphones.
+**Información estadística de sustento:** según los resultados de la Encuesta Nacional Agropecuaria (ENA) 2022 del INEI:
 
-</p>
+- El 97.6 % de las unidades agropecuarias del país se emplea para la agricultura familiar [(Agencia Andina, 2023)](https://andina.pe/agencia/noticia-inei-334-productores-agropecuarios-del-pais-son-mujeres-948645.aspx).
+- Las explotaciones con menos de 5 hectáreas representan el 78.5 % del total [(Redacción Gestión, 2023)](https://gestion.pe/economia/encuesta-nacional-agropecuaria-asi-se-configura-el-sector-en-el-peru-noticia/), mientras que el 21.4 % supera las 5 hectáreas [(Agencia Andina, 2023)](https://andina.pe/agencia/noticia-inei-334-productores-agropecuarios-del-pais-son-mujeres-948645.aspx). El segmento objetivo, con predios de 5 a 50 hectáreas, forma parte de este último grupo.
+- El 60 % de los productores emplea fertilizantes o plaguicidas [(Agencia Andina, 2023)](https://andina.pe/agencia/noticia-inei-334-productores-agropecuarios-del-pais-son-mujeres-948645.aspx), lo que evidencia la necesidad del control fitosanitario.
+- El 35.9 % de los productores tiene entre 45 y 59 años y el 21.9 % entre 30 y 44 años [(Agencia Andina, 2023)](https://andina.pe/agencia/noticia-inei-334-productores-agropecuarios-del-pais-son-mujeres-948645.aspx).
 
-<p align="justify">
+**Relación con la solución:** este segmento utilizará la plataforma para gestionar fincas y parcelas, seleccionar zonas de fumigación en el mapa, crear misiones, consultar el clima y revisar reportes e historial de sus operaciones.
 
-<strong>Características cualitativas:</strong> su principal motivación es reducir costos y mejorar el rendimiento de sus cultivos. Sus principales problemas son las pérdidas por plagas, los costos de mano de obra y la falta de información para tomar decisiones.
+### 1.3.2. Operadores Técnicos de Drones
 
-</p>
+Este segmento está conformado por operadores de drones de fumigación y por técnicos e ingenieros agrónomos que realizan o supervisan estos servicios. Son usuarios de la plataforma que se encargan de revisar la información, planificar las operaciones y supervisar las misiones de fumigación.
 
-<p align="justify">
+**Características cuantitativas:** edad entre 22 y 45 años, formación técnica o universitaria en agronomía, ingeniería agrícola o carreras afines, experiencia de 1 a 15 años en campo, a cargo de la supervisión de múltiples parcelas o unidades productivas de forma simultánea.
 
-<strong>Relación con la solución:</strong> este segmento utilizará la plataforma para gestionar fincas y parcelas, seleccionar áreas de fumigación en el mapa, crear misiones, consultar el clima y revisar reportes e historial de sus operaciones.
+**Características cualitativas:** cuentan con mayor familiaridad tecnológica que el agricultor promedio y valoran herramientas que les ayuden a ahorrar tiempo. Su principal motivación es contar con información precisa para planificar las operaciones. Su principal problema es la dificultad para supervisar varios campos al mismo tiempo.
 
-</p>
+**Información estadística de sustento:** según los resultados de la Encuesta Nacional Agropecuaria (ENA) 2022 del INEI, solo el 3.8 % de los productores agropecuarios tuvo asistencia técnica y solo el 6.6 % recibió capacitación [(Agencia Andina, 2023)](https://andina.pe/agencia/noticia-inei-334-productores-agropecuarios-del-pais-son-mujeres-948645.aspx). Estas cifras muestran una amplia brecha de acompañamiento técnico en el campo, que este segmento busca cubrir.
 
-#### 1.3.2. Personal Técnico (Ingenieros Agrónomos y Técnicos de Campo)
-
-<p align="justify">
-
-Este segmento está conformado por ingenieros agrónomos, técnicos agrícolas y operadores de drones. Son usuarios de la plataforma que se encargan de revisar la información, planificar las operaciones y supervisar las misiones de fumigación.
-
-</p>
-
-<p align="justify">
-
-<strong>Características cuantitativas:</strong> edad entre 22 y 45 años, formación técnica o universitaria en agronomía, ingeniería agrícola o carreras afines, experiencia de 1 a 15 años en campo, a cargo de la supervisión de múltiples parcelas o unidades productivas de forma simultánea.
-
-</p>
-
-<p align="justify">
-
-<strong>Características cualitativas:</strong> cuentan con mayor familiaridad tecnológica que el agricultor promedio y valoran herramientas que les ayuden a ahorrar tiempo. Su principal motivación es contar con información precisa para planificar las operaciones. Su principal problema es la dificultad para supervisar varios campos al mismo tiempo.
-
-</p>
-
-<p align="justify">
-
-<strong>Relación con la solución:</strong> este segmento utilizará la plataforma para revisar información de las operaciones, planificar y ejecutar misiones de fumigación mediante el software de control de drones y supervisar varias unidades productivas a la vez.
-
-</p>
+**Relación con la solución:** este segmento utilizará la plataforma para revisar la información de las operaciones, planificar las misiones de fumigación, hacer seguimiento a su ejecución y supervisar varias unidades productivas a la vez.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -809,6 +652,8 @@ Para validar la propuesta de valor de AgriDron Solutions y asegurar un posiciona
 *   **DroneDeploy:** Plataforma en la nube especializada en la captura, procesamiento y análisis de datos geoespaciales mediante drones. En el sector agrícola, opera permitiendo la planificación automatizada de vuelos sobre campos de cultivo y el procesamiento de mapas ortomosaicos e índices de vegetación (NDVI) para la detección de anomalías en los lotes. Su funcionamiento se basa en la sincronización de hardware comercial con su software web para generar reportes analíticos de salud vegetal y coordinar cuadrillas de trabajo.
 *   **Climate FieldView:** Plataforma digital integral de gestión agronómica desarrollada por The Climate Corporation (división digital de Bayer). Funciona mediante la recopilación e integración de datos generados por sensores climáticos, satélites y maquinaria terrestre conectada al puerto de diagnóstico (FieldView Drive). Su software permite a los productores monitorear el desarrollo de sus campos, generar prescripciones variables de siembra y fertilizantes, y consultar datos meteorológicos hiperlocales para la toma de decisiones preventivas en campo.
 *   **Agrivi:** Software integral de gestión de explotaciones agrícolas (Farm Management Software - FMS) basado en el modelo SaaS en la nube. Su funcionamiento abarca la planificación completa de labores agrícolas, administración de inventarios de insumos químicos, trazabilidad de cosechas y registro de costos de producción. Además, integra alertas meteorológicas basadas en modelos predictivos para advertir sobre el riesgo de plagas y enfermedades, permitiendo llevar una bitácora detallada de las actividades de campo.
+
+También se identificó DJI SmartFarm, la aplicación complementaria de los drones de fumigación DJI Agras [(FAO AgriTech Observatory, s. f.)](https://agritechobservatory.review.fao.org/ar/dji-smartfarm-app). No se incluye en el Competitive Analysis Landscape porque está ligada a los drones de un solo fabricante, mientras que AgriDron Solutions se dirige a operadores que trabajan con distintas marcas de dron. Se considera en las estrategias como referencia de un ecosistema cerrado.
 
 ### 2.1.1. Análisis competitivo
 
@@ -870,7 +715,7 @@ A continuación, se presenta el Competitive Analysis Landscape, cuyo objetivo es
     <tr>
       <td rowspan="3" align="center"><b>Perfil de Producto</b></td>
       <td><b>Productos &amp; Servicios</b></td>
-      <td>Aplicación web (Angular), servicio RESTful (Spring Boot), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo.</td>
+      <td>Aplicación web responsive para registrar fincas y delimitar parcelas en un mapa, solicitar misiones de fumigación, validar el clima antes del vuelo, monitorear el avance de la misión y consultar reportes e historial. Landing Page informativa.</td>
       <td>Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D.</td>
       <td>Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra.</td>
       <td>Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo.</td>
@@ -892,60 +737,63 @@ A continuación, se presenta el Competitive Analysis Landscape, cuyo objetivo es
     <tr>
       <td rowspan="4" align="center"><b>Análisis SWOT</b></td>
       <td><b>Fortalezas</b></td>
-      <td>• Plataforma web moderna construida sobre arquitectura distribuida escalable (Spring Boot y Angular).<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química.</td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
+      <td>• Conecta en un solo lugar al agricultor y al operador técnico de drones: la parcela delimitada, la solicitud del servicio y el reporte del trabajo realizado.<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química.</td>
+      <td>• Capas de salud vegetal NDVI y RGB para detectar estrés por plagas, enfermedades, riego o fertilización <a href="https://www.dronedeploy.com/agriculture.html">(DroneDeploy, s. f.)</a>.<br>• Se integra con los principales fabricantes de drones <a href="https://www.dronedeploy.com/agriculture.html">(DroneDeploy, s. f.)</a>.<br>• Se usa en 400 mil campos de 130 países <a href="https://www.dronedeploy.com/agriculture.html">(DroneDeploy, s. f.)</a>.</td>
+      <td>• Respaldo de Bayer, su empresa matriz <a href="https://agritechobservatory.review.fao.org/ar/climate-fieldview">(FAO AgriTech Observatory, s. f.)</a>.<br>• Imágenes satelitales para evaluar la salud del campo <a href="https://climate.com/en-ca/pricing.html">(Climate FieldView, s. f.)</a>.<br>• FieldView Drive se conecta a la maquinaria y envía los datos de las operaciones a la plataforma <a href="https://agritechobservatory.review.fao.org/ar/climate-fieldview">(FAO AgriTech Observatory, s. f.)</a>.</td>
+      <td>• Gestión de inventario, trazabilidad y gestión financiera <a href="https://www.capterra.com/p/136084/Agrivi/">(Capterra, 2026)</a>.<br>• Gestión del cumplimiento de políticas para servicios, productos, procesos o proveedores <a href="https://www.capterra.com/p/136084/Agrivi/">(Capterra, 2026)</a>.</td>
     </tr>
     <tr>
       <td><b>Debilidades</b></td>
       <td>• Startup en etapa inicial con menor músculo financiero y base de clientes reducida frente a gigantes consolidados.<br>• Dependencia inicial de simulación para los flujos de telemetría de drones antes de la integración con hardware físico masivo.<br>• Marca nueva sin reconocimiento previo en ferias o asociaciones agrarias regionales.</td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
+      <td>• Planes de costo elevado: el plan Ag Lite cuesta USD 1,908 al año por piloto <a href="https://toolradar.com/tools/dronedeploy/pricing">(Toolradar, 2026)</a>.<br>• Su precio resulta alto para operaciones pequeñas <a href="https://toolradar.com/tools/dronedeploy/pricing">(Toolradar, 2026)</a>.<br>• Se centra en el mapeo y análisis de cultivos, no en coordinar servicios de fumigación entre agricultores y operadores.</td>
+      <td>• Requiere hardware adicional: FieldView Drive costaba USD 399 en mayo de 2024 <a href="https://agritechobservatory.review.fao.org/ar/climate-fieldview">(FAO AgriTech Observatory, s. f.)</a>.<br>• Suscripción desde USD 499 al año, más servicios cobrados por acre, como Seed Scripts a USD 1.50 por acre <a href="https://climate.com/en-ca/pricing.html">(Climate FieldView, s. f.)</a>.<br>• Orientado a fincas medianas y grandes <a href="https://agritechobservatory.review.fao.org/ar/climate-fieldview">(FAO AgriTech Observatory, s. f.)</a>.</td>
+      <td>• No publica sus precios: la cotización se solicita al proveedor <a href="https://www.capterra.com/p/136084/Agrivi/">(Capterra, 2026)</a>.<br>• Según una reseña de usuario, no es una solución barata <a href="https://www.capterra.com/p/136084/Agrivi/">(Capterra, 2026)</a>.<br>• Según una reseña de usuario, no puede usarse sin conexión a internet <a href="https://www.capterra.com/p/136084/Agrivi/">(Capterra, 2026)</a>.<br>• Según una reseña de usuario, su módulo financiero no reemplaza un software contable <a href="https://www.capterra.com/p/136084/Agrivi/">(Capterra, 2026)</a>.</td>
     </tr>
     <tr>
       <td><b>Oportunidades</b></td>
       <td>• Creciente interés de pequeños y medianos agricultores por modernizar la fumigación para reducir pérdidas económicas por plagas.<br>• Brecha de mercado desatendida por competidores de alto costo (DroneDeploy, Agrivi), que no diseñan soluciones accesibles para predios de 5 a 50 hectáreas.<br>• Necesidad de cooperativas locales de centralizar la supervisión de múltiples lotes en un solo panel colaborativo.</td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
+      <td>• Creciente uso de drones en la agricultura de precisión.<br>• Ofrecer planes más accesibles para mercados emergentes.</td>
+      <td>• Incorporar la fumigación con drones a su ecosistema.<br>• Usar los programas de Bayer para fidelizar productores.</td>
+      <td>• Demanda de trazabilidad en la agroexportación.<br>• Incorporar la gestión de operaciones con drones.</td>
     </tr>
     <tr>
       <td><b>Amenazas</b></td>
       <td>• Resistencia cultural al cambio tecnológico por parte de productores agrícolas acostumbrados a métodos tradicionales manuales.<br>• Expansión o reducción de precios de plataformas consolidadas (como Bayer Climate FieldView) hacia segmentos de menores extensiones.<br>• Deficiencias de infraestructura de conectividad a internet en zonas rurales que dificulten el uso de plataformas web en campo.</td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
-      <td><i>Pendiente de redacción</i></td>
+      <td>• Plataformas más económicas y especializadas para pequeños productores.<br>• Fabricantes de drones que incluyen su propio software.</td>
+      <td>• Plataformas sin dependencia de hardware y de menor costo.<br>• Baja mecanización de los pequeños predios, que limita el uso de FieldView Drive.</td>
+      <td>• Soluciones más simples y accesibles para pequeños productores.<br>• Baja alfabetización digital en zonas rurales.</td>
     </tr>
   </tbody>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-<p align="justify">
-
 A partir de los hallazgos obtenidos en el análisis competitivo y la matriz SWOT, se definen las estrategias y tácticas comerciales, técnicas y operativas que AgriDron Solutions implementará para posicionarse en el mercado:
 
-#### 1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)
-Los competidores líderes manejan esquemas de precios enterprise con tarifas anuales elevadas, orientadas principalmente a grandes corporaciones o complejos agroindustriales. AgriDron Solutions capturará la cuota de mercado desatendida mediante una propuesta económica accesible para pequeños y medianos agricultores y coperativas:
-*   **Táctica de Pricing por Escala de Uso:** Implementar un modelo de suscripción flexible basado en rangos de hectáreas gestionadas o paquetes mensuales por temporada de fumigación, evitando contratos anuales forzosos.
-*   **Táctica Freemium de Entrada:** Ofrecer acceso gratuito para la delimitación de parcelas y consulta de métricas básicas de terreno, incentivando la conversión a planes de pago cuando el usuario requiera planificar rutas avanzadas de fumigación y monitorear condiciones meteorológicas.
+**1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)**
 
-#### 2. Estrategia de Diferenciación por Interoperabilidad Abierta
-Mientras que herramientas como Climate FieldView priorizan maquinaria terrestre con dispositivos propietarios y plataformas como DJI restringen su ecosistema a su propio hardware, AgriDron Solutions se posiciona como una plataforma web integradora:
+Los competidores líderes manejan esquemas de precios enterprise con tarifas anuales elevadas, orientadas principalmente a grandes corporaciones o complejos agroindustriales. AgriDron Solutions capturará la cuota de mercado desatendida mediante una propuesta económica accesible para pequeños y medianos agricultores y cooperativas:
+*   **Táctica de Pricing por Escala de Uso:** Implementar un modelo de suscripción flexible basado en rangos de hectáreas gestionadas o paquetes mensuales por temporada de fumigación, evitando contratos anuales forzosos.
+*   **Táctica Freemium de Entrada:** Ofrecer acceso gratuito para la delimitación de parcelas y consulta de métricas básicas de terreno, incentivando la conversión a planes de pago cuando el usuario requiera la validación climática, el monitoreo de misiones y los reportes de cada operación.
+
+**2. Estrategia de Diferenciación por Interoperabilidad Abierta**
+
+Mientras que herramientas como Climate FieldView priorizan maquinaria terrestre con dispositivos propietarios y DJI SmartFarm es la aplicación complementaria de los drones de fumigación DJI Agras [(FAO AgriTech Observatory, s. f.)](https://agritechobservatory.review.fao.org/ar/dji-smartfarm-app), AgriDron Solutions se posiciona como una plataforma web integradora:
 *   **Táctica de Gestión Abierta de Órdenes de Servicio:** Proveer una plataforma web accesible mediante APIs RESTful que permita registrar parcelas, programar órdenes de fumigación y actualizar bitácoras de trabajo de forma manual por el operador técnico, sin requerir sincronizaciones complejas ni depender de una marca específica de dron.
 *   **Táctica de Validación Climática Contextual:** Integrar servicios externos de pronóstico meteorológico hiperlocal directamente en el flujo de trazado de parcelas, alertando al usuario sobre velocidades de viento y humedad que provoquen deriva química antes de ejecutar la misión.
 
-#### 3. Estrategia de Adopción Digital y Curva de Aprendizaje Acelerada (Usabilidad)
-Sistemas como Agrivi presentan una alta complejidad funcional y curvas de aprendizaje pronunciadas que dificultan su uso por parte de agricultores con alfabetización digital intermedia. AgriDron Solutions prioriza una experiencia de usuario (UX) centrada en tareas críticas y visuales:
-*   **Táctica de Interfaz Web Intuitiva y Guiada:** Diseñar un flujo de trabajo lineal estructurado en tres pasos simples: 1) Dibujar parcela en el mapa interactivo, 2) Validar condiciones climáticas automáticas, y 3) Asignar y monitorear la ruta de fumigación.
-*   **Táctica Responsive Multidispositivo:** Garantizar que la interfaz web opere de forma fluida tanto en laptops de oficina como en navegadores de teléfonos inteligentes y tablets usados por operadores en campo.
+**3. Estrategia de Adopción Digital y Curva de Aprendizaje Acelerada (Usabilidad)**
 
-#### 4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas
+Sistemas como Agrivi presentan una alta complejidad funcional y curvas de aprendizaje pronunciadas que dificultan su uso por parte de agricultores con alfabetización digital intermedia. AgriDron Solutions prioriza una experiencia de usuario (UX) centrada en tareas críticas y visuales:
+*   **Táctica de Interfaz Web Intuitiva y Guiada:** Diseñar un flujo de trabajo lineal estructurado en tres pasos simples: 1) Dibujar parcela en el mapa interactivo, 2) Validar condiciones climáticas automáticas, y 3) Solicitar y monitorear la misión de fumigación.
+*   **Táctica Responsive Multidispositivo:** Garantizar que la interfaz web opere de forma fluida tanto en laptops de oficina como en navegadores de teléfonos inteligentes y tablets usados por operadores en campo.
+*   **Táctica de Preparación Previa con Conexión:** Permitir que el agricultor delimite la parcela y que el operador revise la orden de servicio y el pronóstico del clima antes de salir al campo, desde la casa u oficina, para que la información crítica ya esté disponible al llegar al predio y se reduzca la dependencia de la conectividad en zonas rurales.
+
+**4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas**
+
 Para contrarrestar la fuerza de ventas global y las redes corporativas de competidores como Bayer Climate FieldView, AgriDron Solutions ejecutará una estrategia directa y local:
 *   **Táctica de Alianzas con Cooperativas Agrarias:** Realizar demostraciones en vivo y pruebas piloto colaborativas en asociaciones agrarias locales, permitiendo que varios agricultores compartan la experiencia de gestionar sus predios.
-</p>
+*   **Táctica de Capacitación Inicial en las Demostraciones:** Acompañar la primera delimitación de parcela de cada agricultor con un tutorial breve durante las demostraciones en las cooperativas, ya que los agricultores entrevistados señalaron que al inicio requerirían una pequeña capacitación o un video tutorial.
 
 ---
 
@@ -954,9 +802,11 @@ Para contrarrestar la fuerza de ventas global y las redes corporativas de compet
 ### 2.2.1. Diseño de entrevistas
 
 **Objetivo de la entrevista:**
-El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativos, limitaciones tecnológicas y necesidades críticas de pequeños agricultores y técnicos de campo que utilizan drones como técnica principal de fumigación, con el fin de modelar perfiles de usuario precisos y fundamentar el diseño funcional de la plataforma web AgriDron.
+El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativos, limitaciones tecnológicas y necesidades críticas de los Pequeños y Medianos Agricultores (PyMAs), que gestionan la fumigación de sus cultivos, y de los Operadores Técnicos de Drones, que planifican y ejecutan estos servicios, con el fin de modelar perfiles de usuario precisos y fundamentar el diseño funcional de la plataforma web AgriDron.
 
-**Preguntas del segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
+Las preguntas de los Bloques A y B son las preguntas principales de la entrevista y las del Bloque C son complementarias.
+
+**Preguntas del segmento 1: Pequeños y Medianos Agricultores (PyMAs)**
 
 #### Bloque A: Perfil Demográfico y Tecnológico
 1. ¿Cuál es su nombre, edad y en qué distrito o valle agrícola se encuentra ubicado su predio?
@@ -964,7 +814,7 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 3. ¿Qué dispositivos utiliza con mayor frecuencia para coordinar sus labores (computadora, laptop, smartphone Android/iOS) y qué navegador web suele utilizar (Chrome, Edge, Safari)?
 4. ¿Qué aplicaciones o herramientas digitales utiliza con regularidad para comunicarse o gestionar compras/ventas (WhatsApp, banca móvil, hojas de Excel, redes sociales)?
 
-#### Bloque B: Contexto Operativo y Puntos de Dolor - (Tecnica 5W + 2H)
+#### Bloque B: Contexto Operativo y Puntos de Dolor - (Técnica 5W + 2H)
 *    **What (Qué):**
 5. ¿Qué método utiliza actualmente para la fumigación y control de plagas en sus parcelas?
 6. ¿Cómo detecta, delimita y registra la presencia de una plaga o enfermedad en un lote específico?
@@ -994,11 +844,11 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 15. En caso de que una fumigación se interrumpa por mal clima o imprevistos de campo, ¿cómo le gustaría recibir el reporte de avance y reprogramar las hectáreas pendientes desde la web?
 
 
-**Preguntas del segmento 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
+**Preguntas del segmento 2: Operadores Técnicos de Drones**
 
 
 #### Bloque A: Perfil Demográfico y Tecnológico (Insumo para User Persona)
-1. ¿Cuál es su nombre , edad y en qué valles o zonas agrícolas presta principalmente sus servicios de fumigación o consultoria agricola?
+1. ¿Cuál es su nombre, edad y en qué valles o zonas agrícolas presta principalmente sus servicios de fumigación o consultoría agrícola?
 2. ¿Qué formación técnica o experiencia previa tiene en el manejo y operación de drones agrícolas o agronomía?
 3. ¿Qué dispositivos utiliza habitualmente durante su jornada de trabajo (smartphone Android/iOS, tablet de campo, laptop) y qué navegadores web utiliza con frecuencia?
 4. ¿Qué herramientas digitales utiliza actualmente para coordinar su agenda de clientes, facturación o rutas de trabajo (WhatsApp, Google Calendar, hojas de cálculo, correo electrónico)?
@@ -1030,116 +880,111 @@ El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativo
 
 
 ### 2.2.2. Registro de entrevistas
-Para la recolección de requerimientos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto:  **Segmento 1 (Agricultores y dueños de Fincas)** y **Segmento 2 (Operadores Técnicos de Fumigación con Drones)**.
+Para la recolección de requisitos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto:  **Segmento 1 (Pequeños y Medianos Agricultores (PyMAs))** y **Segmento 2 (Operadores Técnicos de Drones)**.
 
-La evidencia audiovisual consolidada se encuentra alojada en Microsoft Stream a través del siguiente enlace institucional:
-* **Enlace al repositorio de video:** [Entrevistas Needfinding - AgriDron Solutions](https://youtu.be/f4bgtmrQYxk)
+La evidencia audiovisual se consolida en un solo video editado con todas las entrevistas, publicado en YouTube en el siguiente enlace:
+* **Enlace al video:** [Entrevistas Needfinding - AgriDron Solutions](https://youtu.be/f4bgtmrQYxk)
 
 
 A continuación, se presenta la tabla de registro que sintetiza el análisis descriptivo de cada entrevista:
 
 | Datos del Entrevistado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia en Video                                                                                                                                                                                                     | Resumen Descriptivo de la Entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombres y Apellidos:**<br>Ana Camila Bio Farías<br><br>**Edad:**<br>25 años<br><br>**Distrito / Valle:**<br>Valleca, distrito de Pachacutec<br><br>**Segmento:**<br>Segmento 1: Agricultores y Administradores de Fincas<br><br>**Ocupación:**<br>Administradora de aproximadamente 2 ha de terreno agrícola<br><br>**Fecha:**<br>10/09/2026<br><br>**Timing de Video:**<br>00:00 – 04:42 (Duración: 04:42)                                                                                                                                | ![Captura Entrevista Ana Camila Bio Farías](https://github.com/user-attachments/assets/2969eed4-7730-456b-abd7-c3fa59909f36)<br><br>*[Ver fragmento (00:00)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=0s)*        | **Perfil Tecnológico y Dispositivos:**<br>En campo utiliza principalmente un smartphone Android por practicidad y también una laptop para tareas administrativas. En el celular utiliza principalmente Google Chrome. Utiliza WhatsApp para comunicarse con trabajadores, proveedores y compradores, banca móvil para realizar pagos y Excel para llevar cuentas de sus gastos.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Administra aproximadamente 2 hectáreas con cultivos principalmente de uva, arándanos y algunas parcelas de palta. Para la fumigación utiliza principalmente fumigadoras de mochila y, cuando necesita cubrir áreas grandes, contrata servicios de terceros, contratistas y maquinaria especializada. Detecta la presencia de plagas mediante recorridos de los trabajadores por las parcelas; cuando encuentran una zona afectada, la identifican de manera aproximada y a veces toman fotos que envían por WhatsApp. No cuenta con un sistema exacto para marcar en un mapa dónde se encuentra la plaga. Manifiesta problemas por la cantidad de mano de obra y tiempo requeridos por la fumigación manual, la aplicación de productos en zonas donde no siempre es necesario y los cambios del clima que pueden reducir el efecto del tratamiento. Registra los límites de las parcelas mediante la experiencia y planos, mientras que las fechas y productos se anotan en un cuaderno y algunas veces en hojas de Excel.<br><br>**Personalidad y Metas:**<br>Busca una gestión sencilla y práctica del terreno, con menos desperdicio de tiempo e insumos y sin utilizar programas complicados.<br><br>**Percepción de AgriDron Web:**<br>Considera útil una interfaz sencilla donde pueda ver el mapa de su terreno, seleccionar la parcela y marcar sus límites tocando puntos del mapa. También considera importante que el sistema muestre claramente cuánto está seleccionando. Al inicio requeriría una pequeña capacitación o tutorial. Valora mucho las alertas meteorológicas automáticas antes de contratar un servicio y, ante una suspensión, desea recibir una notificación en la página y por WhatsApp que indique qué parte de la parcela fue fumigada y cuánto quedó pendiente, para luego seleccionar los sectores pendientes y elegir una nueva fecha. También considera importante conservar el historial de lo realizado.<br><br>**Costo actual referido:**<br>Aproximadamente S/ 100 a S/ 150 por hectárea por jornada de fumigación tradicional.                                                                                                                                                                                                                                                                  |
-| **Nombres y Apellidos:**<br>Santiago Vargas<br><br>**Edad:**<br>20 años<br><br>**Distrito / Valle:**<br>Valle de Huaral<br><br>**Segmento:**<br>Segmento 1: Agricultores y Administradores de Fincas<br><br>**Ocupación:**<br>Técnico de apoyo en un fundo agrícola y apoyo en la gestión de un lote de aproximadamente 15 ha<br><br>**Fecha:**<br>11/09/2026<br><br>**Timing de Video:**<br>04:42 – 10:20 (Duración: 05:38)                                                                                                                 | ![Captura Entrevista Santiago Vargas](https://github.com/user-attachments/assets/7de1511f-5f7d-486b-9495-d28df3cff8b9)<br><br>*[Ver fragmento (04:42)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=282s)*            | **Perfil Tecnológico y Dispositivos:**<br>Utiliza principalmente un smartphone Android y, cuando llega a casa o a la oficina del fundo, también una laptop. Usa Google Chrome en ambos dispositivos. Para comunicarse utiliza WhatsApp; para pagos utiliza BCP; para manejar datos utiliza Excel y también Google Drive para organizar información.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Trabaja principalmente con frutales, sobre todo mandarina y palta, y apoya la gestión de un lote de aproximadamente 15 hectáreas. Para la fumigación utiliza mochilas pulverizadoras a motor y, para cultivos altos, a veces alquila una parihuela con mangueras. Detecta plagas mediante evaluaciones caminando por el campo, registra la incidencia en un cuaderno físico y luego intenta marcar la zona mentalmente para pasarla a Excel. Señala que el proceso consume bastante trabajo y tiempo, expone al personal a agroquímicos y, si la plaga avanza, puede generar pérdidas mayores. En época de mayor incidencia realiza fumigaciones aproximadamente cada 15 o 20 días. Para el clima utiliza aplicaciones durante la madrugada o el mismo día; el viento fuerte puede provocar deriva y desperdicio del producto.<br><br>**Personalidad y Metas:**<br>Busca simplificar el trabajo operativo, reducir desperdicios y evitar procesos manuales innecesarios.<br><br>**Percepción de AgriDron Web:**<br>Considera ideal poder acceder desde la laptop a un mapa tipo Google Maps, marcar la parcela mediante clics y contar con una interfaz intuitiva. Considera útil un video tutorial o una guía digital. Para una plataforma que reemplace el mapa físico, indique los límites y permita guardar datos, considera razonable un costo aproximado de S/ 30 a S/ 40 mensuales y señala que S/ 60 o más sería elevado. Considera muy útiles las alertas meteorológicas y desea recibir notificaciones por WhatsApp, Gmail o desde la propia aplicación para reprogramar con un botón las hectáreas pendientes.<br><br>**Registro actual:**<br>Cuenta con un Excel maestro para fechas y productos; los límites de la parcela se encuentran en un mapa impreso y, en ocasiones, usa Google Maps.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Nombres y Apellidos:**<br>Carlos Mendoza<br><br>**Edad:**<br>42 años<br><br>**Distrito / Valle:**<br>Desconocido<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Operador técnico y proveedor de servicios de fumigación con drones (aproximadamente 10 años de experiencia)<br><br>**Fecha:**<br>12/09/2026<br><br>**Timing de Video:**<br>10:20 – 14:25 (Duración: 04:05)                                                                                        | ![Captura Entrevista Carlos Mendoza](https://github.com/user-attachments/assets/c33dcc47-9be6-42bd-b33d-e38d1cb51246)<br><br>*[Ver fragmento (10:20)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=620s)*             | **Perfil Tecnológico y Dispositivos:**<br>Coordina sus servicios principalmente mediante WhatsApp y llamadas telefónicas. Para organizar los trabajos utiliza también anotaciones y hojas de Excel, especialmente cuando tiene varios servicios programados.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Realiza servicios de fumigación con drones desde hace aproximadamente 10 años para agricultores de diferentes zonas agrícolas, principalmente para aplicaciones preventivas o para controlar plagas. Cuando un agricultor solicita un servicio, necesita conocer la ubicación del terreno, el tipo de cultivo, la cantidad de hectáreas, las calles o áreas a trabajar y los productos que se aplicarán. Uno de los problemas frecuentes es recibir ubicaciones aproximadas, lo que puede generar confusión entre el área estimada y la superficie real. La coordinación de horarios, productos y cambios le toma bastante tiempo y actualmente la mayor parte de la información se gestiona mediante mensajes. Revisa principalmente el viento y la posibilidad de lluvia antes de trabajar; si las condiciones cambian, debe detenerse y coordinar nuevamente por llamada o WhatsApp. Los servicios realizados se registran de manera manual y no existe un sistema en el que el agricultor pueda consultar directamente el trabajo ejecutado. Esto también puede generar diferencias sobre cuánto se fumigó cuando una labor queda parcialmente realizada por problemas del equipo o por otras incidencias.<br><br>**Personalidad y Metas:**<br>Busca reducir el trabajo de coordinación y disponer de toda la información del servicio en un solo lugar.<br><br>**Percepción de AgriDron Web:**<br>Considera bastante útil una plataforma donde pueda registrar y organizar sus servicios en un calendario, visualizar las parcelas en un mapa y conocer el área antes de llegar al campo. También valora poder registrar las hectáreas tratadas, el volumen aplicado y las observaciones del servicio, así como consultar alertas meteorológicas para apoyar la decisión de programar o reprogramar. El principal cambio que realizaría es tener en un solo lugar la ubicación, el área, la fecha y el trabajo realizado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Nombres y Apellidos:**<br>Valeria Sofía Mendoza Ríos<br><br>**Edad:**<br>25 años<br><br>**Distrito / Valle:**<br>Valle de Cañete (Lima Provincias)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Estudiante de 8vo ciclo de Ingeniería Agrícola, técnica con experiencia en aplicación agrícola y responsable de operaciones en campo<br><br>**Fecha:**<br>13/09/2026<br><br>**Timing de Video:**<br>14:25 – 23:17 (Duración: 08:52)                             | ![Captura Entrevista Valeria Sofía Mendoza Ríos](https://github.com/user-attachments/assets/2808ac61-b937-46f9-a2c1-32ac37438f0a)<br><br>*[Ver fragmento (14:25)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=865s)* | **Perfil Tecnológico y Dispositivos:**<br>Durante las labores de campo utiliza la tablet que viene con el control del dron y su celular personal para llamadas. Para preparar planes de vuelo, revisar mapas cartográficos y pasar sus reportes técnicos utiliza una laptop con Google Chrome. Coordina solicitudes mediante WhatsApp, intenta agendar fechas en Google Calendar y lleva el control de gastos de mantenimiento y horas de vuelo en hojas de cálculo, resultándole tedioso coordinar horarios cuando se acumulan los pedidos en campaña alta.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Trabaja en el Valle de Cañete y ocasionalmente se desplaza al valle de Mala o Chincha para fundos de paltos, cítricos y maíz. Utiliza drones de 30 litros con boquillas para pulverización fina y realiza aplicaciones preventivas y curativas. Señala como dificultad importante la falta de ubicación exacta y linderos antes de llegar al campo, especialmente cuando existen cables de luz, árboles altos o cercas. En ocasiones debe caminar el borde del cultivo o pilotar el dron a baja altura para marcar puntos de referencia, lo que le toma entre 40 minutos y una hora antes del primer vuelo operativo. También enfrenta diferencias entre las áreas declaradas por el agricultor y el área realmente cultivable o tratada. Registra datos como fecha, fundo, lote, número de descargas, insumos y volumen de agua en un Excel de apuntes de campo. Antes de trabajar revisa pronósticos meteorológicos y en el campo verifica condiciones como viento y temperatura; menciona como referencia evitar trabajar cuando el viento supera aproximadamente 12–15 km/h o la temperatura llega a 28 °C. Las suspensiones por clima pueden generar dificultades para explicarle la decisión al agricultor.<br><br>**Personalidad y Metas:**<br>Busca profesionalizar el servicio mediante trazabilidad y mejorar la coordinación y el uso del tiempo en campo.<br><br>**Percepción de AgriDron Web:**<br>Considera que un calendario con órdenes de servicio y parcelas ya delimitadas en un mapa satelital reduciría el tiempo de reconocimiento previo. Valora una bitácora web rápida para registrar las hectáreas reales, el volumen aplicado y observaciones, y que el cliente pueda recibir un reporte técnico. También considera muy útil contar con alertas climáticas como respaldo técnico para pausar o reprogramar trabajos. Finalmente, considera muy práctico ver en tiempo real la batería, la posición y el líquido restante del dron, tanto para controlar la operación como para permitir al agricultor visualizar estos datos desde su celular.<br><br>**Tarifa referida:**<br>Aproximadamente S/ 70 a S/ 90 por hectárea fumigada. |
-| **Nombres y Apellidos:**<br>Daniel Arias Dextre (en representación de su padre, Roberto Arias)<br><br>**Edad:**<br>24 años<br><br>**Distrito / Valle:**<br>Reside en Lima (operaciones familiares en el Valle de Ica y Arequipa)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Asistente técnico operativo y co-gestor del negocio familiar de fumigación agroaérea<br><br>**Fecha:**<br>13/09/2026<br><br>**Timing de Video:**<br>23:17 – 29:56 (Duración: 06:39) | ![Captura Entrevista Daniel Arias Dextre](https://github.com/user-attachments/assets/ac2a0e0e-787f-4bd8-8b96-d8a7905c2fc1)<br><br>*[Ver fragmento (23:17)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=1397s)*       | **Perfil Tecnológico y Dispositivos:**<br>En el campo utilizan principalmente un celular Android y una tablet de apoyo para revisar fotos o información del predio. La laptop se utiliza en casa para reportes, facturas y organización de datos en Excel. Las principales herramientas de coordinación son WhatsApp y Google Calendar; los clientes envían cotizaciones, ubicaciones y confirmaciones por WhatsApp y las fechas tentativas se colocan en el calendario.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Prestan servicios principalmente en el Valle de Ica y ocasionalmente en Arequipa para fundos de algodón, espárrago y vid. Utilizan principalmente un DJI T10 de 10 litros y cuentan con otro dron como respaldo para trabajos preventivos y curativos, cubriendo aproximadamente 15 a 25 ha por día con una tarifa aproximada de S/ 35 a S/ 55 por hectárea. Antes de trasladarse necesitan conocer el cultivo, producto, hectáreas, ubicación exacta y obstáculos como postes, árboles o cables. Cuando el cliente solo envía una referencia aproximada, deben recorrer el perímetro con el encargado para confirmar dónde empieza y termina la parcela, lo que puede tomar más de 30 minutos. También se presentan diferencias entre las hectáreas estimadas y el área real y dudas sobre la cobertura cuando el viento dispersa el producto. No cuentan con una bitácora digital unificada: anotan los datos en una libreta, guardan fotos en el celular y luego pasan la información a Excel. Antes de autorizar el despegue revisan Google Weather y, al llegar al campo, miden el viento con un anemómetro; señalan que no trabajan por encima de 15 km/h. Ante una suspensión por lluvia o viento no cuentan con un acta o registro formal para justificar el avance parcial frente al cliente.<br><br>**Personalidad y Metas:**<br>Busca reducir la duplicidad de tareas administrativas, agilizar la llegada al campo y evitar discrepancias con los clientes mediante registros digitales más claros.<br><br>**Percepción de AgriDron Web:**<br>Considera que una plataforma con la parcela ya dibujada en un mapa satelital permitiría llegar al campo con el terreno identificado, ahorrar aproximadamente 20 a 30 minutos por servicio y planificar mejor la ruta. Valora una bitácora web para registrar directamente desde el celular las hectáreas, productos y observaciones realizadas y que el agricultor tenga un registro claro. También considera útiles las alertas climáticas para justificar técnicamente una suspensión o reprogramación y la posibilidad de tener en un solo lugar la información del servicio.                                                                                                        |
+| **Nombres y Apellidos:**<br>Ana Camila Bio Farías<br><br>**Edad:**<br>25 años<br><br>**Distrito / Valle:**<br>Valleca, distrito de Pachacutec<br><br>**Segmento:**<br>Segmento 1: Pequeños y Medianos Agricultores (PyMAs)<br><br>**Ocupación:**<br>Administradora de aproximadamente 2 ha de terreno agrícola<br><br>**Fecha:**<br>10/09/2026<br><br>**Timing de Video:**<br>00:00 – 04:42 (Duración: 04:42)                                                                                                                                | ![Captura Entrevista Ana Camila Bio Farías](https://github.com/user-attachments/assets/2969eed4-7730-456b-abd7-c3fa59909f36)<br><br>*[Ver fragmento (00:00)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=0s)*        | **Perfil Tecnológico y Dispositivos:**<br>En campo utiliza principalmente un smartphone Android por practicidad y también una laptop para tareas administrativas. En el celular utiliza principalmente Google Chrome. Utiliza WhatsApp para comunicarse con trabajadores, proveedores y compradores, banca móvil para realizar pagos y Excel para llevar cuentas de sus gastos.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Administra aproximadamente 2 hectáreas con cultivos principalmente de uva, arándanos y algunas parcelas de palta. Para la fumigación utiliza principalmente fumigadoras de mochila y, cuando necesita cubrir áreas grandes, contrata servicios de terceros, contratistas y maquinaria especializada. Detecta la presencia de plagas mediante recorridos de los trabajadores por las parcelas; cuando encuentran una zona afectada, la identifican de manera aproximada y a veces toman fotos que envían por WhatsApp. No cuenta con un sistema exacto para marcar en un mapa dónde se encuentra la plaga. Manifiesta problemas por la cantidad de mano de obra y tiempo requeridos por la fumigación manual, la aplicación de productos en zonas donde no siempre es necesario y los cambios del clima que pueden reducir el efecto del tratamiento. Registra los límites de las parcelas mediante la experiencia y planos, mientras que las fechas y productos se anotan en un cuaderno y algunas veces en hojas de Excel.<br><br>**Personalidad y Metas:**<br>Busca una gestión sencilla y práctica del terreno, con menos desperdicio de tiempo e insumos y sin utilizar programas complicados.<br><br>**Percepción de AgriDron Web:**<br>Considera útil una interfaz sencilla donde pueda ver el mapa de su terreno, seleccionar la parcela y marcar sus límites tocando puntos del mapa. También considera importante que el sistema muestre claramente cuánto está seleccionando. Al inicio requeriría una pequeña capacitación o tutorial. Valora mucho las alertas meteorológicas automáticas antes de contratar un servicio y, ante una suspensión, desea recibir una notificación en la página y por WhatsApp que indique qué parte de la parcela fue fumigada y cuánto quedó pendiente, para luego seleccionar los sectores pendientes y elegir una nueva fecha. También considera importante conservar el historial de lo realizado.<br><br>**Costo actual referido:**<br>Aproximadamente S/ 100 a S/ 150 por hectárea por jornada de fumigación tradicional.                                                                                                                                                                                                                                                                  |
+| **Nombres y Apellidos:**<br>Santiago Vargas<br><br>**Edad:**<br>20 años<br><br>**Distrito / Valle:**<br>Valle de Huaral<br><br>**Segmento:**<br>Segmento 1: Pequeños y Medianos Agricultores (PyMAs)<br><br>**Ocupación:**<br>Técnico de apoyo en un fundo agrícola y apoyo en la gestión de un lote de aproximadamente 15 ha<br><br>**Fecha:**<br>11/09/2026<br><br>**Timing de Video:**<br>04:42 – 10:20 (Duración: 05:38)                                                                                                                 | ![Captura Entrevista Santiago Vargas](https://github.com/user-attachments/assets/7de1511f-5f7d-486b-9495-d28df3cff8b9)<br><br>*[Ver fragmento (04:42)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=282s)*            | **Perfil Tecnológico y Dispositivos:**<br>Utiliza principalmente un smartphone Android y, cuando llega a casa o a la oficina del fundo, también una laptop. Usa Google Chrome en ambos dispositivos. Para comunicarse utiliza WhatsApp; para pagos utiliza BCP; para manejar datos utiliza Excel y también Google Drive para organizar información.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Trabaja principalmente con frutales, sobre todo mandarina y palta, y apoya la gestión de un lote de aproximadamente 15 hectáreas. Para la fumigación utiliza mochilas pulverizadoras a motor y, para cultivos altos, a veces alquila una parihuela con mangueras. Detecta plagas mediante evaluaciones caminando por el campo, registra la incidencia en un cuaderno físico y luego intenta marcar la zona mentalmente para pasarla a Excel. Señala que el proceso consume bastante trabajo y tiempo, expone al personal a agroquímicos y, si la plaga avanza, puede generar pérdidas mayores. En época de mayor incidencia realiza fumigaciones aproximadamente cada 15 o 20 días. Para el clima utiliza aplicaciones durante la madrugada o el mismo día; el viento fuerte puede provocar deriva y desperdicio del producto.<br><br>**Personalidad y Metas:**<br>Busca simplificar el trabajo operativo, reducir desperdicios y evitar procesos manuales innecesarios.<br><br>**Percepción de AgriDron Web:**<br>Considera ideal poder acceder desde la laptop a un mapa tipo Google Maps, marcar la parcela mediante clics y contar con una interfaz intuitiva. Considera útil un video tutorial o una guía digital. Para una plataforma que reemplace el mapa físico, indique los límites y permita guardar datos, considera razonable un costo aproximado de S/ 30 a S/ 40 mensuales y señala que S/ 60 o más sería elevado. Considera muy útiles las alertas meteorológicas y desea recibir notificaciones por WhatsApp, Gmail o desde la propia aplicación para reprogramar con un botón las hectáreas pendientes.<br><br>**Registro actual:**<br>Cuenta con un Excel maestro para fechas y productos; los límites de la parcela se encuentran en un mapa impreso y, en ocasiones, usa Google Maps.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Nombres y Apellidos:**<br>Carlos Mendoza<br><br>**Edad:**<br>42 años<br><br>**Distrito / Valle:**<br>Desconocido<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos de Drones<br><br>**Ocupación:**<br>Operador técnico y proveedor de servicios de fumigación con drones (aproximadamente 10 años de experiencia)<br><br>**Fecha:**<br>12/09/2026<br><br>**Timing de Video:**<br>10:20 – 14:25 (Duración: 04:05)                                                                                        | ![Captura Entrevista Carlos Mendoza](https://github.com/user-attachments/assets/c33dcc47-9be6-42bd-b33d-e38d1cb51246)<br><br>*[Ver fragmento (10:20)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=620s)*             | **Perfil Tecnológico y Dispositivos:**<br>Coordina sus servicios principalmente mediante WhatsApp y llamadas telefónicas. Para organizar los trabajos utiliza también anotaciones y hojas de Excel, especialmente cuando tiene varios servicios programados.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Realiza servicios de fumigación con drones desde hace aproximadamente 10 años para agricultores de diferentes zonas agrícolas, principalmente para aplicaciones preventivas o para controlar plagas. Cuando un agricultor solicita un servicio, necesita conocer la ubicación del terreno, el tipo de cultivo, la cantidad de hectáreas, las calles o áreas a trabajar y los productos que se aplicarán. Uno de los problemas frecuentes es recibir ubicaciones aproximadas, lo que puede generar confusión entre el área estimada y la superficie real. La coordinación de horarios, productos y cambios le toma bastante tiempo y actualmente la mayor parte de la información se gestiona mediante mensajes. Revisa principalmente el viento y la posibilidad de lluvia antes de trabajar; si las condiciones cambian, debe detenerse y coordinar nuevamente por llamada o WhatsApp. Los servicios realizados se registran de manera manual y no existe un sistema en el que el agricultor pueda consultar directamente el trabajo ejecutado. Esto también puede generar diferencias sobre cuánto se fumigó cuando una labor queda parcialmente realizada por problemas del equipo o por otras incidencias.<br><br>**Personalidad y Metas:**<br>Busca reducir el trabajo de coordinación y disponer de toda la información del servicio en un solo lugar.<br><br>**Percepción de AgriDron Web:**<br>Considera bastante útil una plataforma donde pueda registrar y organizar sus servicios en un calendario, visualizar las parcelas en un mapa y conocer el área antes de llegar al campo. También valora poder registrar las hectáreas tratadas, el volumen aplicado y las observaciones del servicio, así como consultar alertas meteorológicas para apoyar la decisión de programar o reprogramar. El principal cambio que realizaría es tener en un solo lugar la ubicación, el área, la fecha y el trabajo realizado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Nombres y Apellidos:**<br>Valeria Sofía Mendoza Ríos<br><br>**Edad:**<br>25 años<br><br>**Distrito / Valle:**<br>Valle de Cañete (Lima Provincias)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos de Drones<br><br>**Ocupación:**<br>Estudiante de 8vo ciclo de Ingeniería Agrícola, técnica con experiencia en aplicación agrícola y responsable de operaciones en campo<br><br>**Fecha:**<br>13/09/2026<br><br>**Timing de Video:**<br>14:25 – 23:17 (Duración: 08:52)                             | ![Captura Entrevista Valeria Sofía Mendoza Ríos](https://github.com/user-attachments/assets/2808ac61-b937-46f9-a2c1-32ac37438f0a)<br><br>*[Ver fragmento (14:25)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=865s)* | **Perfil Tecnológico y Dispositivos:**<br>Durante las labores de campo utiliza la tablet que viene con el control del dron y su celular personal para llamadas. Para preparar planes de vuelo, revisar mapas cartográficos y pasar sus reportes técnicos utiliza una laptop con Google Chrome. Coordina solicitudes mediante WhatsApp, intenta agendar fechas en Google Calendar y lleva el control de gastos de mantenimiento y horas de vuelo en hojas de cálculo, resultándole tedioso coordinar horarios cuando se acumulan los pedidos en campaña alta.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Trabaja en el Valle de Cañete y ocasionalmente se desplaza al valle de Mala o Chincha para fundos de paltos, cítricos y maíz. Utiliza drones de 30 litros con boquillas para pulverización fina y realiza aplicaciones preventivas y curativas. Señala como dificultad importante la falta de ubicación exacta y linderos antes de llegar al campo, especialmente cuando existen cables de luz, árboles altos o cercas. En ocasiones debe caminar el borde del cultivo o pilotar el dron a baja altura para marcar puntos de referencia, lo que le toma entre 40 minutos y una hora antes del primer vuelo operativo. También enfrenta diferencias entre las áreas declaradas por el agricultor y el área realmente cultivable o tratada. Registra datos como fecha, fundo, lote, número de descargas, insumos y volumen de agua en un Excel de apuntes de campo. Antes de trabajar revisa pronósticos meteorológicos y en el campo verifica condiciones como viento y temperatura; menciona como referencia evitar trabajar cuando el viento supera aproximadamente 12–15 km/h o la temperatura llega a 28 °C. Las suspensiones por clima pueden generar dificultades para explicarle la decisión al agricultor.<br><br>**Personalidad y Metas:**<br>Busca profesionalizar el servicio mediante trazabilidad y mejorar la coordinación y el uso del tiempo en campo.<br><br>**Percepción de AgriDron Web:**<br>Considera que un calendario con órdenes de servicio y parcelas ya delimitadas en un mapa satelital reduciría el tiempo de reconocimiento previo. Valora una bitácora web rápida para registrar las hectáreas reales, el volumen aplicado y observaciones, y que el cliente pueda recibir un reporte técnico. También considera muy útil contar con alertas climáticas como respaldo técnico para pausar o reprogramar trabajos. Finalmente, considera muy práctico ver en tiempo real la batería, la posición y el líquido restante del dron, tanto para controlar la operación como para permitir al agricultor visualizar estos datos desde su celular.<br><br>**Tarifa referida:**<br>Aproximadamente S/ 70 a S/ 90 por hectárea fumigada. |
+| **Nombres y Apellidos:**<br>Daniel Arias Dextre (en representación de su padre, Roberto Arias)<br><br>**Edad:**<br>24 años<br><br>**Distrito / Valle:**<br>Reside en Lima (operaciones familiares en el Valle de Ica y Arequipa)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos de Drones<br><br>**Ocupación:**<br>Asistente técnico operativo y co-gestor del negocio familiar de fumigación agroaérea<br><br>**Fecha:**<br>13/09/2026<br><br>**Timing de Video:**<br>23:17 – 29:56 (Duración: 06:39) | ![Captura Entrevista Daniel Arias Dextre](https://github.com/user-attachments/assets/ac2a0e0e-787f-4bd8-8b96-d8a7905c2fc1)<br><br>*[Ver fragmento (23:17)](https://www.youtube.com/watch?v=f4bgtmrQYxk&t=1397s)*       | **Perfil Tecnológico y Dispositivos:**<br>En el campo utilizan principalmente un celular Android y una tablet de apoyo para revisar fotos o información del predio. La laptop se utiliza en casa para reportes, facturas y organización de datos en Excel. Las principales herramientas de coordinación son WhatsApp y Google Calendar; los clientes envían cotizaciones, ubicaciones y confirmaciones por WhatsApp y las fechas tentativas se colocan en el calendario.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Prestan servicios principalmente en el Valle de Ica y ocasionalmente en Arequipa para fundos de algodón, espárrago y vid. Utilizan principalmente un DJI T10 de 10 litros y cuentan con otro dron como respaldo para trabajos preventivos y curativos, cubriendo aproximadamente 15 a 25 ha por día con una tarifa aproximada de S/ 35 a S/ 55 por hectárea. Antes de trasladarse necesitan conocer el cultivo, producto, hectáreas, ubicación exacta y obstáculos como postes, árboles o cables. Cuando el cliente solo envía una referencia aproximada, deben recorrer el perímetro con el encargado para confirmar dónde empieza y termina la parcela, lo que puede tomar más de 30 minutos. También se presentan diferencias entre las hectáreas estimadas y el área real y dudas sobre la cobertura cuando el viento dispersa el producto. No cuentan con una bitácora digital unificada: anotan los datos en una libreta, guardan fotos en el celular y luego pasan la información a Excel. Antes de autorizar el despegue revisan Google Weather y, al llegar al campo, miden el viento con un anemómetro; señalan que no trabajan por encima de 15 km/h. Ante una suspensión por lluvia o viento no cuentan con un acta o registro formal para justificar el avance parcial frente al cliente.<br><br>**Personalidad y Metas:**<br>Busca reducir la duplicidad de tareas administrativas, agilizar la llegada al campo y evitar discrepancias con los clientes mediante registros digitales más claros.<br><br>**Percepción de AgriDron Web:**<br>Considera que una plataforma con la parcela ya dibujada en un mapa satelital permitiría llegar al campo con el terreno identificado, ahorrar aproximadamente 20 a 30 minutos por servicio y planificar mejor la ruta. Valora una bitácora web para registrar directamente desde el celular las hectáreas, productos y observaciones realizadas y que el agricultor tenga un registro claro. También considera útiles las alertas climáticas para justificar técnicamente una suspensión o reprogramación y la posibilidad de tener en un solo lugar la información del servicio.                                                                                                        |
 
 
 ### 2.2.3. Análisis de entrevistas
 
 | Segmento Objetivo                                                             | Análisis Estadístico y Cualitativo de Hallazgos                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Segmento 1:**<br>Agricultores y Administradores de Fincas                   | **1. Variables Demográficas y Geográficas:**<br>• **Rango de edad:** La muestra presenta un espectro generacional distribuido en un 50% de jóvenes profesionales tecnificados (25 años) y un 50% de agricultores tradicionales de mayor experiencia.<br>• **Distribución geográfica:** 50% en el Valle de Ica (distrito de Subtanjalla) y 50% en valles costeros aledaños a Lima.<br>• **Tamaño de predio y cultivos:** Predominan cultivos de alta rentabilidad como frutales (uva de mesa, mandarina, palta) y hortalizas (espárrago), con áreas productivas que oscilan entre medianas (18 ha) y pequeñas parcelas familiares.<br><br>**2. Variables Tecnológicas y Canales de Interacción:**<br>• **Dispositivos móviles:** El 100% de los entrevistados utiliza smartphone Android como dispositivo primario de trabajo en campo.<br>• **Dispositivos de escritorio / Navegadores:** El 50% utiliza laptops para tareas administrativas al cierre del día, mientras que el 50% prescinde por completo de la computadora para la gestión agrícola. El 100% que navega en internet emplea Google Chrome.<br>• **Canales de comunicación y banca:** El 100% utiliza WhatsApp como herramienta prioritaria de coordinación operativa y transaccional con personal y proveedores, y el 100% recurre a aplicativos de banca móvil para el pago de jornales y servicios.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Métodos actuales y costos:** El 100% emplea métodos tradicionales combinados (tractores con barras/parihuelas y cuadrillas con mochilas manuales a motor), reportando un gasto de entre 180 a 200 soles por hectárea tratada en pasadas convencionales.<br>• **Inconvenientes fitosanitarios y de supervisión:** El 100% manifiesta frustración por la alta exposición de los operarios a agroquímicos, el excesivo consumo de agua/producto, la compactación del suelo y el daño físico a flores y ramas. La supervisión presencial resulta agotadora e ineficiente.<br>• **Registro cartográfico y administrativo:** El 100% carece de cartografía digital; los linderos se mantienen de memoria o en planos de papel antiguos, y los registros de insumos y fechas se llevan manualmente en cuadernos de campo (el 50% los traslada posteriormente a hojas de Excel).<br>• **Impacto climático:** El 100% sufre pérdidas directas de dinero por vientos imprevistos que causan deriva y evaporación del fitosanitario fuera del lote.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Delimitación satelital interactiva:** El 100% califica positivamente el mapeo sobre imágenes satelitales, destacando que un 50% prefiere trazo por clics en pantalla y un 50% sugiere delimitación asistida mediante GPS móvil o acompañamiento inicial.<br>• **Alertas meteorológicas:** El 100% considera indispensable recibir alertas preventivas automáticas de viento y humedad para evitar preparar caldo o coordinar visitas fallidas.<br>• **Seguimiento y reprogramación:** El 100% exige reportes visuales ágiles ante cancelaciones por mal clima que detallen claramente las hectáreas tratadas frente a las pendientes, con opción de reprogramación inmediata (idealmente vinculada a notificaciones breves).<br>• **Disposición a pagar:** Presentan una disposición de suscripción mensual que varía entre los 40 y 120 soles, directamente proporcional al tamaño del predio tecnificado.                                                                                                                                                                                                              |
-| **Segmento 2:**<br>Operadores Técnicos y Proveedores de Fumigación con Drones | **1. Variables Demográficas y Perfil Profesional:**<br>• **Rango de edad:** La edad promedio observada se distribuye entre jóvenes técnicos en formación (24 a 25 años, 66.7%) y operadores consolidados (38 años, 33.3%).<br>• **Ámbito de operación:** Cobertura de valles de la costa central y sur (Cañete, Mala, Chincha, Ica y Arequipa).<br>• **Nivel formativo:** El 66.7% cuenta con formación técnica o universitaria en ciencias agrícolas (Ingeniería Agrícola / Agronomía) complementada con acreditaciones de pilotaje, mientras que el 33.3% posee una trayectoria práctica especializada de hasta 6 años en operación continua.<br><br>**2. Variables Tecnológicas y Ecosistema Digital:**<br>• **Equipamiento en campo:** El 100% utiliza smartphones Android para la coordinación diaria, un 66.7% opera además con tablets (integradas en la radiocontroladora del dron o de apoyo fotográfico) y el 100% usa laptops en gabinete para consolidación administrativa mediante Google Chrome.<br>• **Canales y herramientas de gestión:** El 100% depende de WhatsApp y llamadas telefónicas para cotizaciones y acuerdos de servicio; el 66.7% recurre a Google Calendar para agendar citas tentativas y el 100% utiliza hojas de cálculo (Google Sheets / Microsoft Excel) como bitácora y control de costos.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Capacidad de servicio y tarifas:** Operan drones multirrotor de 10 a 30 litros de capacidad para aplicaciones preventivas y curativas. El rendimiento diario promedio oscila entre 15 y 35 ha/día, con tarifas cobradas al cliente entre 35 y 90 soles por hectárea fumigada.<br>• **Dolor en delimitación y reconocimiento perimetral:** El 100% coincide en que la falta de coordenadas precisas o linderos satelitales formalizados genera pérdidas de 30 a 60 minutos por servicio al tener que caminar los terrenos a pie o realizar vuelos manuales previos de reconocimiento para ubicar obstáculos (postes, acequias, árboles).<br>• **Disputas de área y justificación técnica:** El 100% reporta desconfianza y fricciones frecuentes con los agricultores debido a diferencias entre el área calculada mediante mediciones referenciales y la superficie neta pulverizada que mide el GPS del dron. Asimismo, el 100% enfrenta dificultades para justificar suspensiones por ráfagas de viento mayores a 12-15 km/h al carecer de actas o sustentos meteorológicos formales ante el cliente.<br>• **Desgaste de coordinación:** El 100% califica como ineficiente y agotador el proceso de cotizar y ajustar horarios atendiendo mensajes dispersos mientras ejecutan maniobras en campo.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Mapas y parcelas predefinidas:** El 100% valida que recibir la parcela previamente trazada por el agricultor reduciría hasta un 80% el tiempo de alistamiento de vuelo en campo.<br>• **Bitácora digital inmediata:** El 100% considera de alta utilidad emitir un acta digital rápida al culminar la labor para registrar hectáreas reales, químicos de fumigación aplicados e incidencias, evitando disputas de cobro.<br>• **Alertas meteorológicas:** El 100% señala que las alertas climáticas integradas respaldan técnicamente la decisión de pausar o posponer una labor sin deteriorar la relación con el agricultor.<br>• **Monitoreo de estado en tiempo real:** El 100% de los consultados en este aspecto califica como una función fundamental visualizar el estado del dron (batería, ubicación , quimico restante,etc.) para brindar total transparencia y hacer un mejor trabajo. |
+| **Segmento 1:**<br>Pequeños y Medianos Agricultores (PyMAs)                   | **1. Variables Demográficas y Geográficas:**<br>• **Rango de edad:** La muestra presenta un espectro generacional distribuido en un 50% de jóvenes profesionales tecnificados (25 años) y un 50% de agricultores tradicionales de mayor experiencia.<br>• **Distribución geográfica:** 50% en el Valle de Ica (distrito de Subtanjalla) y 50% en valles costeros aledaños a Lima.<br>• **Tamaño de predio y cultivos:** Predominan cultivos de alta rentabilidad como frutales (uva de mesa, mandarina, palta) y hortalizas (espárrago), con áreas productivas que oscilan entre medianas (18 ha) y pequeñas parcelas familiares.<br><br>**2. Variables Tecnológicas y Canales de Interacción:**<br>• **Dispositivos móviles:** El 100% de los entrevistados utiliza smartphone Android como dispositivo primario de trabajo en campo.<br>• **Dispositivos de escritorio / Navegadores:** El 50% utiliza laptops para tareas administrativas al cierre del día, mientras que el 50% prescinde por completo de la computadora para la gestión agrícola. El 100% que navega en internet emplea Google Chrome.<br>• **Canales de comunicación y banca:** El 100% utiliza WhatsApp como herramienta prioritaria de coordinación operativa y transaccional con personal y proveedores, y el 100% recurre a aplicaciones de banca móvil para el pago de jornales y servicios.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Métodos actuales y costos:** El 100% emplea métodos tradicionales combinados (tractores con barras/parihuelas y cuadrillas con mochilas manuales a motor), reportando un gasto de entre 180 a 200 soles por hectárea tratada en pasadas convencionales.<br>• **Inconvenientes fitosanitarios y de supervisión:** El 100% manifiesta frustración por la alta exposición de los operarios a agroquímicos, el excesivo consumo de agua/producto, la compactación del suelo y el daño físico a flores y ramas. La supervisión presencial resulta agotadora e ineficiente.<br>• **Registro cartográfico y administrativo:** El 100% carece de cartografía digital; los linderos se mantienen de memoria o en planos de papel antiguos, y los registros de insumos y fechas se llevan manualmente en cuadernos de campo (el 50% los traslada posteriormente a hojas de Excel).<br>• **Impacto climático:** El 100% sufre pérdidas directas de dinero por vientos imprevistos que causan deriva y evaporación del fitosanitario fuera del lote.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Delimitación satelital interactiva:** El 100% califica positivamente el mapeo sobre imágenes satelitales, destacando que un 50% prefiere trazo por clics en pantalla y un 50% sugiere delimitación asistida mediante GPS móvil o acompañamiento inicial.<br>• **Alertas meteorológicas:** El 100% considera indispensable recibir alertas preventivas automáticas de viento y humedad para evitar preparar caldo o coordinar visitas fallidas.<br>• **Seguimiento y reprogramación:** El 100% exige reportes visuales ágiles ante cancelaciones por mal clima que detallen claramente las hectáreas tratadas frente a las pendientes, con opción de reprogramación inmediata (idealmente vinculada a notificaciones breves).<br>• **Disposición a pagar:** Presentan una disposición de suscripción mensual que varía entre los 40 y 120 soles, directamente proporcional al tamaño del predio tecnificado.                                                                                                                                                                                                              |
+| **Segmento 2:**<br>Operadores Técnicos de Drones | **1. Variables Demográficas y Perfil Profesional:**<br>• **Rango de edad:** La edad promedio observada se distribuye entre jóvenes técnicos en formación (24 a 25 años, 66.7%) y operadores consolidados (38 años, 33.3%).<br>• **Ámbito de operación:** Cobertura de valles de la costa central y sur (Cañete, Mala, Chincha, Ica y Arequipa).<br>• **Nivel formativo:** El 66.7% cuenta con formación técnica o universitaria en ciencias agrícolas (Ingeniería Agrícola / Agronomía) complementada con acreditaciones de pilotaje, mientras que el 33.3% posee una trayectoria práctica especializada de hasta 6 años en operación continua.<br><br>**2. Variables Tecnológicas y Ecosistema Digital:**<br>• **Equipamiento en campo:** El 100% utiliza smartphones Android para la coordinación diaria, un 66.7% opera además con tablets (integradas en la radiocontroladora del dron o de apoyo fotográfico) y el 100% usa laptops en gabinete para consolidación administrativa mediante Google Chrome.<br>• **Canales y herramientas de gestión:** El 100% depende de WhatsApp y llamadas telefónicas para cotizaciones y acuerdos de servicio; el 66.7% recurre a Google Calendar para agendar citas tentativas y el 100% utiliza hojas de cálculo (Google Sheets / Microsoft Excel) como bitácora y control de costos.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Capacidad de servicio y tarifas:** Operan drones multirrotor de 10 a 30 litros de capacidad para aplicaciones preventivas y curativas. El rendimiento diario promedio oscila entre 15 y 35 ha/día, con tarifas cobradas al cliente entre 35 y 90 soles por hectárea fumigada.<br>• **Dolor en delimitación y reconocimiento perimetral:** El 100% coincide en que la falta de coordenadas precisas o linderos satelitales formalizados genera pérdidas de 30 a 60 minutos por servicio al tener que caminar los terrenos a pie o realizar vuelos manuales previos de reconocimiento para ubicar obstáculos (postes, acequias, árboles).<br>• **Disputas de área y justificación técnica:** El 100% reporta desconfianza y fricciones frecuentes con los agricultores debido a diferencias entre el área calculada mediante mediciones referenciales y la superficie neta pulverizada que mide el GPS del dron. Asimismo, el 100% enfrenta dificultades para justificar suspensiones por ráfagas de viento mayores a 12-15 km/h al carecer de actas o sustentos meteorológicos formales ante el cliente.<br>• **Desgaste de coordinación:** El 100% califica como ineficiente y agotador el proceso de cotizar y ajustar horarios atendiendo mensajes dispersos mientras ejecutan maniobras en campo.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Mapas y parcelas predefinidas:** El 100% valida que recibir la parcela previamente trazada por el agricultor reduciría hasta un 80% el tiempo de alistamiento de vuelo en campo.<br>• **Bitácora digital inmediata:** El 100% considera de alta utilidad emitir un acta digital rápida al culminar la labor para registrar hectáreas reales, químicos de fumigación aplicados e incidencias, evitando disputas de cobro.<br>• **Alertas meteorológicas:** El 100% señala que las alertas climáticas integradas respaldan técnicamente la decisión de pausar o posponer una labor sin deteriorar la relación con el agricultor.<br>• **Monitoreo de estado en tiempo real:** El 100% de los consultados en este aspecto califica como una función fundamental visualizar el estado del dron (batería, ubicación , quimico restante,etc.) para brindar total transparencia y hacer un mejor trabajo. |
 
 ---
 
 ## 2.3. Needfinding
 
+En esta sección se presentan los artefactos resultantes del análisis de la información recolectada en las entrevistas (2.2): los User Personas de cada segmento objetivo, el User Task Matrix, los User Journey Maps y los Empathy Maps, elaborados en UXPressia.
+
 ### 2.3.1. User Personas
 
-#### Persona 1:
+Los User Personas sintetizan las características más representativas de cada segmento objetivo identificadas en el análisis de entrevistas (2.2.3): datos demográficos, dispositivos y canales digitales, objetivos, motivaciones y frustraciones. Sus frustraciones también reflejan las brechas identificadas en el análisis competitivo (2.1), como el alto costo de las plataformas existentes y la falta de un canal único entre agricultor y operador. Se elaboró una ficha por cada segmento en UXPressia.
 
-<div align="center">
-  <img src="./assets/Chapter2/Userpersona-Segmento-1.png" alt="User Persona Segmento 1" />
-</div>
-<br>
+#### User Persona del Segmento 1, Pequeños y Medianos Agricultores (PyMAs): Laura Ramos Paucar
+
+![User Persona del Segmento 1: Laura Ramos Paucar](./assets/Chapter2/Userpersona-Segmento-1.png)
+
 Laura cursa el 10mo ciclo de Ingeniería Agrónoma y se desempeña como administradora de campo en el distrito de Subtanjalla, Ica. Combina sus conocimientos técnicos en monitoreo y sanidad vegetal con la gestión diaria del predio agrícola familiar, buscando incorporar tecnologías de precisión para optimizar el uso de agua e insumos y mejorar el control de plagas. En su trabajo enfrenta problemas como la aplicación de productos químicos condicionada por el viento, el registro manual de tratamientos, la falta de información digital para delimitar áreas y la dificultad de coordinar labores cuando las condiciones climáticas interrumpen el trabajo.
 
-#### Persona 2: 
+#### User Persona del Segmento 2, Operadores Técnicos de Drones: Diego Mendoza Ríos
 
-<div align = "center"> 
-  <img  witdh = "789" height="1600"src="./assets/Chapter2/Userpersona-Segmento-2.png" alt="User Persona Segmento 1" />
-</div>
-<br>
-Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
-en pilotaje de multirrotores y aplicación aeroagrícola. Opera un dron con tanque de 40 litros para tratamientos preventivos y curativos
-en frutales (palto, vid, cítricos) y panllevar en el valle de Cañete y valles vecinos (Mala, Quilmaná). Apoya las labores técnicas
-en el predio agrícola de su familia y presta servicios a terceros, enfrentando a diario la falta de cartografía formal de
-los clientes y el desgaste de coordinar cotizaciones por chat.
+![User Persona del Segmento 2: Diego Mendoza Ríos](./assets/Chapter2/Userpersona-Segmento-2.png)
+
+Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones en pilotaje de multirrotores y aplicación aeroagrícola. Opera un dron con tanque de 30 litros para tratamientos preventivos y curativos en frutales (palto, vid, cítricos) y panllevar en el valle de Cañete y valles vecinos (Mala, Chincha). Apoya las labores técnicas en el predio agrícola de su familia y presta servicios a terceros, enfrentando a diario la falta de cartografía formal de los clientes y el desgaste de coordinar cotizaciones por chat.
 
 ### 2.3.2. User Task Matrix
 
-<div> 
-  <img src="./assets/Chapter2/UserTaskMatrix.png" alt="User Task Matrix" />
-</div>
+El User Task Matrix considera los dos segmentos objetivo: Pequeños y Medianos Agricultores (PyMAs), representados por el User Persona Laura Ramos Paucar, y Operadores Técnicos de Drones, representados por el User Persona Diego Mendoza Ríos. Para cada segmento se identificaron nueve tareas que realizan actualmente para cumplir sus objetivos, independientemente de la existencia de la solución, junto con su frecuencia e importancia.
+
+![User Task Matrix](./assets/Chapter2/UserTaskMatrix.png)
+
+*Figura: User Task Matrix de los dos segmentos objetivo, con la frecuencia y la importancia de cada tarea.*
+
+En el segmento de Pequeños y Medianos Agricultores (PyMAs), las tareas de mayor frecuencia e importancia son la inspección fitosanitaria y detección de daños en el cultivo y la verificación del clima local, ambas con frecuencia alta e importancia crítica. En el segmento de Operadores Técnicos de Drones, la mayoría de tareas tiene frecuencia alta e importancia crítica, en especial la recepción de pedidos y cotización de servicios, el monitoreo meteorológico, el reconocimiento perimetral, la calibración de boquillas y la ejecución del vuelo de fumigación.
+
+Ambos segmentos coinciden en verificar las condiciones climáticas antes de fumigar y en considerar crítica la reprogramación o suspensión de una labor por mal clima. La principal diferencia está en la delimitación del área: para el agricultor, señalar los linderos del predio es una tarea de frecuencia baja e importancia media, mientras que para el operador el reconocimiento perimetral es una tarea de frecuencia alta e importancia crítica, ya que de ella depende la seguridad del vuelo.
 
 ### 2.3.3. User Journey Mapping
 
-**Segmento 1:**
+Los User Journey Maps representan la situación actual (As-Is) de cada segmento, sin la solución, a lo largo del proceso completo de una fumigación: desde que se detecta la necesidad o se recibe el pedido hasta el cierre y registro del servicio. Para cada etapa se muestran las acciones, pensamientos y emociones, la curva emocional, los puntos de dolor y las oportunidades.
 
-<div align="center">
- <img src="/assets/Chapter2/UserJourneyMap-Segmento-1.png" alt="User Journey Segmento 1" />
-</div>
+#### Segmento 1: Pequeños y Medianos Agricultores (PyMAs)
 
-**Segmento 2:**
-<div align="center">
-   <img src="./assets/Chapter2/UserJourneyMap-Segmento-2.png" alt="User Journey Segmento 2" />
-</div>
+![User Journey Map del Segmento 1](./assets/Chapter2/UserJourneyMap-Segmento-1.png)
+
+*Figura: User Journey Map As-Is del segmento de Pequeños y Medianos Agricultores (PyMAs).* El recorrido tiene seis etapas: detección y preparación, revisión de condiciones climáticas, contratación y delimitación, ejecución y validación, imprevisto y reprogramación, y cierre, pago y registro. Los puntos más bajos de la curva emocional son el miedo durante la revisión del clima y el enojo cuando un imprevisto interrumpe la fumigación, momentos en los que el agricultor no cuenta con alertas automáticas ni con un reporte objetivo de lo tratado y lo pendiente.
+
+#### Segmento 2: Operadores Técnicos de Drones
+
+![User Journey Map del Segmento 2](./assets/Chapter2/UserJourneyMap-Segmento-2.png)
+
+*Figura: User Journey Map As-Is del segmento de Operadores Técnicos de Drones.* El recorrido tiene seis etapas: cotización y agenda, medición climática y reconocimiento, calibración del dron, ejecución del vuelo, imprevisto y sustento, y cierre, bitácora y cobro. Los puntos más bajos de la curva emocional son el miedo durante el reconocimiento del terreno, por la falta de linderos claros, y el enojo y la frustración cuando debe justificar una pausa por clima o cobrar un área que el cliente pone en duda.
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento 1:**
+Para elaborar los Empathy Maps, el equipo preparó un mapa en UXPressia para cada User Persona, colocándolo al centro. Luego, cada integrante ubicó sus observaciones sobre el User Persona en la sección correspondiente, respondiendo a las preguntas ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué ve?, ¿Qué dice?, ¿Qué hace?, ¿Qué escucha? y ¿Qué piensa y siente? Finalmente, se identificaron sus Pains y Gains.
 
-<div align="center">
-   <img src="./assets/Chapter2/Empathymap-Segmento-1.png" alt="Empathy Mappging Segmento 1" />
-</div>
+#### Segmento 1: Pequeños y Medianos Agricultores (PyMAs)
 
-**Segmento 2:**
-<div align="center">
-   <img src="./assets/Chapter2/Empathymap-Segmento-2.png" alt="Empathy Mappging Segmento 1" />
-</div>
+![Empathy Map del Segmento 1](./assets/Chapter2/Empathymap-Segmento-1.png)
+
+*Figura: Empathy Map del User Persona del segmento de Pequeños y Medianos Agricultores (PyMAs).* El mapa muestra la ansiedad del agricultor por la incertidumbre del clima y su temor a pagar por un servicio incompleto. Entre sus pains destacan el desperdicio de químicos y jornales por cambios repentinos de viento, la falta de reportes que avalen la cobertura real y la exposición de los operarios a agroquímicos. Entre sus gains, el ahorro de insumos, las alertas meteorológicas tempranas y la delimitación de parcelas sobre mapas satelitales.
+
+#### Segmento 2: Operadores Técnicos de Drones
+
+![Empathy Map del Segmento 2](./assets/Chapter2/Empathymap-Segmento-2.png)
+
+*Figura: Empathy Map del User Persona del segmento de Operadores Técnicos de Drones.* El mapa muestra el estrés del operador al decidir si suspende un vuelo por mal clima y su temor a accidentes por obstáculos no señalados. Entre sus pains destacan las disputas por la superficie pulverizada, el desgaste por la coordinación informal y el tiempo perdido reconociendo linderos. Entre sus gains, recibir parcelas ya cartografiadas, emitir una bitácora digital inmediata, contar con respaldo meteorológico y centralizar su agenda.
+
 ---
 
-## 2.4. Big Picture EventStorming
+## 2.4. Big Picture Event Storming
 
-<div align="center">
-   <img src="./assets/Chapter2/EventStorming.jpg" alt="Event Storming" />
-</div>
+El Big Picture Event Storming se realizó en una sesión colaborativa en Miro, con el objetivo de entender el dominio del negocio de AgriDron Solutions a alto nivel. El equipo identificó primero los eventos de dominio más relevantes, los ordenó en una línea de tiempo y luego incorporó los actores que los originan y los sistemas externos involucrados. Finalmente, marcó como hotspots las preguntas abiertas sobre reglas de negocio que surgieron durante la sesión.
 
-**Descripción:**
+![Big Picture Event Storming](./assets/Chapter2/EventStorming.jpg)
 
-<p align="justify">
+*Figura: Big Picture Event Storming del dominio de AgriDron Solutions.* El Big Picture EventStorming representa el flujo completo del dominio de **AgriDron Solutions**, desde que un visitante crea su cuenta hasta el cierre del servicio de fumigación. Se construyó agrupando los eventos de dominio (en naranja, redactados en pasado) según el actor que los origina (en amarillo) y, cuando corresponde, el sistema externo involucrado (en celeste).
 
-El Big Picture EventStorming representa el flujo completo del dominio de <strong>AgriDron Solutions</strong>, desde que un visitante crea su cuenta hasta el cierre del servicio de fumigación. Se construyó agrupando los eventos de dominio (en naranja, redactados en pasado) según el actor que los origina (en amarillo) y, cuando corresponde, el sistema externo involucrado (en celeste).
+El flujo se organizó en dos grandes fases. La primera, **Onboarding y Planificación de Misión**, cubre desde la creación de la cuenta y el registro de la finca/parcela/terreno por parte del *Agricultor*, hasta la delimitación de la zona de fumigación mediante el mapa interactivo, la consulta de condiciones climáticas con la *Weather API*, la solicitud de la misión y su confirmación o programación directa por parte del *Operador Técnico*. La segunda fase, **Ejecución, Monitoreo y Cierre del Servicio**, abarca el inicio de la jornada de vuelo del operador, la ejecución y monitoreo de parámetros del dron, el registro de incidencias en campo (derivando en pausas si el clima es adverso), y el cierre de la misión con la generación de reportes de productividad para el agricultor y de rendimiento operativo para el técnico.
 
-</p>
+Durante el ejercicio se identificaron tres **hotspots** (en rosado) que representan preguntas abiertas sobre reglas de negocio operativas: qué flujo alternativo sigue el sistema si el operador rechaza la fecha u orden solicitada, cómo valida técnicamente el operador que el polígono trazado por el agricultor no contenga obstáculos aéreos críticos (cables de alta tensión, árboles o acequias) antes del despegue, y cuál es el mecanismo para acordar y validar una reprogramación de las hectáreas pendientes tras una suspensión climática. Estos puntos críticos orientan directamente la especificación de requisitos en el Capítulo III.
 
-<p align="justify">
-    
-El flujo se organizó en dos grandes fases. La primera, <strong>Onboarding y Planificación de Misión</strong>, cubre desde la creación de la cuenta y el registro de la finca/parcela/terreno por parte del <em>Agricultor</em>, hasta la delimitación del área de fumigación mediante el mapa interactivo, la consulta de condiciones climáticas con la <em>Weather API</em>, la solicitud de la misión y su confirmación o programación directa por parte del <em>Operador Técnico</em>. La segunda fase, <strong>Ejecución, Monitoreo y Cierre del Servicio</strong>, abarca el inicio de la jornada de vuelo del operador, la ejecución y monitoreo de parámetros del dron, el registro de incidencias en campo (derivando en pausas si el clima es adverso), y el cierre de la misión con la generación de reportes de productividad para el agricultor y de rendimiento operativo para el técnico.
-    
-</p>
-
-<p align="justify">
-
-Durante el ejercicio se identificaron tres <strong>hotspots</strong> (en rosado) que representan preguntas abiertas sobre reglas de negocio operativas: qué flujo alternativo sigue el sistema si el operador rechaza la fecha u orden solicitada, cómo valida técnicamente el operador que el polígono trazado por el agricultor no contenga obstáculos aéreos críticos (cables de alta tensión, árboles o acequias) antes del despegue, y cuál es el mecanismo para acordar y validar una reprogramación de las hectáreas pendientes tras una suspensión climática. Estos puntos críticos orientan directamente la especificación de requerimientos en el Capítulo III.
-
-</p>
-
-**Link del Miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
+**Link del Miro:** [Big Picture Event Storming en Miro](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702)
 
 ---
 
@@ -1147,158 +992,250 @@ Durante el ejercicio se identificaron tres <strong>hotspots</strong> (en rosado)
 
 | Término | Definición |
 | :--- | :--- |
-| **Finca** | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas. |
-| **Parcela / Área de fumigación** | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de trazarla. |
-| **Misión de fumigación** | Solicitud de servicio creada por un Agricultor sobre un área y cultivo específicos. Atraviesa los estados *Pendiente*, *Confirmada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida. |
-| **Sesión de pulverización** | Periodo continuo de vuelo y aplicación aeroagrícola ejecutado en campo por el Operador, sujeto a ventanas climáticas óptimas y disponibilidad de batería y carga de fitosanitarios. |
-| **Obstáculo aéreo / perimetral** | Elemento físico presente en el predio (postes, cables de alta tensión, copas de árboles, acequias) que el Operador debe identificar y registrar para evitar colisiones durante el vuelo. |
-| **Operador Técnico** | Piloto acreditado que gestiona sus solicitudes de servicio, valida las parcelas, programa los vuelos, calibra los equipos y ejecuta la fumigación en campo. |
-| **Agricultor** | Usuario propietario o administrador de una finca, responsable de delimitar lotes, solicitar misiones de fumigación y consultar el historial de trabajo y reportes de productividad. |
-| **Incidencia** | Evento adverso imprevisto reportado por el Operador durante una misión (ráfagas de viento mayores a 12-15 km/h, lluvia repentina, fallas mecánicas), que genera la pausa del servicio. |
-| **Acta de servicio** | Constancia digital inmediata emitida por el Operador al culminar la faena, donde se certifican las hectáreas netas tratadas, insumos fitosanitarios descargados y observaciones de campo. |
-| **Reporte de productividad** | Documento consolidado que consulta el Agricultor con el histórico de áreas fumigadas, insumos utilizados, costos por hectárea y fechas de tratamiento por predio. |
-| **Reporte de rendimiento técnico** | Resumen operativo generado por el Operador con métricas de desempeño propio (hectáreas tratadas por jornada, horas de vuelo acumuladas y volumen promedio aplicado). |
-| **Condiciones meteorológicas** | Datos ambientales en tiempo real (velocidad del viento, temperatura y probabilidad de lluvia) provistos por una API externa para validar la viabilidad técnica antes del despegue. |
-| **Monitoreo de vuelo simulado** | Visualización interactiva con datos emulados de telemetría (posición GPS, nivel de batería, volumen de químico restante y avance porcentual) para representar el progreso del dron durante la misión sin requerir integración con hardware físico. |
+| **Farm** (Finca) | Predio agrícola de un Agricultor, identificado por su nombre y su ubicación. Puede contener una o más parcelas. |
+| **Parcel** (Parcela / Lote) | Porción de una finca destinada a un cultivo y delimitada por sus linderos. Su superficie se expresa en hectáreas. |
+| **Fumigation Area** (Zona de fumigación) | Superficie de una parcela que debe tratarse en una misión de fumigación. Puede abarcar toda la parcela o solo los sectores afectados por una plaga. |
+| **Spraying Mission** (Misión de fumigación) | Solicitud de servicio creada por un Agricultor sobre un área y cultivo específicos. Atraviesa los estados *Programada*, *Autorizada*, *En curso*, *En pausa*, *Completada* y *Cancelada* a lo largo de su ciclo de vida. |
+| **Spraying Session** (Sesión de pulverización) | Periodo continuo de vuelo y aplicación aeroagrícola ejecutado en campo por el Operador, sujeto a ventanas climáticas óptimas y disponibilidad de batería y carga de fitosanitarios. |
+| **Aerial / Perimeter Obstacle** (Obstáculo aéreo / perimetral) | Elemento físico presente en el predio (postes, cables de alta tensión, copas de árboles, acequias) que el Operador debe identificar y registrar para evitar colisiones durante el vuelo. |
+| **Infestation** (Infestación) | Presencia de una plaga o enfermedad en un cultivo en un nivel que requiere un tratamiento fitosanitario. |
+| **Agrochemical** (Agroquímico / Fitosanitario) | Producto aplicado a los cultivos para prevenir o controlar plagas y enfermedades, como fungicidas, insecticidas o herbicidas. |
+| **Spray Mix** (Caldo / Mezcla) | Preparación de agua y agroquímicos que se carga en el tanque del dron para la fumigación. |
+| **Nozzle** (Boquilla) | Pieza del sistema de pulverización del dron por la que sale el caldo. Su tipo y tamaño determinan el tamaño de gota y el volumen aplicado. |
+| **Calibration** (Calibración) | Ajuste de las boquillas y del caudal del dron antes del vuelo para aplicar el volumen de caldo por hectárea que requiere el cultivo. |
+| **Drift** (Deriva) | Desplazamiento del producto pulverizado fuera de la zona de fumigación por acción del viento, que genera desperdicio de insumos y riesgo para cultivos y personas cercanas. |
+| **Crop Season** (Campaña) | Periodo productivo de un cultivo, desde la siembra hasta la cosecha, durante el cual se programan los tratamientos fitosanitarios. |
+| **Drone Technical Operator** (Operador Técnico de Drones) | Piloto acreditado que gestiona sus solicitudes de servicio, valida las parcelas, programa los vuelos, calibra los equipos y ejecuta la fumigación en campo. |
+| **Farmer** (Agricultor) | Propietario o administrador de una finca, responsable de delimitar lotes, solicitar misiones de fumigación y consultar el historial de trabajo y reportes de productividad. |
+| **Incident** (Incidencia) | Evento adverso imprevisto reportado por el Operador durante una misión (ráfagas de viento mayores a 12-15 km/h, lluvia repentina, fallas mecánicas), que genera la pausa del servicio. |
+| **Service Record** (Acta de servicio) | Constancia digital inmediata emitida por el Operador al culminar la faena, donde se certifican las hectáreas netas tratadas, insumos fitosanitarios descargados y observaciones de campo. |
+| **Productivity Report** (Reporte de productividad) | Documento consolidado que consulta el Agricultor con el histórico de áreas fumigadas, insumos utilizados, costos por hectárea y fechas de tratamiento por predio. |
+| **Technical Performance Report** (Reporte de rendimiento técnico) | Resumen operativo generado por el Operador con métricas de desempeño propio (hectáreas tratadas por jornada, horas de vuelo acumuladas y volumen promedio aplicado). |
+| **Weather Conditions** (Condiciones meteorológicas) | Estado del tiempo en el predio (velocidad del viento, temperatura y probabilidad de lluvia) que determina si es viable fumigar antes del despegue. |
+| **Simulated Flight Monitoring** (Monitoreo de vuelo simulado) | Visualización interactiva del progreso del dron durante la misión (posición GPS, nivel de batería, volumen de químico restante y avance porcentual), con datos simulados. |
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Requirements Specification
+
+En este capítulo se especifican los requisitos de los productos digitales de AgriDron Solutions a partir de la información obtenida en las entrevistas y en los artefactos del Capítulo II. La sección 3.1 presenta las Epics y las User Stories con sus criterios de aceptación, la sección 3.2 relaciona los objetivos de negocio con los User Personas mediante el Impact Mapping y la sección 3.3 presenta el Product Backlog con la estimación y la priorización de las User Stories.
 
 ## 3.1. User Stories
 
-| Epic / Story ID | Título                                                              | Descripción                                                                                                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                 | Relacionado con (Epic ID) |
-|-----------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| **EP01**        | **Descubrimiento e Información Comercial (Landing Page)**           | Definición general de la propuesta de valor y servicios públicos de la plataforma.                                                                                                               | --                                                                                                                                                                                                                                                                      | --                        |
-| LP-001          | Visualización de propuesta de valor                                 | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones.                       | Dado que el visitante ingresa al sitio web principal, cuando finaliza la carga del portal, entonces el sistema presenta la propuesta de valor centrada en la optimización agrícola.                                                                                     | EP01                      |
-| LP-002          | Consulta de servicios de fumigación                                 | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola.                                                      | Dado que el visitante consulta la sección de servicios, cuando solicita información detallada, entonces el sistema muestra el catálogo de capacidades de fumigación y monitoreo.                                                                                        | EP01                      |
-| LP-003          | Consulta de planes de suscripción                                   | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado.                                                                                 | Dado que el visitante navega hacia la oferta comercial, cuando consulta las tarifas, entonces el sistema muestra los planes diferenciados según extensión territorial y frecuencia de uso.                                                                              | EP01                      |
-| LP-004          | Consulta sobre el equipo multidisciplinario                         | Como visitante, quiero conocer el perfil de los creadores de AgriDron Solutions, para verificar la trayectoria profesional del equipo.                                                           | Dado que el visitante accede a la sección corporativa, cuando revisa la trayectoria del equipo, entonces el sistema despliega las competencias técnicas y de ingeniería de los miembros.                                                                                | EP01                      |
-| LP-005          | Solicitud de demostración comercial                                 | Como visitante del segmento agricultor, quiero enviar un formulario de contacto, para solicitar una demostración personalizada del servicio.                                                     | Dado que el visitante completa los campos obligatorios del formulario de contacto, cuando confirma el envío, entonces el sistema registra la solicitud y emite una confirmación de recepción.                                                                           | EP01                      |
-| LP-006          | Consulta de preguntas frecuentes                                    | Como visitante, quiero revisar la sección de preguntas frecuentes, para resolver dudas sobre la tecnología de drones y normativas.                                                               | Dado que el visitante accede a la sección de ayuda pública, cuando selecciona una categoría de consulta, entonces el sistema despliega las respuestas sobre seguridad fitosanitaria y operatividad.                                                                     | EP01                      |
-| LP-007          | Acceso a términos legales y políticas de privacidad                 | Como visitante, quiero revisar los términos de servicio y privacidad, para conocer el tratamiento de datos y condiciones legales.                                                                | Dado que el visitante selecciona el enlace de políticas, cuando la página se despliega, entonces el sistema presenta el documento legal estructurado y actualizado.                                                                                                     | EP01                      |
-| **EP02**        | **Autenticación y Gestión de Usuarios**                             | Mecanismos de registro, acceso seguro y administración de roles dentro de la plataforma.                                                                                                         | --                                                                                                                                                                                                                                                                      | --                        |
-| AU-001          | Registro de usuario agricultor                                      | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación.                                                                   | Dado que el usuario no posee cuenta en el sistema, cuando ingresa sus datos personales y confirma el registro, entonces el sistema valida los datos y genera el perfil con rol de agricultor.                                                                           | EP02                      |
-| AU-002          | Registro de operador técnico                                        | Como operador técnico, quiero registrarme en el sistema, para recibir asignaciones de misiones de vuelo.                                                                                         | Dado que un nuevo operador proporciona su identificación y credenciales técnicas, cuando completa el formulario de registro, entonces el sistema genera una cuenta con permisos operativos pendientes de activación.                                                    | EP02                      |
-| AU-003          | Inicio de sesión seguro                                             | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas.                                                                | Dado que el usuario ingresa su correo electrónico y contraseña válidos, cuando solicita la autenticación, entonces el sistema valida la identidad y permite el acceso al panel correspondiente a su rol.                                                                | EP02                      |
-| AU-004          | Recuperación de contraseña                                          | Como usuario registrado, quiero restablecer mi contraseña mediante correo electrónico, para recuperar el acceso ante un olvido.                                                                  | Dado que el usuario solicita el restablecimiento de clave indicando su correo, cuando el sistema confirma la existencia de la cuenta, entonces el sistema envía un enlace seguro de recuperación con tiempo de expiración.                                              | EP02                      |
-| AU-005          | Edición de perfil de usuario                                        | Como usuario registrado, quiero actualizar mis datos de contacto y organización, para mantener la información al día.                                                                            | Dado que el usuario autenticado modifica sus datos de contacto, cuando confirma la actualización, entonces el sistema guarda los cambios y emite una notificación de éxito.                                                                                             | EP02                      |
-| AU-006          | Asignación y gestión de roles                                       | Como administrador del sistema, quiero modificar los roles de un usuario, para otorgar o revocar permisos específicos.                                                                           | Dado que el administrador selecciona un usuario activo, cuando asigna un nuevo rol administrativo u operativo, entonces el sistema actualiza los privilegios de acceso en la plataforma.                                                                                | EP02                      |
-| AU-007          | Cierre de sesión seguro                                             | Como usuario autenticado, quiero finalizar la sesión de trabajo, para proteger la confidencialidad de mis datos.                                                                                 | Dado que el usuario solicita el cierre de sesión, cuando confirma la acción, entonces el sistema invalida el token de acceso activo y redirige al portal público.                                                                                                       | EP02                      |
-| **EP03**        | **Gestión Territorial de Fincas y Parcelas**                        | Catastro, delimitación geográfica y gestión de cultivos sobre mapas interactivos.                                                                                                                | --                                                                                                                                                                                                                                                                      | --                        |
-| FM-001          | Registro de finca agrícola                                          | Como agricultor, quiero registrar las fincas de mi propiedad, para organizar geográficamente mis parcelas.                                                                                       | Dado que el agricultor proporciona el nombre, ubicación y departamento de su finca, cuando confirma el registro, entonces el sistema guarda la finca en la base de datos y la asocia a su perfil.                                                                       | EP03                      |
-| FM-002          | Delimitación geográfica de parcela                                  | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo.                                                                     | Dado que el agricultor delimita los vértices de un terreno en la herramienta cartográfica, cuando confirma la geometría, entonces el sistema calcula el área en hectáreas y registra el polígono.                                                                       | EP03                      |
-| FM-003          | Edición de contorno e información de parcela                        | Como agricultor, quiero modificar los límites y nombre de una parcela registrada, para actualizar cambios en la infraestructura del campo.                                                       | Dado que el agricultor selecciona una parcela existente, cuando ajusta sus vértices o cambia sus datos descriptivos y guarda, entonces el sistema actualiza la geometría y recalcula la superficie total.                                                               | EP03                      |
-| FM-004          | Asignación de tipo de cultivo y fenología                           | Como agricultor, quiero especificar el cultivo y la etapa fenológica de la parcela, para parametrizar las misiones de pulverización.                                                             | Dado que el agricultor selecciona una parcela registrada, cuando especifica el tipo de cultivo y su estado de desarrollo, entonces el sistema almacena las características agrícolas de la parcela.                                                                     | EP03                      |
-| FM-005          | Consulta y filtrado de parcelas                                     | Como agricultor, quiero filtrar mis parcelas por estado o tipo de cultivo, para ubicar rápidamente terrenos específicos.                                                                         | Dado que el agricultor consulta el inventario de terrenos, cuando aplica un filtro por cultivo o superficie, entonces el sistema presenta únicamente las parcelas que cumplen con el criterio seleccionado.                                                             | EP03                      |
-| FM-006          | Deshabilitación de parcela agrícola                                 | Como agricultor, quiero inactivar una parcela fuera de producción, para retirarla de la lista de terrenos operativos.                                                                            | Dado que el agricultor selecciona una parcela sin misiones activas, cuando solicita su desactivación, entonces el sistema cambia el estado del terreno a inactivo sin eliminar el historial de misiones pasadas.                                                        | EP03                      |
-| FM-007          | Cambio de capas en mapa cartográfico                                | Como agricultor, quiero alternar entre vistas satelital, topográfica e híbrida, para analizar las características del terreno.                                                                   | Dado que el usuario visualiza el mapa de parcelas, cuando selecciona un tipo de capa cartográfica, entonces el sistema actualiza la representación gráfica del mapa según la capa elegida.                                                                              | EP03                      |
-| FM-008          | Asignación de supervisores de campo                                 | Como agricultor, quiero asociar supervisores de campo a fincas específicas, para delegar la gestión de misiones en dichos terrenos.                                                              | Dado que el agricultor posee personal a su cargo, cuando asigna un usuario supervisor a una finca registrada, entonces el sistema concede permisos de lectura y programación a dicho supervisor sobre las parcelas vinculadas.                                          | EP03                      |
-| **EP04**        | **Gestión de Flota y Equipos de Fumigación**                        | Control de inventario de drones, insumos agrícolas, boquillas y mantenimiento.                                                                                                                   | --                                                                                                                                                                                                                                                                      | --                        |
-| DR-001          | Registro de nuevo dron en inventario                                | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable.                                                                       | Dado que el operador ingresa el modelo, número de serie y capacidad del tanque del equipo, cuando confirma el registro, entonces el sistema guarda el dron en el catálogo con estado disponible.                                                                        | EP04                      |
-| DR-002          | Consulta del estado operativo de flota                              | Como supervisor agrícola, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo.                                                               | Dado que el supervisor accede al inventario de equipos, cuando consulta el catálogo, entonces el sistema lista todos los drones indicando si están disponibles, en mantenimiento o en misión.                                                                           | EP04                      |
-| DR-003          | Registro de agroquímicos e insumos                                  | Como supervisor agrícola, quiero registrar los productos agroquímicos autorizados, para controlar las dosis aplicadas en las misiones.                                                           | Dado que el supervisor ingresa la denominación comercial, ingrediente activo y dosis recomendada de un producto, cuando guarda la información, entonces el sistema habilita el insumo en la lista de opciones para misiones.                                            | EP04                      |
-| DR-004          | Registro de tipos de boquillas de asperjar                          | Como operador técnico, quiero asociar tipos de boquillas a cada dron, para garantizar el tamaño de gota adecuado según el cultivo.                                                               | Dado que el operador selecciona un dron registrado, cuando especifica el modelo y caudal de las boquillas instaladas, entonces el sistema actualiza la configuración técnica del equipo.                                                                                | EP04                      |
-| DR-005          | Programación de mantenimiento preventivo                            | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas.                                                                | Dado que un dron acumula horas de operación, cuando el operador registra un servicio de mantenimiento preventivo, entonces el sistema actualiza el historial técnico y restablece el contador de horas de servicio.                                                     | EP04                      |
-| DR-006          | Registro de fallas e incidentes de equipo                           | Como operador técnico, quiero reportar una falla mecánica en un dron, para restringir su uso en misiones hasta su reparación.                                                                    | Dado que un dron presenta un mal funcionamiento, cuando el operador registra la incidencia técnica, entonces el sistema cambia el estado del equipo a inoperativo y alerta al supervisor.                                                                               | EP04                      |
-| DR-007          | Deshabilitación de dron de la flota                                 | Como supervisor agrícola, quiero dar de baja un dron retirado del servicio, para mantener el inventario actualizado.                                                                             | Dado que un equipo queda fuera de servicio permanente, cuando el supervisor solicita la baja del dron, entonces el sistema inactiva el registro impidiendo asignaciones futuras.                                                                                        | EP04                      |
-| **EP05**        | **Planificación y Programación de Misiones**                        | Flujo de solicitud, asignación de recursos y definición de parámetros de vuelo.                                                                                                                  | --                                                                                                                                                                                                                                                                      | --                        |
-| MI-001          | Solicitud de misión de fumigación                                   | Como agricultor, quiero solicitar una misión de fumigación indicando parcela y fecha estimada, para programar la atención de mi cultivo.                                                         | Dado que el agricultor selecciona una parcela activa, cuando ingresa la fecha requerida y el producto a aplicar, entonces el sistema crea la solicitud en estado pendiente de aprobación.                                                                               | EP05                      |
-| MI-002          | Asignación de dron e insumos a la misión                            | Como supervisor agrícola, quiero asignar un dron y la cantidad de producto requerida a una misión, para preparar la logística operativa.                                                         | Dado que existe una misión pendiente de aprobación, cuando el supervisor selecciona un dron disponible y especifica el insumo, entonces el sistema reserva los recursos y vincula la orden de trabajo.                                                                  | EP05                      |
-| MI-003          | Asignación de operador técnico a la misión                          | Como supervisor agrícola, quiero designar al operador técnico responsable de la misión, para coordinar la ejecución en campo.                                                                    | Dado que una misión cuenta con recursos asignados, cuando el supervisor selecciona un operador técnico con disponibilidad, entonces el sistema notifica al operador sobre el servicio asignado.                                                                         | EP05                      |
-| MI-004          | Configuración de parámetros de vuelo                                | Como operador técnico, quiero definir la altura de vuelo, velocidad y tasa de pulverización, para asegurar una cobertura homogénea.                                                              | Dado que el operador accede al plan de vuelo de la misión, cuando especifica la velocidad, altura de pulverización y traslape, entonces el sistema guarda la configuración operativa para la ejecución.                                                                 | EP05                      |
-| MI-005          | Consulta de calendario de misiones                                  | Como supervisor agrícola, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores.                                             | Dado que el supervisor accede al módulo de programación, cuando selecciona la vista por semana o mes, entonces el sistema despliega el calendario interactivo con todas las misiones y sus estados.                                                                     | EP05                      |
-| MI-006          | Reprogramación o cancelación de misión                              | Como agricultor, quiero solicitar el cambio de fecha o cancelación de una misión pendiente, para ajustarme a eventualidades del fundo.                                                           | Dado que una misión se encuentra en estado programada, cuando el usuario solicita una nueva fecha o la cancelación, entonces el sistema actualiza el estado y libera los recursos asignados.                                                                            | EP05                      |
-| MI-007          | Aprobación formal de misión                                         | Como supervisor agrícola, quiero aprobar definitivamente una misión programada, para autorizar al operador a iniciar el despliegue en campo.                                                     | Dado que los parámetros y recursos están validados, cuando el supervisor confirma la aprobación, entonces el sistema cambia el estado de la misión a autorizada para despegar.                                                                                          | EP05                      |
-| MI-008          | Exportación de plan de vuelo                                        | Como operador técnico, quiero descargar la ruta parametrizada de vuelo, para cargarla en la estación de control del dron.                                                                        | Dado que la misión está aprobada y parametrizada, cuando el operador solicita la exportación, entonces el sistema genera un archivo estandarizado con la secuencia de waypoints.                                                                                        | EP05                      |
-| **EP06**        | **Ejecución y Telemetría de Vuelo en Tiempo Real**                  | Monitoreo interactivo, alertas operativas y registro de bitácora técnica de vuelo.                                                                                                               | --                                                                                                                                                                                                                                                                      | --                        |
-| TR-001          | Visualización de posición de dron en tiempo real                    | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno.                                                           | Dado que una misión se encuentra en estado de ejecución, cuando el sistema recibe coordenadas del dron, entonces el sistema actualiza la posición del vehículo y la línea de trayectoria en el mapa.                                                                    | EP06                      |
-| TR-002          | Monitoreo de indicadores de vuelo                                   | Como operador técnico, quiero supervisar el nivel de batería y volumen de tanque en tiempo real, para tomar decisiones operativas durante el vuelo.                                              | Dado que el dron transmite telemetría activa, cuando el sistema procesa la señal, entonces el sistema presenta los porcentajes actualizados de energía y carga fitosanitaria restante.                                                                                  | EP06                      |
-| TR-003          | Recepción de alertas operativas en vuelo                            | Como operador técnico, quiero recibir notificaciones inmediatas ante anomalías de altitud o batería baja, para prevenir accidentes en campo.                                                     | Dado que la telemetría del dron registra un valor fuera de los umbrales seguros, cuando el sistema detecta la discrepancia, entonces el sistema genera una alerta sonora y visual en el panel del usuario.                                                              | EP06                      |
-| TR-004          | Pausa y reanudación de misión de emergencia                         | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo desde el último punto tratado.                                             | Dado que el operador suspende el vuelo en campo, cuando registra la pausa en el sistema, entonces el sistema guarda el punto geográfico exacto de parada para la posterior reanudación.                                                                                 | EP06                      |
-| TR-005          | Registro de finalización de misión                                  | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo.                                                            | Dado que el dron concluye el recorrido total del polígono, cuando el operador confirma la finalización, entonces el sistema cambia el estado de la misión a realizada y calcula el tiempo total de aplicación.                                                          | EP06                      |
-| TR-006          | Bitácora técnica de observaciones en campo                          | Como operador técnico, quiero adjuntar notas operativas al finalizar el vuelo, para documentar incidencias de viento o vegetación.                                                               | Dado que la misión ha finalizado, cuando el operador escribe las observaciones del servicio, entonces el sistema guarda los comentarios vinculados al registro histórico del vuelo.                                                                                     | EP06                      |
-| **EP07**        | **Integración Meteorológica y Alertas**                             | Evaluación de condiciones ambientales para asegurar la viabilidad de la pulverización.                                                                                                           | --                                                                                                                                                                                                                                                                      | --                        |
-| CL-001          | Consulta de condiciones climáticas actuales                         | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación.                                                      | Dado que el usuario selecciona una parcela, cuando solicita la información meteorológica, entonces el sistema consulta el servicio de clima y muestra las variables ambientales del momento.                                                                            | EP07                      |
-| CL-002          | Alerta por exceso de velocidad de viento                            | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos.                                              | Dado que la velocidad del viento calculada supera los 15 km/h en la zona, cuando el sistema evalúa las condiciones de la misión, entonces el sistema emite una advertencia de riesgo alto de deriva.                                                                    | EP07                      |
-| CL-003          | Identificación de ventana óptima de pulverización                   | Como supervisor agrícola, quiero visualizar una recomendación del mejor horario para fumigar, para optimizar la eficacia de la aplicación fitosanitaria.                                         | Dado que el sistema analiza el pronóstico meteorológico para las siguientes 24 horas, cuando identifica rangos de viento suave y humedad adecuada, entonces el sistema resalta los rangos horarios óptimos.                                                             | EP07                      |
-| CL-004          | Registro de medición climática manual                               | Como operador técnico, quiero ingresar mediciones de un anemómetro de campo, para validar la viabilidad cuando la API no tenga cobertura local.                                                  | Dado que el operador realiza una medición con instrumental de campo, cuando ingresa los datos de velocidad de viento y temperatura en la plataforma, entonces el sistema registra la medición local y valida la misión.                                                 | EP07                      |
-| CL-005          | Configuración de umbrales meteorológicos por cultivo                | Como supervisor agrícola, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación.                                              | Dado que un cultivo requiere condiciones atmosféricas específicas, cuando el supervisor modifica los parámetros meteorológicos aceptables, entonces el sistema actualiza las reglas de evaluación para ese tipo de cultivo.                                             | EP07                      |
-| **EP08**        | **Analítica, Informes y Métricas Operativas**                       | Tableros de control, reportes de desempeño fitosanitario y balances de insumos.                                                                                                                  | --                                                                                                                                                                                                                                                                      | --                        |
-| RP-001          | Generación de informe de servicio fitosanitario                     | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado.                                                              | Dado que una misión ha sido completada, cuando el agricultor solicita el reporte de servicio, entonces el sistema genera un resumen estructurado con fecha, mapa de cobertura, dosis e insumos utilizados.                                                              | EP08                      |
-| RP-002          | Exportación de informes en formato PDF                              | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola.                                                           | Dado que el resumen de la misión se encuentra generado, cuando el usuario solicita la descarga en formato PDF, entonces el sistema compila la información y entrega el archivo listo para impresión.                                                                    | EP08                      |
-| RP-003          | Visualización de panel con métricas generales                       | Como supervisor agrícola, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global.                                              | Dado que existen misiones registradas en el sistema, cuando el supervisor accede al panel principal, entonces el sistema presenta gráficos con métricas consolidadas por periodo de tiempo.                                                                             | EP08                      |
-| RP-004          | Historial de misiones con filtros avanzados                         | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o parcela, para comparar intervenciones pasadas.                                                                  | Dado que el usuario ingresa al historial de operaciones, cuando define un rango de fechas y selecciona un predio, entonces el sistema muestra la lista detallada de servicios ejecutados en ese lapso.                                                                  | EP08                      |
-| RP-005          | Balance de consumo de productos agroquímicos                        | Como supervisor agrícola, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos.                                                          | Dado que el supervisor selecciona una finca específica, cuando solicita el informe de insumos, entonces el sistema calcula y presenta el volumen acumulado de cada producto pulverizado.                                                                                | EP08                      |
-| RP-006          | Comparativa de eficiencia operativa entre parcelas                  | Como supervisor agrícola, quiero comparar el tiempo promedio de fumigación por hectárea entre distintas parcelas, para identificar oportunidades de mejora.                                      | Dado que el supervisor selecciona dos o más parcelas, cuando genera el análisis comparativo, entonces el sistema grafica las tasas de avance e indicadores de rendimiento de cada terreno.                                                                              | EP08                      |
-| **EP09**        | **Arquitectura, Seguridad y Servicios Backend (Technical Stories)** | Tareas técnicas de desarrollo, infraestructura, API RESTful y persistencia.                                                                                                                      | --                                                                                                                                                                                                                                                                      | --                        |
-| TU-001          | Configuración de arquitectura limpia base                           | Como Developer, quiero estructurar la solución backend en Spring Boot siguiendo principios de arquitectura limpia, para garantizar la mantenibilidad y modularidad del software.                 | Dado que se inicia el desarrollo del backend, cuando el Developer configura la estructura de paquetes por capas (Domain, Application, Infrastructure, Interfaces), entonces el sistema compila correctamente permitiendo la adición de servicios independientes.        | EP09                      |
-| TU-002          | Implementación de seguridad y autenticación JWT                     | Como Developer, quiero implementar la autenticación mediante JSON Web Tokens (JWT) en Spring Security, para asegurar que los endpoints de la API RESTful requieran un token válido.              | Dado que un cliente realiza una solicitud HTTP a un endpoint privado de la API, cuando el filtro de seguridad intercepta la petición, entonces el sistema valida la firma del token JWT y autoriza el procesamiento si el token es válido.                              | EP09                      |
-| TU-003          | Persistencia espacial y soporte GIS en base de datos                | Como Developer, quiero configurar las extensiones de geometría espacial en la base de datos relacional, para almacenar y consultar polígonos de parcelas eficientemente.                         | Dado que la base de datos relacional está inicializada, cuando el Developer ejecuta la migración con tipos de datos geométricos (Polygon, Point), entonces el motor habilita funciones de cálculo espacial de áreas e intersecciones.                                   | EP09                      |
-| TU-004          | Comunicación mediante protocolo WebSocket                           | Como Developer, quiero configurar un canal de comunicación bidireccional por WebSockets con STOMP, para transmitir la telemetría en tiempo real desde el servidor hacia los clientes conectados. | Dado que el servidor backend recibe coordenadas de posición del dron, cuando la conexión WebSocket está activa con un cliente, entonces el servidor retransmite el paquete de datos al tema correspondiente sin latencia de almacenamiento.                             | EP09                      |
-| TU-005          | Integración de cliente de servicio meteorológico                    | Como Developer, quiero construir un cliente HTTP para consumir una API externa de clima, para abstraer las consultas meteorológicas del dominio principal.                                       | Dado que el servicio de aplicaciones requiere datos del clima para una coordenada geofísica, cuando el cliente HTTP consulta la API externa, entonces el sistema parsea la respuesta JSON a objetos de dominio normalizados.                                            | EP09                      |
-| TU-006          | Manejo global de excepciones e intercepción de errores              | Como Developer, quiero implementar una clase controladora de excepciones globales, para retornar respuestas de error estandarizadas bajo el formato JSON Problem Details.                        | Dado que ocurre una excepción no controlada o error de validación en la API RESTful, cuando la petición es interceptada por el manejador global, entonces el servidor responde con el código de estado HTTP adecuado y una estructura uniforme de error.                | EP09                      |
-| TU-007          | Pipeline de integración continua con GitHub Actions                 | Como Developer, quiero configurar un flujo de integración continua en GitHub Actions, para automatizar la compilación y ejecución de pruebas unitarias en cada push.                             | Dado que un Developer sube cambios al repositorio en GitHub, cuando se activa el disparador del flujo, entonces el servidor de integración ejecuta las tareas de análisis estático, compilación y pruebas reportando el resultado.                                      | EP09                      |
-| TU-008          | Documentación interactiva de API con OpenAPI/Swagger                | Como Developer, quiero integrar la biblioteca Springdoc OpenAPI, para generar automáticamente la documentación interactiva de los endpoints RESTful.                                             | Dado que la aplicación backend está en ejecución, cuando un Developer o cliente consulta la ruta /swagger-ui.html, entonces el sistema despliega la especificación detallada de los contratos, parámetros y respuestas de la API.                                       | EP09                      |
-| TU-009          | Gestión de versiones de base de datos con Flyway                    | Como Developer, quiero incorporar Flyway para el control de versiones del esquema de base de datos, para automatizar las migraciones en los entornos de desarrollo y producción.                 | Dado que se agregan nuevas scripts SQL de migración al proyecto, cuando la aplicación inicia, entonces Flyway verifica e aplica en orden secuencial los scripts pendientes asegurando la consistencia del esquema.                                                      | EP09                      |
-| TU-010          | Configuración de CORS y limitador de tasa de peticiones             | Como Developer, quiero implementar políticas CORS restringidas y un mecanismo de Rate Limiting, para proteger los servicios RESTful contra peticiones no autorizadas o denegación de servicio.   | Dado que una aplicación web externa realiza peticiones HTTP a la API RESTful, cuando el sistema evalúa el origen y la frecuencia de peticiones, entonces el servidor procesa únicamente solicitudes provenientes de orígenes permitidos que no superen la cuota fijada. | EP09                      |
+Las User Stories se organizan en nueve Epics, que agrupan los requisitos de la Landing Page (EP01), de la Web Application (EP02 a EP08) y del RESTful API (EP09). Cada User Story se redacta desde el rol de quien la necesita: visitante para la Landing Page, agricultor para el segmento de Pequeños y Medianos Agricultores (PyMAs), operador técnico para el segmento de Operadores Técnicos de Drones, usuario cuando aplica a ambos segmentos y Developer para las Technical Stories del RESTful API.
+
+Los criterios de aceptación siguen la estructura Gherkin (Dado que, cuando, entonces) e incluyen el escenario principal y al menos un escenario alternativo de cada User Story. Cada escenario se presenta numerado, con las cláusulas Dado que, Cuando y Entonces en líneas separadas. En las Technical Stories, los escenarios describen la interacción de request y response con cada endpoint del RESTful API. La telemetría del dron se simula en la Web Application, como se indica en las restricciones del proyecto (1.2.1), por lo que no requiere un endpoint propio. Las Technical Stories describen los recursos del RESTful API de esta versión del producto. Las User Stories, o los datos de una User Story, que todavía no tienen un endpoint en esta versión se incorporarán al RESTful API en sprints posteriores, según la priorización del Product Backlog.
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| **EP01** | **Descubrimiento e Información Comercial (Landing Page)** | Definición general de la propuesta de valor y servicios públicos de la plataforma. | -- | -- |
+| LP-001 | Visualización de propuesta de valor | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones. | **Escenario 1**<br>Dado que el visitante ingresa al sitio web<br>Cuando consulta la sección principal<br>Entonces el sistema presenta la propuesta de valor de AgriDron Solutions y los beneficios de gestionar la fumigación con drones.<br><br>**Escenario 2**<br>Dado que el visitante revisó la propuesta de valor<br>Cuando busca cómo empezar a usar la plataforma<br>Entonces el sistema le ofrece el acceso al registro de la Web Application. | EP01 |
+| LP-002 | Consulta de servicios de fumigación | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola. | **Escenario 1**<br>Dado que el visitante consulta la sección de servicios<br>Cuando solicita información detallada<br>Entonces el sistema muestra los servicios de la plataforma: gestión de fincas y parcelas, solicitud de misiones, consulta del clima, monitoreo de misiones y reportes.<br><br>**Escenario 2**<br>Dado que el visitante pertenece a un segmento (agricultor u operador técnico de drones)<br>Cuando consulta los servicios<br>Entonces el sistema presenta los beneficios dirigidos a ese segmento. | EP01 |
+| LP-003 | Consulta de planes de suscripción | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado. | **Escenario 1**<br>Dado que el visitante navega hacia la oferta comercial<br>Cuando consulta las tarifas<br>Entonces el sistema muestra los planes diferenciados según extensión territorial y frecuencia de uso.<br><br>**Escenario 2**<br>Dado que el visitante revisa un plan<br>Cuando consulta su detalle<br>Entonces el sistema muestra las funcionalidades incluidas en ese plan. | EP01 |
+| LP-004 | Acceso al registro desde la Landing Page | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | **Escenario 1**<br>Dado que el visitante decide crear una cuenta<br>Cuando selecciona la opción de registro<br>Entonces el sistema lo dirige al registro de la Web Application.<br><br>**Escenario 2**<br>Dado que el visitante navega desde un dispositivo móvil<br>Cuando selecciona la opción de registro<br>Entonces el sistema lo dirige igualmente al registro de la Web Application. | EP01 |
+| LP-005 | Inicio de sesión desde la Landing Page | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | **Escenario 1**<br>Dado que el visitante ya tiene una cuenta<br>Cuando selecciona la opción de iniciar sesión<br>Entonces el sistema lo dirige al inicio de sesión de la Web Application.<br><br>**Escenario 2**<br>Dado que el visitante se encuentra en cualquier sección de la Landing Page<br>Cuando busca iniciar sesión<br>Entonces el sistema mantiene disponible el acceso al inicio de sesión. | EP01 |
+| LP-006 | Acceso a términos legales y políticas de privacidad | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | **Escenario 1**<br>Dado que el visitante desea conocer las condiciones del servicio<br>Cuando consulta los términos y condiciones<br>Entonces el sistema presenta los términos de servicio y la política de privacidad vigentes.<br><br>**Escenario 2**<br>Dado que el visitante se encuentra en cualquier sección de la Landing Page<br>Cuando busca las políticas del servicio<br>Entonces el sistema mantiene disponible el acceso a los términos y condiciones. | EP01 |
+| LP-007 | Cambio de idioma del sitio | Como visitante, quiero cambiar el idioma del sitio entre español e inglés, para navegar en mi idioma preferido. | **Escenario 1**<br>Dado que el visitante navega el sitio en español<br>Cuando elige el idioma inglés<br>Entonces el sistema presenta el contenido del sitio en inglés.<br><br>**Escenario 2**<br>Dado que el visitante cambió el idioma del sitio<br>Cuando navega a otra sección<br>Entonces el sistema mantiene el idioma elegido. | EP01 |
+| LP-008 | Consulta sobre el equipo multidisciplinario | Como visitante, quiero conocer el perfil de los creadores de AgriDron Solutions, para verificar la trayectoria profesional del equipo. | **Escenario 1**<br>Dado que el visitante accede a la sección corporativa<br>Cuando revisa la trayectoria del equipo<br>Entonces el sistema despliega las competencias técnicas y de ingeniería de los miembros.<br><br>**Escenario 2**<br>Dado que el visitante revisa el perfil de un integrante<br>Cuando consulta su información<br>Entonces el sistema muestra su nombre y su función en el proyecto. | EP01 |
+| LP-009 | Solicitud de demostración comercial | Como visitante del segmento Pequeños y Medianos Agricultores (PyMAs), quiero enviar un formulario de contacto, para solicitar una demostración personalizada del servicio. | **Escenario 1**<br>Dado que el visitante ingresa sus datos de contacto completos<br>Cuando envía la solicitud de demostración<br>Entonces el sistema registra la solicitud y confirma su recepción.<br><br>**Escenario 2**<br>Dado que el visitante omite un dato de contacto obligatorio<br>Cuando intenta enviar la solicitud<br>Entonces el sistema no la registra e indica el dato faltante. | EP01 |
+| LP-010 | Consulta de preguntas frecuentes | Como visitante, quiero revisar la sección de preguntas frecuentes, para resolver dudas sobre la tecnología de drones y normativas. | **Escenario 1**<br>Dado que el visitante accede a la sección de ayuda pública<br>Cuando selecciona una categoría de consulta<br>Entonces el sistema despliega las respuestas sobre seguridad fitosanitaria y operatividad.<br><br>**Escenario 2**<br>Dado que el visitante no encuentra respuesta a su duda<br>Cuando termina de revisar las preguntas frecuentes<br>Entonces el sistema le ofrece un medio de contacto con el equipo. | EP01 |
+| **EP02** | **Autenticación y Gestión de Usuarios** | Mecanismos de registro, acceso seguro y administración de roles dentro de la plataforma. | -- | -- |
+| AU-001 | Registro de usuario agricultor | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | **Escenario 1**<br>Dado que el usuario no posee cuenta en el sistema<br>Cuando ingresa sus datos personales y confirma el registro<br>Entonces el sistema valida los datos y genera el perfil con rol de agricultor.<br><br>**Escenario 2**<br>Dado que el usuario deja un dato obligatorio sin completar<br>Cuando intenta confirmar el registro<br>Entonces el sistema no crea la cuenta e indica el dato faltante. | EP02 |
+| AU-002 | Registro de operador técnico | Como operador técnico, quiero registrarme en el sistema, para recibir asignaciones de misiones de vuelo. | **Escenario 1**<br>Dado que un nuevo operador proporciona su identificación y credenciales técnicas<br>Cuando confirma su registro<br>Entonces el sistema genera la cuenta con rol de operador técnico.<br><br>**Escenario 2**<br>Dado que el operador deja un dato obligatorio sin completar<br>Cuando intenta completar el registro<br>Entonces el sistema no crea la cuenta e indica el dato faltante. | EP02 |
+| AU-003 | Inicio de sesión seguro | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | **Escenario 1**<br>Dado que el usuario ingresa su nombre de usuario y contraseña válidos<br>Cuando solicita la autenticación<br>Entonces el sistema valida la identidad y permite el acceso a las funciones correspondientes a su rol.<br><br>**Escenario 2**<br>Dado que el usuario ingresa un nombre de usuario o una contraseña incorrectos<br>Cuando solicita la autenticación<br>Entonces el sistema rechaza el acceso e indica que las credenciales no son válidas. | EP02 |
+| AU-004 | Recuperación de contraseña | Como usuario registrado, quiero restablecer mi contraseña mediante correo electrónico, para recuperar el acceso ante un olvido. | **Escenario 1**<br>Dado que el usuario solicita el restablecimiento de clave indicando su correo<br>Cuando el sistema confirma la existencia de la cuenta<br>Entonces el sistema envía un enlace seguro de recuperación con tiempo de expiración.<br><br>**Escenario 2**<br>Dado que el correo indicado no pertenece a ninguna cuenta<br>Cuando el usuario solicita el restablecimiento<br>Entonces el sistema no envía el enlace de recuperación. | EP02 |
+| AU-005 | Edición de perfil de usuario | Como usuario registrado, quiero actualizar mis datos de contacto y organización, para mantener la información al día. | **Escenario 1**<br>Dado que el usuario autenticado modifica sus datos de contacto<br>Cuando confirma la actualización<br>Entonces el sistema guarda los cambios y emite una notificación de éxito.<br><br>**Escenario 2**<br>Dado que el usuario deja vacío un dato obligatorio de su perfil<br>Cuando intenta guardar la actualización<br>Entonces el sistema conserva los datos anteriores e indica el dato faltante. | EP02 |
+| AU-006 | Selección de rol en el registro | Como usuario nuevo, quiero elegir mi rol al registrarme, para acceder a las funciones que me corresponden. | **Escenario 1**<br>Dado que el usuario nuevo ingresa sus datos de registro<br>Cuando selecciona su rol (agricultor u operador técnico) y confirma el registro<br>Entonces el sistema crea la cuenta con el rol seleccionado.<br><br>**Escenario 2**<br>Dado que el usuario nuevo no selecciona un rol<br>Cuando intenta completar el registro<br>Entonces el sistema no crea la cuenta e indica que el rol es obligatorio. | EP02 |
+| AU-007 | Cierre de sesión seguro | Como usuario autenticado, quiero finalizar la sesión de trabajo, para proteger la confidencialidad de mis datos. | **Escenario 1**<br>Dado que el usuario solicita el cierre de sesión<br>Cuando confirma la acción<br>Entonces el sistema invalida el token de acceso activo y finaliza la sesión.<br><br>**Escenario 2**<br>Dado que el usuario cerró su sesión<br>Cuando intenta acceder a una función privada de la Web Application<br>Entonces el sistema le solicita autenticarse nuevamente. | EP02 |
+| **EP03** | **Gestión Territorial de Fincas y Parcelas** | Catastro, delimitación geográfica y gestión de cultivos sobre mapas interactivos. | -- | -- |
+| FM-001 | Registro de finca agrícola | Como agricultor, quiero registrar las fincas de mi propiedad, para organizar geográficamente mis parcelas. | **Escenario 1**<br>Dado que el agricultor proporciona el nombre y la ubicación de su finca<br>Cuando confirma el registro<br>Entonces el sistema guarda la finca en la base de datos y la asocia a su perfil.<br><br>**Escenario 2**<br>Dado que el agricultor omite el nombre o la ubicación de la finca<br>Cuando intenta confirmar el registro<br>Entonces el sistema no guarda la finca e indica el dato faltante. | EP03 |
+| FM-002 | Delimitación geográfica de parcela | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | **Escenario 1**<br>Dado que el agricultor delimita los vértices de un terreno<br>Cuando confirma la geometría<br>Entonces el sistema calcula el área en hectáreas y registra el polígono.<br><br>**Escenario 2**<br>Dado que el agricultor no completa el trazado del polígono<br>Cuando intenta confirmar la parcela<br>Entonces el sistema no la registra e indica que falta la geometría. | EP03 |
+| FM-003 | Edición de contorno e información de parcela | Como agricultor, quiero modificar los límites y nombre de una parcela registrada, para actualizar cambios en la infraestructura del campo. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela existente<br>Cuando ajusta sus vértices o cambia sus datos descriptivos y guarda<br>Entonces el sistema actualiza la geometría y recalcula la superficie total.<br><br>**Escenario 2**<br>Dado que el agricultor modifica los datos de una parcela<br>Cuando cancela la edición sin guardar<br>Entonces el sistema conserva la geometría y los datos anteriores. | EP03 |
+| FM-004 | Asignación de tipo de cultivo y fenología | Como agricultor, quiero especificar el cultivo y la etapa fenológica de la parcela, para parametrizar las misiones de pulverización. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela registrada<br>Cuando especifica el tipo de cultivo y su estado de desarrollo<br>Entonces el sistema almacena las características agrícolas de la parcela.<br><br>**Escenario 2**<br>Dado que la parcela ya tiene un cultivo asignado<br>Cuando el agricultor especifica un cultivo distinto<br>Entonces el sistema reemplaza el cultivo anterior en las características de la parcela. | EP03 |
+| FM-005 | Consulta y filtrado de parcelas | Como agricultor, quiero filtrar mis parcelas por tipo de cultivo o superficie, para ubicar rápidamente terrenos específicos. | **Escenario 1**<br>Dado que el agricultor consulta el inventario de terrenos<br>Cuando aplica un filtro por cultivo o superficie<br>Entonces el sistema presenta únicamente las parcelas que cumplen con el criterio seleccionado.<br><br>**Escenario 2**<br>Dado que ninguna parcela cumple con el criterio seleccionado<br>Cuando el agricultor aplica el filtro<br>Entonces el sistema indica que no hay parcelas que coincidan. | EP03 |
+| FM-006 | Deshabilitación de parcela agrícola | Como agricultor, quiero inactivar una parcela fuera de producción, para retirarla de la lista de terrenos operativos. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela sin misiones activas<br>Cuando solicita su desactivación<br>Entonces el sistema cambia el estado del terreno a inactivo sin eliminar el historial de misiones pasadas.<br><br>**Escenario 2**<br>Dado que la parcela tiene misiones activas<br>Cuando el agricultor solicita su desactivación<br>Entonces el sistema no cambia su estado e indica que existen misiones en curso. | EP03 |
+| FM-007 | Cambio de capas en mapa cartográfico | Como agricultor, quiero alternar entre vistas satelital, topográfica e híbrida, para analizar las características del terreno. | **Escenario 1**<br>Dado que el agricultor consulta el mapa de sus parcelas<br>Cuando elige una vista satelital, topográfica o híbrida<br>Entonces el sistema presenta el mapa con la vista elegida.<br><br>**Escenario 2**<br>Dado que el agricultor eligió una vista cartográfica<br>Cuando consulta otra parcela<br>Entonces el sistema mantiene la vista elegida. | EP03 |
+| FM-008 | Asignación de operadores técnicos a fincas | Como agricultor, quiero asociar operadores técnicos a fincas específicas, para delegar la gestión de misiones en dichos terrenos. | **Escenario 1**<br>Dado que el agricultor trabaja con operadores técnicos<br>Cuando asigna un operador técnico a una finca registrada<br>Entonces el sistema concede al operador permisos de lectura y programación sobre las parcelas vinculadas.<br><br>**Escenario 2**<br>Dado que un operador técnico no está asociado a una finca<br>Cuando intenta programar misiones en sus parcelas<br>Entonces el sistema no le permite la programación. | EP03 |
+| **EP04** | **Gestión de Flota y Equipos de Fumigación** | Control de inventario de drones, insumos agrícolas, boquillas y mantenimiento. | -- | -- |
+| DR-001 | Registro de nuevo dron en inventario | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable. | **Escenario 1**<br>Dado que el operador ingresa el modelo, número de serie y capacidad del tanque del equipo<br>Cuando confirma el registro<br>Entonces el sistema guarda el dron en el catálogo con estado disponible.<br><br>**Escenario 2**<br>Dado que el dron recién registrado aún no fue asignado a una misión<br>Cuando el operador consulta la flota<br>Entonces el sistema lo presenta con estado disponible. | EP04 |
+| DR-002 | Consulta del estado operativo de flota | Como operador técnico, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo. | **Escenario 1**<br>Dado que el operador técnico accede al inventario de equipos<br>Cuando consulta el catálogo<br>Entonces el sistema lista todos los drones indicando si están disponibles, en vuelo, en mantenimiento o fuera de servicio.<br><br>**Escenario 2**<br>Dado que el operador técnico consulta el detalle de un dron<br>Cuando lo selecciona<br>Entonces el sistema presenta su nivel de batería, su boquilla y sus fechas de último y próximo mantenimiento. | EP04 |
+| DR-003 | Registro de agroquímicos e insumos | Como operador técnico, quiero registrar los productos agroquímicos autorizados, para controlar las dosis aplicadas en las misiones. | **Escenario 1**<br>Dado que el operador técnico ingresa la denominación comercial, ingrediente activo y dosis recomendada de un producto<br>Cuando guarda la información<br>Entonces el sistema habilita el insumo en la lista de opciones para misiones.<br><br>**Escenario 2**<br>Dado que el operador técnico omite el ingrediente activo o la dosis recomendada<br>Cuando intenta guardar el producto<br>Entonces el sistema no lo habilita e indica el dato faltante. | EP04 |
+| DR-004 | Registro de tipos de boquillas de asperjar | Como operador técnico, quiero asociar tipos de boquillas a cada dron, para garantizar el tamaño de gota adecuado según el cultivo. | **Escenario 1**<br>Dado que el operador selecciona un dron registrado<br>Cuando especifica el modelo y caudal de las boquillas instaladas<br>Entonces el sistema actualiza la configuración técnica del equipo.<br><br>**Escenario 2**<br>Dado que el operador cambia la boquilla instalada en un dron<br>Cuando registra la nueva boquilla<br>Entonces el sistema reemplaza la configuración técnica anterior del equipo. | EP04 |
+| DR-005 | Programación de mantenimiento preventivo | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas. | **Escenario 1**<br>Dado que un dron acumula horas de operación<br>Cuando el operador registra un servicio de mantenimiento preventivo<br>Entonces el sistema actualiza el historial técnico y restablece el contador de horas de servicio.<br><br>**Escenario 2**<br>Dado que el operador registró un mantenimiento preventivo<br>Cuando consulta el dron<br>Entonces el sistema presenta las fechas del último y del próximo mantenimiento. | EP04 |
+| DR-006 | Registro de fallas e incidentes de equipo | Como operador técnico, quiero reportar una falla mecánica en un dron, para restringir su uso en misiones hasta su reparación. | **Escenario 1**<br>Dado que un dron presenta un mal funcionamiento<br>Cuando el operador registra la incidencia técnica<br>Entonces el sistema cambia el estado del equipo a inoperativo y lo excluye de las asignaciones de misiones.<br><br>**Escenario 2**<br>Dado que un dron está marcado como inoperativo<br>Cuando se intenta asignarlo a una misión<br>Entonces el sistema no permite la asignación hasta que se registre su reparación. | EP04 |
+| DR-007 | Deshabilitación de dron de la flota | Como operador técnico, quiero dar de baja un dron retirado del servicio, para mantener el inventario actualizado. | **Escenario 1**<br>Dado que un equipo queda fuera de servicio permanente<br>Cuando el operador técnico solicita la baja del dron<br>Entonces el sistema inactiva el registro impidiendo asignaciones futuras.<br><br>**Escenario 2**<br>Dado que el dron está asignado a una misión activa<br>Cuando el operador técnico solicita su baja<br>Entonces el sistema no la realiza e indica que el dron tiene una misión en curso. | EP04 |
+| **EP05** | **Planificación y Programación de Misiones** | Flujo de solicitud, asignación de recursos y definición de parámetros de vuelo. | -- | -- |
+| MI-001 | Solicitud de misión de fumigación | Como agricultor, quiero solicitar una misión de fumigación indicando parcela y fecha estimada, para programar la atención de mi cultivo. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela activa<br>Cuando ingresa la fecha requerida y el producto a aplicar<br>Entonces el sistema crea la solicitud en estado Programada.<br><br>**Escenario 2**<br>Dado que el agricultor no indica la fecha requerida o el producto a aplicar<br>Cuando intenta crear la solicitud<br>Entonces el sistema no la registra e indica el dato faltante. | EP05 |
+| MI-002 | Asignación de dron e insumos a la misión | Como operador técnico, quiero asignar un dron y la cantidad de producto requerida a una misión, para preparar la logística operativa. | **Escenario 1**<br>Dado que existe una misión en estado Programada<br>Cuando el operador técnico selecciona un dron disponible y especifica el insumo<br>Entonces el sistema reserva los recursos y vincula la orden de trabajo.<br><br>**Escenario 2**<br>Dado que no hay drones disponibles<br>Cuando el operador técnico intenta asignar un dron a la misión<br>Entonces el sistema indica que no hay equipos disponibles y mantiene la misión en estado Programada. | EP05 |
+| MI-003 | Asignación de operador técnico a la misión | Como operador técnico, quiero asignarme una misión solicitada, para hacerme responsable de su ejecución en campo. | **Escenario 1**<br>Dado que una misión cuenta con recursos asignados<br>Cuando el operador técnico se asigna como responsable<br>Entonces el sistema lo registra en la misión y notifica al agricultor.<br><br>**Escenario 2**<br>Dado que la misión ya tiene un operador técnico responsable<br>Cuando otro operador intenta asignarse<br>Entonces el sistema no realiza la asignación. | EP05 |
+| MI-004 | Configuración de parámetros de vuelo | Como operador técnico, quiero definir la altura de vuelo, velocidad y tasa de pulverización, para asegurar una cobertura homogénea. | **Escenario 1**<br>Dado que el operador accede al plan de vuelo de la misión<br>Cuando especifica la velocidad, altura de pulverización y traslape<br>Entonces el sistema guarda la configuración operativa para la ejecución.<br><br>**Escenario 2**<br>Dado que la misión ya tiene una configuración guardada<br>Cuando el operador modifica la velocidad, la altura o el traslape<br>Entonces el sistema reemplaza la configuración anterior. | EP05 |
+| MI-005 | Consulta de calendario de misiones | Como operador técnico, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores. | **Escenario 1**<br>Dado que el operador técnico consulta la programación de misiones<br>Cuando elige un periodo semanal o mensual<br>Entonces el sistema presenta las misiones programadas en ese periodo con sus estados.<br><br>**Escenario 2**<br>Dado que no hay misiones programadas en el periodo elegido<br>Cuando el operador técnico consulta la programación<br>Entonces el sistema indica que no hay misiones en ese periodo. | EP05 |
+| MI-006 | Reprogramación de misión | Como agricultor, quiero solicitar el cambio de fecha de una misión que aún no inicia, para ajustarme a eventualidades del fundo. | **Escenario 1**<br>Dado que una misión se encuentra en estado Programada o Autorizada<br>Cuando el agricultor solicita una nueva fecha<br>Entonces el sistema registra la nueva fecha y libera los recursos asignados.<br><br>**Escenario 2**<br>Dado que la misión ya se encuentra en estado En curso<br>Cuando el agricultor solicita una nueva fecha<br>Entonces el sistema no la reprograma e indica que la misión está en curso. | EP05 |
+| MI-007 | Aprobación formal de misión | Como operador técnico, quiero aprobar definitivamente una misión Programada, para autorizar el inicio del despliegue en campo. | **Escenario 1**<br>Dado que los parámetros y recursos están validados<br>Cuando el operador técnico confirma la aprobación<br>Entonces el sistema cambia el estado de la misión a Autorizada.<br><br>**Escenario 2**<br>Dado que la misión no tiene dron u operador asignado<br>Cuando el operador técnico intenta aprobarla<br>Entonces el sistema no cambia su estado e indica los recursos faltantes. | EP05 |
+| MI-008 | Exportación de plan de vuelo | Como operador técnico, quiero descargar el plan de vuelo parametrizado de la misión, para tenerlo como referencia durante la operación en campo. | **Escenario 1**<br>Dado que la misión está aprobada y parametrizada<br>Cuando el operador solicita la exportación<br>Entonces el sistema genera un archivo con los parámetros de vuelo y la secuencia de puntos de la ruta.<br><br>**Escenario 2**<br>Dado que la misión aún no tiene parámetros de vuelo configurados<br>Cuando el operador solicita la exportación<br>Entonces el sistema no genera el archivo e indica que faltan los parámetros. | EP05 |
+| **EP06** | **Ejecución y Telemetría de Vuelo en Tiempo Real** | Monitoreo interactivo, alertas operativas y registro de bitácora técnica de vuelo. | -- | -- |
+| TR-001 | Visualización de posición de dron en tiempo real | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno. | **Escenario 1**<br>Dado que una misión se encuentra en estado En curso<br>Cuando el sistema recibe una nueva posición de la telemetría simulada del dron<br>Entonces el sistema actualiza la posición del dron y la trayectoria recorrida.<br><br>**Escenario 2**<br>Dado que la misión no está en estado En curso<br>Cuando el agricultor consulta el seguimiento del dron<br>Entonces el sistema indica que no hay un vuelo activo para esa misión. | EP06 |
+| TR-002 | Monitoreo de indicadores de vuelo | Como operador técnico, quiero supervisar el nivel de batería y volumen de tanque en tiempo real, para tomar decisiones operativas durante el vuelo. | **Escenario 1**<br>Dado que la telemetría simulada de la misión está activa<br>Cuando el sistema procesa una nueva lectura<br>Entonces el sistema presenta los porcentajes actualizados de batería y de carga fitosanitaria restante.<br><br>**Escenario 2**<br>Dado que la misión aún no se encuentra en estado En curso<br>Cuando el operador consulta los indicadores de vuelo<br>Entonces el sistema indica que no hay telemetría disponible. | EP06 |
+| TR-003 | Recepción de alertas operativas en vuelo | Como operador técnico, quiero recibir notificaciones inmediatas ante anomalías de altitud o batería baja, para prevenir accidentes en campo. | **Escenario 1**<br>Dado que la telemetría simulada registra un valor fuera de los umbrales seguros<br>Cuando el sistema detecta la discrepancia<br>Entonces el sistema genera una alerta inmediata para el operador técnico.<br><br>**Escenario 2**<br>Dado que los valores de la telemetría simulada se mantienen dentro de los umbrales seguros<br>Cuando el sistema procesa una nueva lectura<br>Entonces el sistema no genera alertas. | EP06 |
+| TR-004 | Pausa y reanudación de misión de emergencia | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo desde el último punto tratado. | **Escenario 1**<br>Dado que el operador suspende el vuelo en campo<br>Cuando registra la pausa en el sistema<br>Entonces el sistema cambia el estado de la misión a En pausa y guarda el punto geográfico exacto de parada para la posterior reanudación.<br><br>**Escenario 2**<br>Dado que la misión está en estado En pausa<br>Cuando el operador registra la reanudación<br>Entonces el sistema cambia su estado a En curso y retoma la misión desde el punto de parada guardado. | EP06 |
+| TR-005 | Registro de finalización de misión | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | **Escenario 1**<br>Dado que el dron concluye el recorrido total del polígono<br>Cuando el operador confirma la finalización<br>Entonces el sistema cambia el estado de la misión a Completada y calcula el tiempo total de aplicación.<br><br>**Escenario 2**<br>Dado que el dron no completó el recorrido total del polígono<br>Cuando el operador intenta marcar la misión como completada<br>Entonces el sistema no cambia su estado a Completada e indica el área pendiente. | EP06 |
+| TR-006 | Bitácora técnica de observaciones en campo | Como operador técnico, quiero adjuntar notas operativas al finalizar el vuelo, para documentar incidencias de viento o vegetación. | **Escenario 1**<br>Dado que la misión ha finalizado<br>Cuando el operador escribe las observaciones del servicio<br>Entonces el sistema guarda los comentarios vinculados al registro histórico del vuelo.<br><br>**Escenario 2**<br>Dado que el operador no registra observaciones<br>Cuando cierra la misión<br>Entonces el sistema guarda el registro histórico del vuelo sin comentarios adicionales. | EP06 |
+| **EP07** | **Integración Meteorológica y Alertas** | Evaluación de condiciones ambientales para asegurar la viabilidad de la pulverización. | -- | -- |
+| CL-001 | Consulta de condiciones climáticas actuales | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela<br>Cuando solicita la información meteorológica<br>Entonces el sistema consulta las condiciones meteorológicas de la ubicación de su finca y muestra las variables ambientales del momento.<br><br>**Escenario 2**<br>Dado que el servicio de clima no responde<br>Cuando el agricultor solicita la información meteorológica<br>Entonces el sistema indica que los datos no están disponibles en ese momento. | EP07 |
+| CL-002 | Alerta por exceso de velocidad de viento | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos. | **Escenario 1**<br>Dado que la velocidad del viento calculada supera los 15 km/h en la zona<br>Cuando el sistema evalúa las condiciones de la misión<br>Entonces el sistema emite una advertencia de riesgo alto de deriva.<br><br>**Escenario 2**<br>Dado que la velocidad del viento se mantiene en 15 km/h o menos<br>Cuando el sistema evalúa las condiciones de la misión<br>Entonces el sistema no emite la advertencia de deriva. | EP07 |
+| CL-003 | Identificación de ventana óptima de pulverización | Como operador técnico, quiero visualizar una recomendación del mejor horario para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | **Escenario 1**<br>Dado que el sistema analiza el pronóstico meteorológico para las siguientes 24 horas<br>Cuando identifica rangos con viento de 15 km/h o menos y temperatura menor a 28 °C<br>Entonces el sistema indica esos rangos horarios como óptimos.<br><br>**Escenario 2**<br>Dado que el pronóstico no presenta ningún rango que cumpla esas condiciones de viento y temperatura<br>Cuando el sistema analiza las siguientes 24 horas<br>Entonces el sistema indica que no hay un horario recomendado para fumigar. | EP07 |
+| CL-004 | Registro de medición climática manual | Como operador técnico, quiero ingresar mediciones de un anemómetro de campo, para validar la viabilidad cuando el servicio meteorológico no tenga cobertura local. | **Escenario 1**<br>Dado que el operador realiza una medición con instrumental de campo<br>Cuando ingresa los datos de velocidad de viento y temperatura en la plataforma<br>Entonces el sistema registra la medición local y valida la misión.<br><br>**Escenario 2**<br>Dado que la velocidad de viento medida supera el límite seguro de aplicación<br>Cuando el operador registra la medición<br>Entonces el sistema registra la medición y no valida la misión. | EP07 |
+| CL-005 | Configuración de umbrales meteorológicos por cultivo | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | **Escenario 1**<br>Dado que un cultivo requiere condiciones atmosféricas específicas<br>Cuando el operador técnico modifica los parámetros meteorológicos aceptables<br>Entonces el sistema actualiza las reglas de evaluación para ese tipo de cultivo.<br><br>**Escenario 2**<br>Dado que el operador técnico modificó los límites de un tipo de cultivo<br>Cuando el sistema evalúa una misión de otro cultivo<br>Entonces el sistema no aplica esos límites. | EP07 |
+| **EP08** | **Analítica, Informes y Métricas Operativas** | Tableros de control, reportes de desempeño fitosanitario y balances de insumos. | -- | -- |
+| RP-001 | Generación de informe de servicio fitosanitario | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | **Escenario 1**<br>Dado que una misión ha sido completada<br>Cuando el agricultor solicita el reporte de servicio<br>Entonces el sistema genera un resumen estructurado con fecha, mapa de cobertura, dosis e insumos utilizados.<br><br>**Escenario 2**<br>Dado que la misión aún no ha sido completada<br>Cuando el agricultor solicita el reporte de servicio<br>Entonces el sistema indica que el reporte estará disponible al finalizar la misión. | EP08 |
+| RP-002 | Exportación de informes en formato PDF | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | **Escenario 1**<br>Dado que el resumen de la misión se encuentra generado<br>Cuando el agricultor solicita la descarga en formato PDF<br>Entonces el sistema compila la información y entrega el archivo listo para impresión.<br><br>**Escenario 2**<br>Dado que el resumen de la misión aún no se ha generado<br>Cuando el agricultor solicita la descarga<br>Entonces el sistema no entrega el archivo e indica que el reporte no está disponible. | EP08 |
+| RP-003 | Visualización de panel con métricas generales | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | **Escenario 1**<br>Dado que existen misiones registradas en el sistema<br>Cuando el operador técnico consulta las métricas generales<br>Entonces el sistema presenta las métricas consolidadas por periodo de tiempo.<br><br>**Escenario 2**<br>Dado que no existen misiones registradas en el periodo elegido<br>Cuando el operador técnico consulta las métricas generales<br>Entonces el sistema indica que no hay métricas para ese periodo. | EP08 |
+| RP-004 | Historial de misiones con filtros avanzados | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o parcela, para comparar intervenciones pasadas. | **Escenario 1**<br>Dado que el agricultor ingresa al historial de operaciones<br>Cuando define un rango de fechas y selecciona un predio<br>Entonces el sistema muestra la lista detallada de servicios ejecutados en ese lapso.<br><br>**Escenario 2**<br>Dado que no existen servicios ejecutados en el rango de fechas definido<br>Cuando el agricultor aplica la búsqueda<br>Entonces el sistema indica que no hay resultados para ese rango. | EP08 |
+| RP-005 | Balance de consumo de productos agroquímicos | Como operador técnico, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos. | **Escenario 1**<br>Dado que el operador técnico selecciona una finca específica<br>Cuando solicita el informe de insumos<br>Entonces el sistema calcula y presenta el volumen acumulado de cada producto pulverizado.<br><br>**Escenario 2**<br>Dado que la finca no tiene misiones completadas<br>Cuando el operador técnico solicita el informe de insumos<br>Entonces el sistema indica que no hay consumos registrados. | EP08 |
+| RP-006 | Comparativa de eficiencia operativa entre parcelas | Como operador técnico, quiero comparar el tiempo promedio de fumigación por hectárea entre distintas parcelas, para identificar oportunidades de mejora. | **Escenario 1**<br>Dado que el operador técnico selecciona dos o más parcelas<br>Cuando genera el análisis comparativo<br>Entonces el sistema presenta las tasas de avance e indicadores de rendimiento de cada terreno.<br><br>**Escenario 2**<br>Dado que el operador técnico selecciona una sola parcela<br>Cuando intenta generar el análisis comparativo<br>Entonces el sistema indica que debe seleccionar al menos dos parcelas. | EP08 |
+| **EP09** | **Arquitectura, Seguridad y Servicios Backend (Technical Stories)** | Tareas técnicas de desarrollo, infraestructura, API RESTful y persistencia. | -- | -- |
+| TU-001 | Configuración de arquitectura limpia base | Como Developer, quiero estructurar la solución backend en Spring Boot siguiendo principios de arquitectura limpia, para garantizar la mantenibilidad y modularidad del software. | **Escenario 1**<br>Dado que se inicia el desarrollo del backend<br>Cuando el Developer configura la estructura de paquetes por capas (Domain, Application, Infrastructure, Interfaces)<br>Entonces el proyecto compila y cada Bounded Context queda organizado en esas cuatro capas.<br><br>**Escenario 2**<br>Dado que se agrega un nuevo Bounded Context<br>Cuando el Developer crea su estructura<br>Entonces el nuevo contexto sigue la misma organización por capas que los contextos existentes. | EP09 |
+| TU-002 | Implementación de seguridad y autenticación JWT | Como Developer, quiero implementar la autenticación mediante JSON Web Tokens (JWT) en Spring Security, para asegurar que los endpoints de la API RESTful requieran un token válido. | **Escenario 1**<br>Dado que un cliente realiza una solicitud HTTP a un endpoint privado de la API<br>Cuando el filtro de seguridad intercepta la petición<br>Entonces el sistema valida la firma del token JWT y autoriza el procesamiento si el token es válido.<br><br>**Escenario 2**<br>Dado que un cliente realiza una solicitud a un endpoint privado sin token o con un token expirado<br>Cuando el filtro de seguridad intercepta la petición<br>Entonces el servidor responde 401 Unauthorized. | EP09 |
+| TU-005 | Integración de cliente de servicio meteorológico | Como Developer, quiero construir un cliente HTTP para consumir una API externa de clima, para abstraer las consultas meteorológicas del dominio principal. | **Escenario 1**<br>Dado que el servicio de aplicaciones requiere datos del clima para la ubicación consultada en /api/v1/weather<br>Cuando el cliente HTTP consulta la API externa<br>Entonces el sistema parsea la respuesta JSON a objetos de dominio normalizados.<br><br>**Escenario 2**<br>Dado que la API externa de clima no responde o devuelve un error<br>Cuando el cliente HTTP realiza la consulta<br>Entonces el sistema informa que los datos meteorológicos no están disponibles sin interrumpir el resto del servicio. | EP09 |
+| TU-006 | Manejo global de excepciones e intercepción de errores | Como Developer, quiero implementar una clase controladora de excepciones globales, para retornar respuestas de error estandarizadas bajo el formato JSON Problem Details. | **Escenario 1**<br>Dado que ocurre una excepción no controlada o error de validación en la API RESTful<br>Cuando la petición es interceptada por el manejador global<br>Entonces el servidor responde con el código de estado HTTP adecuado y una estructura uniforme de error.<br><br>**Escenario 2**<br>Dado que un cliente envía un recurso con datos inválidos<br>Cuando la validación falla<br>Entonces el servidor responde 400 Bad Request con el detalle de los campos inválidos en el formato Problem Details. | EP09 |
+| TU-007 | Pipeline de integración continua con GitHub Actions | Como Developer, quiero configurar un flujo de integración continua en GitHub Actions, para automatizar la compilación y ejecución de pruebas unitarias en cada push. | **Escenario 1**<br>Dado que un Developer sube cambios al repositorio en GitHub<br>Cuando se activa el disparador del flujo<br>Entonces el servidor de integración ejecuta las tareas de análisis estático, compilación y pruebas reportando el resultado.<br><br>**Escenario 2**<br>Dado que la compilación o alguna prueba falla<br>Cuando termina el flujo de integración continua<br>Entonces el servidor de integración marca la ejecución como fallida e informa el error. | EP09 |
+| TU-008 | Documentación interactiva de API con OpenAPI/Swagger | Como Developer, quiero integrar la biblioteca Springdoc OpenAPI, para generar automáticamente la documentación interactiva de los endpoints RESTful. | **Escenario 1**<br>Dado que la aplicación backend está en ejecución<br>Cuando un Developer o cliente consulta la ruta /swagger-ui.html<br>Entonces el sistema despliega la especificación detallada de los contratos, parámetros y respuestas de la API.<br><br>**Escenario 2**<br>Dado que se agrega un nuevo endpoint a la API<br>Cuando la aplicación se vuelve a iniciar<br>Entonces la documentación incluye automáticamente el nuevo endpoint. | EP09 |
+| TU-010 | Configuración de CORS | Como Developer, quiero configurar la política CORS del RESTful API, para que la Web Application pueda consumir sus endpoints desde su propio origen. | **Escenario 1**<br>Dado que la Web Application realiza una petición HTTP desde su origen permitido<br>Cuando el servidor evalúa la política CORS<br>Entonces el servidor procesa la petición.<br><br>**Escenario 2**<br>Dado que un origen no permitido realiza una petición HTTP<br>Cuando el servidor evalúa la política CORS<br>Entonces el servidor rechaza la petición. | EP09 |
+| TU-011 | Endpoints de fincas | Como Developer, quiero implementar los endpoints del recurso /api/v1/farms, para que la Web Application registre, consulte, actualice y elimine fincas. | **Escenario 1**<br>Dado que existen fincas registradas<br>Cuando el cliente envía GET /api/v1/farms<br>Entonces el servidor responde 200 OK con la lista de fincas.<br><br>**Escenario 2**<br>Dado que el cliente envía POST /api/v1/farms con name, location, ownerId e image<br>Cuando la solicitud es válida<br>Entonces el servidor responde 201 Created con el registro creado y su id.<br><br>**Escenario 3**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET, PUT o DELETE /api/v1/farms/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-012 | Endpoints de parcelas | Como Developer, quiero implementar los endpoints del recurso /api/v1/parcels, para que la Web Application registre, consulte, actualice y elimine parcelas. | **Escenario 1**<br>Dado que existen parcelas registradas<br>Cuando el cliente envía GET /api/v1/parcels<br>Entonces el servidor responde 200 OK con la lista de parcelas.<br><br>**Escenario 2**<br>Dado que el cliente envía POST /api/v1/parcels con name, area, geometry, farmId, cropId e image<br>Cuando la solicitud es válida<br>Entonces el servidor responde 201 Created con el registro creado y su id.<br><br>**Escenario 3**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET, PUT o DELETE /api/v1/parcels/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-013 | Endpoints de cultivos | Como Developer, quiero implementar los endpoints del recurso /api/v1/crops, para que la Web Application registre, consulte, actualice y elimine cultivos. | **Escenario 1**<br>Dado que existen cultivos registrados<br>Cuando el cliente envía GET /api/v1/crops<br>Entonces el servidor responde 200 OK con la lista de cultivos.<br><br>**Escenario 2**<br>Dado que el cliente envía POST /api/v1/crops con name y variety<br>Cuando la solicitud es válida<br>Entonces el servidor responde 201 Created con el registro creado y su id.<br><br>**Escenario 3**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET, PUT o DELETE /api/v1/crops/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-014 | Endpoints de zonas de fumigación | Como Developer, quiero implementar los endpoints del recurso /api/v1/fumigation-areas, para que la Web Application registre, consulte, actualice y elimine zonas de fumigación. | **Escenario 1**<br>Dado que existen zonas de fumigación registradas<br>Cuando el cliente envía GET /api/v1/fumigation-areas<br>Entonces el servidor responde 200 OK con la lista de zonas de fumigación.<br><br>**Escenario 2**<br>Dado que el cliente envía POST /api/v1/fumigation-areas con parcelId, geometry y area<br>Cuando la solicitud es válida<br>Entonces el servidor responde 201 Created con el registro creado y su id.<br><br>**Escenario 3**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET, PUT o DELETE /api/v1/fumigation-areas/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-015 | Endpoint de condiciones meteorológicas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/weather, para que la Web Application muestre las condiciones meteorológicas y sus alertas. | **Escenario 1**<br>Dado que el servicio de clima tiene datos meteorológicos<br>Cuando el cliente envía GET /api/v1/weather<br>Entonces el servidor responde 200 OK con la lista de condiciones, cada una con location, temperature, humidity, windSpeed, precipitation y observedAt.<br><br>**Escenario 2**<br>Dado que una condición meteorológica tiene alertas<br>Cuando el cliente envía GET /api/v1/weather<br>Entonces la respuesta incluye cada alerta con su severity y su message. | EP09 |
+| TU-016 | Endpoint de reportes de misión | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-reports, para que la Web Application muestre los reportes de misión. | **Escenario 1**<br>Dado que existen reportes de misión registrados<br>Cuando el cliente envía GET /api/v1/mission-reports<br>Entonces el servidor responde 200 OK con la lista de registros, cada uno con missionId, type, treatedArea, appliedVolume, observations y generatedAt.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/mission-reports/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-017 | Endpoint de historial de misiones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-histories, para que la Web Application muestre el historial de misiones. | **Escenario 1**<br>Dado que existen registros en el historial de misiones<br>Cuando el cliente envía GET /api/v1/mission-histories<br>Entonces el servidor responde 200 OK con la lista de registros, cada uno con missionId, finalStatus y completedAt.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/mission-histories/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-018 | Endpoint de métricas operativas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/operational-metrics, para que la Web Application muestre las métricas operativas de cada reporte. | **Escenario 1**<br>Dado que existen métricas operativas registradas<br>Cuando el cliente envía GET /api/v1/operational-metrics<br>Entonces el servidor responde 200 OK con la lista de registros, cada uno con reportId, name, value y unit.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/operational-metrics/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-019 | Endpoint de indicadores de desempeño | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/performance-indicators, para que la Web Application muestre los indicadores de desempeño. | **Escenario 1**<br>Dado que existen indicadores de desempeño calculados<br>Cuando el cliente envía GET /api/v1/performance-indicators<br>Entonces el servidor responde 200 OK con la lista de registros, cada uno con name, value, unit, period y calculatedAt.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/performance-indicators/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-020 | Endpoint de drones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/drones, para que la Web Application muestre la flota de drones. | **Escenario 1**<br>Dado que existen drones registrados<br>Cuando el cliente envía GET /api/v1/drones<br>Entonces el servidor responde 200 OK con la lista, cada registro con serialNumber, model, batteryLevel, status, nozzleId y fechas de último y próximo mantenimiento.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/drones/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-021 | Endpoint de boquillas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/nozzles, para que la Web Application muestre las boquillas. | **Escenario 1**<br>Dado que existen boquillas registradas<br>Cuando el cliente envía GET /api/v1/nozzles<br>Entonces el servidor responde 200 OK con la lista de registros, cada uno con type, diameterMm, stockUnits y status.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/nozzles/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-022 | Endpoint de agroquímicos | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/agrochemicals, para que la Web Application muestre los agroquímicos. | **Escenario 1**<br>Dado que existen agroquímicos registrados<br>Cuando el cliente envía GET /api/v1/agrochemicals<br>Entonces el servidor responde 200 OK con la lista, cada registro con name, type, stockLiters, minimumStockLiters y expirationDate.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/agrochemicals/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-023 | Endpoint de registros de mantenimiento | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/maintenance-records, para que la Web Application muestre los mantenimientos de los drones. | **Escenario 1**<br>Dado que existen registros de mantenimiento<br>Cuando el cliente envía GET /api/v1/maintenance-records<br>Entonces el servidor responde 200 OK con la lista, cada registro con droneId, date, type, description y technician.<br><br>**Escenario 2**<br>Dado que no existe un registro con el id indicado<br>Cuando el cliente envía GET /api/v1/maintenance-records/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-024 | Endpoints de usuarios | Como Developer, quiero implementar los endpoints del recurso /api/v1/users, para que la Web Application registre usuarios con su rol. | **Escenario 1**<br>Dado que el cliente envía POST /api/v1/users con username, email, password y role (FARMER u OPERATOR)<br>Cuando la solicitud es válida<br>Entonces el servidor responde 201 Created con el usuario creado y su id, sin incluir la contraseña.<br><br>**Escenario 2**<br>Dado que no existe un usuario con el id indicado<br>Cuando el cliente envía GET /api/v1/users/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-025 | Endpoints de misiones | Como Developer, quiero implementar los endpoints del recurso /api/v1/missions, para que la Web Application solicite, asigne, configure y actualice el estado de las misiones de fumigación. | **Escenario 1**<br>Dado que el cliente envía POST /api/v1/missions con parcelId, agrochemicalId y requestedDate<br>Cuando la solicitud es válida<br>Entonces el servidor responde 201 Created con la misión creada en estado PLANNED.<br><br>**Escenario 2**<br>Dado que existe la misión indicada<br>Cuando el cliente envía PUT /api/v1/missions/{id} con requestedDate, droneId, operatorId, flightHeight, flightSpeed, sprayRate y overlap<br>Entonces el servidor responde 200 OK con la misión actualizada.<br><br>**Escenario 3**<br>Dado que existe la misión indicada<br>Cuando el cliente envía PATCH /api/v1/missions/{id}/status con un estado válido (PLANNED, AUTHORIZED, IN_PROGRESS, PAUSED, COMPLETED o CANCELLED)<br>Entonces el servidor responde 200 OK con el nuevo estado de la misión.<br><br>**Escenario 4**<br>Dado que no existe una misión con el id indicado<br>Cuando el cliente envía GET, PUT o PATCH /api/v1/missions/{id}<br>Entonces el servidor responde 404 Not Found. | EP09 |
+| TU-026 | Endpoint de inicio de sesión | Como Developer, quiero implementar el endpoint POST /api/v1/authentication/sign-in, para que los usuarios inicien sesión y obtengan un token JWT. | **Escenario 1**<br>Dado que el cliente envía POST /api/v1/authentication/sign-in con un username y una contraseña registrados<br>Cuando las credenciales son correctas<br>Entonces el servidor responde 200 OK con el id, el username, el role y el token JWT del usuario.<br><br>**Escenario 2**<br>Dado que el cliente envía POST /api/v1/authentication/sign-in con un username o una contraseña incorrectos<br>Cuando el servidor valida las credenciales<br>Entonces responde 401 Unauthorized sin generar un token. | EP09 |
 
 ## 3.2. Impact Mapping
 
-**Impact Mapping Segmento 1:**
-<div align="center">
-   <img src="./assets/Chapter3/Impactmap-Segmento1.png" alt=" Impact Mapping Segmento 1" />
-</div>
+El Impact Mapping relaciona los objetivos de negocio de AgriDron Solutions con los User Personas de cada segmento, los cambios de comportamiento que se esperan de ellos, los entregables del producto digital y las User Stories que los hacen posibles. Se elaboró un mapa por segmento en UXPressia, a partir de las fichas de User Persona del 2.3.1.
 
-
-
-**Impact Mapping Segmento 2:**
+#### Segmento 1: Pequeños y Medianos Agricultores (PyMAs)
 
 <div align="center">
-   <img src="./assets/Chapter3/Impactmap-Segmento2.png" alt=" Impact Mapping Segmento 2" />
+   <img src="./assets/Chapter3/Impactmap-Segmento1.png" alt="Impact Mapping Segmento 1" />
 </div>
 
+*Figura: Impact Map del segmento de Pequeños y Medianos Agricultores (PyMAs).* El mapa define tres Business Goals: alcanzar 100 agricultores registrados y activos gestionando sus predios durante los primeros 6 meses tras el lanzamiento (BG01), lograr que al menos el 60 % de las fumigaciones contratadas se planifiquen y soliciten a través de la plataforma en los primeros 6 meses (BG02) y conseguir que el 75 % de los agricultores activos consulten y exporten sus actas de servicio y reportes fitosanitarios al cierre del primer ciclo agrícola (BG03). Para lograrlos, se espera que el agricultor conozca la propuesta de valor y registre su finca y sus parcelas, que reemplace las llamadas y chats informales por solicitudes en la plataforma consultando antes el clima, y que deje los cuadernos físicos para validar el trabajo realizado con registros digitales.
 
+#### Segmento 2: Operadores Técnicos de Drones
 
-**Descripción:**
-<p align="justify">
+<div align="center">
+   <img src="./assets/Chapter3/Impactmap-Segmento2.png" alt="Impact Mapping Segmento 2" />
+</div>
 
-Diagrama que muestra la relación entre los actores clave (agricultor, operador y supervisor),
-los objetivos estratégicos del proyecto y las funcionalidades necesarias para lograrlos
-
-</p>
+*Figura: Impact Map del segmento de Operadores Técnicos de Drones.* El mapa define tres Business Goals: afiliar a 50 operadores técnicos de drones de fumigación en las zonas de Cañete, Ica y Huaral durante los primeros 6 meses de operación (BG01), reducir en un 70 % el tiempo de reconocimiento previo en campo y de preparación de vuelo durante los primeros 6 meses (BG02) y alcanzar un 90 % de misiones cerradas con acta de servicio digital y cero disputas por hectáreas tratadas en el primer semestre (BG03). Para lograrlos, se espera que el operador registre su perfil técnico y sus drones, que llegue al campo con la parcela ya reconocida e identifique los obstáculos antes del despegue, y que sustente las pausas de vuelo con datos climáticos y cierre cada servicio con su acta.
 
 ---
 
 ## 3.3. Product Backlog
 
-| ID     | Epic / Módulo        | User Story / Technical Story                                                                                                                                         | Prioridad  | Story Points  | Estado |
-|:-------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:-------------:|:-------|
-| TU-00  | Infraestructura      | Configuración de Arquitectura Base en Spring Boot                                                                                                                    | ALTA       |       5       | To-Do  |
-| TU-002 | Seguridad            | Implementación de Seguridad y Autenticación JWT                                                                                                                      | ALTA       |       5       | To-Do  |
-| TU-004 | Field Management     | Configuración de Persistencia Espacial en Base de Datos (GIS)                                                                                                        | ALTA       |       5       | To-Do  |
-| LP-001 | Landing Page         | Como visitante, quiero visualizar la propuesta de valor de AgriDron en la página principal, para entender rápidamente qué ofrece el servicio.                        | ALTA       |       2       | To-Do  |
-| LP-002 | Landing Page         | Como visitante, quiero ver los servicios y características principales de AgriDron, para evaluar si la solución satisface mis necesidades.                           | ALTA       |       2       | To-Do  |
-| LP-003 | Landing Page         | Como visitante, quiero conocer los planes de precios y suscripción, para tomar una decisión informada sobre la contratación del servicio.                            | ALTA       |       3       | To-Do  |
-| LP-004 | Landing Page         | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application.                      | ALTA       |       5       | To-Do  |
-| LP-005 | Landing Page         | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application.                                                            | ALTA       |       3       | To-Do  |
-| LP-006 | Landing Page         | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad.                                             | BAJA       |       1       | To-Do  |
-| LP-007 | Landing Page         | Como visitante, quiero cambiar el idioma del sitio entre español e inglés, para navegar en mi idioma preferido.                                                      | MEDIA      |       5       | To-Do  |
-| WA-001 | Web App - Agricultor | Como agricultor, quiero registrar mis fincas en la plataforma, para gestionar mis parcelas de forma centralizada.                                                    | ALTA       |       5       | To-Do  |
-| WA-002 | Web App - Agricultor | Como agricultor, quiero dibujar el área de fumigación sobre un mapa interactivo, para planificar misiones de manera precisa.                                         | ALTA       |       8       | To-Do  |
-| WA-003 | Web App - Agricultor | Como agricultor, quiero crear una misión de fumigación seleccionando el área y el cultivo, para solicitar el servicio.                                               | ALTA       |       5       | To-Do  |
-| TU-003 | Weather Integration  | Integración con Servicio Externo de Clima (Weather API)                                                                                                              | MEDIA      |       3       | To-Do  |
-| WA-004 | Web App - Agricultor | Como agricultor, quiero consultar el historial de misiones de fumigación de mis fincas, para dar seguimiento a las operaciones realizadas.                           | MEDIA      |       5       | To-Do  |
-| WA-005 | Web App - Agricultor | Como agricultor, quiero generar reportes de productividad por hectárea, para justificar inversiones y tomar decisiones estratégicas.                                 | MEDIA      |       8       | To-Do  |
-| WA-006 | Web App - Operador   | Como operador, quiero visualizar las misiones de fumigación que me han sido asignadas, para planificar mi jornada de trabajo.                                        | ALTA       |       3       | To-Do  |
-| WA-007 | Web App - Operador   | Como operador, quiero actualizar el estado de una misión (En Progreso / Completada), para mantener informado al agricultor y al supervisor.                          | ALTA       |       5       | To-Do  |
-| WA-008 | Web App - Operador   | Como operador, quiero registrar mis horas trabajadas con verificación de ubicación, para garantizar precisión en la información de mi jornada.                       | MEDIA      |       8       | To-Do  |
-| WA-009 | Web App - Operador   | Como operador, quiero registrar incidencias durante la operación (clima adverso, falla técnica, etc.), para documentar interrupciones y justificar reprogramaciones. | MEDIA      |       5       | To-Do  |
-| WA-010 | Web App - Supervisor | Como supervisor, quiero asignar misiones creadas por agricultores a operadores disponibles, para coordinar las operaciones de campo.                                 | ALTA       |       5       | To-Do  |
-| TU-005 | Flight Operations    | Implementación de Simulador de Telemetría para Drones (WebSockets)                                                                                                   | ALTA       |       8       | To-Do  |
-| WA-011 | Web App - Supervisor | Como supervisor, quiero ver el estado y ubicación de todos los drones activos en tiempo real, para optimizar la coordinación de misiones.                            | ALTA       |       8       | To-Do  |
-| WA-012 | Web App - Supervisor | Como supervisor, quiero consultar reportes de eficiencia operativa (tiempo/hectárea, costo/hectárea), para evaluar el desempeño y optimizar recursos.                | MEDIA      |       8       | To-Do  |
-| WA-013 | Web App - Supervisor | Como supervisor, quiero gestionar el inventario de pesticidas y fertilizantes disponibles, para planificar compras y garantizar el abastecimiento.                   | MEDIA      |       5       | To-Do  |
+El Product Backlog reúne las User Stories y Technical Stories del 3.1, ordenadas según su valor para el negocio y estimadas en Story Points con la escala 1, 2, 3, 5 y 8. Las historias de la Landing Page van primero porque se desarrollan desde el Sprint 1. Luego se ubican las que forman el flujo principal del producto (fincas y parcelas, solicitud y seguimiento de misiones, clima y reportes) junto con las Technical Stories que las soportan, y después las de autenticación, inventario de equipos y las funcionalidades complementarias.
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1 | LP-001 | Visualización de propuesta de valor | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones. | 2 |
+| 2 | LP-002 | Consulta de servicios de fumigación | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola. | 2 |
+| 3 | LP-003 | Consulta de planes de suscripción | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado. | 3 |
+| 4 | LP-004 | Acceso al registro desde la Landing Page | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | 5 |
+| 5 | LP-005 | Inicio de sesión desde la Landing Page | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | 3 |
+| 6 | LP-006 | Acceso a términos legales y políticas de privacidad | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | 1 |
+| 7 | LP-007 | Cambio de idioma del sitio | Como visitante, quiero cambiar el idioma del sitio entre español e inglés, para navegar en mi idioma preferido. | 5 |
+| 8 | LP-008 | Consulta sobre el equipo multidisciplinario | Como visitante, quiero conocer el perfil de los creadores de AgriDron Solutions, para verificar la trayectoria profesional del equipo. | 1 |
+| 9 | LP-009 | Solicitud de demostración comercial | Como visitante del segmento Pequeños y Medianos Agricultores (PyMAs), quiero enviar un formulario de contacto, para solicitar una demostración personalizada del servicio. | 2 |
+| 10 | LP-010 | Consulta de preguntas frecuentes | Como visitante, quiero revisar la sección de preguntas frecuentes, para resolver dudas sobre la tecnología de drones y normativas. | 1 |
+| 11 | FM-001 | Registro de finca agrícola | Como agricultor, quiero registrar las fincas de mi propiedad, para organizar geográficamente mis parcelas. | 5 |
+| 12 | FM-002 | Delimitación geográfica de parcela | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | 8 |
+| 13 | FM-004 | Asignación de tipo de cultivo y fenología | Como agricultor, quiero especificar el cultivo y la etapa fenológica de la parcela, para parametrizar las misiones de pulverización. | 2 |
+| 14 | FM-003 | Edición de contorno e información de parcela | Como agricultor, quiero modificar los límites y nombre de una parcela registrada, para actualizar cambios en la infraestructura del campo. | 3 |
+| 15 | TU-011 | Endpoints de fincas | Como Developer, quiero implementar los endpoints del recurso /api/v1/farms, para que la Web Application registre, consulte, actualice y elimine fincas. | 3 |
+| 16 | TU-012 | Endpoints de parcelas | Como Developer, quiero implementar los endpoints del recurso /api/v1/parcels, para que la Web Application registre, consulte, actualice y elimine parcelas. | 3 |
+| 17 | TU-013 | Endpoints de cultivos | Como Developer, quiero implementar los endpoints del recurso /api/v1/crops, para que la Web Application registre, consulte, actualice y elimine cultivos. | 2 |
+| 18 | TU-014 | Endpoints de zonas de fumigación | Como Developer, quiero implementar los endpoints del recurso /api/v1/fumigation-areas, para que la Web Application registre, consulte, actualice y elimine zonas de fumigación. | 3 |
+| 19 | MI-001 | Solicitud de misión de fumigación | Como agricultor, quiero solicitar una misión de fumigación indicando parcela y fecha estimada, para programar la atención de mi cultivo. | 5 |
+| 20 | CL-001 | Consulta de condiciones climáticas actuales | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación. | 3 |
+| 21 | CL-002 | Alerta por exceso de velocidad de viento | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos. | 3 |
+| 22 | TU-005 | Integración de cliente de servicio meteorológico | Como Developer, quiero construir un cliente HTTP para consumir una API externa de clima, para abstraer las consultas meteorológicas del dominio principal. | 3 |
+| 23 | TU-015 | Endpoint de condiciones meteorológicas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/weather, para que la Web Application muestre las condiciones meteorológicas y sus alertas. | 2 |
+| 24 | TU-025 | Endpoints de misiones | Como Developer, quiero implementar los endpoints del recurso /api/v1/missions, para que la Web Application solicite, asigne, configure y actualice el estado de las misiones de fumigación. | 8 |
+| 25 | MI-002 | Asignación de dron e insumos a la misión | Como operador técnico, quiero asignar un dron y la cantidad de producto requerida a una misión, para preparar la logística operativa. | 3 |
+| 26 | MI-003 | Asignación de operador técnico a la misión | Como operador técnico, quiero asignarme una misión solicitada, para hacerme responsable de su ejecución en campo. | 5 |
+| 27 | MI-004 | Configuración de parámetros de vuelo | Como operador técnico, quiero definir la altura de vuelo, velocidad y tasa de pulverización, para asegurar una cobertura homogénea. | 3 |
+| 28 | MI-005 | Consulta de calendario de misiones | Como operador técnico, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores. | 3 |
+| 29 | MI-007 | Aprobación formal de misión | Como operador técnico, quiero aprobar definitivamente una misión Programada, para autorizar el inicio del despliegue en campo. | 2 |
+| 30 | TR-001 | Visualización de posición de dron en tiempo real | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno. | 8 |
+| 31 | TR-002 | Monitoreo de indicadores de vuelo | Como operador técnico, quiero supervisar el nivel de batería y volumen de tanque en tiempo real, para tomar decisiones operativas durante el vuelo. | 5 |
+| 32 | TR-003 | Recepción de alertas operativas en vuelo | Como operador técnico, quiero recibir notificaciones inmediatas ante anomalías de altitud o batería baja, para prevenir accidentes en campo. | 3 |
+| 33 | TR-004 | Pausa y reanudación de misión de emergencia | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo desde el último punto tratado. | 3 |
+| 34 | TR-005 | Registro de finalización de misión | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | 5 |
+| 35 | TR-006 | Bitácora técnica de observaciones en campo | Como operador técnico, quiero adjuntar notas operativas al finalizar el vuelo, para documentar incidencias de viento o vegetación. | 5 |
+| 36 | RP-001 | Generación de informe de servicio fitosanitario | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | 8 |
+| 37 | RP-004 | Historial de misiones con filtros avanzados | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o parcela, para comparar intervenciones pasadas. | 5 |
+| 38 | RP-003 | Visualización de panel con métricas generales | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | 3 |
+| 39 | RP-002 | Exportación de informes en formato PDF | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | 3 |
+| 40 | TU-016 | Endpoint de reportes de misión | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-reports, para que la Web Application muestre los reportes de misión. | 1 |
+| 41 | TU-017 | Endpoint de historial de misiones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-histories, para que la Web Application muestre el historial de misiones. | 1 |
+| 42 | TU-018 | Endpoint de métricas operativas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/operational-metrics, para que la Web Application muestre las métricas operativas de cada reporte. | 1 |
+| 43 | TU-019 | Endpoint de indicadores de desempeño | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/performance-indicators, para que la Web Application muestre los indicadores de desempeño. | 1 |
+| 44 | AU-001 | Registro de usuario agricultor | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | 3 |
+| 45 | AU-002 | Registro de operador técnico | Como operador técnico, quiero registrarme en el sistema, para recibir asignaciones de misiones de vuelo. | 2 |
+| 46 | AU-006 | Selección de rol en el registro | Como usuario nuevo, quiero elegir mi rol al registrarme, para acceder a las funciones que me corresponden. | 2 |
+| 47 | AU-003 | Inicio de sesión seguro | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | 3 |
+| 48 | AU-007 | Cierre de sesión seguro | Como usuario autenticado, quiero finalizar la sesión de trabajo, para proteger la confidencialidad de mis datos. | 1 |
+| 49 | TU-024 | Endpoints de usuarios | Como Developer, quiero implementar los endpoints del recurso /api/v1/users, para que la Web Application registre usuarios con su rol. | 2 |
+| 50 | TU-026 | Endpoint de inicio de sesión | Como Developer, quiero implementar el endpoint POST /api/v1/authentication/sign-in, para que los usuarios inicien sesión y obtengan un token JWT. | 5 |
+| 51 | TU-002 | Implementación de seguridad y autenticación JWT | Como Developer, quiero implementar la autenticación mediante JSON Web Tokens (JWT) en Spring Security, para asegurar que los endpoints de la API RESTful requieran un token válido. | 5 |
+| 52 | DR-002 | Consulta del estado operativo de flota | Como operador técnico, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo. | 2 |
+| 53 | DR-001 | Registro de nuevo dron en inventario | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable. | 3 |
+| 54 | DR-003 | Registro de agroquímicos e insumos | Como operador técnico, quiero registrar los productos agroquímicos autorizados, para controlar las dosis aplicadas en las misiones. | 5 |
+| 55 | DR-004 | Registro de tipos de boquillas de asperjar | Como operador técnico, quiero asociar tipos de boquillas a cada dron, para garantizar el tamaño de gota adecuado según el cultivo. | 2 |
+| 56 | DR-005 | Programación de mantenimiento preventivo | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas. | 3 |
+| 57 | DR-006 | Registro de fallas e incidentes de equipo | Como operador técnico, quiero reportar una falla mecánica en un dron, para restringir su uso en misiones hasta su reparación. | 2 |
+| 58 | DR-007 | Deshabilitación de dron de la flota | Como operador técnico, quiero dar de baja un dron retirado del servicio, para mantener el inventario actualizado. | 1 |
+| 59 | TU-020 | Endpoint de drones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/drones, para que la Web Application muestre la flota de drones. | 1 |
+| 60 | TU-021 | Endpoint de boquillas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/nozzles, para que la Web Application muestre las boquillas. | 1 |
+| 61 | TU-022 | Endpoint de agroquímicos | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/agrochemicals, para que la Web Application muestre los agroquímicos. | 1 |
+| 62 | TU-023 | Endpoint de registros de mantenimiento | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/maintenance-records, para que la Web Application muestre los mantenimientos de los drones. | 1 |
+| 63 | MI-006 | Reprogramación de misión | Como agricultor, quiero solicitar el cambio de fecha de una misión que aún no inicia, para ajustarme a eventualidades del fundo. | 3 |
+| 64 | MI-008 | Exportación de plan de vuelo | Como operador técnico, quiero descargar el plan de vuelo parametrizado de la misión, para tenerlo como referencia durante la operación en campo. | 3 |
+| 65 | CL-003 | Identificación de ventana óptima de pulverización | Como operador técnico, quiero visualizar una recomendación del mejor horario para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | 5 |
+| 66 | CL-004 | Registro de medición climática manual | Como operador técnico, quiero ingresar mediciones de un anemómetro de campo, para validar la viabilidad cuando el servicio meteorológico no tenga cobertura local. | 2 |
+| 67 | CL-005 | Configuración de umbrales meteorológicos por cultivo | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | 3 |
+| 68 | RP-005 | Balance de consumo de productos agroquímicos | Como operador técnico, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos. | 3 |
+| 69 | RP-006 | Comparativa de eficiencia operativa entre parcelas | Como operador técnico, quiero comparar el tiempo promedio de fumigación por hectárea entre distintas parcelas, para identificar oportunidades de mejora. | 5 |
+| 70 | FM-005 | Consulta y filtrado de parcelas | Como agricultor, quiero filtrar mis parcelas por tipo de cultivo o superficie, para ubicar rápidamente terrenos específicos. | 2 |
+| 71 | FM-006 | Deshabilitación de parcela agrícola | Como agricultor, quiero inactivar una parcela fuera de producción, para retirarla de la lista de terrenos operativos. | 2 |
+| 72 | FM-007 | Cambio de capas en mapa cartográfico | Como agricultor, quiero alternar entre vistas satelital, topográfica e híbrida, para analizar las características del terreno. | 3 |
+| 73 | FM-008 | Asignación de operadores técnicos a fincas | Como agricultor, quiero asociar operadores técnicos a fincas específicas, para delegar la gestión de misiones en dichos terrenos. | 5 |
+| 74 | AU-004 | Recuperación de contraseña | Como usuario registrado, quiero restablecer mi contraseña mediante correo electrónico, para recuperar el acceso ante un olvido. | 3 |
+| 75 | AU-005 | Edición de perfil de usuario | Como usuario registrado, quiero actualizar mis datos de contacto y organización, para mantener la información al día. | 2 |
+| 76 | TU-001 | Configuración de arquitectura limpia base | Como Developer, quiero estructurar la solución backend en Spring Boot siguiendo principios de arquitectura limpia, para garantizar la mantenibilidad y modularidad del software. | 5 |
+| 77 | TU-006 | Manejo global de excepciones e intercepción de errores | Como Developer, quiero implementar una clase controladora de excepciones globales, para retornar respuestas de error estandarizadas bajo el formato JSON Problem Details. | 2 |
+| 78 | TU-007 | Pipeline de integración continua con GitHub Actions | Como Developer, quiero configurar un flujo de integración continua en GitHub Actions, para automatizar la compilación y ejecución de pruebas unitarias en cada push. | 2 |
+| 79 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | Como Developer, quiero integrar la biblioteca Springdoc OpenAPI, para generar automáticamente la documentación interactiva de los endpoints RESTful. | 1 |
+| 80 | TU-010 | Configuración de CORS | Como Developer, quiero configurar la política CORS del RESTful API, para que la Web Application pueda consumir sus endpoints desde su propio origen. | 1 |
+
+El Product Backlog se gestiona en Trello, en el siguiente enlace público:
+
+* **Enlace al Product Backlog:** [AgriDron en Trello](https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron)
+
+![Product Backlog en Trello](./assets/Chapter3/product-backlog-trello.png)
+
+*Figura: Product Backlog de AgriDron Solutions en Trello.*
 
 ---
 
@@ -1312,12 +1249,12 @@ los objetivos estratégicos del proyecto y las funcionalidades necesarias para l
 AgriDron Solutions adopta un sistema de diseño coherente, funcional y optimizado para la gestión de operaciones de fumigación agrícola con drones
 y monitoreo de cultivos. En esta sección se establecen los lineamientos de estilo que garantizan la consistencia visual y de interacción en todo el
 ecosistema digital, incluyendo la landing page y la aplicación web. Se detallan las decisiones de branding,
-paleta de colores, tipografía, espaciado, tono y lenguaje de la plataforma.
+paleta de colores, tipografía, espaciado, tono y lenguaje de la plataforma. Se toma como referencia el Design System de Material Design, implementado en la Web Application con Angular Material.
 </p>
 
 <p align="justify">
 Estos criterios se fundamentan en principios de diseño como jerarquía visual, legibilidad, contraste y feedback inmediato. Asimismo, responden a un
-enfoque accesible e intuitivo para que los agricultores, operadores de drones y supervisores del campo puedan interactuar con la plataforma en entornos
+enfoque accesible e intuitivo para que los agricultores y los operadores técnicos de drones puedan interactuar con la plataforma en entornos
 de alta exigencia operativa sin sobrecarga cognitiva.
 </p>
  
@@ -1330,6 +1267,8 @@ tecnológico aplicado al sector agropecuario.
 </p>
 
 <img src="assets/logos/Agridron_Logo.png" alt="Agridron_Logo" width="650"/>
+
+*Figura: Isotipo y logotipo de AgriDron Solutions.*
 
 **2. Branding:**
 
@@ -1344,32 +1283,30 @@ El branding de AgriDron se fundamenta en los siguientes conceptos clave:
 - **Sostenibilidad y Cercanía:** Inspiradas en una paleta orgánica y el uso de imágenes reales de campo, conectando la tecnología directamente con la realidad del agricultor.
 
 **3. Typography:**
-El sistema tipográfico de AgriDron emplea tres familias de fuentes seleccionadas para equilibrar fuerza de marca,
-alta legibilidad en pantallas y precisión técnica en datos:
 
-- **Brand / Títulos principales (Segoe UI):** Se utiliza en fuentes sans-serif para títulos (Display, Headline), encabezados
-de la landing page y secciones principales de la aplicación. Aporta modernidad y estructura visual limpia.
+El sistema tipográfico de AgriDron emplea dos familias de fuentes, una para cada producto, que equilibran la fuerza de marca con la legibilidad en pantalla:
 
-<img src="assets/chapter4/General_Style/Typography.jpg" alt="Typography Agridron" width="650"/>
+- **Montserrat (Landing Page):** se utiliza en títulos, párrafos y botones de la Landing Page, con Segoe UI como fuente alternativa. Sus pesos de 400 a 900 permiten jerarquizar títulos y textos con una sola familia.
+- **Roboto (Web Application):** es la tipografía de Material Design que aplica Angular Material en toda la Web Application. Se usa con los pesos 300, 400 y 500 en títulos, formularios, tablas y botones, y garantiza claridad en la consulta de datos operativos.
 
-- **Plain / Cuerpo de texto (Montserrat):** Se emplea para el cuerpo de texto, párrafos, formularios, tablas, etiquetas y botones
-generales. Su alto rendimiento de lectura garantiza claridad en la consulta de datos operativos.
+<img src="assets/chapter4/General_Style/typography.png" alt="Typography Agridron" width="650"/>
 
-<img src="assets/chapter4/General_Style/Typography_body.jpg" alt="Typography Agridron" width="650"/>
+*Figura: Tipografías de AgriDron Solutions.* Montserrat se aplica en la Landing Page y Roboto en la Web Application, con la jerarquía de títulos, textos, etiquetas y botones de cada producto.
 
 **4. Colors:**
 
-La paleta de colores de AgriDron está inspirada en la naturaleza y el sector agrícola, complementada con tonos tecnológicos y de alto
-contraste para maximizar la legibilidad en campo y gabinetes operativos:
+La paleta de colores de AgriDron está inspirada en la naturaleza y el sector agrícola, complementada con colores de estado y de alerta de alto contraste:
 
-- **Verde Bosque / Primario (#1B463C):** Transmite sostenibilidad, naturaleza y confianza agrícola. Se utiliza en headers, navegación.
-- **Verde Teal / Secundario (#20AC87):** Aporta dinamismo y frescura. Se usa en botones interactivos (CTAs), estados activos de misiones y gráficos de progreso.
-- **Azul Tecnológico (#1E3A8A):** Representa precisión, telemetría y fiabilidad técnica en la plataforma. Utilizado en datos de vuelo y componentes de monitoreo.   
-- **Amarillo / Alerta (#F59E0B):** Destinado a estados programados, advertencias meteorológicas y notificaciones de atención.   
-- **Neutros (Blanco #FFFFFF y Gris Claro #F8FAFC):** Garantizan orden, espacio respirable y balance visual en la interfaz.
+- **Verde Bosque / Primario (#1B463C):** transmite sostenibilidad y confianza agrícola. Se utiliza en la barra lateral de navegación, el pie de página y los títulos de la Web Application.
+- **Verde Teal / Secundario (#179A7A):** aporta dinamismo. Se usa en los botones principales, la opción activa de la navegación y los íconos de métricas.
+- **Verdes de la Landing Page (#1DA27E a #0F8E74 y texto #0D3C35):** se aplican en los botones con degradado y en los textos de la Landing Page.
+- **Colores de estado de la misión:** verde #4CAF50 (Completada), azul #42A5F5 (En curso), naranja #FFA726 (Programada o Autorizada) y rojo #EF5350 (En pausa o Cancelada).
+- **Colores de alerta meteorológica:** azul #1E3A8A (severidad baja), ámbar #B45309 (severidad media) y rojo #B91C1C (severidad alta), cada uno sobre un fondo tenue.
+- **Neutros y error:** blanco #FFFFFF y gris claro #F3F5F2 para fondos y tarjetas, y rojo #B3261E para los mensajes de error.
 
-<img src="assets/chapter4/General_Style/colors.jpg" alt="Typography Agridron" width="650"/>
+<img src="assets/chapter4/General_Style/colors.png" alt="Colors Agridron" width="650"/>
 
+*Figura: Paleta de colores de AgriDron Solutions.* Agrupa los colores de marca, los colores de estado de la misión y los colores de las alertas meteorológicas y de error.
 
 **5. Spacing:**
 
@@ -1386,450 +1323,327 @@ AgriDron busca transmitir:
 - **Claridad y Eficiencia:** al guiar al agricultor paso a paso en la planificación de una fumigación.   
 - **Cercanía:** al usar terminología conocida por el productor agrícola (finca, parcela, cultivo, insumo).
 
+Según las dimensiones del tono de comunicación, AgriDron se ubica en:
+
+- **Serio** (frente a Divertido): la plataforma gestiona operaciones con agroquímicos, clima y costos, por lo que transmite seguridad.
+- **Formal** (frente a Casual): usa un lenguaje profesional, sin tecnicismos innecesarios.
+- **Respetuoso** (frente a Irreverente): trata al agricultor y al operador técnico como expertos en su trabajo.
+- **Sereno** (frente a Entusiasta): presenta alertas y estados de forma clara y calmada, sin alarmar.
+
 **7. Language:**
 
-El lenguaje del sistema será directo, breve y orientado a la acción. El idioma principal de la interfaz será
-el Español (es_419), adaptado al entorno agrícola latinoamericano, contando con soporte para Inglés (en_US).
+El lenguaje del sistema será directo, breve y orientado a la acción. El idioma principal de la interfaz es el español, adaptado al entorno agrícola latinoamericano, con soporte para inglés.
 
-Se priorizarán frases cortas e imperativas que reduzcan la carga cognitiva:
-
-- Nueva misión en lugar de Registrar solicitud de servicio de fumigación.
-- Seleccionar parcela en lugar de Elegir área geográfica de terreno agrícola.
-- Monitorear vuelo en lugar de Visualizar estado de la telemetría del dron en ejecución.
-- Descargar reporte en lugar de Generar informe detallado de rendimiento de insumos.
+Se priorizan etiquetas cortas y verbos de acción que reducen la carga cognitiva, como en la Web Application: Nueva finca, Nueva parcela, Ver más, Editar, Eliminar y Volver. El cambio de idioma se realiza desde un selector en la barra superior.
 
 ### 4.1.2. Web Style Guidelines
 
-Las Web Style Guidelines de AgriDron Solutions establecen los criterios visuales y de interacción que
-guían el diseño de la landing page y la web application. Estas pautas aseguran consistencia entre dispositivos,
-favorecen la legibilidad y permiten que tanto agricultores, operadores técnicos y supervisores naveguen de forma intuitiva por la plataforma.
+Las Web Style Guidelines de AgriDron Solutions establecen los criterios visuales y de interacción que guían el diseño de la Landing Page y la Web Application. Estas pautas aseguran consistencia entre dispositivos, favorecen la legibilidad y permiten que tanto agricultores como operadores técnicos naveguen de forma intuitiva por la plataforma.
 
 **Estructura general**
 
-AgriDron Solutions adopta un enfoque responsive web design, de modo que la interfaz se adapte correctamente a desktop,
-laptop, tablet y mobile web sin perder claridad ni coherencia visual.
+AgriDron Solutions adopta un enfoque responsive web design, de modo que la interfaz se adapte a desktop, tablet y mobile web sin perder claridad ni coherencia visual.
 
-- **Desktop:** La navegación principal se presenta mediante sidebar lateral y header superior. Los módulos con mayor densidad informativa, como la gestión de parcelas en mapa satelital, monitoreo de misiones, inventario y reportes de productividad, aprovechan mejor el ancho disponible mediante tablas, mapas interactivos, tarjetas de métricas y filtros visibles.
-
-- **Tablet:** La estructura se reorganiza a 6 u 8 columnas, reduciendo el número de elementos visibles por fila. Los paneles laterales pueden colapsarse y ciertas tablas o paneles de telemetría pasan a formatos más compactos para facilitar la interacción táctil en campo.
-
-- **Mobile Web:** La estructura se simplifica a una sola columna. Los elementos se apilan verticalmente, se priorizan botones de acción principal (como iniciar misión o registrar incidencia) y la navegación se compacta mediante menú hamburguesa o navegación inferior, según el flujo de trabajo.
+- **Web Application:** la navegación se organiza con una barra lateral en verde bosque y una barra superior con el botón de menú, el nombre AgriDron y el selector de idioma. La barra lateral da acceso a Inicio, Fincas, Parcelas, Cultivos, Zonas de fumigación, Misiones, Reportes, Drones y Perfil. Las fincas, parcelas y drones se presentan en cuadrículas de tarjetas que se reacomodan según el ancho disponible.
+- **Landing Page:** un menú superior lleva a las secciones Inicio, Funcionalidades, Cómo funciona, Para quién y Nuestro equipo, y los botones de acción dirigen al registro y al inicio de sesión.
 
 **Breakpoints**
 
-Se proponen los siguientes breakpoints para asegurar una adaptación consistente en todos los entornos de uso:
-
-- Mobile: hasta 767 px.
-- Tablet: desde 768 px hasta 1023 px.
-- Desktop: 1024 px en adelante.
+- **Web Application:** hasta 959 px la barra lateral se oculta y se abre como panel desplegable desde el botón de menú. Desde 960 px la barra lateral permanece fija.
+- **Landing Page:** el diseño se reorganiza en 1024 px, donde el Hero pasa a una sola columna y los botones de acción se acomodan en varias filas.
 
 **Componentes básicos de UI**
 
-- Botones primarios: fondo verde bosque #1E4D2B o verde acento #10B981, texto blanco, bordes redondeados de 8 px a 12 px. Se utilizan para acciones clave como + Nueva finca, + Nueva parcela, Crear misión, Confirmar e Iniciar sesión.
-- Botones secundarios: fondo blanco o gris claro #F8FAFC, borde en verde bosque #1E4D2B o gris #CBD5E1, con texto oscuro. Se emplean para acciones complementarias como Cancelar, Ver detalle, Filtrar o Volver.
-- Inputs y formularios: bordes suaves (#CBD5E1), fondo claro e interno con suficiente padding para facilitar la lectura e interacción. El estado enfocado resalta mediante un borde verde acento #10B981. El estado de error utiliza un borde rojo #EF4444 con un mensaje de validación visible debajo del campo.
-- Cards: contenedores rectangulares con esquinas redondeadas, padding interno de 16 px a 24 px y jerarquía clara entre título, contenido y acciones. Se usan en el dashboard principal, resumen meteorológico, métricas de cultivo, tarjetas de fincas y vistas de misiones.
-- Tablas: encabezados destacados sobre fondo tenue, filas con separación visual suficiente mediante bordes sutiles y acciones agrupadas al extremo derecho. En resoluciones pequeñas, las tablas se transforman en tarjetas apiladas para mejorar la lectura rápida en dispositivos móviles de campo.
-- Sidebar: navegación vertical persistente en desktop, con acceso a Dashboard (Inicio), Fincas, Parcelas, Misiones, Drones / Monitoreo, Reportes, Inventario y Configuración. En tablet y mobile web la barra lateral se colapsa automáticamente.
-- Header: barra superior que alberga el nombre del usuario autenticado, su rol (Agricultor, Operador, Supervisor), buscador global, widget de notificaciones / alertas meteorológicas y acceso rápido a configuración o cierre de sesión.
+- **Botones primarios:** en la Web Application son botones de Angular Material con fondo verde teal #179A7A y texto blanco, como Nueva finca o Crear. En la Landing Page usan un degradado verde (#1DA27E a #0F8E74) con bordes redondeados de 12 px a 14 px.
+- **Botones secundarios:** botones de Angular Material con borde o solo texto, para acciones como Volver, Ver más o Editar.
+- **Campos de formulario:** campos de Angular Material con estilo outlined. Si un dato obligatorio falta, el campo se marca en rojo #B3261E y muestra el mensaje de validación debajo, por ejemplo "El área es obligatoria".
+- **Cards:** tarjetas de Angular Material con esquinas redondeadas de 12 px, usadas para fincas, parcelas, drones, métricas y el clima.
+- **Tablas:** tablas de Angular Material en los reportes, con el estado de cada misión en etiquetas de color.
+- **Etiquetas de estado:** etiquetas redondeadas con el color de cada estado de la misión y de cada severidad de alerta meteorológica.
+
+![Web Style Guide de AgriDron Solutions](./assets/chapter4/Web_Style/web_style_guide.png)
+
+*Figura: Web Style Guide de AgriDron Solutions.* Ilustra los botones de la Web Application y de la Landing Page, los campos de formulario en estado por defecto y con error de validación, una tarjeta con las etiquetas de estado de la misión, la navegación de la Web Application y los breakpoints de cada producto.
 
 **Tipografía en web**
 
-La propuesta tipográfica de AgriDron Solutions mantiene como base las familias tipográficas Inter y Roboto, según la identidad visual previamente definida:
-
-- Títulos principales (H1): Segoe UI, 24 px a 28 px.   
-- Subtítulos (H2): Segoe UI SemiBold, 20 px a 22 px.   
-- Encabezados de sección (H3): Segoe UI Medium, 18 px.  
-- Texto de párrafo y descripciones: Montserrat Regular, 14 px a 16 px.   
-- Texto en botones: Montserrat SemiBold, 14 px a 16 px.   
-- Etiquetas de formularios y tablas: Montserrat Medium, 13 px a 14 px.   
-- Datos técnicos y telemetría: Montserrat, 12 px a 14 px (utilizado para coordenadas GPS, logs del dron y métricas de vuelo).
+- **Web Application (Roboto):** títulos de vista de 28 px, títulos de sección de 18 px, texto de formularios y tablas de 14 px, y etiquetas de 12 px.
+- **Landing Page (Montserrat):** títulos principales en pesos 700 a 900, subtítulos en peso 600 y párrafos en peso 400.
 
 **Interacción**
 
-- Hover: Los botones incrementan ligeramente el contraste o brillo del color base (verde o gris). Los enlaces se subrayan o cambian a un tono más intenso del verde corporativo.  
-- Focus: Todo componente interactivo muestra un estado visible de foco (anillo de resalte en verde acento #10B981), especialmente en inputs, botones y controles de mapa, para favorecer la accesibilidad y navegación por teclado.   
-- Active / Click: Los botones aplican una ligera reducción de escala o sombra interna para confirmar la pulsar o interacción del usuario.  
-- Feedback visual: Estados como éxito (Completada), error / advertencia (Pausada, Ráfaga de viento alto), pendiente (Programada) o información en progreso (En curso) se distinguen mediante color (verde, rojo, amarillo/ámbar, azul), iconografía representativa y texto breve de confirmación.  
-- Scroll y navegación persistente: En desktop, el header superior y los controles interactivos del mapa satelital permanecen fijos (sticky) para facilitar la navegación y el monitoreo continuo durante desplazamientos verticales largos.  
-- Responsive behavior: El contenido prioritario (estado de misión, mapa interactivo y botones de acción rápida) conserva visibilidad inmediata antes que elementos decorativos o información secundaria en pantallas reducidas.
+- **Hover:** las opciones de la barra lateral cambian su fondo al pasar el cursor.
+- **Estado activo:** la opción de navegación de la vista actual se resalta en verde teal #179A7A.
+- **Focus:** los componentes de Angular Material muestran un estado de foco visible, que favorece la navegación por teclado.
+- **Feedback visual:** los estados de la misión y las alertas meteorológicas se distinguen por color y por texto, y los errores de formulario se muestran junto al campo.
+- **Transiciones:** los cambios de color en la navegación usan transiciones breves de 0.2 segundos.
 
 ### 4.1.3. Mobile Style Guidelines
 
-Las Mobile Style Guidelines de AgriDron Solutions tienen como objetivo adaptar la experiencia de uso a pantallas reducidas sin perder funcionalidad, claridad visual ni consistencia con la propuesta general del producto. Estas pautas priorizan rapidez de interacción en campo, facilidad de lectura bajo luz solar directa y acceso inmediato a acciones frecuentes de fumigación y monitoreo.
+Las Mobile Style Guidelines de AgriDron Solutions adaptan la experiencia a pantallas reducidas, desde el navegador del celular, sin perder funcionalidad ni consistencia con la propuesta general del producto.
 
 **Estructura general**
 
-La experiencia móvil de AgriDron Solutions está diseñada para que agricultores, operadores técnicos y supervisores puedan consultar información crítica de parcelas y ejecutar acciones esenciales de campo desde cualquier lugar.
-
-- Pantallas en una sola columna, con contenido apilado verticalmente.   
-- Header compacto, con el logo de AgriDron, nombre de la vista actual y acceso a notificaciones, alertas meteorológicas o menú desplegable.   
-- Navegación simplificada, priorizando las secciones más importantes según el rol del usuario (Inicio, Fincas, Parcelas, Misiones y Monitoreo).  
-- Botones de acción visibles, especialmente en flujos clave como + Nueva finca, + Nueva parcela, Crear misión o Pausar vuelo.   
-- Tarjetas resumidas e interactivas, en lugar de tablas complejas, para mostrar parcelas, misiones recientes, condiciones climáticas y telemetría de drones de forma clara y directa.
+- La barra lateral de la Web Application se oculta y se abre desde el botón de menú de la barra superior.
+- Las cuadrículas de tarjetas pasan a una sola columna, con el contenido apilado verticalmente.
+- El detalle del dron reorganiza su contenido en una sola columna desde 700 px, y el widget de clima reduce el tamaño de la temperatura en pantallas pequeñas.
+- La Landing Page apila el Hero en una sola columna desde 1024 px.
 
 **Componentes básicos en mobile**
 
-- Botones primarios: verde bosque #1E4D2B o verde acento #10B981, texto blanco, esquinas redondeadas de 12 px y un área táctil mínima de 44 x 44 px para facilitar la interacción en terreno.   
-- Botones secundarios: fondo blanco o gris claro #F8FAFC con borde visible en verde o gris y alto contraste.
-- Inputs: ancho completo (100%), padding amplio y separación mínima de 16 px entre campos para evitar pulsaciones accidentales.
-- Cards de resumen: usadas para misiones, parcelas, clima y telemetría (batería, altitud, flujo de insumo), con distribución vertical y jerarquía visual clara.
-- Listas: los registros de fincas y misiones se organizan en bloques táctiles con título, estado, fecha, extensión en hectáreas (ha) y acción principal (Ver, Monitorear).
-- Indicadores de estado: cada misión o alerta utiliza color y texto explícito para distinguir rápidamente condiciones como En curso (verde), Completada (azul), Programada (amarillo/ámbar) o Pausada / Alerta (rojo).
+- Los botones, campos y tarjetas son los mismos de la versión web, con el ancho completo de la pantalla.
+- Los botones de Angular Material mantienen un área táctil suficiente para la interacción en campo.
+- Las etiquetas de estado conservan el mismo color y texto que en la versión web.
 
 **Tipografía en mobile**
 
-La adaptación móvil de AgriDron Solutions mantiene la coherencia con las familias tipográficas Inter (títulos) y Roboto (cuerpo e interfaz):
-
-- Título principal (H1): Segoe UI Bold, 20 px a 22 px.   
-- Subtítulos (H2): Segoe UI SemiBold, 16 px a 18 px.  
-- Texto general y párrafos: Montserrat Regular, 14 px.   
-- Botones: Montserrat SemiBold, 14 px.  
-- Etiquetas pequeñas o estados: Montserrat Medium, 12 px a 13 px.   
-- Datos de telemetría y coordenadas: Montserrat, 12 px a 13 px (utilizado para niveles de batería, velocidad m/s, flujo de líquido L/min y coordenadas GPS).
+Se mantienen Roboto en la Web Application y Montserrat en la Landing Page. En la Landing Page, el título principal se reduce en pantallas pequeñas para conservar la legibilidad.
 
 **Interacción en mobile**
 
-- Acciones rápidas y flujos cortos: Se priorizan flujos simplificados (como el dibujo de parcelas o la planificación de misiones en 3 o 4 pasos) para optimizar el trabajo en el campo.  
-- Dimensiones táctiles: Todos los botones y componentes interactivos respetan el tamaño mínimo de área táctil (44 x 44 px). 
-- Formularios en bloques: Los formularios de registro de parcelas, cultivos e insumos se dividen en secciones o pasos breves para evitar la fatiga visual. 
-- Alcance del pulgar: Las acciones críticas (como confirmar una misión o pausar una operación de emergencia) se colocan estratégicamente en la zona inferior de la pantalla al alcance natural del pulgar.   
-- Feedback inmediato: Los cambios de estado de vuelo, alertas meteorológicas o el guardado de datos se muestran instantáneamente mediante mensajes visibles (toast notifications), banners contextuales e indicadores de color explícitos.
+- La navegación se abre y se cierra desde el botón de menú, y el panel lateral se superpone al contenido.
+- El selector de idioma permanece visible en la barra superior.
+- Los mensajes de error y los estados se muestran igual que en la versión web.
 
 ---
 
 ## 4.2. Information Architecture
 
-La arquitectura de información de AgriDron Solutions ha sido diseñada para que los tres segmentos principales de usuarios —agricultores, operadores técnicos y supervisores de operaciones— puedan localizar información, ejecutar tareas y comprender el estado de sus operaciones de fumigación con drones de forma rápida y consistente. Esta propuesta abarca tanto la Landing Page como la Web Application, de modo que exista continuidad entre la experiencia de descubrimiento del producto y la experiencia de uso dentro de la plataforma operativa.
+La arquitectura de información de AgriDron Solutions organiza el contenido para los dos segmentos del proyecto, Pequeños y Medianos Agricultores (PyMAs) y Operadores Técnicos de Drones, de modo que puedan localizar información y ejecutar tareas de forma rápida y consistente. Abarca la Landing Page, orientada a presentar el producto y conducir al visitante hacia una acción concreta, y la Web Application, orientada a la gestión de fincas, parcelas, cultivos, zonas de fumigación, drones, misiones y reportes.
 
-En el caso de la Landing Page, la arquitectura de información busca guiar al visitante desde una comprensión inicial de los retos en la fumigación tradicional hacia una acción concreta, ya sea registrarse, solicitar una demostración o explorar las funcionalidades clave según su rol en el campo. Para ello, el contenido se organiza en bloques progresivos: propuesta de valor (Hero section), funcionalidades principales (planificación, monitoreo en tiempo real, IA predictiva), proceso de funcionamiento en 4 pasos, actores principales (agricultores, operadores, supervisores), planes de precios/suscripción, nuestro equipo y llamadas a la acción (CTAs). Esta secuencia permite que el usuario comprenda qué resuelve AgriDron Solutions, a quién está dirigido y cómo puede empezar a digitalizar sus cultivos.
-
-En la Web Application, la arquitectura de información responde a una lógica netamente operativa e interactiva. En lugar de priorizar la persuasión o el descubrimiento, la aplicación prioriza la velocidad de acceso, la visibilidad en tiempo real del estado de los vuelos y la ejecución eficiente de tareas en campo. Por ello, el contenido se distribuye en módulos funcionales diferenciados por rol, donde cada usuario accede únicamente a las secciones necesarias para gestionar fincas y parcelas sobre mapas satelitales, programar y asignar misiones de pulverización, monitorear la telemetría de los drones (batería, volumen de insumo, altitud), consultar validaciones climáticas y generar reportes de productividad.
-
-De esta manera, la arquitectura de información de AgriDron Solutions se apoya en cuatro sistemas complementarios: Organization Systems (sistemas de organización), Labeling Systems (sistemas de etiquetado), Searching Systems (sistemas de búsqueda) y Navigation Systems (sistemas de navegación). En conjunto, estos sistemas permiten estructurar la información de forma entendible, reducir la sobrecarga cognitiva en entornos de campo y mantener una experiencia coherente entre la web pública y la plataforma transaccional.
+La sección describe la estructura actual de ambos productos y los elementos ya comprometidos en el Product Backlog que aún no están implementados: en la Landing Page, las secciones de planes (LP-003) y preguntas frecuentes (LP-010), los términos legales (LP-006), las páginas de inicio de sesión y de solicitud de demostración (LP-005 y LP-009) y el acceso al registro de la Web Application (LP-004), y en la Web Application, el módulo de Misiones con su calendario y el monitoreo de la misión en curso (MI y TR), los mapas de parcelas (FM-007) y los filtros adicionales de parcelas e historial (FM-005 y RP-004).
 
 ### 4.2.1. Organization Systems
 
-La organización del contenido en AgriDron Solutions responde a la naturaleza de cada producto digital y al tipo de tarea que el usuario necesita realizar. La Landing Page organiza información para presentar, explicar y convencer sobre los beneficios de la agricultura de precisión con drones; mientras que la Web Application organiza información para operar, monitorear el vuelo y la dispersión de insumos en tiempo real, y tomar decisiones sobre el manejo de cultivos. Por ello, se aplican distintos esquemas de organización visual y categorización según el contexto.
-
 **Organization Systems in the Landing Page**
 
-En la Landing Page, la información se organiza principalmente de forma jerárquica y secuencial. La jerarquía visual permite destacar de inmediato la propuesta de valor, las funcionalidades clave y los llamados a la acción (CTAs) más importantes. La secuencia guía al visitante por un recorrido progresivo: primero entiende la problemática del campo, luego conoce la solución tecnológica de AgriDron, después explora sus capacidades paso a paso y finalmente recibe estímulos para registrarse, iniciar sesión o solicitar una demostración.
+La Landing Page organiza la información de forma jerárquica y secuencial. La jerarquía visual destaca primero la propuesta de valor y los llamados a la acción, y la secuencia guía al visitante desde lo que ofrece el producto hasta cómo empezar a usarlo. El recorrido de la página es el siguiente:
 
-La estructura general de la Landing Page sigue el siguiente flujo:
-
-- Hero section: Presenta la propuesta de valor principal ("Revoluciona la salud de tus cultivos con precisión automatizada") y los botones de acción clave (Empieza tu prueba gratuita, Ver cómo funciona, Solicitar Demo).
-- Sección de funcionalidades: Muestra los pilares tecnológicos del sistema: Planificación de misiones, Monitoreo en tiempo real e IA predictiva.
-- Sección de "Cómo funciona": Muestra la secuencia operativa en 4 pasos (1. Planifica, 2. Consulta el clima, 3. Ejecuta, 4. Analiza)
-- Sección de "Para quién" (audiencia): Categoriza la solución según los actores clave del sector agrícola (Agricultores, Operadores, Supervisores).
-- Sección de "Nuestro equipo": Presenta a los profesionales responsables del desarrollo de la plataforma para generar confianza.
-- Footer: Reúne la navegación secundaria, datos de contacto, ubicación, políticas legales y enlaces a redes sociales.
-
-Esta estructura no es aleatoria: busca reducir fricción en el recorrido del visitante y facilitar que identifique en pocos segundos cómo la plataforma optimiza el rendimiento de sus terrenos agrícolas.
+- Inicio (Hero): propuesta de valor "Revoluciona la salud de tus cultivos con precisión automatizada" y los botones Empieza tu prueba gratuita y Ver cómo funciona.
+- Nuestras funcionalidades: Planificación de misiones, Monitoreo en tiempo real y Consulta las condiciones climáticas.
+- Cómo funciona: secuencia de cuatro pasos (Planifica, Consulta el clima, Ejecuta y Analiza).
+- Para quién: tarjetas por segmento de usuario.
+- Disponible en: dispositivos desde los que se puede usar la plataforma (iPhone, Mac, Android y Windows).
+- Planes y Preguntas frecuentes: secciones comprometidas en LP-003 y LP-010.
+- Nuestro equipo: integrantes del equipo de desarrollo.
+- Footer: enlaces a las secciones, datos de contacto, redes sociales y términos legales (LP-006).
 
 **Organization Systems in the Web Application**
 
-En la Web Application, la organización del contenido es principalmente por tópicos, por audiencia y cronológica, según el tipo de información mostrada.
+La Web Application organiza la información según el tipo de tarea:
 
-- Por tópicos: Se emplea en el menú principal (sidebar), donde las funcionalidades se agrupan en módulos como Fincas, Parcelas, Misiones, Monitoreo, Reportes, Inventario y Configuración.
-- Por audiencia (roles): Se aplica al adaptar la experiencia según el tipo de usuario: Agricultor, Operador y Supervisor. Cada rol visualiza los módulos y datos relevantes para su nivel de responsabilidad en la operación.
-- Cronológica: Se utiliza en los historiales de vuelo, registros de telemetría, diario de incidencias climáticas y reportes de insumos aplicados en el tiempo.
-- Matricial: Se emplea en vistas donde el usuario necesita comparar múltiples variables simultáneamente, como tablas de misiones, reportes de eficiencia por hectárea o el inventario de agroquímicos.
+- Por tópicos: el menú lateral agrupa las funcionalidades en módulos (Inicio, Fincas, Parcelas, Cultivos, Zonas de fumigación, Misiones, Reportes, Drones y Perfil).
+- Jerárquica: la vista Inicio presenta primero el saludo y el resumen de la operación, luego los Indicadores y el estado del clima, y al final los Accesos rápidos. Los datos dependen entre sí en el orden Finca, Parcela y Zona de fumigación.
+- Cronológica: el historial de misiones, el uso de insumos por fecha, el calendario de misiones (MI-005) y el próximo mantenimiento de cada dron.
+- Matricial: las tablas de Reportes, donde el usuario compara varios atributos de cada misión al mismo tiempo.
 
 **Organización visual del contenido**
 
-| Tipo de organización | Aplicación en AgriDron Solutions                                                                                                                   | Justificación                                                                                                               |
-|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-| **Jerárquica**       | Hero section, Dashboard principal, tarjetas de métricas (KPIs) y panel de telemetría del dron.                                                     | Permite destacar estados de vuelo activos, condiciones del clima y métricas de superficie (ha) antes que datos secundarios. |
-| **Secuencial**       | Registro de usuario, flujo de "Cómo funciona" y planificación de misiones en 4 pasos (*1. Parcela → 2. Tratamiento → 3. Fecha/Hora → 4. Resumen*). | Guía al agricultor o supervisor paso a paso en la definición de la fumigación, evitando errores operacionales.              |
-| **Matricial**        | Historial de misiones, consumo de insumos, tablas de personal y reportes de rendimiento por hectárea.                                              | Facilita comparar atributos como hectáreas cubiertas, fecha, tipo de cultivo, estado de misión y operador asignado.         |
+| Tipo de organización | Aplicación en AgriDron Solutions                                                                     | Justificación                                                                                       |
+|:---------------------|:-----------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| **Jerárquica**       | Hero de la Landing Page, vista Inicio de la Web Application y relación Finca, Parcela y Zona de fumigación. | Destaca primero la información principal y refleja la dependencia real entre los datos del campo.   |
+| **Secuencial**       | Sección Cómo funciona, registro de usuario y solicitud de misión (MI-001).                            | Guía al usuario paso a paso en las tareas que tienen un orden fijo.                                 |
+| **Matricial**        | Pestañas Misiones (ID, Fecha, Estado, Área) y Uso de insumos (Misión, Tipo, Fecha, Área, Volumen, L/ha) de Reportes. | Permite comparar varios atributos de cada misión en una sola vista.                                 |
 
 **Esquemas de categorización**
 
-| Tipo de esquema   | Aplicación en AgriDron Solutions                                                        | Justificación                                                                                                    |
-|:------------------|:----------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
-| **Por tópicos**   | Fincas, Parcelas, Misiones, Monitoreo, Reportes, Inventario, Personal y Configuración.  | Agrupa el contenido según la tarea operativa que el usuario busca realizar sobre sus terrenos o flota de drones. |
-| **Cronológico**   | Historial de misiones ejecutadas, registros melemétricos de vuelo y log de incidencias. | Facilita el seguimiento temporal de las aplicaciones de fertilizantes/pesticidas y auditorías agrícolas.         |
-| **Por audiencia** | Vista Agricultor, Vista Operador y Vista Supervisor.                                    | Reduce la sobrecarga cognitiva y adapta las opciones según el rol de campo o gabinete.                           |
+| Tipo de esquema   | Aplicación en AgriDron Solutions                                                                      | Justificación                                                                    |
+|:------------------|:------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| **Por tópicos**   | Módulos del menú lateral de la Web Application y secciones de la Landing Page.                         | Agrupa el contenido según la tarea que el usuario busca realizar.                |
+| **Cronológico**   | Historial de misiones, uso de insumos, calendario de misiones y mantenimientos de drones.              | Facilita el seguimiento de las aplicaciones y del estado de los equipos en el tiempo. |
+| **Por audiencia** | Sección Para quién de la Landing Page y selección de rol (agricultor u operador técnico) en el registro. | Permite que cada segmento identifique cómo lo ayuda la plataforma.                |
 
 **Esquemas no priorizados**
 
-AgriDron Solutions no prioriza un esquema alfabético como estructura principal, ya que la gestión agrícola no depende de una búsqueda lexical, sino de interacciones geoespaciales sobre mapas satelitales, estados de misión y prioridades operativas en campo. Aunque los listados de parcelas o insumos puedan ordenarse alfabéticamente como filtro secundario, la plataforma prioriza la ubicación, la urgencia de fumigación y el estado del vuelo.
+AgriDron Solutions no usa el esquema alfabético como estructura principal, porque el usuario localiza la información por finca, parcela, fecha o estado, y no por el nombre del registro.
 
-Tampoco se utiliza una organización puramente temática en la Landing Page sin jerarquía de conversión, porque la interfaz pública busca impulsar al usuario a iniciar una prueba o solicitar una demostración en el menor número de pasos posible.
+**Secciones principales de la Web Application**
 
-**Secciones principales de AgriDron Solutions**
-
-La aplicación se estructura en tres entornos diferenciados según el rol del usuario:
-
-**Vista Agricultor**
-
-| Sección                      | Descripción                                                                                                             |
-|:-----------------------------|:------------------------------------------------------------------------------------------------------------------------|
-| **Dashboard (Inicio)**       | Resumen del estado general: fincas registradas, parcelas, misiones activas, hectáreas totales y widget de clima actual. |
-| **Fincas**                   | Registro, edición y administración de los predios agrícolas con su ubicación y extensión.                               |
-| **Parcelas**                 | Delimitación y visualización de lotes sobre mapa satelital interactivo con información de cultivo y área.               |
-| **Misiones (Planificación)** | Creación y solicitud de misiones de fumigación seleccionando parcela, tipo de tratamiento e insumo.                     |
-| **Monitoreo de Misiones**    | Seguimiento en tiempo real del progreso del vuelo, ruta sobre la parcela y telemetría básica.                           |
-| **Reportes e Historial**     | Consulta de misiones pasadas, volumen de insumos utilizados y reportes de productividad por hectárea.                   |
-| **Configuración**            | Perfil del usuario, gestión de notificaciones e integración con alertas meteorológicas.                                 |
-
-**Vista Operador**
-
-| Sección                      | Descripción                                                                                                            |
-|:-----------------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| **Dashboard / Mis Misiones** | Lista de misiones de fumigación asignadas para la jornada con detalles de ubicación y cultivo.                         |
-| **Ejecución y Monitoreo**    | Control en tiempo real del vuelo, telemetría del dron (batería, altitud, velocidad, flujo) y actualización de estados. |
-| **Registro de Incidencias**  | Documentación de interrupciones operativas en campo (vientos fuertes, fallas técnicas, lluvia).                        |
-| **Horas Trabajadas**         | Registro de jornada laboral con verificación de ubicación GPS para garantizar precisión operativa.                     |
-
+| Sección                 | Descripción                                                                                                   |
+|:------------------------|:--------------------------------------------------------------------------------------------------------------|
+| **Inicio**              | Saludo, resumen de la operación agrícola, Indicadores (fincas, parcelas, cultivos y zonas de fumigación), estado del clima y Accesos rápidos. |
+| **Fincas**              | Registro, edición y eliminación de fincas con su nombre y ubicación.                                          |
+| **Parcelas**            | Registro, edición, eliminación y detalle de parcelas por finca, con área, cultivo y geometría.                |
+| **Cultivos**            | Registro, edición y eliminación de cultivos con su nombre y variedad.                                         |
+| **Zonas de fumigación** | Registro, edición y eliminación de zonas de fumigación por parcela, con área y geometría.                      |
+| **Misiones**            | Solicitud, programación y calendario de misiones, y monitoreo de la misión en curso (MI y TR).                |
+| **Reportes**            | Reportes e Historial, con las pestañas Misiones, Uso de insumos e Indicadores, y el detalle de cada reporte.  |
+| **Drones**              | Flota de drones con estado, batería, boquilla, agroquímicos compatibles, próximo servicio y mantenimientos.   |
+| **Perfil**              | Datos de la cuenta activa (usuario, correo electrónico y rol asignado) y cierre de sesión.                     |
 
 ### 4.2.2. Labeling Systems
 
-El sistema de etiquetado de AgriDron Solutions ha sido diseñado para que cada elemento de la interfaz comunique su propósito de forma inmediata. Las etiquetas se redactan con términos breves, directos y familiares para el contexto agronómico y de operaciones con drones, evitando tecnicismos innecesarios. Esto permite que el usuario comprenda con rapidez qué sección está visitando, qué acción puede ejecutar y qué resultado debe esperar.
-
-A diferencia de un simple glosario, el sistema de etiquetado de AgriDron Solutions se aplica de manera concreta en zonas específicas de la interfaz, como la navbar de la Landing Page, el sidebar de la aplicación, los botones principales, los formularios, los breadcrumbs y los mensajes de estado.
+El sistema de etiquetado usa términos breves y familiares para el contexto agrícola y de operación de drones. Cada concepto se nombra siempre igual en toda la plataforma, y las acciones usan verbos que indican lo que ocurrirá. La Web Application presenta todas sus etiquetas en español e inglés.
 
 **Labeling in the Landing Page**
 
-En la Landing Page, las etiquetas priorizan claridad comercial y orientación a la conversión. Se emplean principalmente en:
-
-- Navbar superior: Inicio (Home), Funcionalidades (Features), Cómo funciona (How it works), Precios (Pricing), Preguntas Frecuentes (FAQ), Iniciar sesión (Sign in).
-- Botones principales del hero: Solicitar Demo, Crear cuenta, Probar gratis, Soy Agricultor, Soy Operador.
-- Secciones informativas: Beneficios, Casos de uso, Nuestro equipo, Preguntas frecuentes.
-- Footer: Contacto, Políticas de privacidad, Términos y condiciones, Soporte técnico.
-
-Estas etiquetas permiten que el visitante identifique rápidamente la estructura del contenido y pueda desplazarse hacia las secciones que más le interesan antes de tomar una decisión.
+- Barra de navegación: Inicio, Funcionalidades, Cómo Funciona, Para Quién, Nuestro Equipo, Solicitar Demo y selector de idioma (ES y EN).
+- Botones del Hero: Empieza tu prueba gratuita y Ver cómo funciona.
+- Secciones: Nuestras funcionalidades, Cómo funciona, Para quién, Disponible en iPhone, Mac, Android y Windows, Planes, Preguntas frecuentes y Nuestro equipo.
+- Footer: Enlaces, Contacto, Redes sociales y términos legales.
+- Páginas de acceso (LP-005 y LP-009): Inicia sesión (Correo electrónico, Contraseña y Entrar) y Solicita una demo (Nombre completo, Empresa, Correo electrónico, Teléfono y Solicitar acceso).
 
 **Labeling in the Web Application**
 
-En la Web Application, las etiquetas se enfocan en apoyar la operación diaria del usuario en campo y gabinete. Se distribuyen en los siguientes puntos:
-
-- Sidebar o menú lateral: Dashboard, Fincas, Parcelas, Misiones, Monitoreo, Inventario, Reportes, Configuración.
-- Header: Notificaciones, Mi perfil, Cambiar rol, Cerrar sesión
-- Botones de acción: + Nueva finca, + Nueva parcela, Crear misión, Iniciar vuelo, Pausar misión, Ver detalles, Guardar cambios, Cancelar.
-- Breadcrumbs: Misiones > Detalle de Misión, Parcelas > Crear Parcela, Fincas > Lote 1, Reportes > Rendimiento por Hectárea.
-- Formularios: Nombre de parcela, Extensión (ha), Tipo de cultivo, Producto / Insumo, Dosis por hectárea, Fecha de fumigación, Operador asignado.
-- Mensajes de estado: En curso / En ejecución, Completada, Programada, Pausada, Alerta de clima, Stock bajo.
-
-**Criterios del sistema de etiquetado**
-
-El sistema de etiquetado de AgriDron Solutions sigue los siguientes criterios:
-
-- Brevedad: Las etiquetas deben usar el menor número de palabras posible sin perder claridad.
-- Consistencia: Un mismo concepto (Parcela, Misión, Insumo) debe nombrarse siempre de la misma manera en toda la plataforma.
-- Familiaridad: Se priorizan términos cercanos al usuario real del dominio agrícola y técnico.
-- Orientación a la acción: Los botones y acciones usan verbos claros que indican lo que ocurrirá (Crear misión, Iniciar vuelo, Descargar reporte).
-- Escaneabilidad: Las etiquetas deben poder comprenderse rápidamente incluso en interfaces densas como mapas satelitales, tablas telemétricas y dashboards.
+- Menú lateral: Inicio, Fincas, Parcelas, Cultivos, Zonas de fumigación, Misiones, Reportes, Drones y Perfil.
+- Barra superior: botón de menú, nombre AgriDron y selector de idioma.
+- Botones de acción: Nueva finca, Nueva parcela, Nuevo cultivo, Nueva zona de fumigación, Crear, Actualizar, Editar, Eliminar, Ver más, Ver detalles, Ver mantenimientos, Filtrar, Limpiar, Descargar reporte, Exportar JSON y Exportar CSV.
+- Formularios: Nombre, Ubicación, Área (ha), Área (m²), Geometría (GeoJSON), Finca, Parcela, Cultivo, Variedad, Nombre de usuario, Correo electrónico, Contraseña y Rol en el sistema.
+- Estados de dron: Disponible, En vuelo, Mantenimiento y Fuera de servicio.
+- Estados de misión: Programada, Autorizada, En curso, En pausa, Completada y Cancelada.
+- Niveles de alerta climática: Alto, Medio y Bajo.
 
 **Etiquetas principales del sistema**
 
-| Etiqueta              | Lugar de uso                          | Descripción                                                                                       |
-|:----------------------|:--------------------------------------|:--------------------------------------------------------------------------------------------------|
-| **Iniciar sesión**    | Navbar, formularios de acceso         | Permite ingresar con una cuenta existente a la plataforma.                                        |
-| **Crear cuenta**      | Hero section, formularios de registro | Permite registrarse como nuevo usuario agricultor, operador o supervisor.                         |
-| **Dashboard**         | Sidebar, header, breadcrumbs          | Pantalla inicial con el resumen principal de métricas, fincas, parcelas y clima.                  |
-| **Fincas / Parcelas** | Sidebar, títulos de vista, mapas      | Módulo para la delimitación geoespacial y administración de terrenos agrícolas.                   |
-| **Crear misión**      | Botón principal, módulo de misiones   | Acción para programar y definir una nueva orden de fumigación con dron.                           |
-| **Estado de misión**  | Tablas, cards, vista de monitoreo     | Indicador del avance operativo de la pulverización (*Programada, En curso, Completada, Pausada*). |
-| **Telemetría**        | Panel de control del dron, mapas      | Vista en tiempo real de nivel de batería, altitud, velocidad y flujo de pulverización (L/min).    |
-| **Alerta climática**  | Dashboard, header, tarjetas           | Notificación operativa sobre condiciones de viento, lluvia o humedad fuera de rango.              |
-| **Inventario**        | Sidebar, títulos de vista             | Módulo de gestión y control de insumos agrícolas (agroquímicos, pesticidas, fertilizantes).       |
-| **Reportes**          | Sidebar, tablas, exportables          | Módulo de análisis, visualización de métricas e historial de rendimiento por hectárea.            |
-| **Configuración**     | Sidebar, header                       | Área de gestión del perfil, flota de drones, personal asignado y parámetros del sistema.          |
-| **Cerrar sesión**     | Header, menú de usuario               | Acción para salir de la cuenta activa de forma segura.                                            |
+| Etiqueta                | Lugar de uso                              | Descripción                                                                    |
+|:------------------------|:------------------------------------------|:-------------------------------------------------------------------------------|
+| **Solicitar Demo**      | Barra de navegación de la Landing Page    | Lleva al visitante a solicitar una demostración del servicio.                  |
+| **Iniciar Sesión**      | Landing Page y Web Application            | Permite ingresar con una cuenta existente.                                     |
+| **Crear Cuenta**        | Registro de la Web Application            | Permite registrarse como agricultor u operador técnico.                        |
+| **Inicio**              | Menú lateral                              | Vista inicial con el resumen de la operación, los indicadores y el clima.      |
+| **Fincas / Parcelas**   | Menú lateral, títulos y formularios       | Módulos para registrar y administrar los terrenos agrícolas.                   |
+| **Zonas de fumigación** | Menú lateral, títulos y formularios       | Módulo para definir las áreas de cada parcela que serán fumigadas.             |
+| **Misiones**            | Menú lateral                              | Módulo para solicitar, programar y monitorear las misiones de fumigación.      |
+| **Reportes**            | Menú lateral y Accesos rápidos            | Módulo de historial de misiones, uso de insumos e indicadores.                 |
+| **Drones**              | Menú lateral y Accesos rápidos            | Módulo de gestión de la flota de drones y sus mantenimientos.                  |
+| **Estado del clima**    | Vista Inicio                              | Condiciones actuales por ubicación y alertas con su nivel.                     |
+| **Cerrar Sesión**       | Perfil                                    | Acción para salir de la cuenta activa.                                         |
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-Las etiquetas SEO y Meta Tags de AgriDron Solutions se definen para mejorar la visibilidad del producto en buscadores, reforzar la claridad del contenido presentado y optimizar la manera en que las páginas se muestran en navegadores y redes sociales. Debido a que la solución cuenta con una Landing Page pública y una Web Application privada, las decisiones de etiquetado SEO se concentran principalmente en las páginas públicas y en las pantallas principales que funcionan como punto de acceso o referencia operativa del producto.
+Las etiquetas SEO y Meta Tags se definen para las páginas principales de la Landing Page y de la Web Application. Los valores siguientes son los que se asignarán a cada página. En la Landing Page mejoran la visibilidad del producto en buscadores, y en la Web Application, que es privada, identifican cada vista en la pestaña del navegador.
 
-A continuación, se detallan los principales títulos y metadatos propuestos para las páginas más relevantes de la experiencia digital:
-
-**Home / Landing Page**
+**Landing Page: Inicio**
 
 - Title: AgriDron Solutions | Smart drone spraying and crop management
-- Meta Description: Optimize agricultural crop spraying, plot management, and real-time drone telemetry from one platform designed for farmers, operators, and supervisors.
-- Meta Keywords: agricultural drone spraying, precision agriculture, plot management, crop health monitoring, drone telemetry, agritech software
+- Meta Description: Plan drone spraying missions, check weather conditions, and manage farms and parcels from one platform designed for farmers and drone operators.
+- Meta Keywords: agricultural drone spraying, precision agriculture, parcel management, crop spraying, agritech software
 - Meta Author: AgriDron Solutions
 
-**Funcionalidades / Features**
+**Landing Page: Iniciar sesión**
 
-- Title: AgriDron Features | Mission planning, real-time telemetry, and weather alerts
-- Meta Description: Discover how AgriDron Solutions helps plan precision spraying missions, monitor drone telemetry in real time, analyze weather risks, and maximize crop yields.
-- Meta Keywords: drone mission planning, flight telemetry, agricultural weather alerts, crop monitoring software, agritech features
+- Title: Iniciar sesión | AgriDron Solutions
+- Meta Description: Sign in to your AgriDron Solutions account to manage farms, parcels, spraying missions, and reports.
+- Meta Keywords: agridron login, agritech platform access, farmer login, drone operator login
 - Meta Author: AgriDron Solutions
 
-**Planes / Pricing**
+**Landing Page: Solicitud de demo**
 
-- Title: AgriDron Pricing | Plans for farmers, operators, and enterprises
-- Meta Description: Explore AgriDron Solutions plans and choose the right option to digitize plot management, spraying operations, and drone fleet tracking.
-- Meta Keywords: agritech software pricing, drone spraying plans, agricultural platform subscription, farm management software
+- Title: Solicitud de demo | AgriDron Solutions
+- Meta Description: Request a personalized demo of AgriDron Solutions and see how drone spraying can be planned and monitored for your crops.
+- Meta Keywords: agridron demo, drone spraying demo, precision agriculture demo, agritech request
 - Meta Author: AgriDron Solutions
 
-**Login / Iniciar sesión**
+**Web Application: Inicio**
 
-- Title: Sign in | AgriDron Solutions
-- Meta Description: Access your AgriDron Solutions account to manage plots, spraying missions, drone telemetry, and operational reports from one centralized platform.
-- Meta Keywords: agridron login, agritech platform access, farmer dashboard, drone operator login
+- Title: Inicio | AgriDron Solutions
+- Meta Description: Review a summary of your agricultural operation, key indicators, and current weather conditions.
+- Meta Keywords: farm operations summary, agricultural indicators, weather conditions, agritech dashboard
 - Meta Author: AgriDron Solutions
 
-**Register / Crear cuenta**
+**Web Application: Fincas y Parcelas**
 
-- Title: Create account | AgriDron Solutions
-- Meta Description: Register in AgriDron Solutions as a farmer, operator, or supervisor and start organizing your precision spraying operations efficiently.
-- Meta Keywords: agridron register, farmer account, drone operator registration, agritech software account
+- Title: Fincas y Parcelas | AgriDron Solutions
+- Meta Description: Register and manage your farms, parcels, crops, and fumigation areas in one place.
+- Meta Keywords: farm management, parcel management, crop registry, fumigation areas
 - Meta Author: AgriDron Solutions
 
-**Dashboard**
+**Web Application: Misiones**
 
-- Title: Dashboard | AgriDron Solutions
-- Meta Description: Review your current farm status, active spraying missions, weather forecasts, and key agricultural metrics from the main AgriDron dashboard.
-- Meta Keywords: farm operations dashboard, spraying status, weather widget, active drone missions, agritech panel
+- Title: Misiones | AgriDron Solutions
+- Meta Description: Request, schedule, and monitor drone spraying missions for your parcels.
+- Meta Keywords: drone spraying missions, mission scheduling, mission monitoring, crop spraying software
 - Meta Author: AgriDron Solutions
 
-**Fincas y Parcelas / Farms & Plots**
+**Web Application: Reportes**
 
-- Title: Farms & Plots | AgriDron Solutions
-- Meta Description: Delimit, organize, and inspect your agricultural plots on interactive satellite maps for precision crop spraying and health analysis.
-- Meta Keywords: plot mapping, satellite farm view, crop boundary management, agricultural land mapping, farm plots
+- Title: Reportes | AgriDron Solutions
+- Meta Description: Review mission history, supply usage, and performance indicators of your spraying operations.
+- Meta Keywords: mission history, supply usage report, performance indicators, spraying reports
 - Meta Author: AgriDron Solutions
 
-**Misiones y Monitoreo / Spraying Missions**
+**Web Application: Drones**
 
-- Title: Spraying Missions | AgriDron Solutions
-- Meta Description: Create, schedule, and track drone spraying missions with real-time flight telemetry, dosage control, and environmental validation.
-- Meta Keywords: drone spraying missions, flight tracking, chemical dosage control, telemetry monitoring, crop spraying software
+- Title: Drones | AgriDron Solutions
+- Meta Description: Check the status, battery, nozzle, and maintenance schedule of your drone fleet.
+- Meta Keywords: drone fleet management, drone maintenance, agricultural drones, drone status
 - Meta Author: AgriDron Solutions
-
-Estas etiquetas permiten diferenciar el propósito de cada página dentro del ecosistema digital, mantener coherencia entre la propuesta comercial y la experiencia operativa, y reforzar el posicionamiento del producto en búsquedas relacionadas con agricultura de precisión, fumigación automatizada con drones y gestión de cultivos.
 
 ### 4.2.4. Searching Systems
 
-AgriDron Solutions incorpora sistemas de búsqueda y filtrado para reducir el tiempo que el usuario dedica a localizar información dentro de la plataforma. Dado que gran parte de la experiencia está orientada a tareas operativas sobre terreno y mapas satelitales, las búsquedas no solo deben encontrar datos telemétricos o registros, sino también presentarlos en un formato comprensible, geoespacial y directamente accionable.
-
 **Searching in the Web Application**
 
-Los mecanismos de búsqueda se aplican en módulos donde el volumen de información puede crecer rápidamente, como fincas, parcelas, misiones de fumigación, inventario de insumos, flota de drones, alertas y reportes. Cada búsqueda se acompaña de filtros específicos según el contexto del módulo.
+La Web Application no usa un buscador de texto. El usuario localiza la información mediante filtros ubicados en la parte superior de cada vista.
 
-| Sistema de búsqueda                | Ubicación                      | Descripción                                                                                                                 |
-|:-----------------------------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-| **Búsqueda de parcelas y fincas**  | Fincas / Parcelas              | Permite localizar terrenos por nombre, ubicación geográfica, tipo de cultivo (uva, palta, maíz) o extensión en hectáreas.   |
-| **Búsqueda de misiones**           | Misiones                       | Permite filtrar misiones por ID de orden, estado (*Programada, En curso, Completada*), operador asignado o rango de fechas. |
-| **Búsqueda de insumos**            | Inventario                     | Permite encontrar agroquímicos, fertilizantes o pesticidas por nombre comercial, principio activo o categoría.              |
-| **Búsqueda de drones y flota**     | Monitoreo / Drones             | Permite filtrar unidades por código de serie, modelo, disponibilidad o estado de mantenimiento.                             |
-| **Filtro por tipo de cultivo**     | Parcelas y Reportes            | Reduce los listados y mapas a un tipo específico de siembra o variedad agrícola.                                            |
-| **Filtro por fecha y periodo**     | Historial, reportes y misiones | Permite analizar periodos específicos de pulverización e historial telemétrico.                                             |
-| **Filtro por estado y criticidad** | Dashboard, Misiones y Alertas  | Muestra únicamente registros en vuelo activo, misiones pausadas o alertas de clima desfavorable.                            |
+| Filtro                          | Ubicación                                  | Descripción                                                                                         |
+|:--------------------------------|:-------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| **Seleccionar finca**           | Parcelas                                   | Muestra solo las parcelas de la finca elegida.                                                       |
+| **Seleccionar parcela**         | Zonas de fumigación                        | Muestra solo las zonas de fumigación de la parcela elegida.                                         |
+| **Desde / Hasta**               | Reportes, pestañas Misiones y Uso de insumos | Limita los registros a un rango de fechas con los botones Filtrar y Limpiar.                        |
+| **Pestañas de Reportes**        | Reportes                                   | Separan los resultados en Misiones, Uso de insumos e Indicadores.                                    |
+| **Cultivo o superficie**        | Parcelas                                   | Muestra solo las parcelas que cumplen el criterio elegido (FM-005).                                  |
+| **Rango de fechas y parcela**   | Reportes, historial de misiones            | Muestra las misiones ejecutadas en una parcela durante un periodo (RP-004).                          |
+| **Periodo semanal o mensual**   | Misiones, calendario                       | Muestra las misiones programadas en el periodo elegido con sus estados (MI-005).                     |
 
 **Visualización de resultados**
 
-Los resultados de búsqueda en AgriDron Solutions se presentan de forma distinta según la naturaleza del contenido:
+- Fincas: tarjetas con nombre, ubicación y número de parcelas.
+- Parcelas: tarjetas con nombre, cultivo, área en hectáreas y finca asociada, con acceso al detalle.
+- Cultivos y zonas de fumigación: tarjetas con sus datos principales.
+- Drones: tarjetas con modelo, número de serie, estado, batería, boquilla, agroquímicos compatibles y próximo servicio.
+- Reportes: tablas con las columnas ID, Fecha, Estado y Área (ha) en Misiones, y Misión, Tipo, Fecha, Área (ha), Volumen (L) y L/ha en Uso de insumos. Los Indicadores se muestran en tarjetas.
 
-- Parcelas y Fincas: Los resultados se destacan dinámicamente sobre el mapa satelital interactivo o en una lista con datos como nombre del lote, superficie (ha), tipo de cultivo y finca asociada.
-- Misiones: Los resultados se presentan en tabla o tarjetas con ID de misión, parcela destino, fecha, estado de ejecución, operador a cargo y acceso directo al panel de telemetría en tiempo real.
-- Inventario de insumos: Los resultados se muestran en tablas con nombre del producto, categoría (herbicida, fungicida, nutriente), dosis recomendada por hectárea y volumen disponible en stock.
-- Alertas climáticas y de vuelo: Los resultados se muestran como una lista priorizada según el nivel de criticidad (vientos fuertes, batería baja, lluvia), fecha/hora e impacto en la operación.
-- Reportes e historiales: Los resultados se representan mediante tablas filtradas y gráficos dinámicos ajustados al terreno, operador o rango de tiempo seleccionado.
+**Comportamiento de los resultados**
 
-**Comportamiento esperado de los resultados**
-
-Los resultados de búsqueda deben seguir estos criterios:
-
-- Responder en tiempo razonable y con feedback visual claro mediante indicadores de carga sobre tablas y mapas.
-- Mostrar solo la información necesaria para que el agricultor, operador o supervisor tome decisiones operativas inmediatas.
-- Permitir ordenar o refinar el resultado (por hectáreas, fecha de fumigación o criticidad) sin reiniciar completamente la búsqueda.
-- Indicar cuando no existen coincidencias mediante mensajes explícitos como "No se encontraron parcelas o misiones con los criterios seleccionados".
-- Mantener visibles los filtros aplicados (chips/etiquetas activas) para que el usuario identifique claramente qué subconjunto de datos está observando.
+- Mientras se cargan los datos, la vista muestra un mensaje de carga, como "Cargando parcelas...".
+- Antes de elegir un filtro obligatorio, la vista indica qué debe seleccionar, como "Seleccione una finca para ver sus parcelas".
+- Cuando no hay coincidencias, la vista lo indica con mensajes como "No hay parcelas registradas" o "No se encontraron registros.".
 
 **Searching in the Landing Page**
 
-La Landing Page no depende de un buscador interno complejo, sino que incorpora mecanismos de exploración rápida mediante navegación por secciones y enlaces de anclaje (anchors). En este caso, la búsqueda se resuelve a través de una estructura visible y predecible que permite al visitante llegar rápidamente a información clave como funcionalidades de fumigación, planes de suscripción, casos de éxito, preguntas frecuentes o acceso directo al registro y prueba gratuita.
+La Landing Page no tiene buscador. El visitante llega a la información mediante los enlaces de la barra de navegación, que llevan a cada sección de la misma página.
 
 ### 4.2.5. Navigation Systems
 
-El sistema de navegación de AgriDron Solutions ha sido diseñado para que el usuario pueda recorrer la experiencia con claridad tanto en la Landing Page como en la Web Application. En ambos casos, la navegación busca reducir fricción, mantener consistencia y facilitar el acceso rápido a acciones clave como la delimitación de parcelas, la programación de fumigaciones y el monitoreo de vuelo en tiempo real.
-
 **Navigation in the Landing Page**
 
-En la Landing Page, la navegación se estructura como un recorrido progresivo orientado a la conversión. El usuario puede desplazarse por la página de forma lineal o saltar directamente a secciones específicas mediante enlaces visibles en la barra superior.
-
-Los principales mecanismos de navegación en la Landing Page son:
-
-- Navbar superior fija: Incluye accesos a Inicio, Funcionalidades, Cómo funciona, Para quién, Precios, FAQ e Iniciar sesión.
-- Navegación por anchors (anclas): Cada opción del menú dirige suavemente a una sección concreta de la misma página.
-- Hero section con CTAs principales: Botones como Solicitar Demo, Comenzar gratis, Soy Agricultor o Soy Operador redirigen al usuario al flujo correspondiente.
-- CTAs secundarios distribuidos: Se repiten en secciones estratégicas para evitar que el usuario tenga que volver al inicio para actuar.
-- Footer con enlaces complementarios: Contacto, políticas de privacidad, términos y accesos secundarios.
-
-Este sistema permite que un visitante nuevo entienda rápidamente la propuesta de valor del sistema de fumigación con drones, navegue según su interés y llegue a la acción principal en pocos pasos.
+| Elemento                  | Descripción                                                                                                                          |
+|:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
+| **Barra de navegación**   | Enlaces a las secciones de la página (Inicio, Funcionalidades, Cómo Funciona, Para Quién y Nuestro Equipo) y botón Solicitar Demo.   |
+| **Enlaces de sección**    | Cada enlace desplaza la página hasta su sección (`#features`, `#how-it-works`, `#audiences`, `#available` y `#team-section`).          |
+| **Selector de idioma**    | Cambia el contenido de la página entre español e inglés (LP-007).                                                                    |
+| **Solicitar Demo**        | Lleva al formulario Solicita una demo (LP-009).                                   |
+| **CTAs del Hero**         | Empieza tu prueba gratuita lleva al registro de la Web Application (LP-004) y Ver cómo funciona lleva a la sección Cómo funciona.     |
+| **Footer**                | Repite los enlaces de las secciones y muestra los datos de contacto, las redes sociales y los términos legales (LP-006).             |
 
 **Navigation in the Web Application**
 
-En la aplicación web, la navegación se orienta a la productividad y la ejecución de tareas operativas en campo y gabinete. Cada rol (Agricultor, Operador, Supervisor) accede a una estructura estable que prioriza las funcionalidades más utilizadas.
-
-| Elemento de navegación              | Descripción                                                                                                                                             |
-|:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sidebar**                         | Menú lateral persistente con acceso directo a las secciones principales del rol activo (*Fincas, Parcelas, Misiones, Monitoreo, Inventario, Reportes*). |
-| **Header**                          | Barra superior con nombre de la finca activa, selector de rol, centro de notificaciones climáticas/de vuelo y menú de perfil.                           |
-| **Dashboard como punto de entrada** | Pantalla inicial tras autenticación, desde donde el usuario visualiza su estado operativo general y métricas clave.                                     |
-| **Breadcrumbs**                     | Indicadores de ruta para secciones de detalle (*Misiones > MS-1042*), permitiendo comprender la ubicación y retroceder fácilmente.                      |
-| **Botones contextuales**            | Acciones principales visibles dentro de cada módulo, como `+ Nueva parcela` o `+ Crear misión`.                                                         |
-| **Notificaciones**                  | Panel accesible desde el header para revisar alertas telemétricas o meteorológicas recientes y redirigirse a la sección relacionada.                    |
-| **Cambio de vista por rol**         | En caso de usuarios con más de un rol (ej. Agricultor/Supervisor), permite alternar entre contextos sin cerrar sesión.                                  |
+| Elemento                 | Descripción                                                                                                                                     |
+|:-------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Menú lateral**         | Acceso a todos los módulos, con ícono y etiqueta. El módulo activo se resalta. En pantallas menores a 960 px se oculta y se abre con el botón de menú. |
+| **Barra superior**       | Botón de menú, nombre AgriDron y selector de idioma.                                                                                            |
+| **Inicio como entrada**  | Tras iniciar sesión o registrarse, el usuario llega a Inicio. Desde ahí accede a Ver fincas, Ver reportes y los Accesos rápidos a cada módulo.   |
+| **Botones contextuales** | Cada listado tiene su botón de creación (Nueva finca, Nueva parcela y otros) y cada tarjeta sus acciones (Ver más, Editar y Eliminar).          |
+| **Vistas de detalle**    | El detalle de parcela, de reporte y de dron tiene un botón para volver al listado (Volver, Volver a reportes y Volver a drones).                 |
+| **Acceso y registro**    | Iniciar Sesión y Crear Cuenta se enlazan entre sí. Al cerrar sesión desde Perfil, el usuario vuelve a Iniciar Sesión.                           |
+| **Página no encontrada** | Una ruta inválida muestra un mensaje y el botón Ir a Inicio.                                                                                    |
 
 **Recorridos principales de navegación**
 
-La navegación de AgriDron Solutions considera recorridos típicos como los siguientes:
-
-- Visitante de Landing Page -> CTA principal (Comenzar gratis) -> Registro o login -> Dashboard del rol correspondiente.
-- Agricultor -> Dashboard -> Parcelas -> Delimitar parcela en mapa satelital -> Guardar lote.
-- Agricultor / Supervisor -> Dashboard -> Misiones -> Crear misión -> Seleccionar parcela e insumo -> Programar fecha y hora.
-- Operador -> Dashboard -> Mis Misiones -> Iniciar vuelo -> Monitorear telemetría en tiempo real -> Registrar finalización o incidencia.
-- Supervisor -> Dashboard -> Monitoreo de Drones -> Visualizar flota activa en mapa -> Reasignar operador o revisar inventario de agroquímicos.
-
-**Criterios de navegación**
-
-La navegación en AgriDron Solutions sigue los siguientes criterios:
-
-- Consistencia: Los elementos principales conservan posición y lógica entre pantallas.
-- Claridad: Cada enlace y botón comunica claramente su destino o acción.
-- Economía de pasos: Las tareas frecuentes (como iniciar un monitoreo o consultar el clima) deben completarse con el menor número posible de interacciones.
-- Visibilidad del estado actual: El usuario debe saber siempre en qué módulo está, qué dron o parcela está seleccionada y qué acciones puede ejecutar.
-- Adaptabilidad responsive: La navegación debe mantenerse usable en desktop, tablet y mobile web para su uso en campo.
-
-**Navegación — Landing Page**
-
-| Elemento                       | Descripción                                                                                                                                                                                                         |
-|:-------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Navbar fija**                | Barra superior visible en todo momento durante el scroll. Contiene logo, enlaces a secciones (anclas) y botones de Iniciar sesión / Registrarse. En mobile se colapsa en menú hamburguesa.                          |
-| **Anclas de sección**          | Los enlaces del navbar desplazan suavemente (*smooth scroll*) a cada sección de la página: `#hero`, `#funcionalidades`, `#como-funciona`, `#para-quien`, `#precios`, `#faq`.                                        |
-| **CTA primario en Hero**       | Botón `Comenzar gratis` redirige a `/register`. Es el punto de conversión principal de la landing.                                                                                                                  |
-| **CTA secundario en Hero**     | Botón `Ver cómo funciona` hace scroll a la sección `#como-funciona`, manteniendo al usuario en la landing para informarse antes de registrarse.                                                                     |
-| **CTAs por segmento**          | En la sección *"¿Para quién es AgriDron?"*, cada card (*Agricultor, Operador, Supervisor*) tiene un botón que redirige a `/register` con el parámetro de rol preseleccionado (`?rol=agricultor` o `?rol=operador`). |
-| **CTA en sección Precios**     | Cada plan tiene un botón que redirige a `/register` con el plan preseleccionado, reduciendo pasos en el onboarding.                                                                                                 |
-| **CTA final (bottom of page)** | Sección de cierre con un último llamado a la acción antes del footer, dirigido a usuarios que llegaron al final sin convertir.                                                                                      |
-| **Footer**                     | Contiene enlaces a páginas legales (política de privacidad, términos), redes sociales y el enlace de inicio de sesión para usuarios ya registrados.                                                                 |
-
-**Navegación — Web Application**
-
-| Elemento                         | Descripción                                                                                                                                                                                                                                                                        |
-|:---------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sidebar**                      | Menú principal fijo a la izquierda, visible en todo momento. Contiene accesos directos a todas las secciones del rol activo con ícono y etiqueta. En mobile se colapsa en hamburguesa.                                                                                             |
-| **Header**                       | Barra superior con nombre de la finca seleccionada, badge del plan activo, ícono de notificaciones con contador y avatar del usuario con menú desplegable (*Perfil / Configuración / Cerrar sesión*).                                                                              |
-| **Dashboard como home**          | Tras iniciar sesión, el usuario es redirigido automáticamente al Dashboard de su rol. El Dashboard funciona como hub de acceso rápido: las tarjetas de métricas (*misiones activas, alerta climática, stock bajo de insumos*) son clicables y llevan a la sección correspondiente. |
-| **Breadcrumbs**                  | Visibles en vistas de detalle para indicar la ruta actual y permitir la navegación hacia atrás. Ejemplo: *Misiones > #MS-1042*.                                                                                                                                                    |
-| **Botones de acción contextual** | Cada sección tiene un botón primario (`+ Nueva parcela`, `+ Crear misión`) ubicado en la esquina superior derecha del contenido, accesible sin scroll.                                                                                                                             |
-| **Panel de notificaciones**      | Al hacer clic en el ícono de campana del header, se despliega un panel lateral con las alertas recientes (viento fuerte, batería baja, misión completada) ordenadas cronológicamente. Cada alerta tiene un acceso directo a la sección correspondiente.                            |
-| **Modo restringido / Campo**     | El usuario u operador puede activar un modo de vista simplificada de campo desde Configuración. En este modo solo son visibles la telemetría del dron en vivo y la ruta de pulverización en el mapa, reduciendo elementos distractores.                                            |
-| **Cambio de rol**                | Si un usuario tiene más de un rol (Agricultor y Supervisor), puede cambiar de vista desde un selector en el header sin cerrar sesión.                                                                                                                                              |
+- Visitante: Landing Page, Empieza tu prueba gratuita, Crear Cuenta, Inicio.
+- Agricultor: Inicio, Fincas, Nueva finca, Parcelas, Nueva parcela, Zonas de fumigación.
+- Agricultor: Inicio, Misiones, solicitud de misión con parcela y fecha (MI-001).
+- Operador técnico: Inicio, Misiones, calendario de misiones, monitoreo de la misión en curso (MI-005 y TR).
+- Operador técnico: Inicio, Drones, Ver detalles, Ver mantenimientos.
+- Agricultor u operador técnico: Inicio, Reportes, Desde / Hasta, Filtrar, Ver detalle, Descargar reporte.
 
 ## 4.3. Landing Page UI Design
 
-La propuesta de UI de la Landing Page de AgriDron Solutions traduce las decisiones previas de identidad visual, estilo y arquitectura de información en una experiencia clara, persuasiva y orientada a la conversión. Su objetivo principal es presentar la propuesta de valor del producto, explicar de manera rápida cómo ayuda a agricultores, operadores de drones y supervisores del campo, y conducir al visitante hacia una acción concreta, como registrarse, iniciar sesión, solicitar una demostración o explorar el funcionamiento de la plataforma de fumigación de precisión.
+La propuesta de UI de la Landing Page de AgriDron Solutions traduce las decisiones previas de identidad visual, estilo y arquitectura de información en una experiencia clara, persuasiva y orientada a la conversión. Su objetivo principal es presentar la propuesta de valor del producto, explicar de manera rápida cómo ayuda a los agricultores y a los operadores técnicos de drones, y conducir al visitante hacia una acción concreta, como registrarse, iniciar sesión, solicitar una demostración o explorar el funcionamiento de la plataforma de fumigación de precisión.
 
-El diseño de la Landing Page se estructura en bloques progresivos que responden a una lógica de descubrimiento: primero captar la atención con una promesa clara de optimización agrícola, luego explicar la problemática de la fumigación tradicional y la gestión de cultivos, mostrar los beneficios y funcionalidades clave (planificación de misiones, telemetría en tiempo real, alertas climáticas e IA predictiva), reforzar la confianza mediante componentes visuales del sistema y un equipo transparente, y finalmente cerrar con llamadas a la acción claras. Esta organización permite que el usuario entienda qué resuelve AgriDron Solutions, cómo funciona y por qué debería utilizarlo, sin tener que navegar por una interfaz compleja ni enfrentarse a una sobrecarga de información.
+El diseño de la Landing Page se estructura en bloques progresivos que responden a una lógica de descubrimiento: primero captar la atención con una promesa clara de optimización agrícola, luego mostrar las funcionalidades clave (planificación de misiones, monitoreo en tiempo real y consulta de las condiciones climáticas) y los cuatro pasos de funcionamiento, reforzar la confianza mediante componentes visuales del sistema y un equipo transparente, y finalmente cerrar con llamadas a la acción claras. Esta organización permite que el usuario entienda qué resuelve AgriDron Solutions, cómo funciona y por qué debería utilizarlo, sin tener que navegar por una interfaz compleja ni enfrentarse a una sobrecarga de información.
 
-A nivel visual, la interfaz aprovecha la paleta cromática definida para la marca, con predominio del verde bosque (#1E4D2B), verde acento (#10B981), azul tecnológico (#1E3A8A) y tonos neutros, para transmitir sostenibilidad agrícola, precisión tecnológica, innovación y confianza profesional. La jerarquía visual se apoya en titulares fuertes en tipografía Inter, botones de acción (CTAs) altamente visibles, tarjetas informativas modulares con bordes suavizados y bloques claramente diferenciados por un sistema de espaciado basado en 8 px, logrando que el recorrido visual sea intuitivo, accesible y consistente tanto en pantallas de escritorio como en dispositivos móviles de campo.
+A nivel visual, la interfaz aprovecha la paleta cromática definida para la marca, con predominio del degradado verde de los botones (#1DA27E a #0F8E74), el verde oscuro de los textos (#0D3C35) y tonos neutros, para transmitir sostenibilidad agrícola, precisión tecnológica, innovación y confianza profesional. La jerarquía visual se apoya en titulares fuertes en tipografía Montserrat, botones de acción (CTAs) altamente visibles, tarjetas informativas modulares con bordes suavizados y bloques claramente diferenciados por un sistema de espaciado basado en 8 px, logrando que el recorrido visual sea intuitivo, accesible y consistente tanto en pantallas de escritorio como en dispositivos móviles de campo.
 
 ### 4.3.1. Landing Page Wireframe
 
@@ -1839,24 +1653,44 @@ Los wireframes de la Landing Page de AgriDron Solutions representan la fase inic
 
 En la versión desktop, el wireframe organiza la información en un recorrido secuencial de pantalla completa:
 
-- Hero Section: Cabecera con el titular principal ("Revoluciona la salud de tus cultivos con precisión automatizada"), subtítulo explicativo, botones de acción primarios (Empieza tu prueba gratuita, Ver cómo funciona, Solicitar Demo) y un elemento gráfico de soporte con la previsualización del dron y la app.
-- Nuestras funcionalidades: Tarjetas horizontales dedicadas a los pilares tecnológicos del producto (Planificación de misiones, Monitoreo en tiempo real e IA predictiva).
+- Hero Section: Cabecera con el titular principal ("Revoluciona la salud de tus cultivos con precisión automatizada"), subtítulo explicativo, botones de acción (Empieza tu prueba gratuita y Ver cómo funciona), con el botón Solicitar Demo en la barra de navegación, y un elemento gráfico de soporte.
+- Nuestras funcionalidades: Tarjetas horizontales dedicadas a los pilares tecnológicos del producto (Planificación de misiones, Monitoreo en tiempo real y Consulta las condiciones climáticas).
 - Cómo funciona: Diagrama de proceso en 4 pasos (1. Planifica, 2. Consulta el clima, 3. Ejecuta, 4. Analiza) que explica el flujo de trabajo en campo.
-- Para quién: Bloque de segmentación por roles (Agricultores, Operadores y Supervisores), especificando el valor que aporta la plataforma a cada usuario.
+- Para quién: Bloque de tarjetas por segmento de usuario (Agricultores y Operadores), especificando el valor que aporta la plataforma a cada usuario.
 - Nuestro equipo: Sección de respaldo con los perfiles del equipo multidisciplinario detrás de la solución.
 - Footer: Pie de página con enlaces de navegación interna, datos de contacto, ubicación y canales de redes sociales.
 
-<img src="assets/chapter4/landing_wireframe.png" alt="Landing Page Wireframe" width="650"/>
+<img src="assets/chapter4/landing_wireframe_desktop.png" alt="Landing Page Wireframe Desktop" width="650"/>
+
+*Figura: Wireframe Desktop de la Landing Page.* El wireframe usa escala de grises, marcadores de imagen y líneas de texto de relleno para centrar la revisión en la estructura y no en el estilo. La jerarquía se marca con el tamaño de los títulos, las secciones se separan con fondos alternos y el contenido repetido (funcionalidades, pasos, segmentos y equipo) se ordena en columnas del mismo ancho.
+
+**Mobile**
+
+En la versión mobile, el wireframe conserva las mismas secciones y su orden, y las reorganiza en una sola columna. La barra de navegación se reduce a un botón de menú y al nombre AgriDron Solutions, los botones del Hero ocupan todo el ancho de la pantalla, las tarjetas de funcionalidades y de segmentos se apilan una debajo de otra y los cuatro pasos de Cómo funciona se presentan en vertical, unidos por flechas.
+
+<img src="assets/chapter4/landing_wireframe_mobile.png" alt="Landing Page Wireframe Mobile" width="300"/>
+
+*Figura: Wireframe Mobile de la Landing Page.* La disposición en una sola columna evita el desplazamiento horizontal, los botones de ancho completo facilitan el uso con una mano y los textos se mantienen cortos para leerse en pantallas pequeñas, lo que apoya el uso desde el celular en campo.
 
 ### 4.3.2. Landing Page Mock-up
 
-Los mock-ups finales de la Landing Page de AgriDron Solutions representan la consolidación visual de la arquitectura y estructura planteadas en los wireframes. En esta etapa de alta fidelidad se integran la paleta cromática institucional (con predominio del verde bosque #1E4D2B y el verde acento #10B981), las familias tipográficas Inter y Roboto, la escala de espaciado modular basada en 8 px, la iconografía agrícola/tecnológica y los estándares de accesibilidad visual (WCAG 2.1 AA). El resultado es una interfaz pública coherente, moderna y persuasiva, alineada con la propuesta de valor de la agricultura de precisión y la fumigación con drones.
+Los mock-ups finales de la Landing Page de AgriDron Solutions representan la consolidación visual de la arquitectura y estructura planteadas en los wireframes. En esta etapa de alta fidelidad se integran la paleta cromática institucional (con predominio del degradado verde #1DA27E a #0F8E74 y el texto #0D3C35), la familia tipográfica Montserrat, la escala de espaciado modular basada en 8 px, la iconografía agrícola/tecnológica y los estándares de accesibilidad visual (WCAG 2.1 AA). El resultado es una interfaz pública coherente, moderna y persuasiva, alineada con la propuesta de valor de la agricultura de precisión y la fumigación con drones.
 
 **Desktop**
 
-En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde bosque corporativo en componentes estructurales y el verde acento en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita, Solicitar Demo) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por roles (agricultores, operadores, supervisores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F8FAFC), facilitando una lectura escaneable y fluida.
+En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde oscuro #0D3C35 en títulos y textos y el degradado verde en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita y Ver cómo funciona) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por segmento de usuario (agricultores y operadores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F3F5F2), facilitando una lectura escaneable y fluida.
 
 <img src="assets/chapter4/landing_mockup.png" alt="Landing Page Mock-up" width="650"/>
+
+*Figura: Mock-up Desktop de la Landing Page.*
+
+**Mobile**
+
+En el mock-up mobile se aplican los colores y la tipografía de la versión desktop sobre la estructura del wireframe mobile. El Hero muestra una fotografía de campo detrás del titular, los beneficios (Reduce costos, Aumenta tu productividad y Protege a tu equipo) y los dos botones de acción. Las tarjetas de funcionalidades usan iconos verdes y bordes redondeados, los pasos de Cómo funciona se numeran en círculos verdes, las tarjetas de Para quién incluyen una fotografía de cada segmento (Agricultores y Operadores) y el footer en verde reúne los enlaces, el contacto y las redes sociales.
+
+<img src="assets/chapter4/landing_mockup_mobile.png" alt="Landing Page Mock-up Mobile" width="300"/>
+
+*Figura: Mock-up Mobile de la Landing Page.* El texto oscuro sobre fondo blanco y los botones verdes con texto blanco mantienen un contraste alto, los iconos acompañan siempre a una etiqueta de texto y los botones y tarjetas tienen un tamaño cómodo para tocarlos en pantallas táctiles.
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -3119,13 +2953,13 @@ La propuesta de SCM para AgriDron Solutions se alinea con la arquitectura defini
 
 ### 5.1.1. Software Development Environment Configuration
 
-## 5.1.1.1. Propósito
+#### 5.1.1.1. Propósito
 
 El entorno de desarrollo define las herramientas que utilizará el equipo para implementar, documentar, probar y desplegar AgriDron Solutions. Se busca que todos los integrantes trabajen con una configuración homogénea, reduciendo problemas de compatibilidad y facilitando la colaboración.
 
 El Project Statement indica que esta sección debe especificar el nombre de cada producto de software, su propósito y la ruta de referencia o descarga correspondiente, considerando las actividades de Project Management, Requirements Management, UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
-## 5.1.1.2. Herramientas del proyecto
+#### 5.1.1.2. Herramientas del proyecto
 
 La siguiente tabla indica, para cada actividad del ciclo de vida del producto, los productos de software que utiliza el equipo, su propósito de uso en el proyecto y su ruta de referencia (productos SaaS) o de descarga (productos que se ejecutan en el computador de cada integrante).
 
@@ -3134,9 +2968,9 @@ La siguiente tabla indica, para cada actividad del ciclo de vida del producto, l
 | Project Management      | Trello                           | Organización de los Sprint Backlogs y seguimiento de las tareas del equipo.       | SaaS  | https://trello.com/                                                                           |
 | Requirements Management | Trello                           | Gestión del Product Backlog y de los User Stories.                                | SaaS  | https://trello.com/                                                                           |
 | Requirements Management | UXPressia                        | Elaboración de User Personas, Empathy Maps, User Journey Maps e Impact Mapping.   | SaaS  | https://uxpressia.com/                                                                        |
-| Requirements Management | Miro                             | Elaboración de Big Picture EventStorming y Design-Level EventStorming.            | SaaS  | https://miro.com/                                                                             |
-| Product UX/UI Design    | Figma                            | Diseño de wireframes, mock-ups y prototipos del Landing Page y de la Web Application. | SaaS  | https://www.figma.com/                                                                    |
-| Product UX/UI Design    | Lucidchart                       | Elaboración de diagramas de flujo, Wireflows y User Flows.                        | SaaS  | https://www.lucidchart.com/                                                                   |
+| Requirements Management | Miro                             | Elaboración del Big Picture EventStorming y de los User Flows.                    | SaaS  | https://miro.com/                                                                             |
+| Product UX/UI Design    | Figma                            | Diseño de wireframes, wireflows, mock-ups y prototipos del Landing Page y de la Web Application. | SaaS  | https://www.figma.com/                                                                    |
+| Product UX/UI Design    | Lucidchart                       | Elaboración del Design-Level EventStorming.                                       | SaaS  | https://www.lucidchart.com/                                                                   |
 | Software Development    | Git                              | Control de versiones local del código fuente.                                     | Local | https://git-scm.com/downloads                                                                 |
 | Software Development    | GitHub                           | Hospedaje de repositorios y colaboración mediante GitFlow, Pull Requests y Conventional Commits. | SaaS  | https://github.com/                                                         |
 | Software Development    | HTML5, CSS3 y JavaScript         | Implementación del Landing Page.                                                  | Local | https://developer.mozilla.org/                                                                |
@@ -3156,13 +2990,12 @@ La siguiente tabla indica, para cada actividad del ciclo de vida del producto, l
 | Software Documentation  | Mermaid                          | Diagramas como código (C4 Model, diagramas de clases y de base de datos) renderizados en GitHub. | SaaS  | https://mermaid.js.org/                                                       |
 | Software Documentation  | Swagger / OpenAPI                | Documentación de los endpoints de los Web Services.                               | Local | https://swagger.io/specification/                                                             |
 
-> **Nota:** Las herramientas de gestión de proyectos y los proveedores cloud deberán reemplazarse por los productos concretos que el equipo haya seleccionado en su implementación final. La tabla mantiene como propuesta las herramientas que no han sido fijadas previamente.
 
-## 5.1.1.3. Configuración base
+#### 5.1.1.3. Configuración base
 
 Todos los integrantes deberán mantener una configuración equivalente para evitar diferencias entre ambientes locales.
 
-### Frontend
+##### Frontend
 
 ```text
 Node.js
@@ -3172,7 +3005,7 @@ Angular
 TypeScript
 ```
 
-### Backend
+##### Backend
 
 ```text
 Java JDK
@@ -3181,14 +3014,14 @@ Spring Boot
 IDE compatible con Java
 ```
 
-### Base de datos
+##### Base de datos
 
 ```text
 PostgreSQL
 Cliente gráfico de base de datos
 ```
 
-### Control de versiones
+##### Control de versiones
 
 ```text
 Git
@@ -3198,7 +3031,7 @@ Conventional Commits
 Semantic Versioning
 ```
 
-## 5.1.1.4. Estructura de repositorios
+#### 5.1.1.4. Estructura de repositorios
 
 Para mantener separadas las responsabilidades de los productos, se propone trabajar con repositorios independientes:
 
@@ -3222,7 +3055,7 @@ Esta organización sigue la indicación del Project Statement de considerar los 
 
 ### 5.1.2. Source Code Management
 
-## 5.1.2.1. Plataforma y repositorios
+#### 5.1.2.1. Plataforma y repositorios
 
 El control de versiones del proyecto se realizará mediante **Git gestionado desde GitHub**. El Project Statement establece explícitamente GitHub como plataforma de control de versiones y solicita aplicar **GitFlow Workflow, Conventional Commits y Semantic Versioning**.
 
@@ -3230,18 +3063,18 @@ Los repositorios considerados para AgriDron Solutions son:
 
 | Producto                 | Repositorio                   | Contenido                                                     | Link de Github                                                |
 |--------------------------|-------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
-| Report                  | `AgiDron-LandingPage-7760-G3-Agridon-Report` | Documento en Markdown                                        | https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report |
+| Report                  | `1ASI0729-2620-7760-G3-Agridron-Report` | Documento en Markdown                                        | https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report |
 | Landing Page             | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript                                        | https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3 |
 | Frontend Web Application | `AgiDron-FrontEnd-7760-G3`    | Angular y TypeScript                                          | https://github.com/Opensource-UPC/Agridron-frontend           |
 | Web Services             | `AgiDron-BackEnd-7760-G3`     | Java, Spring Boot, pruebas unitarias e integración/aceptación | https://github.com/Opensource-UPC/Agridron-backend            |
 
-## 5.1.2.2. GitFlow Workflow
+#### 5.1.2.2. GitFlow Workflow
 
 Se utilizará **GitFlow** como estrategia de organización de ramas.
 
 <img src="assets/chapter5/GitFlow_Workflow.png" alt="Web Applications User Flow Diagrams" width="650"/>
 
-### Ramas principales
+##### Ramas principales
 
 | Branch      | Propósito                                                     |
 |-------------|---------------------------------------------------------------|
@@ -3251,7 +3084,7 @@ Se utilizará **GitFlow** como estrategia de organización de ramas.
 | `release/*` | Preparación de una nueva versión estable.                     |
 | `hotfix/*`  | Corrección urgente de errores encontrados en producción.      |
 
-## 5.1.2.3. Convención para Feature Branches
+#### 5.1.2.3. Convención para Feature Branches
 
 Cada funcionalidad debe desarrollarse en una rama independiente.
 
@@ -3259,7 +3092,7 @@ Cada funcionalidad debe desarrollarse en una rama independiente.
 
 Se utilizarán nombres en **inglés**, en minúsculas y separados mediante guiones.
 
-## 5.1.2.4. Convención para Release Branches
+#### 5.1.2.4. Convención para Release Branches
 
 Formato:
 
@@ -3277,7 +3110,7 @@ release/1.1.1
 
 Las release branches permiten realizar ajustes finales antes de integrar una versión estable a `main`.
 
-## 5.1.2.5. Convención para Hotfix Branches
+#### 5.1.2.5. Convención para Hotfix Branches
 
 Formato:
 
@@ -3295,7 +3128,7 @@ hotfix/login-validation
 
 Los hotfixes estarán destinados exclusivamente a correcciones urgentes de versiones publicadas.
 
-## 5.1.2.6. Pull Requests
+#### 5.1.2.6. Pull Requests
 
 Las modificaciones realizadas en `feature/*`, `release/*` y `hotfix/*` deberán integrarse mediante Pull Requests.
 
@@ -3331,7 +3164,7 @@ Tag vX.Y.Z
 
 Se recomienda que ningún integrante trabaje directamente sobre `main` para funcionalidades nuevas.
 
-## 5.1.2.7. Conventional Commits
+#### 5.1.2.7. Conventional Commits
 
 Los mensajes de commit seguirán la especificación de **Conventional Commits**.
 
@@ -3367,7 +3200,7 @@ Tipos principales:
 
 Conventional Commits relaciona `feat` con incrementos **MINOR**, `fix` con incrementos **PATCH** y los cambios incompatibles con incrementos **MAJOR**, facilitando su integración con Semantic Versioning.
 
-## 5.1.2.8. Semantic Versioning
+#### 5.1.2.8. Semantic Versioning
 
 Las versiones del producto seguirán el formato:
 
@@ -3406,7 +3239,7 @@ v1.1.1
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-## 5.1.3.1. Principios generales
+#### 5.1.3.1. Principios generales
 
 El Project Statement establece que para los lenguajes utilizados en la solución debe aplicarse nomenclatura en **inglés**. Para AgriDron Solutions se aplicará esta regla a HTML, CSS, JavaScript, TypeScript y Java.
 
@@ -3422,7 +3255,7 @@ Principios:
 8. Mantener las pruebas junto con el código correspondiente.
 9. No incluir credenciales ni secretos dentro del código fuente.
 
-## 5.1.3.2. HTML
+#### 5.1.3.2. HTML
 
 Convenciones:
 
@@ -3440,7 +3273,7 @@ Ejemplo:
 </section>
 ```
 
-## 5.1.3.3. CSS
+#### 5.1.3.3. CSS
 
 Convenciones:
 
@@ -3463,7 +3296,7 @@ Ejemplo:
 }
 ```
 
-## 5.1.3.4. JavaScript
+#### 5.1.3.4. JavaScript
 
 Convenciones:
 
@@ -3476,14 +3309,14 @@ Convenciones:
 Ejemplo:
 
 ```javascript
-const DEFAULT_MISSION_STATUS = "PENDING";
+const DEFAULT_MISSION_STATUS = "PLANNED";
 
 function createMission(missionData) {
   // implementation
 }
 ```
 
-## 5.1.3.5. TypeScript / Angular
+#### 5.1.3.5. TypeScript / Angular
 
 Convenciones:
 
@@ -3503,7 +3336,7 @@ Ejemplo:
 export interface Mission {
   id: number;
   parcelId: number;
-  scheduledDate: string;
+  requestedDate: string;
   status: MissionStatus;
 }
 
@@ -3514,7 +3347,7 @@ export class MissionService {
 }
 ```
 
-## 5.1.3.6. Java / Spring Boot
+#### 5.1.3.6. Java / Spring Boot
 
 Convenciones:
 
@@ -3528,23 +3361,21 @@ Convenciones:
 | DTO      | PascalCase + DTO | `MissionResponseDTO`   |
 | Entity   | PascalCase       | `Mission`              |
 
-La estructura del backend seguirá una separación lógica entre:
+La estructura del backend seguirá la organización por Bounded Context y, dentro de cada uno, por capas (TU-001):
 
 ```text
-controller/
-service/
-domain/
-repository/
-dto/
-config/
-exception/
+<bounded-context>/
+  domain/
+  application/
+  infrastructure/
+  interfaces/
 ```
 
 Ejemplo:
 
 ```java
 @RestController
-@RequestMapping("/api/missions")
+@RequestMapping("/api/v1/missions")
 public class MissionController {
 
   @GetMapping("/{id}")
@@ -3554,22 +3385,22 @@ public class MissionController {
 }
 ```
 
-## 5.1.3.7. API REST
+#### 5.1.3.7. API REST
 
 Los endpoints utilizarán nombres de recursos en plural y en inglés.
 
 Ejemplos:
 
 ```text
-GET    /api/farms
-GET    /api/parcels
-POST   /api/parcels
-GET    /api/missions
-POST   /api/missions
-PUT    /api/missions/{id}
-DELETE /api/missions/{id}
-GET    /api/weather
-GET    /api/reports
+GET    /api/v1/farms
+GET    /api/v1/parcels
+POST   /api/v1/parcels
+GET    /api/v1/missions
+POST   /api/v1/missions
+PUT    /api/v1/missions/{id}
+PATCH  /api/v1/missions/{id}/status
+GET    /api/v1/weather
+GET    /api/v1/mission-reports
 ```
 
 Se utilizarán los verbos HTTP según la operación:
@@ -3582,7 +3413,7 @@ Se utilizarán los verbos HTTP según la operación:
 | PATCH  | Actualizar parcialmente un recurso. |
 | DELETE | Eliminar un recurso.                |
 
-## 5.1.3.8. Documentación y lenguaje
+#### 5.1.3.8. Documentación y lenguaje
 
 El idioma por defecto definido para los mensajes, interfaz de usuario e interfaz de documentación de los productos de la solución es **inglés**.
 
@@ -3598,13 +3429,13 @@ Por lo tanto:
 
 ### 5.1.4. Software Deployment Configuration
 
-## 5.1.4.1. Objetivo
+#### 5.1.4.1. Objetivo
 
 El despliegue permitirá publicar los productos de AgriDron Solutions en plataformas cloud y automatizar progresivamente el proceso de entrega.
 
 El Project Statement establece que esta configuración debe contemplar la creación de cuentas, configuración de recursos en proveedores cloud y configuración de proyectos de desarrollo para integración o automatización del deployment. El proceso debe considerar los productos **Landing Page, Web Applications y Web Services**.
 
-## 5.1.4.2. Arquitectura de despliegue
+#### 5.1.4.2. Arquitectura de despliegue
 
 Se propone separar los componentes desplegables de acuerdo con la arquitectura del sistema:
 
@@ -3633,7 +3464,7 @@ flowchart TB
   GitHub -->|"CI/CD"| Backend
 ```
 
-## 5.1.4.3. Ambientes
+#### 5.1.4.3. Ambientes
 
 Se utilizarán tres ambientes conceptuales:
 
@@ -3661,7 +3492,7 @@ main
 Production
 ```
 
-## 5.1.4.4. Integración continua
+#### 5.1.4.4. Integración continua
 
 El repositorio podrá utilizar **GitHub Actions** para automatizar las tareas de integración y despliegue.
 
@@ -3687,7 +3518,7 @@ flowchart LR
   Validate --> DeployProd
 ```
 
-### Backend
+##### Backend
 
 ```text
 Checkout
@@ -3705,7 +3536,7 @@ Package application
 Deploy
 ```
 
-### Frontend
+##### Frontend
 
 ```text
 Checkout
@@ -3721,7 +3552,7 @@ Build Angular application
 Deploy
 ```
 
-### Landing Page
+##### Landing Page
 
 ```text
 Checkout
@@ -3733,7 +3564,7 @@ Build / prepare static assets
 Deploy
 ```
 
-## 5.1.4.5. Variables y secretos
+#### 5.1.4.5. Variables y secretos
 
 Las credenciales, API keys, tokens y contraseñas no deberán almacenarse directamente en el repositorio.
 
@@ -3742,9 +3573,9 @@ Se utilizarán variables de entorno y secretos administrados por la plataforma d
 Ejemplos:
 
 ```text
-DATABASE_URL
-DATABASE_USERNAME
-DATABASE_PASSWORD
+DB_HOST
+DB_USER
+DB_PASSWORD
 WEATHER_API_KEY
 JWT_SECRET
 ```
@@ -3753,7 +3584,7 @@ Los valores reales no se incluirán en archivos versionados.
 
 GitHub permite asociar secretos y variables a ambientes de despliegue. Además, los ambientes pueden restringir qué branches o tags tienen autorización para realizar deployments y pueden aplicar reglas de protección.
 
-## 5.1.4.6. Configuración de base de datos
+#### 5.1.4.6. Configuración de base de datos
 
 La base de datos relacional se desplegará como un servicio administrado o recurso equivalente dentro del proveedor cloud seleccionado.
 
@@ -3779,7 +3610,7 @@ DB_USER
 DB_PASSWORD
 ```
 
-## 5.1.4.7. Configuración de la API meteorológica
+#### 5.1.4.7. Configuración de la API meteorológica
 
 La API meteorológica será consumida exclusivamente desde el Backend.
 
@@ -3799,7 +3630,7 @@ WEATHER_API_KEY
 
 El Frontend no deberá contener directamente la clave privada del proveedor meteorológico.
 
-## 5.1.4.8. Estrategia de deployment
+#### 5.1.4.8. Estrategia de deployment
 
 La estrategia propuesta es:
 
@@ -3828,7 +3659,7 @@ flowchart TD
   I --> J["Production"]
 ```
 
-## 5.1.4.9. Trazabilidad del deployment
+#### 5.1.4.9. Trazabilidad del deployment
 
 Cada versión desplegada deberá poder relacionarse con:
 
@@ -3876,27 +3707,6 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 | Velocity            | 18                                                                                                                                                                                                       |
 | Sum of Story Points | 18                                                                                                                                                                                                       |
 
-Es muy importante que el equipo dedique atención a la identificación del Sprint Goal. Según el Scrum Guide, “El Sprint Goal es el objetivo individual del Sprint. Es un compromiso para los Developers, flexible en términos del trabajo exacto que se requiere para alcanzarlo. El Sprint Goal también crea coherencia y enfoque, buscando que los miembros del Scrum Team trabajen juntos en vez de ir en pos de iniciativas individuales.”
-
-Para identificar el Sprint Goal, es recomendable enfocarse en el negocio (business) o la perspectiva de los usuarios (user-focused), como por ejemplo entregar un nuevo feature o feature set. Esta visión ayuda a priorizar lo esencial del sprint y a mantener alineado al equipo con el valor que se desea entregar.
-
-Escribir objetivos SMART (Specific, Measurable, Attainable, Relevant, Time-bound) puede ser de mucha utilidad para que el equipo articule el Sprint Goal. La estructura propuesta por Scrum.org ofrece un ejemplo claro: “Our focus is on <Outcome> We believe it delivers <Impact> to <Customer(s)> This will be confirmed when <Event happens>”.
-
-Por ejemplo, tomando como ejemplo un solo feature: “Our focus is on sending a basic email that contains a link to a spreadsheet. We believe it delivers confidence in the product to our organization. This will be confirmed when we have an email in an inbox”.
-
-Es importante que el equipo se enfoque en identificar Outcome, Impact, Customer(s), así como Event. El solo hecho de aplicar el template no garantiza un buen Sprint Goal. El siguiente ejemplo es un uso incorrecto del template: “Our focus is on having SAP integrated into the Corporate system. We believe it delivers satisfaction and closure for our project manager. This will be confirmed when Epic SAP-123 is closed in Jira.” Aquí el Goal se está centrándose en el complimiento de un sistema interno, no en un valor observable para el usuario. Un mejor enfoque sería: “Our focus is on having a landing page that explains our new solution clearly and motivates sign-ups. We believe it delivers increased conversion and customer trust. This will be confirmed when the team receives at least 20 qualified leads from the demo landing page.”
-
-Es recomendable que la redacción sea específica en términos de qué features se compromete a lograr y cómo benefician a los segmentos objetivo, sin detallar cómo. Algunos ejemplos de feature-sets con un enfoque de alto nivel:
-
-- “A customer can place an order from a single-product catalog”.
-- “Show a multi-product catalog”.
-- “Show top-selling products”.
-- “Make product catalog manageable for the sales department operator”.
-
-Es muy importante que el equipo establezca en conjunto el Sprint Goal, pues de esa forma todo el equipo puede trabajar en identificar qué epics y stories deberían considerarse en principio en la iteración, en base a su contribución para ese Goal en particular.
-
-A continuación, se presentan ejemplos de Sprint Goals. En cada ejemplo, se brinda un contexto previo para entender de mejor manera el propósito del Sprint Goal.
-
 #### 5.2.1.2. Aspect Leaders and Collaborators
 Esta distribución permite definir responsabilidades claras dentro del equipo y facilita la coordinación durante el desarrollo del proyecto. Asimismo, la organización de líderes y colaboradores mantiene relación directa con la posterior selección de tareas, ya que el líder de cada aspecto tiene la responsabilidad principal de coordinar y dar seguimiento al trabajo correspondiente.
 
@@ -3904,7 +3714,7 @@ Esta distribución permite definir responsabilidades claras dentro del equipo y 
 |---|---|---|---|---|---|---|---|
 | Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | **L** | C | C | C | C | C |
 | Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez | C | **L** | **L** | C | C | C |
-| Damacen Galindo, Italo Gianfranco | ItaloDMc | C | C | C | **L** | C | C |
+| Damacen Galindo, Italo Gianfranco | Ital0Dmc | C | C | C | **L** | C | C |
 | Sayago Vidal, Sebastián Leonardo | SSayag0V | C | C | C | C | **L** | C |
 | Nicho Huillcañahui, Edwin Noe | Edwindeploy21 | C | C | C | C | C | **L** |
 
@@ -3950,6 +3760,20 @@ En esta sección se registra y explica el avance en términos de producto y trab
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 Durante este sprint se desarrolló la base del producto AgriDron con una landing page informativa, una estructura visual clara para servicios y un primer flujo de autenticación. Además, se inició la definición de los principales módulos de gestión de fincas y misiones, de acuerdo con la arquitectura propuesta en el proyecto.
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 1 en los repositorios de los productos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 394d481 | Initial commit | — | 10/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | b9cb5b7 | Add project title to README | — | 10/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | efa1777 | Update README.md | — | 10/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | bbdc638 | First Version of the Landing Page | — | 10/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | 38d29a3 | Update | — | 10/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | e6e7063 | Add login and register pages | — | 13/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | 1962f70 | Create README.md | — | 13/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | develop | f50296b | feature/cambio de elementos y agregar un integrante | — | 15/09/2026 |
+| Opensource-UPC/Agridron-frontend | main | e19388c | Initial commit | — | 17/09/2026 |
 
 ![Evidencia de desarrollo](assets/chapter4/landing_mockup.png)
 
@@ -4000,7 +3824,7 @@ La colaboración del equipo se desarrolló con un enfoque distribuido por respon
 
 El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de valor y UX, la implementación técnica del sistema y la documentación del proyecto. Esta organización permitió avanzar en paralelo, reducir tiempos de espera y mantener una cultura de colaboración abierta, donde cada integrante asumió responsabilidades claras y contribuyó a la entrega del primer ciclo incremental.
 
-![Evidencia de colaboración del Sprint](assets/chapter4/Web_Applications_User_Flow_Diagrams.png)
+![Evidencia de colaboración del Sprint](assets/collaboration/report_contributors_av1.png)
 
 
 ### 5.2.2. Sprint 2
@@ -4019,7 +3843,7 @@ El equipo trabajó de forma complementaria en tres dimensiones: la propuesta de 
 | Sprint 1 - Review Summary | Se revisó el avance alcanzado durante el Sprint 1, principalmente en la construcción de la Landing Page y en la definición inicial de la propuesta de valor, servicios, planes, registro, inicio de sesión y contenido legal. |
 | Sprint 1 - Retrospective Summary | Se identificó la necesidad de continuar con una distribución clara de responsabilidades y mejorar la coordinación entre las actividades de análisis, diseño y desarrollo, manteniendo una comunicación constante para integrar los avances individuales. |
 
-##### Sprint Goal & User Stories
+#### Sprint Goal & User Stories
 
 | Aspecto | Descripción |
 |:---|:---|
@@ -4035,14 +3859,20 @@ El objetivo es que las funcionalidades seleccionadas mantengan coherencia con la
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-| Aspecto | Líder | Colaboradores |
-|:---|:---|:---|
-| Identity & Access Management | Gabriel Ramírez Gutiérrez | Sebastián Sayago Vidal, Edwin Noe Nicho Huillcañahui |
-| Field Management | Alexander Felipe Vásquez Roncal | Italo Gianfranco Damacen Galindo, Sebastián Sayago Vidal |
-| Flight Operations | Alexander Felipe Vásquez Roncal | Edwin Noe Nicho Huillcañahui, Italo Gianfranco Damacen Galindo |
-| Weather Integration | Italo Gianfranco Damacen Galindo | Alexander Felipe Vásquez Roncal, Gabriel Ramírez Gutiérrez |
-| Analytics & Reporting | Sebastián Leonardo Sayago Vidal | Gabriel Ramírez Gutiérrez, Edwin Noe Nicho Huillcañahui |
-| Inventory & Resource Management | Edwin Noe Nicho Huillcañahui | Italo Gianfranco Damacen Galindo, Alexander Felipe Vásquez Roncal |
+En el Sprint 2 los aspectos de trabajo son los seis Bounded Contexts de la solución: Identity & Access Management, Field Management, Flight Operations, Weather Integration, Analytics & Reporting e Inventory & Resource Management. Cada aspecto tiene un líder, que coordina y da seguimiento a su trabajo, y dos colaboradores. Esta distribución se refleja en la asignación de tareas del Sprint Backlog 2.
+
+| Team Member (Last Name, First Name) | GitHub Username | Identity & Access Management | Field Management | Flight Operations | Weather Integration | Analytics & Reporting | Inventory & Resource Management |
+|---|---|---|---|---|---|---|---|
+| Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | **L** | | | C | C | |
+| Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez | | **L** | **L** | C | | C |
+| Damacen Galindo, Italo Gianfranco | Ital0Dmc | | C | C | **L** | | C |
+| Sayago Vidal, Sebastián Leonardo | SSayag0V | C | C | | | **L** | |
+| Nicho Huillcañahui, Edwin Noe | Edwindeploy21 | C | | C | | C | **L** |
+
+**Leyenda:**
+
+- **L (Leader):** integrante responsable de liderar y coordinar el trabajo relacionado con el aspecto asignado.
+- **C (Collaborator):** integrante que participa como colaborador y brinda apoyo en el desarrollo del aspecto.
 
 ---
 
@@ -4057,15 +3887,15 @@ En esta sección se registra el trabajo planificado para el Sprint 2 a partir de
 | Sprint 2 | AU-001 | Registro de usuario agricultor | T03 | Validar creación del perfil | Verificar que el registro genere correctamente el perfil asociado al rol de agricultor. | 2 | Edwin Nicho | Done |
 | Sprint 2 | AU-003 | Inicio de sesión seguro | T04 | Implementar autenticación de usuarios | Implementar el flujo de autenticación mediante las credenciales registradas por el usuario. | 4 | Gabriel Ramírez | Done |
 | Sprint 2 | AU-003 | Inicio de sesión seguro | T05 | Validar acceso según rol | Comprobar que el usuario autenticado pueda acceder al panel correspondiente a su rol. | 3 | Sebastián Sayago | Done |
-| Sprint 2 | AU-006 | Asignación y gestión de roles | T06 | Definir roles y permisos | Establecer los roles de usuario y los permisos asociados dentro de la plataforma. | 2 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-006 | Asignación y gestión de roles | T07 | Implementar gestión de roles | Implementar la asignación y actualización de roles para los usuarios administrados por el sistema. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | FM-001 | Registro de finca agrícola | T08 | Implementar registro de fincas | Implementar el registro de nombre, ubicación y departamento de una finca agrícola. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | AU-006 | Selección de rol en el registro | T06 | Definir roles y permisos | Establecer los roles de usuario y los permisos asociados dentro de la plataforma. | 2 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-006 | Selección de rol en el registro | T07 | Implementar selección de rol | Implementar la selección de rol en el formulario de registro y su asignación a la cuenta creada. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | FM-001 | Registro de finca agrícola | T08 | Implementar registro de fincas | Implementar el registro del nombre y la ubicación de una finca agrícola. | 4 | Alexander Vásquez | Done |
 | Sprint 2 | FM-002 | Delimitación geográfica de parcela | T09 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
 | Sprint 2 | FM-002 | Delimitación geográfica de parcela | T10 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | Done |
 | Sprint 2 | FM-004 | Asignación de tipo de cultivo y fenología | T11 | Registrar información del cultivo | Implementar el registro del tipo de cultivo y etapa fenológica asociada a una parcela. | 3 | Alexander Vásquez | Done |
 | Sprint 2 | FM-005 | Consulta y filtrado de parcelas | T12 | Implementar consulta y filtros | Permitir la consulta de parcelas y aplicar filtros según los criterios definidos por el usuario. | 3 | Alexander Vásquez | Done |
 | Sprint 2 | DR-001 | Registro de nuevo dron en inventario | T13 | Registrar información técnica del dron | Implementar el registro del modelo, número de serie y capacidad del tanque del dron. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-002 | Consulta del estado operativo de flota | T14 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en mantenimiento o en misión. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-002 | Consulta del estado operativo de flota | T14 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en vuelo, en mantenimiento o fuera de servicio. | 3 | Edwin Nicho | Done |
 | Sprint 2 | DR-003 | Registro de agroquímicos e insumos | T15 | Registrar insumos agrícolas | Implementar el registro de productos agroquímicos y sus principales características. | 3 | Edwin Nicho | Done |
 | Sprint 2 | DR-005 | Programación de mantenimiento preventivo | T16 | Registrar mantenimiento de drones | Implementar el registro de fechas y horas de mantenimiento preventivo de los drones. | 3 | Edwin Nicho | Done |
 | Sprint 2 | MI-001 | Solicitud de misión de fumigación | T17 | Crear solicitud de misión | Implementar el flujo para crear una solicitud indicando parcela, fecha estimada y producto a aplicar. | 4 | Alexander Vásquez | Done |
@@ -4075,7 +3905,7 @@ En esta sección se registra el trabajo planificado para el Sprint 2 a partir de
 | Sprint 2 | MI-005 | Consulta de calendario de misiones | T21 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | Done |
 | Sprint 2 | TR-001 | Visualización de posición de dron en tiempo real | T22 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | Done |
 | Sprint 2 | TR-002 | Monitoreo de indicadores de vuelo | T23 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | TR-005 | Registro de finalización de misión | T24 | Registrar finalización de operación | Implementar el cambio de estado de la misión a realizada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | TR-005 | Registro de finalización de misión | T24 | Registrar finalización de operación | Implementar el cambio de estado de la misión a Completada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
 | Sprint 2 | CL-001 | Consulta de condiciones climáticas actuales | T25 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
 | Sprint 2 | CL-002 | Alerta por exceso de velocidad de viento | T26 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
 | Sprint 2 | CL-003 | Identificación de ventana óptima de pulverización | T27 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | Done |
@@ -4093,11 +3923,50 @@ En esta sección se registra el trabajo planificado para el Sprint 2 a partir de
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2 se avanzó en la construcción de las funcionalidades principales de AgriDron Solutions a partir de las User Stories priorizadas. El trabajo se distribuyó entre los integrantes del equipo considerando las responsabilidades asociadas a la gestión de usuarios, gestión territorial, operaciones de vuelo, integración meteorológica, analítica y gestión de recursos.
+Durante el Sprint 2 se implementó la primera versión de la Web Application en Angular, organizada por Bounded Context y por capas (domain, application, infrastructure y presentation). Los principales avances son los siguientes:
 
-Asimismo, se desarrollaron los elementos de análisis y diseño necesarios para representar las responsabilidades de los diferentes Bounded Contexts de la solución. Esta organización permitió relacionar las funcionalidades del Product Backlog con las responsabilidades específicas de cada parte del dominio.
+- **Identity & Access Management:** inicio de sesión con nombre de usuario y contraseña, registro con selección de rol y vista de perfil con cierre de sesión.
+- **Field Management:** registro, edición y eliminación de fincas, parcelas, cultivos y zonas de fumigación, con el filtro de parcelas por finca y de zonas de fumigación por parcela, y el detalle de cada parcela.
+- **Weather Integration:** estado del clima en la vista Inicio, con temperatura, humedad, viento, precipitación y alertas por nivel.
+- **Analytics & Reporting:** vista Reportes e Historial con las pestañas Misiones, Uso de insumos e Indicadores, el filtro por rango de fechas, el detalle de cada reporte y su exportación en JSON y CSV.
+- **Inventory & Resource Management:** flota de drones con su estado, batería, boquilla y próximo servicio, y el detalle de cada dron.
+- **Shared:** barra lateral de navegación, selector de idioma (español e inglés), vista Inicio con indicadores y accesos rápidos, y página de ruta no encontrada.
 
-La evidencia de desarrollo del sprint debe incluir capturas de los avances realizados y, cuando corresponda, referencias a las ramas y commits utilizados para implementar las User Stories seleccionadas.
+La Web Application consume un Fake RESTful API: json-server en el entorno local y MockAPI en la versión desplegada.
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 2 en los repositorios de la Landing Page y de la Web Application.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 3aece7e | initial commit | — | 21/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 24b2bbf | se modifico el landingPage y se paso al lenguaje angular | — | 05/10/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 7e67dfa | cambios del router | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/startProyect | 5600264 | se creo el proyecto Agridron en Angular y se agrego la base de header,footer y language switcher | — | 30/09/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | f16409f | se agrego archivos shared/infraestructure/base-[archivo] | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 51f92f8 | se agrego infraestructura, aplication | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 4b31a65 | chore(env): add analytics and reporting endpoint paths | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | b6e1490 | feat(analytics): add domain model for reports, history, metrics and indicators | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 9e38370 | feat(analytics): add assemblers, endpoints and api facade | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | faee758 | feat(analytics): add mission report, history and indicator stores | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 70804ff | chore(server): add sample data for analytics json-server | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/weatherIntegration | 47cbbaa | Se realizó el avance de la weather API. Ahora existe un &lt;app-weather-widget&gt; para que el equipo pueda hacer un llamado al widget del clima en cualquier parte del frontend. La api es funcional y tiene diferentes mensajes de alertas. | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 1806f7c | se agrego fieldmanagement/components and se modifico app.route.ts | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 198d012 | feat(analytics): register analytics route, menu option and i18n | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 7372c28 | chore: add json-server for local development | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | a3f38d5 | first commit | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 9a89a38 | se agregaron componentes nuevos, side-bar y estilos para ello | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 26761f8 | feat(iam-domain): add user entity, role enum and auth commands | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 3b6d7cd | feat(iam-infra): implement auth api client, response dtos and assembler | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 7f75752 | feat(iam-app): implement authentication service with reactive session signals | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 5b379e5 | feat(iam-app): implement authentication service with reactive session signals | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | eb36667 | feat(iam-ui): create sign-in, sign-up and profile standalone components | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4bb7cb9 | feat(inventory): drones and maintenance records | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | a3c7896 | feat(inventory): register drones route, menu option, i18n and environment | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 7250706 | feat(inventory): register drones route and menu option | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 3ce6b34 | se agrego el BC de login, y drones | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 2e500e9 | fix(inventory): ultima puesta a prueba | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 02bbc7a | se modifico el readme | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 8ccd013 | cambios en enviroment | — | 06/10/2026 |
 
 ![Evidencia de desarrollo del Sprint 2](assets/chapter5/sprint_2_development.png)
 
@@ -4111,34 +3980,64 @@ Durante el sprint se revisaron progresivamente las funcionalidades relacionadas 
 
 ![Evidencia de ejecucion del Sprint 2](assets/chapter5/deployment_sprint_2.png)
 
-La evidencia de ejecución debe mostrar los avances funcionales alcanzados durante el sprint y la validación de las tareas completadas.
-
 **Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
+
+**Link de la Landing Page (versión en Angular):** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
 
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 2 se continuó con la definición y documentación de los servicios necesarios para soportar las User Stories seleccionadas. Los servicios se relacionan principalmente con la gestión de usuarios, parcelas, misiones, información meteorológica, recursos y reportes.
+En el Sprint 2 la Web Application se integró con un Fake RESTful API. En el entorno local se usa json-server (`server/db.json`), que expone las colecciones bajo la ruta base `http://localhost:3000/api/v1` mediante `server/routes.json`. La siguiente tabla documenta los endpoints que consume la Web Application, con las acciones HTTP que utiliza en cada uno.
 
-La evidencia documental del sprint contempla:
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Acción y respuesta |
+|---|---|---|---|---|
+| Users | GET | `/api/v1/users` | — | Lista los usuarios. Se usa para validar el inicio de sesión. |
+| Users | POST | `/api/v1/users` | Body: `username`, `email`, `password`, `role` | Registra un usuario y devuelve el usuario creado con su `id`. |
+| Farms | GET | `/api/v1/farms` | — | Lista las fincas. |
+| Farms | GET | `/api/v1/farms/{id}` | `id` de la finca | Devuelve una finca. |
+| Farms | POST | `/api/v1/farms` | Body: `name`, `location`, `ownerId`, `image` | Registra una finca y la devuelve con su `id`. |
+| Farms | PUT | `/api/v1/farms/{id}` | `id` y body completo | Actualiza una finca y la devuelve. |
+| Farms | DELETE | `/api/v1/farms/{id}` | `id` de la finca | Elimina una finca. |
+| Parcels | GET, POST | `/api/v1/parcels` | Body (POST): `name`, `area`, `geometry`, `farmId`, `cropId`, `image` | Lista o registra parcelas. |
+| Parcels | GET, PUT, DELETE | `/api/v1/parcels/{id}` | `id` de la parcela | Consulta, actualiza o elimina una parcela. |
+| Crops | GET, POST | `/api/v1/crops` | Body (POST): `name`, `variety` | Lista o registra cultivos. |
+| Crops | GET, PUT, DELETE | `/api/v1/crops/{id}` | `id` del cultivo | Consulta, actualiza o elimina un cultivo. |
+| Fumigation Areas | GET, POST | `/api/v1/fumigation-areas` | Body (POST): `parcelId`, `geometry`, `area` | Lista o registra zonas de fumigación. |
+| Fumigation Areas | GET, PUT, DELETE | `/api/v1/fumigation-areas/{id}` | `id` de la zona | Consulta, actualiza o elimina una zona de fumigación. |
+| Weather | GET | `/api/v1/weather` | — | Lista las condiciones meteorológicas por ubicación, con sus alertas. |
+| Mission Reports | GET | `/api/v1/mission-reports` y `/api/v1/mission-reports/{id}` | `id` del reporte | Lista los reportes de misión o devuelve uno. |
+| Mission Histories | GET | `/api/v1/mission-histories` | — | Lista el historial de misiones con su estado final. |
+| Operational Metrics | GET | `/api/v1/operational-metrics` | — | Lista las métricas operativas de cada reporte. |
+| Performance Indicators | GET | `/api/v1/performance-indicators` | — | Lista los indicadores de desempeño por periodo. |
+| Drones | GET | `/api/v1/drones` | — | Lista los drones con su estado, batería y fechas de mantenimiento. |
+| Nozzles | GET | `/api/v1/nozzles` | — | Lista las boquillas. |
 
-- Servicios asociados al registro y autenticación de usuarios.
-- Servicios para la gestión de fincas y parcelas.
-- Servicios relacionados con la planificación y gestión de misiones.
-- Integración con el servicio meteorológico externo.
-- Servicios para la consulta de historial, métricas y reportes.
-- Servicios relacionados con la gestión de drones e insumos.
+Ejemplo de llamada y respuesta (`GET /api/v1/farms/1`):
 
-La documentación deberá complementarse con las capturas correspondientes y, cuando se encuentre disponible, con la URL de la documentación OpenAPI/Swagger y los identificadores de los commits relacionados.
+```json
+{
+  "id": 1,
+  "name": "Finca San Rafael",
+  "location": "Ica, Peru",
+  "ownerId": 1,
+  "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600"
+}
+```
+
+Si el `id` no existe, json-server responde `404 Not Found`. Las respuestas de las colecciones (`GET` sin `id`) devuelven un arreglo de objetos con la misma estructura.
 
 ---
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2 se continuó con la configuración y preparación de los componentes necesarios para la evolución del producto. El trabajo de despliegue se mantuvo alineado con la estructura de repositorios y la estrategia de control de versiones definida para el proyecto.
+Durante el Sprint 2 se desplegó la primera versión de la Web Application en Firebase Hosting. El repositorio del frontend incluye la configuración del despliegue: `firebase.json` publica la carpeta `dist/Agridron-frontend/browser` y `.firebaserc` apunta al proyecto `agridronwebapp`. Los pasos realizados fueron los siguientes:
 
-La evidencia de despliegue debe mostrar los cambios realizados en los entornos utilizados durante el sprint y, cuando corresponda, las configuraciones empleadas para publicar los componentes desarrollados.
+1. Instalar las dependencias del proyecto con `npm install`.
+2. Generar la versión de producción con `npm run build` (`ng build`). Esta versión usa `environment.ts`, que apunta al Fake API publicado en MockAPI. En el entorno de desarrollo Angular lo reemplaza por `environment.development.ts`, que apunta al json-server local.
+3. Iniciar sesión en Firebase con `firebase login`.
+4. Publicar con `firebase deploy --only hosting`, que sube el contenido de `dist/Agridron-frontend/browser` al proyecto `agridronwebapp`.
+5. Verificar la versión publicada en [https://agridronwebapp.web.app](https://agridronwebapp.web.app).
 
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/deployment_sprint_2.png)
 
@@ -4264,8 +4163,6 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 
 **Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
 
-**Link LandingPague:** [https://agridronlandingpage.web.app/](https://agridronlandingpage.web.app/)
-
 **Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
 
 **Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
@@ -4278,5 +4175,6 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 
 **Video de exposición AV1:** [https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing](https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing)
 
+**Video de exposición TB1:** [https://drive.google.com/file/d/1loJ4L6oNWmI1wZwD3GjeU7jel-wB317I/view?usp=sharing](https://drive.google.com/file/d/1O-s9MigZWVFCFA8_S-THkAxQdRwtlqxj/view?usp=drive_link)
 ## Anexo C: Otros
 
