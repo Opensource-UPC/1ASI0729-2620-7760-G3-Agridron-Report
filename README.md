@@ -3886,7 +3886,7 @@ Esta distribución permite definir responsabilidades claras dentro del equipo y 
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Incluye las secciones internas de Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review y Team Collaboration Insights during Sprint.
 
-**Link del trello:** https://trello.com/b/4VX5fWEu/agridron
+**Link del trello:** [https://trello.com/b/6s9LSWfR/agridron-sprint-1](https://trello.com/b/6s9LSWfR/agridron-sprint-1)
 
 <img src="assets/chapter5/sprint_1.png" alt="Sprint 1" width="650"/>
 
@@ -4043,7 +4043,7 @@ En el Sprint 2 los aspectos de trabajo son los seis Bounded Contexts de la soluc
 
 En esta sección se registra el trabajo planificado para el Sprint 2 a partir de las User Stories seleccionadas del Product Backlog. Las tareas representan las actividades necesarias para cumplir con los criterios de aceptación de cada User Story y se distribuyen entre los integrantes del equipo de acuerdo con los aspectos trabajados durante el sprint.
 
-**Link del trello:** https://trello.com/b/4VX5fWEu/agridron
+**Link del trello:** [https://trello.com/b/UPXvwjZS/agridron-sprint-2](https://trello.com/b/UPXvwjZS/agridron-sprint-2)
 
 | Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
