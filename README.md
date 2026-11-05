@@ -244,6 +244,15 @@ Entre el 30/09/2026 y el 06/10/2026, el equipo incorporó las correcciones deriv
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+   - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 2](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Interview Design](#531-interview-design)
     - [5.3.2. Interview Registry](#532-interview-registry)
@@ -4099,6 +4108,221 @@ La coordinación entre los integrantes permitió relacionar las User Stories con
 ![Evidencia de colaboración del Sprint 2](assets/chapter5/team_collaboration_sprint_2.png)
 
 ---
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Campo | Detalle |
+|:---|:---|
+| Sprint # | 3 |
+| Sprint Planning Background | En este sprint se continuará con la implementación de AgriDron Solutions, enfocándose en consolidar la integración entre la Web Application y los servicios RESTful desarrollados con Spring Boot. Se priorizará el desarrollo del Bounded Context Flight Operations, especialmente la gestión de misiones, sus estados y resultados. También se continuará con los contextos de Field Management, Inventory & Resource Management y Analytics & Reporting, además de mantener la integración con el servicio meteorológico externo. |
+| Date | 02/10/2026 |
+| Time | 4:00 pm |
+| Attendees  | Italo Gianfranco Damacen Galindo, Edwin Noe Nicho Huillcañahui, Gabriel Ramírez Gutiérrez, Sebastián Leonardo Sayago Vidal y Alexander Felipe Vásquez Roncal |
+| Sprint 2 - Review Summary | Se revisó el avance de la Web Application en Angular y la integración de sus módulos. Se identificó que el frontend cuenta con clientes API para distintos recursos, mientras que el backend Spring Boot todavía requiere ampliar su cobertura para atender las operaciones consumidas por la aplicación. También se revisó el uso de servicios simulados durante el desarrollo local y la necesidad de avanzar hacia la integración con los servicios propios del proyecto. |
+| Sprint 2 - Retrospective Summary | Se identificó la necesidad de mejorar la coordinación entre los Bounded Contexts del frontend y sus correspondientes servicios backend. Asimismo, se requiere priorizar las funcionalidades centrales de la plataforma y validar la comunicación entre los módulos para evitar que las interfaces dependan de servicios simulados o de operaciones que aún no están disponibles en el backend. |
+
+##### Sprint Goal & User Stories
+
+| Aspecto | Descripción |
+|:---|:---|
+| Sprint 3 Goal | Consolidar la primera versión integrada de AgriDron Solutions mediante la implementación y conexión de los servicios RESTful con la Web Application. Se priorizará la gestión de misiones, estados operativos y resultados de vuelo, junto con la integración de los recursos e información analítica relacionados. Además, se actualizarán la Landing Page y la Web Application, se preparará el primer despliegue de los Web Services y se elaborarán las primeras versiones de los videos About the Product y About the Team. |
+| Velocity | Por completar |
+| Sum of Story Points | Por completar |
+
+El Sprint 3 busca avanzar desde una aplicación que cuenta con interfaces y funcionalidades parcialmente conectadas hacia una solución con mayor integración con los servicios backend propios del proyecto. La prioridad será implementar el flujo de Flight Operations, debido a que la planificación y gestión de misiones constituye una funcionalidad central de AgriDron Solutions.
+
+Como criterio de avance técnico, se considerará el requisito del proyecto de contar con al menos el 40 % de los endpoints implementados. Para medirlo, el equipo deberá mantener un inventario de las operaciones HTTP requeridas por la aplicación y contrastarlo con las operaciones implementadas y verificadas en el backend. El porcentaje definitivo se actualizará cuando se revise la versión correspondiente del backend.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+La distribución de responsabilidades del Sprint 3 se organiza de acuerdo con los Bounded Contexts del proyecto. Cada líder coordinará el desarrollo y la integración de su aspecto, mientras que los colaboradores brindarán apoyo en las actividades que involucren dependencias entre módulos.
+
+| Team Member (Last Name, First Name) | GitHub Username | Identity & Access Management | Field Management | Flight Operations | Weather Integration | Analytics & Reporting | Inventory & Resource Management |
+|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | L |  | L |  | C | C |
+| Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez |  | L | C |  |  |  |
+| Damacen Galindo, Italo Gianfranco | ItaloDMc |  |  | C | L |  | C |
+| Sayago Vidal, Sebastián Leonardo | SSayag0V | C |  | C |  | L |  |
+| Nicho Huillcañahui, Edwin Noe | Edwindeploy21 |  |  | C |  |  | L |
+
+**Leyenda:**
+- **L (Leader):** integrante responsable de liderar y coordinar el trabajo del aspecto asignado.
+- **C (Collaborator):** integrante que participa como colaborador en el desarrollo o integración del aspecto.
+
+La distribución principal del trabajo considera que Gabriel lidera Flight Operations y brinda apoyo en Inventory e IAM; Alexander lidera Field Management y colabora en Flight Operations; Italo lidera Weather Integration mediante la integración del servicio meteorológico externo; Sebastián lidera Analytics & Reporting tanto en frontend como en backend; y Edwin lidera Inventory & Resource Management. Las actividades que involucren recursos compartidos entre Flight Operations e Inventory deberán coordinarse entre Gabriel y Edwin para evitar duplicidad de implementaciones.
+
+#### 5.2.3.3. Sprint Backlog 3
+
+En esta sección se registra el trabajo planificado para el Sprint 3. Las tareas se han organizado considerando las funcionalidades presentes en la Web Application, las necesidades de integración con el backend y los entregables establecidos para esta etapa del proyecto.
+
+**Link del tablero de trabajo:** Por completar.
+
+| ID | User Story | Tarea | Responsable | Estado |
+|:---|:---|:---|:---|:---|
+| MI-001 | Como operador técnico, quiero registrar una misión de fumigación para planificar una operación sobre una parcela. | Implementar el endpoint para registrar misiones mediante una solicitud POST. | Gabriel Ramírez | To Do |
+| MI-001 | Como operador técnico, quiero consultar las misiones registradas para revisar las operaciones planificadas. | Implementar los endpoints GET para listar misiones y consultar una misión por identificador. | Gabriel Ramírez | To Do |
+| MI-001 | Como operador técnico, quiero modificar o eliminar una misión para mantener actualizada la planificación. | Implementar los endpoints PUT y DELETE para gestionar misiones existentes. | Gabriel Ramírez | To Do |
+| MI-002 | Como operador técnico, quiero consultar y registrar los resultados de una misión para conservar la información de la operación realizada. | Implementar los endpoints de consulta y registro de resultados de misión. | Gabriel Ramírez | To Do |
+| MI-003 | Como operador técnico, quiero conocer el estado de una misión para realizar seguimiento de su ejecución. | Implementar los endpoints para consultar y actualizar los estados operativos. | Gabriel Ramírez | To Do |
+| MI-004 | Como operador técnico, quiero registrar incidencias durante una operación para mantener un historial de eventos relevantes. | Implementar los endpoints para consultar, registrar, actualizar y eliminar incidencias de Flight Operations. | Gabriel Ramírez | To Do |
+| MI-005 | Como operador técnico, quiero asociar una misión con los recursos necesarios para organizar la operación. | Validar e integrar las referencias entre misiones, parcelas, drones y recursos utilizados. | Gabriel Ramírez | To Do |
+| FM-001 | Como usuario, quiero gestionar las fincas agrícolas para mantener organizada la información de las unidades de producción. | Revisar y completar las operaciones de gestión de fincas requeridas por el frontend. | Alexander Vásquez | To Do |
+| FM-002 | Como usuario, quiero gestionar las parcelas para delimitar las áreas de trabajo agrícola. | Revisar y completar las operaciones de gestión de parcelas y sus datos geográficos. | Alexander Vásquez | To Do |
+| FM-003 | Como usuario, quiero gestionar las zonas de fumigación para delimitar las áreas específicas de aplicación. | Revisar y completar las operaciones de gestión de zonas de fumigación. | Alexander Vásquez | To Do |
+| FM-004 | Como usuario, quiero consultar los cultivos registrados para asociarlos con las parcelas correspondientes. | Verificar la integración de consulta de cultivos con la Web Application. | Alexander Vásquez | To Do |
+| IRM-001 | Como administrador, quiero registrar y gestionar drones para mantener actualizado el inventario de equipos disponibles. | Implementar los endpoints de consulta, registro, actualización y eliminación de drones. | Edwin Nicho | To Do |
+| IRM-002 | Como administrador, quiero gestionar agroquímicos para mantener actualizado el inventario de productos utilizados. | Implementar y validar las operaciones de consulta, registro, actualización y eliminación de agroquímicos. | Edwin Nicho | To Do |
+| IRM-003 | Como administrador, quiero gestionar boquillas para mantener actualizado el inventario de componentes de fumigación. | Implementar las operaciones de consulta, registro y actualización de boquillas. | Edwin Nicho | To Do |
+| IRM-004 | Como administrador, quiero registrar mantenimientos para llevar el control del estado de los drones. | Implementar los endpoints de consulta, registro, actualización y eliminación de registros de mantenimiento. | Edwin Nicho | To Do |
+| IRM-005 | Como administrador, quiero registrar incidencias relacionadas con drones para conservar información sobre eventos que afecten los equipos. | Implementar los endpoints para consultar, registrar, actualizar y eliminar incidencias de drones. | Edwin Nicho | To Do |
+| RP-001 | Como usuario, quiero generar y consultar reportes de misión para revisar la información de los servicios realizados. | Completar y validar la integración de los endpoints de reportes con la Web Application. | Sebastián Sayago | To Do |
+| RP-002 | Como usuario, quiero consultar métricas operativas para evaluar el comportamiento de las operaciones. | Implementar los endpoints requeridos para consultar y gestionar métricas operativas. | Sebastián Sayago | To Do |
+| RP-003 | Como usuario, quiero consultar el historial de misiones para revisar operaciones anteriores. | Validar la integración del historial con la información generada por Flight Operations. | Sebastián Sayago | To Do |
+| RP-004 | Como usuario, quiero consultar indicadores de rendimiento para evaluar los resultados de las operaciones. | Completar la integración de los indicadores de rendimiento con los datos disponibles en el backend. | Sebastián Sayago | To Do |
+| WI-001 | Como usuario, quiero consultar las condiciones meteorológicas para considerar el clima durante la planificación de una misión. | Mantener y validar la integración con la API externa Open-Meteo y el servicio de geolocalización utilizado por la aplicación. | Italo Damacen | To Do |
+| TU-001 | Como equipo de desarrollo, queremos documentar los servicios para facilitar su consulta e integración. | Actualizar la documentación de los endpoints implementados mediante Swagger/OpenAPI. | Gabriel Ramírez | To Do |
+| TU-002 | Como equipo de desarrollo, queremos disponer de una versión desplegada del backend para validar su consumo desde la aplicación. | Configurar y desplegar la primera versión de los Web Services. | Gabriel Ramírez | To Do |
+| TU-003 | Como usuario, quiero utilizar la Web Application conectada a los servicios del proyecto para trabajar con información integrada. | Actualizar la configuración del frontend y sustituir progresivamente los servicios simulados por los servicios backend disponibles. | Sebastián Sayago | To Do |
+| TU-004 | Como visitante, quiero visualizar información actualizada del producto para conocer la propuesta de valor de AgriDron Solutions. | Actualizar la Landing Page y validar su navegación y presentación. | Italo Damacen | To Do |
+| TU-005 | Como audiencia del proyecto, quiero conocer el producto y sus funcionalidades principales mediante un video de presentación. | Elaborar la primera versión del video About the Product. | Alexander Vásquez | To Do |
+| TU-006 | Como audiencia del proyecto, quiero conocer a los integrantes y sus responsabilidades mediante un video de presentación del equipo. | Elaborar la primera versión del video About the Team. | Edwin Nicho | To Do |
+| TU-007 | Como equipo de desarrollo, queremos verificar la integración de los módulos para detectar errores antes de la revisión del sprint. | Ejecutar pruebas de integración de los principales flujos de la plataforma y registrar los resultados. | Todos | To Do |
+
+Los estados del backlog se actualizarán conforme avance el sprint. Las tareas relacionadas con endpoints se considerarán completadas cuando su implementación esté disponible en el backend y se haya verificado su comportamiento mediante solicitudes HTTP o pruebas de integración. La existencia de una interfaz o de un cliente API en el frontend no se considerará evidencia suficiente de que el servicio backend está implementado.
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se trabajará en la evolución de los componentes principales de AgriDron Solutions, priorizando la integración entre la Web Application y los servicios RESTful. Las actividades de desarrollo estarán orientadas a los siguientes aspectos:
+
+- **Flight Operations:** implementación de los servicios para gestionar misiones, resultados, incidencias y estados operativos, permitiendo registrar y consultar las operaciones de fumigación.
+- **Field Management:** revisión y ampliación de los servicios de gestión de fincas, parcelas, cultivos y zonas de fumigación.
+- **Inventory & Resource Management:** implementación de los servicios para gestionar drones, agroquímicos, boquillas, registros de mantenimiento e incidencias relacionadas con los drones.
+- **Analytics & Reporting:** integración de reportes, historiales, métricas operativas e indicadores de rendimiento con la información generada por las operaciones.
+- **Weather Integration:** mantenimiento de la integración con Open-Meteo y los servicios externos utilizados para obtener información meteorológica y geográfica.
+- **Web Application:** actualización de la integración con los servicios backend y mejora de las interfaces correspondientes a los módulos implementados.
+- **Landing Page:** actualización de los componentes informativos y de presentación del producto.
+
+Las evidencias de desarrollo se incorporarán mediante capturas del código fuente, controladores REST, servicios de aplicación, pruebas, commits y pull requests realizados en los repositorios correspondientes.
+
+![Evidencia de desarrollo del Sprint 3](assets/chapter5/sprint_3_development.png)
+
+*Figura: Evidencia del desarrollo de los componentes de AgriDron Solutions durante el Sprint 3.*
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se realizarán pruebas de ejecución para verificar la comunicación entre la Web Application y los servicios backend. Se priorizarán los flujos relacionados con la creación y consulta de misiones, la actualización de sus estados y el registro de resultados.
+
+Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e información analítica, comprobando que las solicitudes HTTP reciban las respuestas esperadas y que las funcionalidades integradas puedan utilizar los servicios correspondientes.
+
+Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
+
+
+![Link al repositorio del backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint_3_execution.png)
+
+*Figura: Evidencia de ejecución y validación de los principales flujos funcionales de AgriDron Solutions.*
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se documentarán los servicios RESTful de AgriDron Solutions mediante OpenAPI/Swagger, considerando los endpoints implementados y aquellos relacionados con el alcance funcional del sprint.
+
+La documentación permitirá identificar las operaciones disponibles para cada recurso, especificando sus métodos HTTP, rutas de acceso, parámetros requeridos, estructuras de solicitud y respuestas generadas. Se dará prioridad a los servicios correspondientes a Flight Operations, especialmente a la gestión de misiones, sus estados operativos y resultados, debido a su importancia dentro del flujo principal de la plataforma.
+
+
+
+##### Endpoint Documentation
+
+La siguiente tabla presenta los endpoints documentados mediante OpenAPI, indicando las operaciones HTTP soportadas, sus rutas y el enlace de acceso a la documentación interactiva.
+
+| Bounded Context | Resource | HTTP Method | Endpoint | Parameters / Request Body | Response Description | Documentation |
+|:---|:---|:---|:---|:---|:---|:---|
+| Flight Operations | Missions | GET | `/api/v1/missions` | Query parameters: por especificar | Retorna la lista de misiones registradas. | Por completar |
+| Flight Operations | Missions | GET | `/api/v1/missions/{id}` | Path: `id` | Retorna los detalles de una misión específica. | Por completar |
+| Flight Operations | Missions | POST | `/api/v1/missions` | JSON body: por especificar | Registra una nueva misión. | Por completar |
+| Flight Operations | Missions | PUT | `/api/v1/missions/{id}` | Path: `id`; JSON body: por especificar | Actualiza la información de una misión. | Por completar |
+| Flight Operations | Missions | DELETE | `/api/v1/missions/{id}` | Path: `id` | Elimina una misión registrada. | Por completar |
+| Flight Operations | Mission Results | GET | `/api/v1/mission-results` | Query parameters: por especificar | Retorna los resultados de las misiones. | Por completar |
+| Flight Operations | Mission Results | POST | `/api/v1/mission-results` | JSON body: por especificar | Registra el resultado de una misión. | Por completar |
+| Flight Operations | Operation Status | GET | `/api/v1/operation-status` | Query parameters: por especificar | Retorna los estados operativos disponibles. | Por completar |
+| Analytics & Reporting | Mission Reports | GET | `/api/v1/mission-reports` | Query parameters: por especificar | Retorna los reportes de misión registrados. | Por completar |
+| Analytics & Reporting | Mission Histories | GET | `/api/v1/mission-histories` | Query parameters: por especificar | Retorna el historial de misiones. | Por completar |
+| Analytics & Reporting | Performance Indicators | GET | `/api/v1/performance-indicators` | Query parameters: por especificar | Retorna los indicadores de rendimiento. | Por completar |
+| Field Management | Farms | GET | `/api/v1/farms` | Query parameters: por especificar | Retorna las fincas registradas. | Por completar |
+| Field Management | Parcels | GET | `/api/v1/parcels` | Query parameters: por especificar | Retorna las parcelas registradas. | Por completar |
+| Field Management | Crops | GET | `/api/v1/crops` | Query parameters: por especificar | Retorna los cultivos registrados. | Por completar |
+
+**Nota:** La tabla es una estructura inicial de documentación. Las rutas, parámetros, métodos HTTP y respuestas deberán contrastarse con los controladores y DTOs realmente implementados en el backend. No se considerará documentada una operación únicamente porque esté definida como cliente API en el frontend.
+
+##### API Documentation Evidence
+
+La documentación interactiva permitirá ejecutar solicitudes de prueba sobre los endpoints disponibles y observar sus respuestas.
+
+**1. Documentación general de los servicios**
+
+![Documentación general de Swagger](assets/chapter5/sprint_3_swagger_overview.png)
+
+*Figura: Vista general de la documentación OpenAPI/Swagger de los servicios RESTful de AgriDron Solutions.*
+
+**2. Documentación de Flight Operations**
+
+![Documentación de Flight Operations](assets/chapter5/sprint_3_swagger_flight_operations.png)
+
+*Figura: Operaciones documentadas para la gestión de misiones, estados operativos y resultados.*
+
+**3. Ejecución de solicitudes HTTP**
+
+![Ejecución de solicitudes HTTP](assets/chapter5/sprint_3_swagger_requests.png)
+
+*Figura: Ejecución de solicitudes de prueba mediante Swagger UI, mostrando los parámetros enviados y las respuestas obtenidas.*
+
+**4. Ejemplo de respuesta**
+
+![Ejemplo de respuesta de endpoint](assets/chapter5/sprint_3_swagger_response.png)
+
+*Figura: Ejemplo de respuesta JSON obtenida al consultar un recurso mediante un endpoint documentado.*
+
+##### Web Services Repository and Documentation Commits
+
+| Item | Detail |
+|:---|:---|
+| Web Services Repository | https://github.com/Opensource-UPC/Agridron-backend |
+| OpenAPI Documentation URL | Por completar |
+| Documentation Commit IDs | Por completar |
+| Documentation Branch | Por completar |
+| Documentation Date | Por completar |
+
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se preparará y publicará la primera versión desplegada de los Web Services de AgriDron Solutions. Para ello, se configurará el entorno de ejecución del backend y los parámetros necesarios para su funcionamiento en el entorno de despliegue.
+
+También se actualizará la configuración de la Web Application para que pueda consumir los servicios desplegados, reemplazando progresivamente las direcciones locales y los servicios simulados utilizados durante el desarrollo.
+
+Las evidencias incluirán la URL del backend desplegado, la disponibilidad de sus endpoints, las pruebas de conexión y la versión de la aplicación web integrada.
+
+
+![Evidencia del despliegue del Sprint 3](assets/chapter5/sprint_3_deployment.png)
+
+*Figura: Evidencia del despliegue de la primera versión de los Web Services y su integración con la aplicación.*
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo organizará sus actividades considerando las responsabilidades asignadas a cada Bounded Context. La coordinación se enfocará especialmente en la integración entre Flight Operations, Inventory & Resource Management y Analytics & Reporting, debido a que estos módulos comparten información necesaria para representar el ciclo de una operación de fumigación.
+
+Cada integrante será responsable de desarrollar y documentar los avances de su aspecto asignado, utilizando ramas de funcionalidad y pull requests para integrar los cambios en los repositorios correspondientes. Se mantendrá la coordinación entre los responsables de Flight Operations e Inventory para gestionar adecuadamente los recursos compartidos, evitando duplicidad de endpoints y responsabilidades.
+
+Asimismo, se dará seguimiento a las actividades mediante el tablero de trabajo del equipo, revisando el estado de las tareas, las dependencias entre módulos y los problemas encontrados durante la integración.
+
+La colaboración se evidenciará mediante el historial de commits, pull requests, revisiones de código y registros de contribución de los repositorios.
+
+![Evidencia de colaboración del equipo durante el Sprint 3](assets/chapter5/sprint_3_collaboration.png)
+
+*Figura: Evidencia de la colaboración y contribuciones de los integrantes durante el Sprint 3.*
+
 
 ## 5.3. Validation Interviews
 
