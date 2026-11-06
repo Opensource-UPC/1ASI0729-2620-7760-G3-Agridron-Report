@@ -4330,17 +4330,290 @@ La colaboración se evidenciará mediante el historial de commits, pull requests
 
 ## 5.3. Validation Interviews
 
+Las entrevistas de validación tienen como propósito evaluar la experiencia de los usuarios al interactuar con el Landing Page y la aplicación web de AgriDron Solutions. A través de estas sesiones se busca comprobar si la propuesta de valor es comprensible, si las funcionalidades resultan intuitivas y si la información presentada responde a las necesidades de los segmentos objetivo.
+
+A diferencia de las entrevistas de needfinding, estas entrevistas se enfocan en la interacción directa con la solución desarrollada. Los participantes realizarán actividades dentro de la plataforma y compartirán sus opiniones, dificultades y sugerencias de mejora.
+
 ### 5.3.1. Interview Design
 
-[DESCRIBIR EL DISEÑO DE LAS ENTREVISTAS DE VALIDACIÓN.]
+### Metodología de las entrevistas
+
+Se utilizará un enfoque de entrevista semiestructurada, combinando preguntas abiertas con actividades prácticas de interacción. Esto permitirá conocer las opiniones de los participantes y observar cómo utilizan la plataforma sin depender únicamente de sus respuestas.
+
+Cada entrevista se desarrollará siguiendo las siguientes etapas:
+
+1. **Introducción:** presentación del proyecto, explicación del objetivo de la entrevista y solicitud de autorización para registrar la sesión.
+2. **Evaluación del Landing Page:** el participante explorará la página de presentación para identificar la propuesta de valor, los servicios ofrecidos y la información disponible.
+3. **Evaluación de la aplicación web:** el participante realizará actividades relacionadas con las funcionalidades correspondientes a su segmento.
+4. **Retroalimentación:** se recopilarán opiniones sobre la experiencia general, facilidad de uso, dificultades encontradas y posibles mejoras.
+
+Durante las actividades se procurará que el participante interactúe de manera autónoma con la plataforma. El entrevistador observará las acciones realizadas, las dificultades presentadas y la necesidad de recibir indicaciones.
+
+Las entrevistas serán registradas mediante grabaciones y evidencias visuales, previa autorización de los participantes. Posteriormente, se documentarán los principales comentarios y hallazgos de cada sesión.
+
+### Preguntas para el Segmento 1: Pequeños y Medianos Agricultores (PyMAs)
+
+**A. Contexto del participante**
+
+1. ¿Podrías comentarme brevemente sobre tu actividad agrícola y las labores que realizas?
+2. ¿Cómo organizas actualmente la información de tus fincas, parcelas y cultivos?
+
+**B. Evaluación del Landing Page**
+
+3. Después de revisar la página, ¿podrías explicarme qué ofrece AgriDron Solutions?
+4. ¿Consideras que la información presentada explica claramente los beneficios de la plataforma?
+5. ¿Qué información te llamó más la atención o consideras que debería mejorarse?
+
+**C. Evaluación de la aplicación web**
+
+6. ¿Te resultó sencillo encontrar la sección para registrar o consultar tus fincas?
+7. ¿La información solicitada para registrar una finca o parcela te parece clara?
+8. ¿Consideras que la organización de las parcelas facilita su identificación y administración?
+9. ¿Te resultó comprensible la información relacionada con la planificación de una misión de fumigación?
+10. ¿Consideras útil consultar las condiciones meteorológicas antes de realizar una operación?
+11. ¿La información de los reportes te permitiría conocer mejor las actividades realizadas?
+
+**D. Retroalimentación general**
+
+12. ¿Qué parte de la plataforma te resultó más sencilla y cuál te generó mayor dificultad?
+13. ¿Hubo algún término, botón u opción que no comprendieras?
+14. ¿Consideras que esta plataforma facilitaría la organización de tus actividades agrícolas?
+15. Si pudieras cambiar o agregar una funcionalidad, ¿cuál sería?
+
+### Preguntas para el Segmento 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones
+
+**A. Contexto del participante**
+
+1. ¿Podrías comentarme brevemente sobre tu experiencia con drones y las actividades relacionadas con los servicios de fumigación agrícola?
+2. ¿Qué herramientas utilizas actualmente para organizar tus operaciones, coordinar servicios o registrar información?
+
+**B. Evaluación del Landing Page**
+
+3. Después de revisar la página, ¿podrías explicarme qué ofrece AgriDron Solutions?
+4. ¿Consideras que la propuesta de valor está relacionada con las necesidades de un operador técnico?
+5. ¿Qué información te llamó más la atención o consideras que debería mejorarse?
+
+**C. Evaluación de la aplicación web**
+
+6. ¿Te resultó sencillo encontrar la sección de gestión de drones?
+7. ¿La información presentada permite identificar las condiciones y características de los equipos?
+8. ¿Te resultó sencillo localizar la sección de agroquímicos y consultar los insumos disponibles?
+9. ¿La información de las misiones permite comprender qué operación se realizará y cuál es su estado?
+10. ¿Consideras útil tener información meteorológica dentro de la plataforma para revisar las condiciones antes de una operación?
+11. ¿Te resultó sencillo localizar los reportes o indicadores de las operaciones?
+12. ¿Qué información adicional necesitarías para gestionar o supervisar mejor tus servicios?
+
+**D. Retroalimentación general**
+
+13. ¿Qué parte de la plataforma te resultó más sencilla y cuál te generó mayor dificultad?
+14. ¿Hubo algún término, botón u opción que no comprendieras?
+15. ¿Consideras que la plataforma facilitaría la organización y el seguimiento de tus operaciones?
+16. Si pudieras cambiar o agregar una funcionalidad, ¿cuál sería?
+
+### Criterios de observación
+
+Además de las respuestas de los participantes, durante las entrevistas se considerarán los siguientes aspectos:
+
+| Criterio | Aspecto observado |
+|---|---|
+| Comprensión | Capacidad para identificar el propósito de la plataforma y comprender la información presentada. |
+| Facilidad de uso | Capacidad para completar las actividades propuestas. |
+| Navegación | Facilidad para localizar secciones, opciones y funcionalidades. |
+| Claridad | Comprensión de etiquetas, botones, formularios y estados. |
+| Utilidad | Percepción del valor de las funcionalidades para las actividades del segmento. |
+| Satisfacción | Opinión general sobre la experiencia de interacción. |
+
+Las actividades se ajustarán a las funcionalidades realmente disponibles en la versión evaluada. Cuando una funcionalidad no esté implementada o no permita completar una actividad, se registrará esta limitación sin atribuirla a un error del participante.
 
 ### 5.3.2. Interview Registry
 
-[REGISTRAR LAS ENTREVISTAS DE VALIDACIÓN.]
+En esta sección se documentarán individualmente las entrevistas realizadas a los participantes de ambos segmentos. Cada registro incluirá los datos del entrevistado, la evidencia de la sesión, un resumen de las actividades y los principales hallazgos.
+
+### Interview 1 – [Nombre del participante]
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | [Nombre del participante] |
+| Edad | [Edad] |
+| Distrito | [Distrito] |
+| Ocupación | [Ocupación] |
+| Segmento | [Segmento correspondiente] |
+| Fecha de entrevista | [DD/MM/AAAA] |
+| Duración | [Duración de la entrevista] |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [URL] |
+| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
+| Captura de la entrevista | [Insertar imagen] |
+
+**Resumen de la entrevista**
+
+[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+
+**Principales observaciones**
+
+- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
+- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
+- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
+- **Conclusión individual:** [Valoración general de la experiencia de validación].
+
+- ### Interview 2 – [Nombre del participante]
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | [Nombre del participante] |
+| Edad | [Edad] |
+| Distrito | [Distrito] |
+| Ocupación | [Ocupación] |
+| Segmento | [Segmento correspondiente] |
+| Fecha de entrevista | [DD/MM/AAAA] |
+| Duración | [Duración de la entrevista] |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [URL] |
+| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
+| Captura de la entrevista | [Insertar imagen] |
+
+**Resumen de la entrevista**
+
+[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+
+**Principales observaciones**
+
+- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
+- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
+- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
+- **Conclusión individual:** [Valoración general de la experiencia de validación].
+
+
+### Interview 3 – [Nombre del participante]
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | [Nombre del participante] |
+| Edad | [Edad] |
+| Distrito | [Distrito] |
+| Ocupación | [Ocupación] |
+| Segmento | [Segmento correspondiente] |
+| Fecha de entrevista | [DD/MM/AAAA] |
+| Duración | [Duración de la entrevista] |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [URL] |
+| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
+| Captura de la entrevista | [Insertar imagen] |
+
+**Resumen de la entrevista**
+
+[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+
+**Principales observaciones**
+
+- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
+- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
+- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
+- **Conclusión individual:** [Valoración general de la experiencia de validación].
+
+
+### Interview 4 – [Nombre del participante]
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | [Nombre del participante] |
+| Edad | [Edad] |
+| Distrito | [Distrito] |
+| Ocupación | [Ocupación] |
+| Segmento | [Segmento correspondiente] |
+| Fecha de entrevista | [DD/MM/AAAA] |
+| Duración | [Duración de la entrevista] |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [URL] |
+| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
+| Captura de la entrevista | [Insertar imagen] |
+
+**Resumen de la entrevista**
+
+[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+
+**Principales observaciones**
+
+- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
+- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
+- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
+- **Conclusión individual:** [Valoración general de la experiencia de validación].
+
+### Interview 5 – [Nombre del participante]
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | [Nombre del participante] |
+| Edad | [Edad] |
+| Distrito | [Distrito] |
+| Ocupación | [Ocupación] |
+| Segmento | [Segmento correspondiente] |
+| Fecha de entrevista | [DD/MM/AAAA] |
+| Duración | [Duración de la entrevista] |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [URL] |
+| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
+| Captura de la entrevista | [Insertar imagen] |
+
+**Resumen de la entrevista**
+
+[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+
+**Principales observaciones**
+
+- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
+- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
+- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
+- **Conclusión individual:** [Valoración general de la experiencia de validación].
 
 ### 5.3.3. Heuristic Evaluations
 
-[PEGAR AQUÍ LOS RESULTADOS DE LAS EVALUACIONES HEURÍSTICAS.]
+Las evaluaciones heurísticas complementarán las entrevistas de validación mediante la revisión de la interfaz del Landing Page y la aplicación web, considerando principios de usabilidad y organización de la información.
+
+Se prestará especial atención a los siguientes aspectos:
+
+| Heurística | Aspecto evaluado |
+|---|---|
+| Visibilidad del estado del sistema | La plataforma comunica adecuadamente las acciones realizadas y los estados de las operaciones. |
+| Correspondencia con el mundo real | Los términos y elementos utilizados son comprensibles para los usuarios de los segmentos objetivo. |
+| Control y libertad del usuario | El usuario puede navegar y corregir acciones cuando corresponda. |
+| Consistencia y estándares | Los botones, etiquetas y elementos de navegación mantienen un comportamiento uniforme. |
+| Prevención de errores | Los formularios y acciones ayudan a evitar errores durante la interacción. |
+| Reconocimiento antes que recuerdo | La información y las opciones necesarias están visibles y son fáciles de localizar. |
+| Diseño estético y minimalista | La interfaz presenta información relevante sin elementos innecesarios. |
+| Accesibilidad e inclusión | La información y los controles pueden ser comprendidos y utilizados por distintos perfiles de usuarios. |
+
+Los resultados de estas evaluaciones permitirán complementar los comentarios obtenidos durante las entrevistas e identificar oportunidades de mejora en la experiencia de usuario.
 
 ---
 
