@@ -1047,6 +1047,8 @@ Los criterios de aceptación siguen la estructura Gherkin (Dado que, cuando, ent
 
 Las Technical Stories TU-003 (geometría espacial), TU-004 (WebSocket) y TU-009 (Flyway) se retiraron del alcance por su complejidad y por no estar asignadas a ningún sprint. Sus identificadores no se reutilizan, para mantener la trazabilidad con versiones anteriores del backlog.
 
+Las User Stories AU-004 (recuperación de contraseña), AU-005 (edición de perfil), FM-006 (deshabilitación de parcela), FM-008 (asignación de operadores a fincas), MI-008 (exportación del plan de vuelo), TR-003 (alertas operativas en vuelo), CL-004 (medición climática manual) y DR-007 (deshabilitación de dron) también se retiraron del alcance, porque el producto no las implementa y no estaban asignadas a ningún sprint. Sus identificadores tampoco se reutilizan.
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
 | **EP01** | **Descubrimiento e Información Comercial (Landing Page)** | Definición general de la propuesta de valor y servicios públicos de la plataforma. | -- | -- |
@@ -1064,19 +1066,15 @@ Las Technical Stories TU-003 (geometría espacial), TU-004 (WebSocket) y TU-009 
 | AU-001 | Registro de usuario agricultor | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | **Escenario 1**<br>Dado que el usuario no posee cuenta en el sistema<br>Cuando ingresa sus datos personales y confirma el registro<br>Entonces el sistema valida los datos y genera el perfil con rol de agricultor.<br><br>**Escenario 2**<br>Dado que el usuario deja un dato obligatorio sin completar<br>Cuando intenta confirmar el registro<br>Entonces el sistema no crea la cuenta e indica el dato faltante. | EP02 |
 | AU-002 | Registro de operador técnico | Como operador técnico, quiero registrarme en el sistema, para recibir asignaciones de misiones de vuelo. | **Escenario 1**<br>Dado que un nuevo operador proporciona su identificación y credenciales técnicas<br>Cuando confirma su registro<br>Entonces el sistema genera la cuenta con rol de operador técnico.<br><br>**Escenario 2**<br>Dado que el operador deja un dato obligatorio sin completar<br>Cuando intenta completar el registro<br>Entonces el sistema no crea la cuenta e indica el dato faltante. | EP02 |
 | AU-003 | Inicio de sesión seguro | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | **Escenario 1**<br>Dado que el usuario ingresa su nombre de usuario y contraseña válidos<br>Cuando solicita la autenticación<br>Entonces el sistema valida la identidad y permite el acceso a las funciones correspondientes a su rol.<br><br>**Escenario 2**<br>Dado que el usuario ingresa un nombre de usuario o una contraseña incorrectos<br>Cuando solicita la autenticación<br>Entonces el sistema rechaza el acceso e indica que las credenciales no son válidas. | EP02 |
-| AU-004 | Recuperación de contraseña | Como usuario registrado, quiero restablecer mi contraseña mediante correo electrónico, para recuperar el acceso ante un olvido. | **Escenario 1**<br>Dado que el usuario solicita el restablecimiento de clave indicando su correo<br>Cuando el sistema confirma la existencia de la cuenta<br>Entonces el sistema envía un enlace seguro de recuperación con tiempo de expiración.<br><br>**Escenario 2**<br>Dado que el correo indicado no pertenece a ninguna cuenta<br>Cuando el usuario solicita el restablecimiento<br>Entonces el sistema no envía el enlace de recuperación. | EP02 |
-| AU-005 | Edición de perfil de usuario | Como usuario registrado, quiero actualizar mis datos de contacto y organización, para mantener la información al día. | **Escenario 1**<br>Dado que el usuario autenticado modifica sus datos de contacto<br>Cuando confirma la actualización<br>Entonces el sistema guarda los cambios y emite una notificación de éxito.<br><br>**Escenario 2**<br>Dado que el usuario deja vacío un dato obligatorio de su perfil<br>Cuando intenta guardar la actualización<br>Entonces el sistema conserva los datos anteriores e indica el dato faltante. | EP02 |
 | AU-006 | Selección de rol en el registro | Como usuario nuevo, quiero elegir mi rol al registrarme, para acceder a las funciones que me corresponden. | **Escenario 1**<br>Dado que el usuario nuevo ingresa sus datos de registro<br>Cuando selecciona su rol (agricultor u operador técnico) y confirma el registro<br>Entonces el sistema crea la cuenta con el rol seleccionado.<br><br>**Escenario 2**<br>Dado que el usuario nuevo no selecciona un rol<br>Cuando intenta completar el registro<br>Entonces el sistema no crea la cuenta e indica que el rol es obligatorio. | EP02 |
 | AU-007 | Cierre de sesión seguro | Como usuario autenticado, quiero finalizar la sesión de trabajo, para proteger la confidencialidad de mis datos. | **Escenario 1**<br>Dado que el usuario solicita el cierre de sesión<br>Cuando confirma la acción<br>Entonces el sistema invalida el token de acceso activo y finaliza la sesión.<br><br>**Escenario 2**<br>Dado que el usuario cerró su sesión<br>Cuando intenta acceder a una función privada de la Web Application<br>Entonces el sistema le solicita autenticarse nuevamente. | EP02 |
 | **EP03** | **Gestión Territorial de Fincas y Parcelas** | Catastro, delimitación geográfica y gestión de cultivos sobre mapas interactivos. | -- | -- |
 | FM-001 | Registro de finca agrícola | Como agricultor, quiero registrar las fincas de mi propiedad, para organizar geográficamente mis parcelas. | **Escenario 1**<br>Dado que el agricultor proporciona el nombre y la ubicación de su finca<br>Cuando confirma el registro<br>Entonces el sistema guarda la finca en la base de datos y la asocia a su perfil.<br><br>**Escenario 2**<br>Dado que el agricultor omite el nombre o la ubicación de la finca<br>Cuando intenta confirmar el registro<br>Entonces el sistema no guarda la finca e indica el dato faltante. | EP03 |
 | FM-002 | Delimitación geográfica de parcela | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | **Escenario 1**<br>Dado que el agricultor delimita los vértices de un terreno<br>Cuando confirma la geometría<br>Entonces el sistema calcula el área en hectáreas y registra el polígono.<br><br>**Escenario 2**<br>Dado que el agricultor no completa el trazado del polígono<br>Cuando intenta confirmar la parcela<br>Entonces el sistema no la registra e indica que falta la geometría. | EP03 |
 | FM-003 | Edición de contorno e información de parcela | Como agricultor, quiero modificar los límites y nombre de una parcela registrada, para actualizar cambios en la infraestructura del campo. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela existente<br>Cuando ajusta sus vértices o cambia sus datos descriptivos y guarda<br>Entonces el sistema actualiza la geometría y recalcula la superficie total.<br><br>**Escenario 2**<br>Dado que el agricultor modifica los datos de una parcela<br>Cuando cancela la edición sin guardar<br>Entonces el sistema conserva la geometría y los datos anteriores. | EP03 |
-| FM-004 | Asignación de tipo de cultivo y fenología | Como agricultor, quiero especificar el cultivo y la etapa fenológica de la parcela, para parametrizar las misiones de pulverización. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela registrada<br>Cuando especifica el tipo de cultivo y su estado de desarrollo<br>Entonces el sistema almacena las características agrícolas de la parcela.<br><br>**Escenario 2**<br>Dado que la parcela ya tiene un cultivo asignado<br>Cuando el agricultor especifica un cultivo distinto<br>Entonces el sistema reemplaza el cultivo anterior en las características de la parcela. | EP03 |
+| FM-004 | Asignación de tipo de cultivo | Como agricultor, quiero especificar el cultivo de la parcela, para parametrizar las misiones de pulverización. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela registrada<br>Cuando especifica el tipo de cultivo<br>Entonces el sistema almacena las características agrícolas de la parcela.<br><br>**Escenario 2**<br>Dado que la parcela ya tiene un cultivo asignado<br>Cuando el agricultor especifica un cultivo distinto<br>Entonces el sistema reemplaza el cultivo anterior en las características de la parcela. | EP03 |
 | FM-005 | Consulta y filtrado de parcelas | Como agricultor, quiero filtrar mis parcelas por tipo de cultivo o superficie, para ubicar rápidamente terrenos específicos. | **Escenario 1**<br>Dado que el agricultor consulta el inventario de terrenos<br>Cuando aplica un filtro por cultivo o superficie<br>Entonces el sistema presenta únicamente las parcelas que cumplen con el criterio seleccionado.<br><br>**Escenario 2**<br>Dado que ninguna parcela cumple con el criterio seleccionado<br>Cuando el agricultor aplica el filtro<br>Entonces el sistema indica que no hay parcelas que coincidan. | EP03 |
-| FM-006 | Deshabilitación de parcela agrícola | Como agricultor, quiero inactivar una parcela fuera de producción, para retirarla de la lista de terrenos operativos. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela sin misiones activas<br>Cuando solicita su desactivación<br>Entonces el sistema cambia el estado del terreno a inactivo sin eliminar el historial de misiones pasadas.<br><br>**Escenario 2**<br>Dado que la parcela tiene misiones activas<br>Cuando el agricultor solicita su desactivación<br>Entonces el sistema no cambia su estado e indica que existen misiones en curso. | EP03 |
 | FM-007 | Cambio de capas en mapa cartográfico | Como agricultor, quiero alternar entre vistas satelital, topográfica e híbrida, para analizar las características del terreno. | **Escenario 1**<br>Dado que el agricultor consulta el mapa de sus parcelas<br>Cuando elige una vista satelital, topográfica o híbrida<br>Entonces el sistema presenta el mapa con la vista elegida.<br><br>**Escenario 2**<br>Dado que el agricultor eligió una vista cartográfica<br>Cuando consulta otra parcela<br>Entonces el sistema mantiene la vista elegida. | EP03 |
-| FM-008 | Asignación de operadores técnicos a fincas | Como agricultor, quiero asociar operadores técnicos a fincas específicas, para delegar la gestión de misiones en dichos terrenos. | **Escenario 1**<br>Dado que el agricultor trabaja con operadores técnicos<br>Cuando asigna un operador técnico a una finca registrada<br>Entonces el sistema concede al operador permisos de lectura y programación sobre las parcelas vinculadas.<br><br>**Escenario 2**<br>Dado que un operador técnico no está asociado a una finca<br>Cuando intenta programar misiones en sus parcelas<br>Entonces el sistema no le permite la programación. | EP03 |
 | **EP04** | **Gestión de Flota y Equipos de Fumigación** | Control de inventario de drones, insumos agrícolas, boquillas y mantenimiento. | -- | -- |
 | DR-001 | Registro de nuevo dron en inventario | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable. | **Escenario 1**<br>Dado que el operador ingresa el modelo, número de serie, capacidad del tanque, nivel de batería y la boquilla inicial del equipo<br>Cuando confirma el registro<br>Entonces el sistema guarda el dron en el catálogo con estado disponible y con 0 horas de vuelo.<br><br>**Escenario 2**<br>Dado que el dron recién registrado aún no fue asignado a una misión<br>Cuando el operador consulta la flota<br>Entonces el sistema lo presenta con estado disponible. | EP04 |
 | DR-002 | Consulta del estado operativo de flota | Como operador técnico, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo. | **Escenario 1**<br>Dado que el operador técnico accede al inventario de equipos<br>Cuando consulta el catálogo<br>Entonces el sistema lista todos los drones indicando si están disponibles, en vuelo, en mantenimiento o fuera de servicio.<br><br>**Escenario 2**<br>Dado que el operador técnico consulta el detalle de un dron<br>Cuando lo selecciona<br>Entonces el sistema presenta su nivel de batería, su boquilla, la capacidad de su tanque, sus horas de vuelo y sus fechas de último y próximo mantenimiento. | EP04 |
@@ -1084,34 +1082,29 @@ Las Technical Stories TU-003 (geometría espacial), TU-004 (WebSocket) y TU-009 
 | DR-004 | Registro de tipos de boquillas de asperjar | Como operador técnico, quiero asociar tipos de boquillas a cada dron, para garantizar el tamaño de gota adecuado según el cultivo. | **Escenario 1**<br>Dado que el operador técnico registra una boquilla en el catálogo con su tipo y diámetro<br>Cuando repone su stock o actualiza el estado de sus unidades (buenas, desgastadas o dañadas)<br>Entonces el sistema actualiza el stock en bodega de ese tipo de boquilla.<br><br>**Escenario 2**<br>Dado que el operador cambia la boquilla instalada en un dron que no está en vuelo<br>Cuando elige la nueva boquilla e indica en qué estado devuelve la retirada<br>Entonces el sistema reemplaza la configuración técnica anterior del equipo, descuenta una unidad de la nueva y devuelve la retirada a bodega en el estado indicado.<br><br>**Escenario 3**<br>Dado que una boquilla no tiene unidades instalables o el dron está en vuelo<br>Cuando el operador intenta instalarla<br>Entonces el sistema no realiza el cambio. | EP04 |
 | DR-005 | Programación de mantenimiento preventivo | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas. | **Escenario 1**<br>Dado que un dron acumula horas de vuelo por las misiones que ejecuta<br>Cuando el operador registra un mantenimiento preventivo con su fecha, descripción, técnico y la fecha del próximo servicio<br>Entonces el sistema agrega el registro al historial técnico, actualiza las fechas de último y próximo mantenimiento y reinicia el contador de horas de vuelo a 0.<br><br>**Escenario 2**<br>Dado que el operador registró un mantenimiento preventivo<br>Cuando consulta el dron<br>Entonces el sistema presenta las fechas del último y del próximo mantenimiento.<br><br>**Escenario 3**<br>Dado que el operador registra un mantenimiento correctivo<br>Cuando confirma el registro<br>Entonces el sistema lo agrega al historial sin modificar las fechas de servicio ni las horas de vuelo del dron.<br><br>**Escenario 4**<br>Dado que el operador ingresa una fecha de mantenimiento futura<br>Cuando intenta registrarlo<br>Entonces el sistema no lo registra e indica el error. | EP04 |
 | DR-006 | Registro de fallas e incidentes de equipo | Como operador técnico, quiero reportar una falla mecánica en un dron, para restringir su uso en misiones hasta su reparación. | **Escenario 1**<br>Dado que un dron presenta un mal funcionamiento y no está fuera de servicio<br>Cuando el operador registra la falla con su descripción<br>Entonces el sistema crea un incidente pendiente de reparación, cambia el estado del equipo a fuera de servicio y lo excluye de las asignaciones de misiones.<br><br>**Escenario 2**<br>Dado que un dron está fuera de servicio por una falla<br>Cuando se intenta asignarlo a una misión<br>Entonces el sistema no permite la asignación hasta que se registre su reparación.<br><br>**Escenario 3**<br>Dado que un dron tiene un incidente pendiente de reparación<br>Cuando el operador registra la reparación con su fecha, lo que se reparó y el técnico<br>Entonces el sistema crea un mantenimiento correctivo en el historial, marca el incidente como reparado y devuelve el dron a disponible.<br><br>**Escenario 4**<br>Dado que un dron ya tiene un incidente pendiente de reparación<br>Cuando el operador intenta reportar otra falla<br>Entonces el sistema no lo permite. | EP04 |
-| DR-007 | Deshabilitación de dron de la flota | Como operador técnico, quiero dar de baja un dron retirado del servicio, para mantener el inventario actualizado. | **Escenario 1**<br>Dado que un equipo queda fuera de servicio permanente<br>Cuando el operador técnico solicita la baja del dron<br>Entonces el sistema inactiva el registro impidiendo asignaciones futuras.<br><br>**Escenario 2**<br>Dado que el dron está asignado a una misión activa<br>Cuando el operador técnico solicita su baja<br>Entonces el sistema no la realiza e indica que el dron tiene una misión en curso. | EP04 |
-| **EP05** | **Planificación y Programación de Misiones** | Flujo de solicitud, asignación de recursos y definición de parámetros de vuelo. | -- | -- |
 | MI-001 | Solicitud de misión de fumigación | Como agricultor, quiero solicitar una misión de fumigación indicando parcela y fecha estimada, para programar la atención de mi cultivo. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela activa<br>Cuando ingresa la fecha requerida y el producto a aplicar<br>Entonces el sistema crea la solicitud en estado Programada.<br><br>**Escenario 2**<br>Dado que el agricultor no indica la fecha requerida o el producto a aplicar<br>Cuando intenta crear la solicitud<br>Entonces el sistema no la registra e indica el dato faltante. | EP05 |
-| MI-002 | Asignación de dron e insumos a la misión | Como operador técnico, quiero asignar un dron y la cantidad de producto requerida a una misión, para preparar la logística operativa. | **Escenario 1**<br>Dado que existe una misión en estado Programada<br>Cuando el operador técnico selecciona un dron disponible y especifica el insumo<br>Entonces el sistema reserva los recursos y vincula la orden de trabajo.<br><br>**Escenario 2**<br>Dado que no hay drones disponibles<br>Cuando el operador técnico intenta asignar un dron a la misión<br>Entonces el sistema indica que no hay equipos disponibles y mantiene la misión en estado Programada. | EP05 |
+| MI-002 | Asignación de dron e insumos a la misión | Como operador técnico, quiero asignar un dron y la cantidad de producto requerida a una misión, para preparar la logística operativa. | **Escenario 1**<br>Dado que existe una misión en estado Programada<br>Cuando el operador técnico selecciona un dron, el insumo y la tasa de aplicación<br>Entonces el sistema registra el dron y el insumo en la misión.<br><br>**Escenario 2**<br>Dado que el operador técnico no selecciona un dron o un insumo<br>Cuando intenta avanzar al siguiente paso de la planificación<br>Entonces el sistema no avanza hasta completar la selección. | EP05 |
 | MI-003 | Asignación de operador técnico a la misión | Como operador técnico, quiero asignarme una misión solicitada, para hacerme responsable de su ejecución en campo. | **Escenario 1**<br>Dado que una misión cuenta con recursos asignados<br>Cuando el operador técnico se asigna como responsable<br>Entonces el sistema lo registra en la misión y notifica al agricultor.<br><br>**Escenario 2**<br>Dado que la misión ya tiene un operador técnico responsable<br>Cuando otro operador intenta asignarse<br>Entonces el sistema no realiza la asignación. | EP05 |
 | MI-004 | Configuración de parámetros de vuelo | Como operador técnico, quiero definir la altura de vuelo, velocidad y tasa de pulverización, para asegurar una cobertura homogénea. | **Escenario 1**<br>Dado que el operador accede al plan de vuelo de la misión<br>Cuando especifica la velocidad, altura de pulverización y traslape<br>Entonces el sistema guarda la configuración operativa para la ejecución.<br><br>**Escenario 2**<br>Dado que la misión ya tiene una configuración guardada<br>Cuando el operador modifica la velocidad, la altura o el traslape<br>Entonces el sistema reemplaza la configuración anterior. | EP05 |
 | MI-005 | Consulta de calendario de misiones | Como operador técnico, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores. | **Escenario 1**<br>Dado que el operador técnico consulta la programación de misiones<br>Cuando elige un periodo semanal o mensual<br>Entonces el sistema presenta las misiones programadas en ese periodo con sus estados.<br><br>**Escenario 2**<br>Dado que no hay misiones programadas en el periodo elegido<br>Cuando el operador técnico consulta la programación<br>Entonces el sistema indica que no hay misiones en ese periodo. | EP05 |
-| MI-006 | Reprogramación de misión | Como agricultor, quiero solicitar el cambio de fecha de una misión que aún no inicia, para ajustarme a eventualidades del fundo. | **Escenario 1**<br>Dado que una misión se encuentra en estado Programada o Autorizada<br>Cuando el agricultor solicita una nueva fecha<br>Entonces el sistema registra la nueva fecha y libera los recursos asignados.<br><br>**Escenario 2**<br>Dado que la misión ya se encuentra en estado En curso<br>Cuando el agricultor solicita una nueva fecha<br>Entonces el sistema no la reprograma e indica que la misión está en curso. | EP05 |
+| MI-006 | Reprogramación de misión | Como agricultor, quiero solicitar el cambio de fecha de una misión que aún no inicia, para ajustarme a eventualidades del fundo. | **Escenario 1**<br>Dado que una misión se encuentra en estado Programada o Autorizada<br>Cuando el agricultor edita la fecha y hora de la misión<br>Entonces el sistema registra la nueva fecha.<br><br>**Escenario 2**<br>Dado que la verificación del clima detecta una alerta alta antes de iniciar la misión<br>Cuando el usuario elige Reprogramar<br>Entonces el sistema abre la edición de la misión para elegir una nueva fecha. | EP05 |
 | MI-007 | Aprobación formal de misión | Como operador técnico, quiero aprobar definitivamente una misión Programada, para autorizar el inicio del despliegue en campo. | **Escenario 1**<br>Dado que los parámetros y recursos están validados<br>Cuando el operador técnico confirma la aprobación<br>Entonces el sistema cambia el estado de la misión a Autorizada.<br><br>**Escenario 2**<br>Dado que la misión no tiene dron u operador asignado<br>Cuando el operador técnico intenta aprobarla<br>Entonces el sistema no cambia su estado e indica los recursos faltantes. | EP05 |
-| MI-008 | Exportación de plan de vuelo | Como operador técnico, quiero descargar el plan de vuelo parametrizado de la misión, para tenerlo como referencia durante la operación en campo. | **Escenario 1**<br>Dado que la misión está aprobada y parametrizada<br>Cuando el operador solicita la exportación<br>Entonces el sistema genera un archivo con los parámetros de vuelo y la secuencia de puntos de la ruta.<br><br>**Escenario 2**<br>Dado que la misión aún no tiene parámetros de vuelo configurados<br>Cuando el operador solicita la exportación<br>Entonces el sistema no genera el archivo e indica que faltan los parámetros. | EP05 |
 | **EP06** | **Ejecución y Telemetría de Vuelo en Tiempo Real** | Monitoreo interactivo, alertas operativas y registro de bitácora técnica de vuelo. | -- | -- |
 | TR-001 | Visualización de posición de dron en tiempo real | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno. | **Escenario 1**<br>Dado que una misión se encuentra en estado En curso<br>Cuando el sistema recibe una nueva posición de la telemetría simulada del dron<br>Entonces el sistema actualiza la posición del dron y la trayectoria recorrida.<br><br>**Escenario 2**<br>Dado que la misión no está en estado En curso<br>Cuando el agricultor consulta el seguimiento del dron<br>Entonces el sistema indica que no hay un vuelo activo para esa misión. | EP06 |
-| TR-002 | Monitoreo de indicadores de vuelo | Como operador técnico, quiero supervisar el nivel de batería y volumen de tanque en tiempo real, para tomar decisiones operativas durante el vuelo. | **Escenario 1**<br>Dado que la telemetría simulada de la misión está activa<br>Cuando el sistema procesa una nueva lectura<br>Entonces el sistema presenta los porcentajes actualizados de batería y de carga fitosanitaria restante.<br><br>**Escenario 2**<br>Dado que la misión aún no se encuentra en estado En curso<br>Cuando el operador consulta los indicadores de vuelo<br>Entonces el sistema indica que no hay telemetría disponible. | EP06 |
-| TR-003 | Recepción de alertas operativas en vuelo | Como operador técnico, quiero recibir notificaciones inmediatas ante anomalías de altitud o batería baja, para prevenir accidentes en campo. | **Escenario 1**<br>Dado que la telemetría simulada registra un valor fuera de los umbrales seguros<br>Cuando el sistema detecta la discrepancia<br>Entonces el sistema genera una alerta inmediata para el operador técnico.<br><br>**Escenario 2**<br>Dado que los valores de la telemetría simulada se mantienen dentro de los umbrales seguros<br>Cuando el sistema procesa una nueva lectura<br>Entonces el sistema no genera alertas. | EP06 |
-| TR-004 | Pausa y reanudación de misión de emergencia | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo desde el último punto tratado. | **Escenario 1**<br>Dado que el operador suspende el vuelo en campo<br>Cuando registra la pausa en el sistema<br>Entonces el sistema cambia el estado de la misión a En pausa y guarda el punto geográfico exacto de parada para la posterior reanudación.<br><br>**Escenario 2**<br>Dado que la misión está en estado En pausa<br>Cuando el operador registra la reanudación<br>Entonces el sistema cambia su estado a En curso y retoma la misión desde el punto de parada guardado. | EP06 |
-| TR-005 | Registro de finalización de misión | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | **Escenario 1**<br>Dado que el dron concluye el recorrido total del polígono<br>Cuando el operador confirma la finalización<br>Entonces el sistema cambia el estado de la misión a Completada y calcula el tiempo total de aplicación.<br><br>**Escenario 2**<br>Dado que el dron no completó el recorrido total del polígono<br>Cuando el operador intenta marcar la misión como completada<br>Entonces el sistema no cambia su estado a Completada e indica el área pendiente. | EP06 |
-| TR-006 | Bitácora técnica de observaciones en campo | Como operador técnico, quiero adjuntar notas operativas al finalizar el vuelo, para documentar incidencias de viento o vegetación. | **Escenario 1**<br>Dado que la misión ha finalizado<br>Cuando el operador escribe las observaciones del servicio<br>Entonces el sistema guarda los comentarios vinculados al registro histórico del vuelo.<br><br>**Escenario 2**<br>Dado que el operador no registra observaciones<br>Cuando cierra la misión<br>Entonces el sistema guarda el registro histórico del vuelo sin comentarios adicionales. | EP06 |
+| TR-002 | Monitoreo de indicadores de vuelo | Como operador técnico, quiero supervisar el estado del dron y el avance de la misión, para tomar decisiones operativas durante el vuelo. | **Escenario 1**<br>Dado que la misión se encuentra en estado En curso<br>Cuando el operador consulta su detalle<br>Entonces el sistema presenta el dron, la batería, la altura y velocidad configuradas, el área de la parcela y el tiempo transcurrido.<br><br>**Escenario 2**<br>Dado que la misión aún no registra su operación<br>Cuando el operador consulta su detalle<br>Entonces el sistema no muestra la posición del dron. | EP06 |
+| TR-004 | Pausa y reanudación de misión de emergencia | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo después del imprevisto. | **Escenario 1**<br>Dado que el operador suspende el vuelo en campo<br>Cuando registra la pausa en el sistema<br>Entonces el sistema cambia el estado de la misión a En pausa y muestra el tiempo que lleva pausada.<br><br>**Escenario 2**<br>Dado que la misión está en estado En pausa<br>Cuando el operador registra la reanudación<br>Entonces el sistema cambia su estado a En curso y continúa el seguimiento de la misión. | EP06 |
+| TR-005 | Registro de finalización de misión | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | **Escenario 1**<br>Dado que el dron concluye el recorrido total del polígono<br>Cuando el operador confirma la finalización<br>Entonces el sistema cambia el estado de la misión a Completada y calcula el tiempo total de aplicación.<br><br>**Escenario 2**<br>Dado que la misión no está en estado En curso<br>Cuando el operador consulta la misión<br>Entonces el sistema no muestra la opción de finalizarla. | EP06 |
+| TR-006 | Registro de incidentes del vuelo | Como operador técnico, quiero registrar los incidentes ocurridos durante el vuelo, para que el resultado de la misión los documente. | **Escenario 1**<br>Dado que la misión está En curso<br>Cuando el operador registra un incidente con su tipo y descripción<br>Entonces el sistema lo guarda y lo incluye en el resultado al finalizar.<br><br>**Escenario 2**<br>Dado que no se registraron incidentes<br>Cuando el operador finaliza la misión<br>Entonces el sistema guarda el resultado sin incidentes. | EP06 |
 | **EP07** | **Integración Meteorológica y Alertas** | Evaluación de condiciones ambientales para asegurar la viabilidad de la pulverización. | -- | -- |
 | CL-001 | Consulta de condiciones climáticas actuales | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación. | **Escenario 1**<br>Dado que el agricultor selecciona una parcela<br>Cuando solicita la información meteorológica<br>Entonces el sistema consulta las condiciones meteorológicas de la ubicación de su finca y muestra las variables ambientales del momento.<br><br>**Escenario 2**<br>Dado que el servicio de clima no responde<br>Cuando el agricultor solicita la información meteorológica<br>Entonces el sistema indica que los datos no están disponibles en ese momento. | EP07 |
 | CL-002 | Alerta por exceso de velocidad de viento | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos. | **Escenario 1**<br>Dado que la velocidad del viento calculada supera los 15 km/h en la zona<br>Cuando el sistema evalúa las condiciones de la misión<br>Entonces el sistema emite una advertencia de riesgo alto de deriva.<br><br>**Escenario 2**<br>Dado que la velocidad del viento se mantiene en 15 km/h o menos<br>Cuando el sistema evalúa las condiciones de la misión<br>Entonces el sistema no emite la advertencia de deriva. | EP07 |
-| CL-003 | Identificación de ventana óptima de pulverización | Como operador técnico, quiero visualizar una recomendación del mejor horario para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | **Escenario 1**<br>Dado que el sistema analiza el pronóstico meteorológico para las siguientes 24 horas<br>Cuando identifica rangos con viento de 15 km/h o menos y temperatura menor a 28 °C<br>Entonces el sistema indica esos rangos horarios como óptimos.<br><br>**Escenario 2**<br>Dado que el pronóstico no presenta ningún rango que cumpla esas condiciones de viento y temperatura<br>Cuando el sistema analiza las siguientes 24 horas<br>Entonces el sistema indica que no hay un horario recomendado para fumigar. | EP07 |
-| CL-004 | Registro de medición climática manual | Como operador técnico, quiero ingresar mediciones de un anemómetro de campo, para validar la viabilidad cuando el servicio meteorológico no tenga cobertura local. | **Escenario 1**<br>Dado que el operador realiza una medición con instrumental de campo<br>Cuando ingresa los datos de velocidad de viento y temperatura en la plataforma<br>Entonces el sistema registra la medición local y valida la misión.<br><br>**Escenario 2**<br>Dado que la velocidad de viento medida supera el límite seguro de aplicación<br>Cuando el operador registra la medición<br>Entonces el sistema registra la medición y no valida la misión. | EP07 |
+| CL-003 | Indicación de condiciones favorables para pulverizar | Como operador técnico, quiero saber si las condiciones actuales son favorables para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | **Escenario 1**<br>Dado que el sistema obtiene las condiciones meteorológicas actuales<br>Cuando el viento es de 15 km/h o menos, la temperatura menor a 28 °C y no hay lluvia<br>Entonces el sistema muestra un mensaje de condiciones favorables.<br><br>**Escenario 2**<br>Dado que alguna de esas condiciones no se cumple<br>Cuando el sistema evalúa las condiciones actuales<br>Entonces el sistema no muestra el mensaje de condiciones favorables. | EP07 |
 | CL-005 | Configuración de umbrales meteorológicos por cultivo | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | **Escenario 1**<br>Dado que un cultivo requiere condiciones atmosféricas específicas<br>Cuando el operador técnico modifica los parámetros meteorológicos aceptables<br>Entonces el sistema actualiza las reglas de evaluación para ese tipo de cultivo.<br><br>**Escenario 2**<br>Dado que el operador técnico modificó los límites de un tipo de cultivo<br>Cuando el sistema evalúa una misión de otro cultivo<br>Entonces el sistema no aplica esos límites. | EP07 |
 | **EP08** | **Analítica, Informes y Métricas Operativas** | Tableros de control, reportes de desempeño fitosanitario y balances de insumos. | -- | -- |
-| RP-001 | Generación de informe de servicio fitosanitario | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | **Escenario 1**<br>Dado que una misión ha sido completada<br>Cuando el agricultor solicita el reporte de servicio<br>Entonces el sistema genera un resumen estructurado con fecha, mapa de cobertura, dosis e insumos utilizados.<br><br>**Escenario 2**<br>Dado que la misión aún no ha sido completada<br>Cuando el agricultor solicita el reporte de servicio<br>Entonces el sistema indica que el reporte estará disponible al finalizar la misión. | EP08 |
+| RP-001 | Generación de informe de servicio fitosanitario | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | **Escenario 1**<br>Dado que una misión ha sido completada<br>Cuando el agricultor solicita el reporte de servicio<br>Entonces el sistema genera un resumen estructurado con fecha, finca, parcela, área tratada, volumen aplicado y observaciones.<br><br>**Escenario 2**<br>Dado que la misión aún no ha sido completada<br>Cuando el agricultor solicita el reporte de servicio<br>Entonces el sistema indica que el reporte estará disponible al finalizar la misión. | EP08 |
 | RP-002 | Exportación de informes en formato PDF | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | **Escenario 1**<br>Dado que el resumen de la misión se encuentra generado<br>Cuando el agricultor solicita la descarga en formato PDF<br>Entonces el sistema compila la información y entrega el archivo listo para impresión.<br><br>**Escenario 2**<br>Dado que el resumen de la misión aún no se ha generado<br>Cuando el agricultor solicita la descarga<br>Entonces el sistema no entrega el archivo e indica que el reporte no está disponible. | EP08 |
-| RP-003 | Visualización de panel con métricas generales | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | **Escenario 1**<br>Dado que existen misiones registradas en el sistema<br>Cuando el operador técnico consulta las métricas generales<br>Entonces el sistema presenta las métricas consolidadas por periodo de tiempo.<br><br>**Escenario 2**<br>Dado que no existen misiones registradas en el periodo elegido<br>Cuando el operador técnico consulta las métricas generales<br>Entonces el sistema indica que no hay métricas para ese periodo. | EP08 |
-| RP-004 | Historial de misiones con filtros avanzados | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o parcela, para comparar intervenciones pasadas. | **Escenario 1**<br>Dado que el agricultor ingresa al historial de operaciones<br>Cuando define un rango de fechas y selecciona un predio<br>Entonces el sistema muestra la lista detallada de servicios ejecutados en ese lapso.<br><br>**Escenario 2**<br>Dado que no existen servicios ejecutados en el rango de fechas definido<br>Cuando el agricultor aplica la búsqueda<br>Entonces el sistema indica que no hay resultados para ese rango. | EP08 |
+| RP-003 | Visualización de panel con métricas generales | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | **Escenario 1**<br>Dado que existen misiones registradas en el sistema<br>Cuando el operador técnico consulta las métricas generales<br>Entonces el sistema presenta los indicadores de cada periodo registrado.<br><br>**Escenario 2**<br>Dado que no existen indicadores registrados<br>Cuando el operador consulta las métricas<br>Entonces el sistema indica que no hay indicadores disponibles. | EP08 |
+| RP-004 | Historial de misiones con filtro por finca y fechas | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o finca, para comparar intervenciones pasadas. | **Escenario 1**<br>Dado que el agricultor ingresa al historial de operaciones<br>Cuando define un rango de fechas y selecciona una finca<br>Entonces el sistema muestra la lista detallada de servicios ejecutados en ese lapso.<br><br>**Escenario 2**<br>Dado que no existen servicios ejecutados en el rango de fechas definido<br>Cuando el agricultor aplica la búsqueda<br>Entonces el sistema indica que no hay resultados para ese rango. | EP08 |
 | RP-005 | Balance de consumo de productos agroquímicos | Como operador técnico, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos. | **Escenario 1**<br>Dado que el operador técnico selecciona una finca específica<br>Cuando solicita el informe de insumos<br>Entonces el sistema calcula y presenta el volumen acumulado de cada producto pulverizado.<br><br>**Escenario 2**<br>Dado que la finca no tiene misiones completadas<br>Cuando el operador técnico solicita el informe de insumos<br>Entonces el sistema indica que no hay consumos registrados. | EP08 |
 | RP-006 | Comparativa de eficiencia operativa entre parcelas | Como operador técnico, quiero comparar el tiempo promedio de fumigación por hectárea entre distintas parcelas, para identificar oportunidades de mejora. | **Escenario 1**<br>Dado que el operador técnico selecciona dos o más parcelas<br>Cuando genera el análisis comparativo<br>Entonces el sistema presenta las tasas de avance e indicadores de rendimiento de cada terreno.<br><br>**Escenario 2**<br>Dado que el operador técnico selecciona una sola parcela<br>Cuando intenta generar el análisis comparativo<br>Entonces el sistema indica que debe seleccionar al menos dos parcelas. | EP08 |
 | **EP09** | **Arquitectura, Seguridad y Servicios Backend (Technical Stories)** | Tareas técnicas de desarrollo, infraestructura, API RESTful y persistencia. | -- | -- |
@@ -1180,7 +1173,7 @@ El Product Backlog reúne las User Stories y Technical Stories del 3.1, ordenada
 | 10 | LP-010 | Consulta de preguntas frecuentes | Como visitante, quiero revisar la sección de preguntas frecuentes, para resolver dudas sobre la tecnología de drones y normativas. | 1 |
 | 11 | FM-001 | Registro de finca agrícola | Como agricultor, quiero registrar las fincas de mi propiedad, para organizar geográficamente mis parcelas. | 5 |
 | 12 | FM-002 | Delimitación geográfica de parcela | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | 8 |
-| 13 | FM-004 | Asignación de tipo de cultivo y fenología | Como agricultor, quiero especificar el cultivo y la etapa fenológica de la parcela, para parametrizar las misiones de pulverización. | 2 |
+| 13 | FM-004 | Asignación de tipo de cultivo | Como agricultor, quiero especificar el cultivo de la parcela, para parametrizar las misiones de pulverización. | 2 |
 | 14 | FM-003 | Edición de contorno e información de parcela | Como agricultor, quiero modificar los límites y nombre de una parcela registrada, para actualizar cambios en la infraestructura del campo. | 3 |
 | 15 | TU-011 | Endpoints de fincas | Como Developer, quiero implementar los endpoints del recurso /api/v1/farms, para que la Web Application registre, consulte, actualice y elimine fincas. | 3 |
 | 16 | TU-012 | Endpoints de parcelas | Como Developer, quiero implementar los endpoints del recurso /api/v1/parcels, para que la Web Application registre, consulte, actualice y elimine parcelas. | 3 |
@@ -1198,49 +1191,49 @@ El Product Backlog reúne las User Stories y Technical Stories del 3.1, ordenada
 | 28 | MI-005 | Consulta de calendario de misiones | Como operador técnico, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores. | 3 |
 | 29 | MI-007 | Aprobación formal de misión | Como operador técnico, quiero aprobar definitivamente una misión Programada, para autorizar el inicio del despliegue en campo. | 2 |
 | 30 | TR-001 | Visualización de posición de dron en tiempo real | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno. | 8 |
-| 31 | TR-002 | Monitoreo de indicadores de vuelo | Como operador técnico, quiero supervisar el nivel de batería y volumen de tanque en tiempo real, para tomar decisiones operativas durante el vuelo. | 5 |
-| 32 | TR-003 | Recepción de alertas operativas en vuelo | Como operador técnico, quiero recibir notificaciones inmediatas ante anomalías de altitud o batería baja, para prevenir accidentes en campo. | 3 |
-| 33 | TR-004 | Pausa y reanudación de misión de emergencia | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo desde el último punto tratado. | 3 |
-| 34 | TR-005 | Registro de finalización de misión | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | 5 |
-| 35 | TR-006 | Bitácora técnica de observaciones en campo | Como operador técnico, quiero adjuntar notas operativas al finalizar el vuelo, para documentar incidencias de viento o vegetación. | 5 |
-| 36 | RP-001 | Generación de informe de servicio fitosanitario | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | 8 |
-| 37 | RP-004 | Historial de misiones con filtros avanzados | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o parcela, para comparar intervenciones pasadas. | 5 |
-| 38 | RP-003 | Visualización de panel con métricas generales | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | 3 |
-| 39 | RP-002 | Exportación de informes en formato PDF | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | 3 |
-| 40 | TU-016 | Endpoint de reportes de misión | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-reports, para que la Web Application muestre los reportes de misión. | 1 |
-| 41 | TU-017 | Endpoint de historial de misiones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-histories, para que la Web Application muestre el historial de misiones. | 1 |
-| 42 | TU-018 | Endpoint de métricas operativas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/operational-metrics, para que la Web Application muestre las métricas operativas de cada reporte. | 1 |
-| 43 | TU-019 | Endpoint de indicadores de desempeño | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/performance-indicators, para que la Web Application muestre los indicadores de desempeño. | 1 |
-| 44 | AU-001 | Registro de usuario agricultor | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | 3 |
-| 45 | AU-002 | Registro de operador técnico | Como operador técnico, quiero registrarme en el sistema, para recibir asignaciones de misiones de vuelo. | 2 |
-| 46 | AU-006 | Selección de rol en el registro | Como usuario nuevo, quiero elegir mi rol al registrarme, para acceder a las funciones que me corresponden. | 2 |
-| 47 | AU-003 | Inicio de sesión seguro | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | 3 |
-| 48 | AU-007 | Cierre de sesión seguro | Como usuario autenticado, quiero finalizar la sesión de trabajo, para proteger la confidencialidad de mis datos. | 1 |
-| 49 | TU-024 | Endpoints de usuarios | Como Developer, quiero implementar los endpoints del recurso /api/v1/users, para que la Web Application registre usuarios con su rol. | 2 |
-| 50 | TU-026 | Endpoint de inicio de sesión | Como Developer, quiero implementar el endpoint POST /api/v1/authentication/sign-in, para que los usuarios inicien sesión y obtengan un token JWT. | 5 |
-| 51 | TU-002 | Implementación de seguridad y autenticación JWT | Como Developer, quiero implementar la autenticación mediante JSON Web Tokens (JWT) en Spring Security, para asegurar que los endpoints de la API RESTful requieran un token válido. | 5 |
-| 52 | DR-002 | Consulta del estado operativo de flota | Como operador técnico, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo. | 2 |
-| 53 | DR-001 | Registro de nuevo dron en inventario | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable. | 3 |
-| 54 | DR-003 | Registro de agroquímicos e insumos | Como operador técnico, quiero registrar los productos agroquímicos autorizados, para controlar las dosis aplicadas en las misiones. | 5 |
-| 55 | DR-004 | Registro de tipos de boquillas de asperjar | Como operador técnico, quiero asociar tipos de boquillas a cada dron, para garantizar el tamaño de gota adecuado según el cultivo. | 2 |
-| 56 | DR-005 | Programación de mantenimiento preventivo | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas. | 3 |
-| 57 | DR-006 | Registro de fallas e incidentes de equipo | Como operador técnico, quiero reportar una falla mecánica en un dron, para restringir su uso en misiones hasta su reparación. | 2 |
-| 58 | DR-007 | Deshabilitación de dron de la flota | Como operador técnico, quiero dar de baja un dron retirado del servicio, para mantener el inventario actualizado. | 1 |
-| 59 | TU-020 | Endpoint de drones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/drones, para que la Web Application muestre la flota de drones. | 1 |
-| 60 | TU-021 | Endpoint de boquillas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/nozzles, para que la Web Application muestre las boquillas. | 1 |
-| 61 | TU-022 | Endpoint de agroquímicos | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/agrochemicals, para que la Web Application muestre los agroquímicos. | 1 |
-| 62 | TU-023 | Endpoint de registros de mantenimiento | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/maintenance-records, para que la Web Application muestre los mantenimientos de los drones. | 1 |
-| 63 | TU-027 | Endpoint de incidentes de drones | Como Developer, quiero implementar el endpoint del recurso /api/v1/drone-incidents, para que la Web Application registre las fallas de los drones y sus reparaciones. | 1 |
-| 64 | MI-006 | Reprogramación de misión | Como agricultor, quiero solicitar el cambio de fecha de una misión que aún no inicia, para ajustarme a eventualidades del fundo. | 3 |
-| 65 | MI-008 | Exportación de plan de vuelo | Como operador técnico, quiero descargar el plan de vuelo parametrizado de la misión, para tenerlo como referencia durante la operación en campo. | 3 |
-| 66 | CL-003 | Identificación de ventana óptima de pulverización | Como operador técnico, quiero visualizar una recomendación del mejor horario para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | 5 |
-| 67 | CL-004 | Registro de medición climática manual | Como operador técnico, quiero ingresar mediciones de un anemómetro de campo, para validar la viabilidad cuando el servicio meteorológico no tenga cobertura local. | 2 |
-| 68 | CL-005 | Configuración de umbrales meteorológicos por cultivo | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | 3 |
-| 69 | RP-005 | Balance de consumo de productos agroquímicos | Como operador técnico, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos. | 3 |
-| 70 | RP-006 | Comparativa de eficiencia operativa entre parcelas | Como operador técnico, quiero comparar el tiempo promedio de fumigación por hectárea entre distintas parcelas, para identificar oportunidades de mejora. | 5 |
-| 71 | FM-005 | Consulta y filtrado de parcelas | Como agricultor, quiero filtrar mis parcelas por tipo de cultivo o superficie, para ubicar rápidamente terrenos específicos. | 2 |
-| 72 | FM-006 | Deshabilitación de parcela agrícola | Como agricultor, quiero inactivar una parcela fuera de producción, para retirarla de la lista de terrenos operativos. | 2 |
-| 73 | FM-007 | Cambio de capas en mapa cartográfico | Como agricultor, quiero alternar entre vistas satelital, topográfica e híbrida, para analizar las características del terreno. | 3 |
+| 31 | TR-002 | Monitoreo de indicadores de vuelo | Como operador técnico, quiero supervisar el estado del dron y el avance de la misión, para tomar decisiones operativas durante el vuelo. | 5 |
+| 32 | TR-004 | Pausa y reanudación de misión de emergencia | Como operador técnico, quiero registrar la interrupción temporal de un vuelo por imprevisto, para reanudar el trabajo después del imprevisto. | 3 |
+| 33 | TR-005 | Registro de finalización de misión | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | 5 |
+| 34 | TR-006 | Registro de incidentes del vuelo | Como operador técnico, quiero registrar los incidentes ocurridos durante el vuelo, para que el resultado de la misión los documente. | 5 |
+| 35 | RP-001 | Generación de informe de servicio fitosanitario | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | 8 |
+| 36 | RP-004 | Historial de misiones con filtro por finca y fechas | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o finca, para comparar intervenciones pasadas. | 5 |
+| 37 | RP-003 | Visualización de panel con métricas generales | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | 3 |
+| 38 | RP-002 | Exportación de informes en formato PDF | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | 3 |
+| 39 | TU-016 | Endpoint de reportes de misión | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-reports, para que la Web Application muestre los reportes de misión. | 1 |
+| 40 | TU-017 | Endpoint de historial de misiones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/mission-histories, para que la Web Application muestre el historial de misiones. | 1 |
+| 41 | TU-018 | Endpoint de métricas operativas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/operational-metrics, para que la Web Application muestre las métricas operativas de cada reporte. | 1 |
+| 42 | TU-019 | Endpoint de indicadores de desempeño | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/performance-indicators, para que la Web Application muestre los indicadores de desempeño. | 1 |
+| 43 | AU-001 | Registro de usuario agricultor | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | 3 |
+| 44 | AU-002 | Registro de operador técnico | Como operador técnico, quiero registrarme en el sistema, para recibir asignaciones de misiones de vuelo. | 2 |
+| 45 | AU-006 | Selección de rol en el registro | Como usuario nuevo, quiero elegir mi rol al registrarme, para acceder a las funciones que me corresponden. | 2 |
+| 46 | AU-003 | Inicio de sesión seguro | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | 3 |
+| 47 | AU-007 | Cierre de sesión seguro | Como usuario autenticado, quiero finalizar la sesión de trabajo, para proteger la confidencialidad de mis datos. | 1 |
+| 48 | TU-024 | Endpoints de usuarios | Como Developer, quiero implementar los endpoints del recurso /api/v1/users, para que la Web Application registre usuarios con su rol. | 2 |
+| 49 | TU-026 | Endpoint de inicio de sesión | Como Developer, quiero implementar el endpoint POST /api/v1/authentication/sign-in, para que los usuarios inicien sesión y obtengan un token JWT. | 5 |
+| 50 | TU-002 | Implementación de seguridad y autenticación JWT | Como Developer, quiero implementar la autenticación mediante JSON Web Tokens (JWT) en Spring Security, para asegurar que los endpoints de la API RESTful requieran un token válido. | 5 |
+| 51 | DR-002 | Consulta del estado operativo de flota | Como operador técnico, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo. | 2 |
+| 52 | DR-001 | Registro de nuevo dron en inventario | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable. | 3 |
+| 53 | DR-003 | Registro de agroquímicos e insumos | Como operador técnico, quiero registrar los productos agroquímicos autorizados, para controlar las dosis aplicadas en las misiones. | 5 |
+| 54 | DR-004 | Registro de tipos de boquillas de asperjar | Como operador técnico, quiero asociar tipos de boquillas a cada dron, para garantizar el tamaño de gota adecuado según el cultivo. | 2 |
+| 55 | DR-005 | Programación de mantenimiento preventivo | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas. | 3 |
+| 56 | DR-006 | Registro de fallas e incidentes de equipo | Como operador técnico, quiero reportar una falla mecánica en un dron, para restringir su uso en misiones hasta su reparación. | 2 |
+| 57 | TU-020 | Endpoint de drones | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/drones, para que la Web Application muestre la flota de drones. | 1 |
+| 58 | TU-021 | Endpoint de boquillas | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/nozzles, para que la Web Application muestre las boquillas. | 1 |
+| 59 | TU-022 | Endpoint de agroquímicos | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/agrochemicals, para que la Web Application muestre los agroquímicos. | 1 |
+| 60 | TU-023 | Endpoint de registros de mantenimiento | Como Developer, quiero implementar el endpoint de consulta del recurso /api/v1/maintenance-records, para que la Web Application muestre los mantenimientos de los drones. | 1 |
+| 61 | TU-027 | Endpoint de incidentes de drones | Como Developer, quiero implementar el endpoint del recurso /api/v1/drone-incidents, para que la Web Application registre las fallas de los drones y sus reparaciones. | 1 |
+| 62 | MI-006 | Reprogramación de misión | Como agricultor, quiero solicitar el cambio de fecha de una misión que aún no inicia, para ajustarme a eventualidades del fundo. | 3 |
+| 63 | CL-003 | Indicación de condiciones favorables para pulverizar | Como operador técnico, quiero saber si las condiciones actuales son favorables para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | 5 |
+| 64 | CL-005 | Configuración de umbrales meteorológicos por cultivo | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | 3 |
+| 65 | RP-005 | Balance de consumo de productos agroquímicos | Como operador técnico, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos. | 3 |
+| 66 | RP-006 | Comparativa de eficiencia operativa entre parcelas | Como operador técnico, quiero comparar el tiempo promedio de fumigación por hectárea entre distintas parcelas, para identificar oportunidades de mejora. | 5 |
+| 67 | FM-005 | Consulta y filtrado de parcelas | Como agricultor, quiero filtrar mis parcelas por tipo de cultivo o superficie, para ubicar rápidamente terrenos específicos. | 2 |
+| 68 | FM-007 | Cambio de capas en mapa cartográfico | Como agricultor, quiero alternar entre vistas satelital, topográfica e híbrida, para analizar las características del terreno. | 3 |
+| 69 | TU-001 | Configuración de arquitectura limpia base | Como Developer, quiero estructurar la solución backend en Spring Boot siguiendo principios de arquitectura limpia, para garantizar la mantenibilidad y modularidad del software. | 5 |
+| 70 | TU-006 | Manejo global de excepciones e intercepción de errores | Como Developer, quiero implementar una clase controladora de excepciones globales, para retornar respuestas de error estandarizadas bajo el formato JSON Problem Details. | 2 |
+| 71 | TU-007 | Pipeline de integración continua con GitHub Actions | Como Developer, quiero configurar un flujo de integración continua en GitHub Actions, para automatizar la compilación y ejecución de pruebas unitarias en cada push. | 2 |
+| 72 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | Como Developer, quiero integrar la biblioteca Springdoc OpenAPI, para generar automáticamente la documentación interactiva de los endpoints RESTful. | 1 |
+| 73 | TU-010 | Configuración de CORS | Como Developer, quiero configurar la política CORS del RESTful API, para que la Web Application pueda consumir sus endpoints desde su propio origen. | 1 |
 | 74 | FM-008 | Asignación de operadores técnicos a fincas | Como agricultor, quiero asociar operadores técnicos a fincas específicas, para delegar la gestión de misiones en dichos terrenos. | 5 |
 | 75 | AU-004 | Recuperación de contraseña | Como usuario registrado, quiero restablecer mi contraseña mediante correo electrónico, para recuperar el acceso ante un olvido. | 3 |
 | 76 | AU-005 | Edición de perfil de usuario | Como usuario registrado, quiero actualizar mis datos de contacto y organización, para mantener la información al día. | 2 |
@@ -1434,7 +1427,7 @@ Se mantienen Roboto en la Web Application y Montserrat en la Landing Page. En la
 
 La arquitectura de información de AgriDron Solutions organiza el contenido para los dos segmentos del proyecto, Pequeños y Medianos Agricultores (PyMAs) y Operadores Técnicos de Drones, de modo que puedan localizar información y ejecutar tareas de forma rápida y consistente. Abarca la Landing Page, orientada a presentar el producto y conducir al visitante hacia una acción concreta, y la Web Application, orientada a la gestión de fincas, parcelas, cultivos, zonas de fumigación, drones, misiones y reportes.
 
-La sección describe la estructura actual de ambos productos y los elementos ya comprometidos en el Product Backlog que aún no están implementados: en la Landing Page, las secciones de planes (LP-003) y preguntas frecuentes (LP-010), los términos legales (LP-006), las páginas de inicio de sesión y de solicitud de demostración (LP-005 y LP-009) y el acceso al registro de la Web Application (LP-004), y en la Web Application, el módulo de Misiones con su calendario y el monitoreo de la misión en curso (MI y TR), los mapas de parcelas (FM-007) y los filtros adicionales de parcelas e historial (FM-005 y RP-004).
+La sección describe la estructura actual de ambos productos y los elementos ya comprometidos en el Product Backlog que aún no están implementados: en la Landing Page, las secciones de planes (LP-003) y preguntas frecuentes (LP-010), los términos legales (LP-006), las páginas de inicio de sesión y de solicitud de demostración (LP-005 y LP-009) y el acceso al registro de la Web Application (LP-004), y en la Web Application, la asignación del operador técnico a la misión (MI-003), el calendario de misiones (MI-005), la posición del dron en el mapa durante la misión (TR-001) y la configuración de umbrales meteorológicos por cultivo (CL-005).
 
 ### 4.2.1. Organization Systems
 
@@ -1607,7 +1600,7 @@ La Web Application no usa un buscador de texto. El usuario localiza la informaci
 | **Desde / Hasta**               | Reportes, pestañas Misiones y Uso de insumos | Limita los registros a un rango de fechas con los botones Filtrar y Limpiar.                        |
 | **Pestañas de Reportes**        | Reportes                                   | Separan los resultados en Misiones, Uso de insumos e Indicadores.                                    |
 | **Cultivo o superficie**        | Parcelas                                   | Muestra solo las parcelas que cumplen el criterio elegido (FM-005).                                  |
-| **Rango de fechas y parcela**   | Reportes, historial de misiones            | Muestra las misiones ejecutadas en una parcela durante un periodo (RP-004).                          |
+| **Rango de fechas y finca**     | Reportes, historial de misiones            | Muestra las misiones ejecutadas en una finca durante un periodo (RP-004).                            |                         |
 | **Periodo semanal o mensual**   | Misiones, calendario                       | Muestra las misiones programadas en el periodo elegido con sus estados (MI-005).                     |
 
 **Visualización de resultados**
@@ -1874,9 +1867,21 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 
 ## 4.5. Web Applications Prototyping
 
+Los prototipos de AgriDron Solutions simulan en Figma la interacción y la navegación de la Web Application en Desktop y en Mobile Web Browser, siguiendo los recorridos de los User Flow Diagrams (4.4.4). Las decisiones de interacción se basan en tres criterios.
+
+- **Navegación consistente:** el prototipo usa el sistema de navegación definido en la Information Architecture (4.2.5). En Desktop, el menú lateral queda siempre visible y resalta el módulo activo. En Mobile, el menú se oculta y se abre con el botón de menú, para dejar el ancho de la pantalla al contenido.
+- **Acciones visibles en su contexto:** cada listado muestra su botón de creación (por ejemplo, Nueva finca) y cada tarjeta sus acciones (Ver, Editar y Eliminar), para que el usuario actúe sin salir de la vista en la que está.
+- **Pasos guiados en las tareas largas:** la planificación de una misión se divide en un asistente de cuatro pasos (parcela, fecha y hora, insumos y resumen), que reduce los errores y muestra en qué paso está el usuario.
+
 <img src="assets/chapter4/VersionMobile.png" alt="VersionMobile" width="650"/>
 
+*Figura: Prototipo Mobile, vista Mis Fincas.* En Mobile el menú lateral se reemplaza por el botón de menú de la barra superior, y las fincas se muestran en una sola columna, con el botón Ver en cada tarjeta y el botón Nueva Finca arriba.
+
 <img src="assets/chapter4/VersionDesktop.png" alt="VersionDesktop" width="650"/>
+
+*Figura: Prototipo Desktop, Landing Page.* La barra de navegación enlaza las secciones de la página y el botón Solicitar Demo, y el Hero presenta los botones Empieza tu prueba gratis y Ver cómo funciona.
+
+**Enlace del Figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
 ---
 
@@ -1890,6 +1895,8 @@ El **Design-Level Event Storming** permite representar el flujo principal del do
 El flujo comienza cuando un agricultor solicita un servicio de fumigación y termina con el registro de los resultados y la generación de información histórica para consulta.
 
 <img src="assets/chapter4/flujo_dominio.png" alt="Flujo principal del dominio" width="650"/>
+
+*Figura: Flujo principal del dominio de AgriDron Solutions.* Recorre el flujo desde que el agricultor registra la parcela hasta que se genera el reporte. Incluye las dos políticas meteorológicas, que generan una alerta si las condiciones son desfavorables o autorizan la misión si son favorables, y el ciclo de monitoreo en el que se registran los incidentes hasta finalizar la operación.
 
 **Link de Lucidchart:** https://lucid.app/lucidchart/e8a59167-4148-4d11-ab49-19abe080e585/edit?view_items=J4zqxcoJNdUQq%2BczQQMJK5LES6g%3D&page=0_0&invitationId=inv_ac46e8d4-1e8b-4dcd-b431-e285187b3edc
 
@@ -1963,7 +1970,7 @@ El flujo comienza cuando un agricultor solicita un servicio de fumigación y ter
 
 La partición del dominio se realiza considerando las responsabilidades y conceptos principales de la solución, y se alinea con los seis Bounded Contexts identificados en el diagrama de EventStorming.
 
-## Bounded Context 1: Identity & Access Management
+##### Bounded Context 1: Identity & Access Management
 
 **Responsabilidad:** gestionar el registro de usuarios, la autenticación segura, el control de acceso y la administración de roles.
 
@@ -1973,7 +1980,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `UsuarioRegistrado`, `UsuarioAutenticado`, `RolAsignado`, `AccesoDenegado`, `SesionCerrada`.
 
-## Bounded Context 2: Field Management
+##### Bounded Context 2: Field Management
 
 **Responsabilidad:** administrar la información territorial, la delimitación de parcelas en mapa y la asociación de tipos de cultivo para planificar servicios.
 
@@ -1983,7 +1990,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `ParcelaRegistrada`, `AreaFumigacionDelimitada`, `InformacionCultivoRegistrada`.
 
-## Bounded Context 3: Flight Operations (Core Domain)
+##### Bounded Context 3: Flight Operations (Core Domain)
 
 **Responsabilidad:** dominio principal del negocio; gestiona la planificación, programación, seguimiento en tiempo real y registro de resultados de las misiones de fumigación.
 
@@ -1993,7 +2000,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `MisionCreada`, `MisionProgramada`, `OperacionIniciada`, `EstadoOperacionActualizado`, `IncidenteRegistrado`, `OperacionFinalizada`.
 
-## Bounded Context 4: Weather Integration
+##### Bounded Context 4: Weather Integration
 
 **Responsabilidad:** consultar servicios meteorológicos externos, evaluar las condiciones ambientales en campo y emitir alertas climáticas.
 
@@ -2003,7 +2010,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `CondicionesMeteorologicasObtenidas`, `CondicionesEvaluadas`, `AlertaMeteorologicaGenerada`.
 
-## Bounded Context 5: Analytics & Reporting
+##### Bounded Context 5: Analytics & Reporting
 
 **Responsabilidad:** procesar la información histórica de las operaciones, calcular indicadores de rendimiento y generar reportes fitosanitarios.
 
@@ -2013,7 +2020,7 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 **Eventos:** `ResultadoMisionRegistrado`, `HistorialActualizado`, `IndicadorCalculado`, `ReporteGenerado`.
 
-## Bounded Context 6: Inventory & Resource Management
+##### Bounded Context 6: Inventory & Resource Management
 
 **Responsabilidad:** controlar el inventario de la flota de drones, insumos agroquímicos y boquillas, y registrar el mantenimiento preventivo y correctivo y las fallas de los equipos.
 
@@ -2027,6 +2034,8 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 <img src="assets/chapter4/DDD-BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
 
+*Figura: Event Storming por Bounded Context.* Agrupa los eventos de dominio, comandos, actores, políticas y sistemas externos de los seis Bounded Contexts: Identity & Access Management, Field Management, Flight Operations (Core Domain), Weather Integration, Analytics & Reporting e Inventory & Resource Management.
+
 **link de mmiro:** https://miro.com/app/board/uXjVHl_E4nc=/?share_link_id=823387251080
 
 ### 4.6.2. Software Architecture Context Diagram
@@ -2036,6 +2045,7 @@ El **System Context Diagram de C4** representa el sistema como una única unidad
 <img src="assets/chapter4/SystemContext.png" alt="SystemContext" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
+*Figura: System Context Diagram de AgriDron Solutions.* El Agricultor / Cliente y el Operador Técnico usan la plataforma, y la plataforma consulta las condiciones meteorológicas en una API Meteorológica externa.
 
 
 ### Descripción
@@ -2058,6 +2068,8 @@ Los contenedores definidos son:
 <img src="assets/chapter4/Containers.png" alt="Containers" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
+*Figura: Container Diagram de AgriDron Solutions.* Muestra la Landing Page, el Frontend Angular, el Backend Spring Boot que expone la API REST, la base de datos relacional PostgreSQL y la API Meteorológica externa, con la tecnología de cada contenedor y el protocolo de cada relación.
+
 ### Descripción de los contenedores
 
 | Contenedor                   | Tecnología              | Responsabilidad                                                                                  |
@@ -2074,17 +2086,19 @@ Los contenedores definidos son:
 2. El usuario utiliza el **Frontend Angular** para gestionar o consultar información.
 3. El **Frontend Angular** consume el **Backend Spring Boot** mediante API REST.
 4. El **Backend Spring Boot** consulta y actualiza la **Base de Datos Relacional**.
-5. El **Backend Spring Boot** consulta la **API Meteorológica** cuando se requiere información climática.
+5. El **Weather Service** del **Frontend Angular** consulta directamente la **API Meteorológica** externa (Open-Meteo) cuando se requiere información climática.
 6. La información procesada se presenta mediante el **Frontend Angular**.
 
-## Trazabilidad entre dominio y arquitectura
+En la implementación actual, el **Weather Service** de la Web Application consulta directamente la **API Meteorológica** externa (Open-Meteo) y obtiene el nombre de la ubicación con BigDataCloud. La consulta a través del **Backend Spring Boot** que muestra el diagrama corresponde al diseño previsto para la RESTful API (TU-005 y TU-015).
+
+#### Trazabilidad entre dominio y arquitectura
 
 | Bounded Context                     | Responsabilidad                                                | Soporte arquitectónico      |
 |-------------------------------------|----------------------------------------------------------------|-----------------------------|
 | **Identity & Access Management**    | Usuarios, roles, registro e inicio de sesión                   | Frontend + Backend + BD     |
 | **Field Management**                | Campos, parcelas y zonas de fumigación                         | Frontend + Backend + BD     |
 | **Flight Operations**               | Misiones, operaciones e incidentes                             | Frontend + Backend + BD     |
-| **Weather Integration**             | Condiciones y alertas meteorológicas                           | Backend + API Meteorológica |
+| **Weather Integration**             | Condiciones y alertas meteorológicas                           | Frontend + API Meteorológica (Open-Meteo) |
 | **Analytics & Reporting**           | Historial, métricas y reportes                                 | Frontend + Backend + BD     |
 | **Inventory & Resource Management** | Drones, boquillas, agroquímicos, mantenimientos e incidentes    | Frontend + Backend + BD     |
 
@@ -2094,13 +2108,15 @@ La correspondencia permite mantener trazabilidad entre el análisis de dominio r
 Esta sección presenta el diseño interno de los principales componentes de software de **AgriDron Solutions**. Se mantiene la separación entre la aplicación web, los servicios REST y las integraciones externas, alineándolos con los Bounded Contexts definidos en la arquitectura.
 
 
-## 4.6.4.1. RESTful API
+#### 4.6.4.1. RESTful API
 
 La API RESTful implementada con Spring Boot concentra la lógica de aplicación y dominio. Se organiza en capas de presentación, aplicación, dominio e infraestructura.
 
 <div align="center">
 <img src="assets/chapter4/RestfulApi.png" alt="RestfulApi" width="600" style="max-width: 100%; height: auto;"/>
 </div>
+
+*Figura: Component Diagram de la RESTful API.* Organiza los componentes del backend en cuatro capas: los controllers de cada recurso en la capa de presentación, los services en la de aplicación, los modelos de cada Bounded Context en la de dominio, y los repositories y el Weather API Adapter en la de infraestructura, que se conectan con la base de datos y con la API Meteorológica.
 
 ### Responsabilidades
 
@@ -2113,7 +2129,7 @@ La API RESTful implementada con Spring Boot concentra la lógica de aplicación 
 
 Los componentes de Identity & Access Management atienden `/api/v1/users` (TU-024) y `/api/v1/authentication/sign-in` (TU-026). Los de Inventory & Resource Management atienden `/api/v1/drones` (TU-020), `/api/v1/nozzles` (TU-021), `/api/v1/agrochemicals` (TU-022), `/api/v1/maintenance-records` (TU-023) y `/api/v1/drone-incidents` (TU-027).
 
-## 4.6.4.2. Web Application
+#### 4.6.4.2. Web Application
 
 La aplicación web utiliza Angular para proporcionar las funcionalidades de operadores y clientes.
 
@@ -2122,6 +2138,8 @@ La aplicación web utiliza Angular para proporcionar las funcionalidades de oper
 <div align="center">
 <img src="assets/chapter4/WebApplication-IAM-Field.png" alt="WebApplication-IAM-Field" width="600" style="max-width: 100%; height: auto;"/>
 </div>
+
+*Figura: Component Diagram de la Web Application (iam, fieldManagement y Flight Operations).*
 
 El diagrama muestra los componentes de la **Web Application** (Angular / TypeScript) correspondientes a los módulos de Identity & Access Management, Field Management y Flight Operations. El módulo **iam** agrupa Sign In, Sign Up y User Profile, para iniciar sesión, registrar usuarios con su rol y consultar el perfil. El módulo **fieldManagement** agrupa Farms, Parcels, Crops y Fumigation Areas, para administrar fincas, parcelas, cultivos y zonas de fumigación. El módulo **Flight Operations** que incluye Mission Management.
 
@@ -2132,6 +2150,8 @@ El diagrama muestra los componentes de la **Web Application** (Angular / TypeScr
 <img src="assets/chapter4/WebApplication-Inventory.png" alt="Web-Inventory" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
+*Figura: Component Diagram de la Web Application (InventoryResourceManagement).*
+
 
 El diagrama muestra los componentes de la **Web Application** (Angular / TypeScript) del bounded context **Inventory & Resource Management**, en el módulo `InventoryResourceManagement`. **Drones** presenta la flota, el detalle y el formulario de cada dron. **Nozzles** gestiona el catálogo y el stock de boquillas, y el cambio de boquilla de un dron. **Agrochemicals** registra y consulta los agroquímicos. **Maintenance Records** muestra el historial y permite registrar mantenimientos. **Drone Incidents** permite reportar fallas y registrar sus reparaciones.
 
@@ -2141,9 +2161,13 @@ El diagrama muestra los componentes de la **Web Application** (Angular / TypeScr
 <img src="assets/chapter4/WebApplication-Weather-Analytics.png" alt="WebApplication-Weather-Analytics" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
+*Figura: Component Diagram de la Web Application (weather-integration y analyticsAndReporting).*
+
 El diagrama muestra los componentes de la **Web Application** (Angular / TypeScript) de los módulos de Weather Integration y Analytics & Reporting. En `weather-integration`, el **Weather Service** obtiene las condiciones y alertas meteorológicas, y el **Weather Widget**, del módulo `shared`, lo usa para mostrar el clima en la vista Inicio. En `analyticsAndReporting`, **Reports** presenta los reportes de misiones, **Mission History** el historial de misiones, **Performance Indicators** los indicadores de rendimiento y **Supply Usage** el uso de insumos.
 
-Todos los componentes se comunican con el **REST API Client**, ubicado en el módulo `shared`, que encapsula las llamadas HTTP y es el único punto de acceso hacia el contenedor **RESTful API** (Java / Spring Boot), mediante HTTPS / JSON. De esta forma, los componentes de pantalla no conocen los detalles de la comunicación con el Backend.
+Los componentes de `analyticsAndReporting` se comunican con el **REST API Client**, ubicado en el módulo `shared`, que encapsula las llamadas HTTP y es el único punto de acceso hacia el contenedor **RESTful API** (Java / Spring Boot), mediante HTTPS / JSON. De esta forma, los componentes de pantalla no conocen los detalles de la comunicación con el Backend.
+
+En la implementación actual, el **Weather Service** de la Web Application consulta directamente la **API Meteorológica** externa (Open-Meteo) y obtiene el nombre de la ubicación con BigDataCloud. La consulta a través del **Backend Spring Boot** que muestra el diagrama corresponde al diseño previsto para la RESTful API (TU-005 y TU-015).
 
 ### Responsabilidades
 
@@ -2155,7 +2179,7 @@ Todos los componentes se comunican con el **REST API Client**, ubicado en el mó
 - **InventoryResourceManagement (Inventory & Resource Management):** consultar la flota de drones, las boquillas, los agroquímicos, los registros de mantenimiento y los incidentes (fallas y reparaciones).
 - **shared:** centralizar el layout, la navegación, el Weather Widget y la clase base del REST API Client, que encapsula la comunicación con el Backend.
 
-## 4.6.4.3. Weather Integration Component
+#### 4.6.4.3. Weather Integration Component
 
 La integración meteorológica se mantiene aislada para evitar acoplar directamente la lógica de negocio con la API externa.
 
@@ -2164,6 +2188,8 @@ La integración meteorológica se mantiene aislada para evitar acoplar directame
 <div align="center">
 <img src="assets/chapter4/Api-Weather-IntegrationComponent.png" alt="Api-Weather-IntegrationComponent" width="600" style="max-width: 100%; height: auto;"/>
 </div>
+
+*Figura: Component Diagram de Weather Integration en la RESTful API.*
 
 El diagrama muestra cómo la **RESTful API** (Java / Spring Boot) aísla la integración con el servicio meteorológico externo. El **Weather Controller**, en la capa de presentación, recibe la solicitud y la delega al **Weather Service**, en la capa de aplicación. Este consulta al **Weather API Client**, en infraestructura, que consume la **API Meteorológica** externa mediante HTTPS / JSON. La respuesta pasa por el **Weather Response Mapper**, que la convierte al modelo del dominio, y luego al **Weather Condition Evaluator**, que evalúa si las condiciones son aptas para fumigar. Si no lo son, el **Weather Alert Generator** genera las alertas, que se devuelven al Weather Service.
 
@@ -3767,6 +3793,9 @@ En esta sección se registra y explica el avance en términos de producto y trab
 **Link del trello:** [https://trello.com/b/6s9LSWfR/agridron-sprint-1](https://trello.com/b/6s9LSWfR/agridron-sprint-1)
 
 <img src="assets/chapter5/sprint_1.png" alt="Sprint 1" width="650"/>
+*Figura: Sprint Backlog 1 de AgriDron Solutions en Trello.* El tablero organiza las tareas del Sprint 1 en las columnas To-Do, In-Process, To-Review y Done. Al momento de la captura, las 23 tareas del tablero se encuentran en Done.
+
+
 
 | Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
@@ -3923,6 +3952,12 @@ En esta sección se registra el trabajo planificado para el Sprint 2 a partir de
 
 **Link del trello:** [https://trello.com/b/UPXvwjZS/agridron-sprint-2](https://trello.com/b/UPXvwjZS/agridron-sprint-2)
 
+![Sprint Backlog 2 en Trello](assets/chapter5/sprint-2.png)
+
+*Figura: Sprint Backlog 2 de AgriDron Solutions en Trello.* El tablero organiza las 34 tareas del Sprint 2 en las columnas To-Do, In-Process, To-Review y Done. Al cierre del sprint hay 15 tareas en To-Do, 13 en In-Process y 6 en Done, igual que en la tabla de esta sección.
+
+*Figura: Sprint Backlog 2 de AgriDron Solutions en Trello.* El tablero organiza las 34 tareas del Sprint 2 en las columnas To-Do, In-Process, To-Review y Done. Al cierre del sprint hay 15 tareas en To-Do, 13 en In-Process y 6 en Done, igual que en la tabla de esta sección.
+
 | Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
 | Sprint 2 | AU-001 | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | T01 | Definir los datos e implementar el flujo de registro | Identificar los datos personales necesarios para registrar un usuario con rol de agricultor e implementar el flujo de registro y la validación de esos datos. | 6 | Gabriel Ramírez | Done |
@@ -3945,11 +3980,11 @@ En esta sección se registra el trabajo planificado para el Sprint 2 a partir de
 | Sprint 2 | MI-004 | Como operador técnico, quiero definir la altura de vuelo, velocidad y tasa de pulverización, para asegurar una cobertura homogénea. | T18 | Configurar parámetros operativos | Implementar la configuración de altura, velocidad y tasa de pulverización de la misión. | 4 | Alexander Vásquez | To-do |
 | Sprint 2 | MI-005 | Como operador técnico, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores. | T19 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | Done |
 | Sprint 2 | TR-001 | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno. | T20 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | To-do |
-| Sprint 2 | TR-002 | Como operador técnico, quiero supervisar el nivel de batería y volumen de tanque en tiempo real, para tomar decisiones operativas durante el vuelo. | T21 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | TR-002 | Como operador técnico, quiero supervisar el estado del dron y el avance de la misión, para tomar decisiones operativas durante el vuelo. | T21 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | To-do |
 | Sprint 2 | TR-005 | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | T22 | Registrar finalización de operación | Implementar el cambio de estado de la misión a Completada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
 | Sprint 2 | CL-001 | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación. | T23 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
 | Sprint 2 | CL-002 | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos. | T24 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
-| Sprint 2 | CL-003 | Como operador técnico, quiero visualizar una recomendación del mejor horario para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | T25 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | Done |
+| Sprint 2 | CL-003 | Como operador técnico, quiero saber si las condiciones actuales son favorables para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | T25 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | To-do |
 | Sprint 2 | CL-005 | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | T26 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
 | Sprint 2 | RP-001 | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | T27 | Consolidar resultados de misión | Integrar los datos obtenidos de una misión completada para generar un resumen de servicio. | 4 | Sebastián Sayago | Done |
 | Sprint 2 | RP-002 | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | T28 | Implementar exportación de reportes | Implementar la generación y exportación del informe de fumigación en formato PDF. | 4 | Sebastián Sayago | Done |
