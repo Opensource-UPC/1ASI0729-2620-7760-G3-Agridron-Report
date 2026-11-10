@@ -2269,7 +2269,7 @@ classDiagram
   MissionReport "0..*" ..> "1" Mission : missionId
   MissionHistory "0..1" ..> "1" Mission : missionId
   MissionResult "1" ..> "0..*" MissionReport : feeds
-  BaseApi "1" o-- "1..*" BaseApiEndpoint : composes
+  BaseApi "1 o"-- "1..*" BaseApiEndpoint : composes
 ```
 
 ### 4.7.1.2. Identity & Access Management
@@ -2663,7 +2663,7 @@ classDiagram
     +ngOnInit() void
     #navigateToHome() void
   }
-  BaseApi "1" o-- "1..*" BaseApiEndpoint : composes
+  BaseApi "1 o" -- "1..*" BaseApiEndpoint : composes
   BaseApiEndpoint "1" --> "1" BaseAssembler : uses
   BaseApiEndpoint "1" ..> "0..*" BaseEntity : returns
   BaseAssembler "1" ..> "0..*" BaseResource : converts
@@ -3720,14 +3720,14 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 
 ##### Landing Page
 
-La Landing Page (`AgiDron-LandingPage-7760-G3`, rama `main`) se publica en Firebase Hosting en [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app). El repositorio todavía no incluye los archivos `firebase.json` ni `.firebaserc`, por lo que la configuración de Firebase debe agregarse a `main` para que el despliegue se pueda repetir desde el repositorio. Los pasos son los siguientes:
+La Landing Page (`AgiDron-LandingPage-7760-G3`, rama `main`) se publica en Firebase Hosting en [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/). El repositorio todavía no incluye los archivos `firebase.json` ni `.firebaserc`, por lo que la configuración de Firebase debe agregarse a `main` para que el despliegue se pueda repetir desde el repositorio. Los pasos son los siguientes:
 
 1. Clonar el repositorio y cambiar a la rama `main`.
 2. Instalar las dependencias con `npm install`.
 3. Generar la versión de producción con `npm run build` (`ng build`). Como `angular.json` no define `outputPath`, el resultado queda en `dist/agridron-lp/browser`.
 4. Iniciar sesión en Firebase con `firebase login`.
 5. Publicar con `firebase deploy --only hosting`, con `firebase.json` apuntando a `dist/agridron-lp/browser` y `.firebaserc` al proyecto de la Landing Page.
-6. Verificar la versión publicada en [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app).
+6. Verificar la versión publicada en [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/).
 
 ##### Frontend Web Application
 
@@ -3738,7 +3738,7 @@ El repositorio del frontend (`Agridron-frontend`, rama `main`) incluye la config
 3. Generar la versión de producción con `npm run build` (`ng build`), que usa `environment.ts`.
 4. Iniciar sesión en Firebase con `firebase login`.
 5. Publicar con `firebase deploy --only hosting`.
-6. Verificar la versión publicada en [https://agridronwebapp.web.app](https://agridronwebapp.web.app).
+6. Verificar la versión publicada en [https://os-agridronfrontend.web.app/](https://os-agridronfrontend.web.app/).
 
 ##### Web Services
 
@@ -3882,13 +3882,34 @@ La primera entrega del sprint contempló la preparación de la infraestructura b
 La evidencia de despliegue inicial incluye la preparación del entorno de desarrollo, la estructura del código por módulos y la base para publicación de la landing page y los servicios web de la aplicación.
 
 
-<img src="assets/chapter5/deployment_seting.png" alt="Deployment Setting" width="650"/>
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l1.png)
 
-En esta imagen podemos apreciar la configuración inicial de despliegue, nos hubicamos en settings/pages.
+En esta imagen podemos apreciar la instalacion de FireBase
 
-<img src="assets/chapter5/deployment_seting2.png" alt="Deployment Setting github" width="650"/>
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l2.png)
 
-**Link del landing page:** https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/
+En esta imagen podemos observar la incicializacion del proyecto en FireBase
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l3.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l4.png)
+
+En esta imagen podemos observar el despliegue del landingPage de Agridron
+
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l5.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l6.png)
+
+En esta imagen podemos observar la web ya desplegada
+
+**Link del landing page:**
+
+[https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -4055,11 +4076,11 @@ La ejecución del Sprint 2 se realizó mediante coordinación entre los integran
 
 Durante el sprint se revisaron progresivamente las funcionalidades relacionadas con usuarios, fincas y parcelas, drones, condiciones meteorológicas y reportes de las operaciones.
 
-![Evidencia de ejecucion del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+![Evidencia de ejecucion del Sprint 2](assets/chapter5/sprint2/d8.png)
 
-**Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app)
+**Link de la plataforma:** [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
 
-**Link de la Landing Page (versión en Angular):** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+**Link de la Landing Page (versión en Angular):** [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
 ---
 
@@ -4118,11 +4139,39 @@ Durante el Sprint 2 se desplegó la primera versión de la Web Application en Fi
 2. Generar la versión de producción con `npm run build` (`ng build`). Esta versión usa `environment.ts`, que apunta al Fake API publicado en MockAPI. En el entorno de desarrollo Angular lo reemplaza por `environment.development.ts`, que apunta al json-server local.
 3. Iniciar sesión en Firebase con `firebase login`.
 4. Publicar con `firebase deploy --only hosting`, que sube el contenido de `dist/Agridron-frontend/browser` al proyecto `agridronwebapp`.
-5. Verificar la versión publicada en [https://agridronwebapp.web.app](https://agridronwebapp.web.app).
+5. Verificar la versión publicada en [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home).
 
-![Evidencia de despliegue del Sprint 2](assets/chapter5/deployment_sprint_2.png)
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d1.png)
 
+En esta imagen podemos observar el hosting en FireBase
 
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d2.png)
+
+En esta imagen podemos observar la instalacion de FireBase
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d3.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d4.png)
+
+En esta imagen podemos observar la configuracion inicial de FireBase
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d5.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d6.png)
+
+En esta imagen podemos observar el comando de despliegue
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d7.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d8.png)
+
+En esta imagen podemos observar la webapp desplegada en FireBase
 
 ---
 
@@ -4259,11 +4308,35 @@ Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e in
 Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
 
 
-![Link al repositorio del backend](https://github.com/Opensource-UPC/Agridron-backend)
+**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint_3_execution.png)
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
 
-*Figura: Evidencia de ejecución y validación de los principales flujos funcionales de AgriDron Solutions.*
+Figura: Evidencia de la creacion del proyecto en Render
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
+
+Figura: Evidencia de creacion de Agridron database
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
+
+Figura: Evidencia de creacion de un nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
+
+Figura: Evidencia de publicación del repositorio git en el nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
+
+Figura: Evidencia de configuración del nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
+
+Figura: Evidencia de despliegue del backend
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+
+Figura: Evidencia de despliegue del backend
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4345,7 +4418,7 @@ También se actualizará la configuración de la Web Application para que pueda 
 Las evidencias incluirán la URL del backend desplegado, la disponibilidad de sus endpoints, las pruebas de conexión y la versión de la aplicación web integrada.
 
 
-![Evidencia del despliegue del Sprint 3](assets/chapter5/sprint_3_deployment.png)
+![Evidencia del despliegue del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
 
 *Figura: Evidencia del despliegue de la primera versión de los Web Services y su integración con la aplicación.*
 
@@ -4746,7 +4819,7 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 
 **Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
-**Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app)
+**Link de la plataforma:** [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
 
 **Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
