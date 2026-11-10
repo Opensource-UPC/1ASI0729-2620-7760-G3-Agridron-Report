@@ -89,6 +89,8 @@
 | 2.2.0 | 18/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo II según el enunciado (Competidores, Entrevistas, Needfinding, Big Picture Event Storming y Ubiquitous Language), sustento estadístico de los Segmentos objetivo con citas enlazadas a sus fuentes, saltos de página al inicio de los Capítulos I y II y actualización de la tabla de contenido de ambos capítulos. |
 | 2.3.0 | 20/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo III según el enunciado: introducciones, User Stories con varios criterios de aceptación en formato Gherkin, Technical Stories para los recursos del RESTful API, explicación del Impact Mapping y Product Backlog rehecho con los IDs del 3.1, orden por valor de negocio y enlace de Trello. |
 | 2.4.0 | 04/11/2026 | Nicho Huillcañahui, Edwin Noe | Actualización de Inventory & Resource Management: User Stories DR-001 a DR-006, Technical Stories TU-020 a TU-022 y nueva TU-027, Ubiquitous Language, Bounded Context, arquitectura, arquitectura de información, restricciones de base de datos y estado de las tareas del Sprint 2. |
+| 2.5.0 | 08/11/2026 | Sayago Vidal, Sebastián Leonardo | Implementación del base del contenido del Sprint 3. Actualizacion de contenido de Sprint 1 y 2 |
+
 
 ## Project Report Collaboration Insights
 
