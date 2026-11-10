@@ -4244,40 +4244,44 @@ En esta sección se registra el trabajo planificado para el Sprint 3. Las tareas
 
 **Link del tablero de trabajo:** [https://trello.com/b/CjkRgi6w/agridron-sprint-3](https://trello.com/b/CjkRgi6w/agridron-sprint-3)
 
+![Sprint Backlog 3 en Trello](assets/chapter5/sprint-3.png)
+
 | **Sprint #** | **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 | ------------ | ------------ | --------------- | ----------- | -------------- | -------------------- | ---------------------- | --------------- | ---------- |
-| 3 | TU-025 | Endpoints de misiones | S3-T01 | Revisar modelo y contratos de misión | Revisar entidades, DTO, relaciones y reglas existentes; definir las operaciones que expondrá `/api/v1/missions` sin duplicar funcionalidades. | 3 | Gabriel Ramírez | To Do |
-| 3 | TU-025 | Endpoints de misiones | S3-T02 | Implementar consulta de misiones | Implementar GET para listar misiones y consultar una misión por identificador, con los filtros contemplados por el dominio. | 4 | Gabriel Ramírez | To Do |
+| 3 | TU-025 | Endpoints de misiones | S3-T01 | Revisar modelo y contratos de misión | Revisar entidades, DTO, relaciones y reglas existentes; definir las operaciones que expondrá `/api/v1/missions` sin duplicar funcionalidades. | 3 | Gabriel Ramírez | In Process |
+| 3 | TU-025 | Endpoints de misiones | S3-T02 | Implementar consulta de misiones | Implementar GET para listar misiones y consultar una misión por identificador, con los filtros contemplados por el dominio. | 4 | Gabriel Ramírez | Done |
 | 3 | TU-025 | Endpoints de misiones | S3-T03 | Implementar creación y actualización de misiones | Implementar POST y PUT/PATCH para registrar una misión y actualizar sus datos permitidos, aplicando validaciones y reglas de negocio. | 5 | Gabriel Ramírez | To Do |
-| 3 | TU-025 | Endpoints de misiones | S3-T04 | Implementar cancelación de misiones | Implementar la operación para cancelar una misión, respetando las restricciones del ciclo de vida y conservando el historial necesario. | 3 | Gabriel Ramírez | To Do |
-| 3 | MI-002 | Asignación de dron e insumos a la misión | S3-T05 | Implementar asignación de recursos a misiones | Incorporar la lógica backend para asociar un dron y los insumos requeridos a una misión, validando disponibilidad y referencias existentes. | 5 | Edwin Nicho | To Do |
+| 3 | TU-025 | Endpoints de misiones | S3-T04 | Implementar cancelación de misiones | Implementar la operación para cancelar una misión, respetando las restricciones del ciclo de vida y conservando el historial necesario. | 3 | Gabriel Ramírez | In Process |
+| 3 | MI-002 | Asignación de dron e insumos a la misión | S3-T05 | Implementar asignación de recursos a misiones | Incorporar la lógica backend para asociar un dron y los insumos requeridos a una misión, validando disponibilidad y referencias existentes. | 5 | Edwin Nicho | In Process |
 | 3 | MI-003 | Asignación de operador técnico a la misión | S3-T06 | Implementar asignación de operador | Implementar la asignación de un operador técnico a una misión y validar rol y disponibilidad. | 3 | Gabriel Ramírez | To Do |
-| 3 | MI-004 | Configuración de parámetros de vuelo | S3-T07 | Implementar configuración de parámetros de vuelo | Incorporar persistencia y validación backend de altura, velocidad y tasa de pulverización asociados a una misión. | 4 | Gabriel Ramírez | To Do |
-| 3 | MI-005 | Consulta de calendario de misiones | S3-T08 | Implementar consulta de misiones por fechas | Implementar filtros backend por rango de fechas y, cuando corresponda, por operador o estado. | 3 | Gabriel Ramírez | To Do |
-| 3 | MI-007 | Aprobación formal de misión | S3-T09 | Implementar aprobación de misión | Implementar la operación para aprobar una misión programada, validando las condiciones necesarias para autorizarla. | 3 | Gabriel Ramírez | To Do |
-| 3 | TR-004 | Pausa y reanudación de misión de emergencia | S3-T10 | Implementar cambios de estado de misión | Implementar operaciones backend para registrar pausa y reanudación, controlando las transiciones válidas de estado. | 4 | Gabriel Ramírez | To Do |
-| 3 | TR-005 | Registro de finalización de misión | S3-T11 | Implementar finalización de misión | Implementar la operación que registra la finalización y actualiza el estado de la misión, conservando la información del historial. | 3 | Gabriel Ramírez | To Do |
-| 3 | TR-006 | Bitácora técnica de observaciones en campo | S3-T12 | Implementar registro de observaciones de misión | Implementar el registro y consulta de observaciones técnicas asociadas a una misión, con sus validaciones y relación con el operador. | 3 | Gabriel Ramírez | To Do |
-| 3 | TU-016 | Endpoint de reportes de misión | S3-T13 | Completar endpoints de reportes de misión | Revisar y completar las operaciones de `/api/v1/mission-reports` incluidas en el alcance, según el modelo backend existente. | 4 | Sebastián Sayago | To Do |
-| 3 | TU-017 | Endpoint de historial de misiones | S3-T14 | Completar endpoint de historial de misiones | Revisar y completar `/api/v1/mission-histories`, incorporando consultas de historial y filtros compatibles con los datos disponibles. | 3 | Sebastián Sayago | To Do |
-| 3 | TU-018 | Endpoint de métricas operativas | S3-T15 | Implementar consultas de métricas operativas | Completar `/api/v1/operational-metrics` para consultar métricas asociadas a reportes o misiones, de acuerdo con el modelo y cálculos definidos. | 3 | Sebastián Sayago | To Do |
-| 3 | TU-019 | Endpoint de indicadores de desempeño | S3-T16 | Completar endpoint de indicadores de desempeño | Completar `/api/v1/performance-indicators` para consultar y, cuando aplique, calcular los indicadores de desempeño definidos. | 3 | Sebastián Sayago | To Do |
-| 3 | TU-020 | Endpoint de drones | S3-T17 | Implementar endpoints backend de drones | Implementar las operaciones previstas para `/api/v1/drones`, incluyendo validación de datos y disponibilidad operativa. | 4 | Edwin Nicho | To Do |
-| 3 | TU-021 | Endpoint de boquillas | S3-T18 | Implementar endpoints backend de boquillas | Implementar las operaciones previstas para `/api/v1/nozzles`, validando datos y relaciones necesarias con los drones. | 3 | Edwin Nicho | To Do |
+| 3 | MI-004 | Configuración de parámetros de vuelo | S3-T07 | Implementar configuración de parámetros de vuelo | Incorporar persistencia y validación backend de altura, velocidad y tasa de pulverización asociados a una misión. | 4 | Gabriel Ramírez | Done |
+| 3 | MI-005 | Consulta de calendario de misiones | S3-T08 | Implementar consulta de misiones por fechas | Implementar filtros backend por rango de fechas y, cuando corresponda, por operador o estado. | 3 | Gabriel Ramírez | In Process |
+| 3 | MI-007 | Aprobación formal de misión | S3-T09 | Implementar aprobación de misión | Implementar la operación para aprobar una misión programada, validando las condiciones necesarias para autorizarla. | 3 | Gabriel Ramírez | Done |
+| 3 | TR-004 | Pausa y reanudación de misión de emergencia | S3-T10 | Implementar cambios de estado de misión | Implementar operaciones backend para registrar pausa y reanudación, controlando las transiciones válidas de estado. | 4 | Gabriel Ramírez | In Process |
+| 3 | TR-005 | Registro de finalización de misión | S3-T11 | Implementar finalización de misión | Implementar la operación que registra la finalización y actualiza el estado de la misión, conservando la información del historial. | 3 | Gabriel Ramírez | In Process |
+| 3 | TR-006 | Bitácora técnica de observaciones en campo | S3-T12 | Implementar registro de observaciones de misión | Implementar el registro y consulta de observaciones técnicas asociadas a una misión, con sus validaciones y relación con el operador. | 3 | Gabriel Ramírez | Done |
+| 3 | TU-016 | Endpoint de reportes de misión | S3-T13 | Completar endpoints de reportes de misión | Revisar y completar las operaciones de `/api/v1/mission-reports` incluidas en el alcance, según el modelo backend existente. | 4 | Sebastián Sayago | Done |
+| 3 | TU-017 | Endpoint de historial de misiones | S3-T14 | Completar endpoint de historial de misiones | Revisar y completar `/api/v1/mission-histories`, incorporando consultas de historial y filtros compatibles con los datos disponibles. | 3 | Sebastián Sayago | Done |
+| 3 | TU-018 | Endpoint de métricas operativas | S3-T15 | Implementar consultas de métricas operativas | Completar `/api/v1/operational-metrics` para consultar métricas asociadas a reportes o misiones, de acuerdo con el modelo y cálculos definidos. | 3 | Sebastián Sayago | Done |
+| 3 | TU-019 | Endpoint de indicadores de desempeño | S3-T16 | Completar endpoint de indicadores de desempeño | Completar `/api/v1/performance-indicators` para consultar y, cuando aplique, calcular los indicadores de desempeño definidos. | 3 | Sebastián Sayago | Done |
+| 3 | TU-020 | Endpoint de drones | S3-T17 | Implementar endpoints backend de drones | Implementar las operaciones previstas para `/api/v1/drones`, incluyendo validación de datos y disponibilidad operativa. | 4 | Edwin Nicho | Done |
+| 3 | TU-021 | Endpoint de boquillas | S3-T18 | Implementar endpoints backend de boquillas | Implementar las operaciones previstas para `/api/v1/nozzles`, validando datos y relaciones necesarias con los drones. | 3 | Edwin Nicho | Done |
 | 3 | TU-022 | Endpoint de agroquímicos | S3-T19 | Implementar endpoints backend de agroquímicos | Implementar las operaciones previstas para `/api/v1/agrochemicals`, validando los datos de productos y su disponibilidad para las misiones. | 3 | Edwin Nicho | To Do |
 | 3 | TU-023 | Endpoint de registros de mantenimiento | S3-T20 | Implementar endpoints de mantenimiento | Implementar las operaciones previstas para `/api/v1/maintenance-records`, permitiendo registrar y consultar mantenimientos asociados a drones. | 3 | Edwin Nicho | To Do |
-| 3 | TU-027 | Endpoint de incidentes de drones | S3-T21 | Implementar endpoints de incidentes de drones | Implementar `/api/v1/drone-incidents` para registrar y consultar fallas o incidentes, incluyendo relación con el dron y estado de atención. | 4 | Edwin Nicho | To Do |
-| 3 | DR-007 | Deshabilitación de dron de la flota | S3-T22 | Implementar deshabilitación de drones | Incorporar la operación backend para dar de baja o deshabilitar un dron e impedir nuevas asignaciones cuando no esté operativo. | 2 | Edwin Nicho | To Do |
+| 3 | TU-027 | Endpoint de incidentes de drones | S3-T21 | Implementar endpoints de incidentes de drones | Implementar `/api/v1/drone-incidents` para registrar y consultar fallas o incidentes, incluyendo relación con el dron y estado de atención. | 4 | Edwin Nicho | In Process |
+| 3 | DR-007 | Deshabilitación de dron de la flota | S3-T22 | Implementar deshabilitación de drones | Incorporar la operación backend para dar de baja o deshabilitar un dron e impedir nuevas asignaciones cuando no esté operativo. | 2 | Edwin Nicho | In Process |
 | 3 | TU-024 | Endpoints de usuarios | S3-T23 | Completar endpoints de usuarios | Revisar y completar `/api/v1/users` para registrar y consultar usuarios con su rol, aplicando validaciones y restricciones de acceso. | 3 | Gabriel Ramírez | To Do |
 | 3 | TU-026 | Endpoint de inicio de sesión | S3-T24 | Implementar endpoint de inicio de sesión | Implementar `POST /api/v1/authentication/sign-in`, validar credenciales y retornar el resultado de autenticación con el token correspondiente. | 4 | Gabriel Ramírez | To Do |
-| 3 | TU-002 | Implementación de seguridad y autenticación JWT | S3-T25 | Integrar autenticación JWT con Spring Security | Configurar validación de tokens JWT y proteger los endpoints que requieran autenticación, contemplando los roles definidos. | 5 | Gabriel Ramírez | To Do |
-| 3 | TU-006 | Manejo global de excepciones e intercepción de errores | S3-T26 | Estandarizar respuestas de error | Implementar o completar el manejo global de excepciones para devolver respuestas consistentes mediante JSON Problem Details. | 3 | Gabriel Ramírez | To Do |
-| 3 | TU-010 | Configuración de CORS | S3-T27 | Configurar política CORS del backend | Configurar orígenes, métodos y encabezados permitidos para el consumo autorizado de la API desde los clientes del proyecto. | 2 | Gabriel Ramírez | To Do |
+| 3 | TU-002 | Implementación de seguridad y autenticación JWT | S3-T25 | Integrar autenticación JWT con Spring Security | Configurar validación de tokens JWT y proteger los endpoints que requieran autenticación, contemplando los roles definidos. | 5 | Gabriel Ramírez | In Process |
+| 3 | TU-006 | Manejo global de excepciones e intercepción de errores | S3-T26 | Estandarizar respuestas de error | Implementar o completar el manejo global de excepciones para devolver respuestas consistentes mediante JSON Problem Details. | 3 | Gabriel Ramírez | In Process |
+| 3 | TU-010 | Configuración de CORS | S3-T27 | Configurar política CORS del backend | Configurar orígenes, métodos y encabezados permitidos para el consumo autorizado de la API desde los clientes del proyecto. | 2 | Gabriel Ramírez | In Process |
 | 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T28 | Completar documentación OpenAPI de endpoints | Documentar los endpoints implementados del Sprint mediante Springdoc OpenAPI, incluyendo verbos HTTP, rutas, parámetros, cuerpos, respuestas y códigos de estado. | 4 | Italo Damacen | To Do |
 | 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T29 | Verificar documentación interactiva con datos de muestra | Ejecutar solicitudes de prueba desde Swagger UI, comprobar ejemplos de request/response y corregir diferencias entre documentación y comportamiento real. | 3 | Italo Damacen | To Do |
-| 3 | TU-007 | Pipeline de integración continua con GitHub Actions | S3-T30 | Verificar pipeline de integración continua | Revisar y completar GitHub Actions para compilar el backend y ejecutar pruebas automatizadas ante cambios en el repositorio. | 3 | Italo Damacen | To Do |
-| 3 | TU-001 | Configuración de arquitectura limpia base | S3-T31 | Revisar consistencia de arquitectura backend | Revisar que casos de uso, servicios, repositorios y controladores respeten la organización y dependencias de la arquitectura limpia establecida. | 3 | Alexander Vásquez | To Do |
-| 3 | TU-005 | Integración de cliente de servicio meteorológico | S3-T32 | Revisar integración backend con servicio meteorológico | Verificar el cliente HTTP de clima y su manejo de respuestas y errores externos; realizar los ajustes backend necesarios para mantener el contrato de integración. | 3 | Italo Damacen | To Do |
+| 3 | TU-001 | Configuración de arquitectura limpia base | S3-T31 | Revisar consistencia de arquitectura backend | Revisar que casos de uso, servicios, repositorios y controladores respeten la organización y dependencias de la arquitectura limpia establecida. | 3 | Alexander Vásquez | Done |
+| 3 | TU-005 | Integración de cliente de servicio meteorológico | S3-T32 | Revisar integración backend con servicio meteorológico | Verificar el cliente HTTP de clima y su manejo de respuestas y errores externos; realizar los ajustes backend necesarios para mantener el contrato de integración. | 3 | Italo Damacen | Done |
+
+
+
 
 Los estados del backlog se actualizarán conforme avance el sprint. Las tareas relacionadas con endpoints se considerarán completadas cuando su implementación esté disponible en el backend y se haya verificado su comportamiento mediante solicitudes HTTP o pruebas de integración. La existencia de una interfaz o de un cliente API en el frontend no se considerará evidencia suficiente de que el servicio backend está implementado.
 
@@ -4352,20 +4356,46 @@ La siguiente tabla presenta los endpoints documentados mediante OpenAPI, indican
 
 | Bounded Context | Resource | HTTP Method | Endpoint | Parameters / Request Body | Response Description | Documentation |
 |:---|:---|:---|:---|:---|:---|:---|
-| Flight Operations | Missions | GET | `/api/v1/missions` | Query parameters: por especificar | Retorna la lista de misiones registradas. | Por completar |
-| Flight Operations | Missions | GET | `/api/v1/missions/{id}` | Path: `id` | Retorna los detalles de una misión específica. | Por completar |
-| Flight Operations | Missions | POST | `/api/v1/missions` | JSON body: por especificar | Registra una nueva misión. | Por completar |
+| Flight Operations | Missions | GET | `/api/v1/missions` | Query parameters: por especificar | Retorna la lista de misiones registradas. | Completada |
+| Flight Operations | Missions | GET | `/api/v1/missions/{id}` | Path: `id` | Retorna los detalles de una misión específica. | Completada |
+| Flight Operations | Missions | POST | `/api/v1/missions` | JSON body: por especificar | Registra una nueva misión. | Completada |
 | Flight Operations | Missions | PUT | `/api/v1/missions/{id}` | Path: `id`; JSON body: por especificar | Actualiza la información de una misión. | Por completar |
-| Flight Operations | Missions | DELETE | `/api/v1/missions/{id}` | Path: `id` | Elimina una misión registrada. | Por completar |
-| Flight Operations | Mission Results | GET | `/api/v1/mission-results` | Query parameters: por especificar | Retorna los resultados de las misiones. | Por completar |
-| Flight Operations | Mission Results | POST | `/api/v1/mission-results` | JSON body: por especificar | Registra el resultado de una misión. | Por completar |
-| Flight Operations | Operation Status | GET | `/api/v1/operation-status` | Query parameters: por especificar | Retorna los estados operativos disponibles. | Por completar |
-| Analytics & Reporting | Mission Reports | GET | `/api/v1/mission-reports` | Query parameters: por especificar | Retorna los reportes de misión registrados. | Por completar |
-| Analytics & Reporting | Mission Histories | GET | `/api/v1/mission-histories` | Query parameters: por especificar | Retorna el historial de misiones. | Por completar |
-| Analytics & Reporting | Performance Indicators | GET | `/api/v1/performance-indicators` | Query parameters: por especificar | Retorna los indicadores de rendimiento. | Por completar |
-| Field Management | Farms | GET | `/api/v1/farms` | Query parameters: por especificar | Retorna las fincas registradas. | Por completar |
-| Field Management | Parcels | GET | `/api/v1/parcels` | Query parameters: por especificar | Retorna las parcelas registradas. | Por completar |
-| Field Management | Crops | GET | `/api/v1/crops` | Query parameters: por especificar | Retorna los cultivos registrados. | Por completar |
+| Flight Operations | Missions | DELETE | `/api/v1/missions/{id}` | Path: `id` | Elimina una misión registrada. | Completada |
+| Flight Operations | Drones | GET | `/api/v1/drones` | Query parameters: por especificar | Retorna la lista de drones registrados. | Completada |
+| Flight Operations | Drones | POST | `/api/v1/drones` | JSON body: por especificar | Registra un nuevo dron en la flota. | Completada |
+| Flight Operations | Drones | GET | `/api/v1/drones/{droneId}` | Path: `droneId` | Retorna los detalles de un dron específico. | Completada |
+| Flight Operations | Nozzles | GET | `/api/v1/nozzles` | Query parameters: por especificar | Retorna la lista de boquillas registradas en el catálogo. | Completada |
+| Flight Operations | Nozzles | POST | `/api/v1/nozzles` | JSON body: por especificar | Registra un nuevo tipo de boquilla. | Completada |
+| Flight Operations | Nozzles | GET | `/api/v1/nozzles/{nozzleId}` | Path: `nozzleId` | Retorna los detalles de un tipo de boquilla específico. | Completada |
+| Flight Operations | Operation Status | GET | `/api/v1/status` | Sin parámetros documentados. | Retorna los estados disponibles del sistema y sus operaciones. | Completada |
+| Analytics & Reporting | Mission Reports | GET | `/api/v1/mission-reports` | Query parameters: filtros de búsqueda por especificar. | Retorna los reportes de misión registrados según los criterios de búsqueda. | Completada |
+| Analytics & Reporting | Mission Reports | POST | `/api/v1/mission-reports` | JSON body: por especificar | Genera un nuevo reporte de misión. | Completada |
+| Analytics & Reporting | Mission Reports | GET | `/api/v1/mission-reports/{reportId}` | Path: `reportId` | Retorna los detalles de un reporte de misión específico. | Completada |
+| Analytics & Reporting | Mission Reports | DELETE | `/api/v1/mission-reports/{reportId}` | Path: `reportId` | Elimina un reporte de misión registrado. | Completada |
+| Analytics & Reporting | Mission Reports | POST | `/api/v1/mission-reports/{reportId}/metrics` | Path: `reportId`; JSON body: por especificar | Añade una métrica operativa a un reporte de misión. | Completada |
+| Analytics & Reporting | Mission Histories | GET | `/api/v1/mission-histories` | Query parameters: filtros de búsqueda por especificar. | Retorna el historial de misiones según los criterios de búsqueda. | Completada |
+| Analytics & Reporting | Mission Histories | POST | `/api/v1/mission-histories` | JSON body: por especificar | Registra una misión finalizada en el historial. | Completada |
+| Analytics & Reporting | Mission Histories | GET | `/api/v1/mission-histories/{historyId}` | Path: `historyId` | Retorna un registro específico del historial de misiones. | Completada |
+| Analytics & Reporting | Performance Indicators | GET | `/api/v1/performance-indicators` | Query parameters: por especificar. | Retorna los indicadores de rendimiento de las operaciones. | Completada |
+| Analytics & Reporting | Performance Indicators | POST | `/api/v1/performance-indicators/calculations` | JSON body: período de cálculo por especificar. | Calcula los indicadores de rendimiento correspondientes a un período determinado. | Completada |
+| Field Management | Farms | GET | `/api/v1/farms` | Query parameters: filtros por propietario por especificar. | Retorna las fincas registradas según el propietario. | Completada |
+| Field Management | Farms | POST | `/api/v1/farms` | JSON body: por especificar | Registra una nueva finca. | Completada |
+| Field Management | Farms | GET | `/api/v1/farms/{farmId}` | Path: `farmId` | Retorna los detalles de una finca específica. | Completada |
+| Field Management | Farms | PUT | `/api/v1/farms/{farmId}` | Path: `farmId`; JSON body: por especificar | Actualiza la información de una finca. | Completada |
+| Field Management | Farms | POST | `/api/v1/farms/{farmId}/supervisors` | Path: `farmId`; JSON body: por especificar | Asigna un supervisor a una finca. | Completada |
+| Field Management | Farms | DELETE | `/api/v1/farms/{farmId}/supervisors/{supervisorId}` | Path: `farmId`, `supervisorId` | Elimina la asignación de un supervisor a una finca. | Completada |
+| Field Management | Parcels | GET | `/api/v1/parcels` | Query parameters: filtros de búsqueda por especificar. | Retorna las parcelas que coinciden con los criterios de búsqueda. | Completada |
+| Field Management | Parcels | POST | `/api/v1/parcels` | JSON body: por especificar | Registra una nueva parcela. | Completada |
+| Field Management | Parcels | GET | `/api/v1/parcels/{parcelId}` | Path: `parcelId` | Retorna los detalles de una parcela específica. | Completada |
+| Field Management | Parcels | PUT | `/api/v1/parcels/{parcelId}` | Path: `parcelId`; JSON body: por especificar | Actualiza la información de una parcela. | Completada |
+| Field Management | Parcels | PUT | `/api/v1/parcels/{parcelId}/geometry` | Path: `parcelId`; JSON body: nueva geometría por especificar. | Redefine los límites geográficos de una parcela. | Completada |
+| Field Management | Parcels | PATCH | `/api/v1/parcels/{parcelId}/status` | Path: `parcelId`; JSON body: nuevo estado por especificar. | Modifica el estado de una parcela. | Completada |
+| Field Management | Crops | GET | `/api/v1/crops` | Query parameters: por especificar. | Retorna la lista de cultivos disponibles en el catálogo. | Completada |
+| Field Management | Crops | GET | `/api/v1/crops/{cropId}` | Path: `cropId` | Retorna los detalles de un cultivo específico. | Completada |
+| Field Management | Fumigation Areas | GET | `/api/v1/fumigation-areas` | Query parameters: filtros por parcela por especificar. | Retorna las áreas de fumigación asociadas a una parcela. | Completada |
+| Field Management | Fumigation Areas | POST | `/api/v1/fumigation-areas` | JSON body: por especificar | Registra y delimita una nueva área de fumigación. | Completada |
+| Field Management | Fumigation Areas | GET | `/api/v1/fumigation-areas/{fumigationAreaId}` | Path: `fumigationAreaId` | Retorna los detalles de un área de fumigación específica. | Completada |
+| Field Management | Fumigation Areas | PUT | `/api/v1/fumigation-areas/{fumigationAreaId}` | Path: `fumigationAreaId`; JSON body: nueva delimitación por especificar. | Actualiza la delimitación geográfica de un área de fumigación. | Completada |
 
 **Nota:** La tabla es una estructura inicial de documentación. Las rutas, parámetros, métodos HTTP y respuestas deberán contrastarse con los controladores y DTOs realmente implementados en el backend. No se considerará documentada una operación únicamente porque esté definida como cliente API en el frontend.
 
@@ -4399,13 +4429,7 @@ La documentación interactiva permitirá ejecutar solicitudes de prueba sobre lo
 
 ##### Web Services Repository and Documentation Commits
 
-| Item | Detail |
-|:---|:---|
-| Web Services Repository | https://github.com/Opensource-UPC/Agridron-backend |
-| OpenAPI Documentation URL | Por completar |
-| Documentation Commit IDs | Por completar |
-| Documentation Branch | Por completar |
-| Documentation Date | Por completar |
+Link de repositorio del backend: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 
 
