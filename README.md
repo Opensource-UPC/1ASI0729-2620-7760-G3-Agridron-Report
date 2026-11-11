@@ -315,7 +315,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b><i>AV1</i></b><br>Expuse los Capítulos III y IV, explicando las User Stories, el Impact Mapping y los Mock-ups de la Landing Page y de la Web Application, con las pantallas como apoyo visual para que la audiencia relacionara cada requisito con su diseño.</p>
         <p><b><i>TB1</i></b><br>Expuse el Bounded Context Field Management, explicando cómo se registran fincas y parcelas, y escuché las observaciones del equipo sobre la integración de ramas antes de proponer una solución consensuada.</p>
         <p><b><i>AV2</i></b><br>En el video About the Team compartí ante cámara una reflexión sobre la dinámica del equipo durante el proyecto. Destaqué sus fortalezas, como la buena relación entre los integrantes y el cumplimiento de las responsabilidades asignadas, y señalé con franqueza los aspectos por mejorar: la comunicación por WhatsApp y la acumulación de pendientes cerca de cada entrega. Usé un lenguaje cercano y directo para que tanto el docente como los visitantes de la Landing Page conocieran cómo trabajamos como equipo. Mis tareas principales fueron documentar el despliegue del back y actualizar la nueva versión de la landing Page incluyendo nuevas secciónes como precios y sección de preguntas.</p>
-      </td>
+       </td>
       <td>
         <p><b><i>AV1</i></b><br>Como equipo, durante AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones de su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p>
         <p><b><i>TB1</i></b><br>En esta entrega cada integrante expuso el Bounded Context a su cargo con apoyo de diagramas, adaptando el lenguaje técnico para que la arquitectura fuera comprensible para el docente y el resto del equipo. A diferencia de AV1, el equipo ensayó la exposición en conjunto y usó las preguntas recibidas para comprobar que cada mensaje había llegado de forma clara, lo que fortaleció la coherencia de la presentación.</p>
@@ -345,7 +345,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b><i>AV1</i></b><br>Creé la organización en GitHub para el trabajo colaborativo del equipo y redacté la documentación de los Capítulos III y IV, organizando las User Stories y la descripción de los Mock-ups.</p>
         <p><b><i>TB1</i></b><br>Coordiné la integración de las ramas del proyecto y revisé el README completo antes de la entrega, verificando que la estructura y los enlaces fueran correctos.</p>
         <p><b><i>AV2</i></b><br>Creé el proyecto base del backend en Spring Boot, implementé el Bounded Context Shared y redacté el documento docs/backend-conventions.md con las pautas que el equipo debía seguir al construir cada Bounded Context. En Field Management documenté la paginación y el ordenamiento de su API, y revisé que los casos de uso, servicios, repositorios y controladores del backend respetaran la arquitectura establecida (S3-T31). Mantuve commits convencionales (feat, fix, docs, test, perf) para que el historial del repositorio comunicara con claridad cada cambio.</p>
-      </td>
+</td>
       <td>
         <p><b><i>AV1</i></b><br>Como equipo, durante AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar la propuesta de solución, así como los aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos.</p>
         <p><b><i>TB1</i></b><br>En esta entrega el equipo corrigió el informe a partir de la retroalimentación de AV1 y documentó los Bounded Contexts con nomenclatura en inglés, manteniendo la coherencia de términos entre el informe, los diagramas y el código. Cada sección se revisó en ortografía, formato y enlaces antes de integrarse mediante pull requests, lo que permitió validar la calidad del informe antes de su presentación.</p>
@@ -4337,9 +4337,13 @@ Las evidencias de ejecución incluirán capturas de la Web Application, solicitu
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se documentarán los servicios RESTful de AgriDron Solutions mediante OpenAPI/Swagger, considerando los endpoints implementados y aquellos relacionados con el alcance funcional del sprint.
+Durante el Sprint 3 se documentarán los servicios RESTful de AgriDron Solutions mediante OpenAPI/Swagger, considerando los endpoints implementados y 
+aquellos relacionados con el alcance funcional del sprint.
 
-La documentación permitirá identificar las operaciones disponibles para cada recurso, especificando sus métodos HTTP, rutas de acceso, parámetros requeridos, estructuras de solicitud y respuestas generadas. Se dará prioridad a los servicios correspondientes a Flight Operations, especialmente a la gestión de misiones, sus estados operativos y resultados, debido a su importancia dentro del flujo principal de la plataforma.
+La documentación permitirá identificar las operaciones disponibles para cada recurso, especificando sus métodos HTTP, 
+rutas de acceso, parámetros requeridos, estructuras de solicitud y respuestas generadas. Se dará prioridad a los servicios 
+correspondientes a Flight Operations, especialmente a la gestión de misiones, sus estados operativos y resultados, debido a su 
+importancia dentro del flujo principal de la plataforma.
 
 
 
