@@ -307,6 +307,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>Sayago Vidal, Sebastián Leonardo</b></p>
         <p><b><i>AV1</i></b><br>Presenté las decisiones técnicas de AgriDron Solutions, explicando la arquitectura de software, el diseño y la configuración del entorno de desarrollo mediante diagramas, y ajusté el nivel de detalle técnico según las preguntas recibidas.</p>
         <p><b><i>TB1</i></b><br>Expliqué el Bounded Context Analytics & Reporting, comunicando sus responsabilidades, operaciones, eventos y su relación con la arquitectura general. Utilicé los diagramas de diseño para facilitar la comprensión y confirmé con las preguntas del docente que el flujo de reportes había sido entendido.</p>
+          <p><b><i>AV2</i></b><br>Presenté los avances técnicos de AgriDron Solutions, explicando la arquitectura del backend, la organización de sus componentes bajo los principios de Domain-Driven Design y la integración de los servicios RESTful con la aplicación web.  Asimismo, adapté la explicación para relacionar las decisiones técnicas con las funcionalidades que utilizarán los agricultores y operadores técnicos.</p>
         <p><b>Vásquez Roncal, Alexander Felipe</b></p>
         <p><b><i>AV1</i></b><br>Expuse los Capítulos III y IV, explicando las User Stories, el Impact Mapping y los Mock-ups de la Landing Page y de la Web Application, con las pantallas como apoyo visual para que la audiencia relacionara cada requisito con su diseño.</p>
         <p><b><i>TB1</i></b><br>Expuse el Bounded Context Field Management, explicando cómo se registran fincas y parcelas, y escuché las observaciones del equipo sobre la integración de ramas antes de proponer una solución consensuada.</p>
@@ -331,6 +332,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>Sayago Vidal, Sebastián Leonardo</b></p>
         <p><b><i>AV1</i></b><br>Desarrollé la documentación técnica de arquitectura, diseño y Software Configuration Management, con un lenguaje técnico, preciso y organizado para comunicar las decisiones de la solución.</p>
         <p><b><i>TB1</i></b><br>Documenté el Bounded Context Analytics & Reporting, incluyendo responsabilidades, conceptos, operaciones, eventos y componentes, manteniendo coherencia con los demás artefactos de arquitectura. Además, organicé la documentación del Sprint 2 para esta entrega.</p>
+          <p><b><i>AV2</i></b><br>Actualicé la documentación técnica del proyecto, incluyendo los diagramas de arquitectura, diseño de clases y base de datos, así como la documentación correspondiente al Software Configuration Management. También participé en la actualización de los contenidos de los Sprint Backlogs 1 y 2 y en la elaboración de la documentación del Sprint 3.</p>
         <p><b>Vásquez Roncal, Alexander Felipe</b></p>
         <p><b><i>AV1</i></b><br>Creé la organización en GitHub para el trabajo colaborativo del equipo y redacté la documentación de los Capítulos III y IV, organizando las User Stories y la descripción de los Mock-ups.</p>
         <p><b><i>TB1</i></b><br>Coordiné la integración de las ramas del proyecto y revisé el README completo antes de la entrega, verificando que la estructura y los enlaces fueran correctos.</p>
@@ -4812,50 +4814,69 @@ Los resultados de estas evaluaciones permitirán complementar los comentarios ob
 
 <p align="justify">
 
-Esta sección presenta una <strong>primera versión (avance AV1)</strong> de las conclusiones del proyecto. En esta etapa del ciclo de vida, el equipo ha completado el Capítulo I (Introducción y Lean UX Process), el Capítulo II (Requirements Elicitation & Analysis), el Capítulo III (Requirements Specification) y el Capítulo IV (Product Design), además de iniciar el Capítulo V con la configuración del entorno de desarrollo y el primer Sprint. Dado que aún no se han ejecutado las Validation Interviews (5.3) ni se cuenta con una versión funcional completa de la Web Application y el RESTful API, las conclusiones aquí presentadas son de carácter <strong>preliminar y de diseño</strong>, contrastando los artefactos elaborados contra los Problem Statements, Assumptions e Hypothesis Statements definidos en el Lean UX Process (1.2.2), y no todavía contra resultados de uso real. Esta sección se expandirá en las siguientes entregas (TB1, AV2, TB2) con hallazgos provenientes de las entrevistas de validación y del producto desplegado.
+El desarrollo de AgriDron Solutions permitió llevar una propuesta inicial de solución tecnológica hacia la construcción de una plataforma web orientada a la planificación y gestión de operaciones de fumigación agrícola mediante drones. Durante el ciclo de vida del proyecto, el equipo desarrolló las etapas de identificación de necesidades, especificación de requisitos, diseño de experiencia de usuario, definición de arquitectura, implementación y despliegue, complementándolas con actividades de validación. Este proceso permitió mantener una relación entre las necesidades identificadas en los segmentos objetivo y las funcionalidades incorporadas progresivamente en el producto.
 
-</p>
+Conclusiones
 
-<p align="justify">
+1. Sobre la problemática y los Problem Statements
 
-Respecto a los <strong>Problem Statements</strong> (1.2.2.1), el proceso de Needfinding (2.2 y 2.3) confirmó que los cuatro problemas planteados —gestión dispersa de fincas y parcelas, ausencia de sustento técnico para decisiones climáticas, falta de visibilidad del estado del dron durante el vuelo y dificultad para consultar el historial de operaciones— corresponden a fricciones reales identificadas en las entrevistas y representadas en el User Journey Map (2.3.3) y el Empathy Map (2.3.4) de Diego Mendoza Ríos. Esto es consistente con la literatura revisada: García-Munguía et al. (2024) documentan que la adopción de drones agrícolas aún enfrenta brechas operativas en la planificación y el control de las aplicaciones de fumigación, mientras que la FAO (s. f.) enmarca la protección vegetal como un proceso que requiere información oportuna para la toma de decisiones, lo cual respalda la necesidad identificada en el Problem Statement 2 sobre la consulta de condiciones meteorológicas antes de una misión.
+El proceso de investigación y Needfinding permitió identificar dificultades relacionadas con la administración de fincas y parcelas, la planificación de operaciones de fumigación, la consulta de condiciones meteorológicas y el seguimiento de las actividades realizadas. Estas necesidades se reflejaron en los User Personas, User Journey Maps, Empathy Maps y demás artefactos elaborados durante el análisis de requisitos.
 
-</p>
+A partir de estos resultados, se definió una solución que centraliza diferentes actividades operativas en una plataforma web. La implementación de módulos para la gestión de parcelas, drones, agroquímicos, misiones e información meteorológica mantiene correspondencia con los principales problemas identificados inicialmente. Por tanto, la propuesta de AgriDron Solutions conserva su orientación hacia la organización y supervisión de las operaciones agrícolas, aunque todavía existen oportunidades para ampliar sus funcionalidades y comprobar sus beneficios mediante un uso prolongado.
 
-<p align="justify">
+2. Sobre los Assumptions y Hypothesis Statements de Lean UX
 
-Respecto a las <strong>Assumptions</strong> (1.2.2.2), estas se mantienen como creencias no validadas al cierre de esta entrega. El equipo tradujo dichas suposiciones en decisiones concretas de diseño: la gestión de fincas y parcelas se refleja en el modelo de dominio de Field Management (4.7.1.1), la consulta meteorológica en el componente de Weather Integration (4.6.4.3), y el monitoreo del dron en el Wireflow y los Mock-ups de la sección 4.4. Sin embargo, ninguna de estas decisiones ha sido puesta a prueba frente a usuarios reales fuera de las entrevistas de needfinding, por lo que la validación formal de estas asunciones queda pendiente para la sección 5.3 (Validation Interviews).
+Los supuestos establecidos durante el proceso Lean UX permitieron orientar las decisiones de diseño y priorización de funcionalidades. A medida que avanzó el desarrollo, estos supuestos fueron contrastándose con las características de la solución implementada y con las observaciones obtenidas durante las actividades de validación.
 
-</p>
+Los comentarios del operador técnico entrevistado respaldan la utilidad percibida de funcionalidades como la gestión de parcelas, la consulta de información de drones, el seguimiento de misiones y la centralización de información. Asimismo, sus observaciones permitieron identificar necesidades adicionales, como la actualización del stock de agroquímicos, la delimitación visual de parcelas y el registro de incidencias y hectáreas efectivamente tratadas.
 
-<p align="justify">
+Sin embargo, los resultados obtenidos no permiten confirmar cuantitativamente todas las hipótesis planteadas. En particular, beneficios como la reducción del 40 % del tiempo y costo de fumigación requieren pruebas en condiciones operativas reales y mediciones comparativas. Del mismo modo, el monitoreo de drones desarrollado dentro del alcance académico utiliza información simulada, por lo que no representa todavía una integración con telemetría de equipos físicos.
 
-Respecto a los <strong>Hypothesis Statements</strong> (1.2.2.3), los cuatro enunciados definidos —reducción del tiempo y costo de fumigación, menor tiempo de respuesta ante infestaciones, mayor adopción por facilidad de uso, y mejor toma de decisiones a partir de reportes automatizados— dependen de features que a la fecha de esta entrega están diseñadas (User Stories, Wireframes, Mock-ups, Class Diagrams y Database Diagrams) pero no implementadas ni medidas. Cabe precisar que, dado el alcance académico del curso, el monitoreo de drones se sustentará en datos simulados y no en telemetría real, tal como se indicó en las Assumptions (1.2.2.2); por ello, hipótesis como la reducción del 40% en tiempo y costo de fumigación —cifra de referencia contrastada con estudios como el de Safaeinejad et al. (2025), quienes reportan reducciones de huella ambiental y energética al comparar la fumigación con drones frente a métodos convencionales— no podrán validarse con datos operativos reales dentro del ciclo de vida del curso, sino que se tratarán como una meta de referencia para el diseño de las funcionalidades.
+3. Sobre el diseño y la arquitectura de software
 
-</p>
+El proceso de diseño permitió establecer una arquitectura organizada mediante los principios de Domain-Driven Design, separando las responsabilidades del sistema en Bounded Contexts relacionados con la gestión de fincas y parcelas, operaciones de vuelo, integración meteorológica, inventario y recursos, y análisis y reportes.
 
-<p align="justify">
+La definición de diagramas de contexto, contenedores, componentes, clases y base de datos facilitó la identificación de responsabilidades y relaciones entre los diferentes elementos de la solución. Asimismo, la separación de responsabilidades entre la aplicación web, los servicios RESTful y la base de datos permitió establecer una estructura que favorece el mantenimiento y la evolución del producto.
 
-En cuanto al <strong>trabajo de diseño</strong> (Capítulos II a IV), se logró trazabilidad entre los distintos artefactos: los hotspots identificados en el Big Picture EventStorming (2.4) se resolvieron como rutas alternativas explícitas en el User Flow Diagram (4.4.4), y el Design-Level EventStorming (4.6.1) junto con los Class Diagrams (4.7.1) se tradujeron de forma consistente en el Database Diagram (4.8.1). Esta trazabilidad de extremo a extremo —desde la necesidad detectada en needfinding hasta el modelo de base de datos— es el principal resultado tangible de esta primera entrega.
+La correspondencia entre los artefactos de diseño y los componentes implementados constituye uno de los resultados importantes del proyecto, aunque la integración entre los diferentes contextos todavía puede fortalecerse para garantizar una gestión consistente de las operaciones y sus recursos asociados.
 
-</p>
+4. Sobre la implementación y el despliegue del producto
 
-<p align="justify">
-Esta sección presenta la consolidación de conclusiones correspondiente a la <strong>entrega TB1</strong> del proyecto AgriDron Solutions. Tras el primer avance (AV1), el equipo incorporó las observaciones y críticas constructivas brindadas por el docente, optimizando la coherencia y exhaustividad de la documentación técnica en Markdown. Para esta entrega, el hito principal consistió en dar el salto del diseño preliminar con el objetivo de acercase a implementar la logica de negocio complea y luego pasar al backend, donde cada integrante asumió la responsabilidad de modelar e implementar un Bounded Context (BC) específico aplicando los patrones y principios de Domain-Driven Design (DDD), estructurado rigurosamente en cuatro capas de software.
-</p>
-<p align="justify">
-Respecto a la <strong>trazabilidad de requisitos y supuestos (Lean UX y Needfinding)</strong>, las mejoras aplicadas en esta entrega permitieron cerrar la brecha entre los artefactos de análisis (EventStorming y User Stories) y el código fuente. Las entidades identificadas en cada Bounded Context (por ejemplo, drones, boquillas, o la delimitación geográfica en Field Management) responden directamente a los puntos de dolor detectados durante las entrevistas de campo. La estandarización de convenciones en idioma inglés, GitFlow, Conventional Commits y la separación por paquetes facilitaron la integración paralela de los servicios desarrollados por cada integrante sin presentar colisiones arquitectónicas críticas.
-</p>
+Durante los tres primeros sprints se avanzó progresivamente desde la construcción de la Landing Page y la definición de la aplicación web hasta la implementación de funcionalidades y servicios backend propios del proyecto.
 
-<p align="justify">
-Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo concluye que resulta indispensable:
-</p>
+La solución cuenta con una Landing Page y una Web Application desarrolladas para presentar la propuesta de valor y permitir la interacción con los diferentes módulos de AgriDron Solutions. Por otro lado, el backend desarrollado con Spring Boot incorpora servicios RESTful organizados por responsabilidades, cuya documentación mediante OpenAPI/Swagger facilita la identificación y consulta de las operaciones disponibles.
 
-<ol>
-  <li><strong>Profundizar en la integración entre Bounded Contexts:</strong> Se recomienda afinar la comunicación intercontexto para asegurar consistencia transaccional cuando eventos críticos se disparen (por ejemplo, validar disponibilidad de insumos y dron antes de autorizar el despegue de una misión).</li>
-  <li><strong>Conectar el Frontend Angular con los Web Services desplegados:</strong> Avanzar en el consumo integral de los endpoints RESTful implementados en Spring Boot desde la aplicación web interactiva, reemplazando progresivamente los datos emulados por la persistencia real del backend.</li>
-  <li><strong>Ejecutar la validación con usuarios (Validation Interviews):</strong> Proceder con la planificación y aplicación de las entrevistas de validación (5.3) sobre el producto interactivo desplegado, con el fin de medir la usabilidad heurística y contrastar las hipótesis operativas (reducción de tiempos de planificación y control de derivas climáticas) frente a agricultores y operadores técnicos en campo.</li>
-</ol>
+La utilización de GitHub, GitFlow, Conventional Commits y repositorios separados para los componentes del producto permitió organizar el desarrollo colaborativo, mantener un historial de cambios y distribuir las responsabilidades entre los integrantes. Asimismo, las actividades de despliegue permitieron avanzar hacia la disponibilidad de los productos en entornos accesibles mediante sus respectivas direcciones web.
+
+No obstante, la implementación debe continuar evolucionando para completar las operaciones pendientes, fortalecer la integración entre los servicios y asegurar que los flujos principales de la aplicación funcionen de manera consistente con la persistencia del backend.
+
+5. Sobre las actividades de validación
+
+Las entrevistas de validación permitieron obtener observaciones directamente relacionadas con la experiencia de interacción con la Landing Page y la aplicación web. En particular, la evaluación realizada con un operador técnico evidenció una percepción favorable sobre la organización de la información, la gestión de drones, el seguimiento de misiones y la centralización de las actividades operativas.
+
+También se identificaron oportunidades de mejora que no habían sido consideradas con el mismo nivel de detalle durante las primeras etapas del proyecto. Entre ellas destacan la actualización del inventario de agroquímicos, la incorporación de herramientas visuales para delimitar parcelas y la posibilidad de registrar incidencias durante las operaciones.
+
+Estos resultados muestran la importancia de incorporar retroalimentación de los usuarios durante el desarrollo de software, debido a que permite identificar necesidades adicionales y orientar las siguientes iteraciones del producto. Sin embargo, se requiere ampliar las entrevistas a los diferentes segmentos objetivo y completar las evaluaciones heurísticas para obtener una visión más representativa de la experiencia de uso.
+
+Recomendaciones
+
+A partir de los resultados obtenidos durante el desarrollo del proyecto, se proponen las siguientes recomendaciones para la evolución de AgriDron Solutions:
+
+Fortalecer la integración entre los Bounded Contexts: mejorar la comunicación entre Field Management, Flight Operations, Inventory & Resource Management y Analytics & Reporting, estableciendo validaciones que permitan mantener la consistencia de la información durante el ciclo de vida de una misión.
+
+Completar las funcionalidades de gestión de recursos: incorporar la actualización del stock de agroquímicos, mejorar la delimitación visual de parcelas y ampliar las operaciones relacionadas con la disponibilidad y asignación de drones e insumos.
+
+Ampliar las capacidades de seguimiento de misiones: incorporar el registro de incidencias, interrupciones operativas y hectáreas efectivamente tratadas, permitiendo comparar los resultados obtenidos con la planificación inicial.
+
+Mejorar la integración y cobertura de los servicios RESTful: completar las operaciones pendientes, fortalecer las validaciones de datos y mantener actualizada la documentación OpenAPI/Swagger de acuerdo con la implementación real del backend.
+
+Profundizar las actividades de validación con usuarios: realizar entrevistas adicionales con pequeños y medianos agricultores y operadores técnicos, complementando sus observaciones con evaluaciones heurísticas de usabilidad, arquitectura de información e inclusión.
+
+Evaluar el producto en condiciones operativas reales: realizar pruebas con operaciones agrícolas y equipos físicos para contrastar los beneficios esperados, especialmente en relación con los tiempos de planificación, seguimiento y costos de las actividades de fumigación.
+
+Continuar mejorando la experiencia de usuario: simplificar los flujos de interacción, reforzar la claridad de la información presentada y mantener una experiencia consistente entre la Landing Page y la Web Application.
+
+En conclusión, AgriDron Solutions constituye una primera versión funcional de una propuesta tecnológica orientada a mejorar la organización y supervisión de las operaciones de fumigación agrícola. El trabajo realizado permitió establecer una base de análisis, diseño, arquitectura e implementación sobre la cual se puede continuar desarrollando el producto. Asimismo, la experiencia obtenida durante el proyecto demostró la importancia de mantener la trazabilidad entre las necesidades de los usuarios, los requisitos, las decisiones técnicas y los resultados de implementación, considerando la retroalimentación como un elemento fundamental para la evolución continua de la solución.
 
 ---
 
