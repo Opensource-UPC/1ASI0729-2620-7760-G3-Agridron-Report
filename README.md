@@ -4562,6 +4562,8 @@ Las actividades se ajustarán a las funcionalidades realmente disponibles en la 
 
 En esta sección se documentarán individualmente las entrevistas realizadas a los participantes de ambos segmentos. Cada registro incluirá los datos del entrevistado, la evidencia de la sesión, un resumen de las actividades y los principales hallazgos.
 
+### Segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas
+
 ### Interview 1 – [Nombre del participante]
 
 **Datos del participante**
@@ -4628,39 +4630,76 @@ En esta sección se documentarán individualmente las entrevistas realizadas a l
 - **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
 - **Conclusión individual:** [Valoración general de la experiencia de validación].
 
+### Segmento 2: Pequeños y Medianos Agricultores / Propietarios de Fincas
 
-### Interview 3 – [Nombre del participante]
+### Interview 3 – Carlos Mendoza
 
-**Datos del participante**
+**Información del participante**
 
-| Campo | Información |
-|---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Campo              | Información                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------ |
+| Participante       | Carlos Mendoza                                                                       |
+| Edad               | 38 años                                                                              |
+| Ocupación          | Operador técnico de servicios de fumigación agrícola mediante drones                 |
+| Experiencia        | Aproximadamente 6 años                                                               |
+| Segmento objetivo  | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
+| Tipo de entrevista | Entrevista de validación de la solución                                              |
+| Solución evaluada  | AgriDron Solutions – Landing Page y Aplicación Web                                   |
 
-**Evidencias de la entrevista**
 
-| Evidencia | Enlace / Referencia |
-|---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+
+**Objetivo de la entrevista**
+
+Evaluar la primera versión de AgriDron Solutions con un operador de servicios de fumigación agrícola mediante drones, con la finalidad de identificar si la solución propuesta responde a las necesidades operativas previamente identificadas. La evaluación comprendió la Landing Page y los principales módulos de la aplicación: gestión de parcelas, gestión de drones, gestión de agroquímicos, seguimiento de misiones e información meteorológica.
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+Durante la entrevista, Carlos Mendoza evaluó la Landing Page y las principales funcionalidades de AgriDron Solutions. Inicialmente, identificó que la plataforma permite organizar los servicios de fumigación, administrar información de terrenos y realizar seguimiento de las operaciones. Sin embargo, sugirió que la página de presentación debería explicar con mayor detalle cómo se registran los servicios y cómo se puede consultar posteriormente su información.
 
-**Principales observaciones**
+Respecto a la gestión de parcelas, consideró que las opciones disponibles son sencillas y fáciles de encontrar. Destacó la importancia de mantener organizada la información de los terrenos antes de realizar un servicio de fumigación.
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+En cuanto a la gestión de drones, consideró útiles los datos relacionados con las baterías, el mantenimiento y el estado operativo de los equipos. Asimismo, encontró clara la presentación de la información sobre agroquímicos, especialmente las cantidades disponibles de los productos. Sin embargo, mencionó que la gestión de agroquímicos debería permitir actualizar las cantidades disponibles de cada producto, facilitando el control del inventario y manteniendo la información actualizada.
+
+Al evaluar la gestión de misiones, destacó la posibilidad de consultar el progreso y el estado de cada operación, además del registro de las interrupciones ocasionadas por condiciones climáticas o problemas con los equipos, incluyendo la cantidad de trabajo que realmente se llegó a realizar. Según el participante, esta información permitiría explicar a los agricultores por qué un servicio no pudo cubrir toda el área planificada.
+
+Respecto a la información meteorológica, consideró que las alertas de lluvia y viento son útiles para evaluar las condiciones antes de realizar las actividades de fumigación. Finalmente, identificó la centralización de información como la principal ventaja de la plataforma, ya que actualmente necesita consultar diferentes archivos, conversaciones de WhatsApp, hojas de cálculo y anotaciones personales para organizar sus servicios.
+
+**Principales hallazgos**
+
+| Área evaluada                 | Comentario del participante                                                         | Hallazgo identificado                                                                        |
+| ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Landing Page                  | La presentación debería explicar mejor cómo se registran y consultan los servicios. | Mejorar la explicación de las principales funcionalidades de la plataforma.                  |
+| Gestión de parcelas           | La información está organizada y es fácil de encontrar.                             | El módulo facilita la consulta de información de los terrenos antes de realizar un servicio. |
+| Delimitación de parcelas      | Un mapa interactivo sería más sencillo que utilizar directamente GeoJSON.           | Simplificar la delimitación de parcelas mediante una interfaz visual.                        |
+| Gestión de drones             | La información de baterías y mantenimiento resulta útil.                            | Los datos técnicos permiten organizar mejor las operaciones con drones.                      |
+| Gestión de agroquímicos       | La información y las cantidades disponibles eran claras.                            | Se identificó la necesidad de incorporar una opción para actualizar el stock disponible.     |
+| Gestión de misiones           | Es útil consultar el progreso y el estado de las operaciones.                       | El seguimiento de misiones proporciona mayor visibilidad sobre las actividades realizadas.   |
+| Registro de incidencias       | Se deberían registrar las interrupciones y el trabajo realmente realizado.          | Incorporar el registro de incidencias y de las hectáreas efectivamente tratadas.             |
+| Información meteorológica     | Las alertas de lluvia y viento ayudan a evaluar las condiciones antes de fumigar.   | La información climática contribuye a la planificación de las operaciones.                   |
+| Centralización de información | La plataforma evitaría consultar diferentes archivos y medios de comunicación.      | La centralización representa uno de los principales beneficios percibidos de la solución.    |
+
+**Aspectos positivos identificados**
+
+- La navegación por los módulos de parcelas y misiones resulta sencilla.
+- La información de los drones, especialmente los datos de baterías y mantenimiento, facilita la organización de las operaciones.
+- La presentación de los agroquímicos permite consultar claramente las cantidades disponibles.
+- El seguimiento de misiones permite conocer el progreso y estado de cada operación.
+- Las alertas meteorológicas proporcionan información relevante antes de realizar los servicios de fumigación.
+- La centralización de información representa una ventaja frente al uso de diferentes archivos, hojas de cálculo y conversaciones de WhatsApp.
+
+**Oportunidades de mejora identificadas**
+
+- Mejorar la explicación de las funcionalidades y el registro de servicios en la Landing Page.
+- Incorporar una opción para actualizar el stock disponible de los agroquímicos usados.
+
+**Conclusión de la entrevista**
+
+La entrevista permitió identificar que AgriDron Solutions responde favorablemente a varias de las necesidades previamente identificadas en el segmento de operadores técnicos, principalmente en la organización de parcelas, gestión de drones, seguimiento de misiones y centralización de información.
+
+El participante manifestó una percepción positiva de la solución y expresó su disposición a utilizarla, especialmente por la posibilidad de mantener organizada la información de sus clientes, equipos y trabajos realizados. Sin embargo, también identificó oportunidades de mejora relacionadas con la delimitación visual de parcelas y el registro detallado de los servicios e incidencias.
+
+Los comentarios recopilados permiten orientar futuras mejoras hacia una plataforma que no solo facilite la planificación de las operaciones, sino que también permita documentar su ejecución, registrar las incidencias y mantener un historial completo de los trabajos realizados.
+
 
 
 ### Interview 4 – [Nombre del participante]
