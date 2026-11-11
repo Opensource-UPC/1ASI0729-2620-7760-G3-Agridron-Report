@@ -4317,35 +4317,6 @@ Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e in
 Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
 
 
-**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
-
-Figura: Evidencia de la creacion del proyecto en Render
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
-
-Figura: Evidencia de creacion de Agridron database
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
-
-Figura: Evidencia de creacion de un nuevo web service
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
-
-Figura: Evidencia de publicación del repositorio git en el nuevo web service
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
-
-Figura: Evidencia de configuración del nuevo web service
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
-
-Figura: Evidencia de despliegue del backend
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
-
-Figura: Evidencia de despliegue del backend
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4442,7 +4413,36 @@ También se actualizará la configuración de la Web Application para que pueda 
 Las evidencias incluirán la URL del backend desplegado, la disponibilidad de sus endpoints, las pruebas de conexión y la versión de la aplicación web integrada.
 
 
-![Evidencia del despliegue del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+
+**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
+
+Figura: Evidencia de la creacion del proyecto en Render
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
+
+Figura: Evidencia de creacion de Agridron database
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
+
+Figura: Evidencia de creacion de un nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
+
+Figura: Evidencia de publicación del repositorio git en el nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
+
+Figura: Evidencia de configuración del nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
+
+Figura: Evidencia de despliegue del backend
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+
+Figura: Evidencia de despliegue del backend
 
 *Figura: Evidencia del despliegue de la primera versión de los Web Services y su integración con la aplicación.*
 
