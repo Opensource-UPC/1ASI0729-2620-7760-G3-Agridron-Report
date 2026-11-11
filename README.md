@@ -4302,11 +4302,16 @@ Durante el Sprint 3 se trabajará en la evolución de los componentes principale
 - **Web Application:** actualización de la integración con los servicios backend y mejora de las interfaces correspondientes a los módulos implementados.
 - **Landing Page:** actualización de los componentes informativos y de presentación del producto.
 
-Las evidencias de desarrollo se incorporarán mediante capturas del código fuente, controladores REST, servicios de aplicación, pruebas, commits y pull requests realizados en los repositorios correspondientes.
+| Repo                            | Branch                                  | Ahead / behind                                                     | Commit Date       | Author                                        | Commit Description                                                                                                                                                                           | Commit                                           | Compare Repo                    | Compare Branch                          | Compare Date      | Compare Author                                | Compare Commit Description                                                     | Compare Commit                                   |
+|---------------------------------|-----------------------------------------|--------------------------------------------------------------------|-------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------|-----------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------|
+| Opensource-UPC/Agridron-backend |  main                                   | Default                                                            | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | perf(docker): optimize JVM memory flags for 512MB RAM container                                                                                                                              | 3e70397 3e70397c6972051b8ccd8ded7267b93a331285ef | — Not available                 | — Not available                         | — Not available   | — Not available                               | — Not available                                                                | — Not available                                  |
+| Opensource-UPC/Agridron-backend |  develop                                | 3 ahead 3 commits ahead of feature/inventoryAndResourceManagement  | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | fix(db): ensure postgis extension exists before creating spatial tables                                                                                                                      | 74e9a5e 74e9a5e8ed6a51a68921b38e022e389c0b3284e7 | Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | fix(build): remove unnecessary apt-get curl from runtime image                 | 72333ab 72333ab847ebfd49d8e6553bb6a974e08c7830c7 |
+| Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | 3 behind 3 commits behind develop                                  | Fri, Nov 6, 2026  | #Edwin Nicho (@Edwindeploy21)                 | finally 6 endpoints added                                                                                                                                                                    | a66f533 a66f53383995be881bae45b4917945849f256399 | Opensource-UPC/Agridron-backend |  develop                                | Fri, Nov 6, 2026  | #Edwin Nicho (@Edwindeploy21)                 | inventory from infrastructure advance complete                                 | cf053b5 cf053b58547d38e6014ffacac465394b5cb99399 |
+| Opensource-UPC/Agridron-backend |  feature/flight-operations              | 18 ahead, 22 behind 18 commits ahead, 22 commits behind develop    | Fri, Nov 6, 2026  | #GabrielRamirez06 (@GabrielRamirez06)         | feat(flight): add missions context ACL facade                                                                                                                                                | d2b9e0b d2b9e0b863be3597d3add7887895fc3bc559c32e | Opensource-UPC/Agridron-backend |  develop                                | Fri, Nov 6, 2026  | #GabrielRamirez06 (@GabrielRamirez06)         | feat(flight): add missions context ACL facade                                  | 6f148e1 6f148e179a915d6b4aae09e163b7fc453eb7364c |
+| Opensource-UPC/Agridron-backend |  feature/analyticsAndReporting          | 15 behind 15 commits behind develop                                | Mon, Nov 2, 2026  | #Sebastián Leonardo Sayago Vidal (@SSayag0V)  | Merge branch 'develop' into feature/analyticsAndReporting                                                                                                                                    | 6f337ba 6f337ba0d54d4ba07937327b92d99575b55889ef | Opensource-UPC/Agridron-backend |  develop                                | Mon, Nov 2, 2026  | #Sebastián Leonardo Sayago Vidal (@SSayag0V)  | docs(analytics): add analytics bounded context to project structure            | 7baabe6 7baabe6c9f226a8fc6804716b11c77d640a46cb2 |
+| Opensource-UPC/Agridron-backend |  feature/fieldManagement                | 22 behind 22 commits behind feature/inventoryAndResourceManagement | Sun, Nov 1, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | docs(field): document pagination and ordering                                                                                                                                                | 6bcd921 6bcd921d78f471a5c6aea0bb6931f12423c30012 | Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | Sun, Nov 1, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | test(field): cover pagination end to end                                       | 91ca86b 91ca86bed566667389aa9d8b4c582b47271ff590 |
+| Opensource-UPC/Agridron-backend |  shared                                 | 82 behind 82 commits behind main                                   | Wed, Oct 28, 2026 | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | feat: Se implemento el BC de Shared ademas, se modifico el readme y el gitignore. Tambien se implemento docs/backend-conventions.md para que el team siga las pautas para sus respectivos BC | 0114008 011400822199b3a33b811c2c6d29a59cd9764f2d | Opensource-UPC/Agridron-backend |  main                                   | Wed, Oct 28, 2026 | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | feat:se creo el proyecto Agridron Backend en java 27 con maven como compilador | 247ca74                                          |
 
-![Evidencia de desarrollo del Sprint 3](assets/chapter5/sprint_3_development.png)
-
-*Figura: Evidencia del desarrollo de los componentes de AgriDron Solutions durante el Sprint 3.*
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -4317,35 +4322,6 @@ Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e in
 Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
 
 
-**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
-
-Figura: Evidencia de la creacion del proyecto en Render
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
-
-Figura: Evidencia de creacion de Agridron database
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
-
-Figura: Evidencia de creacion de un nuevo web service
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
-
-Figura: Evidencia de publicación del repositorio git en el nuevo web service
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
-
-Figura: Evidencia de configuración del nuevo web service
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
-
-Figura: Evidencia de despliegue del backend
-
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
-
-Figura: Evidencia de despliegue del backend
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4442,7 +4418,36 @@ También se actualizará la configuración de la Web Application para que pueda 
 Las evidencias incluirán la URL del backend desplegado, la disponibilidad de sus endpoints, las pruebas de conexión y la versión de la aplicación web integrada.
 
 
-![Evidencia del despliegue del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+
+**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
+
+Figura: Evidencia de la creacion del proyecto en Render
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
+
+Figura: Evidencia de creacion de Agridron database
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
+
+Figura: Evidencia de creacion de un nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
+
+Figura: Evidencia de publicación del repositorio git en el nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
+
+Figura: Evidencia de configuración del nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
+
+Figura: Evidencia de despliegue del backend
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+
+Figura: Evidencia de despliegue del backend
 
 *Figura: Evidencia del despliegue de la primera versión de los Web Services y su integración con la aplicación.*
 
