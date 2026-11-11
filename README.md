@@ -114,6 +114,11 @@ Entre el 30/09/2026 y el 06/10/2026, el equipo incorporó las correcciones deriv
 
 *Figura: Analíticos de contribución del repositorio del informe durante TB1 (Insights > Contributors, rama main). Se evidencia la participación continua de los cinco integrantes en la elaboración del informe.*
 
+### Entrega AV2
+Entre el 28/10/2026 y el 10/11/2026, el equipo incorporó las correcciones derivadas de la retroalimentación de TB1. Se realizó en conjunto la finalización del frontend, landing page y la primera version del backend. Damacen Galindo, Italo Gianfranco y Sayago Vidal, Sebastián Leonardo actualizaron los Sprint 1 y 2, y se implemento el contenido respectivo del Sprint 3. Vásquez Roncal, Alexander Felipe realizó el deployment y actualización de Landing Page, Frontend y Backend.
+
+![Contributors del repositorio del informe en AV2](assets/collaboration/report_contributors_av2.png)
+
 <div style="page-break-after: always;"></div>
 
 # Contenido
