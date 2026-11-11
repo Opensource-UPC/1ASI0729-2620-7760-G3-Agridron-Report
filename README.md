@@ -4403,25 +4403,20 @@ La siguiente tabla presenta los endpoints documentados mediante OpenAPI, indican
 
 La documentación interactiva permitirá ejecutar solicitudes de prueba sobre los endpoints disponibles y observar sus respuestas.
 
-**1. Documentación general de los servicios**
+**Documentación general de los servicios**
 
 ![Documentación general de Swagger](assets/chapter5/sprint_3_swagger_overview.png)
 
 *Figura: Vista general de la documentación OpenAPI/Swagger de los servicios RESTful de AgriDron Solutions.*
 
-**2. Documentación de Flight Operations**
 
-![Documentación de Flight Operations](assets/chapter5/sprint_3_swagger_flight_operations.png)
-
-*Figura: Operaciones documentadas para la gestión de misiones, estados operativos y resultados.*
-
-**3. Ejecución de solicitudes HTTP**
+**Ejecución de solicitudes HTTP**
 
 ![Ejecución de solicitudes HTTP](assets/chapter5/sprint_3_swagger_requests.png)
 
 *Figura: Ejecución de solicitudes de prueba mediante Swagger UI, mostrando los parámetros enviados y las respuestas obtenidas.*
 
-**4. Ejemplo de respuesta**
+**Ejemplo de respuesta**
 
 ![Ejemplo de respuesta de endpoint](assets/chapter5/sprint_3_swagger_response.png)
 
