@@ -4883,11 +4883,11 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 
 **Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
 
-**Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+**Link LandingPage:** [https://os-agridronlandingpage.web.app](https://os-agridronlandingpage.web.app)
 
 **Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
-**Link de la plataforma:** [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Link de la plataforma:** [https://os-agridronfrontend.web.app](https://os-agridronfrontend.web.app)
 
 **Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
