@@ -181,7 +181,7 @@ Entre el 30/09/2026 y el 06/10/2026, el equipo incorporó las correcciones deriv
       - [4.6.1.1. Bounded Contexts](#4611-bounded-contexts)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
     - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [Trazabilidad entre dominio y arquitectura](#trazabilidad-entre-dominio-y-arquitectura)
+      - [Trazabilidad entre dominio y arquitectura](#trazabilidad-entre-dominio-y-arquitectura)
     - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
       - [4.6.4.1. RESTful API](#4641-restful-api)
       - [4.6.4.2. Web Application](#4642-web-application)
