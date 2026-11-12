@@ -4885,10 +4885,6 @@ Se compiló la nueva versión del Landing Page con el comando `ng build` y se pu
 
 *Figura: Ejecución de `firebase deploy` y confirmación del despliegue del Landing Page en Firebase Hosting.*
 
-![Historial de versiones del Landing Page en Firebase](assets/chapter5/sprint3/landing-firebase-console.png)
-
-*Figura: Historial de versiones de Firebase Hosting con la publicación del Sprint 3 del Landing Page.*
-
 ##### Despliegue de la Web Application
 
 Se actualizaron los environments de la Web Application con la URL de los Web Services desplegados en Render, se compiló la aplicación y se publicó en Firebase Hosting, con la regla de reescritura necesaria para las rutas de la SPA.
@@ -4900,10 +4896,6 @@ Se actualizaron los environments de la Web Application con la URL de los Web Ser
 ![Despliegue de la Web Application en Firebase Hosting](assets/chapter5/sprint3/frontend-firebase-deploy.png)
 
 *Figura: Ejecución de `firebase deploy` y confirmación del despliegue de la Web Application en Firebase Hosting.*
-
-![Historial de versiones de la Web Application en Firebase](assets/chapter5/sprint3/frontend-firebase-console.png)
-
-*Figura: Historial de versiones de Firebase Hosting con la publicación del Sprint 3 de la Web Application.*
 
 ##### Despliegue de los Web Services
 
