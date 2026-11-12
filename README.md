@@ -4849,7 +4849,174 @@ La respuesta devuelve el reporte técnico de la misión con el área tratada, el
 
 ##### Documentation Commits
 
-La siguiente tabla presenta los commits del repositorio de Web Services relacionados con la documentación de los servicios durante el Sprint 3.
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del LandingPage
+y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 394d481 | Initial commit | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | b9cb5b7 | Add project title to README | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | efa1777 | Update README.md | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | bbdc638 | First Version of the Landing Page | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | 38d29a3 | Update | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | e6e7063 | Add login and register pages | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | 1962f70 | Create README.md | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 997d662 | Merge pull request #1 from Opensource-UPC/feature/landing | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | develop | e4fbee9 | Merge branch 'main' into develop | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | develop | f50296b | feature/cambio de elementos y agregar un integrante | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 3aece7e | initial commit | — | 21/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 24b2bbf | se modifico el landingPage y se paso al lenguaje angular | — | 05/10/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 7e67dfa | cambios del router | — | 05/10/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 4603787 | feat: rediseño de landingPague | — | 06/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 0542909 | feat: se modifico los botones que redirigen al webApp | — | 09/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 70855ff | fix: se corrigio el error de mal redireccionamiento al webapp | — | 09/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 00d3aa0 | videos about the team and about the product in progress to loag to landing page | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 38f3d27 | another screenshot for all secctions to app web added | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 813f7fe | pictures about the team added | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 7f1b869 | Merge pull request #4 from Opensource-UPC/feature/Sprint-3 | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | d57f1f5 | feat: se realizo mergue | — | 11/11/2026 |
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del Frontend
+y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-frontend | main | e19388c | Initial commit | — | 16/09/2026 |
+| Opensource-UPC/Agridron-frontend | feature/startProyect | 5600264 | se creo el proyecto Agridron en Angular y se agrego la base de header,footer y language switcher | — | 30/09/2026 |
+| Opensource-UPC/Agridron-frontend | main | d165047 | Merge pull request #1 from Opensource-UPC/feature/startProyect | — | 30/09/2026 |
+| Opensource-UPC/Agridron-frontend | develop | d8033f1 | Merge pull request #2 from Opensource-UPC/develop | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | f16409f | se agrego archivos shared/infraestructure/base-[archivo] | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 51f92f8 | se agrego infraestructura, aplication | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 79d6833 | Merge pull request #3 from Opensource-UPC/feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 4b31a65 | chore(env): add analytics and reporting endpoint paths | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | b6e1490 | feat(analytics): add domain model for reports, history, metrics and indicators | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 9e38370 | feat(analytics): add assemblers, endpoints and api facade | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | faee758 | feat(analytics): add mission report, history and indicator stores | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 70804ff | chore(server): add sample data for analytics json-server | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/weatherIntegration | 47cbbaa | Se realizó el avance de la weather API. Ahora existe un `<app-weather-widget>` para que el equipo pueda hacer un llamado al widget del clima en cualquier parte del frontend. La api es funcional y tiene diferentes mensajes de alertas. | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 1806f7c | se agrego fieldmanagement/components and se modifico app.route.ts | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | f40da6e | Merge branch 'feature/weatherIntegration' of https://github.com/Opensource-UPC/Agridron-frontend into feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 3c7b89a | Merge pull request #4 from Opensource-UPC/feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 6ef936c | feat(analytics): add reports and history views | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 198d012 | feat(analytics): register analytics route, menu option and i18n | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 7372c28 | chore: add json-server for local development | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | a3f38d5 | first commit | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1532989 | Merge pull request #5 from Opensource-UPC/feature/analyticsAndReporting | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 9a89a38 | se agregaron componentes nuevos, side-bar y estilos para ello | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 9a6e0fb | Merge branch 'feature/analyticsAndReporting' of https://github.com/Opensource-UPC/Agridron-frontend into feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | f7a4e37 | Merge pull request #6 from Opensource-UPC/feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 26761f8 | feat(iam-domain): add user entity, role enum and auth commands | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 3b6d7cd | feat(iam-infra): implement auth api client, response dtos and assembler | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 7f75752 | feat(iam-app): implement authentication service with reactive session signals | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 5b379e5 | feat(iam-app): implement authentication service with reactive session signals | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | eb36667 | feat(iam-ui): create sign-in, sign-up and profile standalone components | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4bb7cb9 | feat(inventory): drones and maintenance records | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | a3c7896 | feat(inventory): register drones route, menu option, i18n and environment | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 7250706 | feat(inventory): register drones route and menu option | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 039ad07 | Merge pull request #7 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 0cb9b2a | Merge branch 'feature/bc1-login-view' of https://github.com/Opensource-UPC/Agridron-frontend into feature/fieldManagement | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 3ce6b34 | se agrego el BC de login, y drones | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | a2d378c | Merge pull request #8 from Opensource-UPC/feature/fieldManagement | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 2e500e9 | fix(inventory): ultima puesta a prueba | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 85e9ee4 | Merge pull request #9 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 02bbc7a | se modifico el readme | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 4994938 | Merge pull request #10 from Opensource-UPC/feature/fieldManagement | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 49bed7c | Merge pull request #11 from Opensource-UPC/develop | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 8ccd013 | cambios en enviroment | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4606a12 | View details button implemented. Component drone details added | — | 21/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d68cb00 | form to edit drone added | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 4e83493 | feat(analytics): add parcelId to mission reports and history | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 49afd13 | chore: add jspdf for report pdf export | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | fdddfe6 | feat(analytics): add i18n texts and sample data for new report features | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 48427b1 | feat(analytics): add farm filter, farm consumption summary and parcel comparison | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 44de3cf | feat(flightOperations-domain): add domain models for mission, operation status, incident, and mission result | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 3e451ef | feat(flightOperations-domain): add MissionStatus enum and integrate it into Mission entity | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 182645d | drone detail and drone form were updates | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4b69326 | button view maintenance working | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | a0da8b1 | tank capacity data added in drone card from drone-item | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 9e8f1bd | feat(flightOperations-infra): implement mission response DTOs and mission assembler | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | da4452b | refactor(flightOperations): rename entities and response DTOs for consistency and nullable fields | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 5260ee5 | refactor(flightOperations): rename entities and response DTOs for consistency and nullable fields | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 38d4baa | feat(environment): add new endpoints for missions, results, incidents, and statuses | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 6c39746 | refactor(flightOperations): rename FlightOperationsResponse to MissionResponse for clarity | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 6a8eeaa | feat(flightOperations-infra): add API endpoints for incidents, missions, mission results, and operation statuses | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 792c654 | feat(flightOperations-infra): implement FlightOperationsApi infrastructure facade | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 8f64880 | feat(flightOperations-app): add IncidentStore to manage incident state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 941b85e | feat(flightOperations-app): add MissionStore to manage mission state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 179deec | feat(flightOperations-app): add MissionStore to manage mission state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 0488d93 | feat(flightOperations-app): add OperationStatusStore to manage operation status state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d8ccacb | view deatails and view maintenances were implements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 19aba62 | Modify in package.json server: json-serve | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | f718e24 | feat(flightOperations-app): enhance error handling and loading state in OperationStatusStore; update environment with new API endpoints | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | fa0ab78 | feat(side-nav): add "missions" option with localization support in English and Spanish | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 5f12466 | feat(ui): improve layout and side-nav styles; update Spanish localization placeholder | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 6140373 | view of nozzle implement | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | f99fc3f | feat(flight-operations): update layout | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 64041aa | feat(side-nav): update side-nav component | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 8b7e8bc | all procces about procesing nozzled are implements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 65dba0f | files for manage nozzles and agrochemicals | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 377449e | feat(flight-operations-pres): implement flight operations routes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | e8e805a | feat(scr): implement missions, mission results, incidents, and operations statuses data | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ba070e6 | feat(flight-operations.domain): rework enums and add methods in entity | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 554fb90 | feat(flight-operations.app): rework mission store and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 861ac2b | feat(flight-operations.app): rework operation status store | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 4663880 | feat(flight-operations.app): rework incident and mission results stores and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | d791ef1 | feat(flight-operations.app): add agrochemical store and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 41543cf | feat(flight-operations.app): add methods for mission authorization, in parcel add centroid calculation | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 62b7f8e | feat(flight-operations.presentation): create new views and styles archives | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 9eeff97 | feat(flight-operations.presentation): create new views and styles archives | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | cf10d73 | feat(flight-operations-presentation): update flight operations routes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | c7f26d5 | feat(flight-operations-presentation): incident form with type | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 12c7eb6 | feat(flight-operations-presentation): mission complete view and mission time signal created | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ae3528f | feat(flight-operations-presentation): mission list, form and details components created | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | bc08685 | feat(flight-operations-presentation): mission list, form and details components created | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 64e39a3 | feat(flight-operations): update side-nav options with missions link | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 0bf418b | feat(flight-operations): update db.json data with missions | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | e5d9fab | hotfix(flight-operations): mission- complete view and summary report improvements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ad4288f | hotfix(flight-operations): data and translation fixes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/weatherIntegration | 32d5705 | feat(weather-integration): integrate Open-Meteo with geolocation and weather alerts | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b307428 | hotfix(locales): update es.json translations | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 22d9180 | Merge pull request #14 from Opensource-UPC/main | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 55e3165 | Merge pull request #13 from Opensource-UPC/feature/analyticsAndReporting | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b5c767c | Merge branch 'develop' into feature/flight-operations | — | 03/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | b62baed | Merge pull request #12 from Opensource-UPC/feature/flight-operations | — | 03/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d4692dd | status drone added like as enum | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 507bbb7 | button add maintenance added into section view maintenance | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | b43f99a | fix(flight): pass parcelId to analytics history and report | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 6bae216 | Features for logging drone malfunctions and repairs were added. | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | e32805b | Merge branch 'develop' into feature/inventoryAndResourceManagement | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | aa9700e | Merge pull request #15 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | c377114 | fix:fallo al importar en drone.entity y fallo en drone-incident-api-enpoint linea 17 corregidos | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 1f800b3 | fix: rutas de environment, coma en es.json y enlace a agroquímicos | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 846bc60 | Merge pull request #16 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | adca2a8 | feat: implement field management and UI improvements | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 2a9114d | feat(ui): apply style guidelines to crops, fumigation areas, reports, drones, agrochemicals and profile | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 09c03ec | hotfix(locales): update es.json translations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ea06e09 | hotfix(locales): update es.json translations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b2c08d8 | hotfix(locales): fix missing parcelId in mission report and summary report | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ca71881 | hotfix(locales): fix missing parcelId in mission report and summary report | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | d564400 | hotfix(locales): add more sections to the mission translate json | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 07839c8 | feat:se modifico el presentation de Misiones | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | fbf7c46 | feat: add parcel map drawing and parcel-based weather check for missions | — | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 5aa5fda | fix(missions): keep zero overlap, restrict editing to unstarted missions and add parcel weather check | — | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1809be5 | feat(missions): add mission calendar, exclude out-of-service drones and show consumption by product | — | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 768baae | feat: se modifico el enviroments production | — | 09/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 5e0eab4 | Merge pull request #17 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 73b7010 | feat(infra): add hybrid API interceptor to route 40% of endpoints to real backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | f556108 | fix: se soluciono error en enviroment del link del backend mal implementado | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 90329be | feat: se modifico el enviroments.develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | ff0dacc | fix(field): load fumigation areas per selected parcel | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1b1476b | feat se modifico el parcel para que no choque con el backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 9da0203 | fix(field): align parcel and fumigation mappings with backend contract | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 49e4fc1 | Correccion del store drone | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 8376b94 | Merge pull request #19 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | c8d1eac | Merge branch 'develop' of https://github.com/Opensource-UPC/Agridron-frontend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | d69dd79 | feat:se agregaron cambios desde develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 432ac44 | fix(hosting): add SPA rewrite for client-site routes | — | 11/11/2026 |
+
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del backend 
+y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
@@ -4887,10 +5054,6 @@ Se compiló la nueva versión del Landing Page con el comando `ng build` y se pu
 
 *Figura: Ejecución de `firebase deploy` y confirmación del despliegue del Landing Page en Firebase Hosting.*
 
-![Historial de versiones del Landing Page en Firebase](assets/chapter5/sprint3/landing-firebase-console.png)
-
-*Figura: Historial de versiones de Firebase Hosting con la publicación del Sprint 3 del Landing Page.*
-
 ##### Despliegue de la Web Application
 
 Se actualizaron los environments de la Web Application con la URL de los Web Services desplegados en Render, se compiló la aplicación y se publicó en Firebase Hosting, con la regla de reescritura necesaria para las rutas de la SPA.
@@ -4902,10 +5065,6 @@ Se actualizaron los environments de la Web Application con la URL de los Web Ser
 ![Despliegue de la Web Application en Firebase Hosting](assets/chapter5/sprint3/frontend-firebase-deploy.png)
 
 *Figura: Ejecución de `firebase deploy` y confirmación del despliegue de la Web Application en Firebase Hosting.*
-
-![Historial de versiones de la Web Application en Firebase](assets/chapter5/sprint3/frontend-firebase-console.png)
-
-*Figura: Historial de versiones de Firebase Hosting con la publicación del Sprint 3 de la Web Application.*
 
 ##### Despliegue de los Web Services
 
