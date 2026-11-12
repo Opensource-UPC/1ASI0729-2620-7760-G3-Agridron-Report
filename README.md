@@ -75,9 +75,34 @@
 | 1.0.0   | 17/09/2026 | Agridron           | Evidencia completa de entrega AV1      |
 | 1.1.0   | 6/10/2026 | Agridron           | Evidencia completa de entrega TB1      |
 
----
-Project Report Collaboration Insights
-URL del repositorio (report): https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report
+| Versión | Fecha | Autor | Descripción de modificación |
+|:--|:--|:--|:--|
+| 0.1.0 | 05/09/2026 | Sayago Vidal, Sebastián Leonardo | Creación inicial del documento y de la plantilla del informe. |
+| 0.2.0 | 06/09/2026 | Sayago Vidal, Sebastián Leonardo | Estructura del informe, carpeta de assets y avance inicial del Capítulo I. |
+| 0.3.0 | 07/09/2026 | Damacen Galindo, Italo Gianfranco | Startup Profile, Solution Profile, Segmentos objetivo y Lean UX Canvas (1.1 a 1.3). |
+| 0.4.0 | 09/09/2026 | Vásquez Roncal, Alexander Felipe | Avance inicial de los Capítulos III y IV. |
+| 0.5.0 | 10/09/2026 | Sayago Vidal, Sebastián Leonardo | Software Configuration Management (5.1). |
+| 0.6.0 | 11/09/2026 | Nicho Huillcañahui, Edwin Noe | Registro y análisis de entrevistas (2.2.2 y 2.2.3). |
+| 0.7.0 | 13/09/2026 | Vásquez Roncal, Alexander Felipe | User Journey Mapping y Mock-ups de las aplicaciones. |
+| 0.8.0 | 13/09/2026 | Sayago Vidal, Sebastián Leonardo | Database Design (4.8). |
+| 0.9.0 | 14/09/2026 | Ramírez Gutiérrez, Gabriel | Avance del Sprint 1 y Landing Page (5.2.1). |
+| 0.10.0 | 15/09/2026 | Damacen Galindo, Italo Gianfranco | Student Outcome, perfil de integrante y registro de entrevistas. |
+| 0.11.0 | 16/09/2026 | Nicho Huillcañahui, Edwin Noe | Artefactos UX, Ubiquitous Language, User Stories, Technical Stories e Impact Mapping. |
+| 0.12.0 | 16/09/2026 | Vásquez Roncal, Alexander Felipe | Nuevas User Stories, enlaces de Miro y LucidChart y descripción del User Flow. |
+| 0.13.0 | 17/09/2026 | Vásquez Roncal, Alexander Felipe | Reestructuración del Capítulo IV, enlaces de Figma y Trello y evidencia del Sprint Review. |
+| 1.0.0 | 17/09/2026 | Sayago Vidal, Sebastián Leonardo | Domain flow, User Flow Diagram y tabla de contenido. Versión de entrega AV1. |
+| 1.1.0 | 30/09/2026 | Vásquez Roncal, Alexander Felipe | Corrección y ampliación de User Stories según feedback de AV1. |
+| 1.2.0 | 30/09/2026 | Sayago Vidal, Sebastián Leonardo | Actualización de Class Diagrams y Database Diagrams. |
+| 1.2.1 | 05/10/2026 | Sayago Vidal, Sebastián Leonardo | Corrección del formato del Sprint Backlog 1. |
+| 1.3.0 | 06/10/2026 | Damacen Galindo, Italo Gianfranco | Ampliación del Análisis competitivo (2.1.1) y de Herramientas del proyecto (5.1.1.2). |
+| 1.4.0 | 06/10/2026 | Sayago Vidal, Sebastián Leonardo | Sprint 2 (5.2.2). |
+| 2.0.0 | 06/10/2026 | Nicho Huillcañahui, Edwin Noe | Project Report Collaboration Insights, videos de exposición y Student Outcome. Versión de entrega TB1. |
+| 2.1.0 | 17/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección de la carátula, el Registro de Versiones, Project Report Collaboration Insights, Student Outcome, Startup Profile, Solution Profile y Segmentos objetivo según el enunciado, y unificación del segundo segmento como Operadores Técnicos de Drones. |
+| 2.2.0 | 18/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo II según el enunciado (Competidores, Entrevistas, Needfinding, Big Picture Event Storming y Ubiquitous Language), sustento estadístico de los Segmentos objetivo con citas enlazadas a sus fuentes, saltos de página al inicio de los Capítulos I y II y actualización de la tabla de contenido de ambos capítulos. |
+| 2.3.0 | 20/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo III según el enunciado: introducciones, User Stories con varios criterios de aceptación en formato Gherkin, Technical Stories para los recursos del RESTful API, explicación del Impact Mapping y Product Backlog rehecho con los IDs del 3.1, orden por valor de negocio y enlace de Trello. |
+| 2.4.0 | 04/11/2026 | Nicho Huillcañahui, Edwin Noe | Actualización de Inventory & Resource Management: User Stories DR-001 a DR-006, Technical Stories TU-020 a TU-022 y nueva TU-027, Ubiquitous Language, Bounded Context, arquitectura, arquitectura de información, restricciones de base de datos y estado de las tareas del Sprint 2. |
+| 2.5.0 | 08/11/2026 | Sayago Vidal, Sebastián Leonardo | Implementación del base del contenido del Sprint 3. Actualizacion de contenido de Sprint 1 y 2 |
+| 2.5.1 | 11/11/2026 | Sayago Vidal, Sebastián Leonardo | Correcciones de contenido del sprint 3 |
 
 URL del repositorio (landing-page): https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3
 
@@ -252,12 +277,22 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+   - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Interview Design](#531-interview-design)
     - [5.3.2. Interview Registry](#532-interview-registry)
     - [5.3.3. UX Heuristics & Principles Evaluation](#533-UX Heuristics & Principles Evaluation)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A: Evidencias adicionales](#anexo-a-evidencias-adicionales)
@@ -292,6 +327,33 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Implementación del capítulo 3 y 4, además de creación de mockups de landing page y Web Application.</p>
           <p><em><b>TB1</b></em><br>Implementación del Bounded Contex 2 FieldManamegent y revision del readme</p>
         <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando de manera clara y ordenada el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada. Durante la presentación, expliqué el proceso Lean UX y las decisiones tomadas para orientar la propuesta de solución, utilizando diapositivas y recursos visuales para facilitar la comprensión de los contenidos según el objetivo de cada sección.</p>
+      <td><b>Comunica oralmente con efectividad a diferentes rangos de audiencia.</b></td>
+      <td>
+        <p><b>Damacen Galindo, Italo Gianfranco</b></p>
+        <p><b><i>AV1</i></b><br>Expuse el Capítulo I, presentando el perfil de la startup, la problemática y el proceso Lean UX con un lenguaje sencillo y apoyado en diapositivas con esquemas visuales. Al cierre de mi parte respondí las preguntas del docente para confirmar que la relación entre la problemática y la propuesta de valor se había comprendido.</p>
+        <p><b><i>TB1</i></b><br>Expuse la primera parte de la presentación, que abarcó la carátula, la Landing Page y la arquitectura de la solución, y luego el Bounded Context Weather Integration. Adapté la explicación técnica al público usando los diagramas de diseño como guía y verifiqué con preguntas que se entendiera cómo la plataforma consulta el servicio meteorológico externo.</p>
+        <p><b><i>AV2</i></b><br>En el video About the Team expliqué ante cámara el Bounded Context Weather Integration y su integración con la API de Open-Meteo. Para que una audiencia no técnica entendiera su utilidad, describí con ejemplos concretos las reglas de alerta: si el viento supera los 15 km/h se muestra una alerta, y si el viento es de 15 km/h o menos, la temperatura está por debajo de 28 °C y no llueve, la aplicación indica que las condiciones son favorables para fumigar. También expliqué qué ve el usuario cuando no permite el acceso a su ubicación o cuando el servicio del clima no responde, y cerré con lo aprendido sobre el consumo de servicios externos y la organización del código por capas.</p>
+        <p><b>Nicho Huillcañahui, Edwin Noe</b></p>
+        <p><b><i>AV1</i></b><br>Participé en el video de exposición explicando los hallazgos del Capítulo II. Presenté los User Personas y sus necesidades con un lenguaje sencillo para una audiencia no técnica, apoyándome en las capturas de UXPressia en lugar de leer texto. En las entrevistas de Needfinding apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar.</p>
+        <p><b><i>TB1</i></b><br>Expuse el diseño del Bounded Context Inventory & Resource Management, explicando sus entidades (drones, agroquímicos, boquillas y mantenimiento), su organización en cuatro capas y sus endpoints. Usé los diagramas como apoyo visual y respondí las preguntas del docente para validar que la lógica de negocio del contexto había quedado clara.</p>
+        <p><b><i>AV2</i></b><br>En el video About the Team presenté ante cámara el Bounded Context Inventory & Resource Management, explicando qué gestiona (drones, agroquímicos, boquillas y mantenimientos) y cómo se priorizó completar la Web Application en Angular antes de avanzar con el backend. Comuniqué con claridad el alcance real de mi avance: alrededor del 40 % de los endpoints del contexto, correspondientes a las operaciones GET y POST de drones y boquillas, verificadas desde Swagger. Además, relacioné las decisiones de diseño DDD (aggregates, value objects y records de comandos) con el objetivo de que el módulo sea fácil de ampliar, y cerré con una reflexión sobre el paso de consumir una fake API en el frontend a construir los servicios reales e integrarlos con el apoyo del equipo. Mi avance también comprende la actualización de la landing page (se incluyen videos about the team y about the product)</p>
+        <p><b>Ramírez Gutiérrez, Gabriel</b></p>
+        <p><b><i>AV1</i></b><br>Presenté la propuesta de valor y el funcionamiento de la Landing Page, explicando la organización de sus secciones, los recursos visuales y la experiencia planteada para cada segmento de usuarios.</p>
+        <p><b><i>TB1</i></b><br>Presenté la versión actualizada de la Landing Page mediante una demostración en vivo, mostrando cómo los call-to-action dirigen a cada segmento hacia la Web Application. Antes de la exposición ensayé la demostración con el equipo e incorporé sus observaciones para que el recorrido fuera claro para un público no técnico.</p>
+        <p><em><b>AV2</b></em><br>Participé en el video de exposición del proceso de desarrollo del Bounded Context Flight Operations (Core Domain), explicando mediante voz en off y testimonio ante cámara las decisiones de diseño y de implementación. Presenté el ciclo de vida de la misión (planificada, autorizada, en progreso, pausada, completada o cancelada) apoyándome en diagramas, el código del agregado Mission y la documentación Swagger de la API, adaptando el lenguaje para que una audiencia no técnica comprendiera el propósito del contexto y una audiencia técnica pudiera seguir la arquitectura en capas y la integración con Field Management mediante eventos.</p>        
+        <p><b>Sayago Vidal, Sebastián Leonardo</b></p>
+        <p><b><i>AV1</i></b><br>Presenté las decisiones técnicas de AgriDron Solutions, explicando la arquitectura de software, el diseño y la configuración del entorno de desarrollo mediante diagramas, y ajusté el nivel de detalle técnico según las preguntas recibidas.</p>
+        <p><b><i>TB1</i></b><br>Expliqué el Bounded Context Analytics & Reporting, comunicando sus responsabilidades, operaciones, eventos y su relación con la arquitectura general. Utilicé los diagramas de diseño para facilitar la comprensión y confirmé con las preguntas del docente que el flujo de reportes había sido entendido.</p>
+          <p><b><i>AV2</i></b><br>Presenté los avances técnicos de AgriDron Solutions, explicando la arquitectura del backend, la organización de sus componentes bajo los principios de Domain-Driven Design y la integración de los servicios RESTful con la aplicación web.  Asimismo, adapté la explicación para relacionar las decisiones técnicas con las funcionalidades que utilizarán los agricultores y operadores técnicos.</p>
+        <p><b>Vásquez Roncal, Alexander Felipe</b></p>
+        <p><b><i>AV1</i></b><br>Expuse los Capítulos III y IV, explicando las User Stories, el Impact Mapping y los Mock-ups de la Landing Page y de la Web Application, con las pantallas como apoyo visual para que la audiencia relacionara cada requisito con su diseño.</p>
+        <p><b><i>TB1</i></b><br>Expuse el Bounded Context Field Management, explicando cómo se registran fincas y parcelas, y escuché las observaciones del equipo sobre la integración de ramas antes de proponer una solución consensuada.</p>
+        <p><b><i>AV2</i></b><br>En el video About the Team compartí ante cámara una reflexión sobre la dinámica del equipo durante el proyecto. Destaqué sus fortalezas, como la buena relación entre los integrantes y el cumplimiento de las responsabilidades asignadas, y señalé con franqueza los aspectos por mejorar: la comunicación por WhatsApp y la acumulación de pendientes cerca de cada entrega. Usé un lenguaje cercano y directo para que tanto el docente como los visitantes de la Landing Page conocieran cómo trabajamos como equipo. Mis tareas principales fueron documentar el despliegue del back y actualizar la nueva versión de la landing Page incluyendo nuevas secciónes como precios y sección de preguntas.</p>
+       </td>
+      <td>
+        <p><b><i>AV1</i></b><br>Como equipo, durante AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones de su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p>
+        <p><b><i>TB1</i></b><br>En esta entrega cada integrante expuso el Bounded Context a su cargo con apoyo de diagramas, adaptando el lenguaje técnico para que la arquitectura fuera comprensible para el docente y el resto del equipo. A diferencia de AV1, el equipo ensayó la exposición en conjunto y usó las preguntas recibidas para comprobar que cada mensaje había llegado de forma clara, lo que fortaleció la coherencia de la presentación.</p>
+        <p><b><i>AV2</i></b><br>En AV2 la comunicación oral se trasladó al formato audiovisual: además del video de exposición, cada integrante grabó su testimonio ante cámara para el video About the Team, que también está dirigido a los visitantes de la Landing Page. Esto nos exigió explicar el trabajo técnico de cada Bounded Context en pocos minutos y con un lenguaje comprensible para personas que no conocen el código, apoyándonos en ejemplos concretos (las reglas de alerta del clima, el ciclo de vida de la misión y las reglas del inventario) y en reflexiones honestas sobre lo que funcionó y lo que debemos mejorar como equipo.</p>
       </td>
       <td><p>Como equipo, durante el AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones correspondientes a su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p></td>
     </tr>
@@ -306,6 +368,33 @@ Se realizaron las respectivas correcciones al documento en relación a las revis
         <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Me encargué de crear la organización en GitHub para poder trabajar de manera colaborativa.</p>
           <p><em><b>TB1</b></em><br>Coordinacion del proyecto para unir las ramas en una sola y revisar que el web app funcione</p>
         <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Elaboré y estructuré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes, la problemática identificada y los componentes del proceso Lean UX. Organicé la información de manera clara y sintetizada, empleando un lenguaje técnico acorde con el contexto del proyecto para comunicar de forma ordenada el propósito, contexto, problemática y propuesta de valor de la solución.</p>
+      <td><b>Comunica por escrito con efectividad a diferentes rangos de audiencia.</b></td>
+      <td>
+        <p><b>Damacen Galindo, Italo Gianfranco</b></p>
+        <p><b><i>AV1</i></b><br>Elaboré el Capítulo I del informe, desarrollando el Startup Profile, el Solution Profile, los antecedentes, la problemática y los componentes del proceso Lean UX. Organicé la información de forma sintetizada y revisé la redacción antes de cada commit para comunicar con claridad el propósito y la propuesta de valor de la solución.</p>
+        <p><b><i>TB1</i></b><br>Amplié el Análisis competitivo (2.1.1) y la tabla de Herramientas del proyecto (5.1.1.2), siguiendo la estructura de tablas exigida por el enunciado. Verifiqué que la información fuera consistente con el resto del informe y corregí ortografía y formato antes de integrarla.</p>
+        <p><b><i>AV2</i></b><br>Redacté los mensajes que la aplicación muestra al operador en el módulo del clima: la alerta por viento fuerte, el aviso de condiciones favorables para fumigar, el mensaje cuando no se permite el acceso a la ubicación y el aviso cuando los datos meteorológicos no están disponibles, cuidando que fueran breves y comprensibles para un usuario no técnico. En el backend revisé el cliente HTTP del servicio meteorológico y su manejo de respuestas y errores externos (S3-T32), para mantener claro el contrato de integración que consumen los demás módulos.</p>
+        <p><b>Nicho Huillcañahui, Edwin Noe</b></p>
+        <p><b><i>AV1</i></b><br>Redacté las secciones de Análisis competitivo, diseño y registro de entrevistas y Needfinding, describiendo las respuestas de los entrevistados y sustentando con porcentajes las características de cada segmento. Seguí la estructura de tablas exigida y revisé ortografía y gramática antes de publicar.</p>
+        <p><b><i>TB1</i></b><br>Redacté la documentación técnica del Bounded Context Inventory & Resource Management, especificando sus entidades y sus cuatro capas siguiendo los principios de DDD. Mantuve la nomenclatura en inglés para facilitar la integración con el código del equipo.</p>
+        <p><b><i>AV2</i></b><br>Implementé los endpoints de drones y boquillas en la rama feature/inventoryAndResourceManagement del backend (S3-T17 y S3-T18). Documenté cada endpoint con anotaciones OpenAPI, indicando su propósito y los códigos de respuesta posibles (por ejemplo, 409 cuando el número de serie ya existe y 422 cuando la boquilla no tiene unidades instalables), para que el equipo de frontend sepa cómo interpretar cada error sin leer el código. Además, escribí comentarios Javadoc en los agregados, value objects y servicios explicando las reglas de negocio del registro de drones y del stock de boquillas.</p>
+        <p><b>Ramírez Gutiérrez, Gabriel</b></p>
+        <p><b><i>AV1</i></b><br>Diseñé y desarrollé la Landing Page, definiendo su estructura, su contenido visual y la distribución de sus secciones para comunicar el valor de la solución de forma clara y atractiva.</p>
+        <p><b><i>TB1</i></b><br>Redacté los textos actualizados de la Landing Page (propuesta de valor, planes y llamados a la acción) con un lenguaje breve y orientado a cada segmento. Antes de publicarlos verifiqué su ortografía y su coherencia con la información del informe.</p>
+        <p><em><b>AV2</b></em><br>Implementé el Bounded Context Flight Operations en la rama feature/flight-operations del backend, siguiendo DDD y CQRS en cuatro capas (Domain, Application, Infrastructure e Interfaces). Documenté el código en inglés, según el estándar acordado con el equipo, con comentarios Javadoc en el ciclo de vida de la misión y en el contrato público de la fachada ACL. Describí cada endpoint REST con anotaciones OpenAPI (resumen y descripción), de modo que la API pueda consumirse desde Swagger sin leer el código. Además, usé mensajes de commit convencionales (feat(flight): ...) para dejar un historial claro del avance por capas.</p>          
+        <p><b>Sayago Vidal, Sebastián Leonardo</b></p>
+        <p><b><i>AV1</i></b><br>Desarrollé la documentación técnica de arquitectura, diseño y Software Configuration Management, con un lenguaje técnico, preciso y organizado para comunicar las decisiones de la solución.</p>
+        <p><b><i>TB1</i></b><br>Documenté el Bounded Context Analytics & Reporting, incluyendo responsabilidades, conceptos, operaciones, eventos y componentes, manteniendo coherencia con los demás artefactos de arquitectura. Además, organicé la documentación del Sprint 2 para esta entrega.</p>
+          <p><b><i>AV2</i></b><br>Actualicé la documentación técnica del proyecto, incluyendo los diagramas de arquitectura, diseño de clases y base de datos, así como la documentación correspondiente al Software Configuration Management. También participé en la actualización de los contenidos de los Sprint Backlogs 1 y 2 y en la elaboración de la documentación del Sprint 3.</p>
+        <p><b>Vásquez Roncal, Alexander Felipe</b></p>
+        <p><b><i>AV1</i></b><br>Creé la organización en GitHub para el trabajo colaborativo del equipo y redacté la documentación de los Capítulos III y IV, organizando las User Stories y la descripción de los Mock-ups.</p>
+        <p><b><i>TB1</i></b><br>Coordiné la integración de las ramas del proyecto y revisé el README completo antes de la entrega, verificando que la estructura y los enlaces fueran correctos.</p>
+        <p><b><i>AV2</i></b><br>Creé el proyecto base del backend en Spring Boot, implementé el Bounded Context Shared y redacté el documento docs/backend-conventions.md con las pautas que el equipo debía seguir al construir cada Bounded Context. En Field Management documenté la paginación y el ordenamiento de su API, y revisé que los casos de uso, servicios, repositorios y controladores del backend respetaran la arquitectura establecida (S3-T31). Mantuve commits convencionales (feat, fix, docs, test, perf) para que el historial del repositorio comunicara con claridad cada cambio.</p>
+</td>
+      <td>
+        <p><b><i>AV1</i></b><br>Como equipo, durante AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar la propuesta de solución, así como los aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos.</p>
+        <p><b><i>TB1</i></b><br>En esta entrega el equipo corrigió el informe a partir de la retroalimentación de AV1 y documentó los Bounded Contexts con nomenclatura en inglés, manteniendo la coherencia de términos entre el informe, los diagramas y el código. Cada sección se revisó en ortografía, formato y enlaces antes de integrarse mediante pull requests, lo que permitió validar la calidad del informe antes de su presentación.</p>
+        <p><b><i>AV2</i></b><br>En AV2 la comunicación escrita se extendió al código y a los servicios: documentamos los endpoints con OpenAPI/Swagger para que cualquier integrante pudiera consumirlos sin leer la implementación, explicamos las reglas de negocio con comentarios en el código, definimos convenciones comunes para el backend y usamos commits convencionales para que el historial de los repositorios reflejara el avance de cada Bounded Context. Además, mantuvimos el Sprint Backlog 3 y el tablero de Trello con el estado de cada tarea, lo que permitió comunicar con transparencia el avance real del sprint.</p>
       </td>
       <td><p>Como equipo, durante el AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar tanto la propuesta de solución como aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos durante este avance.</p></td>
     </tr>
@@ -3921,30 +4010,26 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 | Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
-| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | T01 | Definir el mensaje principal y el público objetivo. | Definir el mensaje principal de la Landing Page y establecer el público objetivo al que se dirige la propuesta de valor de AgriDron. | 2 | Italo Damacen | Done |
-| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | T02 | Diseñar la composición visual del hero section y seleccionar la imagen principal. | Diseñar la estructura visual del hero section y seleccionar los recursos gráficos principales para comunicar la propuesta de valor. | 3 | Sebastián Sayago | Done |
-| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | T03 | Implementar el hero section, el CTA principal y la navegación hacia las secciones. | Implementar el hero section de la Landing Page, incluyendo el CTA principal y los elementos de navegación hacia las demás secciones. | 4 | Sebastián Sayago | Done |
-| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron para entender rápidamente qué ofrece la solución. | T04 | Validar la visualización del hero y el CTA en desktop y mobile. | Verificar la correcta visualización y adaptación responsive del hero section y del CTA principal en dispositivos desktop y mobile. | 2 | Edwin Nicho | Done |
-| Sprint 1 | LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | T05 | Definir los servicios y beneficios que se comunicarán al visitante. | Identificar y definir los principales servicios y beneficios de AgriDron que serán presentados en la Landing Page. | 2 | Italo Damacen | Done |
-| Sprint 1 | LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | T06 | Diseñar las tarjetas, iconos y jerarquía visual de la sección. | Diseñar las tarjetas, iconos y jerarquía visual necesarios para presentar los servicios de manera clara y organizada. | 3 | Alexander Vásquez | Done |
-| Sprint 1 | LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | T07 | Implementar la sección de servicios con al menos tres opciones. | Implementar la sección de servicios de la Landing Page incorporando al menos tres opciones representativas de la plataforma. | 4 | Sebastián Sayago | Done |
-| Sprint 1 | LP-002 | Como visitante, quiero observar los servicios principales de la plataforma para evaluar si responde a mis necesidades. | T08 | Comprobar la legibilidad, orden y adaptación responsive de las tarjetas. | Verificar la legibilidad, distribución visual y comportamiento responsive de las tarjetas de servicios. | 2 | Edwin Nicho | Done |
-| Sprint 1 | LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | T09 | Definir los planes, precios y características que se mostrarán. | Definir los planes de suscripción, precios y principales características que serán presentados al visitante. | 2 | Italo Damacen | Done |
-| Sprint 1 | LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | T10 | Diseñar la tabla o tarjetas comparativas de planes. | Diseñar la estructura visual de las tarjetas o tabla comparativa para facilitar la evaluación de los planes disponibles. | 3 | Alexander Vásquez | Done |
-| Sprint 1 | LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | T11 | Implementar la sección de planes y destacar la opción recomendada. | Implementar la sección de planes de suscripción y destacar visualmente la alternativa recomendada para el visitante. | 4 | Sebastián Sayago | Done |
-| Sprint 1 | LP-003 | Como visitante, quiero conocer los planes de precios y suscripción para tomar una decisión informada sobre la contratación del servicio. | T12 | Verificar la claridad de precios, beneficios y CTA de cada plan. | Comprobar que los precios, beneficios y llamados a la acción de cada plan sean claros y correctamente visualizados. | 2 | Edwin Nicho | Done |
-| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | T13 | Definir el CTA de registro y su ubicación dentro de la landing page. | Definir el llamado a la acción para el registro y establecer las ubicaciones donde será presentado dentro de la Landing Page. | 2 | Italo Damacen | Done |
-| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | T14 | Diseñar el formulario o modal de registro y sus estados visuales. | Diseñar la interfaz del formulario o modal de registro considerando sus principales estados visuales. | 3 | Alexander Vásquez | Done |
-| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | T15 | Implementar el enlace y la navegación hacia el flujo de registro. | Implementar el enlace correspondiente y la navegación desde la Landing Page hacia el flujo de registro de la Web Application. | 3 | Gabriel Ramírez | Done |
-| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a las funcionalidades de la Web Application. | T16 | Validar el CTA y la navegación de registro desde desktop y mobile. | Verificar que el CTA y la navegación hacia el registro funcionen correctamente y se adapten a dispositivos desktop y mobile. | 2 | Edwin Nicho | Done |
-| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | T17 | Definir el CTA de inicio de sesión en la navegación y en las secciones relevantes. | Definir las ubicaciones del llamado a la acción de inicio de sesión dentro de la navegación y las secciones relevantes de la Landing Page. | 2 | Italo Damacen | Done |
-| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | T18 | Diseñar el acceso visual al formulario de inicio de sesión. | Diseñar el acceso visual hacia el formulario de inicio de sesión manteniendo la consistencia con la interfaz de la Landing Page. | 3 | Alexander Vásquez | Done |
-| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | T19 | Implementar el enlace y la navegación hacia el flujo de inicio de sesión. | Implementar el enlace y la navegación desde la Landing Page hacia el flujo de inicio de sesión de la Web Application. | 3 | Gabriel Ramírez | Done |
-| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales para acceder a la Web Application. | T20 | Comprobar que el CTA sea visible, accesible y responsive. | Verificar la visibilidad, accesibilidad y adaptación responsive del CTA de inicio de sesión en los diferentes tamaños de pantalla. | 2 | Edwin Nicho | Done |
-| Sprint 1 | LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | T21 | Redactar y organizar el contenido de términos, condiciones y privacidad. | Redactar y estructurar el contenido correspondiente a términos, condiciones de servicio y políticas de privacidad. | 3 | Italo Damacen | Done |
-| Sprint 1 | LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | T22 | Diseñar los enlaces legales y la estructura del footer. | Diseñar la estructura visual del footer y los enlaces correspondientes a la información legal de la plataforma. | 2 | Alexander Vásquez | Done |
-| Sprint 1 | LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | T23 | Implementar el footer y la navegación a las páginas legales. | Implementar el footer de la Landing Page y la navegación hacia las páginas o secciones con información legal. | 3 | Sebastián Sayago | Done |
-| Sprint 1 | LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio para conocer las políticas de uso y privacidad. | T24 | Verificar los enlaces, el contraste y la lectura en dispositivos móviles. | Comprobar el funcionamiento de los enlaces legales, el contraste visual y la legibilidad del contenido en dispositivos móviles. | 2 | Edwin Nicho | Done |
+| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones. | T01 | Definir el mensaje principal y el público objetivo. | Definir el mensaje principal de la Landing Page y establecer el público objetivo al que se dirige la propuesta de valor de AgriDron. | 2 | Italo Damacen | Done |
+| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones. | T02 | Diseñar la composición visual del hero section y seleccionar la imagen principal. | Diseñar la estructura visual del hero section y seleccionar los recursos gráficos principales para comunicar la propuesta de valor. | 3 | Sebastián Sayago | Done |
+| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones. | T03 | Implementar el hero section, el CTA principal y la navegación hacia las secciones. | Implementar el hero section de la Landing Page, incluyendo el CTA principal y los elementos de navegación hacia las demás secciones. | 4 | Sebastián Sayago | Done |
+| Sprint 1 | LP-001 | Como visitante, quiero visualizar la propuesta de valor de AgriDron Solutions en el portal principal, para entender los beneficios de la gestión de fumigación con drones. | T04 | Validar la visualización del hero y el CTA en desktop y mobile. | Verificar la correcta visualización y adaptación responsive del hero section y del CTA principal en dispositivos desktop y mobile. | 2 | Edwin Nicho | Done |
+| Sprint 1 | LP-002 | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola. | T05 | Definir los servicios y beneficios que se comunicarán al visitante. | Identificar y definir los principales servicios y beneficios de AgriDron que serán presentados en la Landing Page. | 2 | Italo Damacen | Done |
+| Sprint 1 | LP-002 | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola. | T06 | Diseñar las tarjetas, iconos y jerarquía visual de la sección. | Diseñar las tarjetas, iconos y jerarquía visual necesarios para presentar los servicios de manera clara y organizada. | 3 | Alexander Vásquez | Done |
+| Sprint 1 | LP-002 | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola. | T07 | Implementar la sección de servicios con al menos tres opciones. | Implementar la sección de servicios de la Landing Page incorporando al menos tres opciones representativas de la plataforma. | 4 | Sebastián Sayago | Done |
+| Sprint 1 | LP-002 | Como visitante, quiero conocer los servicios de precisión ofrecidos, para evaluar si responden a las necesidades de mi producción agrícola. | T08 | Comprobar la legibilidad, orden y adaptación responsive de las tarjetas. | Verificar la legibilidad, distribución visual y comportamiento responsive de las tarjetas de servicios. | 2 | Edwin Nicho | Done |
+| Sprint 1 | LP-003 | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado. | T09 | Definir los planes, precios y características que se mostrarán. | Definir los planes de suscripción, precios y principales características que serán presentados al visitante. | 2 | Italo Damacen | Done |
+| Sprint 1 | LP-003 | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado. | T10 | Diseñar la tabla o tarjetas comparativas de planes. | Diseñar la estructura visual de las tarjetas o tabla comparativa para facilitar la evaluación de los planes disponibles. | 3 | Alexander Vásquez | Done |
+| Sprint 1 | LP-003 | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado. | T11 | Implementar la sección de planes y destacar la opción recomendada. | Implementar la sección de planes de suscripción y destacar visualmente la alternativa recomendada para el visitante. | 4 | Sebastián Sayago | Done |
+| Sprint 1 | LP-003 | Como visitante, quiero revisar las tarifas y planes disponibles, para seleccionar el esquema comercial adecuado. | T12 | Verificar la claridad de precios, beneficios y CTA de cada plan. | Comprobar que los precios, beneficios y llamados a la acción de cada plan sean claros y correctamente visualizados. | 2 | Edwin Nicho | Done |
+| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | T13 | Definir el CTA de registro y su ubicación dentro de la landing page. | Definir el llamado a la acción para el registro y establecer las ubicaciones donde será presentado dentro de la Landing Page. | 2 | Italo Damacen | Done |
+| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | T14 | Diseñar el formulario o modal de registro y sus estados visuales. | Diseñar la interfaz del formulario o modal de registro considerando sus principales estados visuales. | 3 | Alexander Vásquez | Done |
+| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | T15 | Implementar el enlace y la navegación hacia el flujo de registro. | Implementar el enlace correspondiente y la navegación desde la Landing Page hacia el flujo de registro de la Web Application. | 3 | Gabriel Ramírez | Done |
+| Sprint 1 | LP-004 | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application. | T16 | Validar el CTA y la navegación de registro desde desktop y mobile. | Verificar que el CTA y la navegación hacia el registro funcionen correctamente y se adapten a dispositivos desktop y mobile. | 2 | Edwin Nicho | Done |
+| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | T17 | Definir el CTA de inicio de sesión en la navegación y en las secciones relevantes. | Definir las ubicaciones del llamado a la acción de inicio de sesión dentro de la navegación y las secciones relevantes de la Landing Page. | 2 | Italo Damacen | Done |
+| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | T18 | Diseñar el acceso visual al formulario de inicio de sesión. | Diseñar el acceso visual hacia el formulario de inicio de sesión manteniendo la consistencia con la interfaz de la Landing Page. | 3 | Alexander Vásquez | Done |
+| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | T19 | Implementar el enlace y la navegación hacia el flujo de inicio de sesión. | Implementar el enlace y la navegación desde la Landing Page hacia el flujo de inicio de sesión de la Web Application. | 3 | Gabriel Ramírez | Done |
+| Sprint 1 | LP-005 | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application. | T20 | Comprobar que el CTA sea visible, accesible y responsive. | Verificar la visibilidad, accesibilidad y adaptación responsive del CTA de inicio de sesión en los diferentes tamaños de pantalla. | 2 | Edwin Nicho | Done |
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 Durante este sprint se desarrolló la base del producto AgriDron con una landing page informativa, una estructura visual clara para servicios y un primer flujo de autenticación. Además, se inició la definición de los principales módulos de gestión de fincas y misiones, de acuerdo con la arquitectura propuesta en el proyecto.
@@ -3963,7 +4048,9 @@ Se evidenció avance continuo en la implementación de la landing page, la estru
 
 ![Evidencia de ejecucion de landing](assets/chapter4/landing_mockup.png)
 
-**Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+*Figura: Landing Page del Sprint 1 en móvil (rama develop).* La navegación y el botón Solicitar Demo se reorganizan en varias líneas y el hero se adapta al ancho de la pantalla.
+
+**Link LandingPage:** [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
@@ -4050,42 +4137,34 @@ En esta sección se registra el trabajo planificado para el Sprint 2 a partir de
 
 | Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
-| Sprint 2 | AU-001 | Registro de usuario agricultor | T01 | Definir datos requeridos para el registro | Identificar y estructurar los datos personales necesarios para registrar un usuario con rol de agricultor. | 2 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-001 | Registro de usuario agricultor | T02 | Implementar flujo de registro de agricultor | Implementar el flujo de registro y validación de los datos proporcionados por el agricultor. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-001 | Registro de usuario agricultor | T03 | Validar creación del perfil | Verificar que el registro genere correctamente el perfil asociado al rol de agricultor. | 2 | Edwin Nicho | Done |
-| Sprint 2 | AU-003 | Inicio de sesión seguro | T04 | Implementar autenticación de usuarios | Implementar el flujo de autenticación mediante las credenciales registradas por el usuario. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-003 | Inicio de sesión seguro | T05 | Validar acceso según rol | Comprobar que el usuario autenticado pueda acceder al panel correspondiente a su rol. | 3 | Sebastián Sayago | Done |
-| Sprint 2 | AU-006 | Asignación y gestión de roles | T06 | Definir roles y permisos | Establecer los roles de usuario y los permisos asociados dentro de la plataforma. | 2 | Gabriel Ramírez | Done |
-| Sprint 2 | AU-006 | Asignación y gestión de roles | T07 | Implementar gestión de roles | Implementar la asignación y actualización de roles para los usuarios administrados por el sistema. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | FM-001 | Registro de finca agrícola | T08 | Implementar registro de fincas | Implementar el registro de nombre, ubicación y departamento de una finca agrícola. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | FM-002 | Delimitación geográfica de parcela | T09 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
-| Sprint 2 | FM-002 | Delimitación geográfica de parcela | T10 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | FM-004 | Asignación de tipo de cultivo y fenología | T11 | Registrar información del cultivo | Implementar el registro del tipo de cultivo y etapa fenológica asociada a una parcela. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | FM-005 | Consulta y filtrado de parcelas | T12 | Implementar consulta y filtros | Permitir la consulta de parcelas y aplicar filtros según los criterios definidos por el usuario. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | DR-001 | Registro de nuevo dron en inventario | T13 | Registrar información técnica del dron | Implementar el registro del modelo, número de serie y capacidad del tanque del dron. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-002 | Consulta del estado operativo de flota | T14 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en mantenimiento o en misión. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-003 | Registro de agroquímicos e insumos | T15 | Registrar insumos agrícolas | Implementar el registro de productos agroquímicos y sus principales características. | 3 | Edwin Nicho | Done |
-| Sprint 2 | DR-005 | Programación de mantenimiento preventivo | T16 | Registrar mantenimiento de drones | Implementar el registro de fechas y horas de mantenimiento preventivo de los drones. | 3 | Edwin Nicho | Done |
-| Sprint 2 | MI-001 | Solicitud de misión de fumigación | T17 | Crear solicitud de misión | Implementar el flujo para crear una solicitud indicando parcela, fecha estimada y producto a aplicar. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | MI-002 | Asignación de dron e insumos a la misión | T18 | Asignar recursos a la misión | Implementar la selección de un dron disponible y los insumos requeridos para una misión. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | MI-003 | Asignación de operador técnico a la misión | T19 | Asignar operador a la misión | Implementar la asignación del operador técnico responsable de ejecutar la misión. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | MI-004 | Configuración de parámetros de vuelo | T20 | Configurar parámetros operativos | Implementar la configuración de altura, velocidad y tasa de pulverización de la misión. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | MI-005 | Consulta de calendario de misiones | T21 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | TR-001 | Visualización de posición de dron en tiempo real | T22 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | TR-002 | Monitoreo de indicadores de vuelo | T23 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | Done |
-| Sprint 2 | TR-005 | Registro de finalización de misión | T24 | Registrar finalización de operación | Implementar el cambio de estado de la misión a realizada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
-| Sprint 2 | CL-001 | Consulta de condiciones climáticas actuales | T25 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
-| Sprint 2 | CL-002 | Alerta por exceso de velocidad de viento | T26 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
-| Sprint 2 | CL-003 | Identificación de ventana óptima de pulverización | T27 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | Done |
-| Sprint 2 | CL-005 | Configuración de umbrales meteorológicos por cultivo | T28 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
-| Sprint 2 | RP-001 | Generación de informe de servicio fitosanitario | T29 | Consolidar resultados de misión | Integrar los datos obtenidos de una misión completada para generar un resumen de servicio. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-002 | Exportación de informes en formato PDF | T30 | Implementar exportación de reportes | Implementar la generación y exportación del informe de fumigación en formato PDF. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-003 | Visualización de panel con métricas generales | T31 | Implementar dashboard de métricas | Implementar la visualización de métricas generales de hectáreas tratadas y horas de vuelo. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-004 | Historial de misiones con filtros avanzados | T32 | Implementar historial de misiones | Implementar la consulta del historial de operaciones y sus filtros por fecha y parcela. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | RP-005 | Balance de consumo de productos agroquímicos | T33 | Consolidar consumo de insumos | Implementar el cálculo y presentación del volumen acumulado de productos utilizados por finca. | 4 | Sebastián Sayago | Done |
-| Sprint 2 | TU-001 | Configuración de arquitectura limpia base | T34 | Estructurar backend por capas | Configurar la estructura base del backend siguiendo la separación entre Domain, Application, Infrastructure e Interfaces. | 4 | Gabriel Ramírez | Done |
-| Sprint 2 | TU-005 | Integración de cliente de servicio meteorológico | T35 | Implementar cliente de clima | Implementar el cliente encargado de consumir la API meteorológica externa y normalizar su respuesta. | 4 | Italo Damacen | Done |
-| Sprint 2 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | T36 | Documentar endpoints | Configurar la documentación de los servicios mediante OpenAPI/Swagger. | 3 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-001 | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | T01 | Definir los datos e implementar el flujo de registro | Identificar los datos personales necesarios para registrar un usuario con rol de agricultor e implementar el flujo de registro y la validación de esos datos. | 6 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-001 | Como agricultor, quiero registrar una cuenta en la plataforma, para gestionar mis terrenos y solicitar misiones de fumigación. | T02 | Validar creación del perfil | Verificar que el registro genere correctamente el perfil asociado al rol de agricultor. | 2 | Edwin Nicho | Done |
+| Sprint 2 | AU-003 | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | T03 | Implementar autenticación de usuarios | Implementar el flujo de autenticación mediante las credenciales registradas por el usuario. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | AU-003 | Como usuario registrado, quiero autenticarme mediante credenciales de acceso, para ingresar a mis funcionalidades personalizadas. | T04 | Validar acceso según rol | Comprobar que el usuario autenticado pueda acceder al panel correspondiente a su rol. | 3 | Sebastián Sayago | In-Process |
+| Sprint 2 | AU-006 | Como usuario nuevo, quiero elegir mi rol al registrarme, para acceder a las funciones que me corresponden. | T05 | Definir los roles e implementar su selección en el registro | Establecer los roles de usuario y sus permisos, e implementar la selección de rol en el formulario de registro y su asignación a la cuenta creada. | 6 | Gabriel Ramírez | Done |
+| Sprint 2 | FM-001 | Como agricultor, quiero registrar las fincas de mi propiedad, para organizar geográficamente mis parcelas. | T06 | Implementar registro de fincas | Implementar el registro del nombre y la ubicación de una finca agrícola. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | FM-004 | Como agricultor, quiero especificar el cultivo y la etapa fenológica de la parcela, para parametrizar las misiones de pulverización. | T09 | Registrar información del cultivo | Implementar el registro del tipo de cultivo y etapa fenológica asociada a una parcela. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | FM-005 | Como agricultor, quiero filtrar mis parcelas por tipo de cultivo o superficie, para ubicar rápidamente terrenos específicos. | T10 | Implementar consulta y filtros | Permitir la consulta de parcelas y aplicar filtros según los criterios definidos por el usuario. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | DR-001 | Como operador técnico, quiero dar de alta un dron con sus especificaciones físicas, para integrarlo a la flota utilizable. | T11 | Registrar información técnica del dron | Implementar el registro del modelo, número de serie y capacidad del tanque del dron. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-002 | Como operador técnico, quiero visualizar el estado y disponibilidad de los drones, para planificar las asignaciones de trabajo. | T12 | Mostrar disponibilidad de drones | Implementar la consulta del estado de los drones disponibles, en vuelo, en mantenimiento o fuera de servicio. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-003 | Como operador técnico, quiero registrar los productos agroquímicos autorizados, para controlar las dosis aplicadas en las misiones. | T13 | Registrar insumos agrícolas | Implementar el registro de productos agroquímicos y sus principales características. | 3 | Edwin Nicho | Done |
+| Sprint 2 | DR-005 | Como operador técnico, quiero registrar las horas de vuelo y fechas de mantenimiento de un dron, para prevenir fallas operativas. | T14 | Registrar mantenimiento de drones | Implementar el registro de fechas y horas de mantenimiento preventivo de los drones. | 3 | Edwin Nicho | Done |
+| Sprint 2 | MI-001 | Como agricultor, quiero solicitar una misión de fumigación indicando parcela y fecha estimada, para programar la atención de mi cultivo. | T15 | Crear solicitud de misión | Implementar el flujo para crear una solicitud indicando parcela, fecha estimada y producto a aplicar. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | MI-002 | Como operador técnico, quiero asignar un dron y la cantidad de producto requerida a una misión, para preparar la logística operativa. | T16 | Asignar recursos a la misión | Implementar la selección de un dron disponible y los insumos requeridos para una misión. | 4 | Alexander Vásquez | Done |
+| Sprint 2 | MI-003 | Como operador técnico, quiero asignarme una misión solicitada, para hacerme responsable de su ejecución en campo. | T17 | Asignar operador a la misión | Implementar la asignación del operador técnico responsable de ejecutar la misión. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | MI-004 | Como operador técnico, quiero definir la altura de vuelo, velocidad y tasa de pulverización, para asegurar una cobertura homogénea. | T18 | Configurar parámetros operativos | Implementar la configuración de altura, velocidad y tasa de pulverización de la misión. | 4 | Alexander Vásquez | To-do |
+| Sprint 2 | MI-005 | Como operador técnico, quiero visualizar un calendario con las misiones programadas, para evitar conflictos de agenda y sobreposición de labores. | T19 | Implementar calendario de misiones | Implementar la visualización de las misiones programadas y sus estados en un calendario. | 3 | Alexander Vásquez | Done |
+| Sprint 2 | TR-001 | Como agricultor, quiero observar la trayectoria del dron sobre el mapa durante la fumigación, para verificar la cobertura del terreno. | T20 | Mostrar posición del dron | Implementar la visualización de la posición y trayectoria del dron durante la ejecución de una misión. | 4 | Alexander Vásquez | To-do |
+| Sprint 2 | TR-002 | Como operador técnico, quiero supervisar el estado del dron y el avance de la misión, para tomar decisiones operativas durante el vuelo. | T21 | Mostrar telemetría de vuelo | Implementar la visualización de indicadores como batería y volumen de tanque durante la operación. | 4 | Alexander Vásquez | To-do |
+
+| Sprint 2 | RP-001 | Como agricultor, quiero obtener un reporte consolidado tras la misión, para verificar las hectáreas tratadas y el volumen aplicado. | T27 | Consolidar resultados de misión | Integrar los datos obtenidos de una misión completada para generar un resumen de servicio. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-002 | Como agricultor, quiero descargar el informe de fumigación en archivo PDF, para archivarlo en mis registros de certificación agrícola. | T28 | Implementar exportación de reportes | Implementar la generación y exportación del informe de fumigación en formato PDF. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-003 | Como operador técnico, quiero ver un tablero de control con el total de hectáreas tratadas y horas de vuelo, para evaluar el rendimiento global. | T29 | Implementar dashboard de métricas | Implementar la visualización de métricas generales de hectáreas tratadas y horas de vuelo. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-004 | Como agricultor, quiero realizar búsquedas en el historial por rango de fechas o parcela, para comparar intervenciones pasadas. | T30 | Implementar historial de misiones | Implementar la consulta del historial de operaciones y sus filtros por fecha y parcela. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | RP-005 | Como operador técnico, quiero consultar un reporte de insumos utilizados por finca, para controlar el gasto y stock de agroquímicos. | T31 | Consolidar consumo de insumos | Implementar el cálculo y presentación del volumen acumulado de productos utilizados por finca. | 4 | Sebastián Sayago | Done |
+| Sprint 2 | TU-001 | Como Developer, quiero estructurar la solución backend en Spring Boot siguiendo principios de arquitectura limpia, para garantizar la mantenibilidad y modularidad del software. | T32 | Estructurar backend por capas | Configurar la estructura base del backend siguiendo la separación entre Domain, Application, Infrastructure e Interfaces. | 4 | Gabriel Ramírez | Done |
+| Sprint 2 | TU-005 | Como Developer, quiero construir un cliente HTTP para consumir una API externa de clima, para abstraer las consultas meteorológicas del dominio principal. | T33 | Implementar cliente de clima | Implementar el cliente encargado de consumir la API meteorológica externa y normalizar su respuesta. | 4 | Italo Damacen | Done |
+| Sprint 2 | TU-008 | Como Developer, quiero integrar la biblioteca Springdoc OpenAPI, para generar automáticamente la documentación interactiva de los endpoints RESTful. | T34 | Documentar endpoints | Configurar la documentación de los servicios mediante OpenAPI/Swagger. | 3 | Gabriel Ramírez | Done |
 
 ---
 
@@ -4117,7 +4196,68 @@ La evidencia de ejecución debe mostrar los avances funcionales alcanzados duran
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 2 se continuó con la definición y documentación de los servicios necesarios para soportar las User Stories seleccionadas. Los servicios se relacionan principalmente con la gestión de usuarios, parcelas, misiones, información meteorológica, recursos y reportes.
+En el Sprint 2 la Web Application se integró con un Fake RESTful API. En el entorno local se usa json-server (`server/db.json`), que expone las colecciones bajo la ruta base `http://localhost:3000/api/v1` mediante `server/routes.json`. La siguiente tabla documenta los endpoints que consume la Web Application, con las acciones HTTP que utiliza en cada uno.
+
+| Endpoint | Verbo HTTP | Sintaxis de llamada | Parámetros | Acción y respuesta |
+|---|---|---|---|---|
+| Users | GET | `/api/v1/users` | — | Lista los usuarios. Se usa para validar el inicio de sesión. |
+| Users | POST | `/api/v1/users` | Body: `username`, `email`, `password`, `role` | Registra un usuario y devuelve el usuario creado con su `id`. |
+| Farms | GET | `/api/v1/farms` | — | Lista las fincas. |
+| Farms | GET | `/api/v1/farms/{id}` | `id` de la finca | Devuelve una finca. |
+| Farms | POST | `/api/v1/farms` | Body: `name`, `location`, `ownerId`, `image` | Registra una finca y la devuelve con su `id`. |
+| Farms | PUT | `/api/v1/farms/{id}` | `id` y body completo | Actualiza una finca y la devuelve. |
+| Farms | DELETE | `/api/v1/farms/{id}` | `id` de la finca | Elimina una finca. |
+| Parcels | GET, POST | `/api/v1/parcels` | Body (POST): `name`, `area`, `geometry`, `farmId`, `cropId`, `image` | Lista o registra parcelas. |
+| Parcels | GET, PUT, DELETE | `/api/v1/parcels/{id}` | `id` de la parcela | Consulta, actualiza o elimina una parcela. |
+| Crops | GET, POST | `/api/v1/crops` | Body (POST): `name`, `variety` | Lista o registra cultivos. |
+| Crops | GET, PUT, DELETE | `/api/v1/crops/{id}` | `id` del cultivo | Consulta, actualiza o elimina un cultivo. |
+| Fumigation Areas | GET, POST | `/api/v1/fumigation-areas` | Body (POST): `parcelId`, `geometry`, `area` | Lista o registra zonas de fumigación. |
+| Fumigation Areas | GET, PUT, DELETE | `/api/v1/fumigation-areas/{id}` | `id` de la zona | Consulta, actualiza o elimina una zona de fumigación. |
+| Weather | GET | `/api/v1/weather` | — | Lista las condiciones meteorológicas por ubicación, con sus alertas. |
+| Mission Reports | GET | `/api/v1/mission-reports` y `/api/v1/mission-reports/{id}` | `id` del reporte | Lista los reportes de misión o devuelve uno. |
+| Mission Histories | GET | `/api/v1/mission-histories` | — | Lista el historial de misiones con su estado final. |
+| Operational Metrics | GET | `/api/v1/operational-metrics` | — | Lista las métricas operativas de cada reporte. |
+| Performance Indicators | GET | `/api/v1/performance-indicators` | — | Lista los indicadores de desempeño por periodo. |
+| Drones | GET | `/api/v1/drones` | — | Lista los drones con su estado, batería, horas de vuelo y fechas de mantenimiento. |
+| Nozzles | GET | `/api/v1/nozzles` | — | Lista las boquillas con su stock por estado. |
+| Agrochemicals | GET, POST | `/api/v1/agrochemicals` | Body (POST): `name`, `type`, `activeIngredient`, `recommendedDoseLitersPerHa`, `stockLiters`, `minimumStockLiters`, `expirationDate` | Lista o registra agroquímicos. |
+| Maintenance Records | GET, POST | `/api/v1/maintenance-records` | Body (POST): `droneId`, `date`, `type`, `description`, `technician` | Lista o registra mantenimientos de drones. |
+| Drone Incidents | GET, POST | `/api/v1/drone-incidents` | Body (POST): `droneId`, `description`, `reportedAt`, `status` | Lista o registra las fallas de los drones. |
+| Drone Incidents | PUT, DELETE | `/api/v1/drone-incidents/{id}` | `id` del incidente | Cierra el incidente con su reparación (`resolvedAt`, `repairRecordId`, `status`) o lo elimina. |
+
+Ejemplo de llamada y respuesta (`GET /api/v1/farms/1`):
+
+```json
+{
+  "id": 1,
+  "name": "Finca San Rafael",
+  "location": "Ica, Peru",
+  "ownerId": 1,
+  "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600"
+}
+```
+
+Si el `id` no existe, json-server responde `404 Not Found`. Las respuestas de las colecciones (`GET` sin `id`) devuelven un arreglo de objetos con la misma estructura.
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se desplegó la primera versión de la Web Application en Firebase Hosting. El repositorio del frontend incluye la configuración del despliegue: `firebase.json` publica la carpeta `dist/Agridron-frontend/browser` y `.firebaserc` apunta al proyecto `agridronwebapp`. Los pasos realizados fueron los siguientes:
+
+1. Instalar las dependencias del proyecto con `npm install`.
+2. Generar la versión de producción con `npm run build` (`ng build`). Esta versión usa `environment.ts`, que apunta al Fake API publicado en MockAPI. En el entorno de desarrollo Angular lo reemplaza por `environment.development.ts`, que apunta al json-server local.
+3. Iniciar sesión en Firebase con `firebase login`.
+4. Publicar con `firebase deploy --only hosting`, que sube el contenido de `dist/Agridron-frontend/browser` al proyecto `agridronwebapp`.
+5. Verificar la versión publicada en:
+   **Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+   **Credenciales**: usuario: `admin`, contraseña: `admin123`
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d1.png)
+
+En esta imagen podemos observar el hosting en FireBase
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d2.png)
 
 La evidencia documental del sprint contempla:
 
@@ -4141,6 +4281,9 @@ La evidencia de despliegue debe mostrar los cambios realizados en los entornos u
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/deployment_sprint_2.png)
 
 
+
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
 
 ---
 
@@ -4167,12 +4310,172 @@ La coordinación entre los integrantes permitió relacionar las User Stories con
 
 ## UX Heuristics & Principles Evaluation
 **Usability – Inclusive Design – Information Architecture**
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Campo | Detalle |
+|:---|:---|
+| Sprint # | 3 |
+| Sprint Planning Background | En este sprint se continuará con la implementación de AgriDron Solutions, enfocándose en consolidar la integración entre la Web Application y los servicios RESTful desarrollados con Spring Boot. Se priorizará el desarrollo del Bounded Context Flight Operations, especialmente la gestión de misiones, sus estados y resultados. También se continuará con los contextos de Field Management, Inventory & Resource Management y Analytics & Reporting, además de mantener la integración con el servicio meteorológico externo. |
+| Date | 02/10/2026 |
+| Time | 4:00 pm |
+| Attendees  | Italo Gianfranco Damacen Galindo, Edwin Noe Nicho Huillcañahui, Gabriel Ramírez Gutiérrez, Sebastián Leonardo Sayago Vidal y Alexander Felipe Vásquez Roncal |
+| Sprint 2 - Review Summary | Se revisó el avance de la Web Application en Angular y la integración de sus módulos. Se identificó que el frontend cuenta con clientes API para distintos recursos, mientras que el backend Spring Boot todavía requiere ampliar su cobertura para atender las operaciones consumidas por la aplicación. También se revisó el uso de servicios simulados durante el desarrollo local y la necesidad de avanzar hacia la integración con los servicios propios del proyecto. |
+| Sprint 2 - Retrospective Summary | Se identificó la necesidad de mejorar la coordinación entre los Bounded Contexts del frontend y sus correspondientes servicios backend. Asimismo, se requiere priorizar las funcionalidades centrales de la plataforma y validar la comunicación entre los módulos para evitar que las interfaces dependan de servicios simulados o de operaciones que aún no están disponibles en el backend. |
+
+##### Sprint Goal & User Stories
+
+| Aspecto | Descripción |
+|:---|:---|
+| Sprint 3 Goal | Consolidar la primera versión integrada de AgriDron Solutions mediante la implementación y conexión de los servicios RESTful con la Web Application. Se priorizará la gestión de misiones, estados operativos y resultados de vuelo, junto con la integración de los recursos e información analítica relacionados. Además, se actualizarán la Landing Page y la Web Application, se preparará el primer despliegue de los Web Services y se elaborarán las primeras versiones de los videos About the Product y About the Team. |
+| Velocity | Por completar |
+| Sum of Story Points | Por completar |
+
+El Sprint 3 busca avanzar desde una aplicación que cuenta con interfaces y funcionalidades parcialmente conectadas hacia una solución con mayor integración con los servicios backend propios del proyecto. La prioridad será implementar el flujo de Flight Operations, debido a que la planificación y gestión de misiones constituye una funcionalidad central de AgriDron Solutions.
+
+Como criterio de avance técnico, se considerará el requisito del proyecto de contar con al menos el 40 % de los endpoints implementados. Para medirlo, el equipo deberá mantener un inventario de las operaciones HTTP requeridas por la aplicación y contrastarlo con las operaciones implementadas y verificadas en el backend. El porcentaje definitivo se actualizará cuando se revise la versión correspondiente del backend.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+La distribución de responsabilidades del Sprint 3 se organiza de acuerdo con los Bounded Contexts del proyecto. Cada líder coordinará el desarrollo y la integración de su aspecto, mientras que los colaboradores brindarán apoyo en las actividades que involucren dependencias entre módulos.
+
+| Team Member (Last Name, First Name) | GitHub Username | Identity & Access Management | Field Management | Flight Operations | Weather Integration | Analytics & Reporting | Inventory & Resource Management |
+|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Ramírez Gutiérrez, Gabriel | GabrielRamirez06 | L |  | L |  | C | C |
+| Vásquez Roncal, Alexander Felipe | Dev-AlexanderVasquez |  | L | C |  |  |  |
+| Damacen Galindo, Italo Gianfranco | ItaloDMc |  |  | C | L |  | C |
+| Sayago Vidal, Sebastián Leonardo | SSayag0V | C |  | C |  | L |  |
+| Nicho Huillcañahui, Edwin Noe | Edwindeploy21 |  |  | C |  |  | L |
+
+**Leyenda:**
+- **L (Leader):** integrante responsable de liderar y coordinar el trabajo del aspecto asignado.
+- **C (Collaborator):** integrante que participa como colaborador en el desarrollo o integración del aspecto.
+
+La distribución principal del trabajo considera que Gabriel lidera Flight Operations y brinda apoyo en Inventory e IAM; Alexander lidera Field Management y colabora en Flight Operations; Italo lidera Weather Integration mediante la integración del servicio meteorológico externo; Sebastián lidera Analytics & Reporting tanto en frontend como en backend; y Edwin lidera Inventory & Resource Management. Las actividades que involucren recursos compartidos entre Flight Operations e Inventory deberán coordinarse entre Gabriel y Edwin para evitar duplicidad de implementaciones.
+
+#### 5.2.3.3. Sprint Backlog 3
+
+En esta sección se registra el trabajo planificado para el Sprint 3. Las tareas se han organizado considerando las funcionalidades presentes en la Web Application, las necesidades de integración con el backend y los entregables establecidos para esta etapa del proyecto.
+
+**Link del tablero de trabajo:** [https://trello.com/b/CjkRgi6w/agridron-sprint-3](https://trello.com/b/CjkRgi6w/agridron-sprint-3)
+
+![Sprint Backlog 3 en Trello](assets/chapter5/sprint-3.png)
+
+| **Sprint #** | **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ------------ | ------------ | --------------- | ----------- | -------------- | -------------------- | ---------------------- | --------------- | ---------- |
+| 3 | LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T21 | Redactar y organizar el contenido de términos, condiciones y privacidad. | Redactar y estructurar el contenido correspondiente a términos, condiciones de servicio y políticas de privacidad. | 3 | Italo Damacen | Done |
+| 3| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T22 | Diseñar los enlaces legales y la estructura del footer. | Diseñar la estructura visual del footer y los enlaces correspondientes a la información legal de la plataforma. | 2 | Alexander Vásquez | Done |
+| 3| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T23 | Implementar el footer y la navegación a las páginas legales. | Implementar el footer de la Landing Page y la navegación hacia las páginas o secciones con información legal. | 3 | Sebastián Sayago | Done |
+| 3| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T24 | Verificar los enlaces, el contraste y la lectura en dispositivos móviles. | Comprobar el funcionamiento de los enlaces legales, el contraste visual y la legibilidad del contenido en dispositivos móviles. | 2 | Edwin Nicho | Done |
+| 3 | FM-002 | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | T07 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
+| 3 | FM-002 | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | T08 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | To-do |
+| 3 | CL-001 | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación. | T23 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
+| 3 | CL-002 | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos. | T24 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
+| 3 | CL-003 | Como operador técnico, quiero saber si las condiciones actuales son favorables para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | T25 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | To-do |
+| 3 | CL-005 | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | T26 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
+| 3 | TR-005 | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | T22 | Registrar finalización de operación | Implementar el cambio de estado de la misión a Completada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
+| 3 | TU-025 | Endpoints de misiones | S3-T01 | Revisar modelo y contratos de misión | Revisar entidades, DTO, relaciones y reglas existentes; definir las operaciones que expondrá `/api/v1/missions` sin duplicar funcionalidades. | 3 | Gabriel Ramírez | In Process |
+| 3 | TU-025 | Endpoints de misiones | S3-T02 | Implementar consulta de misiones | Implementar GET para listar misiones y consultar una misión por identificador, con los filtros contemplados por el dominio. | 4 | Gabriel Ramírez | Done |
+| 3 | TU-025 | Endpoints de misiones | S3-T03 | Implementar creación y actualización de misiones | Implementar POST y PUT/PATCH para registrar una misión y actualizar sus datos permitidos, aplicando validaciones y reglas de negocio. | 5 | Gabriel Ramírez | To Do |
+| 3 | TU-025 | Endpoints de misiones | S3-T04 | Implementar cancelación de misiones | Implementar la operación para cancelar una misión, respetando las restricciones del ciclo de vida y conservando el historial necesario. | 3 | Gabriel Ramírez | In Process |
+| 3 | MI-002 | Asignación de dron e insumos a la misión | S3-T05 | Implementar asignación de recursos a misiones | Incorporar la lógica backend para asociar un dron y los insumos requeridos a una misión, validando disponibilidad y referencias existentes. | 5 | Edwin Nicho | In Process |
+| 3 | MI-003 | Asignación de operador técnico a la misión | S3-T06 | Implementar asignación de operador | Implementar la asignación de un operador técnico a una misión y validar rol y disponibilidad. | 3 | Gabriel Ramírez | To Do |
+| 3 | MI-004 | Configuración de parámetros de vuelo | S3-T07 | Implementar configuración de parámetros de vuelo | Incorporar persistencia y validación backend de altura, velocidad y tasa de pulverización asociados a una misión. | 4 | Gabriel Ramírez | Done |
+| 3 | MI-005 | Consulta de calendario de misiones | S3-T08 | Implementar consulta de misiones por fechas | Implementar filtros backend por rango de fechas y, cuando corresponda, por operador o estado. | 3 | Gabriel Ramírez | In Process |
+| 3 | MI-007 | Aprobación formal de misión | S3-T09 | Implementar aprobación de misión | Implementar la operación para aprobar una misión programada, validando las condiciones necesarias para autorizarla. | 3 | Gabriel Ramírez | Done |
+| 3 | TR-004 | Pausa y reanudación de misión de emergencia | S3-T10 | Implementar cambios de estado de misión | Implementar operaciones backend para registrar pausa y reanudación, controlando las transiciones válidas de estado. | 4 | Gabriel Ramírez | In Process |
+| 3 | TR-005 | Registro de finalización de misión | S3-T11 | Implementar finalización de misión | Implementar la operación que registra la finalización y actualiza el estado de la misión, conservando la información del historial. | 3 | Gabriel Ramírez | In Process |
+| 3 | TR-006 | Bitácora técnica de observaciones en campo | S3-T12 | Implementar registro de observaciones de misión | Implementar el registro y consulta de observaciones técnicas asociadas a una misión, con sus validaciones y relación con el operador. | 3 | Gabriel Ramírez | Done |
+| 3 | TU-016 | Endpoint de reportes de misión | S3-T13 | Completar endpoints de reportes de misión | Revisar y completar las operaciones de `/api/v1/mission-reports` incluidas en el alcance, según el modelo backend existente. | 4 | Sebastián Sayago | Done |
+| 3 | TU-017 | Endpoint de historial de misiones | S3-T14 | Completar endpoint de historial de misiones | Revisar y completar `/api/v1/mission-histories`, incorporando consultas de historial y filtros compatibles con los datos disponibles. | 3 | Sebastián Sayago | Done |
+| 3 | TU-018 | Endpoint de métricas operativas | S3-T15 | Implementar consultas de métricas operativas | Completar `/api/v1/operational-metrics` para consultar métricas asociadas a reportes o misiones, de acuerdo con el modelo y cálculos definidos. | 3 | Sebastián Sayago | Done |
+| 3 | TU-019 | Endpoint de indicadores de desempeño | S3-T16 | Completar endpoint de indicadores de desempeño | Completar `/api/v1/performance-indicators` para consultar y, cuando aplique, calcular los indicadores de desempeño definidos. | 3 | Sebastián Sayago | Done |
+| 3 | TU-020 | Endpoint de drones | S3-T17 | Implementar endpoints backend de drones | Implementar las operaciones previstas para `/api/v1/drones`, incluyendo validación de datos y disponibilidad operativa. | 4 | Edwin Nicho | Done |
+| 3 | TU-021 | Endpoint de boquillas | S3-T18 | Implementar endpoints backend de boquillas | Implementar las operaciones previstas para `/api/v1/nozzles`, validando datos y relaciones necesarias con los drones. | 3 | Edwin Nicho | Done |
+| 3 | TU-022 | Endpoint de agroquímicos | S3-T19 | Implementar endpoints backend de agroquímicos | Implementar las operaciones previstas para `/api/v1/agrochemicals`, validando los datos de productos y su disponibilidad para las misiones. | 3 | Edwin Nicho | To Do |
+| 3 | TU-023 | Endpoint de registros de mantenimiento | S3-T20 | Implementar endpoints de mantenimiento | Implementar las operaciones previstas para `/api/v1/maintenance-records`, permitiendo registrar y consultar mantenimientos asociados a drones. | 3 | Edwin Nicho | To Do |
+| 3 | TU-027 | Endpoint de incidentes de drones | S3-T21 | Implementar endpoints de incidentes de drones | Implementar `/api/v1/drone-incidents` para registrar y consultar fallas o incidentes, incluyendo relación con el dron y estado de atención. | 4 | Edwin Nicho | In Process |
+| 3 | DR-007 | Deshabilitación de dron de la flota | S3-T22 | Implementar deshabilitación de drones | Incorporar la operación backend para dar de baja o deshabilitar un dron e impedir nuevas asignaciones cuando no esté operativo. | 2 | Edwin Nicho | In Process |
+| 3 | TU-024 | Endpoints de usuarios | S3-T23 | Completar endpoints de usuarios | Revisar y completar `/api/v1/users` para registrar y consultar usuarios con su rol, aplicando validaciones y restricciones de acceso. | 3 | Gabriel Ramírez | To Do |
+| 3 | TU-026 | Endpoint de inicio de sesión | S3-T24 | Implementar endpoint de inicio de sesión | Implementar `POST /api/v1/authentication/sign-in`, validar credenciales y retornar el resultado de autenticación con el token correspondiente. | 4 | Gabriel Ramírez | To Do |
+| 3 | TU-002 | Implementación de seguridad y autenticación JWT | S3-T25 | Integrar autenticación JWT con Spring Security | Configurar validación de tokens JWT y proteger los endpoints que requieran autenticación, contemplando los roles definidos. | 5 | Gabriel Ramírez | In Process |
+| 3 | TU-006 | Manejo global de excepciones e intercepción de errores | S3-T26 | Estandarizar respuestas de error | Implementar o completar el manejo global de excepciones para devolver respuestas consistentes mediante JSON Problem Details. | 3 | Gabriel Ramírez | In Process |
+| 3 | TU-010 | Configuración de CORS | S3-T27 | Configurar política CORS del backend | Configurar orígenes, métodos y encabezados permitidos para el consumo autorizado de la API desde los clientes del proyecto. | 2 | Gabriel Ramírez | In Process |
+| 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T28 | Completar documentación OpenAPI de endpoints | Documentar los endpoints implementados del Sprint mediante Springdoc OpenAPI, incluyendo verbos HTTP, rutas, parámetros, cuerpos, respuestas y códigos de estado. | 4 | Italo Damacen | To Do |
+| 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T29 | Verificar documentación interactiva con datos de muestra | Ejecutar solicitudes de prueba desde Swagger UI, comprobar ejemplos de request/response y corregir diferencias entre documentación y comportamiento real. | 3 | Italo Damacen | To Do |
+| 3 | TU-001 | Configuración de arquitectura limpia base | S3-T31 | Revisar consistencia de arquitectura backend | Revisar que casos de uso, servicios, repositorios y controladores respeten la organización y dependencias de la arquitectura limpia establecida. | 3 | Alexander Vásquez | Done |
+| 3 | TU-005 | Integración de cliente de servicio meteorológico | S3-T32 | Revisar integración backend con servicio meteorológico | Verificar el cliente HTTP de clima y su manejo de respuestas y errores externos; realizar los ajustes backend necesarios para mantener el contrato de integración. | 3 | Italo Damacen | Done |
+
+
+
+
+Los estados del backlog se actualizarán conforme avance el sprint. Las tareas relacionadas con endpoints se considerarán completadas cuando su implementación esté disponible en el backend y se haya verificado su comportamiento mediante solicitudes HTTP o pruebas de integración. La existencia de una interfaz o de un cliente API en el frontend no se considerará evidencia suficiente de que el servicio backend está implementado.
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se trabajará en la evolución de los componentes principales de AgriDron Solutions, priorizando la integración entre la Web Application y los servicios RESTful. Las actividades de desarrollo estarán orientadas a los siguientes aspectos:
+
+- **Flight Operations:** implementación de los servicios para gestionar misiones, resultados, incidencias y estados operativos, permitiendo registrar y consultar las operaciones de fumigación.
+- **Field Management:** revisión y ampliación de los servicios de gestión de fincas, parcelas, cultivos y zonas de fumigación.
+- **Inventory & Resource Management:** implementación de los servicios para gestionar drones, agroquímicos, boquillas, registros de mantenimiento e incidencias relacionadas con los drones.
+- **Analytics & Reporting:** integración de reportes, historiales, métricas operativas e indicadores de rendimiento con la información generada por las operaciones.
+- **Weather Integration:** mantenimiento de la integración con Open-Meteo y los servicios externos utilizados para obtener información meteorológica y geográfica.
+- **Web Application:** actualización de la integración con los servicios backend y mejora de las interfaces correspondientes a los módulos implementados.
+- **Landing Page:** actualización de los componentes informativos y de presentación del producto.
+
+| Repo                            | Branch                                  | Ahead / behind                                                     | Commit Date       | Author                                        | Commit Description                                                                                                                                                                           | Commit                                           | Compare Repo                    | Compare Branch                          | Compare Date      | Compare Author                                | Compare Commit Description                                                     | Compare Commit                                   |
+|---------------------------------|-----------------------------------------|--------------------------------------------------------------------|-------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------|-----------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------|
+| Opensource-UPC/Agridron-backend |  main                                   | Default                                                            | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | perf(docker): optimize JVM memory flags for 512MB RAM container                                                                                                                              | 3e70397 3e70397c6972051b8ccd8ded7267b93a331285ef | — Not available                 | — Not available                         | — Not available   | — Not available                               | — Not available                                                                | — Not available                                  |
+| Opensource-UPC/Agridron-backend |  develop                                | 3 ahead 3 commits ahead of feature/inventoryAndResourceManagement  | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | fix(db): ensure postgis extension exists before creating spatial tables                                                                                                                      | 74e9a5e 74e9a5e8ed6a51a68921b38e022e389c0b3284e7 | Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | fix(build): remove unnecessary apt-get curl from runtime image                 | 72333ab 72333ab847ebfd49d8e6553bb6a974e08c7830c7 |
+| Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | 3 behind 3 commits behind develop                                  | Fri, Nov 6, 2026  | #Edwin Nicho (@Edwindeploy21)                 | finally 6 endpoints added                                                                                                                                                                    | a66f533 a66f53383995be881bae45b4917945849f256399 | Opensource-UPC/Agridron-backend |  develop                                | Fri, Nov 6, 2026  | #Edwin Nicho (@Edwindeploy21)                 | inventory from infrastructure advance complete                                 | cf053b5 cf053b58547d38e6014ffacac465394b5cb99399 |
+| Opensource-UPC/Agridron-backend |  feature/flight-operations              | 18 ahead, 22 behind 18 commits ahead, 22 commits behind develop    | Fri, Nov 6, 2026  | #GabrielRamirez06 (@GabrielRamirez06)         | feat(flight): add missions context ACL facade                                                                                                                                                | d2b9e0b d2b9e0b863be3597d3add7887895fc3bc559c32e | Opensource-UPC/Agridron-backend |  develop                                | Fri, Nov 6, 2026  | #GabrielRamirez06 (@GabrielRamirez06)         | feat(flight): add missions context ACL facade                                  | 6f148e1 6f148e179a915d6b4aae09e163b7fc453eb7364c |
+| Opensource-UPC/Agridron-backend |  feature/analyticsAndReporting          | 15 behind 15 commits behind develop                                | Mon, Nov 2, 2026  | #Sebastián Leonardo Sayago Vidal (@SSayag0V)  | Merge branch 'develop' into feature/analyticsAndReporting                                                                                                                                    | 6f337ba 6f337ba0d54d4ba07937327b92d99575b55889ef | Opensource-UPC/Agridron-backend |  develop                                | Mon, Nov 2, 2026  | #Sebastián Leonardo Sayago Vidal (@SSayag0V)  | docs(analytics): add analytics bounded context to project structure            | 7baabe6 7baabe6c9f226a8fc6804716b11c77d640a46cb2 |
+| Opensource-UPC/Agridron-backend |  feature/fieldManagement                | 22 behind 22 commits behind feature/inventoryAndResourceManagement | Sun, Nov 1, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | docs(field): document pagination and ordering                                                                                                                                                | 6bcd921 6bcd921d78f471a5c6aea0bb6931f12423c30012 | Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | Sun, Nov 1, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | test(field): cover pagination end to end                                       | 91ca86b 91ca86bed566667389aa9d8b4c582b47271ff590 |
+| Opensource-UPC/Agridron-backend |  shared                                 | 82 behind 82 commits behind main                                   | Wed, Oct 28, 2026 | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | feat: Se implemento el BC de Shared ademas, se modifico el readme y el gitignore. Tambien se implemento docs/backend-conventions.md para que el team siga las pautas para sus respectivos BC | 0114008 011400822199b3a33b811c2c6d29a59cd9764f2d | Opensource-UPC/Agridron-backend |  main                                   | Wed, Oct 28, 2026 | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | feat:se creo el proyecto Agridron Backend en java 27 con maven como compilador | 247ca74                                          |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se realizarán pruebas de ejecución para verificar la comunicación entre la Web Application y los servicios backend. Se priorizarán los flujos relacionados con la creación y consulta de misiones, la actualización de sus estados y el registro de resultados.
+
+Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e información analítica, comprobando que las solicitudes HTTP reciban las respuestas esperadas y que las funcionalidades integradas puedan utilizar los servicios correspondientes.
+
+Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
+
+![Evidencia del despliegue del LandingPage](assets/chapter5/sprint1/l6.png)
+
+Figura: Evidencia del despliegue del LandingPage
+
+**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
+
+![Evidencia del despliegue del Frontend](assets/chapter5/sprint2/d8.png)
+
+Figura: Evidencia del despliegue del Frontend
+
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
+
+![Evidencia del despliegue del Backend](assets/chapter5/sprint3/backendDeployment.png)
+
+![Evidencia del despliegue del Backend](assets/chapter5/sprint3/evidenciaDespliegue.png)
+
+Figura: Evidencia del despliegue del backend
+
+**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
 
 **CARRERA:** Ingeniería de Software
 
 **CURSO:** Desarrollo de Aplicaciones Open Source
 
 **SECCIÓN:** Código de la sección
+Durante el Sprint 3 se documentarán los servicios RESTful de AgriDron Solutions mediante OpenAPI/Swagger, considerando los endpoints implementados y 
+aquellos relacionados con el alcance funcional del sprint.
+
+La documentación permitirá identificar las operaciones disponibles para cada recurso, especificando sus métodos HTTP, 
+rutas de acceso, parámetros requeridos, estructuras de solicitud y respuestas generadas. Se dará prioridad a los servicios 
+correspondientes a Flight Operations, especialmente a la gestión de misiones, sus estados operativos y resultados, debido a su 
+importancia dentro del flujo principal de la plataforma.
 
 **PROFESORES:** Todos
 
@@ -4187,6 +4490,36 @@ La coordinación entre los integrantes permitió relacionar las User Stories con
 ## TAREAS A EVALUAR:
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas en las entrevistas de validación:
+
+##### Landing Page  Evidence
+
+![Nueva version de landing page](assets/chapter5/new-landing1.png)
+
+![Nueva version de landing page](assets/chapter5/new-landing2.png)
+
+![Nueva version de landing page](assets/chapter5/new-landing3.png)
+
+![Nueva version de landing page](assets/chapter5/new-landing4.png)
+
+##### Web Application Evidence
+
+![Nueva version de frontend](assets/chapter5/new-frontend1.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend2.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend3.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend4.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend5.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend6.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend7.png)
+
+![Nueva version de frontend](assets/chapter5/new-frontend8.png)
+
+##### API Documentation Evidence
 
 1. Comprender el propósito y los beneficios de la plataforma desde la página principal.
 2. Identificar el acceso a la creación de una cuenta.
@@ -4247,6 +4580,208 @@ Las transcripciones automáticas contienen fragmentos poco comprensibles. Los ha
 | 2 | La carga de información presenta lentitud durante el uso de la plataforma. | 2, provisional | Usabilidad: Flexibilidad y eficiencia de uso. | Entrevista de Santiago. |
 | 3 | La sección de reportes requiere más esfuerzo para localizarse que otras secciones. | 2 | Arquitectura de información: Facilidad para encontrar la información. | Entrevista realizada por Edwin a Valeria. |
 | 4 | No resulta evidente cómo actualizar las existencias de los agroquímicos. | 2, provisional | Usabilidad: Reconocimiento antes que recuerdo. | Entrevista realizada por Sebastián a Carlos. |
+##### Documentation Commits
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del LandingPage
+y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 394d481 | Initial commit | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | b9cb5b7 | Add project title to README | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | efa1777 | Update README.md | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | bbdc638 | First Version of the Landing Page | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | 38d29a3 | Update | — | 09/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | e6e7063 | Add login and register pages | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/landing | 1962f70 | Create README.md | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 997d662 | Merge pull request #1 from Opensource-UPC/feature/landing | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | develop | e4fbee9 | Merge branch 'main' into develop | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | develop | f50296b | feature/cambio de elementos y agregar un integrante | — | 16/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 3aece7e | initial commit | — | 21/09/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 24b2bbf | se modifico el landingPage y se paso al lenguaje angular | — | 05/10/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 7e67dfa | cambios del router | — | 05/10/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 4603787 | feat: rediseño de landingPague | — | 06/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 0542909 | feat: se modifico los botones que redirigen al webApp | — | 09/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 70855ff | fix: se corrigio el error de mal redireccionamiento al webapp | — | 09/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 00d3aa0 | videos about the team and about the product in progress to loag to landing page | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 38f3d27 | another screenshot for all secctions to app web added | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 813f7fe | pictures about the team added | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 7f1b869 | Merge pull request #4 from Opensource-UPC/feature/Sprint-3 | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | d57f1f5 | feat: se realizo mergue | — | 11/11/2026 |
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del Frontend
+y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-frontend | main | e19388c | Initial commit | — | 16/09/2026 |
+| Opensource-UPC/Agridron-frontend | feature/startProyect | 5600264 | se creo el proyecto Agridron en Angular y se agrego la base de header,footer y language switcher | — | 30/09/2026 |
+| Opensource-UPC/Agridron-frontend | main | d165047 | Merge pull request #1 from Opensource-UPC/feature/startProyect | — | 30/09/2026 |
+| Opensource-UPC/Agridron-frontend | develop | d8033f1 | Merge pull request #2 from Opensource-UPC/develop | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | f16409f | se agrego archivos shared/infraestructure/base-[archivo] | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 51f92f8 | se agrego infraestructura, aplication | — | 01/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 79d6833 | Merge pull request #3 from Opensource-UPC/feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 4b31a65 | chore(env): add analytics and reporting endpoint paths | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | b6e1490 | feat(analytics): add domain model for reports, history, metrics and indicators | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 9e38370 | feat(analytics): add assemblers, endpoints and api facade | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | faee758 | feat(analytics): add mission report, history and indicator stores | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 70804ff | chore(server): add sample data for analytics json-server | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/weatherIntegration | 47cbbaa | Se realizó el avance de la weather API. Ahora existe un `<app-weather-widget>` para que el equipo pueda hacer un llamado al widget del clima en cualquier parte del frontend. La api es funcional y tiene diferentes mensajes de alertas. | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 1806f7c | se agrego fieldmanagement/components and se modifico app.route.ts | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | f40da6e | Merge branch 'feature/weatherIntegration' of https://github.com/Opensource-UPC/Agridron-frontend into feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 3c7b89a | Merge pull request #4 from Opensource-UPC/feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 6ef936c | feat(analytics): add reports and history views | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 198d012 | feat(analytics): register analytics route, menu option and i18n | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 7372c28 | chore: add json-server for local development | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | a3f38d5 | first commit | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1532989 | Merge pull request #5 from Opensource-UPC/feature/analyticsAndReporting | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 9a89a38 | se agregaron componentes nuevos, side-bar y estilos para ello | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 9a6e0fb | Merge branch 'feature/analyticsAndReporting' of https://github.com/Opensource-UPC/Agridron-frontend into feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | f7a4e37 | Merge pull request #6 from Opensource-UPC/feature/fieldManagement | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 26761f8 | feat(iam-domain): add user entity, role enum and auth commands | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 3b6d7cd | feat(iam-infra): implement auth api client, response dtos and assembler | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 7f75752 | feat(iam-app): implement authentication service with reactive session signals | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | 5b379e5 | feat(iam-app): implement authentication service with reactive session signals | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/bc1-login-view | eb36667 | feat(iam-ui): create sign-in, sign-up and profile standalone components | — | 02/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4bb7cb9 | feat(inventory): drones and maintenance records | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | a3c7896 | feat(inventory): register drones route, menu option, i18n and environment | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 7250706 | feat(inventory): register drones route and menu option | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 039ad07 | Merge pull request #7 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 03/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 0cb9b2a | Merge branch 'feature/bc1-login-view' of https://github.com/Opensource-UPC/Agridron-frontend into feature/fieldManagement | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 3ce6b34 | se agrego el BC de login, y drones | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | a2d378c | Merge pull request #8 from Opensource-UPC/feature/fieldManagement | — | 05/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 2e500e9 | fix(inventory): ultima puesta a prueba | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 85e9ee4 | Merge pull request #9 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 02bbc7a | se modifico el readme | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 4994938 | Merge pull request #10 from Opensource-UPC/feature/fieldManagement | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 49bed7c | Merge pull request #11 from Opensource-UPC/develop | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/fieldManagement | 8ccd013 | cambios en enviroment | — | 06/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4606a12 | View details button implemented. Component drone details added | — | 21/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d68cb00 | form to edit drone added | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 4e83493 | feat(analytics): add parcelId to mission reports and history | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 49afd13 | chore: add jspdf for report pdf export | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | fdddfe6 | feat(analytics): add i18n texts and sample data for new report features | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 48427b1 | feat(analytics): add farm filter, farm consumption summary and parcel comparison | — | 28/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 44de3cf | feat(flightOperations-domain): add domain models for mission, operation status, incident, and mission result | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 3e451ef | feat(flightOperations-domain): add MissionStatus enum and integrate it into Mission entity | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 182645d | drone detail and drone form were updates | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 4b69326 | button view maintenance working | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | a0da8b1 | tank capacity data added in drone card from drone-item | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 9e8f1bd | feat(flightOperations-infra): implement mission response DTOs and mission assembler | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | da4452b | refactor(flightOperations): rename entities and response DTOs for consistency and nullable fields | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 5260ee5 | refactor(flightOperations): rename entities and response DTOs for consistency and nullable fields | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 38d4baa | feat(environment): add new endpoints for missions, results, incidents, and statuses | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 6c39746 | refactor(flightOperations): rename FlightOperationsResponse to MissionResponse for clarity | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 6a8eeaa | feat(flightOperations-infra): add API endpoints for incidents, missions, mission results, and operation statuses | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 792c654 | feat(flightOperations-infra): implement FlightOperationsApi infrastructure facade | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 8f64880 | feat(flightOperations-app): add IncidentStore to manage incident state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 941b85e | feat(flightOperations-app): add MissionStore to manage mission state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 179deec | feat(flightOperations-app): add MissionStore to manage mission state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 0488d93 | feat(flightOperations-app): add OperationStatusStore to manage operation status state and behavior in the application layer | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d8ccacb | view deatails and view maintenances were implements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 19aba62 | Modify in package.json server: json-serve | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | f718e24 | feat(flightOperations-app): enhance error handling and loading state in OperationStatusStore; update environment with new API endpoints | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | fa0ab78 | feat(side-nav): add "missions" option with localization support in English and Spanish | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 5f12466 | feat(ui): improve layout and side-nav styles; update Spanish localization placeholder | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 6140373 | view of nozzle implement | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | f99fc3f | feat(flight-operations): update layout | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 64041aa | feat(side-nav): update side-nav component | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 8b7e8bc | all procces about procesing nozzled are implements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 65dba0f | files for manage nozzles and agrochemicals | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 377449e | feat(flight-operations-pres): implement flight operations routes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | e8e805a | feat(scr): implement missions, mission results, incidents, and operations statuses data | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ba070e6 | feat(flight-operations.domain): rework enums and add methods in entity | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 554fb90 | feat(flight-operations.app): rework mission store and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 861ac2b | feat(flight-operations.app): rework operation status store | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 4663880 | feat(flight-operations.app): rework incident and mission results stores and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | d791ef1 | feat(flight-operations.app): add agrochemical store and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 41543cf | feat(flight-operations.app): add methods for mission authorization, in parcel add centroid calculation | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 62b7f8e | feat(flight-operations.presentation): create new views and styles archives | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 9eeff97 | feat(flight-operations.presentation): create new views and styles archives | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | cf10d73 | feat(flight-operations-presentation): update flight operations routes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | c7f26d5 | feat(flight-operations-presentation): incident form with type | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 12c7eb6 | feat(flight-operations-presentation): mission complete view and mission time signal created | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ae3528f | feat(flight-operations-presentation): mission list, form and details components created | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | bc08685 | feat(flight-operations-presentation): mission list, form and details components created | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 64e39a3 | feat(flight-operations): update side-nav options with missions link | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 0bf418b | feat(flight-operations): update db.json data with missions | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | e5d9fab | hotfix(flight-operations): mission- complete view and summary report improvements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ad4288f | hotfix(flight-operations): data and translation fixes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/weatherIntegration | 32d5705 | feat(weather-integration): integrate Open-Meteo with geolocation and weather alerts | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b307428 | hotfix(locales): update es.json translations | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 22d9180 | Merge pull request #14 from Opensource-UPC/main | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 55e3165 | Merge pull request #13 from Opensource-UPC/feature/analyticsAndReporting | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b5c767c | Merge branch 'develop' into feature/flight-operations | — | 03/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | b62baed | Merge pull request #12 from Opensource-UPC/feature/flight-operations | — | 03/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d4692dd | status drone added like as enum | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 507bbb7 | button add maintenance added into section view maintenance | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | b43f99a | fix(flight): pass parcelId to analytics history and report | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 6bae216 | Features for logging drone malfunctions and repairs were added. | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | e32805b | Merge branch 'develop' into feature/inventoryAndResourceManagement | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | aa9700e | Merge pull request #15 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | c377114 | fix:fallo al importar en drone.entity y fallo en drone-incident-api-enpoint linea 17 corregidos | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 1f800b3 | fix: rutas de environment, coma en es.json y enlace a agroquímicos | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 846bc60 | Merge pull request #16 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | adca2a8 | feat: implement field management and UI improvements | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 2a9114d | feat(ui): apply style guidelines to crops, fumigation areas, reports, drones, agrochemicals and profile | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 09c03ec | hotfix(locales): update es.json translations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ea06e09 | hotfix(locales): update es.json translations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b2c08d8 | hotfix(locales): fix missing parcelId in mission report and summary report | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ca71881 | hotfix(locales): fix missing parcelId in mission report and summary report | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | d564400 | hotfix(locales): add more sections to the mission translate json | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 07839c8 | feat:se modifico el presentation de Misiones | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | fbf7c46 | feat: add parcel map drawing and parcel-based weather check for missions | — | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 5aa5fda | fix(missions): keep zero overlap, restrict editing to unstarted missions and add parcel weather check | — | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1809be5 | feat(missions): add mission calendar, exclude out-of-service drones and show consumption by product | — | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 768baae | feat: se modifico el enviroments production | — | 09/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 5e0eab4 | Merge pull request #17 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 73b7010 | feat(infra): add hybrid API interceptor to route 40% of endpoints to real backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | f556108 | fix: se soluciono error en enviroment del link del backend mal implementado | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 90329be | feat: se modifico el enviroments.develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | ff0dacc | fix(field): load fumigation areas per selected parcel | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1b1476b | feat se modifico el parcel para que no choque con el backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 9da0203 | fix(field): align parcel and fumigation mappings with backend contract | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 49e4fc1 | Correccion del store drone | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 8376b94 | Merge pull request #19 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | c8d1eac | Merge branch 'develop' of https://github.com/Opensource-UPC/Agridron-frontend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | d69dd79 | feat:se agregaron cambios desde develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 432ac44 | fix(hosting): add SPA rewrite for client-site routes | — | 11/11/2026 |
+
+
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del backend 
+y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-backend | main | 6c06439 | fix(openapi): use current server and Render URL in Swagger servers | — | 11/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 9ae22ef | fix(field): idempotent image migration (V207) for Render deploy | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0e7d09b | feat(field): persist optional image for farms and parcels | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4c61ea0 | Merge branch 'main' of https://github.com/Opensource-UPC/Agridron-backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | e01f472 | Merge pull request #9 from Opensource-UPC/develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | eb2d16a | added class diagram v0.5 | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | d626fae | Delete docs/upc-pre-202620-1asi0729-7760-AgriDron-report-TB1.pdf | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | dca8010 | feat: se modifico el aplication properties | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 3e70397 | perf(docker): optimize JVM memory flags for 512MB RAM container | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4d6def4 | feat(db): auto-repair flyway schema history before migration | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 31e0c52 | merge: postgis extension migration into main | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 74e9a5e | fix(db): ensure postgis extension exists before creating spatial tables | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0a6814a | Merge pull request #8 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 72333ab | fix(build): remove unnecessary apt-get curl from runtime image | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 2d62b7e | Merge pull request #7 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 05478bd | Merge pull request #6 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a66f533 | finally 6 endpoints added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | cf053b5 | inventory from infrastructure advance complete | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 25603e5 | folders adapter,assembler, entites and repositories from folder infrastructure | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | e1ee46c | files test queryservice donre and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3dc03c3 | test command and query services added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a984ef8 | one more queryservices implements | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9ba9609 | foler internal and DroneCommandServiceImpl added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 946ec4c | Inventory application and repositories added. | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3718176 | files commands, queries and repositories's dron and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9b4e094 | Second advance to inventory BC | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 074a544 | aggregate and valueobject from Nozzle added | — | 05/11/2026 |
+
+**Link de repositorio del backend**: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 **Nota:** La lentitud constituye un hallazgo de rendimiento con impacto en la usabilidad. Las notas no permiten determinar si existen indicadores de carga; por ello, no se afirma una vulneración de la heurística de visibilidad del estado del sistema.
 
@@ -4261,6 +4796,70 @@ En el problema de actualización de existencias, la evidencia permite identifica
 **Heurística violada: Usabilidad — Correspondencia entre el sistema y el mundo real.**
 
 **Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+**Ejecución de landing page**
+En esta imagen podemos observar la incicializacion del proyecto en FireBase
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l3.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l4.png)
+
+En esta imagen podemos observar el despliegue del landingPage de Agridron
+
+
+![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l5.png)
+
+**Ejecucion de frontend**
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d5.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d6.png)
+
+En esta imagen podemos observar el comando de despliegue
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d7.png)
+
+En esta imagen podemos observar la ejecucion del comando
+
+![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d8.png)
+
+En esta imagen podemos observar la webapp desplegada en FireBase
+
+
+**Ejecucion de backend**
+
+
+**Link del github del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
+
+Figura: Evidencia de la creacion del proyecto en Render
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
+
+Figura: Evidencia de creacion de Agridron database
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
+
+Figura: Evidencia de creacion de un nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
+
+Figura: Evidencia de publicación del repositorio git en el nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
+
+Figura: Evidencia de configuración del nuevo web service
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
+
+Figura: Evidencia de despliegue del backend
+
+![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+
 
 **Problema:**
 
@@ -4529,6 +5128,371 @@ El participante valoró favorablemente los siguientes aspectos:
 
 Estas apreciaciones corresponden a una entrevista individual. Sirven como evidencia inicial de validación, pero no sustituyen una inspección heurística completa ni permiten generalizar los resultados a todos los usuarios.
 
+#### 533-UX Heuristics & Principles Evaluation
+
+## UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN:** Código de la sección
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Nombre del Grupo que ejecuta la Sesión de evaluación
+
+**CLIENTE(S):** Nombre de las personas que participan en la sesión
+
+## SITE o APP A EVALUAR:
+
+*AgriDron*
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas en las entrevistas de validación:
+
+1. Comprender el propósito y los beneficios de la plataforma desde la página principal.
+2. Identificar el acceso a la creación de una cuenta.
+3. Registrar y localizar fincas y parcelas.
+4. Comprender los campos del formulario de registro de terrenos.
+5. Delimitar parcelas mediante polígonos en el mapa.
+6. Registrar cultivos.
+7. Crear misiones de fumigación y consultar su estado y avance.
+8. Iniciar y finalizar una misión.
+9. Consultar información meteorológica para planificar las operaciones.
+10. Localizar reportes y exportarlos en formato PDF.
+11. Consultar el uso de insumos y los indicadores de las operaciones.
+12. Registrar drones y consultar sus características.
+13. Reportar fallas, registrar reparaciones y consultar mantenimientos.
+14. Registrar agroquímicos y consultar las existencias disponibles.
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas, debido a que las entrevistas no contienen evidencia suficiente sobre su ejecución:**
+
+1. Completar el registro de una cuenta y recuperar una contraseña.
+2. Administrar permisos y roles de usuarios.
+3. Comprobar la recuperación de registros eliminados.
+4. Verificar una operación real de fumigación y su conexión con un dron.
+5. Comprobar la precisión de las mediciones y los datos meteorológicos.
+6. Evaluar la accesibilidad y la adaptación a dispositivos móviles.
+7. Verificar la recepción de reportes y el seguimiento de operaciones desde la cuenta de un agricultor.
+
+## ESCALA DE SEVERIDAD:
+
+Los problemas serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser superado fácilmente por el usuario u ocurre con muy poca frecuencia. Su corrección puede realizarse cuando exista disponibilidad de tiempo. |
+| 2 | Problema menor: genera confusión o requiere un esfuerzo adicional, pero permite completar la tarea. Se recomienda corregirlo en una próxima versión. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente completar una tarea. Su corrección debe recibir prioridad alta. |
+| 4 | Problema muy grave: impide al usuario continuar con una tarea esencial. Debe corregirse antes del lanzamiento. |
+
+## FUENTES Y ALCANCE DE LA EVALUACIÓN:
+
+Se utilizaron las siguientes fuentes:
+
+1. Notas de la entrevista de validación de Santiago Enrique Vargas Alarcon, realizada el 11 de noviembre de 2026.
+2. Transcripción de la entrevista realizada por Edwin Nicho a una operadora de drones identificada como Valeria.
+3. Transcripción de la entrevista realizada por Sebastián Sayago a un participante identificado como Carlos.
+
+**Nota sobre la identificación:** Los nombres completos de Valeria y Carlos no se distinguen con claridad en las transcripciones, por lo que se utilizan únicamente sus primeros nombres.
+
+Las severidades son preliminares. No se dispone de capturas ni de mediciones de rendimiento. Algunas tareas se realizaron con orientación del entrevistador, por lo que las entrevistas no permiten concluir que todos los flujos puedan completarse sin ayuda.
+
+Se distinguen los problemas de usabilidad reportados de las sugerencias de nuevas funcionalidades. Las sugerencias no reciben una severidad mientras no se compruebe que su ausencia dificulta una tarea existente.
+
+Las transcripciones automáticas contienen fragmentos poco comprensibles. Los hallazgos se limitan a las declaraciones cuyo sentido puede identificarse con suficiente claridad.
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) | Fuente |
+|---|----------|:-------------------:|---------------------------------|--------|
+| 1 | El campo de identificador en el registro de terrenos utiliza una denominación técnica y genera confusión sobre el dato solicitado. | 2 | Usabilidad: Correspondencia entre el sistema y el mundo real. | Entrevista de Santiago. |
+| 2 | La carga de información presenta lentitud durante el uso de la plataforma. | 2, provisional | Usabilidad: Flexibilidad y eficiencia de uso. | Entrevista de Santiago. |
+| 3 | La sección de reportes requiere más esfuerzo para localizarse que otras secciones. | 2 | Arquitectura de información: Facilidad para encontrar la información. | Entrevista realizada por Edwin a Valeria. |
+| 4 | No resulta evidente cómo actualizar las existencias de los agroquímicos. | 2, provisional | Usabilidad: Reconocimiento antes que recuerdo. | Entrevista realizada por Sebastián a Carlos. |
+
+**Nota:** La lentitud constituye un hallazgo de rendimiento con impacto en la usabilidad. Las notas no permiten determinar si existen indicadores de carga; por ello, no se afirma una vulneración de la heurística de visibilidad del estado del sistema.
+
+En el problema de actualización de existencias, la evidencia permite identificar una dificultad para encontrar la acción, pero no confirmar que la funcionalidad esté ausente.
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+### PROBLEMA #1: El identificador del formulario de registro de terrenos genera confusión
+
+**Severidad: 2 — Problema menor.**
+
+**Heurística violada: Usabilidad — Correspondencia entre el sistema y el mundo real.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
+**Problema:**
+
+Durante la revisión del registro de fincas y parcelas, el participante manifestó confusión respecto al campo de identificador debido a su carácter técnico. Aunque consideró sencillo el formulario en general, necesitó una explicación del entrevistador para comprender ese dato.
+
+Las notas mencionan tanto un “identificador del propietario” como un “código asignado al terreno”. Esta diferencia impide determinar con certeza qué representa el campo y hace necesario verificar su significado antes de modificarlo.
+
+Una denominación poco clara puede llevar al usuario a introducir información incorrecta, solicitar ayuda o dedicar más tiempo al registro.
+
+**Evidencia de la entrevista:**
+
+El participante identificó la confusión con el identificador como el único inconveniente menor de su experiencia. Como próximo paso, se propuso simplificar o eliminar ese campo.
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del formulario de registro y señalar el campo de identificador evaluado.*
+
+**Recomendación:**
+
+Verificar qué representa el identificador y si el usuario necesita introducirlo manualmente.
+
+- Si corresponde al propietario autenticado, asociarlo automáticamente con su cuenta.
+- Si corresponde a un código del terreno generado por el sistema, retirarlo del formulario de ingreso y mostrarlo después del registro.
+- Si requiere seleccionar otro propietario, utilizar un selector con nombres reconocibles en lugar de solicitar un código técnico.
+
+Cuando sea necesario mantener el campo visible, emplear una etiqueta comprensible y un texto de ayuda que explique su finalidad.
+
+### PROBLEMA #2: La carga de información presenta lentitud
+
+**Severidad: 2 — Problema menor, provisional.**
+
+**Principio afectado: Usabilidad — Flexibilidad y eficiencia de uso.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
+**Problema:**
+
+Durante la revisión inicial se identificó lentitud al cargar información. El entrevistador la atribuyó a las limitaciones del despliegue en el plan gratuito de Render; esta explicación no fue verificada mediante mediciones técnicas.
+
+Los tiempos de espera pueden interrumpir el flujo de trabajo y aumentar el esfuerzo necesario para consultar información o continuar con las tareas. Sin embargo, las notas no indican cuánto duraron las demoras, con qué frecuencia ocurrieron ni si impidieron completar alguna operación.
+
+Por ello, se asigna una severidad preliminar de 2, que deberá revisarse después de medir el rendimiento.
+
+**Evidencia de la entrevista:**
+
+En la revisión inicial, el entrevistador explicó la lentitud de la carga de información y la relacionó con las condiciones del servicio de alojamiento utilizado.
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del estado de carga. Complementarla con una medición o grabación que permita evidenciar la duración de la espera.*
+
+**Recomendación:**
+
+Medir los tiempos de respuesta e identificar las pantallas y operaciones afectadas. Con esos resultados, revisar el despliegue y optimizar las consultas o solicitudes que ocasionen las demoras.
+
+Durante las esperas, mostrar un indicador de carga y un mensaje comprensible. Si una solicitud falla, informar al usuario y ofrecer una opción para reintentar sin perder los datos ingresados.
+
+### PROBLEMA #3: La sección de reportes resulta menos fácil de localizar
+
+**Severidad: 2 — Problema menor.**
+
+**Principio afectado: Arquitectura de información — Facilidad para encontrar la información.**
+
+**Fuente: Entrevista realizada por Edwin Nicho a la operadora Valeria.**
+
+**Problema:**
+
+La operadora indicó que necesitó más tiempo para encontrar los reportes que otras secciones de la plataforma. Una vez localizados, señaló que su contenido era comprensible.
+
+Esto representa una dificultad de localización, especialmente porque la participante considera que entregar un reporte técnico al agricultor es una parte importante de su servicio.
+
+La entrevista no permite identificar si la causa está en el nombre de la sección, su ubicación o la organización del menú. Tampoco se registró el tiempo necesario para encontrarla.
+
+**Evidencia de la entrevista:**
+
+> “Me tomó un poco más encontrarlos [...] pero una vez que los ubiqué ya se entienden bien”.
+
+*Fragmento de la transcripción automática, con ajustes mínimos de puntuación y concordancia.*
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del menú de navegación y señalar el acceso a los reportes.*
+
+**Recomendación:**
+
+Revisar la ubicación y la denominación de la sección de reportes mediante una prueba de búsqueda sin orientación del entrevistador.
+
+Incluir accesos directos a los reportes desde el detalle de una misión y desde la confirmación de su finalización. Utilizar una etiqueta explícita, como “Reportes de fumigación”, si las pruebas confirman que facilita su identificación.
+
+### PROBLEMA #4: No resulta evidente cómo actualizar las existencias de los agroquímicos
+
+**Severidad: 2 — Problema menor, provisional.**
+
+**Heurística afectada: Usabilidad — Reconocimiento antes que recuerdo.**
+
+**Fuente: Entrevista realizada por Sebastián Sayago al participante Carlos.**
+
+**Problema:**
+
+Durante la exploración de la sección de agroquímicos, Carlos manifestó que debería existir una opción para actualizar la cantidad disponible. Como ejemplo, mencionó la necesidad de registrar un aumento de litros.
+
+Su comentario indica que la acción necesaria para mantener actualizadas las existencias no resultó evidente durante la prueba. Consultar una cantidad almacenada no resuelve por sí solo la necesidad de registrar compras, reposiciones u otros cambios.
+
+La transcripción no permite confirmar si la plataforma carece de esta función o si existe y el participante no logró localizarla. Por ello, el hallazgo se formula como una dificultad para reconocer la acción y recibe una severidad provisional de 2.
+
+Si una prueba posterior confirma que no es posible registrar cambios de existencias por ningún medio, deberá revisarse la severidad según el impacto sobre la gestión de insumos.
+
+**Evidencia de la entrevista:**
+
+Al revisar los agroquímicos, Carlos preguntó cómo actualizar la cantidad disponible y propuso que hubiera una opción para registrar un incremento de litros.
+
+*Se presenta una paráfrasis debido a los errores de la transcripción automática.*
+
+**Captura de pantalla:**
+
+![Captura de entrevista de Carlos](assets/chapter5/validacion-carlos.png)
+
+**Recomendación:**
+
+Comprobar si existe una función para actualizar las existencias y realizar una prueba sin orientación para verificar si los usuarios pueden encontrarla.
+
+Si ya existe, ofrecer una acción visible con una etiqueta comprensible, como “Registrar entrada” o “Actualizar existencias”.
+
+Si no existe, incorporar el registro de movimientos de inventario. Solicitar la cantidad, la unidad y el motivo del movimiento, y mostrar la cantidad resultante antes de confirmar. Conservar un historial para facilitar la revisión de los cambios.
+
+## SUGERENCIAS DE MEJORA DE LA OPERADORA:
+
+Las siguientes observaciones expresan necesidades y oportunidades de mejora. No se consideran fallos confirmados ni reciben una puntuación de severidad.
+
+| # | Observación o necesidad | Recomendación |
+|---|-------------------------|---------------|
+| 1 | La operadora sugirió mostrar en la página principal cómo es el reporte que recibe el agricultor. | Incorporar una vista previa de un reporte técnico con datos de ejemplo y una explicación breve de su utilidad. |
+| 2 | Solicitó distinguir el área realmente tratada del área declarada, porque ambas pueden diferir. | Mostrar ambas superficies con etiquetas y unidades claras, indicando cómo se obtuvo cada valor. |
+| 3 | Indicó que le sería útil consultar en tiempo real la batería, la posición y el líquido restante del dron. | Evaluar la incorporación de estos datos, mostrando su hora de actualización y si proceden de una conexión real o de una simulación. |
+| 4 | Señaló que el agricultor también debería poder consultar el seguimiento desde su celular. | Validar una vista móvil de seguimiento con los permisos adecuados para el agricultor. |
+| 5 | Solicitó un registro rápido al finalizar la operación con las hectáreas reales, el volumen aplicado y sus observaciones. | Incorporar o hacer más visible una bitácora de cierre vinculada a la misión y al reporte técnico. |
+| 6 | Explicó que la información y las alertas meteorológicas le ayudarían a justificar una suspensión ante el agricultor. | Evaluar el registro de la causa de suspensión y de las condiciones meteorológicas consultadas, con fecha, hora y fuente, para incluirlas en el reporte. |
+| 7 | Carlos manifestó interés en contar con una explicación más detallada de cómo registrar los servicios y consultarlos después. El fragmento requiere confirmación por la calidad de la transcripción. | Validar esta necesidad y, si se confirma, incorporar una demostración breve del flujo de registro y consulta de servicios. |
+| 8 | Carlos valoró poder mantener actualizada la información y consultar los trabajos realizados para sus clientes. | Validar si la consulta por cliente está disponible y resulta fácil de encontrar. Si es necesario, incorporar filtros o un historial de servicios por cliente. |
+
+### OBSERVACIÓN #1: Mostrar un ejemplo del reporte destinado al agricultor
+
+**Contexto:**
+
+Al revisar la página principal, la operadora destacó la sección que diferencia a agricultores y operadores. Como mejora, propuso mostrar cómo se ve el reporte que recibe el agricultor, porque es uno de los elementos que más le solicitan sus clientes.
+
+**Recomendación:**
+
+Agregar una vista previa del reporte con información de ejemplo. Explicar qué resultados presenta y cómo puede consultarlo el agricultor.
+
+### OBSERVACIÓN #2: Diferenciar el área declarada del área realmente tratada
+
+**Contexto:**
+
+La operadora consideró comprensibles la parcela, la fecha y el estado de las misiones. Sin embargo, indicó que le ayudaría comparar el área tratada con el área declarada, debido a las diferencias que encuentra en su trabajo.
+
+**Recomendación:**
+
+Presentar por separado el área declarada y el área efectivamente tratada, expresadas en hectáreas. Identificar la procedencia de cada dato y evitar presentar el área delimitada en el mapa como si fuera necesariamente el área fumigada.
+
+### OBSERVACIÓN #3: Ampliar el seguimiento operativo del dron
+
+**Contexto:**
+
+La operadora solicitó consultar la batería, la posición y el líquido restante del dron en tiempo real. También expresó interés en que el agricultor pueda visualizar esa información desde su celular.
+
+**Recomendación:**
+
+Validar la disponibilidad de esos datos y diseñar una vista de seguimiento que muestre su actualización y el estado de la conexión. Definir qué información necesita consultar cada tipo de usuario.
+
+### OBSERVACIÓN #4: Facilitar el registro de resultados al terminar la misión
+
+**Contexto:**
+
+La participante solicitó un registro rápido de las hectáreas reales, el volumen aplicado y las observaciones al finalizar el servicio.
+
+La transcripción automática no permite distinguir con claridad el término usado para nombrar este registro, pero sí identifica los datos solicitados.
+
+**Recomendación:**
+
+Ofrecer un formulario breve de cierre de misión con estos campos y vincular la información registrada con el reporte técnico.
+
+### OBSERVACIÓN #5: Utilizar las condiciones meteorológicas como respaldo de una suspensión
+
+**Contexto:**
+
+La operadora explicó que las alertas y los datos meteorológicos le resultan útiles para justificar ante el agricultor una suspensión por condiciones desfavorables.
+
+Los valores de viento y temperatura mencionados durante la entrevista corresponden a su práctica personal. No se consideran umbrales técnicos validados para configurar la plataforma.
+
+**Recomendación:**
+
+Permitir registrar una suspensión por clima y asociarla con las condiciones consultadas, la fecha, la hora y la fuente de información. Validar los criterios de alerta según el equipo, el producto y las condiciones de operación aplicables.
+
+## OBSERVACIONES POSITIVAS:
+
+### Entrevista realizada por Gabriel Ramirez al operador Santiago
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+### Entrevista realizada por Edwin Nicho a la operadora Valeria
+
+1. La participante comprendió que la plataforma permite gestionar servicios de fumigación, equipos, insumos, misiones, clima y reportes.
+2. Valoró la diferenciación entre agricultores y operadores en la página principal.
+3. Encontró fácilmente las secciones de drones y agroquímicos.
+4. Consideró útil consultar el modelo, la capacidad y el estado de los equipos.
+5. Valoró las horas de vuelo acumuladas y el próximo mantenimiento, información que actualmente administra en Excel.
+6. Indicó que los estados de las misiones son fáciles de diferenciar.
+7. Confirmó que pudo exportar un reporte en PDF y consideró que contenía la información necesaria.
+8. Valoró consultar los insumos disponibles antes de salir al campo.
+9. Estimó que disponer de parcelas delimitadas podría ahorrarle entre 40 minutos y una hora de reconocimiento previo. Esta estimación no fue medida durante la evaluación.
+10. Manifestó que recomendaría la plataforma a operadores que trabajan solos o con equipos pequeños.
+
+### Entrevista realizada por Sebastián Sayago al participante Carlos
+
+1. El participante comprendió que la plataforma permite organizar servicios de fumigación, registrar información de terrenos y consultar datos relacionados con el clima y los drones.
+2. Identificó la centralización de información como una ventaja frente a revisar conversaciones y archivos separados.
+3. Consideró sencillas las secciones de parcelas y misiones, especialmente sus opciones de organización y filtrado.
+4. Valoró la posibilidad de registrar el mantenimiento de los drones.
+5. Manifestó disposición a utilizar la plataforma para gestionar sus servicios.
+6. Destacó la importancia de mantener actualizada la información y conservar el registro de los trabajos realizados para sus clientes.
+
+## LIMITACIONES DE LA EVALUACIÓN:
+
+1. La evaluación contó con tres participantes, por lo que los resultados no representan necesariamente la experiencia de todos los usuarios de la plataforma.
+2. Las sesiones incluyeron orientación de los entrevistadores, lo que limita la evaluación de la facilidad de uso autónomo.
+3. Las tareas se realizaron en un entorno de demostración, sin ejecutar operaciones reales de fumigación en campo.
+4. No se evaluó el uso prolongado de la plataforma ni la gestión de grandes cantidades de parcelas, misiones, drones e insumos.
+5. No se midieron de forma sistemática los tiempos de ejecución, la cantidad de errores ni el porcentaje de tareas completadas sin ayuda.
+6. No se evaluó el funcionamiento en condiciones de conectividad limitada, habituales en zonas agrícolas.
+7. No se realizaron pruebas específicas de accesibilidad ni de uso en distintos dispositivos y tamaños de pantalla.
+8. No se comprobó el flujo completo de colaboración entre agricultores y operadores, desde la planificación del servicio hasta la recepción de sus resultados.
+
+## OBSERVACIONES POSITIVAS:
+
+El participante valoró favorablemente los siguientes aspectos:
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+Estas apreciaciones corresponden a una entrevista individual. Sirven como evidencia inicial de validación, pero no sustituyen una inspección heurística completa ni permiten generalizar los resultados a todos los usuarios.
+
+---
+
+## 5.4. Video About-the-Product
+
+**Enlace al video:**
+
+[PEGAR AQUÍ EL ENLACE AL VIDEO]
+
+**Descripción:**
+
+[DESCRIBIR BREVEMENTE EL CONTENIDO DEL VIDEO.]
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ## Conclusiones y recomendaciones
  
@@ -4581,6 +5545,11 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 
 ---
 
+<div style="page-break-after: always;"></div>
+
+# Video About-The-Team
+[https://drive.google.com/file/d/1ex_MHellzRg8mYEI7UC0bQfnvBT3jwqG/view](https://drive.google.com/file/d/1ex_MHellzRg8mYEI7UC0bQfnvBT3jwqG/view) 
+
 # Bibliografía
 
 > Fuentes utilizadas, registradas siguiendo el formato APA 7ª edición, en orden alfabético por apellido del primer autor.
@@ -4598,18 +5567,28 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 # Anexos
 
 ## Anexo A: Evidencias adicionales
+### Links del repositorio
 
-**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
+**Link GitHub Report:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
 **Link LandingPague:** [https://agridronlandingpage.web.app/](https://agridronlandingpage.web.app/)
 
 **Link LandingPage:** [https://agridronlandingpage.web.app](https://agridronlandingpage.web.app)
+**Link GitHub LandingPage:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
 
-**Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+**Link GitHub Frontend:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
 **Link de la plataforma:** [https://agridronwebapp.web.app](https://agridronwebapp.web.app) 
+**Link GitHub Backend:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
-**Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
+### Links del LandingPage, Frontend y Backend
+
+**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
+
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
+
+**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
 
 ## Anexo B: Videos de Exposiciones
 
@@ -4617,3 +5596,4 @@ Como <strong>recomendaciones para las siguientes entregas</strong>, el equipo co
 
 ## Anexo C: Otros
 
+**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
