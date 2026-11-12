@@ -91,6 +91,8 @@
 | 2.4.0 | 04/11/2026 | Nicho Huillcañahui, Edwin Noe | Actualización de Inventory & Resource Management: User Stories DR-001 a DR-006, Technical Stories TU-020 a TU-022 y nueva TU-027, Ubiquitous Language, Bounded Context, arquitectura, arquitectura de información, restricciones de base de datos y estado de las tareas del Sprint 2. |
 | 2.5.0 | 08/11/2026 | Sayago Vidal, Sebastián Leonardo | Implementación del base del contenido del Sprint 3. Actualizacion de contenido de Sprint 1 y 2 |
 | 2.5.1 | 11/11/2026 | Sayago Vidal, Sebastián Leonardo | Correcciones de contenido del sprint 3 |
+| 2.6.0 | 12/11/2026 | Nicho Huillcañahui, Edwin Noe | Reestructuración del Sprint Backlog 3 (5.2.3.3): User Stories de Landing Page, Web Application y Web Services descompuestas en varias tareas, Task IDs únicos, títulos del Product Backlog, estados normalizados (To-do / In-Process / To-Review / Done) |
+| 2.8.0 | 12/11/2026 | Nicho Huillcañahui, Edwin Noe |  Corrección de las evidencias del Sprint 3 según el enunciado. Ordenar la sección de registro de entrevistas de validación. Corrección de la sección Video About-the-Product y enlace del video de exposición AV2 en el anexo de Videos de Exposiciones. |
 
 
 ## Project Report Collaboration Insights
@@ -4333,10 +4335,10 @@ El objetivo del Sprint 3 es consolidar la primera versión integrada de AgriDron
 | 3 | TU-010 | Configuración de CORS | S3-T68 | Configurar política CORS del backend | Configurar orígenes, métodos y encabezados permitidos para el consumo autorizado de la API desde los clientes del proyecto. | 2 | Gabriel Ramírez | In-Process |
 | 3 | — | Integración y despliegue | S3-T69 | Conectar la Web Application con el backend desplegado | Actualizar los environments de la Web Application para consumir los servicios desplegados, reemplazando direcciones locales y servicios simulados. | 3 | Gabriel Ramírez | Done |
 | 3 | — | Integración y despliegue | S3-T70 | Desplegar el backend y la base de datos en Render | Crear la base de datos PostgreSQL, configurar el web service con Docker y publicar la primera versión de los Web Services. | 4 | Alexander Vásquez | Done |
-| 3 | — | Integración y despliegue | S3-T71 | Desplegar la nueva versión de la Web Application | Compilar y publicar la Web Application en Firebase Hosting, incluyendo la regla de reescritura para rutas SPA. | 2 | Gabriel Ramírez | Done |
+| 3 | — | Integración y despliegue | S3-T71 | Desplegar la nueva versión de la Web Application | Compilar y publicar la Web Application en Firebase Hosting, incluyendo la regla de reescritura para rutas SPA. | 2 | Alexander Vásquez | Done |
 | 3 | — | Integración y despliegue | S3-T72 | Desplegar la nueva versión del Landing Page | Compilar y publicar la versión del Sprint 3 del Landing Page en Firebase Hosting. | 1 | Edwin Nicho | Done |
-| 3 | — | Videos del producto | S3-T73 | Elaborar el video About-the-Product | Guionizar, grabar y editar el video promocional del producto con escenas de la aplicación y testimonios de usuarios. | 5 | Alexander Vásquez | Done |
-| 3 | — | Videos del producto | S3-T74 | Elaborar el video About-the-Team | Guionizar, grabar y editar el video que presenta al equipo, su organización y el proceso de construcción del producto. | 5 | Sebastián Sayago | Done |
+| 3 | — | Videos del producto | S3-T73 | Elaborar el video About-the-Product | Guionizar, grabar y editar el video promocional del producto con escenas de la aplicación y testimonios de usuarios. | 5 | Alexander Vásquez and Edwin Nicho | Done |
+| 3 | — | Videos del producto | S3-T74 | Elaborar el video About-the-Team | Guionizar, grabar y editar el video que presenta al equipo, su organización y el proceso de construcción del producto. | 5 | Edwin Nicho  | Done |
 
 
 Los estados del backlog se actualizarán conforme avance el sprint. Las tareas relacionadas con endpoints se considerarán completadas cuando su implementación esté disponible en el backend y se haya verificado su comportamiento mediante solicitudes HTTP o pruebas de integración. La existencia de una interfaz o de un cliente API en el frontend no se considerará evidencia suficiente de que el servicio backend está implementado.
