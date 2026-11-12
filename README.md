@@ -4186,26 +4186,32 @@ La coordinación entre los integrantes permitió relacionar las User Stories con
 
 ## TAREAS A EVALUAR:
 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas durante la entrevista de validación:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas en las entrevistas de validación:
 
-1. Comprender el propósito de la plataforma desde la página principal.
+1. Comprender el propósito y los beneficios de la plataforma desde la página principal.
 2. Identificar el acceso a la creación de una cuenta.
 3. Registrar y localizar fincas y parcelas.
 4. Comprender los campos del formulario de registro de terrenos.
-5. Consultar el estado y el avance de las misiones de fumigación.
-6. Consultar las tareas asignadas a los drones.
-7. Interpretar los datos meteorológicos y las alertas.
-8. Consultar reportes de resultados de las operaciones.
+5. Delimitar parcelas mediante polígonos en el mapa.
+6. Registrar cultivos.
+7. Crear misiones de fumigación y consultar su estado y avance.
+8. Iniciar y finalizar una misión.
+9. Consultar información meteorológica para planificar las operaciones.
+10. Localizar reportes y exportarlos en formato PDF.
+11. Consultar el uso de insumos y los indicadores de las operaciones.
+12. Registrar drones y consultar sus características.
+13. Reportar fallas, registrar reparaciones y consultar mantenimientos.
+14. Registrar agroquímicos y consultar las existencias disponibles.
 
-**No están incluidas en esta versión de la evaluación las siguientes tareas, debido a que las notas no contienen evidencia suficiente sobre su ejecución:**
+**No están incluidas en esta versión de la evaluación las siguientes tareas, debido a que las entrevistas no contienen evidencia suficiente sobre su ejecución:**
 
 1. Completar el registro de una cuenta y recuperar una contraseña.
-2. Configurar y ejecutar una misión de fumigación de principio a fin.
-3. Asignar o modificar drones y agroquímicos.
-4. Eliminar registros y comprobar los mecanismos de confirmación o recuperación.
-5. Administrar permisos y roles de usuarios.
-6. Exportar reportes.
-7. Evaluar la accesibilidad y la adaptación a dispositivos móviles.
+2. Administrar permisos y roles de usuarios.
+3. Comprobar la recuperación de registros eliminados.
+4. Verificar una operación real de fumigación y su conexión con un dron.
+5. Comprobar la precisión de las mediciones y los datos meteorológicos.
+6. Evaluar la accesibilidad y la adaptación a dispositivos móviles.
+7. Verificar la recepción de reportes y el seguimiento de operaciones desde la cuenta de un agricultor.
 
 ## ESCALA DE SEVERIDAD:
 
@@ -4218,14 +4224,26 @@ Los problemas serán puntuados tomando en cuenta la siguiente escala de severida
 | 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente completar una tarea. Su corrección debe recibir prioridad alta. |
 | 4 | Problema muy grave: impide al usuario continuar con una tarea esencial. Debe corregirse antes del lanzamiento. |
 
+## FUENTES Y ALCANCE DE LA EVALUACIÓN:
+
+Se utilizaron las siguientes fuentes:
+
+1. Notas de la entrevista de validación de Santiago Enrique Vargas Alarcon, realizada el 11 de noviembre de 2026.
+2. Transcripción de la entrevista realizada por Edwin Nicho a una operadora de drones identificada como Valeria.
+
+**Nota sobre la identificación:** El nombre completo de la operadora no se distingue con claridad en la transcripción automática, por lo que se utiliza únicamente su primer nombre.
+
+Las severidades son preliminares. No se dispone de capturas ni de mediciones de rendimiento. Además, la entrevista de la operadora incluyó orientación del entrevistador durante varias tareas, por lo que no permite concluir que todos los flujos puedan completarse sin ayuda.
+
+Se distinguen los problemas de usabilidad reportados de las sugerencias de nuevas funcionalidades. Las sugerencias no reciben una severidad mientras no se compruebe que su ausencia dificulta una tarea existente.
+
 ## TABLA RESUMEN:
 
-La evaluación se basa en las notas de la entrevista realizada a Santiago Enrique Vargas Alarcon el 11 de noviembre de 2026. Las severidades son preliminares: no se dispone de capturas, mediciones de rendimiento ni pruebas adicionales para determinar la frecuencia y el impacto de cada problema.
-
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-|---|----------|:-------------------:|---------------------------------|
-| 1 | El campo de identificador en el registro de terrenos utiliza una denominación técnica y genera confusión sobre el dato solicitado. | 2 | Usabilidad: Correspondencia entre el sistema y el mundo real. |
-| 2 | La carga de información presenta lentitud durante el uso de la plataforma. | 2, provisional | Usabilidad: Flexibilidad y eficiencia de uso, por el tiempo adicional requerido para realizar las tareas. |
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) | Fuente |
+|---|----------|:-------------------:|---------------------------------|--------|
+| 1 | El campo de identificador en el registro de terrenos utiliza una denominación técnica y genera confusión sobre el dato solicitado. | 2 | Usabilidad: Correspondencia entre el sistema y el mundo real. | Entrevista de Santiago. |
+| 2 | La carga de información presenta lentitud durante el uso de la plataforma. | 2, provisional | Usabilidad: Flexibilidad y eficiencia de uso. | Entrevista de Santiago. |
+| 3 | La sección de reportes requiere más esfuerzo para localizarse que otras secciones. | 2 | Arquitectura de información: Facilidad para encontrar la información. | Entrevista realizada por Edwin a la operadora Valeria. |
 
 **Nota:** La lentitud constituye un hallazgo de rendimiento con impacto en la usabilidad. Las notas no permiten determinar si existen indicadores de carga; por ello, no se afirma una vulneración de la heurística de visibilidad del estado del sistema.
 
@@ -4236,6 +4254,8 @@ La evaluación se basa en las notas de la entrevista realizada a Santiago Enriqu
 **Severidad: 2 — Problema menor.**
 
 **Heurística violada: Usabilidad — Correspondencia entre el sistema y el mundo real.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
 
 **Problema:**
 
@@ -4269,6 +4289,8 @@ Cuando sea necesario mantener el campo visible, emplear una etiqueta comprensibl
 
 **Principio afectado: Usabilidad — Flexibilidad y eficiencia de uso.**
 
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
 **Problema:**
 
 Durante la revisión inicial se identificó lentitud al cargar información. El entrevistador la atribuyó a las limitaciones del despliegue en el plan gratuito de Render; esta explicación no fue verificada mediante mediciones técnicas.
@@ -4290,6 +4312,138 @@ En la revisión inicial, el entrevistador explicó la lentitud de la carga de in
 Medir los tiempos de respuesta e identificar las pantallas y operaciones afectadas. Con esos resultados, revisar el despliegue y optimizar las consultas o solicitudes que ocasionen las demoras.
 
 Durante las esperas, mostrar un indicador de carga y un mensaje comprensible. Si una solicitud falla, informar al usuario y ofrecer una opción para reintentar sin perder los datos ingresados.
+
+### PROBLEMA #3: La sección de reportes resulta menos fácil de localizar
+
+**Severidad: 2 — Problema menor.**
+
+**Principio afectado: Arquitectura de información — Facilidad para encontrar la información.**
+
+**Fuente: Entrevista realizada por Edwin Nicho a la operadora Valeria.**
+
+**Problema:**
+
+La operadora indicó que necesitó más tiempo para encontrar los reportes que otras secciones de la plataforma. Una vez localizados, señaló que su contenido era comprensible.
+
+Esto representa una dificultad de localización, especialmente porque la participante considera que entregar un reporte técnico al agricultor es una parte importante de su servicio.
+
+La entrevista no permite identificar si la causa está en el nombre de la sección, su ubicación o la organización del menú. Tampoco se registró el tiempo necesario para encontrarla.
+
+**Evidencia de la entrevista:**
+
+> “Me tomó un poco más encontrarlos [...] pero una vez que los ubiqué ya se entienden bien”.
+
+*Fragmento de la transcripción automática, con ajustes mínimos de puntuación y concordancia.*
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del menú de navegación y señalar el acceso a los reportes.*
+
+**Recomendación:**
+
+Revisar la ubicación y la denominación de la sección de reportes mediante una prueba de búsqueda sin orientación del entrevistador.
+
+Incluir accesos directos a los reportes desde el detalle de una misión y desde la confirmación de su finalización. Utilizar una etiqueta explícita, como “Reportes de fumigación”, si las pruebas confirman que facilita su identificación.
+
+## SUGERENCIAS DE MEJORA DE LA OPERADORA:
+
+Las siguientes observaciones expresan necesidades y oportunidades de mejora. No se consideran fallos confirmados ni reciben una puntuación de severidad.
+
+| # | Observación o necesidad | Recomendación |
+|---|-------------------------|---------------|
+| 1 | La operadora sugirió mostrar en la página principal cómo es el reporte que recibe el agricultor. | Incorporar una vista previa de un reporte técnico con datos de ejemplo y una explicación breve de su utilidad. |
+| 2 | Solicitó distinguir el área realmente tratada del área declarada, porque ambas pueden diferir. | Mostrar ambas superficies con etiquetas y unidades claras, indicando cómo se obtuvo cada valor. |
+| 3 | Indicó que le sería útil consultar en tiempo real la batería, la posición y el líquido restante del dron. | Evaluar la incorporación de estos datos, mostrando su hora de actualización y si proceden de una conexión real o de una simulación. |
+| 4 | Señaló que el agricultor también debería poder consultar el seguimiento desde su celular. | Validar una vista móvil de seguimiento con los permisos adecuados para el agricultor. |
+| 5 | Solicitó un registro rápido al finalizar la operación con las hectáreas reales, el volumen aplicado y sus observaciones. | Incorporar o hacer más visible una bitácora de cierre vinculada a la misión y al reporte técnico. |
+| 6 | Explicó que la información y las alertas meteorológicas le ayudarían a justificar una suspensión ante el agricultor. | Evaluar el registro de la causa de suspensión y de las condiciones meteorológicas consultadas, con fecha, hora y fuente, para incluirlas en el reporte. |
+
+### OBSERVACIÓN #1: Mostrar un ejemplo del reporte destinado al agricultor
+
+**Contexto:**
+
+Al revisar la página principal, la operadora destacó la sección que diferencia a agricultores y operadores. Como mejora, propuso mostrar cómo se ve el reporte que recibe el agricultor, porque es uno de los elementos que más le solicitan sus clientes.
+
+**Recomendación:**
+
+Agregar una vista previa del reporte con información de ejemplo. Explicar qué resultados presenta y cómo puede consultarlo el agricultor.
+
+### OBSERVACIÓN #2: Diferenciar el área declarada del área realmente tratada
+
+**Contexto:**
+
+La operadora consideró comprensibles la parcela, la fecha y el estado de las misiones. Sin embargo, indicó que le ayudaría comparar el área tratada con el área declarada, debido a las diferencias que encuentra en su trabajo.
+
+**Recomendación:**
+
+Presentar por separado el área declarada y el área efectivamente tratada, expresadas en hectáreas. Identificar la procedencia de cada dato y evitar presentar el área delimitada en el mapa como si fuera necesariamente el área fumigada.
+
+### OBSERVACIÓN #3: Ampliar el seguimiento operativo del dron
+
+**Contexto:**
+
+La operadora solicitó consultar la batería, la posición y el líquido restante del dron en tiempo real. También expresó interés en que el agricultor pueda visualizar esa información desde su celular.
+
+**Recomendación:**
+
+Validar la disponibilidad de esos datos y diseñar una vista de seguimiento que muestre su actualización y el estado de la conexión. Definir qué información necesita consultar cada tipo de usuario.
+
+### OBSERVACIÓN #4: Facilitar el registro de resultados al terminar la misión
+
+**Contexto:**
+
+La participante solicitó un registro rápido de las hectáreas reales, el volumen aplicado y las observaciones al finalizar el servicio.
+
+La transcripción automática no permite distinguir con claridad el término usado para nombrar este registro, pero sí identifica los datos solicitados.
+
+**Recomendación:**
+
+Ofrecer un formulario breve de cierre de misión con estos campos y vincular la información registrada con el reporte técnico.
+
+### OBSERVACIÓN #5: Utilizar las condiciones meteorológicas como respaldo de una suspensión
+
+**Contexto:**
+
+La operadora explicó que las alertas y los datos meteorológicos le resultan útiles para justificar ante el agricultor una suspensión por condiciones desfavorables.
+
+Los valores de viento y temperatura mencionados durante la entrevista corresponden a su práctica personal. No se consideran umbrales técnicos validados para configurar la plataforma.
+
+**Recomendación:**
+
+Permitir registrar una suspensión por clima y asociarla con las condiciones consultadas, la fecha, la hora y la fuente de información. Validar los criterios de alerta según el equipo, el producto y las condiciones de operación aplicables.
+
+## OBSERVACIONES POSITIVAS:
+
+### Entrevista de Santiago Enrique Vargas Alarcon
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+### Entrevista realizada por Edwin Nicho a la operadora Valeria
+
+1. La participante comprendió que la plataforma permite gestionar servicios de fumigación, equipos, insumos, misiones, clima y reportes.
+2. Valoró la diferenciación entre agricultores y operadores en la página principal.
+3. Encontró fácilmente las secciones de drones y agroquímicos.
+4. Consideró útil consultar el modelo, la capacidad y el estado de los equipos.
+5. Valoró las horas de vuelo acumuladas y el próximo mantenimiento, información que actualmente administra en Excel.
+6. Indicó que los estados de las misiones son fáciles de diferenciar.
+7. Confirmó que pudo exportar un reporte en PDF y consideró que contenía la información necesaria.
+8. Valoró consultar los insumos disponibles antes de salir al campo.
+9. Estimó que disponer de parcelas delimitadas podría ahorrarle entre 40 minutos y una hora de reconocimiento previo. Esta estimación no fue medida durante la evaluación.
+10. Manifestó que recomendaría la plataforma a operadores que trabajan solos o con equipos pequeños.
+
+## LIMITACIONES DE LA EVALUACIÓN:
+
+1. Los hallazgos proceden de dos entrevistas y no permiten generalizar los resultados a todos los usuarios.
+2. La entrevista de la operadora contiene instrucciones y explicaciones del entrevistador durante las tareas.
+3. Algunas partes de la transcripción automática presentan errores y requieren contrastarse con la grabación para recuperar citas exactas.
+4. No se dispone de capturas, tiempos de ejecución ni mediciones de errores.
+5. Las funcionalidades mostradas en una demostración no acreditan por sí solas su funcionamiento durante una operación real.
+6. Las sugerencias de nuevas funcionalidades deben validarse antes de incorporarse como requisitos.
 
 ## OBSERVACIONES POSITIVAS:
 
