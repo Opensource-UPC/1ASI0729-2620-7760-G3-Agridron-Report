@@ -253,9 +253,9 @@ Entre el 28/10/2026 y el 10/11/2026, el equipo incorporó las correcciones deriv
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
    - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 2](#5233-sprint-backlog-3)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
@@ -4147,7 +4147,9 @@ Durante el Sprint 2 se desplegó la primera versión de la Web Application en Fi
 2. Generar la versión de producción con `npm run build` (`ng build`). Esta versión usa `environment.ts`, que apunta al Fake API publicado en MockAPI. En el entorno de desarrollo Angular lo reemplaza por `environment.development.ts`, que apunta al json-server local.
 3. Iniciar sesión en Firebase con `firebase login`.
 4. Publicar con `firebase deploy --only hosting`, que sube el contenido de `dist/Agridron-frontend/browser` al proyecto `agridronwebapp`.
-5. Verificar la versión publicada en [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home).
+5. Verificar la versión publicada en:
+   **Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+   **Credenciales**: usuario: `admin`, contraseña: `admin123`
 
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d1.png)
 
@@ -4180,6 +4182,9 @@ En esta imagen podemos observar la ejecucion del comando
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d8.png)
 
 En esta imagen podemos observar la webapp desplegada en FireBase
+
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
 
 ---
 
@@ -4334,6 +4339,25 @@ Durante el Sprint 3 se realizarán pruebas de ejecución para verificar la comun
 Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e información analítica, comprobando que las solicitudes HTTP reciban las respuestas esperadas y que las funcionalidades integradas puedan utilizar los servicios correspondientes.
 
 Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
+
+![Evidencia del despliegue del LandingPage](assets/chapter5/sprint1/l6.png)
+
+Figura: Evidencia del despliegue del LandingPage
+
+**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
+
+![Evidencia del despliegue del Frontend](assets/chapter5/sprint2/d8.png)
+
+Figura: Evidencia del despliegue del Frontend
+
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
+
+![Evidencia del despliegue del Backend](assets/chapter5/sprint3/backendDeployment.png)
+
+Figura: Evidencia del despliegue del backend
+
+**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
 
 
 
@@ -4989,20 +5013,24 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 # Anexos
 
 ## Anexo A: Evidencias adicionales
+### Links del repositorio
 
-**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
+**Link GitHub Report:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
-**Link Repositorio Landing Page** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
+**Link GitHub LandingPage:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
 
-**Link LandingPage:** [https://os-agridronlandingpage.web.app](https://os-agridronlandingpage.web.app)
+**Link GitHub Frontend:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
-**Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+**Link GitHub Backend:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
-**Link de la plataforma:** [https://os-agridronfrontend.web.app](https://os-agridronfrontend.web.app)
+### Links del LandingPage, Frontend y Backend
 
-**Link Repositorio Backend** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
-**Link de Repositorio de Reporte:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
+
+**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
 
 ## Anexo B: Videos de Exposiciones
 
@@ -5011,3 +5039,4 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 **Video de exposición TB1:** [https://drive.google.com/file/d/1loJ4L6oNWmI1wZwD3GjeU7jel-wB317I/view?usp=sharing](https://drive.google.com/file/d/1O-s9MigZWVFCFA8_S-THkAxQdRwtlqxj/view?usp=drive_link)
 ## Anexo C: Otros
 
+**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
