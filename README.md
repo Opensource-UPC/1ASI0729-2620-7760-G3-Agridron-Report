@@ -4482,12 +4482,44 @@ La documentación interactiva permitirá ejecutar solicitudes de prueba sobre lo
 
 *Figura: Ejemplo de respuesta JSON obtenida al consultar un recurso mediante un endpoint documentado.*
 
-##### Web Services Repository and Documentation Commits
+##### Documentation Commits
 
-Link de repositorio del backend: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del backend y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
 
 **Link de Swagger de Backend :** [https://os-agridronbackend.onrender.com/swagger-ui.html](https://os-agridronbackend.onrender.com/swagger-ui.html)
 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-backend | main | 6c06439 | fix(openapi): use current server and Render URL in Swagger servers | — | 11/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 9ae22ef | fix(field): idempotent image migration (V207) for Render deploy | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0e7d09b | feat(field): persist optional image for farms and parcels | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4c61ea0 | Merge branch 'main' of https://github.com/Opensource-UPC/Agridron-backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | e01f472 | Merge pull request #9 from Opensource-UPC/develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | eb2d16a | added class diagram v0.5 | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | d626fae | Delete docs/upc-pre-202620-1asi0729-7760-AgriDron-report-TB1.pdf | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | dca8010 | feat: se modifico el aplication properties | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 3e70397 | perf(docker): optimize JVM memory flags for 512MB RAM container | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4d6def4 | feat(db): auto-repair flyway schema history before migration | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 31e0c52 | merge: postgis extension migration into main | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 74e9a5e | fix(db): ensure postgis extension exists before creating spatial tables | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0a6814a | Merge pull request #8 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 72333ab | fix(build): remove unnecessary apt-get curl from runtime image | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 2d62b7e | Merge pull request #7 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 05478bd | Merge pull request #6 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a66f533 | finally 6 endpoints added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | cf053b5 | inventory from infrastructure advance complete | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 25603e5 | folders adapter,assembler, entites and repositories from folder infrastructure | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | e1ee46c | files test queryservice donre and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3dc03c3 | test command and query services added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a984ef8 | one more queryservices implements | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9ba9609 | foler internal and DroneCommandServiceImpl added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 946ec4c | Inventory application and repositories added. | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3718176 | files commands, queries and repositories's dron and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9b4e094 | Second advance to inventory BC | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 074a544 | aggregate and valueobject from Nozzle added | — | 05/11/2026 |
+
+**Link de repositorio del backend**: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -4534,7 +4566,7 @@ En esta imagen podemos observar la webapp desplegada en FireBase
 **Ejecucion de backend**
 
 
-**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+**Link del github del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 ![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
 
