@@ -5451,13 +5451,25 @@ Estas apreciaciones corresponden a una entrevista individual. Sirven como eviden
 
 ## 5.4. Video About-the-Product
 
-**Enlace al video:**
+El Video About-the-Product está dirigido a los visitantes del Landing Page que desean conocer la propuesta de AgriDron Solutions y a los usuarios de la Web Application que buscan entender cómo realizar sus tareas en la plataforma. Mantiene el tono cercano y profesional del producto, e incluye testimonios de usuarios que participaron en las entrevistas de validación.
 
-![Captura de pantalla- video About the product](assets/chapter5/sprint3/ScreenshotAboutTheProduct.png)
-| Grabación | [Ver entrevista](https://youtu.be/6XCNAZBxiAI?si=GqhlA_1in2UDdOeN) |
+![Captura del Video About-the-Product](assets/chapter5/sprint3/ScreenshotAboutTheProduct.png)
 
-**Descripción:**
-Video de validación de la aplicación web de AgriDron Solutions con participantes de nuestros segmentos objetivo. Primero se hace un recorrido por la plataforma: el dashboard con el estado del clima y la alerta de viento que indica cuándo no se recomienda fumigar, la gestión de fincas, parcelas y cultivos, la creación de una misión de fumigación (con la selección de la parcela, el dron y el agroquímico), la delimitación de áreas de fumigación sobre el mapa y los módulos de drones, agroquímicos y perfil. Después, los participantes comparten su retroalimentación. Destacan que la plataforma centraliza en un solo lugar la información que antes manejaban por WhatsApp y Excel. También señalan que las parcelas delimitadas en el mapa les ahorrarían entre 40 minutos y una hora de reconocimiento en campo, y que las alertas climáticas y el reporte técnico les ayudan a justificar una suspensión ante el agricultor. Finalmente, indican que recomendarían la plataforma a otros operadores que trabajan solos o con equipos pequeños.
+*Figura: Captura del Video About-the-Product de AgriDron Solutions.*
+
+| Campo | Detalle |
+|---|---|
+| YouTube (incrustado en el Landing Page) | [Ver video](https://youtu.be/6XCNAZBxiAI) |
+| Duración | 04:49 |
+
+**Descripción del contenido**
+
+El video presenta un recorrido por la aplicación web de AgriDron Solutions: el dashboard con el estado del clima y la alerta de viento que indica cuándo no se recomienda fumigar; la gestión de fincas, parcelas y cultivos; la creación de una misión de fumigación con la selección de la parcela, el dron y el agroquímico; la delimitación de áreas de fumigación sobre el mapa; y los módulos de drones, agroquímicos y perfil. Luego, los usuarios comparten su experiencia: destacan que la plataforma centraliza en un solo lugar la información que antes manejaban por WhatsApp y Excel, que las parcelas delimitadas en el mapa les ahorrarían entre 40 minutos y una hora de reconocimiento en campo, y que las alertas climáticas y el reporte técnico les ayudan a justificar una suspensión ante el agricultor.
+
+**Testimonio destacado**
+
+> "Sí, la recomendaría, sobre todo a otros operadores que trabajan solos o con pequeños equipos. Esta plataforma ha cumplido las expectativas que tenía desde la entrevista anterior." — Operadora de drones agrícolas, Segmento 2
+
 ---
 
 <div style="page-break-after: always;"></div>
