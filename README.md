@@ -4366,32 +4366,134 @@ Durante el Sprint 3 se trabajará en la evolución de los componentes principale
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 3 se realizarán pruebas de ejecución para verificar la comunicación entre la Web Application y los servicios backend. Se priorizarán los flujos relacionados con la creación y consulta de misiones, la actualización de sus estados y el registro de resultados.
+Durante el Sprint 3 se consolidó la primera versión integrada de AgriDron Solutions. En el Landing Page se incorporaron las pestañas de capturas de los diez módulos de la plataforma, el video About-the-Product, la sección del equipo con fotografías y el acceso al video About-the-Team. En la Web Application se completaron los flujos de gestión de fincas, parcelas, cultivos y áreas de fumigación; la creación, seguimiento y finalización de misiones; los reportes con exportación a PDF; y la gestión de drones, boquillas, mantenimientos y agroquímicos. Además, la Web Application pasó a consumir los Web Services desplegados en lugar de servicios simulados.
+**Productos desplegados**
 
-Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e información analítica, comprobando que las solicitudes HTTP reciban las respuestas esperadas y que las funcionalidades integradas puedan utilizar los servicios correspondientes.
+| Producto | Enlace |
+|---|---|
+| Landing Page | [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/) |
+| Web Application | [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home) (usuario: `admin`, contraseña: `admin123`) |
+| Web Services (Swagger UI) | [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html) |
+
+
+**Video de navegación del Sprint 3**
+
+En el siguiente video se muestra la navegación por las vistas implementadas durante el sprint.
+
+| Campo | Detalle |
+|---|---|
+| YouTube | [Ver video](https://youtu.be/6XCNAZBxiAI) |
+| Duración | 04:49 |
 
 Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
 
-![Evidencia del despliegue del LandingPage](assets/chapter5/sprint1/l6.png)
+##### Landing Page
 
-Figura: Evidencia del despliegue del LandingPage
+Se actualizó el Landing Page con nuevas secciones de presentación del producto y del equipo, la integración de los videos y la ampliación de las capturas de la plataforma.
+###### Sección principal (Hero)
 
-**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
+![Sección principal del Landing Page](assets/chapter5/new-landing1.png)
 
-![Evidencia del despliegue del Frontend](assets/chapter5/sprint2/d8.png)
+*Figura: Sección principal del Landing Page de AgriDron Solutions, con la propuesta de valor, los beneficios clave (reducción de costos, aumento de productividad y protección del equipo), los accesos «Pruébalo ahora» y «Ver la plataforma», el menú de navegación y el selector de idioma ES/EN.*
 
-Figura: Evidencia del despliegue del Frontend
+###### Conoce AgriDron por dentro – Dashboard Operativo
 
-**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
-**Credenciales**: usuario: `admin`, contraseña: `admin123`
+![Sección Conoce AgriDron por dentro – Dashboard Operativo](assets/chapter5/new-landing2.png)
 
-![Evidencia del despliegue del Backend](assets/chapter5/sprint3/backendDeployment.png)
+*Figura: Sección «Conoce AgriDron por dentro», que presenta las vistas de la aplicación web mediante pestañas. En la imagen, la pestaña Dashboard Operativo, con las métricas de la operación, los accesos rápidos y el estado del clima.*
 
-![Evidencia del despliegue del Backend](assets/chapter5/sprint3/evidenciaDespliegue.png)
+###### Conoce AgriDron por dentro – Fincas
 
-Figura: Evidencia del despliegue del backend
+![Sección Conoce AgriDron por dentro – Fincas](assets/chapter5/sprint3/LandingPage-SectionFincas.png)
 
-**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
+*Figura: Pestaña «Fincas» de la sección «Conoce AgriDron por dentro», que muestra el registro de predios con su ubicación, cantidad de parcelas y superficie total, junto con el acceso directo «Ir a Fincas» de la aplicación web.*
+
+###### Conoce AgriDron por dentro – Drones
+
+![Sección Conoce AgriDron por dentro – Drones](assets/chapter5/sprint3/LandingPage-SectionDrones.png)
+
+*Figura: Pestaña «Drones» de la sección «Conoce AgriDron por dentro», que muestra la gestión de la flota con el estado, la batería, la boquilla y la capacidad del tanque de cada dron, junto con el acceso directo «Ir a Drones». La sección cuenta con diez pestañas, una por cada módulo de la aplicación.*
+
+###### Video About-the-Product
+
+![Sección Video About-the-Product](assets/chapter5/sprint3/LandingPage-VideoAboutTheProduct.png)
+
+*Figura: Sección «Video About-the-Product», que incorpora el video promocional de AgriDron Solutions con reproductor integrado y el acceso «Probar Web App» para ingresar a la aplicación web.*
+
+###### Preguntas frecuentes y contacto
+
+![Sección de preguntas frecuentes y formulario de contacto](assets/chapter5/new-landing3.png)
+
+*Figura: Sección de preguntas frecuentes con respuestas desplegables y formulario de contacto «¿Listo para despegar?», que permite enviar una consulta indicando nombre, correo electrónico, plan de interés y mensaje.*
+
+###### Nuestro equipo y Video About-the-Team
+
+![Sección Nuestro equipo y Video About-the-Team](assets/chapter5/sprint3/LanginPage-SectionAboutTheam.png)
+
+*Figura: Sección «Nuestro equipo», con la fotografía, el nombre y el rol de cada integrante, y la tarjeta del Video About-the-Team, que indica su duración y redirige a YouTube para verlo completo.*
+
+###### Términos y Condiciones de Servicio
+
+![Página de Términos y Condiciones de Servicio](assets/chapter5/new-landing4.png)
+
+*Figura: Página de Términos y Condiciones de Servicio, que presenta el marco deontológico, el propósito y alcance del servicio y las políticas de confidencialidad y privacidad de los datos agrícolas.*
+
+##### Web Application
+
+Se completaron las vistas de los módulos de la Web Application y se conectaron con los servicios RESTful desplegados.
+
+###### Inicio
+
+![Vista de inicio de la aplicación web](assets/chapter5/new-frontend1.png)
+
+*Figura: Vista de inicio de la aplicación web, con el resumen de la operación agrícola (fincas, parcelas, cultivos y áreas de fumigación), accesos rápidos a los módulos y el estado del clima en tiempo real obtenido de Open-Meteo, con la indicación de si las condiciones son favorables para fumigar.*
+
+###### Detalle de parcela
+
+![Detalle de una parcela](assets/chapter5/new-frontend2.png)
+
+*Figura: Detalle de una parcela, que muestra su área, finca, cultivo y geometría, junto con su delimitación como polígono sobre el mapa satelital y la opción de consultar el clima de la parcela.*
+
+###### Misiones
+
+![Módulo de misiones](assets/chapter5/new-frontend3.png)
+
+*Figura: Módulo de misiones, con la lista de operaciones de fumigación, filtros por estado (planificadas, en progreso, completadas y pausadas), búsqueda por lote, finca o cultivo, y el progreso de cada misión con su dron, cultivo y fecha asignados.*
+
+###### Cultivos
+
+![Módulo de cultivos](assets/chapter5/new-frontend4.png)
+
+*Figura: Módulo de cultivos, donde el usuario registra, edita y elimina los cultivos y variedades que siembra en sus parcelas.*
+
+###### Nueva área de fumigación
+
+![Formulario de registro de un área de fumigación](assets/chapter5/new-frontend5.png)
+
+*Figura: Formulario de registro de un área de fumigación. El usuario selecciona la parcela y traza el polígono sobre el mapa satelital, y el área se calcula automáticamente.*
+
+###### Reportes e historial
+
+![Módulo de reportes e historial](assets/chapter5/new-frontend6.png)
+
+*Figura: Módulo de reportes e historial en la pestaña «Uso de insumos», con filtros por finca y rango de fechas, el consumo de agroquímicos por finca y producto, y el detalle de reportes por misión con opciones para visualizarlos y descargarlos.*
+
+###### Gestión de flota de drones
+
+![Módulo de gestión de la flota de drones](assets/chapter5/new-frontend7.png)
+
+*Figura: Módulo de gestión de la flota de drones, que muestra para cada equipo su modelo, número de serie, estado, nivel de batería, boquilla, capacidad del tanque y fecha del próximo servicio, con accesos a su detalle, su historial de mantenimiento y las boquillas de pulverización.*
+
+###### Agroquímicos
+
+![Módulo de agroquímicos](assets/chapter5/new-frontend8.png)
+
+*Figura: Módulo de agroquímicos, con el inventario de productos (stock, stock mínimo con alerta de stock bajo y fecha de vencimiento) y el formulario para registrar un nuevo agroquímico.*
+
+
+
+
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4770,11 +4872,16 @@ y de la documentación de los servicios, incluyendo el identificador del commit,
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se preparará y publicará la primera versión desplegada de los Web Services de AgriDron Solutions. Para ello, se configurará el entorno de ejecución del backend y los parámetros necesarios para su funcionamiento en el entorno de despliegue.
-
-También se actualizará la configuración de la Web Application para que pueda consumir los servicios desplegados, reemplazando progresivamente las direcciones locales y los servicios simulados utilizados durante el desarrollo.
+Durante el Sprint 3 se publicó la primera versión de los Web Services de AgriDron Solutions en Render, junto con su base de datos PostgreSQL, y se publicaron nuevas versiones del Landing Page y de la Web Application en Firebase Hosting. La Web Application se configuró para consumir los servicios desplegados, reemplazando las direcciones locales y los servicios simulados utilizados durante el desarrollo.
 
 Las evidencias incluirán la URL del backend desplegado, la disponibilidad de sus endpoints, las pruebas de conexión y la versión de la aplicación web integrada.
+
+
+| Producto | Plataforma | Enlace |
+|---|---|---|
+| Landing Page | Firebase Hosting | [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/) |
+| Web Application | Firebase Hosting | [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home) |
+| Web Services | Render | [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html) |
 
 **Ejecución de landing page**
 En esta imagen podemos observar la incicializacion del proyecto en FireBase
@@ -5465,10 +5572,6 @@ El Video About-the-Product está dirigido a los visitantes del Landing Page que 
 **Descripción del contenido**
 
 El video presenta un recorrido por la aplicación web de AgriDron Solutions: el dashboard con el estado del clima y la alerta de viento que indica cuándo no se recomienda fumigar; la gestión de fincas, parcelas y cultivos; la creación de una misión de fumigación con la selección de la parcela, el dron y el agroquímico; la delimitación de áreas de fumigación sobre el mapa; y los módulos de drones, agroquímicos y perfil. Luego, los usuarios comparten su experiencia: destacan que la plataforma centraliza en un solo lugar la información que antes manejaban por WhatsApp y Excel, que las parcelas delimitadas en el mapa les ahorrarían entre 40 minutos y una hora de reconocimiento en campo, y que las alertas climáticas y el reporte técnico les ayudan a justificar una suspensión ante el agricultor.
-
-**Testimonio destacado**
-
-> "Sí, la recomendaría, sobre todo a otros operadores que trabajan solos o con pequeños equipos. Esta plataforma ha cumplido las expectativas que tenía desde la entrevista anterior." — Operadora de drones agrícolas, Segmento 2
 
 ---
 
