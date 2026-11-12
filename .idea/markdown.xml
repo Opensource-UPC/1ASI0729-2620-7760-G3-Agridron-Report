@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MarkdownSettings">
+    <option name="customStylesheetText" value="table {&#10;    width: 100%;&#10;    border-collapse: collapse;&#10;    table-layout: auto; /* Permite que las columnas se ajusten al texto */&#10;    margin-bottom: 12px;&#10;    font-size: 9px; /* Reduce el tamaño de letra solo dentro de la tabla */&#10;    line-height: 1.2;&#10;}&#10;&#10;th, td {&#10;    border: 1px solid #cccccc;&#10;    padding: 4px 5px;&#10;    text-align: left;&#10;    vertical-align: top;&#10;    word-break: normal; /* Evita partir palabras cortas a la mitad */&#10;    overflow-wrap: anywhere; /* Solo rompe cadenas muy largas como URLs o hashes */&#10;}&#10;&#10;th {&#10;    background-color: #f4f4f4;&#10;    font-weight: bold;&#10;    white-space: nowrap; /* Mantiene los encabezados en una sola línea */&#10;}&#10;&#10;tr {&#10;    page-break-inside: avoid;&#10;}" />
+    <option name="useCustomStylesheetText" value="true" />
+  </component>
+</project>
