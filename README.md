@@ -5010,38 +5010,38 @@ Los comentarios recopilados permiten orientar futuras mejoras hacia una platafor
 
 
 
-### Interview 4 – [Nombre del participante]
+### Interview 4 – [Santiago Vargas]
 
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Nombre completo | [Santiago Enrique Vargas Alarcon] |
+| Edad | [22] |
+| Distrito | [San Miguel] |
+| Ocupación | [Supervisor de operaciones en terrenos de cultivos] |
+| Segmento | [Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones] |
+| Fecha de entrevista | [11/11/2026] |
+| Duración | [08 minutos y 31 segundos] |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+| Grabación | [https://drive.google.com/file/d/1OIBF2zcaB_GKiuaGP-vebz71Sj6C2Wls/view?usp=sharing] |
+| Marca de tiempo de la entrevista | [00:00:10 – 00:08:25] |
+| Captura de la entrevista | ![Validacion Santiago Vargas](assets/chapter5/validacion-santiago.png) |
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+[El 11 de noviembre de 2026, Gabo y Santiago Enrique Vargas Alarcón (19 años) llevaron a cabo una sesión de revisión preliminar y entrevista formal para evaluar el despliegue y la usabilidad de Agridrón. Durante la jornada, ambos recorrieron el flujo integral de la plataforma —abarcando la creación de cuentas, el registro de fincas, parcelas y cultivos, la asignación de drones y agroquímicos, el monitoreo de misiones y la generación de reportes— mientras identificaban demoras en la carga inicial ocasionadas por las limitaciones del plan gratuito de Render. Respecto al Landing Page, el participante percibió una interfaz intuitiva y concisa que comunica eficazmente el valor del servicio y facilita el registro rápido de usuarios; en cuanto a la aplicación web, destacó el control riguroso y sencillo sobre las zonas de fumigación, la claridad en el seguimiento de avances y tareas, así como la utilidad de las alertas meteorológicas y los reportes frente a factores externos. Entre los comentarios más relevantes, Santiago señaló que la plataforma está sumamente completa y no requiere funcionalidades adicionales, reportando como única dificultad menor la ambigüedad técnica del campo "identificador del propietario" (correspondiente al código del terreno), lo que derivó en los compromisos de Gabo de simplificar dicho campo y continuar con la evaluación heurística.]
 
 **Principales observaciones**
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+- **Aspectos positivos:** El participante valoró que el Landing Page es intuitivo y presenta la información de manera concisa para facilitar una creación rápida de cuenta. En la aplicación web, destacó el control riguroso, específico y sencillo sobre las áreas de fumigación y cultivo, la facilidad para registrar y localizar fincas o parcelas mediante un cuestionario básico, la claridad para consultar el estado y avance de las misiones (incluyendo la opción de eliminar registros), y la utilidad de las alertas meteorológicas y los reportes para planificar y verificar resultados.
+- **Dificultades identificadas:** El único inconveniente señalado fue la confusión inicial en el formulario de registro de terrenos provocada por el campo *"identificador del propietario"*, debido a que su redacción tiene un matiz técnico y no deja claro que se refiere únicamente al código asignado al terreno. *(Adicionalmente, durante la revisión del despliegue se evidenció lentitud en los tiempos de carga por las limitaciones operativas de la versión gratuita de Render).*
+- **Sugerencias de mejora:** El participante indicó que la plataforma no requiere información ni funcionalidades adicionales para cumplir su objetivo; únicamente se determinó simplificar o eliminar la ambigüedad del campo de identificador en el registro de parcelas para mejorar la claridad de esa sección.
+- **Conclusión individual:** Santiago Enrique Vargas Alarcón concluyó que Agridrón es una plataforma sumamente completa, clara y eficaz para el tratamiento y cuidado de cultivos mediante drones, considerando que la experiencia de uso cumple plenamente con el propósito del servicio sin necesidad de añadir nuevas características.
 
 ### Interview 5 – [Nombre del participante]
 
