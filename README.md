@@ -5078,22 +5078,355 @@ Los comentarios recopilados permiten orientar futuras mejoras hacia una platafor
 
 ### 5.3.3. Heuristic Evaluations
 
-Las evaluaciones heurísticas complementarán las entrevistas de validación mediante la revisión de la interfaz del Landing Page y la aplicación web, considerando principios de usabilidad y organización de la información.
+#### 533-UX Heuristics & Principles Evaluation
 
-Se prestará especial atención a los siguientes aspectos:
+## UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
 
-| Heurística | Aspecto evaluado |
-|---|---|
-| Visibilidad del estado del sistema | La plataforma comunica adecuadamente las acciones realizadas y los estados de las operaciones. |
-| Correspondencia con el mundo real | Los términos y elementos utilizados son comprensibles para los usuarios de los segmentos objetivo. |
-| Control y libertad del usuario | El usuario puede navegar y corregir acciones cuando corresponda. |
-| Consistencia y estándares | Los botones, etiquetas y elementos de navegación mantienen un comportamiento uniforme. |
-| Prevención de errores | Los formularios y acciones ayudan a evitar errores durante la interacción. |
-| Reconocimiento antes que recuerdo | La información y las opciones necesarias están visibles y son fáciles de localizar. |
-| Diseño estético y minimalista | La interfaz presenta información relevante sin elementos innecesarios. |
-| Accesibilidad e inclusión | La información y los controles pueden ser comprendidos y utilizados por distintos perfiles de usuarios. |
+**CARRERA:** Ingeniería de Software
 
-Los resultados de estas evaluaciones permitirán complementar los comentarios obtenidos durante las entrevistas e identificar oportunidades de mejora en la experiencia de usuario.
+**CURSO:** Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN:** Código de la sección
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Nombre del Grupo que ejecuta la Sesión de evaluación
+
+**CLIENTE(S):** Nombre de las personas que participan en la sesión
+
+## SITE o APP A EVALUAR:
+
+*AgriDron*
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas en las entrevistas de validación:
+
+1. Comprender el propósito y los beneficios de la plataforma desde la página principal.
+2. Identificar el acceso a la creación de una cuenta.
+3. Registrar y localizar fincas y parcelas.
+4. Comprender los campos del formulario de registro de terrenos.
+5. Delimitar parcelas mediante polígonos en el mapa.
+6. Registrar cultivos.
+7. Crear misiones de fumigación y consultar su estado y avance.
+8. Iniciar y finalizar una misión.
+9. Consultar información meteorológica para planificar las operaciones.
+10. Localizar reportes y exportarlos en formato PDF.
+11. Consultar el uso de insumos y los indicadores de las operaciones.
+12. Registrar drones y consultar sus características.
+13. Reportar fallas, registrar reparaciones y consultar mantenimientos.
+14. Registrar agroquímicos y consultar las existencias disponibles.
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas, debido a que las entrevistas no contienen evidencia suficiente sobre su ejecución:**
+
+1. Completar el registro de una cuenta y recuperar una contraseña.
+2. Administrar permisos y roles de usuarios.
+3. Comprobar la recuperación de registros eliminados.
+4. Verificar una operación real de fumigación y su conexión con un dron.
+5. Comprobar la precisión de las mediciones y los datos meteorológicos.
+6. Evaluar la accesibilidad y la adaptación a dispositivos móviles.
+7. Verificar la recepción de reportes y el seguimiento de operaciones desde la cuenta de un agricultor.
+
+## ESCALA DE SEVERIDAD:
+
+Los problemas serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser superado fácilmente por el usuario u ocurre con muy poca frecuencia. Su corrección puede realizarse cuando exista disponibilidad de tiempo. |
+| 2 | Problema menor: genera confusión o requiere un esfuerzo adicional, pero permite completar la tarea. Se recomienda corregirlo en una próxima versión. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente completar una tarea. Su corrección debe recibir prioridad alta. |
+| 4 | Problema muy grave: impide al usuario continuar con una tarea esencial. Debe corregirse antes del lanzamiento. |
+
+## FUENTES Y ALCANCE DE LA EVALUACIÓN:
+
+Se utilizaron las siguientes fuentes:
+
+1. Notas de la entrevista de validación de Santiago Enrique Vargas Alarcon, realizada el 11 de noviembre de 2026.
+2. Transcripción de la entrevista realizada por Edwin Nicho a una operadora de drones identificada como Valeria.
+3. Transcripción de la entrevista realizada por Sebastián Sayago a un participante identificado como Carlos.
+
+**Nota sobre la identificación:** Los nombres completos de Valeria y Carlos no se distinguen con claridad en las transcripciones, por lo que se utilizan únicamente sus primeros nombres.
+
+Las severidades son preliminares. No se dispone de capturas ni de mediciones de rendimiento. Algunas tareas se realizaron con orientación del entrevistador, por lo que las entrevistas no permiten concluir que todos los flujos puedan completarse sin ayuda.
+
+Se distinguen los problemas de usabilidad reportados de las sugerencias de nuevas funcionalidades. Las sugerencias no reciben una severidad mientras no se compruebe que su ausencia dificulta una tarea existente.
+
+Las transcripciones automáticas contienen fragmentos poco comprensibles. Los hallazgos se limitan a las declaraciones cuyo sentido puede identificarse con suficiente claridad.
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) | Fuente |
+|---|----------|:-------------------:|---------------------------------|--------|
+| 1 | El campo de identificador en el registro de terrenos utiliza una denominación técnica y genera confusión sobre el dato solicitado. | 2 | Usabilidad: Correspondencia entre el sistema y el mundo real. | Entrevista de Santiago. |
+| 2 | La carga de información presenta lentitud durante el uso de la plataforma. | 2, provisional | Usabilidad: Flexibilidad y eficiencia de uso. | Entrevista de Santiago. |
+| 3 | La sección de reportes requiere más esfuerzo para localizarse que otras secciones. | 2 | Arquitectura de información: Facilidad para encontrar la información. | Entrevista realizada por Edwin a Valeria. |
+| 4 | No resulta evidente cómo actualizar las existencias de los agroquímicos. | 2, provisional | Usabilidad: Reconocimiento antes que recuerdo. | Entrevista realizada por Sebastián a Carlos. |
+
+**Nota:** La lentitud constituye un hallazgo de rendimiento con impacto en la usabilidad. Las notas no permiten determinar si existen indicadores de carga; por ello, no se afirma una vulneración de la heurística de visibilidad del estado del sistema.
+
+En el problema de actualización de existencias, la evidencia permite identificar una dificultad para encontrar la acción, pero no confirmar que la funcionalidad esté ausente.
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+### PROBLEMA #1: El identificador del formulario de registro de terrenos genera confusión
+
+**Severidad: 2 — Problema menor.**
+
+**Heurística violada: Usabilidad — Correspondencia entre el sistema y el mundo real.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
+**Problema:**
+
+Durante la revisión del registro de fincas y parcelas, el participante manifestó confusión respecto al campo de identificador debido a su carácter técnico. Aunque consideró sencillo el formulario en general, necesitó una explicación del entrevistador para comprender ese dato.
+
+Las notas mencionan tanto un “identificador del propietario” como un “código asignado al terreno”. Esta diferencia impide determinar con certeza qué representa el campo y hace necesario verificar su significado antes de modificarlo.
+
+Una denominación poco clara puede llevar al usuario a introducir información incorrecta, solicitar ayuda o dedicar más tiempo al registro.
+
+**Evidencia de la entrevista:**
+
+El participante identificó la confusión con el identificador como el único inconveniente menor de su experiencia. Como próximo paso, se propuso simplificar o eliminar ese campo.
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del formulario de registro y señalar el campo de identificador evaluado.*
+
+**Recomendación:**
+
+Verificar qué representa el identificador y si el usuario necesita introducirlo manualmente.
+
+- Si corresponde al propietario autenticado, asociarlo automáticamente con su cuenta.
+- Si corresponde a un código del terreno generado por el sistema, retirarlo del formulario de ingreso y mostrarlo después del registro.
+- Si requiere seleccionar otro propietario, utilizar un selector con nombres reconocibles en lugar de solicitar un código técnico.
+
+Cuando sea necesario mantener el campo visible, emplear una etiqueta comprensible y un texto de ayuda que explique su finalidad.
+
+### PROBLEMA #2: La carga de información presenta lentitud
+
+**Severidad: 2 — Problema menor, provisional.**
+
+**Principio afectado: Usabilidad — Flexibilidad y eficiencia de uso.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
+**Problema:**
+
+Durante la revisión inicial se identificó lentitud al cargar información. El entrevistador la atribuyó a las limitaciones del despliegue en el plan gratuito de Render; esta explicación no fue verificada mediante mediciones técnicas.
+
+Los tiempos de espera pueden interrumpir el flujo de trabajo y aumentar el esfuerzo necesario para consultar información o continuar con las tareas. Sin embargo, las notas no indican cuánto duraron las demoras, con qué frecuencia ocurrieron ni si impidieron completar alguna operación.
+
+Por ello, se asigna una severidad preliminar de 2, que deberá revisarse después de medir el rendimiento.
+
+**Evidencia de la entrevista:**
+
+En la revisión inicial, el entrevistador explicó la lentitud de la carga de información y la relacionó con las condiciones del servicio de alojamiento utilizado.
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del estado de carga. Complementarla con una medición o grabación que permita evidenciar la duración de la espera.*
+
+**Recomendación:**
+
+Medir los tiempos de respuesta e identificar las pantallas y operaciones afectadas. Con esos resultados, revisar el despliegue y optimizar las consultas o solicitudes que ocasionen las demoras.
+
+Durante las esperas, mostrar un indicador de carga y un mensaje comprensible. Si una solicitud falla, informar al usuario y ofrecer una opción para reintentar sin perder los datos ingresados.
+
+### PROBLEMA #3: La sección de reportes resulta menos fácil de localizar
+
+**Severidad: 2 — Problema menor.**
+
+**Principio afectado: Arquitectura de información — Facilidad para encontrar la información.**
+
+**Fuente: Entrevista realizada por Edwin Nicho a la operadora Valeria.**
+
+**Problema:**
+
+La operadora indicó que necesitó más tiempo para encontrar los reportes que otras secciones de la plataforma. Una vez localizados, señaló que su contenido era comprensible.
+
+Esto representa una dificultad de localización, especialmente porque la participante considera que entregar un reporte técnico al agricultor es una parte importante de su servicio.
+
+La entrevista no permite identificar si la causa está en el nombre de la sección, su ubicación o la organización del menú. Tampoco se registró el tiempo necesario para encontrarla.
+
+**Evidencia de la entrevista:**
+
+> “Me tomó un poco más encontrarlos [...] pero una vez que los ubiqué ya se entienden bien”.
+
+*Fragmento de la transcripción automática, con ajustes mínimos de puntuación y concordancia.*
+
+**Captura de pantalla:**
+
+*Pendiente: incorporar una captura del menú de navegación y señalar el acceso a los reportes.*
+
+**Recomendación:**
+
+Revisar la ubicación y la denominación de la sección de reportes mediante una prueba de búsqueda sin orientación del entrevistador.
+
+Incluir accesos directos a los reportes desde el detalle de una misión y desde la confirmación de su finalización. Utilizar una etiqueta explícita, como “Reportes de fumigación”, si las pruebas confirman que facilita su identificación.
+
+### PROBLEMA #4: No resulta evidente cómo actualizar las existencias de los agroquímicos
+
+**Severidad: 2 — Problema menor, provisional.**
+
+**Heurística afectada: Usabilidad — Reconocimiento antes que recuerdo.**
+
+**Fuente: Entrevista realizada por Sebastián Sayago al participante Carlos.**
+
+**Problema:**
+
+Durante la exploración de la sección de agroquímicos, Carlos manifestó que debería existir una opción para actualizar la cantidad disponible. Como ejemplo, mencionó la necesidad de registrar un aumento de litros.
+
+Su comentario indica que la acción necesaria para mantener actualizadas las existencias no resultó evidente durante la prueba. Consultar una cantidad almacenada no resuelve por sí solo la necesidad de registrar compras, reposiciones u otros cambios.
+
+La transcripción no permite confirmar si la plataforma carece de esta función o si existe y el participante no logró localizarla. Por ello, el hallazgo se formula como una dificultad para reconocer la acción y recibe una severidad provisional de 2.
+
+Si una prueba posterior confirma que no es posible registrar cambios de existencias por ningún medio, deberá revisarse la severidad según el impacto sobre la gestión de insumos.
+
+**Evidencia de la entrevista:**
+
+Al revisar los agroquímicos, Carlos preguntó cómo actualizar la cantidad disponible y propuso que hubiera una opción para registrar un incremento de litros.
+
+*Se presenta una paráfrasis debido a los errores de la transcripción automática.*
+
+**Captura de pantalla:**
+
+![Captura de entrevista de Carlos](assets/chapter5/validacion-carlos.png)
+
+**Recomendación:**
+
+Comprobar si existe una función para actualizar las existencias y realizar una prueba sin orientación para verificar si los usuarios pueden encontrarla.
+
+Si ya existe, ofrecer una acción visible con una etiqueta comprensible, como “Registrar entrada” o “Actualizar existencias”.
+
+Si no existe, incorporar el registro de movimientos de inventario. Solicitar la cantidad, la unidad y el motivo del movimiento, y mostrar la cantidad resultante antes de confirmar. Conservar un historial para facilitar la revisión de los cambios.
+
+## SUGERENCIAS DE MEJORA DE LA OPERADORA:
+
+Las siguientes observaciones expresan necesidades y oportunidades de mejora. No se consideran fallos confirmados ni reciben una puntuación de severidad.
+
+| # | Observación o necesidad | Recomendación |
+|---|-------------------------|---------------|
+| 1 | La operadora sugirió mostrar en la página principal cómo es el reporte que recibe el agricultor. | Incorporar una vista previa de un reporte técnico con datos de ejemplo y una explicación breve de su utilidad. |
+| 2 | Solicitó distinguir el área realmente tratada del área declarada, porque ambas pueden diferir. | Mostrar ambas superficies con etiquetas y unidades claras, indicando cómo se obtuvo cada valor. |
+| 3 | Indicó que le sería útil consultar en tiempo real la batería, la posición y el líquido restante del dron. | Evaluar la incorporación de estos datos, mostrando su hora de actualización y si proceden de una conexión real o de una simulación. |
+| 4 | Señaló que el agricultor también debería poder consultar el seguimiento desde su celular. | Validar una vista móvil de seguimiento con los permisos adecuados para el agricultor. |
+| 5 | Solicitó un registro rápido al finalizar la operación con las hectáreas reales, el volumen aplicado y sus observaciones. | Incorporar o hacer más visible una bitácora de cierre vinculada a la misión y al reporte técnico. |
+| 6 | Explicó que la información y las alertas meteorológicas le ayudarían a justificar una suspensión ante el agricultor. | Evaluar el registro de la causa de suspensión y de las condiciones meteorológicas consultadas, con fecha, hora y fuente, para incluirlas en el reporte. |
+| 7 | Carlos manifestó interés en contar con una explicación más detallada de cómo registrar los servicios y consultarlos después. El fragmento requiere confirmación por la calidad de la transcripción. | Validar esta necesidad y, si se confirma, incorporar una demostración breve del flujo de registro y consulta de servicios. |
+| 8 | Carlos valoró poder mantener actualizada la información y consultar los trabajos realizados para sus clientes. | Validar si la consulta por cliente está disponible y resulta fácil de encontrar. Si es necesario, incorporar filtros o un historial de servicios por cliente. |
+
+### OBSERVACIÓN #1: Mostrar un ejemplo del reporte destinado al agricultor
+
+**Contexto:**
+
+Al revisar la página principal, la operadora destacó la sección que diferencia a agricultores y operadores. Como mejora, propuso mostrar cómo se ve el reporte que recibe el agricultor, porque es uno de los elementos que más le solicitan sus clientes.
+
+**Recomendación:**
+
+Agregar una vista previa del reporte con información de ejemplo. Explicar qué resultados presenta y cómo puede consultarlo el agricultor.
+
+### OBSERVACIÓN #2: Diferenciar el área declarada del área realmente tratada
+
+**Contexto:**
+
+La operadora consideró comprensibles la parcela, la fecha y el estado de las misiones. Sin embargo, indicó que le ayudaría comparar el área tratada con el área declarada, debido a las diferencias que encuentra en su trabajo.
+
+**Recomendación:**
+
+Presentar por separado el área declarada y el área efectivamente tratada, expresadas en hectáreas. Identificar la procedencia de cada dato y evitar presentar el área delimitada en el mapa como si fuera necesariamente el área fumigada.
+
+### OBSERVACIÓN #3: Ampliar el seguimiento operativo del dron
+
+**Contexto:**
+
+La operadora solicitó consultar la batería, la posición y el líquido restante del dron en tiempo real. También expresó interés en que el agricultor pueda visualizar esa información desde su celular.
+
+**Recomendación:**
+
+Validar la disponibilidad de esos datos y diseñar una vista de seguimiento que muestre su actualización y el estado de la conexión. Definir qué información necesita consultar cada tipo de usuario.
+
+### OBSERVACIÓN #4: Facilitar el registro de resultados al terminar la misión
+
+**Contexto:**
+
+La participante solicitó un registro rápido de las hectáreas reales, el volumen aplicado y las observaciones al finalizar el servicio.
+
+La transcripción automática no permite distinguir con claridad el término usado para nombrar este registro, pero sí identifica los datos solicitados.
+
+**Recomendación:**
+
+Ofrecer un formulario breve de cierre de misión con estos campos y vincular la información registrada con el reporte técnico.
+
+### OBSERVACIÓN #5: Utilizar las condiciones meteorológicas como respaldo de una suspensión
+
+**Contexto:**
+
+La operadora explicó que las alertas y los datos meteorológicos le resultan útiles para justificar ante el agricultor una suspensión por condiciones desfavorables.
+
+Los valores de viento y temperatura mencionados durante la entrevista corresponden a su práctica personal. No se consideran umbrales técnicos validados para configurar la plataforma.
+
+**Recomendación:**
+
+Permitir registrar una suspensión por clima y asociarla con las condiciones consultadas, la fecha, la hora y la fuente de información. Validar los criterios de alerta según el equipo, el producto y las condiciones de operación aplicables.
+
+## OBSERVACIONES POSITIVAS:
+
+### Entrevista realizada por Gabriel Ramirez al operador Santiago
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+### Entrevista realizada por Edwin Nicho a la operadora Valeria
+
+1. La participante comprendió que la plataforma permite gestionar servicios de fumigación, equipos, insumos, misiones, clima y reportes.
+2. Valoró la diferenciación entre agricultores y operadores en la página principal.
+3. Encontró fácilmente las secciones de drones y agroquímicos.
+4. Consideró útil consultar el modelo, la capacidad y el estado de los equipos.
+5. Valoró las horas de vuelo acumuladas y el próximo mantenimiento, información que actualmente administra en Excel.
+6. Indicó que los estados de las misiones son fáciles de diferenciar.
+7. Confirmó que pudo exportar un reporte en PDF y consideró que contenía la información necesaria.
+8. Valoró consultar los insumos disponibles antes de salir al campo.
+9. Estimó que disponer de parcelas delimitadas podría ahorrarle entre 40 minutos y una hora de reconocimiento previo. Esta estimación no fue medida durante la evaluación.
+10. Manifestó que recomendaría la plataforma a operadores que trabajan solos o con equipos pequeños.
+
+### Entrevista realizada por Sebastián Sayago al participante Carlos
+
+1. El participante comprendió que la plataforma permite organizar servicios de fumigación, registrar información de terrenos y consultar datos relacionados con el clima y los drones.
+2. Identificó la centralización de información como una ventaja frente a revisar conversaciones y archivos separados.
+3. Consideró sencillas las secciones de parcelas y misiones, especialmente sus opciones de organización y filtrado.
+4. Valoró la posibilidad de registrar el mantenimiento de los drones.
+5. Manifestó disposición a utilizar la plataforma para gestionar sus servicios.
+6. Destacó la importancia de mantener actualizada la información y conservar el registro de los trabajos realizados para sus clientes.
+
+## LIMITACIONES DE LA EVALUACIÓN:
+
+1. La evaluación contó con tres participantes, por lo que los resultados no representan necesariamente la experiencia de todos los usuarios de la plataforma.
+2. Las sesiones incluyeron orientación de los entrevistadores, lo que limita la evaluación de la facilidad de uso autónomo.
+3. Las tareas se realizaron en un entorno de demostración, sin ejecutar operaciones reales de fumigación en campo.
+4. No se evaluó el uso prolongado de la plataforma ni la gestión de grandes cantidades de parcelas, misiones, drones e insumos.
+5. No se midieron de forma sistemática los tiempos de ejecución, la cantidad de errores ni el porcentaje de tareas completadas sin ayuda.
+6. No se evaluó el funcionamiento en condiciones de conectividad limitada, habituales en zonas agrícolas.
+7. No se realizaron pruebas específicas de accesibilidad ni de uso en distintos dispositivos y tamaños de pantalla.
+8. No se comprobó el flujo completo de colaboración entre agricultores y operadores, desde la planificación del servicio hasta la recepción de sus resultados.
+
+## OBSERVACIONES POSITIVAS:
+
+El participante valoró favorablemente los siguientes aspectos:
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+Estas apreciaciones corresponden a una entrevista individual. Sirven como evidencia inicial de validación, pero no sustituyen una inspección heurística completa ni permiten generalizar los resultados a todos los usuarios.
 
 ---
 
