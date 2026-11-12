@@ -266,7 +266,8 @@ Entre el 28/10/2026 y el 10/11/2026, el equipo incorporó las correcciones deriv
     - [5.3.2. Interview Registry](#532-interview-registry)
     - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A: Evidencias adicionales](#anexo-a-evidencias-adicionales)
@@ -4253,65 +4254,96 @@ La distribución principal del trabajo considera que Gabriel lidera Flight Opera
 
 #### 5.2.3.3. Sprint Backlog 3
 
-En esta sección se registra el trabajo planificado para el Sprint 3. Las tareas se han organizado considerando las funcionalidades presentes en la Web Application, las necesidades de integración con el backend y los entregables establecidos para esta etapa del proyecto.
+El objetivo del Sprint 3 es consolidar la primera versión integrada de AgriDron Solutions: conectar la Web Application con los servicios RESTful desplegados, priorizando la gestión de misiones, y actualizar el Landing Page con nuevas secciones y los videos del producto y del equipo. Cada User Story se descompuso en tareas que abarcan los productos involucrados (Landing Page, Web Application y Web Services); además, se registran tareas de integración, despliegue y producción de videos que no dependen de una User Story en particular.
 
 **Link del tablero de trabajo:** [https://trello.com/b/CjkRgi6w/agridron-sprint-3](https://trello.com/b/CjkRgi6w/agridron-sprint-3)
 
 ![Sprint Backlog 3 en Trello](assets/chapter5/sprint-3.png)
+*Figura: Sprint Backlog 3 de AgriDron Solutions en Trello.*
 
-| **Sprint #** | **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| ------------ | ------------ | --------------- | ----------- | -------------- | -------------------- | ---------------------- | --------------- | ---------- |
-| 3 | LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T21 | Redactar y organizar el contenido de términos, condiciones y privacidad. | Redactar y estructurar el contenido correspondiente a términos, condiciones de servicio y políticas de privacidad. | 3 | Italo Damacen | Done |
-| 3| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T22 | Diseñar los enlaces legales y la estructura del footer. | Diseñar la estructura visual del footer y los enlaces correspondientes a la información legal de la plataforma. | 2 | Alexander Vásquez | Done |
-| 3| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T23 | Implementar el footer y la navegación a las páginas legales. | Implementar el footer de la Landing Page y la navegación hacia las páginas o secciones con información legal. | 3 | Sebastián Sayago | Done |
-| 3| LP-006 | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad. | T24 | Verificar los enlaces, el contraste y la lectura en dispositivos móviles. | Comprobar el funcionamiento de los enlaces legales, el contraste visual y la legibilidad del contenido en dispositivos móviles. | 2 | Edwin Nicho | Done |
-| 3 | FM-002 | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | T07 | Implementar delimitación de parcela | Implementar la selección de vértices sobre el mapa para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
-| 3 | FM-002 | Como agricultor, quiero trazar los límites poligonales de una parcela sobre el mapa, para definir el área exacta de cultivo. | T08 | Calcular superficie de parcela | Implementar el cálculo del área de la parcela y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | To-do |
-| 3 | CL-001 | Como agricultor, quiero ver la temperatura, humedad y velocidad de viento en mi finca, para evaluar las condiciones antes de la fumigación. | T23 | Integrar consulta meteorológica | Implementar la consulta de temperatura, humedad y velocidad del viento para la ubicación seleccionada. | 4 | Italo Damacen | Done |
-| 3 | CL-002 | Como operador técnico, quiero ser alertado si el viento supera el límite seguro de aplicación, para evitar la deriva de los productos agroquímicos. | T24 | Implementar validación de viento | Implementar la evaluación de la velocidad del viento y generación de una alerta cuando supere el límite establecido. | 3 | Italo Damacen | Done |
-| 3 | CL-003 | Como operador técnico, quiero saber si las condiciones actuales son favorables para fumigar, para optimizar la eficacia de la aplicación fitosanitaria. | T25 | Evaluar condiciones meteorológicas | Analizar las condiciones meteorológicas para identificar rangos adecuados para la aplicación. | 4 | Italo Damacen | To-do |
-| 3 | CL-005 | Como operador técnico, quiero ajustar los límites de viento y temperatura aceptables por tipo de cultivo, para adaptar las reglas de validación. | T26 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
-| 3 | TR-005 | Como operador técnico, quiero marcar una misión como completada al finalizar la aplicación, para cerrar la orden de trabajo en campo. | T22 | Registrar finalización de operación | Implementar el cambio de estado de la misión a Completada y registrar los resultados de la operación. | 3 | Alexander Vásquez | Done |
-| 3 | TU-025 | Endpoints de misiones | S3-T01 | Revisar modelo y contratos de misión | Revisar entidades, DTO, relaciones y reglas existentes; definir las operaciones que expondrá `/api/v1/missions` sin duplicar funcionalidades. | 3 | Gabriel Ramírez | In Process |
-| 3 | TU-025 | Endpoints de misiones | S3-T02 | Implementar consulta de misiones | Implementar GET para listar misiones y consultar una misión por identificador, con los filtros contemplados por el dominio. | 4 | Gabriel Ramírez | Done |
-| 3 | TU-025 | Endpoints de misiones | S3-T03 | Implementar creación y actualización de misiones | Implementar POST y PUT/PATCH para registrar una misión y actualizar sus datos permitidos, aplicando validaciones y reglas de negocio. | 5 | Gabriel Ramírez | To Do |
-| 3 | TU-025 | Endpoints de misiones | S3-T04 | Implementar cancelación de misiones | Implementar la operación para cancelar una misión, respetando las restricciones del ciclo de vida y conservando el historial necesario. | 3 | Gabriel Ramírez | In Process |
-| 3 | MI-002 | Asignación de dron e insumos a la misión | S3-T05 | Implementar asignación de recursos a misiones | Incorporar la lógica backend para asociar un dron y los insumos requeridos a una misión, validando disponibilidad y referencias existentes. | 5 | Edwin Nicho | In Process |
-| 3 | MI-003 | Asignación de operador técnico a la misión | S3-T06 | Implementar asignación de operador | Implementar la asignación de un operador técnico a una misión y validar rol y disponibilidad. | 3 | Gabriel Ramírez | To Do |
-| 3 | MI-004 | Configuración de parámetros de vuelo | S3-T07 | Implementar configuración de parámetros de vuelo | Incorporar persistencia y validación backend de altura, velocidad y tasa de pulverización asociados a una misión. | 4 | Gabriel Ramírez | Done |
-| 3 | MI-005 | Consulta de calendario de misiones | S3-T08 | Implementar consulta de misiones por fechas | Implementar filtros backend por rango de fechas y, cuando corresponda, por operador o estado. | 3 | Gabriel Ramírez | In Process |
-| 3 | MI-007 | Aprobación formal de misión | S3-T09 | Implementar aprobación de misión | Implementar la operación para aprobar una misión programada, validando las condiciones necesarias para autorizarla. | 3 | Gabriel Ramírez | Done |
-| 3 | TR-004 | Pausa y reanudación de misión de emergencia | S3-T10 | Implementar cambios de estado de misión | Implementar operaciones backend para registrar pausa y reanudación, controlando las transiciones válidas de estado. | 4 | Gabriel Ramírez | In Process |
-| 3 | TR-005 | Registro de finalización de misión | S3-T11 | Implementar finalización de misión | Implementar la operación que registra la finalización y actualiza el estado de la misión, conservando la información del historial. | 3 | Gabriel Ramírez | In Process |
-| 3 | TR-006 | Bitácora técnica de observaciones en campo | S3-T12 | Implementar registro de observaciones de misión | Implementar el registro y consulta de observaciones técnicas asociadas a una misión, con sus validaciones y relación con el operador. | 3 | Gabriel Ramírez | Done |
-| 3 | TU-016 | Endpoint de reportes de misión | S3-T13 | Completar endpoints de reportes de misión | Revisar y completar las operaciones de `/api/v1/mission-reports` incluidas en el alcance, según el modelo backend existente. | 4 | Sebastián Sayago | Done |
-| 3 | TU-017 | Endpoint de historial de misiones | S3-T14 | Completar endpoint de historial de misiones | Revisar y completar `/api/v1/mission-histories`, incorporando consultas de historial y filtros compatibles con los datos disponibles. | 3 | Sebastián Sayago | Done |
-| 3 | TU-018 | Endpoint de métricas operativas | S3-T15 | Implementar consultas de métricas operativas | Completar `/api/v1/operational-metrics` para consultar métricas asociadas a reportes o misiones, de acuerdo con el modelo y cálculos definidos. | 3 | Sebastián Sayago | Done |
-| 3 | TU-019 | Endpoint de indicadores de desempeño | S3-T16 | Completar endpoint de indicadores de desempeño | Completar `/api/v1/performance-indicators` para consultar y, cuando aplique, calcular los indicadores de desempeño definidos. | 3 | Sebastián Sayago | Done |
-| 3 | TU-020 | Endpoint de drones | S3-T17 | Implementar endpoints backend de drones | Implementar las operaciones previstas para `/api/v1/drones`, incluyendo validación de datos y disponibilidad operativa. | 4 | Edwin Nicho | Done |
-| 3 | TU-021 | Endpoint de boquillas | S3-T18 | Implementar endpoints backend de boquillas | Implementar las operaciones previstas para `/api/v1/nozzles`, validando datos y relaciones necesarias con los drones. | 3 | Edwin Nicho | Done |
-| 3 | TU-022 | Endpoint de agroquímicos | S3-T19 | Implementar endpoints backend de agroquímicos | Implementar las operaciones previstas para `/api/v1/agrochemicals`, validando los datos de productos y su disponibilidad para las misiones. | 3 | Edwin Nicho | To Do |
-| 3 | TU-023 | Endpoint de registros de mantenimiento | S3-T20 | Implementar endpoints de mantenimiento | Implementar las operaciones previstas para `/api/v1/maintenance-records`, permitiendo registrar y consultar mantenimientos asociados a drones. | 3 | Edwin Nicho | To Do |
-| 3 | TU-027 | Endpoint de incidentes de drones | S3-T21 | Implementar endpoints de incidentes de drones | Implementar `/api/v1/drone-incidents` para registrar y consultar fallas o incidentes, incluyendo relación con el dron y estado de atención. | 4 | Edwin Nicho | In Process |
-| 3 | DR-007 | Deshabilitación de dron de la flota | S3-T22 | Implementar deshabilitación de drones | Incorporar la operación backend para dar de baja o deshabilitar un dron e impedir nuevas asignaciones cuando no esté operativo. | 2 | Edwin Nicho | In Process |
-| 3 | TU-024 | Endpoints de usuarios | S3-T23 | Completar endpoints de usuarios | Revisar y completar `/api/v1/users` para registrar y consultar usuarios con su rol, aplicando validaciones y restricciones de acceso. | 3 | Gabriel Ramírez | To Do |
-| 3 | TU-026 | Endpoint de inicio de sesión | S3-T24 | Implementar endpoint de inicio de sesión | Implementar `POST /api/v1/authentication/sign-in`, validar credenciales y retornar el resultado de autenticación con el token correspondiente. | 4 | Gabriel Ramírez | To Do |
-| 3 | TU-002 | Implementación de seguridad y autenticación JWT | S3-T25 | Integrar autenticación JWT con Spring Security | Configurar validación de tokens JWT y proteger los endpoints que requieran autenticación, contemplando los roles definidos. | 5 | Gabriel Ramírez | In Process |
-| 3 | TU-006 | Manejo global de excepciones e intercepción de errores | S3-T26 | Estandarizar respuestas de error | Implementar o completar el manejo global de excepciones para devolver respuestas consistentes mediante JSON Problem Details. | 3 | Gabriel Ramírez | In Process |
-| 3 | TU-010 | Configuración de CORS | S3-T27 | Configurar política CORS del backend | Configurar orígenes, métodos y encabezados permitidos para el consumo autorizado de la API desde los clientes del proyecto. | 2 | Gabriel Ramírez | In Process |
-| 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T28 | Completar documentación OpenAPI de endpoints | Documentar los endpoints implementados del Sprint mediante Springdoc OpenAPI, incluyendo verbos HTTP, rutas, parámetros, cuerpos, respuestas y códigos de estado. | 4 | Italo Damacen | To Do |
-| 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T29 | Verificar documentación interactiva con datos de muestra | Ejecutar solicitudes de prueba desde Swagger UI, comprobar ejemplos de request/response y corregir diferencias entre documentación y comportamiento real. | 3 | Italo Damacen | To Do |
-| 3 | TU-001 | Configuración de arquitectura limpia base | S3-T31 | Revisar consistencia de arquitectura backend | Revisar que casos de uso, servicios, repositorios y controladores respeten la organización y dependencias de la arquitectura limpia establecida. | 3 | Alexander Vásquez | Done |
-| 3 | TU-005 | Integración de cliente de servicio meteorológico | S3-T32 | Revisar integración backend con servicio meteorológico | Verificar el cliente HTTP de clima y su manejo de respuestas y errores externos; realizar los ajustes backend necesarios para mantener el contrato de integración. | 3 | Italo Damacen | Done |
-
-
+| Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|---|
+| 3 | LP-001 | Visualización de propuesta de valor | S3-T01 | Rediseñar la sección principal del Landing Page | Actualizar el hero con la propuesta de valor, los beneficios clave, los accesos «Pruébalo ahora» y «Ver la plataforma» y el mockup de la aplicación web. | 3 | Gabriel Ramírez | Done |
+| 3 | LP-001 | Visualización de propuesta de valor | S3-T02 | Implementar la sección «Conoce AgriDron por dentro» con pestañas | Reestructurar la sección de capturas para generar las pestañas desde una lista de módulos, de modo que se puedan agregar vistas sin modificar la plantilla. | 3 | Edwin Nicho | Done |
+| 3 | LP-001 | Visualización de propuesta de valor | S3-T03 | Actualizar las capturas de la aplicación web | Reemplazar y ampliar a diez las capturas de los módulos de la aplicación web (dashboard, fincas, parcelas, cultivos, misiones, áreas de fumigación, reportes, drones, agroquímicos y perfil). | 2 | Edwin Nicho | Done |
+| 3 | LP-001 | Visualización de propuesta de valor | S3-T04 | Integrar el video About-the-Product | Incorporar el video About-the-Product en la sección de video demostrativo con reproductor y acceso a la aplicación web. | 2 | Edwin Nicho | Done |
+| 3 | LP-006 | Acceso a términos legales y políticas de privacidad | S3-T05 | Redactar y organizar el contenido de términos, condiciones y privacidad | Redactar y estructurar el contenido correspondiente a términos, condiciones de servicio y políticas de privacidad. | 3 | Italo Damacen | Done |
+| 3 | LP-006 | Acceso a términos legales y políticas de privacidad | S3-T06 | Diseñar los enlaces legales y la estructura del footer | Diseñar la estructura visual del footer y los enlaces correspondientes a la información legal de la plataforma. | 2 | Alexander Vásquez | Done |
+| 3 | LP-006 | Acceso a términos legales y políticas de privacidad | S3-T07 | Implementar el footer y la navegación a las páginas legales | Implementar el footer de la Landing Page y la navegación hacia la página de términos y condiciones. | 3 | Sebastián Sayago | Done |
+| 3 | LP-006 | Acceso a términos legales y políticas de privacidad | S3-T08 | Verificar enlaces, contraste y lectura en móviles | Comprobar el funcionamiento de los enlaces legales, el contraste visual y la legibilidad del contenido en dispositivos móviles. | 2 | Edwin Nicho | Done |
+| 3 | LP-007 | Cambio de idioma del sitio | S3-T09 | Traducir las secciones nuevas del Landing Page | Agregar las claves en español e inglés de las pestañas de capturas, la tarjeta del video del equipo y las secciones actualizadas. | 2 | Edwin Nicho | Done |
+| 3 | LP-008 | Consulta sobre el equipo multidisciplinario | S3-T10 | Incorporar fotografías y roles de los integrantes | Reemplazar los avatares genéricos por las fotografías de los integrantes, manteniendo su nombre y rol. | 2 | Edwin Nicho | Done |
+| 3 | LP-008 | Consulta sobre el equipo multidisciplinario | S3-T11 | Agregar la tarjeta del video About-the-Team | Implementar una tarjeta con miniatura, duración y enlace a YouTube para el video About-the-Team. | 2 | Edwin Nicho | Done |
+| 3 | LP-009 | Solicitud de demostración comercial | S3-T12 | Implementar el formulario de contacto | Implementar el formulario «¿Listo para despegar?» con nombre, correo, plan de interés y mensaje para solicitar una demostración. | 3 | Italo Damacen | Done |
+| 3 | LP-010 | Consulta de preguntas frecuentes | S3-T13 | Implementar la sección de preguntas frecuentes | Implementar las preguntas frecuentes con respuestas desplegables y el acceso para enviar otra consulta. | 2 | Sebastián Sayago | Done |
+| 3 | FM-002 | Delimitación geográfica de parcela | S3-T14 | Implementar la delimitación de la parcela en el mapa | Implementar la selección de vértices sobre el mapa satelital para definir el polígono de una parcela. | 5 | Alexander Vásquez | Done |
+| 3 | FM-002 | Delimitación geográfica de parcela | S3-T15 | Calcular la superficie de la parcela | Calcular automáticamente el área del polígono trazado y registrar el resultado en hectáreas. | 4 | Alexander Vásquez | Done |
+| 3 | FM-002 | Delimitación geográfica de parcela | S3-T16 | Alinear parcelas y áreas de fumigación con el contrato del backend | Ajustar el mapeo de parcelas y áreas de fumigación de la Web Application a los recursos expuestos por el backend. | 3 | Alexander Vásquez | Done |
+| 3 | CL-001 | Consulta de condiciones climáticas actuales | S3-T17 | Integrar la consulta meteorológica en el inicio | Mostrar temperatura, humedad, viento, precipitación y probabilidad de lluvia de la ubicación seleccionada en la tarjeta de clima. | 4 | Italo Damacen | Done |
+| 3 | CL-001 | Consulta de condiciones climáticas actuales | S3-T18 | Mostrar el clima de una parcela | Agregar en el detalle de parcela el acceso para consultar las condiciones meteorológicas de su ubicación. | 2 | Italo Damacen | Done |
+| 3 | CL-002 | Alerta por exceso de velocidad de viento | S3-T19 | Implementar la validación de viento | Evaluar la velocidad del viento y mostrar una alerta cuando supere el límite seguro de aplicación. | 3 | Italo Damacen | Done |
+| 3 | CL-003 | Indicación de condiciones favorables para pulverizar | S3-T20 | Evaluar las condiciones meteorológicas | Analizar viento, temperatura y lluvia para indicar si las condiciones son favorables para fumigar. | 4 | Italo Damacen | Done |
+| 3 | CL-005 | Configuración de umbrales meteorológicos por cultivo | S3-T21 | Configurar umbrales climáticos | Implementar la configuración de condiciones meteorológicas aceptables según el tipo de cultivo. | 3 | Italo Damacen | Done |
+| 3 | MI-001 | Solicitud de misión de fumigación | S3-T22 | Implementar el formulario de creación de misión | Implementar el registro de una misión por pasos (parcela, fecha, dron, agroquímico y confirmación) desde la Web Application. | 5 | Gabriel Ramírez | Done |
+| 3 | MI-001 | Solicitud de misión de fumigación | S3-T23 | Implementar la lista de misiones con filtros | Implementar el listado de misiones con filtros por estado, búsqueda por lote, finca o cultivo y barra de progreso. | 4 | Gabriel Ramírez | Done |
+| 3 | MI-002 | Asignación de dron e insumos a la misión | S3-T24 | Implementar la selección de dron e insumos en el formulario | Permitir seleccionar el dron y el agroquímico de la misión en la Web Application. | 3 | Gabriel Ramírez | Done |
+| 3 | MI-002 | Asignación de dron e insumos a la misión | S3-T25 | Implementar la asignación de recursos a misiones | Incorporar la lógica backend para asociar un dron y los insumos requeridos a una misión, validando disponibilidad y referencias existentes. | 5 | Edwin Nicho | In-Process |
+| 3 | MI-003 | Asignación de operador técnico a la misión | S3-T26 | Implementar la asignación de operador | Implementar la asignación de un operador técnico a una misión y validar su rol y disponibilidad. | 3 | Gabriel Ramírez | To-do |
+| 3 | MI-004 | Configuración de parámetros de vuelo | S3-T27 | Implementar la configuración de parámetros de vuelo | Incorporar la persistencia y validación backend de altura, velocidad y tasa de pulverización asociadas a una misión. | 4 | Gabriel Ramírez | Done |
+| 3 | MI-005 | Consulta de calendario de misiones | S3-T28 | Implementar la vista de calendario de misiones | Implementar la vista de calendario para consultar las misiones programadas desde la Web Application. | 3 | Gabriel Ramírez | Done |
+| 3 | MI-005 | Consulta de calendario de misiones | S3-T29 | Implementar la consulta de misiones por fechas | Implementar filtros backend por rango de fechas y, cuando corresponda, por operador o estado. | 3 | Gabriel Ramírez | In-Process |
+| 3 | MI-007 | Aprobación formal de misión | S3-T30 | Implementar la autorización de misión en la Web Application | Agregar en el detalle de la misión la acción para autorizarla antes de su inicio. | 2 | Gabriel Ramírez | Done |
+| 3 | MI-007 | Aprobación formal de misión | S3-T31 | Implementar la aprobación de misión | Implementar la operación backend para aprobar una misión programada, validando las condiciones necesarias para autorizarla. | 3 | Gabriel Ramírez | Done |
+| 3 | TR-002 | Monitoreo de indicadores de vuelo | S3-T32 | Implementar el detalle de misión en ejecución | Mostrar las fases de la misión, el tiempo transcurrido y los indicadores del dron (batería, velocidad, altura, área fumigada y última posición). | 5 | Gabriel Ramírez | Done |
+| 3 | TR-004 | Pausa y reanudación de misión de emergencia | S3-T33 | Implementar cambios de estado de misión | Implementar operaciones backend para registrar pausa y reanudación, controlando las transiciones válidas de estado. | 4 | Gabriel Ramírez | In-Process |
+| 3 | TR-005 | Registro de finalización de misión | S3-T34 | Implementar la finalización de misión en la Web Application | Agregar la acción para finalizar la misión y mostrar el resumen del reporte generado. | 3 | Gabriel Ramírez | Done |
+| 3 | TR-005 | Registro de finalización de misión | S3-T35 | Implementar la finalización de misión | Implementar la operación backend que registra la finalización y actualiza el estado de la misión, conservando el historial. | 3 | Gabriel Ramírez | In-Process |
+| 3 | TR-006 | Registro de incidentes del vuelo | S3-T36 | Implementar el registro de observaciones de misión | Implementar el registro y consulta de observaciones técnicas asociadas a una misión, con sus validaciones y relación con el operador. | 3 | Gabriel Ramírez | Done |
+| 3 | TU-025 | Endpoints de misiones | S3-T37 | Revisar modelo y contratos de misión | Revisar entidades, DTO, relaciones y reglas existentes; definir las operaciones que expondrá /api/v1/missions sin duplicar funcionalidades. | 3 | Gabriel Ramírez | In-Process |
+| 3 | TU-025 | Endpoints de misiones | S3-T38 | Implementar consulta de misiones | Implementar GET para listar misiones y consultar una misión por identificador, con los filtros contemplados por el dominio. | 4 | Gabriel Ramírez | Done |
+| 3 | TU-025 | Endpoints de misiones | S3-T39 | Implementar creación y actualización de misiones | Implementar POST y PUT/PATCH para registrar una misión y actualizar sus datos permitidos, aplicando validaciones y reglas de negocio. | 5 | Gabriel Ramírez | To-do |
+| 3 | TU-025 | Endpoints de misiones | S3-T40 | Implementar cancelación de misiones | Implementar la operación para cancelar una misión, respetando las restricciones del ciclo de vida y conservando el historial necesario. | 3 | Gabriel Ramírez | In-Process |
+| 3 | RP-001 | Generación de informe de servicio fitosanitario | S3-T41 | Implementar la consulta de reportes de misión | Mostrar en el módulo de reportes el detalle de cada misión con área tratada, volumen aplicado y L/ha. | 3 | Sebastián Sayago | Done |
+| 3 | RP-002 | Exportación de informes en formato PDF | S3-T42 | Implementar la exportación del reporte a PDF | Permitir descargar en PDF el reporte de una misión desde el módulo de reportes. | 3 | Sebastián Sayago | Done |
+| 3 | RP-005 | Balance de consumo de productos agroquímicos | S3-T43 | Implementar la pestaña de uso de insumos | Mostrar el consumo de agroquímicos por finca y producto con filtros por finca y rango de fechas. | 3 | Sebastián Sayago | Done |
+| 3 | RP-006 | Comparativa de eficiencia operativa entre parcelas | S3-T44 | Implementar la comparación de parcelas | Implementar la pestaña para comparar indicadores operativos entre parcelas. | 3 | Sebastián Sayago | Done |
+| 3 | TU-016 | Endpoint de reportes de misión | S3-T45 | Completar endpoints de reportes de misión | Revisar y completar las operaciones de /api/v1/mission-reports incluidas en el alcance, según el modelo backend existente. | 4 | Sebastián Sayago | Done |
+| 3 | TU-017 | Endpoint de historial de misiones | S3-T46 | Completar endpoint de historial de misiones | Revisar y completar /api/v1/mission-histories, incorporando consultas de historial y filtros compatibles con los datos disponibles. | 3 | Sebastián Sayago | Done |
+| 3 | TU-018 | Endpoint de métricas operativas | S3-T47 | Implementar consultas de métricas operativas | Completar /api/v1/operational-metrics para consultar métricas asociadas a reportes o misiones, de acuerdo con el modelo y cálculos definidos. | 3 | Sebastián Sayago | Done |
+| 3 | TU-019 | Endpoint de indicadores de desempeño | S3-T48 | Completar endpoint de indicadores de desempeño | Completar /api/v1/performance-indicators para consultar y, cuando aplique, calcular los indicadores de desempeño definidos. | 3 | Sebastián Sayago | Done |
+| 3 | DR-001 | Registro de nuevo dron en inventario | S3-T49 | Actualizar el formulario y el detalle de dron | Actualizar el formulario de registro y la vista de detalle del dron, incluyendo la capacidad del tanque y la imagen del equipo. | 3 | Edwin Nicho | Done |
+| 3 | DR-004 | Registro de tipos de boquillas de asperjar | S3-T50 | Implementar la vista de boquillas de pulverización | Implementar la vista para consultar y registrar las boquillas asociadas a los drones. | 3 | Edwin Nicho | Done |
+| 3 | DR-005 | Programación de mantenimiento preventivo | S3-T51 | Implementar la consulta de mantenimientos del dron | Implementar el acceso «Ver mantenimiento» con el historial de mantenimientos y la fecha del próximo servicio. | 3 | Edwin Nicho | Done |
+| 3 | DR-006 | Registro de fallas e incidentes de equipo | S3-T52 | Implementar el registro de fallas y reparaciones | Permitir reportar una falla, mostrar el dron como fuera de servicio y registrar su reparación con fecha, comentario y técnico. | 3 | Edwin Nicho | Done |
+| 3 | DR-007 | Deshabilitación de dron de la flota | S3-T53 | Implementar deshabilitación de drones | Incorporar la operación backend para dar de baja o deshabilitar un dron e impedir nuevas asignaciones cuando no esté operativo. | 2 | Edwin Nicho | In-Process |
+| 3 | DR-007 | Deshabilitación de dron de la flota | S3-T54 | Implementar la opción de deshabilitar dron en la Web Application | Agregar en el detalle del dron la acción para deshabilitarlo y reflejar su estado en la flota. | 2 | Edwin Nicho | To-do |
+| 3 | TU-020 | Endpoint de drones | S3-T55 | Implementar endpoints backend de drones | Implementar las operaciones previstas para /api/v1/drones, incluyendo validación de datos y disponibilidad operativa. | 4 | Edwin Nicho | Done |
+| 3 | TU-021 | Endpoint de boquillas | S3-T56 | Implementar endpoints backend de boquillas | Implementar las operaciones previstas para /api/v1/nozzles, validando datos y relaciones necesarias con los drones. | 3 | Edwin Nicho | Done |
+| 3 | TU-022 | Endpoint de agroquímicos | S3-T57 | Implementar endpoints backend de agroquímicos | Implementar las operaciones previstas para /api/v1/agrochemicals, validando los datos de productos y su disponibilidad para las misiones. | 3 | Edwin Nicho | To-do |
+| 3 | TU-023 | Endpoint de registros de mantenimiento | S3-T58 | Implementar endpoints de mantenimiento | Implementar las operaciones previstas para /api/v1/maintenance-records, permitiendo registrar y consultar mantenimientos asociados a drones. | 3 | Edwin Nicho | To-do |
+| 3 | TU-027 | Endpoint de incidentes de drones | S3-T59 | Implementar endpoints de incidentes de drones | Implementar /api/v1/drone-incidents para registrar y consultar fallas o incidentes, incluyendo relación con el dron y estado de atención. | 4 | Edwin Nicho | In-Process |
+| 3 | TU-024 | Endpoints de usuarios | S3-T60 | Completar endpoints de usuarios | Revisar y completar /api/v1/users para registrar y consultar usuarios con su rol, aplicando validaciones y restricciones de acceso. | 3 | Gabriel Ramírez | To-do |
+| 3 | TU-026 | Endpoint de inicio de sesión | S3-T61 | Implementar endpoint de inicio de sesión | Implementar POST /api/v1/authentication/sign-in, validar credenciales y retornar el resultado de autenticación con el token correspondiente. | 4 | Gabriel Ramírez | To-do |
+| 3 | TU-002 | Implementación de seguridad y autenticación JWT | S3-T62 | Integrar autenticación JWT con Spring Security | Configurar validación de tokens JWT y proteger los endpoints que requieran autenticación, contemplando los roles definidos. | 5 | Gabriel Ramírez | In-Process |
+| 3 | TU-001 | Configuración de arquitectura limpia base | S3-T63 | Revisar consistencia de arquitectura backend | Revisar que casos de uso, servicios, repositorios y controladores respeten la organización y dependencias de la arquitectura limpia establecida. | 3 | Alexander Vásquez | Done |
+| 3 | TU-005 | Integración de cliente de servicio meteorológico | S3-T64 | Revisar integración backend con servicio meteorológico | Verificar el cliente HTTP de clima y su manejo de respuestas y errores externos; realizar los ajustes backend necesarios para mantener el contrato de integración. | 3 | Italo Damacen | Done |
+| 3 | TU-006 | Manejo global de excepciones e intercepción de errores | S3-T65 | Estandarizar respuestas de error | Implementar o completar el manejo global de excepciones para devolver respuestas consistentes mediante JSON Problem Details. | 3 | Gabriel Ramírez | In-Process |
+| 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T66 | Completar documentación OpenAPI de endpoints | Documentar los endpoints implementados del Sprint mediante Springdoc OpenAPI, incluyendo verbos HTTP, rutas, parámetros, cuerpos, respuestas y códigos de estado. | 4 | Italo Damacen | To-do |
+| 3 | TU-008 | Documentación interactiva de API con OpenAPI/Swagger | S3-T67 | Verificar documentación interactiva con datos de muestra | Ejecutar solicitudes de prueba desde Swagger UI, comprobar ejemplos de request/response y corregir diferencias entre documentación y comportamiento real. | 3 | Italo Damacen | To-do |
+| 3 | TU-010 | Configuración de CORS | S3-T68 | Configurar política CORS del backend | Configurar orígenes, métodos y encabezados permitidos para el consumo autorizado de la API desde los clientes del proyecto. | 2 | Gabriel Ramírez | In-Process |
+| 3 | — | Integración y despliegue | S3-T69 | Conectar la Web Application con el backend desplegado | Actualizar los environments de la Web Application para consumir los servicios desplegados, reemplazando direcciones locales y servicios simulados. | 3 | Gabriel Ramírez | Done |
+| 3 | — | Integración y despliegue | S3-T70 | Desplegar el backend y la base de datos en Render | Crear la base de datos PostgreSQL, configurar el web service con Docker y publicar la primera versión de los Web Services. | 4 | Alexander Vásquez | Done |
+| 3 | — | Integración y despliegue | S3-T71 | Desplegar la nueva versión de la Web Application | Compilar y publicar la Web Application en Firebase Hosting, incluyendo la regla de reescritura para rutas SPA. | 2 | Gabriel Ramírez | Done |
+| 3 | — | Integración y despliegue | S3-T72 | Desplegar la nueva versión del Landing Page | Compilar y publicar la versión del Sprint 3 del Landing Page en Firebase Hosting. | 1 | Edwin Nicho | Done |
+| 3 | — | Videos del producto | S3-T73 | Elaborar el video About-the-Product | Guionizar, grabar y editar el video promocional del producto con escenas de la aplicación y testimonios de usuarios. | 5 | Alexander Vásquez | Done |
+| 3 | — | Videos del producto | S3-T74 | Elaborar el video About-the-Team | Guionizar, grabar y editar el video que presenta al equipo, su organización y el proceso de construcción del producto. | 5 | Sebastián Sayago | Done |
 
 
 Los estados del backlog se actualizarán conforme avance el sprint. Las tareas relacionadas con endpoints se considerarán completadas cuando su implementación esté disponible en el backend y se haya verificado su comportamiento mediante solicitudes HTTP o pruebas de integración. La existencia de una interfaz o de un cliente API en el frontend no se considerará evidencia suficiente de que el servicio backend está implementado.
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Durante el Sprint 3 se trabajará en la evolución de los componentes principales de AgriDron Solutions, priorizando la integración entre la Web Application y los servicios RESTful. Las actividades de desarrollo estarán orientadas a los siguientes aspectos:
+Durante el Sprint 3 se trabajó en los tres productos de AgriDron Solutions. En el Landing Page se rediseñó la sección principal, se corrigieron los botones que redirigen a la Web Application, se ampliaron a diez las capturas de la plataforma y se incorporaron los videos About-the-Product y About-the-Team junto con las fotografías del equipo. En la Web Application se completaron los módulos de Field Management, Flight Operations, Inventory & Resource Management, Analytics & Reporting y Weather Integration, y se conectaron con los Web Services desplegados. En los Web Services se creó el proyecto Spring Boot con arquitectura por capas y se implementaron los bounded contexts Shared, Field Management, Inventory & Resource Management y Analytics & Reporting, junto con su configuración para el despliegue en Render.
 
 - **Flight Operations:** implementación de los servicios para gestionar misiones, resultados, incidencias y estados operativos, permitiendo registrar y consultar las operaciones de fumigación.
 - **Field Management:** revisión y ampliación de los servicios de gestión de fincas, parcelas, cultivos y zonas de fumigación.
@@ -4321,158 +4353,497 @@ Durante el Sprint 3 se trabajará en la evolución de los componentes principale
 - **Web Application:** actualización de la integración con los servicios backend y mejora de las interfaces correspondientes a los módulos implementados.
 - **Landing Page:** actualización de los componentes informativos y de presentación del producto.
 
-| Repo                            | Branch                                  | Ahead / behind                                                     | Commit Date       | Author                                        | Commit Description                                                                                                                                                                           | Commit                                           | Compare Repo                    | Compare Branch                          | Compare Date      | Compare Author                                | Compare Commit Description                                                     | Compare Commit                                   |
-|---------------------------------|-----------------------------------------|--------------------------------------------------------------------|-------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------|-----------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------|
-| Opensource-UPC/Agridron-backend |  main                                   | Default                                                            | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | perf(docker): optimize JVM memory flags for 512MB RAM container                                                                                                                              | 3e70397 3e70397c6972051b8ccd8ded7267b93a331285ef | — Not available                 | — Not available                         | — Not available   | — Not available                               | — Not available                                                                | — Not available                                  |
-| Opensource-UPC/Agridron-backend |  develop                                | 3 ahead 3 commits ahead of feature/inventoryAndResourceManagement  | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | fix(db): ensure postgis extension exists before creating spatial tables                                                                                                                      | 74e9a5e 74e9a5e8ed6a51a68921b38e022e389c0b3284e7 | Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | Mon, Nov 9, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | fix(build): remove unnecessary apt-get curl from runtime image                 | 72333ab 72333ab847ebfd49d8e6553bb6a974e08c7830c7 |
-| Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | 3 behind 3 commits behind develop                                  | Fri, Nov 6, 2026  | #Edwin Nicho (@Edwindeploy21)                 | finally 6 endpoints added                                                                                                                                                                    | a66f533 a66f53383995be881bae45b4917945849f256399 | Opensource-UPC/Agridron-backend |  develop                                | Fri, Nov 6, 2026  | #Edwin Nicho (@Edwindeploy21)                 | inventory from infrastructure advance complete                                 | cf053b5 cf053b58547d38e6014ffacac465394b5cb99399 |
-| Opensource-UPC/Agridron-backend |  feature/flight-operations              | 18 ahead, 22 behind 18 commits ahead, 22 commits behind develop    | Fri, Nov 6, 2026  | #GabrielRamirez06 (@GabrielRamirez06)         | feat(flight): add missions context ACL facade                                                                                                                                                | d2b9e0b d2b9e0b863be3597d3add7887895fc3bc559c32e | Opensource-UPC/Agridron-backend |  develop                                | Fri, Nov 6, 2026  | #GabrielRamirez06 (@GabrielRamirez06)         | feat(flight): add missions context ACL facade                                  | 6f148e1 6f148e179a915d6b4aae09e163b7fc453eb7364c |
-| Opensource-UPC/Agridron-backend |  feature/analyticsAndReporting          | 15 behind 15 commits behind develop                                | Mon, Nov 2, 2026  | #Sebastián Leonardo Sayago Vidal (@SSayag0V)  | Merge branch 'develop' into feature/analyticsAndReporting                                                                                                                                    | 6f337ba 6f337ba0d54d4ba07937327b92d99575b55889ef | Opensource-UPC/Agridron-backend |  develop                                | Mon, Nov 2, 2026  | #Sebastián Leonardo Sayago Vidal (@SSayag0V)  | docs(analytics): add analytics bounded context to project structure            | 7baabe6 7baabe6c9f226a8fc6804716b11c77d640a46cb2 |
-| Opensource-UPC/Agridron-backend |  feature/fieldManagement                | 22 behind 22 commits behind feature/inventoryAndResourceManagement | Sun, Nov 1, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | docs(field): document pagination and ordering                                                                                                                                                | 6bcd921 6bcd921d78f471a5c6aea0bb6931f12423c30012 | Opensource-UPC/Agridron-backend |  feature/inventoryAndResourceManagement | Sun, Nov 1, 2026  | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | test(field): cover pagination end to end                                       | 91ca86b 91ca86bed566667389aa9d8b4c582b47271ff590 |
-| Opensource-UPC/Agridron-backend |  shared                                 | 82 behind 82 commits behind main                                   | Wed, Oct 28, 2026 | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | feat: Se implemento el BC de Shared ademas, se modifico el readme y el gitignore. Tambien se implemento docs/backend-conventions.md para que el team siga las pautas para sus respectivos BC | 0114008 011400822199b3a33b811c2c6d29a59cd9764f2d | Opensource-UPC/Agridron-backend |  main                                   | Wed, Oct 28, 2026 | #Dev-AlexanderVasquez (@Dev-AlexanderVasquez) | feat:se creo el proyecto Agridron Backend en java 27 con maven como compilador | 247ca74                                          |
+
+Las siguientes tablas presentan, para cada repositorio, los commits de implementación realizados durante el Sprint 3 (desde el 19/10/2026), sin considerar los commits de merge.
+
+##### Landing Page
+
+**Repositorio:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 6f35ba9 | feat se reaizo mergue | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | d62edef | files en and es from i18n fixed | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | d57f1f5 | feat: se realizo mergue | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 813f7fe | pictures about the team added | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 38f3d27 | another screenshot for all secctions to app web added | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | feature/Sprint-3 | 00d3aa0 | videos about the team and about the product in progress to loag to landing page | — | 11/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 70855ff | fix: se corrigio el error de mal redireccionamiento al webapp | — | 09/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 0542909 | feat: se modifico los botones que redirigen al webApp | — | 09/11/2026 |
+| Opensource-UPC/AgiDron-LandingPage-7760-G3 | main | 4603787 | feat: rediseño de landingPague | — | 06/11/2026 |
+
+##### Web Application
+
+**Repositorio:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-frontend | main | d69dd79 | feat:se agregaron cambios desde develop | — | 11/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 49e4fc1 | Correccion del store drone | — | 11/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 9da0203 | fix(field): align parcel and fumigation mappings with backend contract | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 1b1476b | feat se modifico el parcel para que no choque con el backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | ff0dacc | fix(field): load fumigation areas per selected parcel | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 90329be | feat: se modifico el enviroments.develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | f556108 | fix: se soluciono error en enviroment del link del backend mal implementado | — | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 73b7010 | feat(infra): add hybrid API interceptor to route 40% of endpoints to real backend | - Add HybridApiInterceptor that routes requests based on backend readiness: - /farms, /parcels, /fumigation-areas, /crops → Spring Boot (realBackendApiUrl) - /drones, /nozzles →… | 10/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 768baae | feat: se modifico el enviroments production | — | 09/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 1809be5 | feat(missions): add mission calendar, exclude out-of-service drones and show consumption by product | Add a weekly and monthly calendar of scheduled missions with their status (MI-005). Exclude out-of-service drones from mission assignment (DR-006). Show agrochemical consumption… | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 5aa5fda | fix(missions): keep zero overlap, restrict editing to unstarted missions and add parcel weather check | Save an overlap of 0 instead of replacing it with 20 (MI-004). Allow editing only missions in Planned or Authorized status (MI-006). Add a parcel weather check in the parcel det… | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | fbf7c46 | feat: add parcel map drawing and parcel-based weather check for missions | - Add a shared Leaflet polygon map with satellite, topographic and hybrid layers, and geometry helpers that read and write GeoJSON and calculate the polygon area, with unit test… | 07/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 07839c8 | feat:se modifico el presentation de Misiones | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | d564400 | hotfix(locales): add more sections to the mission translate json | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ca71881 | hotfix(locales): fix missing parcelId in mission report and summary report | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b2c08d8 | hotfix(locales): fix missing parcelId in mission report and summary report | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ea06e09 | hotfix(locales): update es.json translations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 09c03ec | hotfix(locales): update es.json translations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | 2a9114d | feat(ui): apply style guidelines to crops, fumigation areas, reports, drones, agrochemicals and profile | - Crops and fumigation areas: redesigned list, card and form (Angular Material, documented tokens), confirm dialog on delete, skeleton/empty/error states, edit form loads data w… | 06/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | adca2a8 | feat: implement field management and UI improvements | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 1f800b3 | fix: rutas de environment, coma en es.json y enlace a agroquímicos | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | c377114 | fix:fallo al importar en drone.entity y fallo en drone-incident-api-enpoint linea 17 corregidos | — | 05/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 6bae216 | Features for logging drone malfunctions and repairs were added. | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | develop | b43f99a | fix(flight): pass parcelId to analytics history and report | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | 507bbb7 | button add maintenance added into section view maintenance | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/inventoryAndResourceManagement | d4692dd | status drone added like as enum | — | 04/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | b307428 | hotfix(locales): update es.json translations | — | 02/11/2026 |
+| Opensource-UPC/Agridron-frontend | main | 32d5705 | feat(weather-integration): integrate Open-Meteo with geolocation and weather alerts | Replace the local db.json weather data with the Open-Meteo API so the deployed app shows real weather instead of calling localhost. - Get the user's position with the browser ge… | 03/11/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ad4288f | hotfix(flight-operations): data and translation fixes | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | e5d9fab | hotfix(flight-operations): mission- complete view and summary report improvements | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 0bf418b | feat(flight-operations): update db.json data with missions | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 64e39a3 | feat(flight-operations): update side-nav options with missions link | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | bc08685 | feat(flight-operations-presentation): mission list, form and details components created | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ae3528f | feat(flight-operations-presentation): mission list, form and details components created | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 12c7eb6 | feat(flight-operations-presentation): mission complete view and mission time signal created | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | c7f26d5 | feat(flight-operations-presentation): incident form with type | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | cf10d73 | feat(flight-operations-presentation): update flight operations routes | — | 31/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 9eeff97 | feat(flight-operations.presentation): create new views and styles archives | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 62b7f8e | feat(flight-operations.presentation): create new views and styles archives | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 41543cf | feat(flight-operations.app): add methods for mission authorization, in parcel add centroid calculation | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | d791ef1 | feat(flight-operations.app): add agrochemical store and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 4663880 | feat(flight-operations.app): rework incident and mission results stores and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 861ac2b | feat(flight-operations.app): rework operation status store | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 554fb90 | feat(flight-operations.app): rework mission store and API calls | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | ba070e6 | feat(flight-operations.domain): rework enums and add methods in entity | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | e8e805a | feat(scr): implement missions, mission results, incidents, and operations statuses data | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 377449e | feat(flight-operations-pres): implement flight operations routes | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 65dba0f | files for manage nozzles and agrochemicals | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 8b7e8bc | all procces about procesing nozzled are implements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 64041aa | feat(side-nav): update side-nav component | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | f99fc3f | feat(flight-operations): update layout | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 6140373 | view of nozzle implement | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 5f12466 | feat(ui): improve layout and side-nav styles; update Spanish localization placeholder | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | fa0ab78 | feat(side-nav): add "missions" option with localization support in English and Spanish | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | f718e24 | feat(flightOperations-app): enhance error handling and loading state in OperationStatusStore; update environment with new API endpoints | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 19aba62 | Modify in package.json server: json-serve | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | d8ccacb | view deatails and view maintenances were implements | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 0488d93 | feat(flightOperations-app): add OperationStatusStore to manage operation status state and behavior in the application layer | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 179deec | feat(flightOperations-app): add MissionStore to manage mission state and behavior in the application layer | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 941b85e | feat(flightOperations-app): add MissionStore to manage mission state and behavior in the application layer | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 8f64880 | feat(flightOperations-app): add IncidentStore to manage incident state and behavior in the application layer | — | 30/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 792c654 | feat(flightOperations-infra): implement FlightOperationsApi infrastructure facade | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 6a8eeaa | feat(flightOperations-infra): add API endpoints for incidents, missions, mission results, and operation statuses | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 6c39746 | refactor(flightOperations): rename FlightOperationsResponse to MissionResponse for clarity | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 38d4baa | feat(environment): add new endpoints for missions, results, incidents, and statuses | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 5260ee5 | refactor(flightOperations): rename entities and response DTOs for consistency and nullable fields | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | da4452b | refactor(flightOperations): rename entities and response DTOs for consistency and nullable fields | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 9e8f1bd | feat(flightOperations-infra): implement mission response DTOs and mission assembler | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | a0da8b1 | tank capacity data added in drone card from drone-item | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 4b69326 | button view maintenance working | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 182645d | drone detail and drone form were updates | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 3e451ef | feat(flightOperations-domain): add MissionStatus enum and integrate it into Mission entity | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/flight-operations | 44de3cf | feat(flightOperations-domain): add domain models for mission, operation status, incident, and mission result | — | 29/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 48427b1 | feat(analytics): add farm filter, farm consumption summary and parcel comparison | — | 27/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | fdddfe6 | feat(analytics): add i18n texts and sample data for new report features | — | 27/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 49afd13 | chore: add jspdf for report pdf export | — | 26/10/2026 |
+| Opensource-UPC/Agridron-frontend | feature/analyticsAndReporting | 4e83493 | feat(analytics): add parcelId to mission reports and history | — | 26/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | d68cb00 | form to edit drone added | — | 25/10/2026 |
+| Opensource-UPC/Agridron-frontend | main | 4606a12 | View details button implemented. Component drone details added | — | 19/10/2026 |
+
+##### Web Services
+
+**Repositorio:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-backend | main | 6c06439 | fix(openapi): use current server and Render URL in Swagger servers | — | 11/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 9ae22ef | fix(field): idempotent image migration (V207) for Render deploy | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0e7d09b | feat(field): persist optional image for farms and parcels | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | dca8010 | feat: se modifico el aplication properties | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | eb2d16a | added class diagram v0.5 | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | d626fae | Delete docs/upc-pre-202620-1asi0729-7760-AgriDron-report-TB1.pdf | old version of report | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 3e70397 | perf(docker): optimize JVM memory flags for 512MB RAM container | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4d6def4 | feat(db): auto-repair flyway schema history before migration | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 74e9a5e | fix(db): ensure postgis extension exists before creating spatial tables | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 72333ab | fix(build): remove unnecessary apt-get curl from runtime image | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a66f533 | finally 6 endpoints added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | cf053b5 | inventory from infrastructure advance complete | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 25603e5 | folders adapter,assembler, entites and repositories from folder infrastructure | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | e1ee46c | files test queryservice donre and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3dc03c3 | test command and query services added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a984ef8 | one more queryservices implements | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9ba9609 | foler internal and DroneCommandServiceImpl added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 946ec4c | Inventory application and repositories added. | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3718176 | files commands, queries and repositories's dron and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9b4e094 | Second advance to inventory BC | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | d2b9e0b | feat(flight): add missions context ACL facade | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 6f148e1 | feat(flight): add missions context ACL facade | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 670f36d | feat(flight): add mission integration events handler | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 293a538 | feat(flight): add mission integration events | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 253e625 | feat(flight): add mission domain events | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | a51de5c | feat(flight): create mission aggregate | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 9914e46 | feat(flight): add assembler classes for converting resources to commands and resources from entities | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 0982e94 | feat(flight): add resources for mission management in the rest layer | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 0239844 | feat(flight): create MissionPersistenceRepository and Specification implementations | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 63152e4 | feat(flight): add persistence converters and entities | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | fafb773 | feat(flight): complete domain layer by implementing MissionRepository | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 9f601ca | feat(flight): add command and query services | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 074a544 | aggregate and valueobject from Nozzle added | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 538c509 | feat(flight): add commands for mission management | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | b5fef51 | feat(flight): add queries for mission management | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | d52a52e | feat(flight): add incident, mission result, and operation status entities | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | 96d1d65 | feat(flight): add value objects for flight coordinates, operator id, and flight parameters | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | f330326 | feat(flight): add value objects for drone, agrochemical, parcel, mission status and mission state | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/flight-operations | f20703a | feat(flight): add mission aggregate root | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | 7baabe6 | docs(analytics): add analytics bounded context to project structure | — | 02/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 6bcd921 | docs(field): document pagination and ordering | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 91ca86b | test(field): cover pagination end to end | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 81f4a0c | feat(field): paginate crop catalog | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 67eb3c5 | feat(field): paginate fumigation area listings | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 27dd1dc | feat(field): paginate parcel searches | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 7ccc60a | feat(field): paginate farm listings | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 841e653 | feat(field): add pagination primitives | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | c3a388b | docs(analytics): register error codes, messages and bounded context notes | — | 31/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | aa58aec | feat(analytics): add REST controllers, resources and assemblers | — | 31/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | 75af3ec | feat(analytics): add JPA persistence, adapters and Flyway migrations | — | 31/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | 7684cce | feat(analytics): add application command and query services | — | 31/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | a520077 | feat(analytics): add domain model, events and repository ports | — | 31/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 999e895 | docs(field): document the expanded event catalog and parcel safeguard | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 94e8bce | test(field): cover the expanded event catalog after commit | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 0e351d0 | feat(field): block deactivation of parcels in use | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | e7ddb5b | feat(field): add parcel usage port | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 6d31aa0 | feat(field): add parcel details updated event | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 185acf4 | feat(field): add farm details updated event | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | eef7099 | docs(field): document integration events | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 978c61a | test(field): verify integration events after commit | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | a69f78b | test(architecture): enforce the integration event contract | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 1503a23 | feat(field): add fumigation area integration event | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 09cd1f4 | feat(field): add parcel integration events | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 595f516 | feat(field): add farm integration events | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 6c46b8d | feat(shared): add integration event publisher | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | b8c5ce7 | docs(field): document the field management API and GeoJSON decision | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 467c613 | feat(field): add field management end-to-end test | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 536eb6f | feat(field): expose crop catalog REST endpoints | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 8631807 | feat(field): expose fumigation area REST endpoints | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | b37fd21 | feat(field): expose parcel REST endpoints | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 713b083 | feat(field): expose farm REST endpoints | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 4a1ed0b | feat(field): add GeoJSON polygon conversion | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 88c17ab | feat(field): add crop query service | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 45b3771 | feat(field): add fumigation area application services | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 737c48b | feat(field): add parcel application services | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 2214be6 | feat(field): add farm application services | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | f2039d9 | feat(shared): add invalid geometry application error | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | c99d003 | docs(field): document persistence mapping | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | b0d8834 | feat(field): seed crop catalog | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 7dc3c28 | feat(field): add fumigation area repository adapter | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 89d53b7 | feat(field): add fumigation area persistence model | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 062a21f | feat(field): add parcel repository adapter with search | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 279616c | feat(field): add parcel persistence model | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | de6ed61 | feat(field): add farm repository adapter | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 1bc5bc0 | feat(field): add farm persistence model | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 170ee04 | test(shared): keep PostGIS container alive for the whole JVM | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | cee005c | feat(field): add crop persistence adapter | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 3ca088d | feat(field): add domain repository ports | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | f6af7f8 | feat(field): add parcel and fumigation area aggregates | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 2eab404 | feat(field): add farm and crop aggregates | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | de33110 | feat(field): add geometry value object and area calculation | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 4e9565f | docs: reserve field fumigation area error codes | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | daa7ab2 | feat(field): add crop migration and persistence entity | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | b385553 | fix(shared): enable Flyway auto-configuration for Spring Boot 4 | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 4b8b8ea | test(field): add PostGIS Testcontainers support | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | f611b20 | fix(shared): map INVALID_GEOMETRY to 400 | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | shared | 0114008 | feat: Se implemento el BC de Shared ademas, se modifico el readme y el gitignore. Tambien se implemento docs/backend-conventions.md para que el team siga las pautas para sus respectivos BC | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | main | 247ca74 | feat:se creo el proyecto Agridron Backend en java 27 con maven como compilador | — | 28/10/2026 |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 3 se realizarán pruebas de ejecución para verificar la comunicación entre la Web Application y los servicios backend. Se priorizarán los flujos relacionados con la creación y consulta de misiones, la actualización de sus estados y el registro de resultados.
+Durante el Sprint 3 se consolidó la primera versión integrada de AgriDron Solutions. En el Landing Page se incorporaron las pestañas de capturas de los diez módulos de la plataforma, el video About-the-Product, la sección del equipo con fotografías y el acceso al video About-the-Team. En la Web Application se completaron los flujos de gestión de fincas, parcelas, cultivos y áreas de fumigación; la creación, seguimiento y finalización de misiones; los reportes con exportación a PDF; y la gestión de drones, boquillas, mantenimientos y agroquímicos. Además, la Web Application pasó a consumir los Web Services desplegados en lugar de servicios simulados.
 
-Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e información analítica, comprobando que las solicitudes HTTP reciban las respuestas esperadas y que las funcionalidades integradas puedan utilizar los servicios correspondientes.
+**Productos desplegados**
 
-Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
+| Producto | Enlace |
+|---|---|
+| Landing Page | [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/) |
+| Web Application | [https://os-agridronfrontend.web.app](https://os-agridronfrontend.web.app) (usuario: `admin`, contraseña: `admin123`) |
+| Web Services (Swagger UI) | [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html) |
 
-![Evidencia del despliegue del LandingPage](assets/chapter5/sprint1/l6.png)
 
-Figura: Evidencia del despliegue del LandingPage
+**Video de navegación del Sprint 3**
 
-**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
+En el siguiente video se muestra la navegación por las vistas implementadas durante el sprint.
 
-![Evidencia del despliegue del Frontend](assets/chapter5/sprint2/d8.png)
+| Campo | Detalle |
+|---|---|
+| YouTube | [Ver video](https://youtu.be/6XCNAZBxiAI) |
+| Duración | 04:49 |
 
-Figura: Evidencia del despliegue del Frontend
+##### Landing Page
 
-**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
-**Credenciales**: usuario: `admin`, contraseña: `admin123`
+Se actualizó el Landing Page con nuevas secciones de presentación del producto y del equipo, la integración de los videos y la ampliación de las capturas de la plataforma.
 
-![Evidencia del despliegue del Backend](assets/chapter5/sprint3/backendDeployment.png)
+###### Sección principal (Hero)
 
-![Evidencia del despliegue del Backend](assets/chapter5/sprint3/evidenciaDespliegue.png)
+![Sección principal del Landing Page](assets/chapter5/new-landing1.png)
 
-Figura: Evidencia del despliegue del backend
+*Figura: Sección principal del Landing Page de AgriDron Solutions, con la propuesta de valor, los beneficios clave (reducción de costos, aumento de productividad y protección del equipo), los accesos «Pruébalo ahora» y «Ver la plataforma», el menú de navegación y el selector de idioma ES/EN.*
 
-**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
+###### Conoce AgriDron por dentro – Dashboard Operativo
+
+![Sección Conoce AgriDron por dentro – Dashboard Operativo](assets/chapter5/new-landing2.png)
+
+*Figura: Sección «Conoce AgriDron por dentro», que presenta las vistas de la aplicación web mediante pestañas. En la imagen, la pestaña Dashboard Operativo, con las métricas de la operación, los accesos rápidos y el estado del clima.*
+
+###### Conoce AgriDron por dentro – Fincas
+
+![Sección Conoce AgriDron por dentro – Fincas](assets/chapter5/sprint3/LandingPage-SectionFincas.png)
+
+*Figura: Pestaña «Fincas» de la sección «Conoce AgriDron por dentro», que muestra el registro de predios con su ubicación, cantidad de parcelas y superficie total, junto con el acceso directo «Ir a Fincas» de la aplicación web.*
+
+###### Conoce AgriDron por dentro – Drones
+
+![Sección Conoce AgriDron por dentro – Drones](assets/chapter5/sprint3/LandingPage-SectionDrones.png)
+
+*Figura: Pestaña «Drones» de la sección «Conoce AgriDron por dentro», que muestra la gestión de la flota con el estado, la batería, la boquilla y la capacidad del tanque de cada dron, junto con el acceso directo «Ir a Drones». La sección cuenta con diez pestañas, una por cada módulo de la aplicación.*
+
+###### Video About-the-Product
+
+![Sección Video About-the-Product](assets/chapter5/sprint3/LandingPage-VideoAboutTheProduct.png)
+
+*Figura: Sección «Video About-the-Product», que incorpora el video promocional de AgriDron Solutions con reproductor integrado y el acceso «Probar Web App» para ingresar a la aplicación web.*
+
+###### Preguntas frecuentes y contacto
+
+![Sección de preguntas frecuentes y formulario de contacto](assets/chapter5/new-landing3.png)
+
+*Figura: Sección de preguntas frecuentes con respuestas desplegables y formulario de contacto «¿Listo para despegar?», que permite enviar una consulta indicando nombre, correo electrónico, plan de interés y mensaje.*
+
+###### Nuestro equipo y Video About-the-Team
+
+![Sección Nuestro equipo y Video About-the-Team](assets/chapter5/sprint3/LanginPage-SectionAboutTheam.png)
+
+*Figura: Sección «Nuestro equipo», con la fotografía, el nombre y el rol de cada integrante, y la tarjeta del Video About-the-Team, que indica su duración y redirige a YouTube para verlo completo.*
+
+###### Términos y Condiciones de Servicio
+
+![Página de Términos y Condiciones de Servicio](assets/chapter5/new-landing4.png)
+
+*Figura: Página de Términos y Condiciones de Servicio, que presenta el marco deontológico, el propósito y alcance del servicio y las políticas de confidencialidad y privacidad de los datos agrícolas.*
+
+##### Web Application
+
+Se completaron las vistas de los módulos de la Web Application y se conectaron con los servicios RESTful desplegados.
+
+###### Inicio
+
+![Vista de inicio de la aplicación web](assets/chapter5/new-frontend1.png)
+
+*Figura: Vista de inicio de la aplicación web, con el resumen de la operación agrícola (fincas, parcelas, cultivos y áreas de fumigación), accesos rápidos a los módulos y el estado del clima en tiempo real obtenido de Open-Meteo, con la indicación de si las condiciones son favorables para fumigar.*
+
+###### Detalle de parcela
+
+![Detalle de una parcela](assets/chapter5/new-frontend2.png)
+
+*Figura: Detalle de una parcela, que muestra su área, finca, cultivo y geometría, junto con su delimitación como polígono sobre el mapa satelital y la opción de consultar el clima de la parcela.*
+
+###### Misiones
+
+![Módulo de misiones](assets/chapter5/new-frontend3.png)
+
+*Figura: Módulo de misiones, con la lista de operaciones de fumigación, filtros por estado (planificadas, en progreso, completadas y pausadas), búsqueda por lote, finca o cultivo, y el progreso de cada misión con su dron, cultivo y fecha asignados.*
+
+###### Cultivos
+
+![Módulo de cultivos](assets/chapter5/new-frontend4.png)
+
+*Figura: Módulo de cultivos, donde el usuario registra, edita y elimina los cultivos y variedades que siembra en sus parcelas.*
+
+###### Nueva área de fumigación
+
+![Formulario de registro de un área de fumigación](assets/chapter5/new-frontend5.png)
+
+*Figura: Formulario de registro de un área de fumigación. El usuario selecciona la parcela y traza el polígono sobre el mapa satelital, y el área se calcula automáticamente.*
+
+###### Reportes e historial
+
+![Módulo de reportes e historial](assets/chapter5/new-frontend6.png)
+
+*Figura: Módulo de reportes e historial en la pestaña «Uso de insumos», con filtros por finca y rango de fechas, el consumo de agroquímicos por finca y producto, y el detalle de reportes por misión con opciones para visualizarlos y descargarlos.*
+
+###### Gestión de flota de drones
+
+![Módulo de gestión de la flota de drones](assets/chapter5/new-frontend7.png)
+
+*Figura: Módulo de gestión de la flota de drones, que muestra para cada equipo su modelo, número de serie, estado, nivel de batería, boquilla, capacidad del tanque y fecha del próximo servicio, con accesos a su detalle, su historial de mantenimiento y las boquillas de pulverización.*
+
+###### Agroquímicos
+
+![Módulo de agroquímicos](assets/chapter5/new-frontend8.png)
+
+*Figura: Módulo de agroquímicos, con el inventario de productos (stock, stock mínimo con alerta de stock bajo y fecha de vencimiento) y el formulario para registrar un nuevo agroquímico.*
+
+
+
+
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se documentarán los servicios RESTful de AgriDron Solutions mediante OpenAPI/Swagger, considerando los endpoints implementados y 
-aquellos relacionados con el alcance funcional del sprint.
+Durante el Sprint 3 se documentaron con OpenAPI los Web Services de AgriDron Solutions, mediante la biblioteca Springdoc OpenAPI integrada en el backend Spring Boot. La documentación se publicó junto con el despliegue en Render y permite consultar e invocar desde Swagger UI 35 operaciones de 10 recursos, organizadas en los bounded contexts Field Management, Inventory & Resource Management y Analytics & Reporting, además de un endpoint compartido de estado. Cada operación especifica su verbo HTTP, su ruta, sus parámetros, el cuerpo de la solicitud y la estructura de la respuesta. Los endpoints de Flight Operations (/api/v1/missions) aún no están expuestos en el backend y quedaron pendientes para el siguiente sprint.
 
-La documentación permitirá identificar las operaciones disponibles para cada recurso, especificando sus métodos HTTP, 
-rutas de acceso, parámetros requeridos, estructuras de solicitud y respuestas generadas. Se dará prioridad a los servicios 
-correspondientes a Flight Operations, especialmente a la gestión de misiones, sus estados operativos y resultados, debido a su 
-importancia dentro del flujo principal de la plataforma.
+| Recurso | Enlace |
+|---|---|
+| Swagger UI (documentación desplegada) | [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html) |
+| Especificación OpenAPI (JSON) | [https://os-agridronbackend.onrender.com/v3/api-docs](https://os-agridronbackend.onrender.com/v3/api-docs) |
+| Repositorio de Web Services | [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend) |
 
-
+Las operaciones de consulta responden `200 OK`, las de registro `201 Created`, y los errores de validación o de recurso inexistente devuelven `400 Bad Request` o `404 Not Found` con un cuerpo en formato JSON Problem Details.
 
 ##### Endpoint Documentation
 
-La siguiente tabla presenta los endpoints documentados mediante OpenAPI, indicando las operaciones HTTP soportadas, sus rutas y el enlace de acceso a la documentación interactiva.
+##### Field Management
 
-| Bounded Context | Resource | HTTP Method | Endpoint | Parameters / Request Body | Response Description | Documentation |
-|:---|:---|:---|:---|:---|:---|:---|
-| Flight Operations | Missions | GET | `/api/v1/missions` | Query parameters: por especificar | Retorna la lista de misiones registradas. | Completada |
-| Flight Operations | Missions | GET | `/api/v1/missions/{id}` | Path: `id` | Retorna los detalles de una misión específica. | Completada |
-| Flight Operations | Missions | POST | `/api/v1/missions` | JSON body: por especificar | Registra una nueva misión. | Completada |
-| Flight Operations | Missions | PUT | `/api/v1/missions/{id}` | Path: `id`; JSON body: por especificar | Actualiza la información de una misión. | Por completar |
-| Flight Operations | Missions | DELETE | `/api/v1/missions/{id}` | Path: `id` | Elimina una misión registrada. | Completada |
-| Flight Operations | Drones | GET | `/api/v1/drones` | Query parameters: por especificar | Retorna la lista de drones registrados. | Completada |
-| Flight Operations | Drones | POST | `/api/v1/drones` | JSON body: por especificar | Registra un nuevo dron en la flota. | Completada |
-| Flight Operations | Drones | GET | `/api/v1/drones/{droneId}` | Path: `droneId` | Retorna los detalles de un dron específico. | Completada |
-| Flight Operations | Nozzles | GET | `/api/v1/nozzles` | Query parameters: por especificar | Retorna la lista de boquillas registradas en el catálogo. | Completada |
-| Flight Operations | Nozzles | POST | `/api/v1/nozzles` | JSON body: por especificar | Registra un nuevo tipo de boquilla. | Completada |
-| Flight Operations | Nozzles | GET | `/api/v1/nozzles/{nozzleId}` | Path: `nozzleId` | Retorna los detalles de un tipo de boquilla específico. | Completada |
-| Flight Operations | Operation Status | GET | `/api/v1/status` | Sin parámetros documentados. | Retorna los estados disponibles del sistema y sus operaciones. | Completada |
-| Analytics & Reporting | Mission Reports | GET | `/api/v1/mission-reports` | Query parameters: filtros de búsqueda por especificar. | Retorna los reportes de misión registrados según los criterios de búsqueda. | Completada |
-| Analytics & Reporting | Mission Reports | POST | `/api/v1/mission-reports` | JSON body: por especificar | Genera un nuevo reporte de misión. | Completada |
-| Analytics & Reporting | Mission Reports | GET | `/api/v1/mission-reports/{reportId}` | Path: `reportId` | Retorna los detalles de un reporte de misión específico. | Completada |
-| Analytics & Reporting | Mission Reports | DELETE | `/api/v1/mission-reports/{reportId}` | Path: `reportId` | Elimina un reporte de misión registrado. | Completada |
-| Analytics & Reporting | Mission Reports | POST | `/api/v1/mission-reports/{reportId}/metrics` | Path: `reportId`; JSON body: por especificar | Añade una métrica operativa a un reporte de misión. | Completada |
-| Analytics & Reporting | Mission Histories | GET | `/api/v1/mission-histories` | Query parameters: filtros de búsqueda por especificar. | Retorna el historial de misiones según los criterios de búsqueda. | Completada |
-| Analytics & Reporting | Mission Histories | POST | `/api/v1/mission-histories` | JSON body: por especificar | Registra una misión finalizada en el historial. | Completada |
-| Analytics & Reporting | Mission Histories | GET | `/api/v1/mission-histories/{historyId}` | Path: `historyId` | Retorna un registro específico del historial de misiones. | Completada |
-| Analytics & Reporting | Performance Indicators | GET | `/api/v1/performance-indicators` | Query parameters: por especificar. | Retorna los indicadores de rendimiento de las operaciones. | Completada |
-| Analytics & Reporting | Performance Indicators | POST | `/api/v1/performance-indicators/calculations` | JSON body: período de cálculo por especificar. | Calcula los indicadores de rendimiento correspondientes a un período determinado. | Completada |
-| Field Management | Farms | GET | `/api/v1/farms` | Query parameters: filtros por propietario por especificar. | Retorna las fincas registradas según el propietario. | Completada |
-| Field Management | Farms | POST | `/api/v1/farms` | JSON body: por especificar | Registra una nueva finca. | Completada |
-| Field Management | Farms | GET | `/api/v1/farms/{farmId}` | Path: `farmId` | Retorna los detalles de una finca específica. | Completada |
-| Field Management | Farms | PUT | `/api/v1/farms/{farmId}` | Path: `farmId`; JSON body: por especificar | Actualiza la información de una finca. | Completada |
-| Field Management | Farms | POST | `/api/v1/farms/{farmId}/supervisors` | Path: `farmId`; JSON body: por especificar | Asigna un supervisor a una finca. | Completada |
-| Field Management | Farms | DELETE | `/api/v1/farms/{farmId}/supervisors/{supervisorId}` | Path: `farmId`, `supervisorId` | Elimina la asignación de un supervisor a una finca. | Completada |
-| Field Management | Parcels | GET | `/api/v1/parcels` | Query parameters: filtros de búsqueda por especificar. | Retorna las parcelas que coinciden con los criterios de búsqueda. | Completada |
-| Field Management | Parcels | POST | `/api/v1/parcels` | JSON body: por especificar | Registra una nueva parcela. | Completada |
-| Field Management | Parcels | GET | `/api/v1/parcels/{parcelId}` | Path: `parcelId` | Retorna los detalles de una parcela específica. | Completada |
-| Field Management | Parcels | PUT | `/api/v1/parcels/{parcelId}` | Path: `parcelId`; JSON body: por especificar | Actualiza la información de una parcela. | Completada |
-| Field Management | Parcels | PUT | `/api/v1/parcels/{parcelId}/geometry` | Path: `parcelId`; JSON body: nueva geometría por especificar. | Redefine los límites geográficos de una parcela. | Completada |
-| Field Management | Parcels | PATCH | `/api/v1/parcels/{parcelId}/status` | Path: `parcelId`; JSON body: nuevo estado por especificar. | Modifica el estado de una parcela. | Completada |
-| Field Management | Crops | GET | `/api/v1/crops` | Query parameters: por especificar. | Retorna la lista de cultivos disponibles en el catálogo. | Completada |
-| Field Management | Crops | GET | `/api/v1/crops/{cropId}` | Path: `cropId` | Retorna los detalles de un cultivo específico. | Completada |
-| Field Management | Fumigation Areas | GET | `/api/v1/fumigation-areas` | Query parameters: filtros por parcela por especificar. | Retorna las áreas de fumigación asociadas a una parcela. | Completada |
-| Field Management | Fumigation Areas | POST | `/api/v1/fumigation-areas` | JSON body: por especificar | Registra y delimita una nueva área de fumigación. | Completada |
-| Field Management | Fumigation Areas | GET | `/api/v1/fumigation-areas/{fumigationAreaId}` | Path: `fumigationAreaId` | Retorna los detalles de un área de fumigación específica. | Completada |
-| Field Management | Fumigation Areas | PUT | `/api/v1/fumigation-areas/{fumigationAreaId}` | Path: `fumigationAreaId`; JSON body: nueva delimitación por especificar. | Actualiza la delimitación geográfica de un área de fumigación. | Completada |
+| Endpoint | Verbo | Sintaxis de llamada | Parámetros | Respuesta | Documentación |
+|---|---|---|---|---|---|
+| Farms | POST | `POST /api/v1/farms` | Body: `ownerId`, `name`, `location`, `department`, `image` (opcional) | `201` con la finca creada. | [Farms](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Farms) |
+| Farms | GET | `GET /api/v1/farms?ownerId={ownerId}&page=0&size=10&sort=name,asc` | Query: `ownerId` (obligatorio), `page`, `size`, `sort` | `200` con la lista de fincas del propietario. | [Farms](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Farms) |
+| Farms | GET | `GET /api/v1/farms/{farmId}` | Path: `farmId` | `200` con la finca; `404` si no existe. | [Farms](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Farms) |
+| Farms | PUT | `PUT /api/v1/farms/{farmId}` | Path: `farmId`. Body: `name`, `location`, `department`, `image` | `200` con la finca actualizada. | [Farms](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Farms) |
+| Farms | POST | `POST /api/v1/farms/{farmId}/supervisors` | Path: `farmId`. Body: `supervisorId` | `201` con la finca y su lista de supervisores. | [Farms](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Farms) |
+| Farms | DELETE | `DELETE /api/v1/farms/{farmId}/supervisors/{supervisorId}` | Path: `farmId`, `supervisorId` | `200` con la finca sin el supervisor retirado. | [Farms](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Farms) |
+| Parcels | POST | `POST /api/v1/parcels` | Body: `farmId`, `name`, `geometry` (GeoJSON Polygon), `cropId`, `phenologicalStage`, `image` (opcional) | `201` con la parcela y su área calculada en hectáreas. | [Parcels](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Parcels) |
+| Parcels | GET | `GET /api/v1/parcels?farmId={farmId}&status=ACTIVE&cropId={cropId}&minAreaHectares=1&maxAreaHectares=20` | Query (opcionales): `farmId`, `status` (`ACTIVE`, `INACTIVE`), `cropId`, `minAreaHectares`, `maxAreaHectares`, `page`, `size`, `sort` | `200` con las parcelas que cumplen los filtros. | [Parcels](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Parcels) |
+| Parcels | GET | `GET /api/v1/parcels/{parcelId}` | Path: `parcelId` | `200` con la parcela; `404` si no existe. | [Parcels](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Parcels) |
+| Parcels | PUT | `PUT /api/v1/parcels/{parcelId}` | Path: `parcelId`. Body: `name`, `cropId`, `phenologicalStage`, `image` | `200` con la parcela actualizada. | [Parcels](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Parcels) |
+| Parcels | PUT | `PUT /api/v1/parcels/{parcelId}/geometry` | Path: `parcelId`. Body: polígono GeoJSON (`type`, `coordinates`) | `200` con la nueva geometría y el área recalculada. | [Parcels](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Parcels) |
+| Parcels | PATCH | `PATCH /api/v1/parcels/{parcelId}/status` | Path: `parcelId`. Body: `status` (`ACTIVE`, `INACTIVE`) | `200` con la parcela y su nuevo estado. | [Parcels](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Parcels) |
+| Crops | GET | `GET /api/v1/crops?page=0&size=10&sort=name,asc` | Query (opcionales): `page`, `size`, `sort` | `200` con el catálogo de cultivos (`id`, `name`, `variety`). | [Crops](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Crops) |
+| Crops | GET | `GET /api/v1/crops/{cropId}` | Path: `cropId` | `200` con el cultivo; `404` si no existe. | [Crops](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Crops) |
+| Fumigation Areas | POST | `POST /api/v1/fumigation-areas` | Body: `parcelId`, `geometry` (GeoJSON Polygon) | `201` con el área delimitada y su superficie en hectáreas. | [Fumigation Areas](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Fumigation%20Areas) |
+| Fumigation Areas | GET | `GET /api/v1/fumigation-areas?parcelId={parcelId}` | Query: `parcelId` (obligatorio), `page`, `size`, `sort` | `200` con las áreas de fumigación de la parcela. | [Fumigation Areas](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Fumigation%20Areas) |
+| Fumigation Areas | GET | `GET /api/v1/fumigation-areas/{fumigationAreaId}` | Path: `fumigationAreaId` | `200` con el área; `404` si no existe. | [Fumigation Areas](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Fumigation%20Areas) |
+| Fumigation Areas | PUT | `PUT /api/v1/fumigation-areas/{fumigationAreaId}` | Path: `fumigationAreaId`. Body: polígono GeoJSON (`type`, `coordinates`) | `200` con la nueva delimitación y el área recalculada. | [Fumigation Areas](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Fumigation%20Areas) |
 
-**Nota:** La tabla es una estructura inicial de documentación. Las rutas, parámetros, métodos HTTP y respuestas deberán contrastarse con los controladores y DTOs realmente implementados en el backend. No se considerará documentada una operación únicamente porque esté definida como cliente API en el frontend.
+**Ejemplo de respuesta – `GET /api/v1/parcels/{parcelId}`**
 
+```json
+{
+  "id": 1,
+  "farmId": 1,
+  "cropId": 2,
+  "name": "Parcela Sur",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[-76.3891, -13.0785], [-76.3862, -13.0785], [-76.3862, -13.0812], [-76.3891, -13.0812], [-76.3891, -13.0785]]]
+  },
+  "areaHectares": 12.5,
+  "status": "ACTIVE",
+  "phenologicalStage": "VEGETATIVE",
+  "image": null
+}
+```
 
-##### Landing Page  Evidence
+La respuesta devuelve la parcela con su geometría en formato GeoJSON y el área en hectáreas calculada por el backend a partir del polígono, de modo que la Web Application no necesita calcularla.
 
-![Nueva version de landing page](assets/chapter5/new-landing1.png)
+##### Inventory & Resource Management
 
-![Nueva version de landing page](assets/chapter5/new-landing2.png)
+| Endpoint | Verbo | Sintaxis de llamada | Parámetros | Respuesta | Documentación |
+|---|---|---|---|---|---|
+| Drones | GET | `GET /api/v1/drones` | Sin parámetros | `200` con la flota de drones ordenada por `id`. | [Drones](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Drones) |
+| Drones | GET | `GET /api/v1/drones/{droneId}` | Path: `droneId` | `200` con el dron; `404` si no existe. | [Drones](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Drones) |
+| Drones | POST | `POST /api/v1/drones` | Body: `serialNumber`, `model`, `batteryLevel`, `nozzleId`, `tankCapacityLiters`, `lastMaintenanceDate` (opcional), `nextMaintenanceDate` (opcional), `urlimg` | `201` con el dron registrado y estado inicial `AVAILABLE`. | [Drones](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Drones) |
+| Nozzles | GET | `GET /api/v1/nozzles` | Sin parámetros | `200` con los tipos de boquilla y su stock, ordenados por `id`. | [Nozzles](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Nozzles) |
+| Nozzles | GET | `GET /api/v1/nozzles/{nozzleId}` | Path: `nozzleId` | `200` con el tipo de boquilla; `404` si no existe. | [Nozzles](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Nozzles) |
+| Nozzles | POST | `POST /api/v1/nozzles` | Body: `type`, `diameterMm`, `goodUnits`, `wornUnits`, `damagedUnits` | `201` con el tipo de boquilla y su stock inicial. | [Nozzles](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Nozzles) |
 
-![Nueva version de landing page](assets/chapter5/new-landing3.png)
+**Ejemplo de respuesta – `GET /api/v1/drones/{droneId}`**
 
-![Nueva version de landing page](assets/chapter5/new-landing4.png)
+```json
+{
+  "id": 1,
+  "serialNumber": "DRN-2026-0101",
+  "model": "RTX-6030",
+  "batteryLevel": 80,
+  "status": "AVAILABLE",
+  "nozzleId": 1,
+  "tankCapacityLiters": 35.0,
+  "lastMaintenanceDate": "2026-11-04",
+  "nextMaintenanceDate": "2027-01-05",
+  "urlimg": "https://.../drone.png",
+  "flightHours": 0
+}
+```
 
-##### Web Application Evidence
+La respuesta devuelve los datos técnicos del dron, su estado operativo (`AVAILABLE`, `IN_FLIGHT`, `MAINTENANCE` u `OUT_OF_SERVICE`), las horas de vuelo acumuladas y las fechas de mantenimiento, información que la Web Application usa para mostrar la flota y decidir qué drones pueden asignarse a una misión.
 
-![Nueva version de frontend](assets/chapter5/new-frontend1.png)
+##### Analytics & Reporting
 
-![Nueva version de frontend](assets/chapter5/new-frontend2.png)
+| Endpoint | Verbo | Sintaxis de llamada | Parámetros | Respuesta | Documentación |
+|---|---|---|---|---|---|
+| Mission Reports | POST | `POST /api/v1/mission-reports` | Body: `missionId`, `parcelId`, `type` (`MISSION_SUMMARY`, `PHYTOSANITARY`), `treatedArea`, `appliedVolume`, `observations` | `201` con el reporte generado. | [Mission reports](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20reports) |
+| Mission Reports | GET | `GET /api/v1/mission-reports?missionId={id}&parcelIds=1,2&type=PHYTOSANITARY&from=2026-11-01&to=2026-11-30` | Query (opcionales): `missionId`, `parcelIds`, `type`, `from`, `to` (fechas ISO) | `200` con los reportes que cumplen los filtros. | [Mission reports](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20reports) |
+| Mission Reports | GET | `GET /api/v1/mission-reports/{reportId}` | Path: `reportId` | `200` con el reporte y sus métricas; `404` si no existe. | [Mission reports](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20reports) |
+| Mission Reports | POST | `POST /api/v1/mission-reports/{reportId}/metrics` | Path: `reportId`. Body: `name`, `value`, `unit` | `201` con el reporte y la métrica agregada. | [Mission reports](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20reports) |
+| Mission Reports | DELETE | `DELETE /api/v1/mission-reports/{reportId}` | Path: `reportId` | Confirmación de la eliminación; `404` si no existe. | [Mission reports](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20reports) |
+| Mission Histories | POST | `POST /api/v1/mission-histories` | Body: `missionId`, `parcelId`, `finalStatus` (`COMPLETED`, `CANCELLED`), `completedAt` | `201` con el registro del historial. | [Mission histories](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20histories) |
+| Mission Histories | GET | `GET /api/v1/mission-histories?parcelIds=1,2&status=COMPLETED&from=2026-11-01&to=2026-11-30` | Query (opcionales): `missionId`, `parcelIds`, `status`, `from`, `to` | `200` con el historial que cumple los filtros. | [Mission histories](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20histories) |
+| Mission Histories | GET | `GET /api/v1/mission-histories/{historyId}` | Path: `historyId` | `200` con el registro; `404` si no existe. | [Mission histories](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Mission%20histories) |
+| Performance Indicators | GET | `GET /api/v1/performance-indicators?period=2026-11` | Query (opcional): `period` | `200` con los indicadores del periodo. | [Performance indicators](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Performance%20indicators) |
+| Performance Indicators | POST | `POST /api/v1/performance-indicators/calculations` | Body: `period` | `201` con los indicadores calculados para el periodo. | [Performance indicators](https://os-agridronbackend.onrender.com/swagger-ui/index.html#/Performance%20indicators) |
 
-![Nueva version de frontend](assets/chapter5/new-frontend3.png)
+**Ejemplo de respuesta – `GET /api/v1/mission-reports/{reportId}`**
 
-![Nueva version de frontend](assets/chapter5/new-frontend4.png)
+```json
+{
+  "id": 1,
+  "missionId": 1,
+  "parcelId": 1,
+  "type": "PHYTOSANITARY",
+  "treatedArea": 12.5,
+  "appliedVolume": 38.0,
+  "observations": "Aplicación completada sin incidencias.",
+  "generatedAt": "2026-11-11T15:20:00Z",
+  "metrics": [
+    { "name": "Tiempo de vuelo", "value": 42, "unit": "min" }
+  ]
+}
+```
 
-![Nueva version de frontend](assets/chapter5/new-frontend5.png)
+La respuesta devuelve el reporte técnico de la misión con el área tratada, el volumen aplicado, las observaciones y sus métricas operativas. Con estos datos la Web Application construye la vista de reportes y el PDF que recibe el agricultor.
 
-![Nueva version de frontend](assets/chapter5/new-frontend6.png)
+##### Shared
 
-![Nueva version de frontend](assets/chapter5/new-frontend7.png)
+| Endpoint | Verbo | Sintaxis de llamada | Parámetros | Respuesta | Documentación |
+|---|---|---|---|---|---|
+| Status | GET | `GET /api/v1/status` | Sin parámetros | `200` con un mensaje que confirma que la API está en ejecución, por ejemplo `{ "message": "AgriDron API is running" }`. | [Swagger UI](https://os-agridronbackend.onrender.com/swagger-ui/index.html) |
 
-![Nueva version de frontend](assets/chapter5/new-frontend8.png)
-
-##### API Documentation Evidence
-
-La documentación interactiva permitirá ejecutar solicitudes de prueba sobre los endpoints disponibles y observar sus respuestas.
+##### Evidencia de interacción con la documentación
 
 **Documentación general de los servicios**
 
 ![Documentación general de Swagger](assets/chapter5/sprint_3_swagger_overview.png)
 
-*Figura: Vista general de la documentación OpenAPI/Swagger de los servicios RESTful de AgriDron Solutions.*
-
+*Figura: Vista general de Swagger UI con los endpoints de AgriDron Solutions agrupados por recurso.*
 
 **Ejecución de solicitudes HTTP**
 
 ![Ejecución de solicitudes HTTP](assets/chapter5/sprint_3_swagger_requests.png)
 
-*Figura: Ejecución de solicitudes de prueba mediante Swagger UI, mostrando los parámetros enviados y las respuestas obtenidas.*
+*Figura: Ejecución de una solicitud de prueba con datos de muestra desde Swagger UI, indicando los parámetros enviados.*
 
 **Ejemplo de respuesta**
 
 ![Ejemplo de respuesta de endpoint](assets/chapter5/sprint_3_swagger_response.png)
 
-*Figura: Ejemplo de respuesta JSON obtenida al consultar un recurso mediante un endpoint documentado.*
+*Figura: Respuesta JSON y código de estado devueltos por el endpoint, que coinciden con la estructura documentada.*
 
 ##### Documentation Commits
 
@@ -4648,114 +5019,99 @@ y de la documentación de los servicios, incluyendo el identificador del commit,
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
 | Opensource-UPC/Agridron-backend | main | 6c06439 | fix(openapi): use current server and Render URL in Swagger servers | — | 11/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 9ae22ef | fix(field): idempotent image migration (V207) for Render deploy | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 0e7d09b | feat(field): persist optional image for farms and parcels | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 4c61ea0 | Merge branch 'main' of https://github.com/Opensource-UPC/Agridron-backend | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | develop | e01f472 | Merge pull request #9 from Opensource-UPC/develop | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | develop | eb2d16a | added class diagram v0.5 | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | develop | d626fae | Delete docs/upc-pre-202620-1asi0729-7760-AgriDron-report-TB1.pdf | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | main | dca8010 | feat: se modifico el aplication properties | — | 10/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 3e70397 | perf(docker): optimize JVM memory flags for 512MB RAM container | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 4d6def4 | feat(db): auto-repair flyway schema history before migration | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 31e0c52 | merge: postgis extension migration into main | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | develop | 74e9a5e | fix(db): ensure postgis extension exists before creating spatial tables | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 0a6814a | Merge pull request #8 from Opensource-UPC/develop | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | develop | 72333ab | fix(build): remove unnecessary apt-get curl from runtime image | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | main | 2d62b7e | Merge pull request #7 from Opensource-UPC/develop | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/fieldManagement | 05478bd | Merge pull request #6 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 09/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a66f533 | finally 6 endpoints added | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | cf053b5 | inventory from infrastructure advance complete | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 25603e5 | folders adapter,assembler, entites and repositories from folder infrastructure | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | e1ee46c | files test queryservice donre and nozzle added | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3dc03c3 | test command and query services added | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a984ef8 | one more queryservices implements | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9ba9609 | foler internal and DroneCommandServiceImpl added | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 946ec4c | Inventory application and repositories added. | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3718176 | files commands, queries and repositories's dron and nozzle added | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9b4e094 | Second advance to inventory BC | — | 06/11/2026 |
-| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 074a544 | aggregate and valueobject from Nozzle added | — | 05/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | 7baabe6 | docs(analytics): add analytics bounded context to project structure | — | 02/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 6bcd921 | docs(field): document pagination and ordering | — | 01/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/analyticsAndReporting | c3a388b | docs(analytics): register error codes, messages and bounded context notes | — | 31/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 999e895 | docs(field): document the expanded event catalog and parcel safeguard | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | eef7099 | docs(field): document integration events | — | 30/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | b8c5ce7 | docs(field): document the field management API and GeoJSON decision | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | c99d003 | docs(field): document persistence mapping | — | 28/10/2026 |
+| Opensource-UPC/Agridron-backend | shared | 0114008 | feat: Se implementó el BC de Shared y se agregó docs/backend-conventions.md con las pautas del equipo | — | 28/10/2026 |
 
-**Link de repositorio del backend**: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se preparará y publicará la primera versión desplegada de los Web Services de AgriDron Solutions. Para ello, se configurará el entorno de ejecución del backend y los parámetros necesarios para su funcionamiento en el entorno de despliegue.
+Durante el Sprint 3 se publicó la primera versión de los Web Services de AgriDron Solutions en Render, junto con su base de datos PostgreSQL, y se publicaron nuevas versiones del Landing Page y de la Web Application en Firebase Hosting. La Web Application se configuró para consumir los servicios desplegados, reemplazando las direcciones locales y los servicios simulados utilizados durante el desarrollo.
 
-También se actualizará la configuración de la Web Application para que pueda consumir los servicios desplegados, reemplazando progresivamente las direcciones locales y los servicios simulados utilizados durante el desarrollo.
+| Producto | Plataforma | Enlace |
+|---|---|---|
+| Landing Page | Firebase Hosting | [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/) |
+| Web Application | Firebase Hosting | [https://os-agridronfrontend.web.app](https://os-agridronfrontend.web.app) |
+| Web Services | Render | [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html) |
 
-Las evidencias incluirán la URL del backend desplegado, la disponibilidad de sus endpoints, las pruebas de conexión y la versión de la aplicación web integrada.
+##### Despliegue del Landing Page
 
-**Ejecución de landing page**
-En esta imagen podemos observar la incicializacion del proyecto en FireBase
+Se compiló la nueva versión del Landing Page con el comando `ng build` y se publicó en el proyecto de Firebase existente mediante `firebase deploy`, manteniendo la misma URL.
 
-![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l3.png)
+![Compilacion del Landing Page](assets/chapter5/sprint3/landing-build.png)
 
-En esta imagen podemos observar la ejecucion del comando
+*Figura: Compilación de la versión del Sprint 3 del Landing Page con `ng build`.*
 
-![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l4.png)
+![Despliegue del Landing Page en Firebase Hosting](assets/chapter5/sprint3/landing-firebase-deploy.png)
 
-En esta imagen podemos observar el despliegue del landingPage de Agridron
+*Figura: Ejecución de `firebase deploy` y confirmación del despliegue del Landing Page en Firebase Hosting.*
 
+![Historial de versiones del Landing Page en Firebase](assets/chapter5/sprint3/landing-firebase-console.png)
 
-![Evidencia del  despliegue del LandingPage](assets/chapter5/sprint1/l5.png)
+*Figura: Historial de versiones de Firebase Hosting con la publicación del Sprint 3 del Landing Page.*
 
-**Ejecucion de frontend**
+##### Despliegue de la Web Application
 
-![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d5.png)
+Se actualizaron los environments de la Web Application con la URL de los Web Services desplegados en Render, se compiló la aplicación y se publicó en Firebase Hosting, con la regla de reescritura necesaria para las rutas de la SPA.
 
-En esta imagen podemos observar la ejecucion del comando
+![Configuración del environment de la Web Application](assets/chapter5/sprint3/frontend-environment.png)
 
-![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d6.png)
+*Figura: Environment de producción de la Web Application apuntando a los Web Services desplegados en Render.*
 
-En esta imagen podemos observar el comando de despliegue
+![Despliegue de la Web Application en Firebase Hosting](assets/chapter5/sprint3/frontend-firebase-deploy.png)
 
-![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d7.png)
+*Figura: Ejecución de `firebase deploy` y confirmación del despliegue de la Web Application en Firebase Hosting.*
 
-En esta imagen podemos observar la ejecucion del comando
+![Historial de versiones de la Web Application en Firebase](assets/chapter5/sprint3/frontend-firebase-console.png)
 
-![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d8.png)
+*Figura: Historial de versiones de Firebase Hosting con la publicación del Sprint 3 de la Web Application.*
 
-En esta imagen podemos observar la webapp desplegada en FireBase
+##### Despliegue de los Web Services
 
+Los Web Services se desplegaron en Render a partir del repositorio del backend: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend). Primero se creó el proyecto y la base de datos PostgreSQL; luego se creó el web service, se vinculó el repositorio, se configuraron sus parámetros de ejecución y se realizó el despliegue.
 
-**Ejecucion de backend**
+![Creación del proyecto en Render](assets/chapter5/sprint3/agridronProject.png)
 
+*Figura: Creación del proyecto AgriDron en Render.*
 
-**Link del github del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+![Creación de la base de datos en Render](assets/chapter5/sprint3/creacion_agridronDB.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
+*Figura: Creación de la base de datos PostgreSQL de AgriDron en Render.*
 
-Figura: Evidencia de la creacion del proyecto en Render
+![Creación del web service en Render](assets/chapter5/sprint3/creamos_webService.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creacion_agridronDB.png)
+*Figura: Creación de un nuevo web service para los Web Services de AgriDron.*
 
-Figura: Evidencia de creacion de Agridron database
+![Vinculación del repositorio al web service](assets/chapter5/sprint3/linkcreate.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/creamos_webService.png)
+*Figura: Vinculación del repositorio de GitHub del backend con el web service.*
 
-Figura: Evidencia de creacion de un nuevo web service
+![Configuración del web service](assets/chapter5/sprint3/configuracionwebservice.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/linkcreate.png)
+*Figura: Configuración del nombre, la región, la rama y el entorno de ejecución del web service.*
 
-Figura: Evidencia de publicación del repositorio git en el nuevo web service
+![Registro del despliegue del backend](assets/chapter5/sprint3/desplegandoBackend.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/configuracionwebservice.png)
+*Figura: Registro de la ejecución del despliegue del backend en Render.*
 
-Figura: Evidencia de configuración del nuevo web service
+![Web service desplegado en Render](assets/chapter5/sprint3/evidenciaDespliegue.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/desplegandoBackend.png)
+*Figura: Web service `os-agridronBackend` desplegado y en ejecución en Render.*
 
-Figura: Evidencia de despliegue del backend
+![Documentación de los Web Services publicada](assets/chapter5/sprint3/backendDeployment.png)
 
-![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/backendDeployment.png)
+*Figura: Documentación OpenAPI de los Web Services disponible en la URL pública de Render.*
 
-
-*Figura: Evidencia del despliegue de la primera versión de los Web Services y su integración con la aplicación.*
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 3, el equipo organizará sus actividades considerando las responsabilidades asignadas a cada Bounded Context. La coordinación se enfocará especialmente en la integración entre Flight Operations, Inventory & Resource Management y Analytics & Reporting, debido a que estos módulos comparten información necesaria para representar el ciclo de una operación de fumigación.
+Durante el Sprint 3, el equipo organizó sus actividades considerando las responsabilidades asignadas a cada Bounded Context. La coordinación se enfocará especialmente en la integración entre Flight Operations, Inventory & Resource Management y Analytics & Reporting, debido a que estos módulos comparten información necesaria para representar el ciclo de una operación de fumigación.
 
 Cada integrante será responsable de desarrollar y documentar los avances de su aspecto asignado, utilizando ramas de funcionalidad y pull requests para integrar los cambios en los repositorios correspondientes. Se mantendrá la coordinación entre los responsables de Flight Operations e Inventory para gestionar adecuadamente los recursos compartidos, evitando duplicidad de endpoints y responsabilidades.
 
@@ -4763,10 +5119,37 @@ Asimismo, se dará seguimiento a las actividades mediante el tablero de trabajo 
 
 La colaboración se evidenciará mediante el historial de commits, pull requests, revisiones de código y registros de contribución de los repositorios.
 
-![Evidencia de colaboración del equipo durante el Sprint 3](assets/chapter5/sprint_3_collaboration.png)
+##### Landing Page
 
-*Figura: Evidencia de la colaboración y contribuciones de los integrantes durante el Sprint 3.*
+**Repositorio:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
 
+![Contributors del Landing Page](assets/chapter5/sprint3/collaborationLanding-contributors.png)
+
+*Descripción: Contribuciones de los integrantes al repositorio del Landing Page durante el Sprint 3 (Insights → Contributors).*
+
+##### Web Application
+
+**Repositorio:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+
+![Contributors de la Web Application](assets/chapter5/sprint3/collaborationfrontend-contributors.png)
+
+*Descripción: Contribuciones de los integrantes al repositorio de la Web Application durante el Sprint 3 (Insights → Contributors).*
+
+![Resumen de actividad de la Web Application en Pulse](assets/chapter5/sprint3/InsightPulse-Fronted.png)
+
+*Descripción: Resumen de Pulse (último mes) de la Web Application, con 5 autores, 79 commits en todas las ramas y 8 pull requests integrados.*
+
+##### Web Services
+
+**Repositorio:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+![Contributors de los Web Services](assets/chapter5/sprint3/collaborationbackend-contributors.png)
+
+*Descripción: Contribuciones de los integrantes al repositorio de los Web Services durante el Sprint 3 (Insights → Contributors).*
+
+![Resumen de actividad de los Web Services en Pulse](assets/chapter5/sprint3/InsightPulse-Backend.png)
+
+*Descripción: Resumen de Pulse (último mes) del repositorio de los Web Services, que contabiliza los commits de los autores en todas las ramas.*
 
 ## 5.3. Validation Interviews
 
@@ -4867,244 +5250,514 @@ Las actividades se ajustarán a las funcionalidades realmente disponibles en la 
 
 ### 5.3.2. Interview Registry
 
-En esta sección se documentarán individualmente las entrevistas realizadas a los participantes de ambos segmentos. Cada registro incluirá los datos del entrevistado, la evidencia de la sesión, un resumen de las actividades y los principales hallazgos.
+En esta sección se documentarán las entrevistas realizadas a los participantes de ambos segmentos. Cada registro incluirá los datos del entrevistado, la evidencia de la sesión, un resumen de las actividades y los principales hallazgos.
 
 ### Segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas
 
-### Interview 1 – [Nombre del participante]
-
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Nombre completo | Ana Camila Bio Farías |
+| Edad | 25 años |
+| Distrito | Valleca, distrito de Pachacutec |
+| Ocupación | Administradora de aproximadamente 2 ha de terreno agrícola |
+| Segmento | Segmento 1 – Pequeños y Medianos Agricultores (PyMAs) |
+| Fecha de entrevista | 11/11/2026 |
+| Duración | 08 minutos y 42 segundos |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=GX4ho3-HjX4sRGYN&t=4) |
+| Marca de tiempo de la entrevista | 00:00:04 – 00:08:42 |
+| Captura de la entrevista | ![Entrevista de validación – Ana Camila Bio Farías](assets/chapter5/sprint3/validation-interviews/ValidateAnaCamila.png) |
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+El 11 de noviembre de 2026, Alexander Vásquez entrevistó de forma virtual a Ana Camila Bio Farías, quien previamente revisó el Landing Page y la aplicación web de AgriDron. Sobre el Landing Page, la participante indicó que la información de los servicios está bien resumida y es fácil de encontrar, y consideró la nueva versión una mejora total respecto a la primera, destacando la sección de precios, las capturas de la plataforma (como el acceso al dashboard) y la opción de solicitar una demostración. En la aplicación web, consultó sus fincas y creó una parcela delimitándola con clics sobre el mapa; señaló como el beneficio más interesante que el área se calcula automáticamente, sin tener que buscar mapas externos. Luego revisó una misión de fumigación sobre un cultivo de maíz y comprendió con facilidad su información: dron asignado, fecha y hora, altura, velocidad, batería, área fumigada, tiempo transcurrido y última posición en coordenadas, datos que le permitirían saber cuándo recargar el dron. También valoró la información meteorológica de la página de inicio (temperatura, humedad, viento y precipitación) para decidir cuándo y a qué altura fumigar, y revisó los reportes, donde destacó la exportación a PDF y el historial de uso de los drones para planificar a futuro. Finalmente, indicó que no encontró dificultades durante la navegación porque la plataforma le resultó intuitiva. En relación con su entrevista de needfinding, la delimitación de la parcela con puntos sobre el mapa y el cálculo visible del área responden a las necesidades que había planteado.
 
 **Principales observaciones**
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
-
-- ### Interview 2 – [Nombre del participante]
-
-**Datos del participante**
-
-| Campo | Información |
-|---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
-
-**Evidencias de la entrevista**
-
-| Evidencia | Enlace / Referencia |
-|---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
-
-**Resumen de la entrevista**
-
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
-
-**Principales observaciones**
-
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+- **Aspectos positivos:** Información del Landing Page clara y resumida; sección de precios, capturas de la plataforma y solicitud de demostración; delimitación de parcelas con clics sobre el mapa y cálculo automático del área; registro de fincas y parcelas rápido e intuitivo; detalle completo de las misiones (dron, batería, velocidad, área fumigada, tiempo y posición); utilidad de la información meteorológica para planificar fumigaciones; reportes exportables a PDF e historial de uso de los drones.
+- **Dificultades identificadas:** La participante no reportó dificultades de navegación ni de comprensión. Durante la sesión necesitó una indicación del entrevistador para ubicar la opción de visualizar el detalle de los reportes (ícono del ojo).
+- **Sugerencias de mejora:** La participante no propuso cambios ni funcionalidades adicionales.
+- **Conclusión individual:** La validación fue muy positiva. La participante comprendió la propuesta de valor, completó las actividades de forma autónoma y percibió la delimitación de parcelas en el mapa, el seguimiento de misiones, el clima y los reportes como funcionalidades útiles para organizar sus actividades agrícolas.
 
 ### Segmento 2: Pequeños y Medianos Agricultores / Propietarios de Fincas
 
+- ### Interview 2 - Valeria Mendoza
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | Valeria Sofía Mendoza Ríos |
+| Edad | 25 años |
+| Distrito | Valle de Cañete (Lima Provincias) |
+| Ocupación | Estudiante de 8.° ciclo de Ingeniería Agrícola, técnica con experiencia en aplicación agrícola y responsable de operaciones en campo |
+| Segmento | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
+| Fecha de entrevista | 11/11/2026 |
+| Duración | 19 minutos y 21 segundos |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=bnLh0LHz1W7iz3fa&t=537) |
+| Marca de tiempo de la entrevista | 00:08:56 – 00:28:17 |
+| Captura de la entrevista | ![Entrevista de validación – Valeria Sofía Mendoza Ríos](assets/chapter5/sprint3/validation-interviews/ValidatValeriaMendoza.png) |
+
+**Resumen de la entrevista**
+
+El 11 de noviembre de 2026, Edwin Nicho realizó la entrevista de validación con Valeria Sofía Mendoza Ríos, operadora de drones agrícolas en el valle de Cañete. La participante recorrió el Landing Page (funcionalidades, capturas de la plataforma, segmentos, video, precios, preguntas frecuentes y equipo, además del cambio de idioma) y explicó con sus propias palabras que AgriDron es una plataforma para gestionar servicios de fumigación con drones, administrar drones y agroquímicos, programar misiones sobre parcelas, revisar el clima y consultar reportes. Indicó que la propuesta de valor responde a su principal problema, la coordinación y el tiempo perdido en campo, ya que contar con las parcelas delimitadas en un mapa le ahorraría entre 40 minutos y una hora de reconocimiento. En la aplicación web revisó el clima de la página de inicio; creó una finca, una parcela delimitada en el mapa con cálculo automático del área y un cultivo; creó una misión, la inició, la finalizó y exportó su reporte a PDF; revisó los filtros de reportes, el uso de insumos, la comparación de parcelas y los indicadores; registró un dron, simuló una falla y registró su reparación en el historial de mantenimiento; y registró un nuevo agroquímico. Encontró rápidamente la gestión de drones, diferenció sin problemas los estados de las misiones y consideró muy útil la información meteorológica como respaldo técnico para suspender trabajos, aunque le tomó más tiempo ubicar los reportes. Finalmente, indicó que recomendaría la plataforma a otros operadores que trabajan solos o en equipos pequeños, porque cumplió las expectativas que expresó en su entrevista de needfinding.
+
+**Principales observaciones**
+
+- **Aspectos positivos:** Propuesta de valor comprensible y alineada con las necesidades del operador; sección «Para quién», que separa agricultores y operadores; delimitación de parcelas en el mapa, que evitaría el reconocimiento previo en campo; acceso rápido a la gestión de drones y registro de fallas y mantenimientos; estados de las misiones fáciles de diferenciar; información meteorológica útil para justificar suspensiones por viento o temperatura; reporte técnico en PDF simple y con la información necesaria para el cliente.
+- **Dificultades identificadas:** Ubicar los reportes le tomó más tiempo que las demás secciones. Durante el registro de drones necesitó indicaciones sobre el formato del número de serie y sobre la regla de que la fecha del próximo mantenimiento no puede ser anterior a la del último.
+- **Sugerencias de mejora:** Mostrar en el Landing Page un ejemplo del reporte que recibe el agricultor; incluir en la ficha de cada dron las horas de vuelo acumuladas y la fecha del próximo mantenimiento (información que hoy lleva en Excel); ver en tiempo real la batería, la posición y el líquido restante del dron, también desde el celular del agricultor; e incorporar una bitácora rápida para registrar las hectáreas reales tratadas, el volumen aplicado y las observaciones al terminar cada servicio.
+- **Conclusión individual:** La validación fue positiva. La participante comprendió la propuesta de valor, completó las actividades de los módulos de su segmento y consideró que la plataforma facilitaría la coordinación y el seguimiento de sus operaciones. Sus sugerencias apuntan a reforzar la trazabilidad en campo (monitoreo en tiempo real y bitácora de ejecución) y la visibilidad del reporte técnico para el cliente.
+
+
 ### Interview 3 – Carlos Mendoza
 
-**Información del participante**
-
-| Campo              | Información                                                                          |
-| ------------------ | ------------------------------------------------------------------------------------ |
-| Participante       | Carlos Mendoza                                                                       |
-| Edad               | 38 años                                                                              |
-| Ocupación          | Operador técnico de servicios de fumigación agrícola mediante drones                 |
-| Experiencia        | Aproximadamente 6 años                                                               |
-| Segmento objetivo  | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
-| Tipo de entrevista | Entrevista de validación de la solución                                              |
-| Solución evaluada  | AgriDron Solutions – Landing Page y Aplicación Web                                   |
-
-
-
-**Objetivo de la entrevista**
-
-Evaluar la primera versión de AgriDron Solutions con un operador de servicios de fumigación agrícola mediante drones, con la finalidad de identificar si la solución propuesta responde a las necesidades operativas previamente identificadas. La evaluación comprendió la Landing Page y los principales módulos de la aplicación: gestión de parcelas, gestión de drones, gestión de agroquímicos, seguimiento de misiones e información meteorológica.
-
-**Resumen de la entrevista**
-
-Durante la entrevista, Carlos Mendoza evaluó la Landing Page y las principales funcionalidades de AgriDron Solutions. Inicialmente, identificó que la plataforma permite organizar los servicios de fumigación, administrar información de terrenos y realizar seguimiento de las operaciones. Sin embargo, sugirió que la página de presentación debería explicar con mayor detalle cómo se registran los servicios y cómo se puede consultar posteriormente su información.
-
-Respecto a la gestión de parcelas, consideró que las opciones disponibles son sencillas y fáciles de encontrar. Destacó la importancia de mantener organizada la información de los terrenos antes de realizar un servicio de fumigación.
-
-En cuanto a la gestión de drones, consideró útiles los datos relacionados con las baterías, el mantenimiento y el estado operativo de los equipos. Asimismo, encontró clara la presentación de la información sobre agroquímicos, especialmente las cantidades disponibles de los productos. Sin embargo, mencionó que la gestión de agroquímicos debería permitir actualizar las cantidades disponibles de cada producto, facilitando el control del inventario y manteniendo la información actualizada.
-
-Al evaluar la gestión de misiones, destacó la posibilidad de consultar el progreso y el estado de cada operación, además del registro de las interrupciones ocasionadas por condiciones climáticas o problemas con los equipos, incluyendo la cantidad de trabajo que realmente se llegó a realizar. Según el participante, esta información permitiría explicar a los agricultores por qué un servicio no pudo cubrir toda el área planificada.
-
-Respecto a la información meteorológica, consideró que las alertas de lluvia y viento son útiles para evaluar las condiciones antes de realizar las actividades de fumigación. Finalmente, identificó la centralización de información como la principal ventaja de la plataforma, ya que actualmente necesita consultar diferentes archivos, conversaciones de WhatsApp, hojas de cálculo y anotaciones personales para organizar sus servicios.
-
-**Principales hallazgos**
-
-| Área evaluada                 | Comentario del participante                                                         | Hallazgo identificado                                                                        |
-| ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Landing Page                  | La presentación debería explicar mejor cómo se registran y consultan los servicios. | Mejorar la explicación de las principales funcionalidades de la plataforma.                  |
-| Gestión de parcelas           | La información está organizada y es fácil de encontrar.                             | El módulo facilita la consulta de información de los terrenos antes de realizar un servicio. |
-| Delimitación de parcelas      | Un mapa interactivo sería más sencillo que utilizar directamente GeoJSON.           | Simplificar la delimitación de parcelas mediante una interfaz visual.                        |
-| Gestión de drones             | La información de baterías y mantenimiento resulta útil.                            | Los datos técnicos permiten organizar mejor las operaciones con drones.                      |
-| Gestión de agroquímicos       | La información y las cantidades disponibles eran claras.                            | Se identificó la necesidad de incorporar una opción para actualizar el stock disponible.     |
-| Gestión de misiones           | Es útil consultar el progreso y el estado de las operaciones.                       | El seguimiento de misiones proporciona mayor visibilidad sobre las actividades realizadas.   |
-| Registro de incidencias       | Se deberían registrar las interrupciones y el trabajo realmente realizado.          | Incorporar el registro de incidencias y de las hectáreas efectivamente tratadas.             |
-| Información meteorológica     | Las alertas de lluvia y viento ayudan a evaluar las condiciones antes de fumigar.   | La información climática contribuye a la planificación de las operaciones.                   |
-| Centralización de información | La plataforma evitaría consultar diferentes archivos y medios de comunicación.      | La centralización representa uno de los principales beneficios percibidos de la solución.    |
-
-**Aspectos positivos identificados**
-
-- La navegación por los módulos de parcelas y misiones resulta sencilla.
-- La información de los drones, especialmente los datos de baterías y mantenimiento, facilita la organización de las operaciones.
-- La presentación de los agroquímicos permite consultar claramente las cantidades disponibles.
-- El seguimiento de misiones permite conocer el progreso y estado de cada operación.
-- Las alertas meteorológicas proporcionan información relevante antes de realizar los servicios de fumigación.
-- La centralización de información representa una ventaja frente al uso de diferentes archivos, hojas de cálculo y conversaciones de WhatsApp.
-
-**Oportunidades de mejora identificadas**
-
-- Mejorar la explicación de las funcionalidades y el registro de servicios en la Landing Page.
-- Incorporar una opción para actualizar el stock disponible de los agroquímicos usados.
-
-**Conclusión de la entrevista**
-
-La entrevista permitió identificar que AgriDron Solutions responde favorablemente a varias de las necesidades previamente identificadas en el segmento de operadores técnicos, principalmente en la organización de parcelas, gestión de drones, seguimiento de misiones y centralización de información.
-
-El participante manifestó una percepción positiva de la solución y expresó su disposición a utilizarla, especialmente por la posibilidad de mantener organizada la información de sus clientes, equipos y trabajos realizados. Sin embargo, también identificó oportunidades de mejora relacionadas con la delimitación visual de parcelas y el registro detallado de los servicios e incidencias.
-
-Los comentarios recopilados permiten orientar futuras mejoras hacia una plataforma que no solo facilite la planificación de las operaciones, sino que también permita documentar su ejecución, registrar las incidencias y mantener un historial completo de los trabajos realizados.
-
-
-
-### Interview 4 – [Nombre del participante]
-
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Nombre completo | Carlos Mendoza |
+| Edad | 42 años |
+| Distrito | ---- |
+| Ocupación | Operador técnico y proveedor de servicios de fumigación con drones (aproximadamente 10 años de experiencia) |
+| Segmento | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
+| Fecha de entrevista | 09/11/2026 |
+| Duración | 11 minutos y 20 segundos) |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=QGI_634cYb7kXAlI&t=1700)  |
+| Marca de tiempo de la entrevista |  00:28:20 – 00:39:42 |
+| Captura de la entrevista | ![Entrevista de validación – Carlos Mendoza](assets/chapter5/sprint3/validation-interviews/ValidateCarlosMendoza.png)  |
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+Carlos Mendoza evaluó la primera versión del Landing Page y los principales módulos de la aplicación web: gestión de parcelas, drones y agroquímicos, seguimiento de misiones e información meteorológica. Identificó que la plataforma permite organizar los servicios de fumigación, administrar la información de los terrenos y dar seguimiento a las operaciones, aunque sugirió que el Landing Page explique con mayor detalle cómo se registran los servicios y cómo se consulta después su información. Consideró que las opciones de gestión de parcelas son sencillas y fáciles de encontrar, y destacó la importancia de tener organizada la información de los terrenos antes de un servicio; para la delimitación, indicó que un mapa interactivo sería más sencillo que ingresar directamente un GeoJSON. En la gestión de drones valoró los datos de baterías, mantenimiento y estado operativo, y en agroquímicos encontró claras las cantidades disponibles, aunque señaló la necesidad de poder actualizar el stock de cada producto. En misiones destacó la posibilidad de consultar el progreso y el estado de cada operación, y propuso registrar las interrupciones causadas por el clima o por fallas de los equipos junto con el trabajo realmente realizado, para poder explicar a los agricultores por qué un servicio no cubrió toda el área planificada. Consideró útiles las alertas de lluvia y viento antes de fumigar e identificó la centralización de la información como la principal ventaja de la plataforma, ya que actualmente consulta archivos, conversaciones de WhatsApp, hojas de cálculo y anotaciones personales para organizar sus servicios.
 
 **Principales observaciones**
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+- **Aspectos positivos:** Navegación sencilla en los módulos de parcelas y misiones; información de baterías, mantenimiento y estado de los drones útil para organizar las operaciones; cantidades disponibles de agroquímicos presentadas con claridad; seguimiento del progreso y estado de cada misión; alertas meteorológicas relevantes antes de cada servicio; centralización de la información frente al uso de archivos, hojas de cálculo y WhatsApp.
+- **Dificultades identificadas:** El Landing Page no explicaba con suficiente detalle cómo se registran y consultan los servicios, y la delimitación de parcelas mediante GeoJSON le resultó poco práctica.
+- **Sugerencias de mejora:** Mejorar la explicación de las funcionalidades en el Landing Page; delimitar las parcelas mediante un mapa interactivo; permitir actualizar el stock de los agroquímicos; registrar las incidencias de cada misión y las hectáreas efectivamente tratadas.
+- **Conclusión individual:** La solución responde favorablemente a las necesidades del segmento en la organización de parcelas, la gestión de drones, el seguimiento de misiones y la centralización de la información. El participante expresó su disposición a utilizarla, y sus sugerencias apuntan a documentar mejor la ejecución de los servicios y sus incidencias.
 
-### Interview 5 – [Nombre del participante]
+##### Interview 2 – Santiago Vargas
 
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Nombre completo | Santiago Enrique Vargas Alarcón |
+| Edad | 20 años |
+| Distrito | Valle de Huaral |
+| Ocupación | Técnico de apoyo en un fundo agrícola y apoyo en la gestión de un lote de aproximadamente 15 ha |
+| Segmento | Segmento 1 – Pequeños y Medianos Agricultores (PyMAs) |
+| Fecha de entrevista | 11/11/2026 |
+| Duración | 08 minutos y 15 segundos |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=jtoL6VIvdI5Bxc-1&t=2386) |
+| Marca de tiempo de la entrevista | 00:39:46 – 00:48:15 |
+| Captura de la entrevista | ![Entrevista de validación – Santiago Enrique Vargas Alarcón](assets/chapter5/sprint3/validation-interviews/ValidateSantiagoVargas.png) |
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+El 11 de noviembre de 2026, Gabriel Ramírez y Santiago Enrique Vargas Alarcón realizaron una sesión de revisión y entrevista para evaluar el despliegue y la usabilidad de AgriDron. Durante la sesión recorrieron el flujo integral de la plataforma: la creación de la cuenta, el registro de fincas, parcelas y cultivos, la asignación de drones y agroquímicos, el monitoreo de misiones y la generación de reportes. Respecto al Landing Page, el participante percibió una interfaz intuitiva y concisa que comunica el valor del servicio y facilita el registro rápido de usuarios. En la aplicación web, destacó el control específico y sencillo sobre las áreas de fumigación y cultivo, la claridad para seguir el avance y el estado de las misiones, y la utilidad de las alertas meteorológicas y los reportes frente a factores externos. Señaló que la plataforma está completa y no requiere funcionalidades adicionales, y reportó como única dificultad la ambigüedad del campo «identificador del propietario» en el registro de terrenos, que corresponde al código del terreno. Durante la sesión también se evidenciaron demoras en la carga inicial ocasionadas por las limitaciones del plan gratuito de Render.
 
 **Principales observaciones**
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+- **Aspectos positivos:** Landing Page intuitivo y con información concisa que facilita la creación rápida de la cuenta; control específico y sencillo sobre las áreas de fumigación y cultivo; registro y localización de fincas y parcelas mediante un formulario básico; claridad para consultar el estado y avance de las misiones; utilidad de las alertas meteorológicas y los reportes para planificar y verificar resultados.
+- **Dificultades identificadas:** Confusión inicial en el formulario de registro de terrenos provocada por el campo «identificador del propietario», cuya redacción técnica no deja claro que se refiere al código asignado al terreno. Además, se presentó lentitud en los tiempos de carga por las limitaciones de la versión gratuita de Render.
+- **Sugerencias de mejora:** El participante indicó que la plataforma no requiere funcionalidades adicionales. Se determinó simplificar la etiqueta del campo de identificador en el registro de parcelas para mejorar su claridad.
+- **Conclusión individual:** El participante consideró que AgriDron es una plataforma completa, clara y eficaz para el tratamiento y cuidado de cultivos mediante drones, y que la experiencia de uso cumple con el propósito del servicio.
 
 ### 5.3.3. Heuristic Evaluations
 
-Las evaluaciones heurísticas complementarán las entrevistas de validación mediante la revisión de la interfaz del Landing Page y la aplicación web, considerando principios de usabilidad y organización de la información.
+#### 533-UX Heuristics & Principles Evaluation
 
-Se prestará especial atención a los siguientes aspectos:
+## UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
 
-| Heurística | Aspecto evaluado |
-|---|---|
-| Visibilidad del estado del sistema | La plataforma comunica adecuadamente las acciones realizadas y los estados de las operaciones. |
-| Correspondencia con el mundo real | Los términos y elementos utilizados son comprensibles para los usuarios de los segmentos objetivo. |
-| Control y libertad del usuario | El usuario puede navegar y corregir acciones cuando corresponda. |
-| Consistencia y estándares | Los botones, etiquetas y elementos de navegación mantienen un comportamiento uniforme. |
-| Prevención de errores | Los formularios y acciones ayudan a evitar errores durante la interacción. |
-| Reconocimiento antes que recuerdo | La información y las opciones necesarias están visibles y son fáciles de localizar. |
-| Diseño estético y minimalista | La interfaz presenta información relevante sin elementos innecesarios. |
-| Accesibilidad e inclusión | La información y los controles pueden ser comprendidos y utilizados por distintos perfiles de usuarios. |
+**CARRERA:** Ingeniería de Software
 
-Los resultados de estas evaluaciones permitirán complementar los comentarios obtenidos durante las entrevistas e identificar oportunidades de mejora en la experiencia de usuario.
+**CURSO:** Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN:** Código de la sección
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Nombre del Grupo que ejecuta la Sesión de evaluación
+
+**CLIENTE(S):** Nombre de las personas que participan en la sesión
+
+## SITE o APP A EVALUAR:
+
+*AgriDron*
+
+## Tareas a evaluar:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas en las entrevistas de validación:
+
+1. Comprender el propósito y los beneficios de la plataforma desde la página principal.
+2. Identificar el acceso a la creación de una cuenta.
+3. Registrar y localizar fincas y parcelas.
+4. Comprender los campos del formulario de registro de terrenos.
+5. Delimitar parcelas mediante polígonos en el mapa.
+6. Registrar cultivos.
+7. Crear misiones de fumigación y consultar su estado y avance.
+8. Iniciar y finalizar una misión.
+9. Consultar información meteorológica para planificar las operaciones.
+10. Localizar reportes y exportarlos en formato PDF.
+11. Consultar el uso de insumos y los indicadores de las operaciones.
+12. Registrar drones y consultar sus características.
+13. Reportar fallas, registrar reparaciones y consultar mantenimientos.
+14. Registrar agroquímicos y consultar las existencias disponibles.
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas, debido a que las entrevistas no contienen evidencia suficiente sobre su ejecución:**
+
+1. Completar el registro de una cuenta y recuperar una contraseña.
+2. Administrar permisos y roles de usuarios.
+3. Comprobar la recuperación de registros eliminados.
+4. Verificar una operación real de fumigación y su conexión con un dron.
+5. Comprobar la precisión de las mediciones y los datos meteorológicos.
+6. Evaluar la accesibilidad y la adaptación a dispositivos móviles.
+7. Verificar la recepción de reportes y el seguimiento de operaciones desde la cuenta de un agricultor.
+
+## Escala de severidad:
+
+Los problemas serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser superado fácilmente por el usuario u ocurre con muy poca frecuencia. Su corrección puede realizarse cuando exista disponibilidad de tiempo. |
+| 2 | Problema menor: genera confusión o requiere un esfuerzo adicional, pero permite completar la tarea. Se recomienda corregirlo en una próxima versión. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente completar una tarea. Su corrección debe recibir prioridad alta. |
+| 4 | Problema muy grave: impide al usuario continuar con una tarea esencial. Debe corregirse antes del lanzamiento. |
+
+## Fuentes y alcance de la evaluacion:
+
+Se utilizaron las siguientes fuentes:
+
+1. Notas de la entrevista de validación de Santiago Enrique Vargas Alarcon, realizada el 11 de noviembre de 2026.
+2. Transcripción de la entrevista realizada por Edwin Nicho a una operadora de drones identificada como Valeria.
+3. Transcripción de la entrevista realizada por Sebastián Sayago a un participante identificado como Carlos.
+
+**Nota sobre la identificación:** Los nombres completos de Valeria y Carlos no se distinguen con claridad en las transcripciones, por lo que se utilizan únicamente sus primeros nombres.
+
+Las severidades son preliminares. No se dispone de capturas ni de mediciones de rendimiento. Algunas tareas se realizaron con orientación del entrevistador, por lo que las entrevistas no permiten concluir que todos los flujos puedan completarse sin ayuda.
+
+Se distinguen los problemas de usabilidad reportados de las sugerencias de nuevas funcionalidades. Las sugerencias no reciben una severidad mientras no se compruebe que su ausencia dificulta una tarea existente.
+
+Las transcripciones automáticas contienen fragmentos poco comprensibles. Los hallazgos se limitan a las declaraciones cuyo sentido puede identificarse con suficiente claridad.
+
+## Tabla resumen:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) | Fuente |
+|---|----------|:-------------------:|---------------------------------|--------|
+| 1 | El campo de identificador en el registro de terrenos utiliza una denominación técnica y genera confusión sobre el dato solicitado. | 2 | Usabilidad: Correspondencia entre el sistema y el mundo real. | Entrevista de Santiago. |
+| 2 | La carga de información presenta lentitud durante el uso de la plataforma. | 2, provisional | Usabilidad: Flexibilidad y eficiencia de uso. | Entrevista de Santiago. |
+| 3 | La sección de reportes requiere más esfuerzo para localizarse que otras secciones. | 2 | Arquitectura de información: Facilidad para encontrar la información. | Entrevista realizada por Edwin a Valeria. |
+| 4 | No resulta evidente cómo actualizar las existencias de los agroquímicos. | 2, provisional | Usabilidad: Reconocimiento antes que recuerdo. | Entrevista realizada por Sebastián a Carlos. |
+
+**Nota:** La lentitud constituye un hallazgo de rendimiento con impacto en la usabilidad. Las notas no permiten determinar si existen indicadores de carga; por ello, no se afirma una vulneración de la heurística de visibilidad del estado del sistema.
+
+En el problema de actualización de existencias, la evidencia permite identificar una dificultad para encontrar la acción, pero no confirmar que la funcionalidad esté ausente.
+
+## Descripción de problemas:
+
+### Problema #1: El identificador del formulario de registro de terrenos genera confusión
+
+**Severidad: 2 — Problema menor.**
+
+**Heurística violada: Usabilidad — Correspondencia entre el sistema y el mundo real.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
+**Problema:**
+
+Durante la revisión del registro de fincas y parcelas, el participante manifestó confusión respecto al campo de identificador debido a su carácter técnico. Aunque consideró sencillo el formulario en general, necesitó una explicación del entrevistador para comprender ese dato.
+
+Las notas mencionan tanto un “identificador del propietario” como un “código asignado al terreno”. Esta diferencia impide determinar con certeza qué representa el campo y hace necesario verificar su significado antes de modificarlo.
+
+Una denominación poco clara puede llevar al usuario a introducir información incorrecta, solicitar ayuda o dedicar más tiempo al registro.
+
+**Evidencia de la entrevista:**
+
+El participante identificó la confusión con el identificador como el único inconveniente menor de su experiencia. Como próximo paso, se propuso simplificar o eliminar ese campo.
+
+**Captura de pantalla:**
+
+![Captura de pantalla - Identifcador en formulario de creacion](assets/chapter5/sprint3/validation-interviews/Problema1-IdentificadorEnFormulario.png)
+
+
+**Recomendación:**
+
+Verificar qué representa el identificador y si el usuario necesita introducirlo manualmente.
+
+- Si corresponde al propietario autenticado, asociarlo automáticamente con su cuenta.
+- Si corresponde a un código del terreno generado por el sistema, retirarlo del formulario de ingreso y mostrarlo después del registro.
+- Si requiere seleccionar otro propietario, utilizar un selector con nombres reconocibles en lugar de solicitar un código técnico.
+
+Cuando sea necesario mantener el campo visible, emplear una etiqueta comprensible y un texto de ayuda que explique su finalidad.
+
+### Problema #2: La carga de información presenta lentitud
+
+**Severidad: 2 — Problema menor, provisional.**
+
+**Principio afectado: Usabilidad — Flexibilidad y eficiencia de uso.**
+
+**Fuente: Entrevista de Santiago Enrique Vargas Alarcon.**
+
+**Problema:**
+
+Durante la revisión inicial se identificó lentitud al cargar información. El entrevistador la atribuyó a las limitaciones del despliegue en el plan gratuito de Render; esta explicación no fue verificada mediante mediciones técnicas.
+
+Los tiempos de espera pueden interrumpir el flujo de trabajo y aumentar el esfuerzo necesario para consultar información o continuar con las tareas. Sin embargo, las notas no indican cuánto duraron las demoras, con qué frecuencia ocurrieron ni si impidieron completar alguna operación.
+
+Por ello, se asigna una severidad preliminar de 2, que deberá revisarse después de medir el rendimiento.
+
+**Evidencia de la entrevista:**
+
+En la revisión inicial, el entrevistador explicó la lentitud de la carga de información y la relacionó con las condiciones del servicio de alojamiento utilizado.
+
+**Captura de pantalla:**
+
+![Captura de pantalla - Demora al carga la web](assets/chapter5/sprint3/validation-interviews/Problema2-CargaDeInformacion.png)
+
+**Recomendación:**
+
+Medir los tiempos de respuesta e identificar las pantallas y operaciones afectadas. Con esos resultados, revisar el despliegue y optimizar las consultas o solicitudes que ocasionen las demoras.
+
+Durante las esperas, mostrar un indicador de carga y un mensaje comprensible. Si una solicitud falla, informar al usuario y ofrecer una opción para reintentar sin perder los datos ingresados.
+
+### Problema #3: La sección de reportes resulta menos fácil de localizar
+
+**Severidad: 2 — Problema menor.**
+
+**Principio afectado: Arquitectura de información — Facilidad para encontrar la información.**
+
+**Fuente: Entrevista realizada por Edwin Nicho a la operadora Valeria.**
+
+**Problema:**
+
+La operadora indicó que necesitó más tiempo para encontrar los reportes que otras secciones de la plataforma. Una vez localizados, señaló que su contenido era comprensible.
+
+Esto representa una dificultad de localización, especialmente porque la participante considera que entregar un reporte técnico al agricultor es una parte importante de su servicio.
+
+La entrevista no permite identificar si la causa está en el nombre de la sección, su ubicación o la organización del menú. Tampoco se registró el tiempo necesario para encontrarla.
+
+**Evidencia de la entrevista:**
+
+> “Me tomó un poco más encontrarlos [...] pero una vez que los ubiqué ya se entienden bien”.
+
+*Fragmento de la transcripción automática, con ajustes mínimos de puntuación y concordancia.*
+
+**Captura de pantalla:**
+
+![Captura de entrevista Valeria Mendoza-Section-Reportes](assets/chapter5/sprint3/validation-interviews/ValeriaMendozaSectionReports.png)
+
+**Recomendación:**
+
+Revisar la ubicación y la denominación de la sección de reportes mediante una prueba de búsqueda sin orientación del entrevistador.
+
+Incluir accesos directos a los reportes desde el detalle de una misión y desde la confirmación de su finalización. Utilizar una etiqueta explícita, como “Reportes de fumigación”, si las pruebas confirman que facilita su identificación.
+
+### Problema #4: No resulta evidente cómo actualizar las existencias de los agroquímicos
+
+**Severidad: 2 — Problema menor, provisional.**
+
+**Heurística afectada: Usabilidad — Reconocimiento antes que recuerdo.**
+
+**Fuente: Entrevista realizada por Sebastián Sayago al participante Carlos.**
+
+**Problema:**
+
+Durante la exploración de la sección de agroquímicos, Carlos manifestó que debería existir una opción para actualizar la cantidad disponible. Como ejemplo, mencionó la necesidad de registrar un aumento de litros.
+
+Su comentario indica que la acción necesaria para mantener actualizadas las existencias no resultó evidente durante la prueba. Consultar una cantidad almacenada no resuelve por sí solo la necesidad de registrar compras, reposiciones u otros cambios.
+
+La transcripción no permite confirmar si la plataforma carece de esta función o si existe y el participante no logró localizarla. Por ello, el hallazgo se formula como una dificultad para reconocer la acción y recibe una severidad provisional de 2.
+
+Si una prueba posterior confirma que no es posible registrar cambios de existencias por ningún medio, deberá revisarse la severidad según el impacto sobre la gestión de insumos.
+
+**Evidencia de la entrevista:**
+
+Al revisar los agroquímicos, Carlos preguntó cómo actualizar la cantidad disponible y propuso que hubiera una opción para registrar un incremento de litros.
+
+*Se presenta una paráfrasis debido a los errores de la transcripción automática.*
+
+**Captura de pantalla:**
+
+![Captura de entrevista de Carlos](assets/chapter5/validacion-carlos.png)
+
+**Recomendación:**
+
+Comprobar si existe una función para actualizar las existencias y realizar una prueba sin orientación para verificar si los usuarios pueden encontrarla.
+
+Si ya existe, ofrecer una acción visible con una etiqueta comprensible, como “Registrar entrada” o “Actualizar existencias”.
+
+Si no existe, incorporar el registro de movimientos de inventario. Solicitar la cantidad, la unidad y el motivo del movimiento, y mostrar la cantidad resultante antes de confirmar. Conservar un historial para facilitar la revisión de los cambios.
+
+## Sugerencias de mejora:
+
+Las siguientes observaciones expresan necesidades y oportunidades de mejora. No se consideran fallos confirmados ni reciben una puntuación de severidad.
+
+| # | Observación o necesidad | Recomendación |
+|---|-------------------------|---------------|
+| 1 | La operadora sugirió mostrar en la página principal cómo es el reporte que recibe el agricultor. | Incorporar una vista previa de un reporte técnico con datos de ejemplo y una explicación breve de su utilidad. |
+| 2 | Solicitó distinguir el área realmente tratada del área declarada, porque ambas pueden diferir. | Mostrar ambas superficies con etiquetas y unidades claras, indicando cómo se obtuvo cada valor. |
+| 3 | Indicó que le sería útil consultar en tiempo real la batería, la posición y el líquido restante del dron. | Evaluar la incorporación de estos datos, mostrando su hora de actualización y si proceden de una conexión real o de una simulación. |
+| 4 | Señaló que el agricultor también debería poder consultar el seguimiento desde su celular. | Validar una vista móvil de seguimiento con los permisos adecuados para el agricultor. |
+| 5 | Solicitó un registro rápido al finalizar la operación con las hectáreas reales, el volumen aplicado y sus observaciones. | Incorporar o hacer más visible una bitácora de cierre vinculada a la misión y al reporte técnico. |
+| 6 | Explicó que la información y las alertas meteorológicas le ayudarían a justificar una suspensión ante el agricultor. | Evaluar el registro de la causa de suspensión y de las condiciones meteorológicas consultadas, con fecha, hora y fuente, para incluirlas en el reporte. |
+| 7 | Carlos manifestó interés en contar con una explicación más detallada de cómo registrar los servicios y consultarlos después. El fragmento requiere confirmación por la calidad de la transcripción. | Validar esta necesidad y, si se confirma, incorporar una demostración breve del flujo de registro y consulta de servicios. |
+| 8 | Carlos valoró poder mantener actualizada la información y consultar los trabajos realizados para sus clientes. | Validar si la consulta por cliente está disponible y resulta fácil de encontrar. Si es necesario, incorporar filtros o un historial de servicios por cliente. |
+
+### Observación #1: Mostrar un ejemplo del reporte destinado al agricultor
+
+**Contexto:**
+
+Al revisar la página principal, la operadora destacó la sección que diferencia a agricultores y operadores. Como mejora, propuso mostrar cómo se ve el reporte que recibe el agricultor, porque es uno de los elementos que más le solicitan sus clientes.
+
+**Recomendación:**
+
+Agregar una vista previa del reporte con información de ejemplo. Explicar qué resultados presenta y cómo puede consultarlo el agricultor.
+
+### Observación #2: Diferenciar el área declarada del área realmente tratada
+
+**Contexto:**
+
+La operadora consideró comprensibles la parcela, la fecha y el estado de las misiones. Sin embargo, indicó que le ayudaría comparar el área tratada con el área declarada, debido a las diferencias que encuentra en su trabajo.
+
+**Recomendación:**
+
+Presentar por separado el área declarada y el área efectivamente tratada, expresadas en hectáreas. Identificar la procedencia de cada dato y evitar presentar el área delimitada en el mapa como si fuera necesariamente el área fumigada.
+
+### Observación #3: Ampliar el seguimiento operativo del dron
+
+**Contexto:**
+
+La operadora solicitó consultar la batería, la posición y el líquido restante del dron en tiempo real. También expresó interés en que el agricultor pueda visualizar esa información desde su celular.
+
+**Recomendación:**
+
+Validar la disponibilidad de esos datos y diseñar una vista de seguimiento que muestre su actualización y el estado de la conexión. Definir qué información necesita consultar cada tipo de usuario.
+
+### Observación #4: Facilitar el registro de resultados al terminar la misión
+
+**Contexto:**
+
+La participante solicitó un registro rápido de las hectáreas reales, el volumen aplicado y las observaciones al finalizar el servicio.
+
+La transcripción automática no permite distinguir con claridad el término usado para nombrar este registro, pero sí identifica los datos solicitados.
+
+**Recomendación:**
+
+Ofrecer un formulario breve de cierre de misión con estos campos y vincular la información registrada con el reporte técnico.
+
+### Observación #5: Utilizar las condiciones meteorológicas como respaldo de una suspensión
+
+**Contexto:**
+
+La operadora explicó que las alertas y los datos meteorológicos le resultan útiles para justificar ante el agricultor una suspensión por condiciones desfavorables.
+
+Los valores de viento y temperatura mencionados durante la entrevista corresponden a su práctica personal. No se consideran umbrales técnicos validados para configurar la plataforma.
+
+**Recomendación:**
+
+Permitir registrar una suspensión por clima y asociarla con las condiciones consultadas, la fecha, la hora y la fuente de información. Validar los criterios de alerta según el equipo, el producto y las condiciones de operación aplicables.
+
+## Observaciónes Positivas:
+
+### Entrevista realizada por Gabriel Ramirez al operador Santiago
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+### Entrevista realizada por Edwin Nicho a la operadora Valeria
+
+1. La participante comprendió que la plataforma permite gestionar servicios de fumigación, equipos, insumos, misiones, clima y reportes.
+2. Valoró la diferenciación entre agricultores y operadores en la página principal.
+3. Encontró fácilmente las secciones de drones y agroquímicos.
+4. Consideró útil consultar el modelo, la capacidad y el estado de los equipos.
+5. Valoró las horas de vuelo acumuladas y el próximo mantenimiento, información que actualmente administra en Excel.
+6. Indicó que los estados de las misiones son fáciles de diferenciar.
+7. Confirmó que pudo exportar un reporte en PDF y consideró que contenía la información necesaria.
+8. Valoró consultar los insumos disponibles antes de salir al campo.
+9. Estimó que disponer de parcelas delimitadas podría ahorrarle entre 40 minutos y una hora de reconocimiento previo. Esta estimación no fue medida durante la evaluación.
+10. Manifestó que recomendaría la plataforma a operadores que trabajan solos o con equipos pequeños.
+
+### Entrevista realizada por Sebastián Sayago al participante Carlos
+
+1. El participante comprendió que la plataforma permite organizar servicios de fumigación, registrar información de terrenos y consultar datos relacionados con el clima y los drones.
+2. Identificó la centralización de información como una ventaja frente a revisar conversaciones y archivos separados.
+3. Consideró sencillas las secciones de parcelas y misiones, especialmente sus opciones de organización y filtrado.
+4. Valoró la posibilidad de registrar el mantenimiento de los drones.
+5. Manifestó disposición a utilizar la plataforma para gestionar sus servicios.
+6. Destacó la importancia de mantener actualizada la información y conservar el registro de los trabajos realizados para sus clientes.
+
+## Limitaciones de la evaluación:
+
+1. La evaluación contó con tres participantes, por lo que los resultados no representan necesariamente la experiencia de todos los usuarios de la plataforma.
+2. Las sesiones incluyeron orientación de los entrevistadores, lo que limita la evaluación de la facilidad de uso autónomo.
+3. Las tareas se realizaron en un entorno de demostración, sin ejecutar operaciones reales de fumigación en campo.
+4. No se evaluó el uso prolongado de la plataforma ni la gestión de grandes cantidades de parcelas, misiones, drones e insumos.
+5. No se midieron de forma sistemática los tiempos de ejecución, la cantidad de errores ni el porcentaje de tareas completadas sin ayuda.
+6. No se evaluó el funcionamiento en condiciones de conectividad limitada, habituales en zonas agrícolas.
+7. No se realizaron pruebas específicas de accesibilidad ni de uso en distintos dispositivos y tamaños de pantalla.
+8. No se comprobó el flujo completo de colaboración entre agricultores y operadores, desde la planificación del servicio hasta la recepción de sus resultados.
+
+## Observacíones positivas:
+
+El participante valoró favorablemente los siguientes aspectos:
+
+1. La página principal comunica el propósito del servicio de manera intuitiva y concisa.
+2. El registro de fincas y parcelas resulta sencillo, salvo por la confusión con el identificador.
+3. La información sobre el estado y avance de las misiones es fácil de comprender.
+4. Los datos meteorológicos y las alertas se perciben como útiles para planificar la fumigación.
+5. Los reportes facilitan la revisión de los resultados de las operaciones.
+6. Las funcionalidades presentadas se consideran suficientes para el propósito de la plataforma.
+
+Estas apreciaciones corresponden a una entrevista individual. Sirven como evidencia inicial de validación, pero no sustituyen una inspección heurística completa ni permiten generalizar los resultados a todos los usuarios.
 
 ---
 
 ## 5.4. Video About-the-Product
 
-**Enlace al video:**
+El Video About-the-Product está dirigido a los visitantes del Landing Page que desean conocer la propuesta de AgriDron Solutions y a los usuarios de la Web Application que buscan entender cómo realizar sus tareas en la plataforma. Mantiene el tono cercano y profesional del producto, e incluye testimonios de usuarios que participaron en las entrevistas de validación.
 
-[PEGAR AQUÍ EL ENLACE AL VIDEO]
+![Captura del Video About-the-Product](assets/chapter5/sprint3/ScreenshotAboutTheProduct.png)
 
-**Descripción:**
+*Figura: Captura del Video About-the-Product de AgriDron Solutions.*
 
-[DESCRIBIR BREVEMENTE EL CONTENIDO DEL VIDEO.]
+| Campo | Detalle |
+|---|---|
+| YouTube (incrustado en el Landing Page) | [Ver video](https://youtu.be/6XCNAZBxiAI) |
+| Duración | 04:49 |
+
+**Descripción del contenido**
+
+El video presenta un recorrido por la aplicación web de AgriDron Solutions: el dashboard con el estado del clima y la alerta de viento que indica cuándo no se recomienda fumigar; la gestión de fincas, parcelas y cultivos; la creación de una misión de fumigación con la selección de la parcela, el dron y el agroquímico; la delimitación de áreas de fumigación sobre el mapa; y los módulos de drones, agroquímicos y perfil. Luego, los usuarios comparten su experiencia: destacan que la plataforma centraliza en un solo lugar la información que antes manejaban por WhatsApp y Excel, que las parcelas delimitadas en el mapa les ahorrarían entre 40 minutos y una hora de reconocimiento en campo, y que las alertas climáticas y el reporte técnico les ayudan a justificar una suspensión ante el agricultor.
 
 ---
 
@@ -5182,6 +5835,9 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 
 <div style="page-break-after: always;"></div>
 
+# Video About-The-Team
+| Grabación | [Ver entrevista](https://youtu.be/Rp80VaA6blU?si=nbTd9WPlPKGUWCDU) |
+
 # Bibliografía
 
 > Fuentes utilizadas, registradas siguiendo el formato APA 7ª edición, en orden alfabético por apellido del primer autor.
@@ -5211,7 +5867,7 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 
 **Link GitHub Backend:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
-### Links del LandingPage, Frontend y Backend
+### Links del LandingPage, Frontend y Backend desplegados
 
 **Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
@@ -5225,6 +5881,9 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 **Video de exposición AV1:** [https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing](https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing)
 
 **Video de exposición TB1:** [https://drive.google.com/file/d/1loJ4L6oNWmI1wZwD3GjeU7jel-wB317I/view?usp=sharing](https://drive.google.com/file/d/1O-s9MigZWVFCFA8_S-THkAxQdRwtlqxj/view?usp=drive_link)
+
+**Video de exposición AV2:** [https://drive.google.com/file/d/1JRFeGWDO-MlvRnVEQwpb2LppM6mA0_KG/view?usp=sharing](https://drive.google.com/file/d/1JRFeGWDO-MlvRnVEQwpb2LppM6mA0_KG/view?usp=sharing)
+
 ## Anexo C: Otros
 
 **Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
