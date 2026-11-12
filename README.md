@@ -4228,11 +4228,10 @@ Los problemas serán puntuados tomando en cuenta la siguiente escala de severida
 
 Se utilizaron las siguientes fuentes:
 
-1. Notas de la entrevista de validación de Santiago Enrique Vargas Alarcon, realizada el 11 de noviembre de 2026.
-2. Transcripción de la entrevista realizada por Edwin Nicho a una operadora de drones identificada como Valeria.
-3. Transcripción de la entrevista realizada por Sebastián Sayago a un participante identificado como Carlos.
-
-**Nota sobre la identificación:** Los nombres completos de Valeria y Carlos no se distinguen con claridad en las transcripciones, por lo que se utilizan únicamente sus primeros nombres.
+1. Video de la entrevista de validación de Santiago Enrique Vargas Alarcon, realizada el 11 de noviembre de 2026.
+2. Video de la entrevista realizada por Edwin Nicho a una operadora de drones identificada como Valeria.
+3. Video de la entrevista realizada por Sebastián Sayago a un participante identificado como Carlos.
+4. Video de la entrevista realizada por Alexander Vásquez a una participante del segmento de agricultores.
 
 Las severidades son preliminares. No se dispone de capturas ni de mediciones de rendimiento. Algunas tareas se realizaron con orientación del entrevistador, por lo que las entrevistas no permiten concluir que todos los flujos puedan completarse sin ayuda.
 
@@ -4277,7 +4276,7 @@ El participante identificó la confusión con el identificador como el único in
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura del formulario de registro y señalar el campo de identificador evaluado.*
+![Captura de Pantalla: Formulario de Registro](assets/chapter5/heuristics/01.png)
 
 **Recomendación:**
 
@@ -4311,7 +4310,9 @@ En la revisión inicial, el entrevistador explicó la lentitud de la carga de in
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura del estado de carga. Complementarla con una medición o grabación que permita evidenciar la duración de la espera.*
+![Captura de Pantalla: Carga de Información](assets/chapter5/heuristics/02.png)
+
+Se puede evidenciar como no termina de cargar completamente la seccion del clima, incluso en ocasiones suele darse el problema al demorar en registrar la informacion.
 
 **Recomendación:**
 
@@ -4343,7 +4344,7 @@ La entrevista no permite identificar si la causa está en el nombre de la secci�
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura del menú de navegación y señalar el acceso a los reportes.*
+![Captura de Pantalla: Menú de Navegación](assets/chapter5/heuristics/03.png)
 
 **Recomendación:**
 
@@ -4377,7 +4378,10 @@ Al revisar los agroquímicos, Carlos preguntó cómo actualizar la cantidad disp
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura de la sección de agroquímicos y de las acciones disponibles para gestionar las existencias.*
+![Captura de Pantalla: Sección de Agroquímicos](assets/chapter5/heuristics/04.png)
+![Captura de Pantalla: Agregar Existencias](assets/chapter5/heuristics/05.png)
+
+Se evidencia como faltarian opcciones de actualizar cantidad disponible ademas de eliminar algun Agroquimico
 
 **Recomendación:**
 
@@ -4489,9 +4493,21 @@ Permitir registrar una suspensión por clima y asociarla con las condiciones con
 5. Manifestó disposición a utilizar la plataforma para gestionar sus servicios.
 6. Destacó la importancia de mantener actualizada la información y conservar el registro de los trabajos realizados para sus clientes.
 
+### Entrevista realizada por Alexander Vásquez a una participante del segmento de agricultores
+
+1. La participante consideró que la página principal presenta información resumida y adecuada para comprender la propuesta del servicio y acceder a la plataforma.
+2. Percibió una mejora respecto a la versión anterior de la página principal. Destacó la presentación de precios, las vistas previas de la aplicación y la posibilidad de solicitar una demostración.
+3. Consideró intuitivo registrar y localizar fincas y parcelas.
+4. Valoró especialmente la delimitación de parcelas mediante puntos en el mapa y el cálculo automático de su superficie, porque evita tener que introducir el área manualmente.
+5. Indicó que los campos solicitados para registrar fincas y parcelas son claros y fáciles de completar.
+6. Consideró comprensible la información de las misiones, incluyendo el dron asignado, la fecha y hora, la altura, la velocidad, la batería, el área fumigada, el tiempo transcurrido y la última posición mostrada.
+7. Valoró consultar las condiciones meteorológicas desde la plataforma, especialmente la temperatura, la humedad, el viento y las precipitaciones, como apoyo para planificar las operaciones.
+8. Consideró útil consultar el historial de reportes para revisar trabajos anteriores y apoyar la planificación de futuras operaciones.
+9. Al preguntarle por las dificultades de navegación, no manifestó problemas importantes y describió la aplicación como intuitiva.
+
 ## LIMITACIONES DE LA EVALUACIÓN:
 
-1. La evaluación contó con tres participantes, por lo que los resultados no representan necesariamente la experiencia de todos los usuarios de la plataforma.
+1. La evaluación contó con cuatro participantes, por lo que los resultados no representan necesariamente la experiencia de todos los usuarios de la plataforma.
 2. Las sesiones incluyeron orientación de los entrevistadores, lo que limita la evaluación de la facilidad de uso autónomo.
 3. Las tareas se realizaron en un entorno de demostración, sin ejecutar operaciones reales de fumigación en campo.
 4. No se evaluó el uso prolongado de la plataforma ni la gestión de grandes cantidades de parcelas, misiones, drones e insumos.
