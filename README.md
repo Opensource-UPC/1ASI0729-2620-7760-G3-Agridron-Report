@@ -266,7 +266,8 @@ Entre el 28/10/2026 y el 10/11/2026, el equipo incorporó las correcciones deriv
     - [5.3.2. Interview Registry](#532-interview-registry)
     - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A: Evidencias adicionales](#anexo-a-evidencias-adicionales)
@@ -5014,6 +5015,9 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 ---
 
 <div style="page-break-after: always;"></div>
+
+# Video About-The-Team
+[https://drive.google.com/file/d/1ex_MHellzRg8mYEI7UC0bQfnvBT3jwqG/view](https://drive.google.com/file/d/1ex_MHellzRg8mYEI7UC0bQfnvBT3jwqG/view) 
 
 # Bibliografía
 
