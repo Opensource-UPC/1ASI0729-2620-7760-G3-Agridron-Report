@@ -4944,7 +4944,7 @@ Los Web Services se desplegaron en Render a partir del repositorio del backend: 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 3, el equipo organizará sus actividades considerando las responsabilidades asignadas a cada Bounded Context. La coordinación se enfocará especialmente en la integración entre Flight Operations, Inventory & Resource Management y Analytics & Reporting, debido a que estos módulos comparten información necesaria para representar el ciclo de una operación de fumigación.
+Durante el Sprint 3, el equipo organizó sus actividades considerando las responsabilidades asignadas a cada Bounded Context. La coordinación se enfocará especialmente en la integración entre Flight Operations, Inventory & Resource Management y Analytics & Reporting, debido a que estos módulos comparten información necesaria para representar el ciclo de una operación de fumigación.
 
 Cada integrante será responsable de desarrollar y documentar los avances de su aspecto asignado, utilizando ramas de funcionalidad y pull requests para integrar los cambios en los repositorios correspondientes. Se mantendrá la coordinación entre los responsables de Flight Operations e Inventory para gestionar adecuadamente los recursos compartidos, evitando duplicidad de endpoints y responsabilidades.
 
@@ -4952,10 +4952,37 @@ Asimismo, se dará seguimiento a las actividades mediante el tablero de trabajo 
 
 La colaboración se evidenciará mediante el historial de commits, pull requests, revisiones de código y registros de contribución de los repositorios.
 
-![Evidencia de colaboración del equipo durante el Sprint 3](assets/chapter5/sprint_3_collaboration.png)
+##### Landing Page
 
-*Figura: Evidencia de la colaboración y contribuciones de los integrantes durante el Sprint 3.*
+**Repositorio:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
 
+![Contributors del Landing Page](assets/chapter5/sprint3/collaborationLanding-contributors.png)
+
+*Descripción: Contribuciones de los integrantes al repositorio del Landing Page durante el Sprint 3 (Insights → Contributors).*
+
+##### Web Application
+
+**Repositorio:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+
+![Contributors de la Web Application](assets/chapter5/sprint3/collaborationfrontend-contributors.png)
+
+*Descripción: Contribuciones de los integrantes al repositorio de la Web Application durante el Sprint 3 (Insights → Contributors).*
+
+![Resumen de actividad de la Web Application en Pulse](assets/chapter5/sprint3/InsightPulse-Fronted.png)
+
+*Descripción: Resumen de Pulse (último mes) de la Web Application, con 5 autores, 79 commits en todas las ramas y 8 pull requests integrados.*
+
+##### Web Services
+
+**Repositorio:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+![Contributors de los Web Services](assets/chapter5/sprint3/collaborationbackend-contributors.png)
+
+*Descripción: Contribuciones de los integrantes al repositorio de los Web Services durante el Sprint 3 (Insights → Contributors).*
+
+![Resumen de actividad de los Web Services en Pulse](assets/chapter5/sprint3/InsightPulse-Backend.png)
+
+*Descripción: Resumen de Pulse (último mes) del repositorio de los Web Services, que contabiliza los commits de los autores en todas las ramas.*
 
 ## 5.3. Validation Interviews
 
@@ -5687,6 +5714,9 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 **Video de exposición AV1:** [https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing](https://docs.google.com/videos/d/1pFbq_PH-J9PrqSZVFdPyGlMX81-q0QI6ukJ0s55ZgIQ/edit?usp=sharing)
 
 **Video de exposición TB1:** [https://drive.google.com/file/d/1loJ4L6oNWmI1wZwD3GjeU7jel-wB317I/view?usp=sharing](https://drive.google.com/file/d/1O-s9MigZWVFCFA8_S-THkAxQdRwtlqxj/view?usp=drive_link)
+
+**Video de exposición AV2:** [https://drive.google.com/file/d/1JRFeGWDO-MlvRnVEQwpb2LppM6mA0_KG/view?usp=sharing](https://drive.google.com/file/d/1JRFeGWDO-MlvRnVEQwpb2LppM6mA0_KG/view?usp=sharing)
+
 ## Anexo C: Otros
 
 **Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
