@@ -90,6 +90,7 @@
 | 2.3.0 | 20/10/2026 | Damacen Galindo, Italo Gianfranco | Corrección del Capítulo III según el enunciado: introducciones, User Stories con varios criterios de aceptación en formato Gherkin, Technical Stories para los recursos del RESTful API, explicación del Impact Mapping y Product Backlog rehecho con los IDs del 3.1, orden por valor de negocio y enlace de Trello. |
 | 2.4.0 | 04/11/2026 | Nicho Huillcañahui, Edwin Noe | Actualización de Inventory & Resource Management: User Stories DR-001 a DR-006, Technical Stories TU-020 a TU-022 y nueva TU-027, Ubiquitous Language, Bounded Context, arquitectura, arquitectura de información, restricciones de base de datos y estado de las tareas del Sprint 2. |
 | 2.5.0 | 08/11/2026 | Sayago Vidal, Sebastián Leonardo | Implementación del base del contenido del Sprint 3. Actualizacion de contenido de Sprint 1 y 2 |
+| 2.5.1 | 11/11/2026 | Sayago Vidal, Sebastián Leonardo | Correcciones de contenido del sprint 3 |
 
 
 ## Project Report Collaboration Insights
@@ -4991,13 +4992,17 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 
 **Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
 
+**Link Repositorio Landing Page** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
+
 **Link LandingPage:** [https://os-agridronlandingpage.web.app](https://os-agridronlandingpage.web.app)
 
 **Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
 **Link de la plataforma:** [https://os-agridronfrontend.web.app](https://os-agridronfrontend.web.app)
 
-**Link GitHub:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
+**Link Repositorio Backend** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+
+**Link de Repositorio de Reporte:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
 ## Anexo B: Videos de Exposiciones
 
