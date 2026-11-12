@@ -4355,19 +4355,11 @@ Figura: Evidencia del despliegue del Frontend
 
 ![Evidencia del despliegue del Backend](assets/chapter5/sprint3/backendDeployment.png)
 
+![Evidencia del despliegue del Backend](assets/chapter5/sprint3/evidenciaDespliegue.png)
+
 Figura: Evidencia del despliegue del backend
 
 **Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
-
-
-
-**Link de la plataforma:** [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
-
-**Link de la Landing Page :** [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
-
-**Link de Swagger de Backend :** [https://os-agridronbackend.onrender.com/swagger-ui.html](https://os-agridronbackend.onrender.com/swagger-ui.html)
-
-
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4485,9 +4477,6 @@ La documentación interactiva permitirá ejecutar solicitudes de prueba sobre lo
 ##### Documentation Commits
 
 La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del backend y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
-
-**Link de Swagger de Backend :** [https://os-agridronbackend.onrender.com/swagger-ui.html](https://os-agridronbackend.onrender.com/swagger-ui.html)
-
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
