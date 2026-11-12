@@ -4426,31 +4426,89 @@ La siguiente tabla presenta los endpoints documentados mediante OpenAPI, indican
 
 ##### Landing Page  Evidence
 
-![Nueva version de landing page](assets/chapter5/new-landing1.png)
+###### Sección principal (Hero)
+![Sección principal del Landing Page](assets/chapter5/new-landing1.png)
 
-![Nueva version de landing page](assets/chapter5/new-landing2.png)
+*Figura: Sección principal del Landing Page de AgriDron Solutions, con la propuesta de valor, los beneficios clave (reducción de costos, aumento de productividad y protección del equipo), los accesos «Pruébalo ahora» y «Ver la plataforma», el menú de navegación y el selector de idioma ES/EN.*
 
-![Nueva version de landing page](assets/chapter5/new-landing3.png)
+###### Conoce AgriDron por dentro – Dashboard Operativo
 
-![Nueva version de landing page](assets/chapter5/new-landing4.png)
+![Sección Conoce AgriDron por dentro – Dashboard Operativo](assets/chapter5/new-landing2.png)
+
+*Figura: Sección «Conoce AgriDron por dentro», que presenta las vistas de la aplicación web mediante pestañas. En la imagen, la pestaña Dashboard Operativo, con las métricas de la operación, los accesos rápidos y el estado del clima.*
+
+###### Conoce AgriDron por dentro – Fincas
+
+![Sección Conoce AgriDron por dentro – Fincas](assets/chapter5/sprint3/LandingPage-SectionFincas.png)
+
+*Figura: Pestaña «Fincas» de la sección «Conoce AgriDron por dentro», que muestra el registro de predios con su ubicación, cantidad de parcelas y superficie total, junto con el acceso directo «Ir a Fincas» de la aplicación web.*
+
+###### Conoce AgriDron por dentro – Drones
+
+![Sección Conoce AgriDron por dentro – Drones](assets/chapter5/sprint3/LandingPage-SectionDrones.png)
+
+*Figura: Pestaña «Drones» de la sección «Conoce AgriDron por dentro», que muestra la gestión de la flota con el estado, la batería, la boquilla y la capacidad del tanque de cada dron, junto con el acceso directo «Ir a Drones». La sección cuenta con diez pestañas, una por cada módulo de la aplicación.*
+
+###### Video About-the-Product
+
+![Sección Video About-the-Product](assets/chapter5/sprint3/LandingPage-VideoAboutTheProduct.png)
+
+*Figura: Sección «Video About-the-Product», que incorpora el video promocional/explicativo de AgriDron Solutions con reproductor integrado y el acceso «Probar Web App» para ingresar a la aplicación web.*
+
+
+###### Preguntas frecuentes y contacto
+
+![Sección de preguntas frecuentes y formulario de contacto](assets/chapter5/new-landing3.png)
+
+*Figura: Sección de preguntas frecuentes con respuestas desplegables y formulario de contacto «¿Listo para despegar?», que permite enviar una consulta indicando nombre, correo electrónico, plan de interés y mensaje.*
+
+###### Nuestro equipo y Video About-the-Team
+
+![Sección Nuestro equipo y Video About-the-Team](assets/chapter5/sprint3/LanginPage-SectionAboutTheam.png)
+
+*Figura: Sección «Nuestro equipo», con la fotografía, el nombre y el rol de cada integrante, y la tarjeta del Video About-the-Team, que indica su duración y redirige a YouTube para verlo completo.*
+
+###### Términos y Condiciones de Servicio
+
+![Página de Términos y Condiciones de Servicio](assets/chapter5/new-landing4.png)
+
+*Figura: Página de Términos y Condiciones de Servicio, que presenta el marco deontológico, el propósito y alcance del servicio y las políticas de confidencialidad y privacidad de los datos agrícolas.*
 
 ##### Web Application Evidence
 
+A continuación se presentan las principales vistas de la aplicación web de AgriDron Solutions integradas con los servicios backend durante el Sprint 3.
+
+###### Inicio
 ![Nueva version de frontend](assets/chapter5/new-frontend1.png)
+*Figura: Vista de inicio de la aplicación web, con el resumen de la operación agrícola (fincas, parcelas, cultivos y áreas de fumigación), accesos rápidos a los módulos y el estado del clima en tiempo real obtenido de Open-Meteo, con la indicación de si las condiciones son favorables para fumigar.*
 
+###### Detalle de parcela
 ![Nueva version de frontend](assets/chapter5/new-frontend2.png)
+*Figura: Detalle de una parcela, que muestra su área, finca, cultivo y geometría, junto con su delimitación como polígono sobre el mapa satelital y la opción de consultar el clima de la parcela.*
 
+###### Misiones
 ![Nueva version de frontend](assets/chapter5/new-frontend3.png)
+*Figura: Módulo de misiones, con la lista de operaciones de fumigación, filtros por estado (planificadas, en progreso, completadas y pausadas), búsqueda por lote, finca o cultivo, y el progreso de cada misión con su dron, cultivo y fecha asignados.*
 
+###### Cultivos
 ![Nueva version de frontend](assets/chapter5/new-frontend4.png)
+*Figura: Módulo de cultivos, donde el usuario registra, edita y elimina los cultivos y variedades que siembra en sus parcelas.*
 
+###### Nueva área de fumigación
 ![Nueva version de frontend](assets/chapter5/new-frontend5.png)
+*Figura: Formulario de registro de un área de fumigación. El usuario selecciona la parcela y traza el polígono sobre el mapa satelital, y el área se calcula automáticamente.*
 
+###### Reportes e historial
 ![Nueva version de frontend](assets/chapter5/new-frontend6.png)
+*Figura: Módulo de reportes e historial en la pestaña «Uso de insumos», con filtros por finca y rango de fechas, el consumo de agroquímicos por finca y producto, y el detalle de reportes por misión con opciones para visualizarlos y descargarlos.*
 
+###### Gestión de flota de drones
 ![Nueva version de frontend](assets/chapter5/new-frontend7.png)
+*Figura: Módulo de gestión de la flota de drones, que muestra para cada equipo su modelo, número de serie, estado, nivel de batería, boquilla, capacidad del tanque y fecha del próximo servicio, con accesos a su detalle, su historial de mantenimiento y las boquillas de pulverización.*
 
+###### Agroquímicos
 ![Nueva version de frontend](assets/chapter5/new-frontend8.png)
+*Figura: Módulo de agroquímicos, con el inventario de productos (stock, stock mínimo con alerta de stock bajo y fecha de vencimiento) y el formulario para registrar un nuevo agroquímico.*
 
 ##### API Documentation Evidence
 
@@ -4868,213 +4926,142 @@ Las actividades se ajustarán a las funcionalidades realmente disponibles en la 
 
 ### 5.3.2. Interview Registry
 
-En esta sección se documentarán individualmente las entrevistas realizadas a los participantes de ambos segmentos. Cada registro incluirá los datos del entrevistado, la evidencia de la sesión, un resumen de las actividades y los principales hallazgos.
+En esta sección se documentarán las entrevistas realizadas a los participantes de ambos segmentos. Cada registro incluirá los datos del entrevistado, la evidencia de la sesión, un resumen de las actividades y los principales hallazgos.
 
 ### Segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas
 
-### Interview 1 – [Nombre del participante]
-
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Nombre completo | Ana Camila Bio Farías |
+| Edad | 25 años |
+| Distrito | Valleca, distrito de Pachacutec |
+| Ocupación | Administradora de aproximadamente 2 ha de terreno agrícola |
+| Segmento | Segmento 1 – Pequeños y Medianos Agricultores (PyMAs) |
+| Fecha de entrevista | 11/11/2026 |
+| Duración | 08 minutos y 42 segundos |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=GX4ho3-HjX4sRGYN&t=4) |
+| Marca de tiempo de la entrevista | 00:00:04 – 00:08:42 |
+| Captura de la entrevista | ![Entrevista de validación – Ana Camila Bio Farías](assets/chapter5/sprint3/validation-interviews/ValidateAnaCamila.png) |
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+El 11 de noviembre de 2026, Alexander Vásquez entrevistó de forma virtual a Ana Camila Bio Farías, quien previamente revisó el Landing Page y la aplicación web de AgriDron. Sobre el Landing Page, la participante indicó que la información de los servicios está bien resumida y es fácil de encontrar, y consideró la nueva versión una mejora total respecto a la primera, destacando la sección de precios, las capturas de la plataforma (como el acceso al dashboard) y la opción de solicitar una demostración. En la aplicación web, consultó sus fincas y creó una parcela delimitándola con clics sobre el mapa; señaló como el beneficio más interesante que el área se calcula automáticamente, sin tener que buscar mapas externos. Luego revisó una misión de fumigación sobre un cultivo de maíz y comprendió con facilidad su información: dron asignado, fecha y hora, altura, velocidad, batería, área fumigada, tiempo transcurrido y última posición en coordenadas, datos que le permitirían saber cuándo recargar el dron. También valoró la información meteorológica de la página de inicio (temperatura, humedad, viento y precipitación) para decidir cuándo y a qué altura fumigar, y revisó los reportes, donde destacó la exportación a PDF y el historial de uso de los drones para planificar a futuro. Finalmente, indicó que no encontró dificultades durante la navegación porque la plataforma le resultó intuitiva. En relación con su entrevista de needfinding, la delimitación de la parcela con puntos sobre el mapa y el cálculo visible del área responden a las necesidades que había planteado.
 
 **Principales observaciones**
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
-
-- ### Interview 2 – [Nombre del participante]
-
-**Datos del participante**
-
-| Campo | Información |
-|---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
-
-**Evidencias de la entrevista**
-
-| Evidencia | Enlace / Referencia |
-|---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
-
-**Resumen de la entrevista**
-
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
-
-**Principales observaciones**
-
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+- **Aspectos positivos:** Información del Landing Page clara y resumida; sección de precios, capturas de la plataforma y solicitud de demostración; delimitación de parcelas con clics sobre el mapa y cálculo automático del área; registro de fincas y parcelas rápido e intuitivo; detalle completo de las misiones (dron, batería, velocidad, área fumigada, tiempo y posición); utilidad de la información meteorológica para planificar fumigaciones; reportes exportables a PDF e historial de uso de los drones.
+- **Dificultades identificadas:** La participante no reportó dificultades de navegación ni de comprensión. Durante la sesión necesitó una indicación del entrevistador para ubicar la opción de visualizar el detalle de los reportes (ícono del ojo).
+- **Sugerencias de mejora:** La participante no propuso cambios ni funcionalidades adicionales.
+- **Conclusión individual:** La validación fue muy positiva. La participante comprendió la propuesta de valor, completó las actividades de forma autónoma y percibió la delimitación de parcelas en el mapa, el seguimiento de misiones, el clima y los reportes como funcionalidades útiles para organizar sus actividades agrícolas.
 
 ### Segmento 2: Pequeños y Medianos Agricultores / Propietarios de Fincas
 
+- ### Interview 2 - Valeria Mendoza
+
+**Datos del participante**
+
+| Campo | Información |
+|---|---|
+| Nombre completo | Valeria Sofía Mendoza Ríos |
+| Edad | 25 años |
+| Distrito | Valle de Cañete (Lima Provincias) |
+| Ocupación | Estudiante de 8.° ciclo de Ingeniería Agrícola, técnica con experiencia en aplicación agrícola y responsable de operaciones en campo |
+| Segmento | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
+| Fecha de entrevista | 11/11/2026 |
+| Duración | 19 minutos y 21 segundos |
+
+**Evidencias de la entrevista**
+
+| Evidencia | Enlace / Referencia |
+|---|---|
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=bnLh0LHz1W7iz3fa&t=537) |
+| Marca de tiempo de la entrevista | 00:08:56 – 00:28:17 |
+| Captura de la entrevista | ![Entrevista de validación – Valeria Sofía Mendoza Ríos](assets/chapter5/sprint3/validation-interviews/ValidatValeriaMendoza.png) |
+
+**Resumen de la entrevista**
+
+El 11 de noviembre de 2026, Edwin Nicho realizó la entrevista de validación con Valeria Sofía Mendoza Ríos, operadora de drones agrícolas en el valle de Cañete. La participante recorrió el Landing Page (funcionalidades, capturas de la plataforma, segmentos, video, precios, preguntas frecuentes y equipo, además del cambio de idioma) y explicó con sus propias palabras que AgriDron es una plataforma para gestionar servicios de fumigación con drones, administrar drones y agroquímicos, programar misiones sobre parcelas, revisar el clima y consultar reportes. Indicó que la propuesta de valor responde a su principal problema, la coordinación y el tiempo perdido en campo, ya que contar con las parcelas delimitadas en un mapa le ahorraría entre 40 minutos y una hora de reconocimiento. En la aplicación web revisó el clima de la página de inicio; creó una finca, una parcela delimitada en el mapa con cálculo automático del área y un cultivo; creó una misión, la inició, la finalizó y exportó su reporte a PDF; revisó los filtros de reportes, el uso de insumos, la comparación de parcelas y los indicadores; registró un dron, simuló una falla y registró su reparación en el historial de mantenimiento; y registró un nuevo agroquímico. Encontró rápidamente la gestión de drones, diferenció sin problemas los estados de las misiones y consideró muy útil la información meteorológica como respaldo técnico para suspender trabajos, aunque le tomó más tiempo ubicar los reportes. Finalmente, indicó que recomendaría la plataforma a otros operadores que trabajan solos o en equipos pequeños, porque cumplió las expectativas que expresó en su entrevista de needfinding.
+
+**Principales observaciones**
+
+- **Aspectos positivos:** Propuesta de valor comprensible y alineada con las necesidades del operador; sección «Para quién», que separa agricultores y operadores; delimitación de parcelas en el mapa, que evitaría el reconocimiento previo en campo; acceso rápido a la gestión de drones y registro de fallas y mantenimientos; estados de las misiones fáciles de diferenciar; información meteorológica útil para justificar suspensiones por viento o temperatura; reporte técnico en PDF simple y con la información necesaria para el cliente.
+- **Dificultades identificadas:** Ubicar los reportes le tomó más tiempo que las demás secciones. Durante el registro de drones necesitó indicaciones sobre el formato del número de serie y sobre la regla de que la fecha del próximo mantenimiento no puede ser anterior a la del último.
+- **Sugerencias de mejora:** Mostrar en el Landing Page un ejemplo del reporte que recibe el agricultor; incluir en la ficha de cada dron las horas de vuelo acumuladas y la fecha del próximo mantenimiento (información que hoy lleva en Excel); ver en tiempo real la batería, la posición y el líquido restante del dron, también desde el celular del agricultor; e incorporar una bitácora rápida para registrar las hectáreas reales tratadas, el volumen aplicado y las observaciones al terminar cada servicio.
+- **Conclusión individual:** La validación fue positiva. La participante comprendió la propuesta de valor, completó las actividades de los módulos de su segmento y consideró que la plataforma facilitaría la coordinación y el seguimiento de sus operaciones. Sus sugerencias apuntan a reforzar la trazabilidad en campo (monitoreo en tiempo real y bitácora de ejecución) y la visibilidad del reporte técnico para el cliente.
+
+
 ### Interview 3 – Carlos Mendoza
 
-**Información del participante**
-
-| Campo              | Información                                                                          |
-| ------------------ | ------------------------------------------------------------------------------------ |
-| Participante       | Carlos Mendoza                                                                       |
-| Edad               | 38 años                                                                              |
-| Ocupación          | Operador técnico de servicios de fumigación agrícola mediante drones                 |
-| Experiencia        | Aproximadamente 6 años                                                               |
-| Segmento objetivo  | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
-| Tipo de entrevista | Entrevista de validación de la solución                                              |
-| Solución evaluada  | AgriDron Solutions – Landing Page y Aplicación Web                                   |
-
-
-
-**Objetivo de la entrevista**
-
-Evaluar la primera versión de AgriDron Solutions con un operador de servicios de fumigación agrícola mediante drones, con la finalidad de identificar si la solución propuesta responde a las necesidades operativas previamente identificadas. La evaluación comprendió la Landing Page y los principales módulos de la aplicación: gestión de parcelas, gestión de drones, gestión de agroquímicos, seguimiento de misiones e información meteorológica.
-
-**Resumen de la entrevista**
-
-Durante la entrevista, Carlos Mendoza evaluó la Landing Page y las principales funcionalidades de AgriDron Solutions. Inicialmente, identificó que la plataforma permite organizar los servicios de fumigación, administrar información de terrenos y realizar seguimiento de las operaciones. Sin embargo, sugirió que la página de presentación debería explicar con mayor detalle cómo se registran los servicios y cómo se puede consultar posteriormente su información.
-
-Respecto a la gestión de parcelas, consideró que las opciones disponibles son sencillas y fáciles de encontrar. Destacó la importancia de mantener organizada la información de los terrenos antes de realizar un servicio de fumigación.
-
-En cuanto a la gestión de drones, consideró útiles los datos relacionados con las baterías, el mantenimiento y el estado operativo de los equipos. Asimismo, encontró clara la presentación de la información sobre agroquímicos, especialmente las cantidades disponibles de los productos. Sin embargo, mencionó que la gestión de agroquímicos debería permitir actualizar las cantidades disponibles de cada producto, facilitando el control del inventario y manteniendo la información actualizada.
-
-Al evaluar la gestión de misiones, destacó la posibilidad de consultar el progreso y el estado de cada operación, además del registro de las interrupciones ocasionadas por condiciones climáticas o problemas con los equipos, incluyendo la cantidad de trabajo que realmente se llegó a realizar. Según el participante, esta información permitiría explicar a los agricultores por qué un servicio no pudo cubrir toda el área planificada.
-
-Respecto a la información meteorológica, consideró que las alertas de lluvia y viento son útiles para evaluar las condiciones antes de realizar las actividades de fumigación. Finalmente, identificó la centralización de información como la principal ventaja de la plataforma, ya que actualmente necesita consultar diferentes archivos, conversaciones de WhatsApp, hojas de cálculo y anotaciones personales para organizar sus servicios.
-
-**Principales hallazgos**
-
-| Área evaluada                 | Comentario del participante                                                         | Hallazgo identificado                                                                        |
-| ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Landing Page                  | La presentación debería explicar mejor cómo se registran y consultan los servicios. | Mejorar la explicación de las principales funcionalidades de la plataforma.                  |
-| Gestión de parcelas           | La información está organizada y es fácil de encontrar.                             | El módulo facilita la consulta de información de los terrenos antes de realizar un servicio. |
-| Delimitación de parcelas      | Un mapa interactivo sería más sencillo que utilizar directamente GeoJSON.           | Simplificar la delimitación de parcelas mediante una interfaz visual.                        |
-| Gestión de drones             | La información de baterías y mantenimiento resulta útil.                            | Los datos técnicos permiten organizar mejor las operaciones con drones.                      |
-| Gestión de agroquímicos       | La información y las cantidades disponibles eran claras.                            | Se identificó la necesidad de incorporar una opción para actualizar el stock disponible.     |
-| Gestión de misiones           | Es útil consultar el progreso y el estado de las operaciones.                       | El seguimiento de misiones proporciona mayor visibilidad sobre las actividades realizadas.   |
-| Registro de incidencias       | Se deberían registrar las interrupciones y el trabajo realmente realizado.          | Incorporar el registro de incidencias y de las hectáreas efectivamente tratadas.             |
-| Información meteorológica     | Las alertas de lluvia y viento ayudan a evaluar las condiciones antes de fumigar.   | La información climática contribuye a la planificación de las operaciones.                   |
-| Centralización de información | La plataforma evitaría consultar diferentes archivos y medios de comunicación.      | La centralización representa uno de los principales beneficios percibidos de la solución.    |
-
-**Aspectos positivos identificados**
-
-- La navegación por los módulos de parcelas y misiones resulta sencilla.
-- La información de los drones, especialmente los datos de baterías y mantenimiento, facilita la organización de las operaciones.
-- La presentación de los agroquímicos permite consultar claramente las cantidades disponibles.
-- El seguimiento de misiones permite conocer el progreso y estado de cada operación.
-- Las alertas meteorológicas proporcionan información relevante antes de realizar los servicios de fumigación.
-- La centralización de información representa una ventaja frente al uso de diferentes archivos, hojas de cálculo y conversaciones de WhatsApp.
-
-**Oportunidades de mejora identificadas**
-
-- Mejorar la explicación de las funcionalidades y el registro de servicios en la Landing Page.
-- Incorporar una opción para actualizar el stock disponible de los agroquímicos usados.
-
-**Conclusión de la entrevista**
-
-La entrevista permitió identificar que AgriDron Solutions responde favorablemente a varias de las necesidades previamente identificadas en el segmento de operadores técnicos, principalmente en la organización de parcelas, gestión de drones, seguimiento de misiones y centralización de información.
-
-El participante manifestó una percepción positiva de la solución y expresó su disposición a utilizarla, especialmente por la posibilidad de mantener organizada la información de sus clientes, equipos y trabajos realizados. Sin embargo, también identificó oportunidades de mejora relacionadas con la delimitación visual de parcelas y el registro detallado de los servicios e incidencias.
-
-Los comentarios recopilados permiten orientar futuras mejoras hacia una plataforma que no solo facilite la planificación de las operaciones, sino que también permita documentar su ejecución, registrar las incidencias y mantener un historial completo de los trabajos realizados.
-
-
-
-### Interview 4 – [Santiago Vargas]
-
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Santiago Enrique Vargas Alarcon] |
-| Edad | [22] |
-| Distrito | [San Miguel] |
-| Ocupación | [Supervisor de operaciones en terrenos de cultivos] |
-| Segmento | [Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones] |
-| Fecha de entrevista | [11/11/2026] |
-| Duración | [08 minutos y 31 segundos] |
+| Nombre completo | Carlos Mendoza |
+| Edad | 42 años |
+| Distrito | ---- |
+| Ocupación | Operador técnico y proveedor de servicios de fumigación con drones (aproximadamente 10 años de experiencia) |
+| Segmento | Segmento 2 – Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones |
+| Fecha de entrevista | 09/11/2026 |
+| Duración | 11 minutos y 20 segundos) |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [https://drive.google.com/file/d/1OIBF2zcaB_GKiuaGP-vebz71Sj6C2Wls/view?usp=sharing] |
-| Marca de tiempo de la entrevista | [00:00:10 – 00:08:25] |
-| Captura de la entrevista | ![Validacion Santiago Vargas](assets/chapter5/validacion-santiago.png) |
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=QGI_634cYb7kXAlI&t=1700)  |
+| Marca de tiempo de la entrevista |  00:28:20 – 00:39:42 |
+| Captura de la entrevista | ![Entrevista de validación – Carlos Mendoza](assets/chapter5/sprint3/validation-interviews/ValidateCarlosMendoza.png)  |
 
 **Resumen de la entrevista**
 
-[El 11 de noviembre de 2026, Gabo y Santiago Enrique Vargas Alarcón (19 años) llevaron a cabo una sesión de revisión preliminar y entrevista formal para evaluar el despliegue y la usabilidad de Agridrón. Durante la jornada, ambos recorrieron el flujo integral de la plataforma —abarcando la creación de cuentas, el registro de fincas, parcelas y cultivos, la asignación de drones y agroquímicos, el monitoreo de misiones y la generación de reportes— mientras identificaban demoras en la carga inicial ocasionadas por las limitaciones del plan gratuito de Render. Respecto al Landing Page, el participante percibió una interfaz intuitiva y concisa que comunica eficazmente el valor del servicio y facilita el registro rápido de usuarios; en cuanto a la aplicación web, destacó el control riguroso y sencillo sobre las zonas de fumigación, la claridad en el seguimiento de avances y tareas, así como la utilidad de las alertas meteorológicas y los reportes frente a factores externos. Entre los comentarios más relevantes, Santiago señaló que la plataforma está sumamente completa y no requiere funcionalidades adicionales, reportando como única dificultad menor la ambigüedad técnica del campo "identificador del propietario" (correspondiente al código del terreno), lo que derivó en los compromisos de Gabo de simplificar dicho campo y continuar con la evaluación heurística.]
+Carlos Mendoza evaluó la primera versión del Landing Page y los principales módulos de la aplicación web: gestión de parcelas, drones y agroquímicos, seguimiento de misiones e información meteorológica. Identificó que la plataforma permite organizar los servicios de fumigación, administrar la información de los terrenos y dar seguimiento a las operaciones, aunque sugirió que el Landing Page explique con mayor detalle cómo se registran los servicios y cómo se consulta después su información. Consideró que las opciones de gestión de parcelas son sencillas y fáciles de encontrar, y destacó la importancia de tener organizada la información de los terrenos antes de un servicio; para la delimitación, indicó que un mapa interactivo sería más sencillo que ingresar directamente un GeoJSON. En la gestión de drones valoró los datos de baterías, mantenimiento y estado operativo, y en agroquímicos encontró claras las cantidades disponibles, aunque señaló la necesidad de poder actualizar el stock de cada producto. En misiones destacó la posibilidad de consultar el progreso y el estado de cada operación, y propuso registrar las interrupciones causadas por el clima o por fallas de los equipos junto con el trabajo realmente realizado, para poder explicar a los agricultores por qué un servicio no cubrió toda el área planificada. Consideró útiles las alertas de lluvia y viento antes de fumigar e identificó la centralización de la información como la principal ventaja de la plataforma, ya que actualmente consulta archivos, conversaciones de WhatsApp, hojas de cálculo y anotaciones personales para organizar sus servicios.
 
 **Principales observaciones**
 
-- **Aspectos positivos:** El participante valoró que el Landing Page es intuitivo y presenta la información de manera concisa para facilitar una creación rápida de cuenta. En la aplicación web, destacó el control riguroso, específico y sencillo sobre las áreas de fumigación y cultivo, la facilidad para registrar y localizar fincas o parcelas mediante un cuestionario básico, la claridad para consultar el estado y avance de las misiones (incluyendo la opción de eliminar registros), y la utilidad de las alertas meteorológicas y los reportes para planificar y verificar resultados.
-- **Dificultades identificadas:** El único inconveniente señalado fue la confusión inicial en el formulario de registro de terrenos provocada por el campo *"identificador del propietario"*, debido a que su redacción tiene un matiz técnico y no deja claro que se refiere únicamente al código asignado al terreno. *(Adicionalmente, durante la revisión del despliegue se evidenció lentitud en los tiempos de carga por las limitaciones operativas de la versión gratuita de Render).*
-- **Sugerencias de mejora:** El participante indicó que la plataforma no requiere información ni funcionalidades adicionales para cumplir su objetivo; únicamente se determinó simplificar o eliminar la ambigüedad del campo de identificador en el registro de parcelas para mejorar la claridad de esa sección.
-- **Conclusión individual:** Santiago Enrique Vargas Alarcón concluyó que Agridrón es una plataforma sumamente completa, clara y eficaz para el tratamiento y cuidado de cultivos mediante drones, considerando que la experiencia de uso cumple plenamente con el propósito del servicio sin necesidad de añadir nuevas características.
+- **Aspectos positivos:** Navegación sencilla en los módulos de parcelas y misiones; información de baterías, mantenimiento y estado de los drones útil para organizar las operaciones; cantidades disponibles de agroquímicos presentadas con claridad; seguimiento del progreso y estado de cada misión; alertas meteorológicas relevantes antes de cada servicio; centralización de la información frente al uso de archivos, hojas de cálculo y WhatsApp.
+- **Dificultades identificadas:** El Landing Page no explicaba con suficiente detalle cómo se registran y consultan los servicios, y la delimitación de parcelas mediante GeoJSON le resultó poco práctica.
+- **Sugerencias de mejora:** Mejorar la explicación de las funcionalidades en el Landing Page; delimitar las parcelas mediante un mapa interactivo; permitir actualizar el stock de los agroquímicos; registrar las incidencias de cada misión y las hectáreas efectivamente tratadas.
+- **Conclusión individual:** La solución responde favorablemente a las necesidades del segmento en la organización de parcelas, la gestión de drones, el seguimiento de misiones y la centralización de la información. El participante expresó su disposición a utilizarla, y sus sugerencias apuntan a documentar mejor la ejecución de los servicios y sus incidencias.
 
-### Interview 5 – [Nombre del participante]
+##### Interview 2 – Santiago Vargas
 
 **Datos del participante**
 
 | Campo | Información |
 |---|---|
-| Nombre completo | [Nombre del participante] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Ocupación | [Ocupación] |
-| Segmento | [Segmento correspondiente] |
-| Fecha de entrevista | [DD/MM/AAAA] |
-| Duración | [Duración de la entrevista] |
+| Nombre completo | Santiago Enrique Vargas Alarcón |
+| Edad | 20 años |
+| Distrito | Valle de Huaral |
+| Ocupación | Técnico de apoyo en un fundo agrícola y apoyo en la gestión de un lote de aproximadamente 15 ha |
+| Segmento | Segmento 1 – Pequeños y Medianos Agricultores (PyMAs) |
+| Fecha de entrevista | 11/11/2026 |
+| Duración | 08 minutos y 15 segundos |
 
 **Evidencias de la entrevista**
 
 | Evidencia | Enlace / Referencia |
 |---|---|
-| Grabación | [URL] |
-| Marca de tiempo de la entrevista | [Minuto de inicio – minuto de finalización] |
-| Captura de la entrevista | [Insertar imagen] |
+| Grabación | [Ver grabación](https://youtu.be/N1E-rvb71yY?si=jtoL6VIvdI5Bxc-1&t=2386) |
+| Marca de tiempo de la entrevista | 00:39:46 – 00:48:15 |
+| Captura de la entrevista | ![Entrevista de validación – Santiago Enrique Vargas Alarcón](assets/chapter5/sprint3/validation-interviews/ValidateSantiagoVargas.png) |
 
 **Resumen de la entrevista**
 
-[Redactar un resumen de la sesión, indicando las actividades realizadas, la percepción del participante sobre el Landing Page y la aplicación web, y los comentarios más relevantes.]
+El 11 de noviembre de 2026, Gabriel Ramírez y Santiago Enrique Vargas Alarcón realizaron una sesión de revisión y entrevista para evaluar el despliegue y la usabilidad de AgriDron. Durante la sesión recorrieron el flujo integral de la plataforma: la creación de la cuenta, el registro de fincas, parcelas y cultivos, la asignación de drones y agroquímicos, el monitoreo de misiones y la generación de reportes. Respecto al Landing Page, el participante percibió una interfaz intuitiva y concisa que comunica el valor del servicio y facilita el registro rápido de usuarios. En la aplicación web, destacó el control específico y sencillo sobre las áreas de fumigación y cultivo, la claridad para seguir el avance y el estado de las misiones, y la utilidad de las alertas meteorológicas y los reportes frente a factores externos. Señaló que la plataforma está completa y no requiere funcionalidades adicionales, y reportó como única dificultad la ambigüedad del campo «identificador del propietario» en el registro de terrenos, que corresponde al código del terreno. Durante la sesión también se evidenciaron demoras en la carga inicial ocasionadas por las limitaciones del plan gratuito de Render.
 
 **Principales observaciones**
 
-- **Aspectos positivos:** [Elementos que el participante valoró favorablemente].
-- **Dificultades identificadas:** [Problemas de navegación, comprensión o interacción].
-- **Sugerencias de mejora:** [Cambios o funcionalidades propuestos por el participante].
-- **Conclusión individual:** [Valoración general de la experiencia de validación].
+- **Aspectos positivos:** Landing Page intuitivo y con información concisa que facilita la creación rápida de la cuenta; control específico y sencillo sobre las áreas de fumigación y cultivo; registro y localización de fincas y parcelas mediante un formulario básico; claridad para consultar el estado y avance de las misiones; utilidad de las alertas meteorológicas y los reportes para planificar y verificar resultados.
+- **Dificultades identificadas:** Confusión inicial en el formulario de registro de terrenos provocada por el campo «identificador del propietario», cuya redacción técnica no deja claro que se refiere al código asignado al terreno. Además, se presentó lentitud en los tiempos de carga por las limitaciones de la versión gratuita de Render.
+- **Sugerencias de mejora:** El participante indicó que la plataforma no requiere funcionalidades adicionales. Se determinó simplificar la etiqueta del campo de identificador en el registro de parcelas para mejorar su claridad.
+- **Conclusión individual:** El participante consideró que AgriDron es una plataforma completa, clara y eficaz para el tratamiento y cuidado de cultivos mediante drones, y que la experiencia de uso cumple con el propósito del servicio.
 
 ### 5.3.3. Heuristic Evaluations
 
@@ -5099,7 +5086,7 @@ Los comentarios recopilados permiten orientar futuras mejoras hacia una platafor
 
 *AgriDron*
 
-## TAREAS A EVALUAR:
+## Tareas a evaluar:
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas de Agridrón, abordadas en las entrevistas de validación:
 
@@ -5128,7 +5115,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 6. Evaluar la accesibilidad y la adaptación a dispositivos móviles.
 7. Verificar la recepción de reportes y el seguimiento de operaciones desde la cuenta de un agricultor.
 
-## ESCALA DE SEVERIDAD:
+## Escala de severidad:
 
 Los problemas serán puntuados tomando en cuenta la siguiente escala de severidad:
 
@@ -5139,7 +5126,7 @@ Los problemas serán puntuados tomando en cuenta la siguiente escala de severida
 | 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente completar una tarea. Su corrección debe recibir prioridad alta. |
 | 4 | Problema muy grave: impide al usuario continuar con una tarea esencial. Debe corregirse antes del lanzamiento. |
 
-## FUENTES Y ALCANCE DE LA EVALUACIÓN:
+## Fuentes y alcance de la evaluacion:
 
 Se utilizaron las siguientes fuentes:
 
@@ -5155,7 +5142,7 @@ Se distinguen los problemas de usabilidad reportados de las sugerencias de nueva
 
 Las transcripciones automáticas contienen fragmentos poco comprensibles. Los hallazgos se limitan a las declaraciones cuyo sentido puede identificarse con suficiente claridad.
 
-## TABLA RESUMEN:
+## Tabla resumen:
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) | Fuente |
 |---|----------|:-------------------:|---------------------------------|--------|
@@ -5168,9 +5155,9 @@ Las transcripciones automáticas contienen fragmentos poco comprensibles. Los ha
 
 En el problema de actualización de existencias, la evidencia permite identificar una dificultad para encontrar la acción, pero no confirmar que la funcionalidad esté ausente.
 
-## DESCRIPCIÓN DE PROBLEMAS:
+## Descripción de problemas:
 
-### PROBLEMA #1: El identificador del formulario de registro de terrenos genera confusión
+### Problema #1: El identificador del formulario de registro de terrenos genera confusión
 
 **Severidad: 2 — Problema menor.**
 
@@ -5192,7 +5179,8 @@ El participante identificó la confusión con el identificador como el único in
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura del formulario de registro y señalar el campo de identificador evaluado.*
+![Captura de pantalla - Identifcador en formulario de creacion](assets/chapter5/sprint3/validation-interviews/Problema1-IdentificadorEnFormulario.png)
+
 
 **Recomendación:**
 
@@ -5204,7 +5192,7 @@ Verificar qué representa el identificador y si el usuario necesita introducirlo
 
 Cuando sea necesario mantener el campo visible, emplear una etiqueta comprensible y un texto de ayuda que explique su finalidad.
 
-### PROBLEMA #2: La carga de información presenta lentitud
+### Problema #2: La carga de información presenta lentitud
 
 **Severidad: 2 — Problema menor, provisional.**
 
@@ -5226,7 +5214,7 @@ En la revisión inicial, el entrevistador explicó la lentitud de la carga de in
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura del estado de carga. Complementarla con una medición o grabación que permita evidenciar la duración de la espera.*
+![Captura de pantalla - Demora al carga la web](assets/chapter5/sprint3/validation-interviews/Problema2-CargaDeInformacion.png)
 
 **Recomendación:**
 
@@ -5234,7 +5222,7 @@ Medir los tiempos de respuesta e identificar las pantallas y operaciones afectad
 
 Durante las esperas, mostrar un indicador de carga y un mensaje comprensible. Si una solicitud falla, informar al usuario y ofrecer una opción para reintentar sin perder los datos ingresados.
 
-### PROBLEMA #3: La sección de reportes resulta menos fácil de localizar
+### Problema #3: La sección de reportes resulta menos fácil de localizar
 
 **Severidad: 2 — Problema menor.**
 
@@ -5258,7 +5246,7 @@ La entrevista no permite identificar si la causa está en el nombre de la secci�
 
 **Captura de pantalla:**
 
-*Pendiente: incorporar una captura del menú de navegación y señalar el acceso a los reportes.*
+![Captura de entrevista Valeria Mendoza-Section-Reportes](assets/chapter5/sprint3/validation-interviews/ValeriaMendozaSectionReports.png)
 
 **Recomendación:**
 
@@ -5266,7 +5254,7 @@ Revisar la ubicación y la denominación de la sección de reportes mediante una
 
 Incluir accesos directos a los reportes desde el detalle de una misión y desde la confirmación de su finalización. Utilizar una etiqueta explícita, como “Reportes de fumigación”, si las pruebas confirman que facilita su identificación.
 
-### PROBLEMA #4: No resulta evidente cómo actualizar las existencias de los agroquímicos
+### Problema #4: No resulta evidente cómo actualizar las existencias de los agroquímicos
 
 **Severidad: 2 — Problema menor, provisional.**
 
@@ -5302,7 +5290,7 @@ Si ya existe, ofrecer una acción visible con una etiqueta comprensible, como �
 
 Si no existe, incorporar el registro de movimientos de inventario. Solicitar la cantidad, la unidad y el motivo del movimiento, y mostrar la cantidad resultante antes de confirmar. Conservar un historial para facilitar la revisión de los cambios.
 
-## SUGERENCIAS DE MEJORA DE LA OPERADORA:
+## Sugerencias de mejora:
 
 Las siguientes observaciones expresan necesidades y oportunidades de mejora. No se consideran fallos confirmados ni reciben una puntuación de severidad.
 
@@ -5317,7 +5305,7 @@ Las siguientes observaciones expresan necesidades y oportunidades de mejora. No 
 | 7 | Carlos manifestó interés en contar con una explicación más detallada de cómo registrar los servicios y consultarlos después. El fragmento requiere confirmación por la calidad de la transcripción. | Validar esta necesidad y, si se confirma, incorporar una demostración breve del flujo de registro y consulta de servicios. |
 | 8 | Carlos valoró poder mantener actualizada la información y consultar los trabajos realizados para sus clientes. | Validar si la consulta por cliente está disponible y resulta fácil de encontrar. Si es necesario, incorporar filtros o un historial de servicios por cliente. |
 
-### OBSERVACIÓN #1: Mostrar un ejemplo del reporte destinado al agricultor
+### Observación #1: Mostrar un ejemplo del reporte destinado al agricultor
 
 **Contexto:**
 
@@ -5327,7 +5315,7 @@ Al revisar la página principal, la operadora destacó la sección que diferenci
 
 Agregar una vista previa del reporte con información de ejemplo. Explicar qué resultados presenta y cómo puede consultarlo el agricultor.
 
-### OBSERVACIÓN #2: Diferenciar el área declarada del área realmente tratada
+### Observación #2: Diferenciar el área declarada del área realmente tratada
 
 **Contexto:**
 
@@ -5337,7 +5325,7 @@ La operadora consideró comprensibles la parcela, la fecha y el estado de las mi
 
 Presentar por separado el área declarada y el área efectivamente tratada, expresadas en hectáreas. Identificar la procedencia de cada dato y evitar presentar el área delimitada en el mapa como si fuera necesariamente el área fumigada.
 
-### OBSERVACIÓN #3: Ampliar el seguimiento operativo del dron
+### Observación #3: Ampliar el seguimiento operativo del dron
 
 **Contexto:**
 
@@ -5347,7 +5335,7 @@ La operadora solicitó consultar la batería, la posición y el líquido restant
 
 Validar la disponibilidad de esos datos y diseñar una vista de seguimiento que muestre su actualización y el estado de la conexión. Definir qué información necesita consultar cada tipo de usuario.
 
-### OBSERVACIÓN #4: Facilitar el registro de resultados al terminar la misión
+### Observación #4: Facilitar el registro de resultados al terminar la misión
 
 **Contexto:**
 
@@ -5359,7 +5347,7 @@ La transcripción automática no permite distinguir con claridad el término usa
 
 Ofrecer un formulario breve de cierre de misión con estos campos y vincular la información registrada con el reporte técnico.
 
-### OBSERVACIÓN #5: Utilizar las condiciones meteorológicas como respaldo de una suspensión
+### Observación #5: Utilizar las condiciones meteorológicas como respaldo de una suspensión
 
 **Contexto:**
 
@@ -5371,7 +5359,7 @@ Los valores de viento y temperatura mencionados durante la entrevista correspond
 
 Permitir registrar una suspensión por clima y asociarla con las condiciones consultadas, la fecha, la hora y la fuente de información. Validar los criterios de alerta según el equipo, el producto y las condiciones de operación aplicables.
 
-## OBSERVACIONES POSITIVAS:
+## Observaciónes Positivas:
 
 ### Entrevista realizada por Gabriel Ramirez al operador Santiago
 
@@ -5404,7 +5392,7 @@ Permitir registrar una suspensión por clima y asociarla con las condiciones con
 5. Manifestó disposición a utilizar la plataforma para gestionar sus servicios.
 6. Destacó la importancia de mantener actualizada la información y conservar el registro de los trabajos realizados para sus clientes.
 
-## LIMITACIONES DE LA EVALUACIÓN:
+## Limitaciones de la evaluación:
 
 1. La evaluación contó con tres participantes, por lo que los resultados no representan necesariamente la experiencia de todos los usuarios de la plataforma.
 2. Las sesiones incluyeron orientación de los entrevistadores, lo que limita la evaluación de la facilidad de uso autónomo.
@@ -5415,7 +5403,7 @@ Permitir registrar una suspensión por clima y asociarla con las condiciones con
 7. No se realizaron pruebas específicas de accesibilidad ni de uso en distintos dispositivos y tamaños de pantalla.
 8. No se comprobó el flujo completo de colaboración entre agricultores y operadores, desde la planificación del servicio hasta la recepción de sus resultados.
 
-## OBSERVACIONES POSITIVAS:
+## Observacíones positivas:
 
 El participante valoró favorablemente los siguientes aspectos:
 
@@ -5434,12 +5422,11 @@ Estas apreciaciones corresponden a una entrevista individual. Sirven como eviden
 
 **Enlace al video:**
 
-[PEGAR AQUÍ EL ENLACE AL VIDEO]
+![Captura de pantalla- video About the product](assets/chapter5/sprint3/ScreenshotAboutTheProduct.png)
+| Grabación | [Ver entrevista](https://youtu.be/6XCNAZBxiAI?si=GqhlA_1in2UDdOeN) |
 
 **Descripción:**
-
-[DESCRIBIR BREVEMENTE EL CONTENIDO DEL VIDEO.]
-
+Video de validación de la aplicación web de AgriDron Solutions con participantes de nuestros segmentos objetivo. Primero se hace un recorrido por la plataforma: el dashboard con el estado del clima y la alerta de viento que indica cuándo no se recomienda fumigar, la gestión de fincas, parcelas y cultivos, la creación de una misión de fumigación (con la selección de la parcela, el dron y el agroquímico), la delimitación de áreas de fumigación sobre el mapa y los módulos de drones, agroquímicos y perfil. Después, los participantes comparten su retroalimentación. Destacan que la plataforma centraliza en un solo lugar la información que antes manejaban por WhatsApp y Excel. También señalan que las parcelas delimitadas en el mapa les ahorrarían entre 40 minutos y una hora de reconocimiento en campo, y que las alertas climáticas y el reporte técnico les ayudan a justificar una suspensión ante el agricultor. Finalmente, indican que recomendarían la plataforma a otros operadores que trabajan solos o con equipos pequeños.
 ---
 
 <div style="page-break-after: always;"></div>
@@ -5517,7 +5504,7 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 <div style="page-break-after: always;"></div>
 
 # Video About-The-Team
-[https://drive.google.com/file/d/1ex_MHellzRg8mYEI7UC0bQfnvBT3jwqG/view](https://drive.google.com/file/d/1ex_MHellzRg8mYEI7UC0bQfnvBT3jwqG/view) 
+| Grabación | [Ver entrevista](https://youtu.be/Rp80VaA6blU?si=nbTd9WPlPKGUWCDU) |
 
 # Bibliografía
 
@@ -5548,7 +5535,7 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 
 **Link GitHub Backend:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
-### Links del LandingPage, Frontend y Backend
+### Links del LandingPage, Frontend y Backend desplegados
 
 **Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
