@@ -253,9 +253,9 @@ Entre el 28/10/2026 y el 10/11/2026, el equipo incorporó las correcciones deriv
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
    - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 2](#5233-sprint-backlog-3)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
@@ -4147,7 +4147,9 @@ Durante el Sprint 2 se desplegó la primera versión de la Web Application en Fi
 2. Generar la versión de producción con `npm run build` (`ng build`). Esta versión usa `environment.ts`, que apunta al Fake API publicado en MockAPI. En el entorno de desarrollo Angular lo reemplaza por `environment.development.ts`, que apunta al json-server local.
 3. Iniciar sesión en Firebase con `firebase login`.
 4. Publicar con `firebase deploy --only hosting`, que sube el contenido de `dist/Agridron-frontend/browser` al proyecto `agridronwebapp`.
-5. Verificar la versión publicada en [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home).
+5. Verificar la versión publicada en:
+   **Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+   **Credenciales**: usuario: `admin`, contraseña: `admin123`
 
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d1.png)
 
@@ -4180,6 +4182,9 @@ En esta imagen podemos observar la ejecucion del comando
 ![Evidencia de despliegue del Sprint 2](assets/chapter5/sprint2/d8.png)
 
 En esta imagen podemos observar la webapp desplegada en FireBase
+
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
 
 ---
 
@@ -4335,15 +4340,26 @@ Asimismo, se verificarán las operaciones de gestión de recursos, parcelas e in
 
 Las evidencias de ejecución incluirán capturas de la Web Application, solicitudes realizadas mediante Postman o Swagger y resultados obtenidos durante las pruebas de integración. Las herramientas externas utilizadas para administrar o inspeccionar los datos, como PostgreSQL y pgAdmin, podrán emplearse como apoyo para la validación, sin considerarse componentes propios de la plataforma.
 
+![Evidencia del despliegue del LandingPage](assets/chapter5/sprint1/l6.png)
 
+Figura: Evidencia del despliegue del LandingPage
 
-**Link de la plataforma:** [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
-**Link de la Landing Page :** [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
+![Evidencia del despliegue del Frontend](assets/chapter5/sprint2/d8.png)
 
-**Link de Swagger de Backend :** [https://os-agridronbackend.onrender.com/swagger-ui.html](https://os-agridronbackend.onrender.com/swagger-ui.html)
+Figura: Evidencia del despliegue del Frontend
 
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
 
+![Evidencia del despliegue del Backend](assets/chapter5/sprint3/backendDeployment.png)
+
+![Evidencia del despliegue del Backend](assets/chapter5/sprint3/evidenciaDespliegue.png)
+
+Figura: Evidencia del despliegue del backend
+
+**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4458,12 +4474,41 @@ La documentación interactiva permitirá ejecutar solicitudes de prueba sobre lo
 
 *Figura: Ejemplo de respuesta JSON obtenida al consultar un recurso mediante un endpoint documentado.*
 
-##### Web Services Repository and Documentation Commits
+##### Documentation Commits
 
-Link de repositorio del backend: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+La siguiente tabla presenta los commits de implementación realizados durante el Sprint 3 en los repositorios del backend y de la documentación de los servicios, incluyendo el identificador del commit, el mensaje de commit y la fecha de realización.
 
-**Link de Swagger de Backend :** [https://os-agridronbackend.onrender.com/swagger-ui.html](https://os-agridronbackend.onrender.com/swagger-ui.html)
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Opensource-UPC/Agridron-backend | main | 6c06439 | fix(openapi): use current server and Render URL in Swagger servers | — | 11/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 9ae22ef | fix(field): idempotent image migration (V207) for Render deploy | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0e7d09b | feat(field): persist optional image for farms and parcels | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4c61ea0 | Merge branch 'main' of https://github.com/Opensource-UPC/Agridron-backend | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | e01f472 | Merge pull request #9 from Opensource-UPC/develop | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | eb2d16a | added class diagram v0.5 | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | d626fae | Delete docs/upc-pre-202620-1asi0729-7760-AgriDron-report-TB1.pdf | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | dca8010 | feat: se modifico el aplication properties | — | 10/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 3e70397 | perf(docker): optimize JVM memory flags for 512MB RAM container | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 4d6def4 | feat(db): auto-repair flyway schema history before migration | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 31e0c52 | merge: postgis extension migration into main | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 74e9a5e | fix(db): ensure postgis extension exists before creating spatial tables | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 0a6814a | Merge pull request #8 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | develop | 72333ab | fix(build): remove unnecessary apt-get curl from runtime image | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | main | 2d62b7e | Merge pull request #7 from Opensource-UPC/develop | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/fieldManagement | 05478bd | Merge pull request #6 from Opensource-UPC/feature/inventoryAndResourceManagement | — | 09/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a66f533 | finally 6 endpoints added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | cf053b5 | inventory from infrastructure advance complete | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 25603e5 | folders adapter,assembler, entites and repositories from folder infrastructure | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | e1ee46c | files test queryservice donre and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3dc03c3 | test command and query services added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | a984ef8 | one more queryservices implements | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9ba9609 | foler internal and DroneCommandServiceImpl added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 946ec4c | Inventory application and repositories added. | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 3718176 | files commands, queries and repositories's dron and nozzle added | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 9b4e094 | Second advance to inventory BC | — | 06/11/2026 |
+| Opensource-UPC/Agridron-backend | feature/inventoryAndResourceManagement | 074a544 | aggregate and valueobject from Nozzle added | — | 05/11/2026 |
 
+**Link de repositorio del backend**: [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -4510,7 +4555,7 @@ En esta imagen podemos observar la webapp desplegada en FireBase
 **Ejecucion de backend**
 
 
-**Link del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+**Link del github del backend de Agridron:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
 ![Evidencia de ejecución del Sprint 3](assets/chapter5/sprint3/agridronProject.png)
 
@@ -4989,20 +5034,24 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 # Anexos
 
 ## Anexo A: Evidencias adicionales
+### Links del repositorio
 
-**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
+**Link GitHub Report:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
 
-**Link Repositorio Landing Page** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
+**Link GitHub LandingPage:** [https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3](https://github.com/Opensource-UPC/AgiDron-LandingPage-7760-G3)
 
-**Link LandingPage:** [https://os-agridronlandingpage.web.app](https://os-agridronlandingpage.web.app)
+**Link GitHub Frontend:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
 
-**Link Repositorio FrontEnd:** [https://github.com/Opensource-UPC/Agridron-frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+**Link GitHub Backend:** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
 
-**Link de la plataforma:** [https://os-agridronfrontend.web.app](https://os-agridronfrontend.web.app)
+### Links del LandingPage, Frontend y Backend
 
-**Link Repositorio Backend** [https://github.com/Opensource-UPC/Agridron-backend](https://github.com/Opensource-UPC/Agridron-backend)
+**Link del LandingPage**: [https://os-agridronlandingpage.web.app/](https://os-agridronlandingpage.web.app/)
 
-**Link de Repositorio de Reporte:** [https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report](https://github.com/Opensource-UPC/1ASI0729-2620-7760-G3-Agridron-Report)
+**Link del Frontend**: [https://os-agridronfrontend.web.app/home](https://os-agridronfrontend.web.app/home)
+**Credenciales**: usuario: `admin`, contraseña: `admin123`
+
+**Link del Backend**: [https://os-agridronbackend.onrender.com/swagger-ui/index.html](https://os-agridronbackend.onrender.com/swagger-ui/index.html)
 
 ## Anexo B: Videos de Exposiciones
 
@@ -5011,3 +5060,4 @@ En conclusión, AgriDron Solutions constituye una primera versión funcional de 
 **Video de exposición TB1:** [https://drive.google.com/file/d/1loJ4L6oNWmI1wZwD3GjeU7jel-wB317I/view?usp=sharing](https://drive.google.com/file/d/1O-s9MigZWVFCFA8_S-THkAxQdRwtlqxj/view?usp=drive_link)
 ## Anexo C: Otros
 
+**Enlace de miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677](https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=43911574677)
